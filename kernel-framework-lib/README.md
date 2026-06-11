@@ -1,12 +1,12 @@
 # 内核与基层框架库
 
-> 原来这个库分为二个部分，但后来发觉其实内核和框架结合一下就是系统或者工具集了，所以将它们归为一类，但某些与内核相关性不是很强的框架就没放在这里，例如((20230812191825-wcp7mjb '菜单框架'))。
+> 原来这个库分为二个部分，但后来发觉其实内核和框架结合一下就是系统或者工具集了，所以将它们归为一类，但某些与内核相关性不是很强的框架就没放在这里，例如[菜单框架](../ui-menu-lib/README.md#菜单框架)。
 > 同时会把涉及到比较底层的代码库也放进来。
 >
 > <ins>事件</ins>、<ins>消息</ins>和<ins>数据</ins>这三个概念容易弄混淆，它们的关注点如下：
->  **- 事件**：关注于特定动作的发生和回调响应机制；
->  **- 消息**：侧重于组件间的通信和数据传递；
->  **- 数据**：涉及数据在程序中的传递方式，不限于消息或事件的上下文。
+> - **事件**：关注于特定动作的发生和回调响应机制；
+> - **消息**：侧重于组件间的通信和数据传递；
+> - **数据**：涉及数据在程序中的传递方式，不限于消息或事件的上下文。
 
 ## 事件
 
@@ -47,7 +47,7 @@
 
 #### 要点
 
-- 和 MQTT+HTTP 协议有点像，也是对应客户端与服务器，然后进行数据的收发，具体差别可参考官网介绍；
+- 和网络协议有点像，也是对应客户端与服务器，然后进行数据的收发，具体差别可参考官网介绍；
 - API 分为两部分：核心和通用。核心部分管理最基本的通信功能，包括连接池、消息队列和帧组装引擎。该层虽然非常简化，但完全足以用于自定义应用程序。另一方面，通用层建立在核心服务之上，并添加了线程管理和更高级别的接口，使其更易于使用；
 - 使用 C++ 语言，符合 POSIX 接口；
 
@@ -126,11 +126,11 @@
 
 #### 要点
 
-- 代码用内存段代替了链表功能：((20240116165930-cu53x1o '用 attribute((section))代替链表'))
+- ~~代码用内存段代替了链表功能：((20240116165930-cu53x1o '用 attribute((section))代替链表'))；~~（待发布）
 - 其中 `__start_platform_init`、`__stop_platform_init` 分别在链接文件里定义在 `.platform_init` 左右两侧，`__start_device_init` 同理；
 - 如果芯片不支持 initcall 机制，将其 section 的部分换成链表的形式也可以达到同样的效果；
 - 配合这个食用更佳：[__attribute__之 section 详解___attribute__ section-CSDN 博客](https://blog.csdn.net/seven_feifei/article/details/95947358)；
-- 为什么 `PLATFORM_ITEM_REGISTER` 中 `general_ops` 可以代替所有操作：((20240127173138-3pe8zs0 '关于 union 联合体'))；
+- 为什么 `PLATFORM_ITEM_REGISTER` 中 `general_ops` 可以代替所有操作：[关于 union 联合体](./Appendix.md#关于-union-联合体)；
 
 ---
 
@@ -203,11 +203,11 @@
 ### dynamic_loader
 
 **链接**：[dynamic_loader: 本项目是一个在单片机（如：STM32）上实现动态加载功能的函数库，与 Windows 中的 dll，Linux 中的 so 类似，可以将代码动态地从其他的存储介质，动态加载到 RAM 中 (gitee.com)](https://gitee.com/wzh1845462801/dynamic_loader)  
-**特征**：动态加载函数库，裁剪自 ((20230814211403-0ambvjy 'RT-Thread')) 的 libdl 源码，不与原本 OS 耦合，可在裸机使用。  
+**特征**：动态加载函数库，裁剪自 [RT-Thread](../sys-thread-lib/README.md#rt-thread) 的 libdl 源码，不与原本 OS 耦合，可在裸机使用。  
 
 #### 要点
 
-- 参考：((20240423164421-it8pzf2 '程序动态加载：基于 STM32 动态加载实现原理 V1.0 - STM32H7 - 硬汉嵌入式论坛 - Powered by Discuz! (armbbs.cn)'))
+- 参考：[基于 STM32 动态加载实现原理 V1.0 - STM32H7 - 硬汉嵌入式论坛 - Powered by Discuz! (armbbs.cn)](https://forum.anfulai.cn/forum.php?mod=viewthread&tid=112099&extra=page=1)
 - 使用介绍：[在单片机上实现动态加载功能？！ (qq.com)](https://mp.weixin.qq.com/s/7FzGQ9FjDma9_fiDPYam2g)
 
 ---
@@ -243,7 +243,7 @@
 
 ## CGI
 
-> CGI（Common Gateway Interface）是一种Web服务器与外部程序进行交互的标准协议。参考：((20250320104044-fi0oufm 'CGI'))
+> CGI（Common Gateway Interface）是一种 Web 服务器与外部程序进行交互的标准协议。参考：[CGI](./Appendix.md#cgi)
 
 ### FastCGI
 
@@ -263,7 +263,7 @@
 
 #### 要点
 
-- 带有（((20250320104044-fi0oufm 'CGI'))、((20250320104924-zwuepwx 'FastCGI'))、((20230820124403-yaiem3a 'Lua'))、((20250401000457-2i6iass 'PHP'))）等集成功能；
+- 带有（CGI、FastCGI、Lua、PHP）等集成功能；
 
 ---
 
@@ -287,7 +287,7 @@
 
 ### libevent
 
-**链接**：**[lib事件](https://libevent.org/)**  
+**链接**：[lib事件](https://libevent.org/)  
 **特征**：专用于网络服务器的事件驱动库，旨在替换事件驱动网络服务器中的事件循环。  
 
 #### 要点
@@ -309,7 +309,7 @@
 
 ### libevhtp
 
-**链接**：**[Yellow-Camper/libevhtp: Create extremely-fast and secure embedded HTTP servers with ease.](https://github.com/Yellow-Camper/libevhtp)**   
+**链接**：[Yellow-Camper/libevhtp: Create extremely-fast and secure embedded HTTP servers with ease.](https://github.com/Yellow-Camper/libevhtp)   
 **特征**：适合嵌入式设备的低负载HTTP库。  
 
 #### 要点

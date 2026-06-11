@@ -71,7 +71,7 @@
 
 ### OpenBLT
 
-**链接**：[homepage [OpenBLT Bootloader\] (feaser.com)](https://www.feaser.com/openblt/doku.php)  
+**链接**：[homepage [OpenBLT Bootloader] (feaser.com)](https://www.feaser.com/openblt/doku.php)  
 **特征**：著名的微控制器的引导加载程序库，支持 8、16、32 位微控制器。  
 
 #### 要点

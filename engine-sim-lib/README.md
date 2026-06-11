@@ -61,7 +61,6 @@
 #### 要点
 
 - 使用介绍：
-
   1. [真刀真枪模块化（2.5）—— 君子协定](https://mp.weixin.qq.com/s/4-cojkgnghB4TtaeEo63bQ)
   2. [防御性编程（X）OOPC 开发（√）](https://mp.weixin.qq.com/s/enf5sTF1eWpBf0QjiVLdLw)
 
@@ -96,7 +95,7 @@
 
 #### 要点
 
-- lua 语法及使用方法可参考：((20230820124403-yaiem3a 'Lua'))；
+- ~~lua 语法及使用方法可参考：((20230820124403-yaiem3a 'Lua'))；~~（待发布）
 - 官方源码移植起来不方便，有个 5.3.5 版本的简易移植版，参考：[STM32-V6 LUA 简单移植 - STM32F429 - 硬汉嵌入式论坛 - Powered by Discuz! (armbbs.cn)](https://www.armbbs.cn/forum.php?mod=viewthread&tid=94757&fromuid=58)；
 - lua 脚本可能存在于各种地方，包括 emmc，sd 卡，外部的某个设备上；
 - lua 使用的是动态内存，因此需要分配堆内存；
@@ -160,7 +159,7 @@
 
 #### 要点
 
-- 开发时可能会关联 ((20241028093836-bstyzip 'Rawdraw')) 和 ((20241028100049-x0ho8og "OpenGL ES")) 库；
+- 开发时可能会关联 [Rawdraw](../ui-menu-lib/README.md#rawdraw) 和 [OpenGL ES](../ui-menu-lib/README.md#opengl) 库；
 
 ---
 

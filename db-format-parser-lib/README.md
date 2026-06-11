@@ -1,6 +1,6 @@
 # 数据库与格式解析（传输协议）库
 
-> 这里的传输协议库与((20231026141624-su1byfz '总线协议库'))不一样，实际上((20240310210903-drexd3y '传输协议'))与格式解析意义相等，只不过在格式解析的基础上增加了端与端通讯的概念。
+> 这里的传输协议库与[总线协议与端侧库](../bus-protocol-lib/README.md)不一样，实际上<ins>传输协议</ins>（待发布）与格式解析意义相等，只不过在格式解析的基础上增加了端与端通讯的概念。
 
 ## 数据库
 
@@ -25,18 +25,18 @@
 
 #### 要点
 
-- log 的存储需要用到旗下的：((20230713165700-3nvode1 'EasyLogger')) ；
+- log 的存储需要用到旗下的：[EasyLogger](../log-term-lib/README.md#easylogger) ；
 
 ---
 
 ### FlashDB
 
 **链接**：[FlashDB: 一款支持 KV 数据和时序数据的超轻量级数据库 (gitee.com)](https://gitee.com/Armink/FlashDB)  
-**特征**：提供 KV 和 TS 两种数据库，比起 ((20230806114202-lw5vq0a 'EasyFlash')) 更专注于数据库本身，而不提供过多的额外功能。  
+**特征**：提供 KV 和 TS 两种数据库，比起 [EasyFlash](#easyflash) 更专注于数据库本身，而不提供过多的额外功能。  
 
 #### 要点
 
-- 介绍：((20230731152707-8yuheud 'FlashDB'))；
+- ~~介绍：((20230731152707-8yuheud 'FlashDB'))；~~（待发布）
 - 使用该库可以用来解决 Flash 地址内数据在设备迭代升级时被移动的问题，因为使用的是键值映射；
 
 ---
@@ -90,22 +90,20 @@
 
 #### 要点
 
-- 详细解释可参见：((20240701142124-fkzyo5i 'SQLite（MySQL）'))；
+- ~~详细解释可参见：((20240701142124-fkzyo5i 'SQLite（MySQL）'))；~~（待发布）
 
 ---
 
 ## 数据流
 
 > 怎么做到真正的流控：（以 UART 向用户层传输为例）
->
 > 1. UART+DMA 进行数据收发；
-> 2. DMA 永远进行 UART 端的数据接收工作，触发指定条件后将其数据转移到 UART 缓冲区；
-> 3. 若数据未处理成包的形式，则分包后再发生到 UART 队列缓存区；
-> 4. 数据处理区发现 UART 队列缓存区有数据后进行接收处理（序列化）；
+> 2. DMA 永远进行 UART 端的数据接收工作，触发指定条件后将其数据转移到 UART 流缓冲区；
+> 3. 将流数据进行分包后再提交到 UART 队列缓存中；
+> 4. 数据处理线程挂起，当发现 UART 队列缓存中有数据后启动接收处理（序列化）；
 > 5. 反过来一样，用户数据先发送到用户队列缓存区，之后数据处理区进行接收处理（反序列化），再给到 DMA 由 UART 发生出去；
->
->
-> ![SDF_doc](assets/SDF_doc-20240523094240-dqplz8n.gif)
+> 
+> ![CMSIS-Stream-Graph](CMSIS-Stream-Graph.gif)
 >
 
 ### uart_stream
@@ -210,7 +208,7 @@
 ### mqttclient
 
 **链接**：[jiejieTop/mqttclient: A high-performance, high-stability, cross-platform MQTT client, developed based on the socket API, can be used on embedded devices (FreeRTOS / LiteOS / RT-Thread / TencentOS tiny), Linux, Windows, Mac, with a very concise The API interface realizes the quality of service of QOS2 with very few resources, and seamlessly connects the mbedtls encryption library.](https://github.com/jiejieTop/mqttclient/tree/master)  
-**特征**：高性能、高稳定性的跨平台 MQTT 客户端，拥有简洁的 API，无缝衔接 ((20240508093640-t01na8r 'Mbed TLS')) 库，提供在线代码生成工具。  
+**特征**：高性能、高稳定性的跨平台 MQTT 客户端，拥有简洁的 API，无缝衔接 [Mbed TLS](../secure-boot-update-lib/README.md#mbed-tls) 库，提供在线代码生成工具。  
 
 #### 要点
 
@@ -312,7 +310,7 @@
 
 ## INI
 
-> `.ini` 文件格式说明：((20230121192127-8d2y68u 'INI'))。
+> `.ini` 文件格式说明：[INI](./Appendix.md#ini)。
 
 ### libinimini
 
@@ -347,7 +345,7 @@
 
 ## TLV
 
-> 协议介绍：((20250612111723-7i05qbb 'TLV'))
+> 协议介绍：[TLV](./Appendix.md#tlv)。
 
 ### ITLV
 
@@ -373,7 +371,7 @@
 
 ## JSON
 
-> JSON 文件格式说明：((20230121192127-ajlkxif 'JSON'))
+> ~~JSON 文件格式说明：((20230121192127-ajlkxif 'JSON'))~~（待发布）
 
 ### cJSON
 
@@ -383,8 +381,8 @@
 #### 要点
 
 - 使用介绍：
-  [JSON 的简单介绍&cJSON 库使用（一）](https://www.jianshu.com/p/59eb2bd1aeea)
-  [cJSON 解析和生成 JSON 文件 | 守望的个人博客 (yanbinghu.com)](https://www.yanbinghu.com/2019/08/04/21364.html)
+  [JSON 的简单介绍&cJSON 库使用（一）](https://www.jianshu.com/p/59eb2bd1aeea)  
+  [cJSON 解析和生成 JSON 文件 | 守望的个人博客 (yanbinghu.com)](https://www.yanbinghu.com/2019/08/04/21364.html)  
 - json 对象可以是 json、字符串、数组等。
 
 ---
@@ -392,7 +390,7 @@
 ### struct2json
 
 **链接**：[struct2json: C 结构体与 JSON 快速互转库，快速实现 C 结构体的序列化及反序列化 (gitee.com)](https://gitee.com/Armink/struct2json)  
-**特征**：基于 ((20230807150158-so42lxs "cJSON"))，超简便的 C 结构体与 JSON 快速互转库。  
+**特征**：基于 [cJSON](#cjson)，超简便的 C 结构体与 JSON 快速互转库。  
 
 #### 要点
 
@@ -401,7 +399,7 @@
 ### cson
 
 **链接**：[NevermindZZT/cson: 基于 C 语言的 json 数据映射解析库 (github.com)](https://github.com/NevermindZZT/cson)  
-**特征**：基于 ((20230807150158-so42lxs "cJSON"))，运行于 C 语言平台的 json-struct 模型解析工具。使 JSON 解析更加方便。  
+**特征**：基于 [cJSON](#cjson)，运行于 C 语言平台的 json-struct 模型解析工具。使 JSON 解析更加方便。  
 
 #### 要点
 
@@ -528,7 +526,7 @@
 #### 要点
 
 - 使用介绍：[嵌入式中轻量级通信协议利器！](https://mp.weixin.qq.com/s/e_yvMNMILzvpLtvmDw3iCw)
-- 使用 ((20230824134119-lz21l5w 'LwRB')) 库进行数据读/写操作；
+- 使用 [LwRB](../data-algo-ai-lib/README.md#lwrb) 库进行数据读/写操作；
 
 ---
 
@@ -567,7 +565,7 @@
 #### 要点
 
 - 使用介绍：[一个可用于多设备间的 C/C++ 嵌入式通信协议的设计与实现-SACP 协议](https://mp.weixin.qq.com/s/Kj-9V5xJBlQQTgMj97O-Yw)
-- 相关：((20250226140311-ospi9bn 'MVC 模式'))
+- 相关：[MVC 模式](./Appendix.md#mvc-模式)
 
 ---
 

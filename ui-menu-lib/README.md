@@ -1,8 +1,8 @@
 # UI与菜单库
 
-> 参考：((20230811124459-5041le3 '何为渲染？'))
+> 参考：[何为渲染？](./Appendix.md#何为渲染)
 >
-> 另外，很多菜单框架会联系上 UI 来做，所以将这两种类型的库放在一起。
+> 通常，很多菜单框架会联系上 UI 来做，所以将这两种类型的库放在一起。
 
 ## HMI
 
@@ -30,7 +30,7 @@
 
 ## 单色
 
-> 要想在单色屏上显示灰度效果，可以已知两种方式：PWM 原理和抖动算法。
+> 要想在单色屏上显示灰度效果，已知两种方式：PWM 原理和抖动算法。
 
 ### ECBM\_GUI
 
@@ -144,11 +144,11 @@
 ### LingDongGUI
 
 **链接**：[LingDongGUI: 灵动 GUI 是基于 ARM-2D 进行开发的 GUI，极大降低 ARM-2D 的使用难度](https://gitee.com/gzbkey/LingDongGUI)  
-**特征**：对 ((20230812185114-y5t0g6r 'Arm-2D')) 进行二次封装的 GUI 库，旨在提高易用性，同时也支持原生 API 的使用。  
+**特征**：对 [Arm-2D](#arm-2d) 进行二次封装的 GUI 库，旨在提高易用性，同时也支持原生 API 的使用。  
 
 #### 要点
 
-- 提供原生上位机支持：((20250911130644-rmpmeww 'GuiEasyEditor'))
+- 提供原生上位机支持：[GuiEasyEditor](https://gitee.com/gzbkey/GuiEasyEditor)
 
 ---
 
@@ -179,7 +179,7 @@
 
 #### 要点
 
-- 参考：((20230129205449-88dk4cv 'LVGL'))
+- ~~参考：((20230129205449-88dk4cv 'LVGL'))~~（待发布）
 - [LVGL 的多语言转换工具--MCU_Font_Release](https://aijishu.com/a/1060000000297013)
 - NXP 旗下的免费图形化编辑器：[GUI Guider | NXP 半导体](https://www.nxp.com.cn/design/design-center/software/development-software/gui-guider:GUI-GUIDER)
 - lvgl 图形化编辑器：[SquareLine Studio - Design and build UIs with ease](https://squareline.io/)
@@ -194,7 +194,7 @@
 
 #### 要点
 
-- 参考：((20230129205449-zdv5owi 'AWTK'))
+- ~~参考：((20230129205449-zdv5owi 'AWTK'))~~（待发布）
 
 ---
 
@@ -347,7 +347,7 @@
 ### TinyGL
 
 **链接**：[TinyGL : a Small, Free and Fast Subset of OpenGL*](https://bellard.org/TinyGL/)  
-**特征**：是 ((20241028095609-ueqg612 'OpenGL')) 的一个小型实现，适用于嵌入式系统。将复杂的接口精简为更易于理解和操作的形式。  
+**特征**：是 [OpenGL](#opengl) 的一个小型实现，适用于嵌入式系统。将复杂的接口精简为更易于理解和操作的形式。  
 
 #### 要点
 
@@ -382,7 +382,7 @@
 
 #### 要点
 
-- 使用介绍：[#Arm-2D (qq.com)](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzAxMzc2ODMzNg==&scene=1&album_id=1842127987152896001&count=3&from=industrynews&version=4.1.27.6032&platform=win#wechat_redirect)
+- 使用介绍：[Arm-2D (qq.com)](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzAxMzc2ODMzNg==&scene=1&album_id=1842127987152896001&count=3&from=industrynews&version=4.1.27.6032&platform=win#wechat_redirect)
 - 提供 CMSIS-Pack。
 
 ---
@@ -422,7 +422,7 @@
 ### QRCode
 
 **链接**：[ricmoo/QRCode: QR code generation library in C, optimized for low-power devices, such as Arduino.](https://github.com/ricmoo/QRCode)  
-**特征**：QR码生成库，参考了((20251105131018-mfpyp7w 'QR Code generator library'))，并针对处理器和内存受限的系统进行了优化，支持从 Version 1 到 Version 40 的所有规格。  
+**特征**：QR码生成库，参考了 [QR Code generator library](#qr-code-generator-library)，并针对处理器和内存受限的系统进行了优化，支持从 Version 1 到 Version 40 的所有规格。  
 
 #### 要点
 
@@ -534,7 +534,7 @@
 ### MiaoUI
 
 **链接**：[GitHub - JFeng-Z/MiaoUI: MiaoUI 是一个基于 u8g2 的单色 OLED 菜单 UI 框架。MiaoUI 使用 C 语言实现，采用双向链表结构，使用非线性动画、移植方便、内存占用较小、能够快速部署，适用于具有小型 OLED 屏幕的嵌入式设备。](https://github.com/JFeng-Z/MiaoUI)  
-**特征**：基于 ((20250216001136-52a1lbo "U8g2")) 的 OLED 菜单 UI 框架，支持列表与图标类菜单、非线性动画、任务弹窗等功能。  
+**特征**：基于 [U8g2](#u8g2) 的 OLED 菜单 UI 框架，支持列表与图标类菜单、非线性动画、任务弹窗等功能。  
 
 #### 要点
 

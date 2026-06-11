@@ -132,7 +132,7 @@
 #### 要点
 
 - 参考：[非易失性存储库 - ESP32 - — ESP-IDF 编程指南 latest 文档 (espressif.com)](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/api-reference/storage/nvs_flash.html#)；
-- 基于 ((20240402153847-7l30kep 'esp_partition')) 组件；
+- 基于 [esp_partition](#esp_partition) 组件；
 
 ---
 
@@ -197,7 +197,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 ```
 
 > **文件目录生成镜像文件，且能被文件系统读取的关键：** 
-> 文件系统其实就是在 Flash 内存里按照规则存放数据，因此要生成文件树镜像文件其实就是通过文件系统的规则在外部做一个二进制文件。要达成这个目的该文件系统必须满足<ins>在嵌入式和 PC 端都能支持运行</ins>，否则要对文件系统的规则极其熟悉，能够按照规则编写 PC 端应用。可结合这个工具使用：((20250108144951-lmi5hoy '文件合并助手'))
+> 文件系统其实就是在 Flash 内存里按照规则存放数据，因此要生成文件树镜像文件其实就是通过文件系统的规则在外部做一个二进制文件。要达成这个目的该文件系统必须满足<ins>在嵌入式和 PC 端都能支持运行</ins>，否则要对文件系统的规则极其熟悉，能够按照规则编写 PC 端应用。可结合这个工具使用：[文件合并助手](https://forum.anfulai.cn/forum.php?mod=viewthread&tid=8627&extra=page%3D1)
 
 ### FatFs
 
@@ -207,7 +207,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 
 #### 要点
 
-- 指南：[FatFs Module Application Note (elm-chan.org)](http://elm-chan.org/fsw/ff/doc/appnote.html)、 [24. 串行 FLASH 文件系统 FatFs — [野火\]STM32 HAL 库开发实战指南——基于 F103 系列开发板 文档 (embedfire.com)](https://doc.embedfire.com/mcu/stm32/f103/hal_general/zh/latest/doc/chapter25/chapter25.html)；
+- 指南：[FatFs Module Application Note (elm-chan.org)](http://elm-chan.org/fsw/ff/doc/appnote.html)、 [24. 串行 FLASH 文件系统 FatFs — [野火]STM32 HAL 库开发实战指南——基于 F103 系列开发板 文档 (embedfire.com)](https://doc.embedfire.com/mcu/stm32/f103/hal_general/zh/latest/doc/chapter25/chapter25.html)；
 - 存储器太小也不能使用的，最好要 >1M;
 - 函数 `f_mkfs()` 是用来格式化的；
 - 移植步骤：

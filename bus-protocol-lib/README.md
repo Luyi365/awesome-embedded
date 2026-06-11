@@ -1,4 +1,4 @@
-# 总线协议库
+# 总线协议与端侧库
 
 > 该库包含非自定义的标准协议相关代码，除了基本的协议栈，对于简单的外设协议（iic、spi 等）提供 io 模拟及设备扫描自适应识别功能。
 >
@@ -17,7 +17,7 @@
 
 ### LwOW
 
-**链接**：[LwOW latest-develop documentation — LwOW documentation (majerle.eu)](https://docs.majerle.eu/projects/lwow/en/latest/)  
+**链接**：[LwOW latest-develop documentation — LwOW documentation (majerle.eu)](https://docs.majerle.eu/projects/lwow/en/latest/)  
 **特征**：专业的 1-Wire 协议库，允许通过 UART 或单 GPIO 通讯，提供线程安全的 API。  
 
 #### 要点
@@ -166,15 +166,15 @@
 
 ### lwIP
 
-**链接**：[lwIP - A Lightweight TCP/IP stack - Summary [Savannah\] (nongnu.org)](http://savannah.nongnu.org/projects/lwip/)  
+**链接**：[lwIP - A Lightweight TCP/IP stack - Summary [Savannah] (nongnu.org)](http://savannah.nongnu.org/projects/lwip/)  
 **特征**：小型开源的TCP/IP协议栈，使用最广泛的嵌入式网络协议栈，基本上物联网系统中都有它。  
 
 #### 要点
 
-- 指南：[[野火\]LwIP应用开发实战指南—基于STM32 — [野火\]LwIP应用开发实战指南—基于野火STM32 文档 (embedfire.com)](https://doc.embedfire.com/net/lwip/zh/latest/index.html)
+- 指南：[[野火]LwIP应用开发实战指南—基于STM32 — [野火]LwIP应用开发实战指南—基于野火STM32 文档 (embedfire.com)](https://doc.embedfire.com/net/lwip/zh/latest/index.html)
 - 官方文档：[lwIP: Overview (nongnu.org)](https://www.nongnu.org/lwip)；
 - contrib包是移植和应用LwIP的一些demo；
-- 源文件本体里的test文件夹不是demo示例，而是测试LwIP内核性能的源码，可以获得许多与LwIP内核性能有关的指标，只有非常专业的人士才用的到。
+- 源文件本体里的test文件夹不是demo示例，而是测试LwIP内核性能的源码，可以获得许多与LwIP内核性能有关的指标，只有非常专业的人士才用的到;
 - 应用层不包含MQTT服务协议；
 - 目录下各源文件  
   ```plaintext

@@ -2,11 +2,11 @@
 
 > OS 一般分为两种，即裸机和 RTOS，但这里我分为五类：
 >
-> - ((20230814211311-6ad74p3 '时间片调度系统'))：定时器或轮询控制任务运转；
-> - ((20231026155812-7aqpcbg '类实时系统'))：强调任务栈的硬实时性，但还没上升到 RTOS 级别；
-> - ((20230814211403-h6f46ap 'RTOS'))：有丰富的内核功能以及实时性；
-> - ((20231028202400-7evlueb 'IoT-RTOS'))：除了拥有 RTOS 特点外，注重物联网传输，基本都遵循 ((20230901124532-bfmiv9o "POSIX")) 标准，与 Linux 兼容；
-> - ((20240222183038-drlclwy 'ROS'))：机器人专用系统，一般采用分布式的通信框架，帮助程序进程之间更方便地通信，所以它并不是管控机器人所有部件的模组的，而是管理每个部件，部件自身可以用不同的 OS。
+> - [时间片调度系统](#时间片调度系统)：定时器或轮询控制任务运转；
+> - [类实时系统](#类实时系统)：强调任务栈的硬实时性，但还没上升到 RTOS 级别；
+> - [RTOS](#rtos)：有丰富的内核功能以及实时性；
+> - [IoT-RTOS](#iot-rtos)：除了拥有 RTOS 特点外，注重物联网传输，基本都遵循 [POSIX](./Appendix.md#什么是-posix) 标准，与 Linux 兼容；
+> - [ROS](#ros)：机器人专用系统，一般采用分布式的通信框架，帮助程序进程之间更方便地通信，所以它并不是管控机器人所有部件的模组的，而是管理每个部件，部件自身可以用不同的 OS。
 
 ## 时间片调度系统
 
@@ -38,7 +38,7 @@
 #### 要点
 
 - 上面这个链接和 [cTask](https://gitee.com/const-zpc/cTask) 的内容是一样的，选其中一个使用就行；
-- 和 ((20230709233444-9z5oon5 'ETP')) 的区别是可以设置任务的优先级；
+- 和 [ETP](#etp) 的区别是可以设置任务的优先级；
 - 使用介绍：[任务调度开源代码](https://mp.weixin.qq.com/s/7rf_9xq63wi0muo63bqkSw)
 
 ---
@@ -223,18 +223,18 @@
 
 #### 要点
 
-- 参考：((20230121173255-jorsv5r 'FreeRTOS'))
+- ~~参考：((20230121173255-jorsv5r 'FreeRTOS'))~~（待发布）
 
 ---
 
 ### uC/OS
 
 **链接**：[Overview - Weston Embedded Solutions (weston-embedded.com)](https://weston-embedded.com/micrium/overview)  
-**特征**：早期比较流行的 OS，和 ((20230815133106-9ywb5hm 'FreeRTOS')) 特征差不多，功能比它强一些。  
+**特征**：早期比较流行的 OS，和 [FreeRTOS](#freertos) 特征差不多，功能比它强一些。  
 
 #### 要点
 
-- 参考：((20230121173255-eav2bzp 'μC/OS'))
+- ~~参考：((20230121173255-eav2bzp 'μC/OS'))~~（待发布）
 
 ---
 
@@ -250,7 +250,7 @@
 - 通过 FinSH 组件进行控制台交互；
 - 初始化使用 initcall 方式；
 - 通过 Env 工具修改项目的 config 宏参数；
-- `xxx_EXPORT` 功能参考：((20241118154945-9hs7ddm '段区注册及调用机制'))；
+- ~~`xxx_EXPORT` 功能参考：((20241118154945-9hs7ddm '段区注册及调用机制'))；~~（待发布）
 
 ---
 
@@ -268,7 +268,7 @@
 ### NuttX
 
 **链接**：[apache/nuttx: Apache NuttX is a mature, real-time embedded operating system (RTOS) (github.com)](https://github.com/apache/nuttx)  
-**特征**：强调标准兼容和小型封装的操作系统，遵循 ((20230901124532-bfmiv9o "POSIX")) 标准和 ANSI 标准。  
+**特征**：强调标准兼容和小型封装的操作系统，遵循 [POSIX](./Appendix.md#什么是-posix) 标准和 ANSI 标准。  
 
 #### 要点
 
@@ -376,7 +376,7 @@
 ### MuditaOS
 
 **链接**：[MuditaOS - Open Source E Ink mobile operating system | Mudita](https://mudita.com/products/phones/mudita-pure/muditaos/)  
-**特征**：基于 ((20230815133106-9ywb5hm 'FreeRTOS')) 构建，专为 E-Ink 显示屏优化的移动操作系统。  
+**特征**：基于 [FreeRTOS](#freertos) 构建，专为 E-Ink 显示屏优化的移动操作系统。  
 
 #### 要点
 
@@ -414,7 +414,7 @@
 ### Xiaomi Vela
 
 **链接**：[iot.mi.com/vela](https://iot.mi.com/vela)  
-**特征**：小米旗下的物联网操作系统，底层基于 ((20231030113136-9qenl2z 'NuttX')) 内核打造。  
+**特征**：小米旗下的物联网操作系统，底层基于 [NuttX](#nuttx) 构建。内核打造。  
 
 #### 要点
 
@@ -496,7 +496,7 @@
 
 ## ROS
 
-### ROS
+### <a name="ros-project"></a>ROS
 
 **链接**：[ROS: Home](https://www.ros.org/)  
 **特征**：业界有名的开源机器人操作系统，它实现了一整套的软件库和工具集。  

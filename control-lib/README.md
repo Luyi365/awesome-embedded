@@ -23,7 +23,7 @@
 
 #### 要点
 
-- Grbl原本是为8位Arduino平台设计的，但为了适应更高级的32位处理器，一位开发者将代码重写并剥离了抽象层和核心层，使之可以支持更多的处理器，<ins>如果移植代码就使用这个</ins>，在库：[grblHAL (github.com)](https://github.com/grblHAL)
+- Grbl原本是为8位Arduino平台设计的，但为了适应更高级的32位处理器，一位开发者将代码重写并剥离了抽象层和核心层，使之可以支持更多的处理器：[grblHAL (github.com)](https://github.com/grblHAL)
 - 使用介绍：[grbl-learning: grbl源码精读与解析，代码行级中文注释，包含详细例程 (gitee.com)](https://gitee.com/ren12345/grbl-learning)；
 
 ---

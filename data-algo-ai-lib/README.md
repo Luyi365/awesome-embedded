@@ -1,8 +1,6 @@
 # 数据、算法与AI库
 
 > 原本数据结构、算法和 AI 库是分离开的，但算法这个名称实在是太广泛了，谁都想分一杯羹，数据结构变着变着就成了算法，AI 又是基于很多算法的，所以干脆就将它们放在一起好了。
->
-> 另外，这里的 AI 库都是与 C/C++ 或嵌入式领域相关的，通常用于 Python 的则在((20240123234553-poxmg1q "这里"))查找。
 
 ## 算术
 
@@ -39,7 +37,7 @@
 
 ### sys/queue
 
-**链接**：[queue.h source code [glibc/misc/sys/queue.h\] - Codebrowser](https://codebrowser.dev/glibc/glibc/misc/sys/queue.h.html)  
+**链接**：[queue.h source code [glibc/misc/sys/queue.h] - Codebrowser](https://codebrowser.dev/glibc/glibc/misc/sys/queue.h.html)  
 **特征**：Linux、FreeBSD 中使用的队列、链表头文件，全部用宏来实现的，且能够链接任意类型，如结构体等。  
 
 #### 要点
@@ -204,7 +202,7 @@
 1. 配合 [MaixHub](https://maixhub.com/welcome) 使用训练模型更佳；
 2. 支持裸机；
 3. 除了可以加载模型外，还带有基本的神经网络层；
-4. 模型最后需要转换成头文件被读取，文件里有((20231017193004-r4lhtq3 ".h5")) 或 tmdl 格式转换成.h 格式的脚本；
+4. 模型最后需要转换成头文件被读取，文件里有 [.h5](./Appendix.md#hdf5) 或 tmdl 格式转换成 .h 格式的脚本；
 5. 代码默认使用 GDB 调试，因此需要修改<ins>系统时间获取函数</ins>和<ins>打印函数</ins>；
 6. 其中层回调（`layer callback`）有示例，但还不知道作用是什么；
 
@@ -240,7 +238,7 @@
 ### NNoM
 
 **链接**：[majianjia/nnom: A higher-level Neural Network library for microcontrollers. (github.com)](https://github.com/majianjia/nnom)  
-**特征**：专门为了神经网络在 MCU 上运行的框架，使用起来和 ((20230809163746-832pyni 'TinyMaix')) 很像，但功能更多。  
+**特征**：专门为了神经网络在 MCU 上运行的框架，使用起来和 [TinyMaix](#tinymaix) 类似。很像，但功能更多。  
 
 #### 要点
 
@@ -351,7 +349,7 @@
 
 - 十分消耗内存，具体可查看代码；
 - 训练测试集：[数据集.zip](assets/数据集-20231019211912-ejopzz4.zip)；
-- 算法讲解：((20231010191715-c224yjx 'K最近邻算法（KNN）'))；
+- ~~算法讲解：((20231010191715-c224yjx 'K最近邻算法（KNN）'))；~~（待发布）
 
 ---
 
