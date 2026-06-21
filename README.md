@@ -15,8 +15,8 @@
 
 #### TODO
 
-- [ ] 增加许可证信息；
-- [ ] 审查链接的有效性
+- [x] 增加许可证信息；
+- [x] 审查链接的有效性
 - [ ] 优化排版及格式
 - [ ] 考虑增加英文说明
 - [ ] 重写部分库的使用要点（最初是给我自己看的，所以有些内容是建立在已知的情况下而写，需要优化）
@@ -150,13 +150,13 @@
 - [EasyFlash](./db-format-parser-lib/README.md#easyflash)：Key-Value 型简易数据库，主要提供：变量的 KV 配对，可 IAP 数据修改（可用于升级），log 存储等功能。
 - [FlashDB](./db-format-parser-lib/README.md#flashdb)：提供 KV 和 TS 两种数据库，比起 EasyFlash 更专注于数据库本身，而不提供过多的额外功能。
 - [Nanopb](./db-format-parser-lib/README.md#nanopb)：轻量的、支持 C 语言的 Protobuf，Protobuf 是 Google 公司开发的一种数据格式。可用于数据存储、通信协议等方面，且不依赖于语言和平台，也就是说可以不同设备端进行数据通讯。
-- [ITTIA DB](./db-format-parser-lib/README.md#ittia-db)：功能强大的实时嵌入式数据库，主要用于嵌入式系统和物联网设备，用于在设备上本地监控，存储和分析时间序列数据。
+- [ITTIA DB](./db-format-parser-lib/README.md#ittia-db)：功能强大的实时嵌入式数据库，主要用于嵌入式系统和物联网设备，用于在设备上本地监控，存储和分析时间序列数据，需要商业许可。
 - [linq4c](./db-format-parser-lib/README.md#linq4c)：在 C 语言里实现了 C# 的 linq 方法。
 - [SQLite](./db-format-parser-lib/README.md#sqlite)：业界用的最多的嵌入式标准的数据库，使用 SQL 语法，可使用磁盘文件。
 
 ### [数据流](./db-format-parser-lib/README.md#数据流)
 
-- ~~[uart_stream](./db-format-parser-lib/README.md#uart_stream)：同事写的数据流缓冲处理库，针对 UART 数据，但有一定的通用性。~~（待发布）
+- ~~[uart_stream](./db-format-parser-lib/README.md#uart_stream)：数据流缓冲处理库，针对 UART 数据，但有一定的通用性。~~（待发布）
 - [xprintf](./db-format-parser-lib/README.md#xprintf)：嵌入式字符串函数，代替不足以实现常规 printf 功能，可以动态的将字符串写入不同外设。主要用途是与多个外设交互，而不是终端交互
 - [CMSIS-Stream](./db-format-parser-lib/README.md#cmsis-stream)：ARM 官方出品的数据流处理组件，提供图形表示，适合专业级项目和多设备数据流处理。
 
@@ -437,7 +437,7 @@
 
 ### [Web/HTTP服务器](./kernel-framework-lib/README.md#web/http服务器)
 
-- [Lighttpd](./kernel-framework-lib/README.md#lighttpd)：是一个轻量级、高性能的 开源 Web 服务器，专为高并发、低内存占用 的场景设计。相比 Apache 或 Nginx 更适合嵌入式设备。
+- [LightTPD](./kernel-framework-lib/README.md#lighttpd)：是一个轻量级、高性能的 开源 Web 服务器，专为高并发、低内存占用 的场景设计。相比 Apache 或 Nginx 更适合嵌入式设备。
 - [Mongoose](./kernel-framework-lib/README.md#mongoose)：C / C++ 的事件驱动网络库，除了基本协议栈还了内置 HTTP、MQTT 等服务协议，可在裸机及 RTOS 上运行，带有 UI 构建器。商用有付费限制。
 - [Boa](./kernel-framework-lib/README.md#boa)：开源的小型 Web 服务器，适用于嵌入式应用。于 2005 起不再更新维护，目前存在已知安全漏洞，不推荐使用。
 - [libevent](./kernel-framework-lib/README.md#libevent)：专用于网络服务器的事件驱动库，旨在替换事件驱动网络服务器中的事件循环。
@@ -520,7 +520,7 @@
 
 ### [AI 模型＆算法](./data-algo-ai-lib/README.md#AI-模型＆算法)
 
-- ~~[Knn](./data-algo-ai-lib/README.md#knn)：用 C 语言编写的 Knn 算法，十分基本，没有什么优化，不太推荐使用。~~（待发布）
+- ~~[Knn](./data-algo-ai-lib/README.md#knn)：用 C 语言编写的 Knn 算法，十分基础，没有什么优化，不太推荐使用。~~（待发布）
 - [NanoDet-Plus](./data-algo-ai-lib/README.md#nanodet-plus)：超快速、高精度的轻量级无锚物体检测模型，基于移动端 AI 框架实现。
 - [pico](./data-algo-ai-lib/README.md#pico)：轻量级的人脸识别算法，基于像素强度比较的目标检测，适合单一、流量较小的场景。
 
@@ -714,7 +714,7 @@
 
 ### 其他相关开源库汇总
 
-- [EmbedSummary: 嵌入式大杂烩资源汇总 (gitee.com)](https://gitee.com/zhengnianli/EmbedSummary)
+- [EmbedSummary: 嵌入式大杂烩资源汇总](https://gitee.com/zhengnianli/EmbedSummary)
 - [nhivp/Awesome-Embedded: A curated list of awesome embedded programming.](https://github.com/nhivp/Awesome-Embedded)
 - [fffaraz/awesome-cpp: A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.](https://github.com/fffaraz/awesome-cpp)
 

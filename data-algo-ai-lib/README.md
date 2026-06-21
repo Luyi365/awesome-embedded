@@ -15,6 +15,8 @@
 
 ### LibBF
 
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+
 **链接**：[LibBF Library](https://bellard.org/libbf/)  
 **特征**：高精度浮点运算的库，提供比标准浮点数（如 *float* 和 *double*）精度更高的数值，并且可以灵活地控制精度和舍入模式。  
 
@@ -25,6 +27,8 @@
 ## 数据结构
 
 ### CBUF
+
+![GitHub Repo stars](https://img.shields.io/github/stars/barraq/BRBrain) | ![GitHub last commit](https://img.shields.io/github/last-commit/barraq/BRBrain?path=firmware%2FCBUF.h) | ![GitHub License](https://img.shields.io/github/license/barraq/BRBrain)
 
 **链接**：[BRBrain/firmware/CBUF.h at master · barraq/BRBrain · GitHub](https://github.com/barraq/BRBrain/blob/master/firmware/CBUF.h)  
 **特征**：极优雅的宏实现环形缓冲区，功能简单易用。  
@@ -49,6 +53,8 @@
 
 ### byte\_queue
 
+![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Aladdin-Wang/byte_queue&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Aladdin-Wang/byte_queue&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Aladdin-Wang/byte_queue&query=$.license&label=license)
+
 **链接**：[byte_queue: 一个C语言编写的支持任意类型的环形队列](https://gitee.com/Aladdin-Wang/byte_queue)  
 **特征**：C语言编写的支持任意类型的环形队列，带宏包装，使用简单。  
 
@@ -58,7 +64,9 @@
 
 ### queue
 
-**链接**：[queue: Very small and convenient general-purpose queue in C language version. C语言版本的非常小且方便的通用队列。 (gitee.com)](https://gitee.com/Lamdonn/queue)  
+![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/queue&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/queue&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/queue&query=$.license&label=license)
+
+**链接**：[queue: Very small and convenient general-purpose queue in C language version. C语言版本的非常小且方便的通用队列。](https://gitee.com/Lamdonn/queue)  
 **特征**：C语言通用队列，支持任意数据类型，使用简单高效。  
 
 #### 要点
@@ -67,7 +75,9 @@
 
 ### Ring-Buffer
 
-**链接**：[AndersKaloer/Ring-Buffer: A simple ring buffer (circular buffer) designed for embedded systems. (github.com)](https://github.com/AndersKaloer/Ring-Buffer)  
+![GitHub Repo stars](https://img.shields.io/github/stars/AndersKaloer/Ring-Buffer) | ![GitHub last commit](https://img.shields.io/github/last-commit/AndersKaloer/Ring-Buffer) | ![GitHub License](https://img.shields.io/github/license/AndersKaloer/Ring-Buffer)
+
+**链接**：[AndersKaloer/Ring-Buffer: A simple ring buffer (circular buffer) designed for embedded systems.](https://github.com/AndersKaloer/Ring-Buffer)  
 **特征**：简单高效的环形缓冲库，功能简单易用。  
 
 #### 要点
@@ -78,6 +88,8 @@
 ---
 
 ### wl\_queue
+
+![GitHub Repo stars](https://img.shields.io/github/stars/Aladdin-Wang/wl_queue) | ![GitHub last commit](https://img.shields.io/github/last-commit/Aladdin-Wang/wl_queue) | ![GitHub License](https://img.shields.io/github/license/Aladdin-Wang/wl_queue)
 
 **链接**：[Aladdin-Wang/wl_queue: 一款支持任意类似的队列](https://github.com/Aladdin-Wang/wl_queue)  
 **特征**：支持任意数据类型的环形队列，运用了C重载的技巧，注重纤程安全。  
@@ -90,18 +102,22 @@
 
 ### RingBuffer
 
-**链接**：[XinLiGH/RingBuffer: 模仿 kfifo 实现的环形缓冲区 (github.com)](https://github.com/XinLiGH/RingBuffer)  
+![GitHub Repo stars](https://img.shields.io/github/stars/XinLiGH/RingBuffer) | ![GitHub last commit](https://img.shields.io/github/last-commit/XinLiGH/RingBuffer) | ![GitHub License](https://img.shields.io/github/license/XinLiGH/RingBuffer)
+
+**链接**：[XinLiGH/RingBuffer: 模仿 kfifo 实现的环形缓冲区](https://github.com/XinLiGH/RingBuffer)  
 **特征**：实用的环形缓冲库，功能完整，使用的是堆内存分配。  
 
 #### 要点
 
-- 使用介绍：[一个环形缓冲区的实现 (qq.com)](https://mp.weixin.qq.com/s/BORniHooGGcoPasFYhY2Xg)
+- 使用介绍：[一个环形缓冲区的实现](https://mp.weixin.qq.com/s/BORniHooGGcoPasFYhY2Xg)
 
 ---
 
 ### queue
 
-**链接**：[queue: 基于 C 语言实现的队列功能，扩展性强，同时支持零拷贝读写队列（适用于大内存的单个元素，可以有效减少函数耗时） (gitee.com)](https://gitee.com/const-zpc/queue)  
+![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/const-zpc/queue&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/const-zpc/queue&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/const-zpc/queue&query=$.license&label=license)
+
+**链接**：[queue: 基于 C 语言实现的队列功能，扩展性强，同时支持零拷贝读写队列（适用于大内存的单个元素，可以有效减少函数耗时）](https://gitee.com/const-zpc/queue)  
 **特征**：简单的队列功能库，扩展性强，同时支持零拷贝读写队列（适用于大内存的单个元素，可以有效减少函数耗时）。  
 
 #### 要点
@@ -110,7 +126,9 @@
 
 ### QueueForMcu
 
-**链接**：[xiaoxinpro/QueueForMcu: 基于单片机实现的队列功能模块，主要用于 8 位、16 位、32 位非运行 RTOS 的单片机应用，兼容大多数单片机平台。 (github.com)](https://github.com/xiaoxinpro/QueueForMcu)  
+![GitHub Repo stars](https://img.shields.io/github/stars/xiaoxinpro/QueueForMcu) | ![GitHub last commit](https://img.shields.io/github/last-commit/xiaoxinpro/QueueForMcu) | ![GitHub License](https://img.shields.io/github/license/xiaoxinpro/QueueForMcu)
+
+**链接**：[xiaoxinpro/QueueForMcu: 基于单片机实现的队列功能模块，主要用于 8 位、16 位、32 位非运行 RTOS 的单片机应用，兼容大多数单片机平台。](https://github.com/xiaoxinpro/QueueForMcu)  
 **特征**：队列功能模块，适用于非 RTOS 系统，动态创建队列对象和缓冲区。  
 
 #### 要点
@@ -121,7 +139,9 @@
 
 ### ConcurrentQueue
 
-**链接**：[cameron314/concurrentqueue: A fast multi-producer, multi-consumer lock-free concurrent queue for C++11 (github.com)](https://github.com/cameron314/concurrentqueue)  
+![GitHub Repo stars](https://img.shields.io/github/stars/cameron314/concurrentqueue) | ![GitHub last commit](https://img.shields.io/github/last-commit/cameron314/concurrentqueue) | ![GitHub License](https://img.shields.io/github/license/cameron314/concurrentqueue)
+
+**链接**：[cameron314/concurrentqueue: A fast multi-producer, multi-consumer lock-free concurrent queue for C++11](https://github.com/cameron314/concurrentqueue)  
 **特征**：基于C++的工业级无锁队列，无需锁也极其注重线程安全。  
 
 #### 要点
@@ -130,7 +150,9 @@
 
 ### uthash
 
-**链接**：[troydhanson/uthash: C macros for hash tables and more (github.com)](https://github.com/troydhanson/uthash)  
+![GitHub Repo stars](https://img.shields.io/github/stars/troydhanson/uthash) | ![GitHub last commit](https://img.shields.io/github/last-commit/troydhanson/uthash) | ![GitHub License](https://img.shields.io/github/license/troydhanson/uthash)
+
+**链接**：[troydhanson/uthash: C macros for hash tables and more](https://github.com/troydhanson/uthash)  
 **特征**：提供哈希、列表、环形等数据结构库，只用包含头文件即可使用。  
 
 #### 要点
@@ -139,18 +161,21 @@
 
 ### LwRB
 
-**链接**：[LwRB latest-develop documentation — LwRB documentation (majerle.eu)](https://docs.majerle.eu/projects/lwrb/en/latest/)  
+![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwrb) | ![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwrb) | ![GitHub License](https://img.shields.io/github/license/MaJerle/lwrb)
+
+**链接**：[LwRB latest-develop documentation — LwRB documentation](https://docs.majerle.eu/projects/lwrb/en/latest/)  
 **特征**：专业的 FIFO 环形缓冲库，无动态内存分配，适用于 MDA 传输，注重线程和中断安全。  
 
 #### 要点
 
 - 使用介绍：[适用于嵌入式的轻量级环缓冲区管理库！](https://mp.weixin.qq.com/s/jmgYYWlX-mkhAoL2-MRLFw)
 - 回调函数是处理 `lwrb_evt_type_t` 里各个事件的。
-- 有极为详细的开发文档：[LwRB latest-develop documentation — LwRB documentation (majerle.eu)](https://docs.majerle.eu/projects/lwrb/en/latest/)
 
 ---
 
 ### fifofast
+
+![GitHub Repo stars](https://img.shields.io/github/stars/nqtronix/fifofast) | ![GitHub last commit](https://img.shields.io/github/last-commit/nqtronix/fifofast) | ![GitHub License](https://img.shields.io/github/license/nqtronix/fifofast)
 
 **链接**：[nqtronix/fifofast: A fast, generic fifo for MCUs.](https://github.com/nqtronix/fifofast)  
 **特征**：针对MCU优化的FIFO库，旨在尽可能减少CPU和SRAM的消耗。  
@@ -163,16 +188,18 @@
 
 ### FXT
 
-**链接**：[jj's useful and ugly FXT page (jjj.de)](https://www.jjj.de/fxt/)  
+**链接**：[jj's useful and ugly FXT page](https://www.jjj.de/fxt/)  
 **特征**：C 语言的算法库集合，专注于位运算、组合数学、快速变换等。  
 
 #### 要点
 
-- 组合数学含义：[组合数学 - 维基百科，自由的百科全书 (wikipedia.org)](https://zh.wikipedia.org/wiki/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6)
+- 组合数学含义：[组合数学 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6)
 
 ---
 
 ### xxHash
+
+![GitHub Repo stars](https://img.shields.io/github/stars/Cyan4973/xxHash) | ![GitHub last commit](https://img.shields.io/github/last-commit/Cyan4973/xxHash) | ![GitHub License](https://img.shields.io/github/license/Cyan4973/xxHash)
 
 **链接**：[xxHash - Extremely fast non-cryptographic hash algorithm](https://xxhash.com/)  
 **特征**：是一种速度极快的非加密哈希算法，可在 RAM 、速度限制下工作，适合更专业的使用场景。  
@@ -183,7 +210,9 @@
 
 ### Terathon Math Library
 
-**链接**：[EricLengyel/Terathon-Math-Library: C++ math library for 2D/3D/4D vector, matrix, quaternion, and geometric algebra. (github.com)](https://github.com/EricLengyel/Terathon-Math-Library)  
+![GitHub Repo stars](https://img.shields.io/github/stars/EricLengyel/Terathon-Math-Library) | ![GitHub last commit](https://img.shields.io/github/last-commit/EricLengyel/Terathon-Math-Library) | ![GitHub License](https://img.shields.io/github/license/EricLengyel/Terathon-Math-Library)
+
+**链接**：[EricLengyel/Terathon-Math-Library: C++ math library for 2D/3D/4D vector, matrix, quaternion, and geometric algebra.](https://github.com/EricLengyel/Terathon-Math-Library)  
 **特征**：一个用C++写成的数学库，包含向量、矩阵、四元数和射影几何代数元素的类。可用于图形、AI、游戏等领域。  
 
 #### 要点
@@ -194,7 +223,9 @@
 
 ### TinyMaix
 
-**链接**：[sipeed/TinyMaix: TinyMaix is a tiny inference library for microcontrollers (TinyML). (github.com)](https://github.com/sipeed/TinyMaix)  
+![GitHub Repo stars](https://img.shields.io/github/stars/sipeed/TinyMaix) | ![GitHub last commit](https://img.shields.io/github/last-commit/sipeed/TinyMaix) | ![GitHub License](https://img.shields.io/github/license/sipeed/TinyMaix)
+
+**链接**：[sipeed/TinyMaix: TinyMaix is a tiny inference library for microcontrollers (TinyML).](https://github.com/sipeed/TinyMaix)  
 **特征**：专为低资源的单片机设计的 AI 神经网络推理框架。  
 
 #### 要点
@@ -210,7 +241,9 @@
 
 ### miniMNIST-c
 
-**链接**：[konrad-gajdus/miniMNIST-c (github.com)](https://github.com/konrad-gajdus/miniMNIST-c)  
+![GitHub Repo stars](https://img.shields.io/github/stars/konrad-gajdus/miniMNIST-c) | ![GitHub last commit](https://img.shields.io/github/last-commit/konrad-gajdus/miniMNIST-c) | ![GitHub License](https://img.shields.io/github/license/konrad-gajdus/miniMNIST-c)
+
+**链接**：[konrad-gajdus/miniMNIST-c](https://github.com/konrad-gajdus/miniMNIST-c)  
 **特征**：C 语言实现了一个迷你神经网络（两层），可用于学习和基础嵌入式领域。  
 
 #### 要点
@@ -218,6 +251,8 @@
 ---
 
 ### Genann
+
+![GitHub Repo stars](https://img.shields.io/github/stars/codeplea/genann) | ![GitHub last commit](https://img.shields.io/github/last-commit/codeplea/genann) | ![GitHub License](https://img.shields.io/github/license/codeplea/genann)
 
 **链接**：[C Neural Network Library: Genann - Code Plea](https://codeplea.com/genann)  
 **特征**：极简的神经网络库，经过充分测试，用于在 C 中训练和使用前馈人工神经网络（ANN）。  
@@ -228,6 +263,8 @@
 
 ### uTensor
 
+![GitHub Repo stars](https://img.shields.io/github/stars/uTensor/uTensor) | ![GitHub last commit](https://img.shields.io/github/last-commit/uTensor/uTensor) | ![GitHub License](https://img.shields.io/github/license/uTensor/uTensor)
+
 **链接**：[uTensor/uTensor: TinyML AI inference library](https://github.com/uTensor/uTensor)  
 **特征**：基于 Tensorflow 构建的极其轻量级的机器学习推理框架，并将训练模型生成C++文件导入使用。  
 
@@ -237,7 +274,9 @@
 
 ### NNoM
 
-**链接**：[majianjia/nnom: A higher-level Neural Network library for microcontrollers. (github.com)](https://github.com/majianjia/nnom)  
+![GitHub Repo stars](https://img.shields.io/github/stars/majianjia/nnom) | ![GitHub last commit](https://img.shields.io/github/last-commit/majianjia/nnom) | ![GitHub License](https://img.shields.io/github/license/majianjia/nnom)
+
+**链接**：[majianjia/nnom: A higher-level Neural Network library for microcontrollers.](https://github.com/majianjia/nnom)  
 **特征**：专门为了神经网络在 MCU 上运行的框架，使用起来和 [TinyMaix](#tinymaix) 类似。很像，但功能更多。  
 
 #### 要点
@@ -245,6 +284,8 @@
 ---
 
 ### Paddle Lite
+
+![GitHub Repo stars](https://img.shields.io/github/stars/PaddlePaddle/Paddle-Lite) | ![GitHub last commit](https://img.shields.io/github/last-commit/PaddlePaddle/Paddle-Lite) | ![GitHub License](https://img.shields.io/github/license/PaddlePaddle/Paddle-Lite)
 
 **链接**：[飞桨 PaddlePaddle-源于产业实践的开源深度学习平台](https://www.paddlepaddle.org.cn/lite)  
 **特征**：高性能、轻量级、灵活性强且易于扩展的深度学习推理框架，定位于支持包括移动端、嵌入式以及边缘端在内的多种硬件平台。  
@@ -257,7 +298,9 @@
 
 ### TVM
 
-**链接**：[Apache TVM 是一个端到端的深度学习编译框架，适用于 CPU、GPU 和各种机器学习加速芯片。 | Apache TVM 中文站 (hyper.ai)](https://tvm.hyper.ai/)  
+![GitHub Repo stars](https://img.shields.io/github/stars/hyperai/tvm-cn) | ![GitHub last commit](https://img.shields.io/github/last-commit/hyperai/tvm-cn) | ![GitHub License](https://img.shields.io/github/license/hyperai/tvm-cn)
+
+**链接**：[Apache TVM 是一个端到端的深度学习编译框架，适用于 CPU、GPU 和各种机器学习加速芯片。 | Apache TVM 中文站](https://tvm.hyper.ai/)  
 **特征**：内置深度学习编译器，适用于 CPU、GPU、ARM 等多种硬件架构，提供一条龙服务。  
 
 #### 要点
@@ -268,7 +311,9 @@
 
 ### tflite-micro
 
-**链接**：[tensorflow/tflite-micro: Infrastructure to enable deployment of ML models to low-power resource-constrained embedded targets (including microcontrollers and digital signal processors). (github.com)](https://github.com/tensorflow/tflite-micro)  
+![GitHub Repo stars](https://img.shields.io/github/stars/tensorflow/tflite-micro) | ![GitHub last commit](https://img.shields.io/github/last-commit/tensorflow/tflite-micro) | ![GitHub License](https://img.shields.io/github/license/tensorflow/tflite-micro)
+
+**链接**：[tensorflow/tflite-micro: Infrastructure to enable deployment of ML models to low-power resource-constrained embedded targets (including microcontrollers and digital signal processors).](https://github.com/tensorflow/tflite-micro)  
 **特征**：适用于微控制器的 TensorFlow Lite，也就是在单片机上部署机器学习框架。  
 
 #### 要点
@@ -277,7 +322,9 @@
 
 ### ncnn
 
-**链接**：[Tencent/ncnn: ncnn is a high-performance neural network inference framework optimized for the mobile platform (github.com)](https://github.com/Tencent/ncnn)  
+![GitHub Repo stars](https://img.shields.io/github/stars/Tencent/ncnn) | ![GitHub last commit](https://img.shields.io/github/last-commit/Tencent/ncnn) | ![GitHub License](https://img.shields.io/github/license/Tencent/ncnn)
+
+**链接**：[Tencent/ncnn: ncnn is a high-performance neural network inference framework optimized for the mobile platform](https://github.com/Tencent/ncnn)  
 **特征**：是一个为移动端极致优化的高性能神经网络前向计算框架，支持大部分常用的 CNN 网络，可部署在部分嵌入式芯片上。  
 
 #### 要点
@@ -286,7 +333,9 @@
 
 ### MNN
 
-**链接**：[alibaba/MNN: MNN is a blazing fast, lightweight deep learning framework, battle-tested by business-critical use cases in Alibaba (github.com)](https://github.com/alibaba/MNN?tab=readme-ov-file)  
+![GitHub Repo stars](https://img.shields.io/github/stars/alibaba/MNN) | ![GitHub last commit](https://img.shields.io/github/last-commit/alibaba/MNN) | ![GitHub License](https://img.shields.io/github/license/alibaba/MNN)
+
+**链接**：[alibaba/MNN: MNN is a blazing fast, lightweight deep learning framework, battle-tested by business-critical use cases in Alibaba](https://github.com/alibaba/MNN)  
 **特征**：轻量级的深度神经网络引擎，支持深度学习的推理与训练，支持具有 POSIX 接口的嵌入式设备。  
 
 #### 要点
@@ -295,7 +344,9 @@
 
 ### TensorFlow Lite
 
-**链接**：[TensorFlow Lite | TensorFlow 中文官网 (google.cn)](https://tensorflow.google.cn/lite?hl=zh-cn)  
+![GitHub Repo stars](https://img.shields.io/github/stars/tensorflow/tensorflow) | ![GitHub last commit](https://img.shields.io/github/last-commit/tensorflow/tensorflow) | ![GitHub License](https://img.shields.io/github/license/tensorflow/tensorflow)
+
+**链接**：[TensorFlow Lite | TensorFlow 中文官网](https://ai.google.dev/edge/litert?hl=zh-cn)  
 **特征**：极有名的机器学习库，可用于在移动设备、微控制器和其他边缘设备上部署模型，以便实现设备端机器学习。  
 
 #### 要点
@@ -303,6 +354,8 @@
 ---
 
 ### Mediapipe
+
+![GitHub Repo stars](https://img.shields.io/github/stars/google-ai-edge/mediapipe) | ![GitHub last commit](https://img.shields.io/github/last-commit/google-ai-edge/mediapipe) | ![GitHub License](https://img.shields.io/github/license/google-ai-edge/mediapipe)
 
 **链接**：[MediaPipe  |  Google for Developers](https://developers.google.com/mediapipe)  
 **特征**：谷歌开源的跨平台机器学习框架。它是一个能够轻松部署到移动端、Web、PC 和物联网设备的机器学习工具库，包含了物体检测、图像分类、人脸识别、手势识别、文本分类、语言检测、音频分类等模型。  
@@ -322,6 +375,8 @@
 
 ### YMCV
 
+![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yao_mi/ymcv&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yao_mi/ymcv&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yao_mi/ymcv&query=$.license&label=license)
+
 **链接**：[YMCV: 跨平台迷你计算视觉库，可裸奔在免操作系统的单片机上，集成了近150个demo，并附带测试视频以便大家使用参考。它是ymkv-2.0版本（可移植任意平台）,平台从codeblocks迁移到vs，并经过一些架构调整和算法优化，取消了user层的集合封装，以便链接器能进行优化，对未使用的部分不进行加载，减少不必要内存消耗。](https://gitee.com/yao_mi/ymcv)  
 **特征**：纯C写的迷你计算机视觉库，无依赖、跨平台，可方便裁剪所需功能。  
 
@@ -330,6 +385,8 @@
 ---
 
 ### NeuralNetwork
+
+![GitHub Repo stars](https://img.shields.io/github/stars/GiorgosXou/NeuralNetworks) | ![GitHub last commit](https://img.shields.io/github/last-commit/GiorgosXou/NeuralNetworks) | ![GitHub License](https://img.shields.io/github/license/GiorgosXou/NeuralNetworks)
 
 **链接**：[GitHub - GiorgosXou/NeuralNetworks: A resource-conscious neural network library for microcontrollers, with partial bare-metal & native-os support.](https://github.com/GiorgosXou/NeuralNetworks)  
 **特征**：专用于单片机的神经网络库，仅需极少的资源即可运行RNN、GRU和LSTM等架构，支持裸机和部分操作系统。  
@@ -343,7 +400,7 @@
 ### Knn
 
 **链接**：[Knn 算法 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/svnarwquze6g3l8hpo19i36)  
-**特征**：用 C 语言编写的 Knn 算法，十分基本，没有什么优化，不太推荐使用。  
+**特征**：用 C 语言编写的 Knn 算法，十分基础，没有什么优化，不太推荐使用。  
 
 #### 要点
 
@@ -355,7 +412,9 @@
 
 ### NanoDet-Plus
 
-**链接**：[RangiLyu/nanodet: NanoDet-Plus⚡Super fast and lightweight anchor-free object detection model. 🔥Only 980 KB(int8) / 1.8MB (fp16) and run 97FPS on cellphone🔥 (github.com)](https://github.com/RangiLyu/nanodet)  
+![GitHub Repo stars](https://img.shields.io/github/stars/RangiLyu/nanodet) | ![GitHub last commit](https://img.shields.io/github/last-commit/RangiLyu/nanodet) | ![GitHub License](https://img.shields.io/github/license/RangiLyu/nanodet)
+
+**链接**：[RangiLyu/nanodet: NanoDet-Plus⚡Super fast and lightweight anchor-free object detection model. 🔥Only 980 KB(int8) / 1.8MB (fp16) and run 97FPS on cellphone🔥](https://github.com/RangiLyu/nanodet)  
 **特征**：超快速、高精度的轻量级无锚物体检测模型，基于移动端 AI 框架实现。  
 
 #### 要点
@@ -364,7 +423,9 @@
 
 ### pico
 
-**链接**：[nenadmarkus/pico: A minimalistic framework for real-time object detection (with a pre-trained face detector) (github.com)](https://github.com/nenadmarkus/pico)  
+![GitHub Repo stars](https://img.shields.io/github/stars/nenadmarkus/pico) | ![GitHub last commit](https://img.shields.io/github/last-commit/nenadmarkus/pico) | ![GitHub License](https://img.shields.io/github/license/nenadmarkus/pico)
+
+**链接**：[nenadmarkus/pico: A minimalistic framework for real-time object detection (with a pre-trained face detector)](https://github.com/nenadmarkus/pico)  
 **特征**：轻量级的人脸识别算法，基于像素强度比较的目标检测，适合单一、流量较小的场景。  
 
 #### 要点

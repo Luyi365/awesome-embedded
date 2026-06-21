@@ -6,7 +6,9 @@
 
 ### MultiTimer
 
-**链接**：[0x1abin/MultiTimer: Software timers extend module for embedded (github.com)](https://github.com/0x1abin/MultiTimer)  
+![GitHub Repo stars](https://img.shields.io/github/stars/0x1abin/MultiTimer) | ![GitHub last commit](https://img.shields.io/github/last-commit/0x1abin/MultiTimer) | ![GitHub License](https://img.shields.io/github/license/0x1abin/MultiTimer)
+
+**链接**：[0x1abin/MultiTimer: Software timers extend module for embedded](https://github.com/0x1abin/MultiTimer)  
 **特征**：取代传统的标志位判断方式，采用软件模拟定时器来更优雅更便捷地管理程序的时间触发时序。  
 
 #### 要点
@@ -18,7 +20,9 @@
 
 ### SmartTimer
 
-**链接**：[lmooml/SmartTimer: a lightly timer manager base on STM32F10X,to processing asynchronous event. (github.com)](https://github.com/lmooml/SmartTimer)  
+![GitHub Repo stars](https://img.shields.io/github/stars/lmooml/SmartTimer) | ![GitHub last commit](https://img.shields.io/github/last-commit/lmooml/SmartTimer) | ![GitHub License](https://img.shields.io/github/license/lmooml/SmartTimer)
+
+**链接**：[lmooml/SmartTimer: a lightly timer manager base on STM32F10X,to processing asynchronous event.](https://github.com/lmooml/SmartTimer)  
 **特征**：裸机下十分好用的定时器调度器，除了基本轮询回调外，还可以设置轮询次数。  
 
 #### 要点
@@ -27,7 +31,9 @@
 
 ### microseconds
 
-**链接**：[JayHeng/microseconds: General microseconds library for MCU | 适用 MCU 的通用微秒计时函数框架，适用 1MHz 以上时钟源 (github.com)](https://github.com/JayHeng/microseconds)  
+![GitHub Repo stars](https://img.shields.io/github/stars/JayHeng/microseconds) | ![GitHub last commit](https://img.shields.io/github/last-commit/JayHeng/microseconds) | ![GitHub License](https://img.shields.io/github/license/JayHeng/microseconds)
+
+**链接**：[JayHeng/microseconds: General microseconds library for MCU | 适用 MCU 的通用微秒计时函数框架，适用 1MHz 以上时钟源](https://github.com/JayHeng/microseconds)  
 **特征**：基于 Cortex-M 内核的 SysTick 做的微秒级别定时器库，有阻塞和非阻塞延迟。  
 
 #### 要点
@@ -38,7 +44,9 @@
 
 ### perf\_counter
 
-**链接**：[GorgonMeducer/perf_counter: A dedicated performance counter for Cortex-M systick. It shares the SysTick with users' original SysTick function without interfering it. This library will bring new functionalities, such as performance counter, delay_us and clock() service defined in time.h (github.com)](https://github.com/GorgonMeducer/perf_counter)  
+![GitHub Repo stars](https://img.shields.io/github/stars/GorgonMeducer/perf_counter) | ![GitHub last commit](https://img.shields.io/github/last-commit/GorgonMeducer/perf_counter) | ![GitHub License](https://img.shields.io/github/license/GorgonMeducer/perf_counter)
+
+**链接**：[GorgonMeducer/perf_counter: A dedicated performance counter for Cortex-M systick. It shares the SysTick with users' original SysTick function without interfering it. This library will bring new functionalities, such as performance counter, delay_us and clock() service defined in time.h](https://github.com/GorgonMeducer/perf_counter)  
 **特征**：基于 Cortex-M 内核的 SysTick，不仅拥有基本的定时器功能，还具有代码段的周期测量、定时服务等功能，且支持 RTOS。  
 
 #### 要点
@@ -58,7 +66,9 @@
 
 ### LwWDG
 
-**链接**：[LwWDG latest-develop documentation — LwWDG documentation (majerle.eu)](https://docs.majerle.eu/projects/lwwdg/en/latest/)  
+![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwwdg) | ![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwwdg) | ![GitHub License](https://img.shields.io/github/license/MaJerle/lwwdg)
+
+**链接**：[LwWDG latest-develop documentation — LwWDG documentation](https://docs.majerle.eu/projects/lwwdg/en/latest/)  
 **特征**：轻量级的看门狗库，主要针对操作系统， 监视多个线程并在其中一个线程失败时重置系统。  
 
 #### 要点
@@ -71,13 +81,14 @@
 
 ### LwDTC
 
-**链接**：[LwWDG latest-develop documentation — LwWDG documentation (majerle.eu)](https://docs.majerle.eu/projects/lwwdg/en/latest/)  
+![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwdtc) | ![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwdtc) | ![GitHub License](https://img.shields.io/github/license/MaJerle/lwdtc)
+
+**链接**：[LwDTC latest-develop documentation — LwDTC documentation](https://docs.majerle.eu/projects/lwdtc/en/latest/)  
 **特征**：用于日期、时间和 cron 实用程序库，因为 Cron 仅支持数字，没有字符串，所以解析速度更快。  
 
 #### 要点
 
 - 支持 time.h 结构 tm 数据结构以进行时间运算；
 - 需要了解 cron 语法；
-- 有极为详细的开发文档：[LwDTC latest-develop documentation — LwDTC documentation (majerle.eu)](https://docs.majerle.eu/projects/lwdtc/en/latest/index.html)
 
 ---
