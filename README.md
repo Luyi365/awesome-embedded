@@ -325,7 +325,7 @@
 - [BlurHash](./ui-menu-lib/README.md#blurhash)：开源的图片占位符算法和实现，能够在图片预载时先显示框图和缩略图，嵌入式领域可能会用得到。
 - [OpenGL](./ui-menu-lib/README.md#opengl)：跨语言、跨平台的 2D/3D 渲染库，主要使用 C 语言开发，但也可以支持 C++、Python、Java 等语言开发，功能极其强大，适合游戏开发、科学可视化、虚拟现实等领域。
 - [Rawdraw](./ui-menu-lib/README.md#rawdraw)：跨平台无依赖的 UI 绘制系统，为 OpenGL 提供良好的接口抽象。
-- [TinyGL](./ui-menu-lib/README.md#tinygl)：是 OpenGL 的一个小型实现，适用于嵌入式系统。将复杂的接口精简为更易于理解和操作的形式。
+- [TinyGL](./ui-menu-lib/README.md#tinygl)：是 OpenGL 的小型实现，适用于嵌入式系统。将复杂的接口精简为更易于理解和操作的形式。
 - [foolrenderer](./ui-menu-lib/README.md#foolrenderer)：用 C 语言实现的软件渲染器，不依赖图形库，仅用几千行代码，实现了一套类似 OpenGL 的基本图形功能，以及应用于游戏开发的实时渲染技术，如阴影、切线空间法线映射、基于物理的材质系统等。
 - [EmberGL](./ui-menu-lib/README.md#embergl)：用于 MCU 的类似于 OpenGL 的实时 2D / 3D 光栅渲染库。
 - [GUIslice](./ui-menu-lib/README.md#guislice)：简单好用的开源 GUI 框架，极客的风格，无动态内存分配，并提供布局上位机。
@@ -483,11 +483,11 @@
 - [CBUF](./data-algo-ai-lib/README.md#cbuf)：极优雅的宏实现环形缓冲区，功能简单易用。
 - [sys/queue](./data-algo-ai-lib/README.md#sys/queue)：Linux、FreeBSD 中使用的队列、链表头文件，全部用宏来实现的，且能够链接任意类型，如结构体等。
 - [byte_queue](./data-algo-ai-lib/README.md#byte_queue)：C 语言编写的支持任意类型的环形队列，带宏包装，使用简单。
-- [queue](./data-algo-ai-lib/README.md#queue)：C 语言通用队列，支持任意数据类型，使用简单高效。
+- [queue](./data-algo-ai-lib/README.md#queue-project1)：C 语言通用队列，支持任意数据类型，使用简单高效。
 - [Ring-Buffer](./data-algo-ai-lib/README.md#ring-buffer)：简单高效的环形缓冲库，适合没有指定存储大小的程序。
 - [wl_queue](./data-algo-ai-lib/README.md#wl_queue)：支持任意数据类型的环形队列，运用了 C 重载的技巧，注重纤程安全。
 - [RingBuffer](./data-algo-ai-lib/README.md#ringbuffer)：实用的环形缓冲库，功能完整，使用的是堆内存分配。
-- [queue](./data-algo-ai-lib/README.md#queue)：简单的队列功能库，扩展性强，同时支持零拷贝读写队列（适用于大内存的单个元素，可以有效减少函数耗时）。
+- [queue](./data-algo-ai-lib/README.md#queue-project2)：简单的队列功能库，扩展性强，同时支持零拷贝读写队列（适用于大内存的单个元素，可以有效减少函数耗时）。
 - [QueueForMcu](./data-algo-ai-lib/README.md#queueformcu)：普通队列功能模块，仅限非 RTOS 系统，适用于个人小型程序。
 - [ConcurrentQueue](./data-algo-ai-lib/README.md#concurrentqueue)：基于 C++ 的工业级无锁队列，无需锁也极其注重线程安全。
 - [uthash](./data-algo-ai-lib/README.md#uthash)：提供哈希、列表、环形等数据结构库，只用包含头文件即可使用。

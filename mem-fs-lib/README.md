@@ -94,7 +94,7 @@
 
 ### eepromfs
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wtau_zaozao/eepromfs&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wtau_zaozao/eepromfs&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wtau_zaozao/eepromfs&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/wtau_zaozao/eepromfs/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wtau_zaozao/eepromfs&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wtau_zaozao/eepromfs&query=$.license&label=license)
 
 **链接**：[eepromfs: eepromfs，基于EEPROM的简易类文件的数据读写库，方便做动态功能增减时参数管理。增减参数块类似增减文件，不会对已有数据存储带来影响。EEPROM硬件资源充裕的情况下使用。](https://gitee.com/wtau_zaozao/eepromfs)  
 **特征**：基于 EEPROM 的简易类文件数据读写库，它并不属于真正的文件系统，只是把数据读写模拟成文件的方式。  

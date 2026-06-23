@@ -38,7 +38,7 @@
 
 ### ECBM\_GUI
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/ecbm_gui&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/ecbm_gui&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/ecbm_gui&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/ecbm/ecbm_gui/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/ecbm_gui&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/ecbm_gui&query=$.license&label=license)
 
 **链接**：[ECBM_GUI: 这是基于c语言的GUI库，主要用在单色OLED、LCD领域。ECBM_GUI通过内建缓存来存放画面内容，可快速移植到任意单片机中。](https://gitee.com/ecbm/ecbm_gui)  
 **特征**：超基础的单色 GUI 库，仅通过内建缓存来存放画面内容实现 GUI 功能。  
@@ -49,7 +49,7 @@
 
 ### SimpleGUI
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Polarix/simplegui&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Polarix/simplegui&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Polarix/simplegui&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/Polarix/simplegui/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Polarix/simplegui&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Polarix/simplegui&query=$.license&label=license)
 
 **链接**：[SimpleGUI: 一个面向单色显示屏的开源 GUI 接口库。](https://gitee.com/Polarix/simplegui)  
 **特征**：针对单色显示屏设计的 GUI 库，提供简单的绘制功能。  
@@ -71,7 +71,7 @@
 
 ### MonoGUI
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/liuxinouc/MonoGUI&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/liuxinouc/MonoGUI&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/liuxinouc/MonoGUI&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/liuxinouc/MonoGUI/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/liuxinouc/MonoGUI&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/liuxinouc/MonoGUI&query=$.license&label=license)
 
 **链接**：[MonoGUI: MonoGUI （黑白图形用户接口系统）是针对电子词典、高级计算器、电子手表、标签打印机、收款机、电子货签等具有黑白屏幕的小电子设备开发的专用 GUI 系统。本系统具有结构简单、使用容易、内存占用小、单线程、处理器负担轻等特点。虽然图形能力仅有黑与白，但其支持完整的中文显示处理功能（GB18030 中 2 字节汉字，即旧 GB13000 标准），其 Edit 控件和中文输入法（包括九键输入法）功能上达到 Windows 和 Android 的输入法水平，且扩展容易。](https://gitee.com/liuxinouc/MonoGUI)  
 **特征**：针对黑白屏幕的小电子设备开发的专用 GUI 系统，功能全面，附带输入法功能。  
@@ -156,7 +156,7 @@
 
 ### LingLongGUI
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingLongGUI&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingLongGUI&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingLongGUI&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/gzbkey/LingLongGUI/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingLongGUI&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingLongGUI&query=$.license&label=license)
 
 **链接**：[LingLongGUI: 玲珑 GUI 是高效的界面开发解决方案。 代替串口屏、组态，降低产品成本，产品软硬件自主可控。 配套界面开发软件，图形化编辑界面，生成 C 代码。](https://gitee.com/gzbkey/LingLongGUI)  
 **特征**：高效的 GUI 生成库，配套有图形化编辑界面，方便之间生成代码使用。  
@@ -169,7 +169,7 @@
 
 ### LingDongGUI
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingDongGUI&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingDongGUI&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingDongGUI&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/gzbkey/LingDongGUI/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingDongGUI&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingDongGUI&query=$.license&label=license)
 
 **链接**：[LingDongGUI: 灵动 GUI 是基于 ARM-2D 进行开发的 GUI，极大降低 ARM-2D 的使用难度](https://gitee.com/gzbkey/LingDongGUI)  
 **特征**：对 [Arm-2D](#arm-2d) 进行二次封装的 GUI 库，旨在提高易用性，同时也支持原生 API 的使用。  
@@ -182,7 +182,7 @@
 
 ### AAGUI
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/QQ1159465634/aagui&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/QQ1159465634/aagui&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/QQ1159465634/aagui&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/QQ1159465634/aagui/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/QQ1159465634/aagui&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/QQ1159465634/aagui&query=$.license&label=license)
 
 **链接**：[AAGUI: AAGUI 是一个不依赖特定硬件、操作系统的跨平台通用型半声明式 GUI。采用 C(兼容 C89)与 C++(兼容 C++98)编写。](https://gitee.com/QQ1159465634/aagui)  
 **特征**：跨平台通用型 GUI，旨在嵌入式里实现类安卓的高级 UI 开发。可使用半声明式（json）编程，适合类似于手机应用的项目开发。  
@@ -195,7 +195,7 @@
 
 ### GT-HMI
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/genitop/GT-HMI-Engine&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/genitop/GT-HMI-Engine&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/genitop/GT-HMI-Engine&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/genitop/GT-HMI-Engine/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/genitop/GT-HMI-Engine&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/genitop/GT-HMI-Engine&query=$.license&label=license)
 
 **链接**：[GT-HMI-Engine: GT-HMI ：专为国内嵌入式 GUI 设计开发打造的免费神器！](https://gitee.com/genitop/GT-HMI-Engine)  
 **特征**：高通旗下专为国人使用的 UI 库，带有多种语种多字库，带有模拟器和上位机。RTOS、裸机均可使用，适合实用的项目级产品。  
@@ -302,7 +302,7 @@
 
 #### 要点
 
-- 原先还提供名为“uGFX Studio”的布局上位机，但目前官网已经看不到该工具了，不清楚后续是否还会提供；
+- 原先还提供名为"uGFX Studio"的布局上位机，但目前官网已经看不到该工具了，不清楚后续是否还会提供；
 
 ---
 
@@ -409,7 +409,7 @@
 ### TinyGL
 
 **链接**：[TinyGL : a Small, Free and Fast Subset of OpenGL*](https://bellard.org/TinyGL/)  
-**特征**：是 [OpenGL](#opengl) 的一个小型实现，适用于嵌入式系统。将复杂的接口精简为更易于理解和操作的形式。  
+**特征**：是 [OpenGL](#opengl) 的小型实现，适用于嵌入式系统。将复杂的接口精简为更易于理解和操作的形式。  
 
 #### 要点
 
@@ -470,7 +470,7 @@
 
 ### qrencode
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/qrencode&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/qrencode&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/qrencode&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/kerndev/qrencode/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/qrencode&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/qrencode&query=$.license&label=license)
 
 **链接**：[qrencode: 用 C 语言生成二维码的演示代码](https://gitee.com/kerndev/qrencode)  
 **特征**：二维码生成库，适用于单片机。  
@@ -508,7 +508,7 @@
 
 ### oledlib
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/oledlib&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/oledlib&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/oledlib&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/jiezhuonew/oledlib/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/oledlib&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/oledlib&query=$.license&label=license)
 
 **链接**：[oledlib: 一个开源的 oled 图形库，使用 32 单片机 keil 平台进行开发，支持 I2C 和 SPI 驱动，能够绘制矩形，圆，椭圆，多边形，图片文字等简单内容](https://gitee.com/jiezhuonew/oledlib)  
 **特征**：一个开源的 oled 图形库，带有一些适合做屏保的图形。  
@@ -610,7 +610,7 @@
 
 ### cotMenu
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_menu&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_menu&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_menu&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/cot_package/cot_menu/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_menu&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_menu&query=$.license&label=license)
 
 **链接**：[cotMenu: 嵌入式设备常用的菜单框架模块组件代码（轻量级）](https://gitee.com/cot_package/cot_menu)  
 **特征**：采用链表方式实现多级深度菜单，相当于显示的逻辑层，与按键、显示屏完全解耦。  

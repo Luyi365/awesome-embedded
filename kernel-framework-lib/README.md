@@ -177,7 +177,7 @@
 
 ### RIL
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/ril&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/ril&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/ril&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/moluo-tech/ril/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/ril&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/ril&query=$.license&label=license)
 
 **链接**：[ril: RIL 是一款专门为嵌入式平台开发的无线通信模块(GSM/GPRS/CatM1/NB)管理框架，适用于资源受限物联网终端设备（单片机 + 无线蜂窝模组的方案），并提供物联网通信所需的基本功能，包含网络注册、连接管理、短信收发及 Socket 通信。](https://gitee.com/moluo-tech/ril)  
 **特征**：专门为嵌入式平台开发的无线通信模组(GSM/GPRS/CatM1/NB-Iot)管理软件。  
@@ -190,7 +190,7 @@
 
 ### EFSMC
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/EFSMC&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/EFSMC&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/EFSMC&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/simpost/EFSMC/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/EFSMC&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/EFSMC&query=$.license&label=license)
 
 **链接**：[EFSMC: EFSM(event finite state machine，事件驱动型有限状态机)，是一个基于事件驱动的有限状态机。使用EFSM可实现上百个状态、上千种事件处理，且可实现多重状态机和层次状态机。可应用在云后台微服务和嵌入式软件等各种平台中。](https://gitee.com/simpost/EFSMC)  
 **特征**：基于事件驱动的有限状态机，通过巧妙设计，避免了命名冲突的问题。使用起来简单、方便、规范。  
@@ -227,7 +227,7 @@
 
 ### dynamic_loader
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wzh1845462801/dynamic_loader&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wzh1845462801/dynamic_loader&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wzh1845462801/dynamic_loader&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/wzh1845462801/dynamic_loader/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wzh1845462801/dynamic_loader&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wzh1845462801/dynamic_loader&query=$.license&label=license)
 
 **链接**：[dynamic_loader: 本项目是一个在单片机（如：STM32）上实现动态加载功能的函数库，与 Windows 中的 dll，Linux 中的 so 类似，可以将代码动态地从其他的存储介质，动态加载到 RAM 中](https://gitee.com/wzh1845462801/dynamic_loader)  
 **特征**：动态加载函数库，裁剪自 [RT-Thread](../sys-thread-lib/README.md#rt-thread) 的 libdl 源码，不与原本 OS 耦合，可在裸机使用。  
@@ -245,7 +245,7 @@
 
 ### ERPC
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/ERPC-doc&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/ERPC-doc&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/ERPC-doc&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/simpost/ERPC-doc/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/ERPC-doc&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/ERPC-doc&query=$.license&label=license)
 
 **链接**：[ERPC-doc: ERPC（Embedded Remote Procedure Call）是一个简单的、易用的、高效的嵌入式远程调用框架。它不仅实现了远程调用，还实现了状态通知（观察者模式），同时还支持数据加密（用户可自定义加密算法）、异常监控和完备的日志管理方法。使用ERPC可简化系统的设计难度，降低模块之间的耦合度，降低开发人员之间的依赖性。](https://gitee.com/simpost/ERPC-doc)  
 **特征**：一个简单的、易用的、高效的远程调用框架。  
@@ -254,7 +254,7 @@
 
 ### EmbedXrpc
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/snikeguo/EmbedXrpc&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/snikeguo/EmbedXrpc&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/snikeguo/EmbedXrpc&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/snikeguo/EmbedXrpc/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/snikeguo/EmbedXrpc&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/snikeguo/EmbedXrpc&query=$.license&label=license)
 
 **链接**：[EmbedXrpc: 这个东西类似于 Google 的 GRPC,但是应用场景是单片机。RPC 远程调用极大的方便了开发，使得不必关注于协议解析，数据的序列化和反序列化等繁琐的工作。可是目前还没有在单片机上实现好用的 RPC 框架，于是我就谋生了做这个 RPC 框架的想法，所用的技术是：C#做 IDL 语言 +csscript+ 自己实现序列化和反序列化 + 代码生成 QQ 群 134161401](https://gitee.com/snikeguo/EmbedXrpc)  
 **特征**：通过RPC通讯协议，可忽略协议本身进行业务逻辑的实现，附带代码生成工具。  

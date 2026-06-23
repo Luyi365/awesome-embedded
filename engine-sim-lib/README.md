@@ -80,7 +80,7 @@
 
 ### vlib
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/vlib&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/vlib&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/vlib&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/Lamdonn/vlib/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/vlib&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/vlib&query=$.license&label=license)
 
 **链接**：[vlib: C 语言版 STL，包含通用数据类型的队列、堆栈、双端队列、向量、列表、集合、映射等容器，以及通用的排序算法](https://gitee.com/Lamdonn/vlib)  
 **特征**：C 语言模板库，提供了类似 C++ STL 的功能，包含了常用的容器，且可以使用任意数据类型。  

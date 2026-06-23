@@ -39,7 +39,7 @@
 
 ### cotUtils
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_utils&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_utils&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_utils&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/cot_package/cot_utils/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_utils&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_utils&query=$.license&label=license)
 
 **链接**：[cotUtils: C 语言常用工具类，包括了各类容器（队列、链表、动态数组等）、移植了 C++ boost 库的 preprocessor 库（宏编程）等](https://gitee.com/cot_package/cot_utils)  
 **特征**：C 语言的通用扩展库，包括多种容器（队列、栈、双向链表、动态数组），序列化/反序列化的结构体，PP 库（多功能宏）等功能。  
@@ -52,7 +52,7 @@
 
 ### mr-library
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/MacRsh/mr-library&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/MacRsh/mr-library&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/MacRsh/mr-library&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/MacRsh/mr-library/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/MacRsh/mr-library&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/MacRsh/mr-library&query=$.license&label=license)
 
 **链接**：[mr-library: mr-library 是专为嵌入式系统设计的轻量级框架。充分考虑了嵌入式系统在资源和性能方面的需求。 通过提供标准化的开启(open)、关闭(close)、控制(ioctl)、读(read)、写(write) 等接口，极大简化了嵌入式应用开发的难度，帮助开发者快速构建嵌入式应用程序。](https://gitee.com/MacRsh/mr-library)  
 **特征**：嵌入式轻量级框架，提供标准化的驱动接口和简单的内核功能组件等。  
@@ -113,7 +113,7 @@
 
 ### AMetal
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/zlgmcuopen/ametal&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/zlgmcuopen/ametal&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/zlgmcuopen/ametal&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/zlgmcuopen/ametal/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/zlgmcuopen/ametal&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/zlgmcuopen/ametal&query=$.license&label=license)
 
 **链接**：[ametal: AMetal 是芯片级的裸机软件包，定义了跨平台的通用接口（使得基于 AMetal 的应用程序可以和具体硬件完全分离,实现跨平台复用），并提供了一系列驱动及常用的软件服务。](https://gitee.com/zlgmcuopen/ametal)  
 **特征**：软件包比较冗余，核心思想就是分为三层，即硬件层、驱动层（抽象层）和标准接口层。提供多个平台的通用接口，采用服务式框架搭建，将运行效率放在第一位。  
@@ -130,7 +130,7 @@
 
 ### eLab
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/elab&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/elab&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/elab&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/event-os/elab/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/elab&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/elab&query=$.license&label=license)
 
 **链接**：[elab: eLab 是集成了多种技术和特性的嵌入式开发平台。](https://gitee.com/event-os/elab)  
 **特征**：综合开发平台，包含嵌入式所需大部分功能包，尤其注重跨平台开发和 PC 仿真。  
@@ -154,7 +154,7 @@
 
 ### simpostOS
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/simpostOS&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/simpostOS&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/simpostOS&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/simpost/simpostOS/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/simpostOS&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/simpostOS&query=$.license&label=license)
 
 **链接**：[simpostOS: 极简应用系统](https://gitee.com/simpost/simpostOS)  
 **特征**：是一套设计方法，以及多个软件组件、服务的集合。其理念是将所有功能模块化，并极大地增加功能复用性。使用的是纯 C++ 语言，库写的十分现代化，对新手使用不友好。  
@@ -178,7 +178,7 @@
 
 ### varch
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/varch&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/varch&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/varch&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/Lamdonn/varch/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/varch&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/varch&query=$.license&label=license)
 
 **链接**：[varch: 嵌入式C语言常用代码模块库，包含了嵌入式中常用的算法库（查找、校验、过滤、哈希、排序等）、数据结构/容器库（通用队列、栈、堆、列表、动态数组、字符串、集合、字典、映射、图等）、解析器库（csv、ini、json、xml等）、数学库（大数运算、数学运算）、C语言协程库、独立C语言std库、工具库等等。 具有简单, 通用, 高效的特点，目的为了学习以及在开发中拿来就用，提高开发效率以及代码可靠稳定性。](https://gitee.com/Lamdonn/varch)  
 **特征**：是嵌入式 C 语言常用代码模块库，包含了嵌入式中常用的算法库、数据结构（容器）库,、解析器库、独立 C 语言 std 库、工具库等等，每个库独立使用，简单高效。  
@@ -189,7 +189,7 @@
 
 ### ctool
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/ctool&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/ctool&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/ctool&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/Lamdonn/ctool/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/ctool&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/ctool&query=$.license&label=license)
 
 **链接**：[ctool: 常用的 C 语言工具](https://gitee.com/Lamdonn/ctool)  
 **特征**：常用但一般库里并不包含的工具，包括不定参数、日期、内存测试等。  
@@ -211,7 +211,7 @@
 
 ### appkit
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/newgolo/appkit&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/newgolo/appkit&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/newgolo/appkit&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/newgolo/appkit/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/newgolo/appkit&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/newgolo/appkit&query=$.license&label=license)
 
 **链接**：[appkit: appkit 是一个基于嵌入式 Linux 的具有可移植性的 C++ 程序开发框架，其目的是为了加快 LInux 应用程序的开发速度，解放程序员的大脑和双手，让大家把精力投入到更有意义的事情当中去。](https://gitee.com/newgolo/appkit)  
 **特征**：基于 C++ 的 Linux 应用开发库，包括开发中常用的模块功能（线程管理、定时器、文件 IO、串口通信等）。  

@@ -4,7 +4,7 @@
 
 ### pid_temperature_control
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/pid_temperature_control&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/pid_temperature_control&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/pid_temperature_control&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/jiezhuonew/pid_temperature_control/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/pid_temperature_control&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/pid_temperature_control&query=$.license&label=license)
 
 **链接**：[pid_temperature_control: PID温控](https://gitee.com/jiezhuonew/pid_temperature_control)  
 **特征**：PID温度控制，很好的一个示例，通过这个可以把PID控制发散至其他领域。  

@@ -23,7 +23,7 @@
 
 ### ETP
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/timeslice-polling&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/timeslice-polling&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/timeslice-polling&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/ecbm/timeslice-polling/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/timeslice-polling&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/timeslice-polling&query=$.license&label=license)
 
 **链接**：[时间片轮询框架: 这是一个跨平台的 ETP（Ecbm-Timeslice-Polling）框架。本框架基于时间片轮询法，任务之间不具备有抢占性，优先级由安装任务的顺序决定。](https://gitee.com/ecbm/timeslice-polling)  
 **特征**：时间片轮询框架，旨在解耦主轮询中各个不同时间片的任务，属于最基础的轮询框架。  
@@ -34,7 +34,7 @@
 
 ### cotTask
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_task&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_task&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_task&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/cot_package/cot_task/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_task&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_task&query=$.license&label=license)
 
 **链接**：[cotTask: 嵌入式设备中使用定时器实现任务调度的模块组件代码](https://gitee.com/cot_package/cot_task)  
 **特征**：时间片轮询框架，初始化、启动和任务调度管理。  
@@ -49,7 +49,7 @@
 
 ### CodeBrick
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/CodeBrick&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/CodeBrick&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/CodeBrick&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/moluo-tech/CodeBrick/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/CodeBrick&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/CodeBrick&query=$.license&label=license)
 
 **链接**：[CodeBrick: 一种无 OS 的 MCU 实用软件管理系统，包括任务轮询框架，命令管理器、低功耗管理、环形缓冲区等实用模块。](https://gitee.com/moluo-tech/CodeBrick)  
 **特征**：时间片轮询框架，包括任务轮询管理，命令管理器、低功耗管理、环形缓冲区等实用模块，不带有驱动层。  
@@ -63,7 +63,7 @@
 
 ### vkern
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/vkern&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/vkern&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/vkern&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/Lamdonn/vkern/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/vkern&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/vkern&query=$.license&label=license)
 
 **链接**：[vkern: 简单的周期任务调度内核](https://gitee.com/Lamdonn/vkern)  
 **特征**：仿照 RTOS 架构编写的任务调度内核，其原理还是使用定时器创建前后台系统。  
@@ -74,7 +74,7 @@
 
 ### cola_os
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/schuck/cola_os&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/schuck/cola_os&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/schuck/cola_os&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/schuck/cola_os/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/schuck/cola_os&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/schuck/cola_os&query=$.license&label=license)
 
 **链接**：[cola_os: 300 行代码实现多任务管理的 OS，在很多 MCU 开发中，功能很简单，实时性要求不强，如果使用 RTOS 显得太浪费，任务多了管理不当又很乱，所以才会想起做一个轮询的任务管理。简单好用！CSDN:https://blog.csdn.net/ziqi5543/article/details/101512722](https://gitee.com/schuck/cola_os)  
 **特征**：前后台系统，包含（initcall 初始化机制、类 rt_thread 硬件抽象层、任务池和 Timer 池）。  
@@ -90,7 +90,7 @@
 
 ### JxOS
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jeremyceng/JxOS&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jeremyceng/JxOS&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jeremyceng/JxOS&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/jeremyceng/JxOS/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jeremyceng/JxOS&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jeremyceng/JxOS&query=$.license&label=license)
 
 **链接**：[JxOS: 面向 MCU 的小型前后台系统。此项目的设计思想是：功能模块与硬件高度解耦，提高代码模块的可复用性；不使用复杂的数据结构和语法以提高不同硬件平台和编译器之间的兼容性，实现工程在不同 MCU 之间的快速移植；提供实用稳定常用的功能模块，实现项目的快速开发；定义标准应用开发框架，减轻应用开发的工作量和难度。](https://gitee.com/jeremyceng/JxOS)  
 **特征**：前后台系统，没有复杂的注册与函数指针结构，提供系统内核功能：任务、事件、消息、公告板、邮箱、管道、注册、内存分配……  
@@ -104,7 +104,7 @@
 
 ### EventOS
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/eventos&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/eventos&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/eventos&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/event-os/eventos/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/eventos&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/eventos&query=$.license&label=license)
 
 **链接**：[eventos: 嵌入式开发框架，事件驱动，超级轻量。最低占用 ROM 1.5KB，RAM 172 字节。核心技术是事件总线，支持 Reactor 和状态机两种模式，协作式内核，极度可靠。可深度裁剪，移植方便。](https://gitee.com/event-os/eventos)  
 **特征**：事件驱动型的嵌入式系统，提供内核等功能。  
@@ -115,7 +115,7 @@
 
 ### BabyOS
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/notrynohigh/BabyOS&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/notrynohigh/BabyOS&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/notrynohigh/BabyOS&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/notrynohigh/BabyOS/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/notrynohigh/BabyOS&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/notrynohigh/BabyOS&query=$.license&label=license)
 
 **链接**：[BabyOS: 专为 MCU 项目开发提速的代码框架](https://gitee.com/notrynohigh/BabyOS)  
 **特征**：注册服务型框架，适用于裸机 MCU 项目，是一套管理功能模块和外设驱动的框架，拥有极明确的代码分层和代码规范，类 RTT 的“MenuConfig”终端配置，带有 PC 模拟。  
@@ -132,7 +132,7 @@
 
 ### cotOs
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_os&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_os&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_os&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/cot_package/cot_os/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_os&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_os&query=$.license&label=license)
 
 **链接**：[cotOs: 嵌入式设备中利用 setjmp/longjmp 实现一个简单的查询式协作多任务调度系统](https://gitee.com/cot_package/cot_os)  
 **特征**：简单的查询式协作多任务系统，无需使用定时器进行任务切换，就和 RTOS 创建任务一样，但没有提供其他功能。  
@@ -146,7 +146,7 @@
 
 ### BasicOS
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/basic-os&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/basic-os&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/basic-os&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/event-os/basic-os/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/basic-os&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/basic-os&query=$.license&label=license)
 
 **链接**：[basic-os: 支持共享任务栈的协作式内核，专门定位小 RAM 的 MCU，目前提供了共享栈任务调度和软定时器等基本功能。极度适合非硬实时且 RAM 资源紧张的小型单片机项目。](https://gitee.com/event-os/basic-os)  
 **特征**：极简的协作式系统，所有的任务共享一个任务栈，包含简单的内核功能组件等。  
@@ -231,7 +231,7 @@
 
 ### KLite
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/klite&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/klite&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/klite&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/kerndev/klite/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/klite&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/klite&query=$.license&label=license)
 
 **链接**：[KLite: 简洁易用的嵌入式操作系统内核。交流 QQ 群:317930646](https://gitee.com/kerndev/klite)  
 **特征**：最简洁易用的 RTOS，附带最基本实用的内核功能。  
@@ -411,7 +411,7 @@
 
 ### CosyOS
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cosyos/cosyos&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cosyos/cosyos&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cosyos/cosyos&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/cosyos/cosyos/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cosyos/cosyos&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cosyos/cosyos&query=$.license&label=license)
 
 **链接**：[CosyOS: CosyOS 是一款来自中国的开源实时操作系统，从经典的 8051 内核，到流行的 Arm Cortex-M 内核，均可实现全局不关总中断、零中断延迟，适用于对系统实时性及中断响应速度有较高要求的场合。QQ 交流群：303421780.](https://gitee.com/cosyos/cosyos)  
 **特征**：零中断延迟的操作系统，可实现全局不关总中断而保持实时性，包含很多创新实用的内核功能。  
@@ -468,7 +468,7 @@
 
 ### Huawei LiteOS
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/LiteOS/LiteOS&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/LiteOS/LiteOS&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/LiteOS/LiteOS&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/LiteOS/LiteOS/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/LiteOS/LiteOS&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/LiteOS/LiteOS&query=$.license&label=license)
 
 **链接**：[Huawei LiteOS: 轻量级操作系统，驱动万物感知 互联 智能](https://gitee.com/LiteOS)  
 **特征**：华为旗下针对物联网领域推出的轻量级物联网操作系统。  
@@ -488,7 +488,7 @@
 
 ### AliOS Things
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/alios-things-admin/AliOS-Things&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/alios-things-admin/AliOS-Things&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/alios-things-admin/AliOS-Things&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/alios-things-admin/AliOS-Things/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/alios-things-admin/AliOS-Things&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/alios-things-admin/AliOS-Things&query=$.license&label=license)
 
 **链接**：[AliOS Things: AliOS Things 是由开放原子开源基金会（OpenAtom Foundation）孵化及运营的开源项目，是面向开发者的新一代物联网操作系统。](https://gitee.com/alios-things)  
 **特征**：阿里旗下面向 IoT 领域的、高可伸缩的物联网操作系统。  
@@ -499,7 +499,7 @@
 
 ### TencentOS Tiny
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Tencent/TencentOS-tiny&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Tencent/TencentOS-tiny&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Tencent/TencentOS-tiny&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/Tencent/TencentOS-tiny/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Tencent/TencentOS-tiny&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Tencent/TencentOS-tiny&query=$.license&label=license)
 
 **链接**：[TencentOS-tiny: TencentOS tiny 是腾讯面向物联网领域开发的实时操作系统，具有低功耗，低资源占用，模块化，安全可靠等特点，可有效提升物联网终端产品开发效率](https://gitee.com/Tencent/TencentOS-tiny)  
 **特征**：是腾讯面向物联网领域开发的实时操作系统。  
@@ -519,7 +519,7 @@
 
 ### LuatOS
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/openLuat/LuatOS&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/openLuat/LuatOS&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/openLuat/LuatOS&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/openLuat/LuatOS/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/openLuat/LuatOS&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/openLuat/LuatOS&query=$.license&label=license)
 
 **链接**：[LuatOS 文档](https://wiki-zh.luatos.org)  
 **特征**：一款针对嵌入式的 Lua 脚本运行框架，包含了一个系统的功能体量。  

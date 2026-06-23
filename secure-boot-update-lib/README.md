@@ -104,7 +104,7 @@
 
 ### mOTA
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/DinoHaw/mOTA&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/DinoHaw/mOTA&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/DinoHaw/mOTA&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/DinoHaw/mOTA/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/DinoHaw/mOTA&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/DinoHaw/mOTA&query=$.license&label=license)
 
 **链接**：[mOTA: 一款专为 32 位 MCU 开发的 OTA 组件](https://gitee.com/DinoHaw/mOTA)  
 **特征**：专为 32 位 MCU 开发的升级组件，通过 YModem-1K 协议传输。  

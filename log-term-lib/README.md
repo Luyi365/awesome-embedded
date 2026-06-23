@@ -8,7 +8,7 @@
 
 ### dbuglib
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/git-lib/dbugLib-Prj&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/git-lib/dbugLib-Prj&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/git-lib/dbugLib-Prj&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/git-lib/dbugLib-Prj/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/git-lib/dbugLib-Prj&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/git-lib/dbugLib-Prj&query=$.license&label=license)
 
 **链接**：[dbugLib Prj: 可移植调试诊断库](https://gitee.com/git-lib/dbugLib-Prj)  
 **特征**：精小的的日志库，仅提供输出显示功能，可以修改日志的级别用于过滤特定级别的日志。  
@@ -45,7 +45,7 @@
 
 ### alog
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/nikolan/alog&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/nikolan/alog&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/nikolan/alog&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/nikolan/alog/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/nikolan/alog&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/nikolan/alog&query=$.license&label=license)
 
 **链接**：[alog: alog是一个非常精简的串口输出日志组件，类似easyloger，但是比easyloger更简单易用,只有2个实际不到百行的文件，实现了基本日志所需的全部功能。 需移植配置的接口选项少，实现了串口输出字符串就可以用了，没有C库以外的其他依赖。 没有存储日志相关的扩展的API，适合新手使用理解和在资源紧张的单片机上移植使用。](https://gitee.com/nikolan/alog)  
 **特征**：功能精简的输出日志组件，带颜色带互斥锁。  
@@ -70,7 +70,7 @@
 
 ### EasyLogger
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/EasyLogger&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/EasyLogger&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/EasyLogger&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/Armink/EasyLogger/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/EasyLogger&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/EasyLogger&query=$.license&label=license)
 
 **链接**：[EasyLogger: 一款超轻量级(ROM<1.6K, RAM<0.3k)、高性能的 C/C++ 日志库](https://gitee.com/Armink/EasyLogger)  
 **特征**：功能较全面的日志库，支持动态过滤和颜色选择，注重线程安全，且支持异步输出及缓冲输出模式。  
@@ -124,7 +124,7 @@
 
 ### debugcmd
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/mazcpnt/debugcmd&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/mazcpnt/debugcmd&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/mazcpnt/debugcmd&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/mazcpnt/debugcmd/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/mazcpnt/debugcmd&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/mazcpnt/debugcmd&query=$.license&label=license)
 
 **链接**：[debugcmd: 【稳定版】灵活好用的调试命令接口](https://gitee.com/mazcpnt/debugcmd)  
 **特征**：功能完善的命令行解析库，提供Tab补全、帮助查看、子命令注册等功能。  
@@ -146,7 +146,7 @@
 
 ### nr\_micro\_shell
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/nrush/nr_micro_shell&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/nrush/nr_micro_shell&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/nrush/nr_micro_shell&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/nrush/nr_micro_shell/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/nrush/nr_micro_shell&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/nrush/nr_micro_shell&query=$.license&label=license)
 
 **链接**：[nr_micro_shell: shell for MCU. 单片机命令行交互。](https://gitee.com/nrush/nr_micro_shell)  
 **特征**：标准的命令行交互库，提供 Tab 键命令补全，查询历史命令等功能，原生支持 ENV 工具使用。  
@@ -193,7 +193,7 @@
 
 ### easyShell
 
-![Gitee Repo stars](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/easyShell&query=$.stargazers_count&style=social&logo=gitee&label=Stars) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/easyShell&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/easyShell&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/gzbkey/easyShell/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/easyShell&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/easyShell&query=$.license&label=license)
 
 **链接**：[easyShell: A simple microcontroller shell.一个简单易用的单片机shell。](https://gitee.com/gzbkey/easyShell)  
 **特征**：简单易用的单片机shell，支持tab补全。  
