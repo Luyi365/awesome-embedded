@@ -6,7 +6,7 @@
 
 ### cotParam
 
-![Gitee Repo stars](https://gitee.com/cot_package/cot_param/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_param&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_param&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/cot_package/cot_param/badge/star.svg?theme=gvp)](https://gitee.com/cot_package/cot_param/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_param&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_param&query=$.license&label=license)]()
 
 **链接**：[cotParam: 轻量级参数管理框架(C 语言)](https://gitee.com/cot_package/cot_param)  
 **特征**：采用表驱动方式进行参数管理，包括缺省值、最小值和最大值等。  
@@ -22,7 +22,7 @@
 
 ### EasyFlash
 
-![Gitee Repo stars](https://gitee.com/Armink/EasyFlash/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/EasyFlash&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/EasyFlash&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/Armink/EasyFlash/badge/star.svg?theme=gvp)](https://gitee.com/Armink/EasyFlash/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/EasyFlash&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/EasyFlash&query=$.license&label=license)]()
 
 **链接**：[EasyFlash: 轻量级物联网设备信息存储方案，让 Flash 成为小型 KV 数据库。 全新一代版本请移步至 https://gitee.com/armink/FlashDB](https://gitee.com/Armink/EasyFlash)  
 **特征**：Key-Value 型简易数据库，主要提供：变量的 KV 配对，IAP 数据修改（可用于升级），log 存储等功能。  
@@ -35,7 +35,7 @@
 
 ### FlashDB
 
-![Gitee Repo stars](https://gitee.com/Armink/FlashDB/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/FlashDB&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/FlashDB&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/Armink/FlashDB/badge/star.svg?theme=gvp)](https://gitee.com/Armink/FlashDB/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/FlashDB&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/FlashDB&query=$.license&label=license)]()
 
 **链接**：[FlashDB: 一款支持 KV 数据和时序数据的超轻量级数据库](https://gitee.com/Armink/FlashDB)  
 **特征**：提供 KV 和 TS 两种数据库，比起 [EasyFlash](#easyflash) 更专注于数据库本身，而不提供过多的额外功能。  
@@ -49,7 +49,7 @@
 
 ### Nanopb
 
-![GitHub Repo stars](https://img.shields.io/github/stars/nanopb/nanopb) | ![GitHub last commit](https://img.shields.io/github/last-commit/nanopb/nanopb) | ![GitHub License](https://img.shields.io/github/license/nanopb/nanopb)
+[![GitHub Repo stars](https://img.shields.io/github/stars/nanopb/nanopb)](https://github.com/nanopb/nanopb/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/nanopb/nanopb)](https://github.com/nanopb/nanopb/commits) | [![GitHub License](https://img.shields.io/github/license/nanopb/nanopb)]()
 
 **链接**：[Nanopb - protocol buffers with small code size](https://jpa.kapsi.fi/nanopb/)  
 **特征**：轻量的、支持 C 语言的 Protobuf，Protobuf 是 Google 公司开发的一种数据格式。可用于数据存储、通信协议等方面，且不依赖于语言和平台，也就是说可以不同设备端进行数据通讯。  
@@ -81,7 +81,7 @@
 
 ### linq4c
 
-![GitHub Repo stars](https://img.shields.io/github/stars/haifenghuang/linq4c) | ![GitHub last commit](https://img.shields.io/github/last-commit/haifenghuang/linq4c) | ![GitHub License](https://img.shields.io/github/license/haifenghuang/linq4c)
+[![GitHub Repo stars](https://img.shields.io/github/stars/haifenghuang/linq4c)](https://github.com/haifenghuang/linq4c/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/haifenghuang/linq4c)](https://github.com/haifenghuang/linq4c/commits) | [![GitHub License](https://img.shields.io/github/license/haifenghuang/linq4c)]()
 
 **链接**：[haifenghuang/linq4c: LINQ for C(GroupBy, GroupJoin, Join, Take, Where, Select, etc)](https://github.com/haifenghuang/linq4c)  
 **特征**：在 C 语言里实现了 C# 的 linq 方法。  
@@ -94,7 +94,7 @@
 
 ### SQLite
 
-![License: SQLite](https://img.shields.io/badge/license-SQLite-blue.svg)
+[![License: SQLite](https://img.shields.io/badge/license-SQLite-blue.svg)]()
 
 **链接**：[SQLite Home Page](https://www.sqlite.org/)  
 **特征**：业界用的最多的嵌入式标准的数据库，使用 SQL 语法，可使用磁盘文件。  
@@ -130,7 +130,7 @@
 
 ### xprintf
 
-![License: xprintf](https://img.shields.io/badge/License-xprintf-blue.svg)
+[![License: xprintf](https://img.shields.io/badge/License-xprintf-blue.svg)]()
 
 **链接**：[ELM - Embedded String Functions](http://elm-chan.org/fsw/strf/xprintf.html)  
 **特征**：嵌入式字符串函数，代替不足以实现常规 printf 功能，可以动态的将字符串写入不同外设。  
@@ -141,7 +141,7 @@
 
 ### CMSIS-Stream
 
-![GitHub Repo stars](https://img.shields.io/github/stars/ARM-software/CMSIS-Stream) | ![GitHub last commit](https://img.shields.io/github/last-commit/ARM-software/CMSIS-Stream) | ![GitHub License](https://img.shields.io/github/license/ARM-software/CMSIS-Stream)
+[![GitHub Repo stars](https://img.shields.io/github/stars/ARM-software/CMSIS-Stream)](https://github.com/ARM-software/CMSIS-Stream/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ARM-software/CMSIS-Stream)](https://github.com/ARM-software/CMSIS-Stream/commits) | [![GitHub License](https://img.shields.io/github/license/ARM-software/CMSIS-Stream)]()
 
 **链接**：[ARM-software/CMSIS-Stream: CMSIS-Stream software component](https://github.com/ARM-software/CMSIS-Stream)  
 **特征**：ARM 官方出品的数据流处理组件，提供图形表示，需要 Python 和 C++ 联合完成。  
@@ -156,7 +156,7 @@
 
 ### lz4
 
-![GitHub Repo stars](https://img.shields.io/github/stars/lz4/lz4) | ![GitHub last commit](https://img.shields.io/github/last-commit/lz4/lz4) | ![GitHub License](https://img.shields.io/github/license/lz4/lz4)
+[![GitHub Repo stars](https://img.shields.io/github/stars/lz4/lz4)](https://github.com/lz4/lz4/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/lz4/lz4)](https://github.com/lz4/lz4/commits) | [![GitHub License](https://img.shields.io/github/license/lz4/lz4)]()
 
 **链接**：[LZ4 - Extremely fast compression](https://lz4.org/)  
 **特征**：极快的无损压缩算法库，适合通信时的数据压缩。  
@@ -167,7 +167,7 @@
 
 ### heatshrink
 
-![GitHub Repo stars](https://img.shields.io/github/stars/atomicobject/heatshrink) | ![GitHub last commit](https://img.shields.io/github/last-commit/atomicobject/heatshrink) | ![GitHub License](https://img.shields.io/github/license/atomicobject/heatshrink)
+[![GitHub Repo stars](https://img.shields.io/github/stars/atomicobject/heatshrink)](https://github.com/atomicobject/heatshrink/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/atomicobject/heatshrink)](https://github.com/atomicobject/heatshrink/commits) | [![GitHub License](https://img.shields.io/github/license/atomicobject/heatshrink)]()
 
 **链接**：[atomicobject/heatshrink: data compression library for embedded/real-time systems](https://github.com/atomicobject/heatshrink)  
 **特征**：超低资源消耗的嵌入式解压缩库。相关文档较少。  
@@ -180,7 +180,7 @@
 
 ### TJpgDec
 
-![License: TJpgDec](https://img.shields.io/badge/License-TJpgDec-blue.svg)
+[![License: TJpgDec](https://img.shields.io/badge/License-TJpgDec-blue.svg)]()
 
 **链接**：[TJpgDec - Tiny JPEG Decompressor](http://elm-chan.org/fsw/tjpgd/00index.html)  
 **特征**：针对嵌入式系统优化的 JPEG 图像解压缩模块。  
@@ -193,7 +193,7 @@
 
 ## URL
 
-![Gitee Repo stars](https://gitee.com/yikoulinux/url/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yikoulinux/url&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yikoulinux/url&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/yikoulinux/url/badge/star.svg?theme=gvp)](https://gitee.com/yikoulinux/url/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yikoulinux/url&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yikoulinux/url&query=$.license&label=license)]()
 
 ### <a name="url-project"></a>url
 
@@ -210,7 +210,7 @@
 
 ### tinyssh
 
-![GitHub Repo stars](https://img.shields.io/github/stars/janmojzis/tinyssh) | ![GitHub last commit](https://img.shields.io/github/last-commit/janmojzis/tinyssh) | ![GitHub License](https://img.shields.io/github/license/janmojzis/tinyssh)
+[![GitHub Repo stars](https://img.shields.io/github/stars/janmojzis/tinyssh)](https://github.com/janmojzis/tinyssh/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/janmojzis/tinyssh)](https://github.com/janmojzis/tinyssh/commits) | [![GitHub License](https://img.shields.io/github/license/janmojzis/tinyssh)]()
 
 **链接**：[janmojzis/tinyssh：TinySSH 是小型服务器（少于 100000 字代码）](https://github.com/janmojzis/tinyssh)  
 **特征**：一个简约的 SSH 服务器，它只实现了 SSHv2 功能的子集，适合嵌入式使用。  
@@ -223,7 +223,7 @@
 
 ### Paho MQTT
 
-![GitHub Repo stars](https://img.shields.io/github/stars/eclipse-paho/paho.mqtt.embedded-c) | ![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-paho/paho.mqtt.embedded-c) | ![GitHub License](https://img.shields.io/github/license/eclipse-paho/paho.mqtt.embedded-c)
+[![GitHub Repo stars](https://img.shields.io/github/stars/eclipse-paho/paho.mqtt.embedded-c)](https://github.com/eclipse-paho/paho.mqtt.embedded-c/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-paho/paho.mqtt.embedded-c)](https://github.com/eclipse-paho/paho.mqtt.embedded-c/commits) | [![GitHub License](https://img.shields.io/github/license/eclipse-paho/paho.mqtt.embedded-c)]()
 
 **链接**：[eclipse/paho.mqtt.embedded-c: Paho MQTT C client library for embedded systems. Paho is an Eclipse IoT project](https://github.com/eclipse-paho/paho.mqtt.embedded-c)  
 **特征**：嵌入式平台的 MQTT 客户端库。  
@@ -234,7 +234,7 @@
 
 ### mqttclient
 
-![GitHub Repo stars](https://img.shields.io/github/stars/IoTSharp/mqttclient) | ![GitHub last commit](https://img.shields.io/github/last-commit/IoTSharp/mqttclient) | ![GitHub License](https://img.shields.io/github/license/IoTSharp/mqttclient)
+[![GitHub Repo stars](https://img.shields.io/github/stars/IoTSharp/mqttclient)](https://github.com/IoTSharp/mqttclient/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/IoTSharp/mqttclient)](https://github.com/IoTSharp/mqttclient/commits) | [![GitHub License](https://img.shields.io/github/license/IoTSharp/mqttclient)]()
 
 **链接**：[jiejieTop/mqttclient: A high-performance, high-stability, cross-platform MQTT client, developed based on the socket API, can be used on embedded devices (FreeRTOS / LiteOS / RT-Thread / TencentOS tiny), Linux, Windows, Mac, with a very concise The API interface realizes the quality of service of QOS2 with very few resources, and seamlessly connects the mbedtls encryption library.](https://github.com/IoTSharp/mqttclient)  
 **特征**：高性能、高稳定性的跨平台 MQTT 客户端，拥有简洁的 API，无缝衔接 [Mbed TLS](../secure-boot-update-lib/README.md#mbed-tls) 库，提供在线代码生成工具。  
@@ -245,7 +245,7 @@
 
 ### Mosquitto
 
-![GitHub Repo stars](https://img.shields.io/github/stars/eclipse-mosquitto/mosquitto) | ![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-mosquitto/mosquitto) | ![GitHub License](https://img.shields.io/github/license/eclipse-mosquitto/mosquitto)
+[![GitHub Repo stars](https://img.shields.io/github/stars/eclipse-mosquitto/mosquitto)](https://github.com/eclipse-mosquitto/mosquitto/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-mosquitto/mosquitto)](https://github.com/eclipse-mosquitto/mosquitto/commits) | [![GitHub License](https://img.shields.io/github/license/eclipse-mosquitto/mosquitto)]()
 
 **链接**：[Eclipse Mosquitto](https://mosquitto.org/)  
 **特征**：Eclipse 旗下的一个开源的消息代理（broker），主要用于实现 MQTT 协议。它设计轻巧，资源占用少，适合物联网领域的企业级项目。  
@@ -258,7 +258,7 @@
 
 ### AT Command
 
-![Gitee Repo stars](https://gitee.com/moluo-tech/AT-Command/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/AT-Command&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/AT-Command&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/moluo-tech/AT-Command/badge/star.svg?theme=gvp)](https://gitee.com/moluo-tech/AT-Command/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/AT-Command&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/AT-Command&query=$.license&label=license)]()
 
 **链接**：[AT Command: 一款管理 AT 命令通信交互组件， 适用于 Modem、WIFI 模块、蓝牙等使用 AT 命令或者 ASCII 命令行通信的场景。](https://gitee.com/moluo-tech/AT-Command)  
 **特征**：AT 命令通信解析模块，适用于 Modem、WIFI 模块、蓝牙等使用 AT 命令或者 ASCII 命令行通信的场景。  
@@ -272,7 +272,7 @@
 
 ### Xradio\_atcmd
 
-![GitHub Repo stars](https://img.shields.io/github/stars/XradioTech/xradio-skylark-sdk) | ![GitHub last commit](https://img.shields.io/github/last-commit/XradioTech/xradio-skylark-sdk?path=src%2Fatcmd) | ![GitHub License](https://img.shields.io/github/license/XradioTech/xradio-skylark-sdk)
+[![GitHub Repo stars](https://img.shields.io/github/stars/XradioTech/xradio-skylark-sdk)](https://github.com/XradioTech/xradio-skylark-sdk/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/XradioTech/xradio-skylark-sdk?path=src/atcmd)](https://github.com/XradioTech/xradio-skylark-sdk/commits/master/src/atcmd) | [![GitHub License](https://img.shields.io/github/license/XradioTech/xradio-skylark-sdk)]()
 
 **链接**：[xradio-skylark-sdk/src/atcmd at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/src/atcmd)、[xradio-skylark-sdk/include/atcmd at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/include/atcmd)  
 **特征**：Xradio SDK 里提取的 AT 命令解析库，命令实例丰富，基于 RTOS。  
@@ -294,7 +294,7 @@
 
 ### <a name="base64-project1"></a>base64
 
-![Gitee Repo stars](https://gitee.com/ylguo/base64/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ylguo/base64&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ylguo/base64&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/ylguo/base64/badge/star.svg?theme=gvp)](https://gitee.com/ylguo/base64/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ylguo/base64&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ylguo/base64&query=$.license&label=license)]()
 
 **链接**：[base64: c 语言版 base64 编解码算法实现](https://gitee.com/ylguo/base64)  
 **特征**：极简单的 base64 编解码库。  
@@ -305,7 +305,7 @@
 
 ### <a name="base64-project2"></a>base64
 
-![GitHub Repo stars](https://img.shields.io/github/stars/aklomp/base64) | ![GitHub last commit](https://img.shields.io/github/last-commit/aklomp/base64) | ![GitHub License](https://img.shields.io/github/license/aklomp/base64)
+[![GitHub Repo stars](https://img.shields.io/github/stars/aklomp/base64)](https://github.com/aklomp/base64/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/aklomp/base64)](https://github.com/aklomp/base64/commits) | [![GitHub License](https://img.shields.io/github/license/aklomp/base64)]()
 
 **链接**：[aklomp/base64: Fast Base64 stream encoder/decoder in C99, with SIMD acceleration](https://github.com/aklomp/base64)  
 **特征**：支持 SIMD 和 OpenMP 加速的 base64 编解码库，不使用动态内存，注重线程安全。  
@@ -318,7 +318,7 @@
 
 ### MiniCSV
 
-![GitHub Repo stars](https://img.shields.io/github/stars/jedisct1/minicsv) | ![GitHub last commit](https://img.shields.io/github/last-commit/jedisct1/minicsv) | ![GitHub License](https://img.shields.io/github/license/jedisct1/minicsv)
+[![GitHub Repo stars](https://img.shields.io/github/stars/jedisct1/minicsv)](https://github.com/jedisct1/minicsv/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/jedisct1/minicsv)](https://github.com/jedisct1/minicsv/commits) | [![GitHub License](https://img.shields.io/github/license/jedisct1/minicsv)]()
 
 **链接**：[jedisct1/minicsv: A tiny, fast, simple, single-file, BSD-licensed CSV parsing library in C.](https://github.com/jedisct1/minicsv)  
 **特征**：极简的 CSV 解析库，能够解决多行、转义行、转义列中的转义字符、空行、列数可变的行、Windows 或 Unix 风格的行结尾等问题。  
@@ -333,7 +333,7 @@
 
 ### CRStrLib
 
-![GitHub Repo stars](https://img.shields.io/github/stars/mushroom-x/CRStrLib) | ![GitHub last commit](https://img.shields.io/github/last-commit/mushroom-x/CRStrLib) | ![GitHub License](https://img.shields.io/github/license/mushroom-x/CRStrLib)
+[![GitHub Repo stars](https://img.shields.io/github/stars/mushroom-x/CRStrLib)](https://github.com/mushroom-x/CRStrLib/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/mushroom-x/CRStrLib)](https://github.com/mushroom-x/CRStrLib/commits) | [![GitHub License](https://img.shields.io/github/license/mushroom-x/CRStrLib)]()
 
 **链接**：[mushroom-x/CRStrLib: 此工程主要用于 C 语言解析 csv 格式/其他格式的字符串， 提取数值，帧头帧尾校验。 可以加入到单片机工程或者添加到 Arduino 的库函数中。](https://github.com/mushroom-x/CRStrLib)  
 **特征**：解析 csv 格式/其他格式的字符串， 提取数值，帧头帧尾校验。  
@@ -344,7 +344,7 @@
 
 ### fast-cpp-csv-parser
 
-![GitHub Repo stars](https://img.shields.io/github/stars/ben-strasser/fast-cpp-csv-parser) | ![GitHub last commit](https://img.shields.io/github/last-commit/ben-strasser/fast-cpp-csv-parser) | ![GitHub License](https://img.shields.io/github/license/ben-strasser/fast-cpp-csv-parser)
+[![GitHub Repo stars](https://img.shields.io/github/stars/ben-strasser/fast-cpp-csv-parser)](https://github.com/ben-strasser/fast-cpp-csv-parser/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ben-strasser/fast-cpp-csv-parser)](https://github.com/ben-strasser/fast-cpp-csv-parser/commits) | [![GitHub License](https://img.shields.io/github/license/ben-strasser/fast-cpp-csv-parser)]()
 
 **链接**：[ben-strasser/fast-cpp-csv-parser: fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser)  
 **特征**：基于 C++ 的 CSV 解析器，小型、易于使用且快速的仅标头库。  
@@ -359,7 +359,7 @@
 
 ### libinimini
 
-![GitHub Repo stars](https://img.shields.io/github/stars/lovemengx/libinimini) | ![GitHub last commit](https://img.shields.io/github/last-commit/lovemengx/libinimini) | ![GitHub License](https://img.shields.io/github/license/lovemengx/libinimini)
+[![GitHub Repo stars](https://img.shields.io/github/stars/lovemengx/libinimini)](https://github.com/lovemengx/libinimini/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/lovemengx/libinimini)](https://github.com/lovemengx/libinimini/commits) | [![GitHub License](https://img.shields.io/github/license/lovemengx/libinimini)]()
 
 **链接**：[lovemengx/libinimini: ini 极简解析库，适用于 Android、Linux、Rtos 以及单片机](https://github.com/lovemengx/libinimini)  
 **特征**：适用单片机的 ini 极简解析库，内存空间占用可控。最简单的键值配对文件格式。  
@@ -370,7 +370,7 @@
 
 ### inih
 
-![GitHub Repo stars](https://img.shields.io/github/stars/benhoyt/inih) | ![GitHub last commit](https://img.shields.io/github/last-commit/benhoyt/inih) | ![GitHub License](https://img.shields.io/github/license/benhoyt/inih)
+[![GitHub Repo stars](https://img.shields.io/github/stars/benhoyt/inih)](https://github.com/benhoyt/inih/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/benhoyt/inih)](https://github.com/benhoyt/inih/commits) | [![GitHub License](https://img.shields.io/github/license/benhoyt/inih)]()
 
 **链接**：[benhoyt/inih: Simple .INI file parser in C, good for embedded systems](https://github.com/benhoyt/inih)  
 **特征**：基于 C 编写的 ini 解析库，适合嵌入式系统。带有语法与解析选项。  
@@ -383,7 +383,7 @@
 
 ### iniparser
 
-![GitHub Repo stars](https://img.shields.io/github/stars/ndevilla/iniparser) | ![GitHub last commit](https://img.shields.io/github/last-commit/ndevilla/iniparser) | ![GitHub License](https://img.shields.io/github/license/ndevilla/iniparser)
+[![GitHub Repo stars](https://img.shields.io/github/stars/ndevilla/iniparser)](https://github.com/ndevilla/iniparser/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ndevilla/iniparser)](https://github.com/ndevilla/iniparser/commits) | [![GitHub License](https://img.shields.io/github/license/ndevilla/iniparser)]()
 
 **链接**：[ndevilla/iniparser: ini file parser](https://github.com/ndevilla/iniparser)  
 **特征**：基于 C 编写的 ini 解析库，可移植嵌入式系统，注重线程安全。  
@@ -411,7 +411,7 @@
 
 ### <a name="tlv-project"></a>tlv
 
-![GitHub Repo stars](https://img.shields.io/github/stars/skullboyer/TLV) | ![GitHub last commit](https://img.shields.io/github/last-commit/skullboyer/TLV) | ![GitHub License](https://img.shields.io/github/license/skullboyer/TLV)
+[![GitHub Repo stars](https://img.shields.io/github/stars/skullboyer/TLV)](https://github.com/skullboyer/TLV/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/skullboyer/TLV)](https://github.com/skullboyer/TLV/commits) | [![GitHub License](https://img.shields.io/github/license/skullboyer/TLV)]()
 
 **链接**：[skullboyer/TLV](https://github.com/skullboyer/TLV)  
 **特征**：TLV 格式编码实现。  
@@ -428,7 +428,7 @@
 
 ### cJSON
 
-![GitHub Repo stars](https://img.shields.io/github/stars/DaveGamble/cJSON) | ![GitHub last commit](https://img.shields.io/github/last-commit/DaveGamble/cJSON) | ![GitHub License](https://img.shields.io/github/license/DaveGamble/cJSON)
+[![GitHub Repo stars](https://img.shields.io/github/stars/DaveGamble/cJSON)](https://github.com/DaveGamble/cJSON/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/DaveGamble/cJSON)](https://github.com/DaveGamble/cJSON/commits) | [![GitHub License](https://img.shields.io/github/license/DaveGamble/cJSON)]()
 
 **链接**：[DaveGamble/cJSON: Ultralightweight JSON parser in ANSI C](https://github.com/DaveGamble/cJSON)  
 **特征**：ANSI C 中的超轻量级 JSON 解析器，也是最原生的 JSON 解析库，用起来会有点麻烦，不太推荐直接使用。  
@@ -444,7 +444,7 @@
 
 ### struct2json
 
-![Gitee Repo stars](https://gitee.com/Armink/struct2json/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/struct2json&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/struct2json&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/Armink/struct2json/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/struct2json&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/struct2json&query=$.license&label=license)
 
 **链接**：[struct2json: C 结构体与 JSON 快速互转库，快速实现 C 结构体的序列化及反序列化](https://gitee.com/Armink/struct2json)  
 **特征**：基于 [cJSON](#cjson)，超简便的 C 结构体与 JSON 快速互转库。  
@@ -455,7 +455,7 @@
 
 ### cson
 
-![GitHub Repo stars](https://img.shields.io/github/stars/NevermindZZT/cson) | ![GitHub last commit](https://img.shields.io/github/last-commit/NevermindZZT/cson) | ![GitHub License](https://img.shields.io/github/license/NevermindZZT/cson)
+[![GitHub Repo stars](https://img.shields.io/github/stars/NevermindZZT/cson)](https://github.com/NevermindZZT/cson/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/NevermindZZT/cson)](https://github.com/NevermindZZT/cson/commits) | [![GitHub License](https://img.shields.io/github/license/NevermindZZT/cson)]()
 
 **链接**：[NevermindZZT/cson: 基于 C 语言的 json 数据映射解析库](https://github.com/NevermindZZT/cson)  
 **特征**：基于 [cJSON](#cjson)，运行于 C 语言平台的 json-struct 模型解析工具。使 JSON 解析更加方便。  
@@ -466,7 +466,7 @@
 
 ### <a name="json-project"></a>json
 
-![Gitee Repo stars](https://gitee.com/Lamdonn/json/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/json&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/json&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/Lamdonn/json/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/json&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/json&query=$.license&label=license)
 
 **链接**：[json: C 语言 json 解释器，简洁高效，灵活安全](https://gitee.com/Lamdonn/json)  
 **特征**：简单高效的 C 语言 json 生成和解析库，适合简单项目的使用。  
@@ -477,7 +477,7 @@
 
 ### JSMN
 
-![GitHub Repo stars](https://img.shields.io/github/stars/zserge/jsmn) | ![GitHub last commit](https://img.shields.io/github/last-commit/zserge/jsmn) | ![GitHub License](https://img.shields.io/github/license/zserge/jsmn)
+[![GitHub Repo stars](https://img.shields.io/github/stars/zserge/jsmn)](https://github.com/zserge/jsmn/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/zserge/jsmn)](https://github.com/zserge/jsmn/commits) | [![GitHub License](https://img.shields.io/github/license/zserge/jsmn)]()
 
 **链接**：[zserge/jsmn: Jsmn is a world fastest JSON parser/tokenizer. This is the official repo replacing the old one at Bitbucket](https://github.com/zserge/jsmn)  
 **特征**：超简约、极快的 JSON 解析器，无动态内存分配，无解析纠正。  
@@ -491,7 +491,7 @@
 
 ### lwjson
 
-![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwjson) | ![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwjson) | ![GitHub License](https://img.shields.io/github/license/MaJerle/lwjson)
+[![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwjson)](https://github.com/MaJerle/lwjson/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwjson)](https://github.com/MaJerle/lwjson/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwjson)]()
 
 **链接**：[LwJSON latest-develop documentation — LwJSON documentation](https://docs.majerle.eu/projects/lwjson/en/latest/)  
 **特征**：针对嵌入式系统优化的通用 JSON 解析器库。  
@@ -504,7 +504,7 @@
 
 ### MojoJson
 
-![GitHub Repo stars](https://img.shields.io/github/stars/scottcgi/MojoJson) | ![GitHub last commit](https://img.shields.io/github/last-commit/scottcgi/MojoJson) | ![GitHub License](https://img.shields.io/github/license/scottcgi/MojoJson)
+[![GitHub Repo stars](https://img.shields.io/github/stars/scottcgi/MojoJson)](https://github.com/scottcgi/MojoJson/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/scottcgi/MojoJson)](https://github.com/scottcgi/MojoJson/commits) | [![GitHub License](https://img.shields.io/github/license/scottcgi/MojoJson)]()
 
 **链接**：[scottcgi/MojoJson: A simple and fast JSON parser.](https://github.com/scottcgi/MojoJson)  
 **特征**：通用的 JSON 解析库，采用面向对象的思想实现，提供 C 语言版本。  
@@ -517,7 +517,7 @@
 
 ### LJSON
 
-![Gitee Repo stars](https://gitee.com/lengjingzju/json/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/lengjingzju/json&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/lengjingzju/json&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/lengjingzju/json/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/lengjingzju/json&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/lengjingzju/json&query=$.license&label=license)
 
 **链接**：[json: LJSON 是一个远远快于 cJSON(最快可达 20 倍)、大幅度快于 RapidJSON (最快可达 1 倍)的 C 实现的 JSON 库，他是目前最快的通用 JSON 库。 LJSON 支持 JSON 的解析、打印、编辑，提供 DOM 和 SAX 接口，I/O 支持字符串和文件，且完全支持 nativejson-benchmark 的测试用例。](https://gitee.com/lengjingzju/json)  
 **特征**：号称最快的 JSON 解析库，功能极为强大，几乎覆盖了 JSON 解析的所有需要。  
@@ -528,7 +528,7 @@
 
 ### json-parser
 
-![GitHub Repo stars](https://img.shields.io/github/stars/Barenboim/json-parser) | ![GitHub last commit](https://img.shields.io/github/last-commit/Barenboim/json-parser) | ![GitHub License](https://img.shields.io/github/license/Barenboim/json-parser)
+[![GitHub Repo stars](https://img.shields.io/github/stars/Barenboim/json-parser)](https://github.com/Barenboim/json-parser/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Barenboim/json-parser)](https://github.com/Barenboim/json-parser/commits) | [![GitHub License](https://img.shields.io/github/license/Barenboim/json-parser)]()
 
 **链接**：[Barenboim/json-parser: JSON parser in standard C](https://github.com/Barenboim/json-parser)  
 **C++ 版**：[wfrest/Json: c++ Json library](https://github.com/wfrest/Json)  
@@ -540,7 +540,7 @@
 
 ### Frozen
 
-![GitHub Repo stars](https://img.shields.io/github/stars/cesanta/frozen) | ![GitHub last commit](https://img.shields.io/github/last-commit/cesanta/frozen) | ![GitHub License](https://img.shields.io/github/license/cesanta/frozen)
+[![GitHub Repo stars](https://img.shields.io/github/stars/cesanta/frozen)](https://github.com/cesanta/frozen/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cesanta/frozen)](https://github.com/cesanta/frozen/commits) | [![GitHub License](https://img.shields.io/github/license/cesanta/frozen)]()
 
 **链接**：[cesanta/frozen: JSON parser and generator for C/C++ with scanf/printf like interface. Targeting embedded systems.](https://github.com/cesanta/frozen)  
 **特征**：类似 scanf/printf 的 JSON 解析和生成库，内置 base64 编码器和二进制数据解码器。  
@@ -551,7 +551,7 @@
 
 ### sj.h
 
-![GitHub Repo stars](https://img.shields.io/github/stars/rxi/sj.h) | ![GitHub last commit](https://img.shields.io/github/last-commit/rxi/sj.h) | ![GitHub License](https://img.shields.io/github/license/rxi/sj.h)
+[![GitHub Repo stars](https://img.shields.io/github/stars/rxi/sj.h)](https://github.com/rxi/sj.h/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/rxi/sj.h)](https://github.com/rxi/sj.h/commits) | [![GitHub License](https://img.shields.io/github/license/rxi/sj.h)]()
 
 **链接**：[GitHub - rxi/sj.h: A tiny little JSON parsing library](https://github.com/rxi/sj.h)  
 **特征**：极简的 C 语言 JSON 解析库，采用零拷贝策略，直接在原数据上解析。  
@@ -564,7 +564,7 @@
 
 ### simple\_xml
 
-![Gitee Repo stars](https://gitee.com/xfwangqiang/simple_xml/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/xfwangqiang/simple_xml&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/xfwangqiang/simple_xml&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/xfwangqiang/simple_xml/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/xfwangqiang/simple_xml&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/xfwangqiang/simple_xml&query=$.license&label=license)
 
 **链接**：[simple_xml: 基于 C 语言的 XML 解析器，已有的一些开源解析器都与操作系统相关，对于一些并不主流的操作系统以及嵌入式操作系统，想应用 XML 文件，就显得比较困难。开发本项目的目的在于开发一个能在多平台应用的代码](https://gitee.com/xfwangqiang/simple_xml)  
 **特征**：XML 解析库，具有完备的功能，支持双向解析。  
@@ -575,7 +575,7 @@
 
 ### TinyXML-2
 
-![GitHub Repo stars](https://img.shields.io/github/stars/leethomason/tinyxml2) | ![GitHub last commit](https://img.shields.io/github/last-commit/leethomason/tinyxml2) | ![GitHub License](https://img.shields.io/github/license/leethomason/tinyxml2)
+[![GitHub Repo stars](https://img.shields.io/github/stars/leethomason/tinyxml2)](https://github.com/leethomason/tinyxml2/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/leethomason/tinyxml2)](https://github.com/leethomason/tinyxml2/commits) | [![GitHub License](https://img.shields.io/github/license/leethomason/tinyxml2)]()
 
 **链接**：[leethomason/tinyxml2: TinyXML2 is a simple, small, efficient, C++ XML parser that can be easily integrated into other programs.](https://github.com/leethomason/tinyxml2)  
 **特征**：基于 C++ 的 XML 解析库，它使用文档对象模型（DOM），可以很方便的将 XML 和 C++ 对象互相加息转换。  
@@ -599,7 +599,7 @@
 
 ### LwPKT
 
-![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwpkt) | ![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwpkt) | ![GitHub License](https://img.shields.io/github/license/MaJerle/lwpkt)
+[![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwpkt)](https://github.com/MaJerle/lwpkt/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwpkt)](https://github.com/MaJerle/lwpkt/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwpkt)]()
 
 **链接**：[LwPKT latest-develop documentation — LwPKT documentation](https://docs.majerle.eu/projects/lwpkt/en/latest/)  
 **特征**：通用数据包协议库，可变数据长度，支持理论上无限的数据包长度，允许在网络中使用发件人地址和收件人地址进行多个注释，附带 CRC 检验。  
@@ -613,7 +613,7 @@
 
 ### xpack
 
-![GitHub Repo stars](https://img.shields.io/github/stars/xyz347/xpack) | ![GitHub last commit](https://img.shields.io/github/last-commit/xyz347/xpack) | ![GitHub License](https://img.shields.io/github/license/xyz347/xpack)
+[![GitHub Repo stars](https://img.shields.io/github/stars/xyz347/xpack)](https://github.com/xyz347/xpack/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/xyz347/xpack)](https://github.com/xyz347/xpack/commits) | [![GitHub License](https://img.shields.io/github/license/xyz347/xpack)]()
 
 **链接**：[xyz347/xpack: convert json/xml/bson to c++ struct](https://github.com/xyz347/xpack)  
 **特征**：用于在 C++ 结构体和 json/xml/yaml/bson/mysql/sqlite 之间互相转换，仅有头文件。  
@@ -624,7 +624,7 @@
 
 ### ESSL
 
-![GitHub Repo stars](https://img.shields.io/github/stars/espressif/idf-extra-components) | ![GitHub last commit](https://img.shields.io/github/last-commit/espressif/idf-extra-components?path=esp_serial_slave_link) | ![GitHub License](https://img.shields.io/github/license/espressif/idf-extra-components)
+[![GitHub Repo stars](https://img.shields.io/github/stars/espressif/idf-extra-components)](https://github.com/espressif/idf-extra-components/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/espressif/idf-extra-components?path=esp_serial_slave_link)](https://github.com/espressif/idf-extra-components/commits?path=esp_serial_slave_link) | [![GitHub License](https://img.shields.io/github/license/espressif/idf-extra-components)]()
 
 **链接**：[idf-extra-components/esp_serial_slave_link at master · espressif/idf-extra-components](https://github.com/espressif/idf-extra-components/tree/master/esp_serial_slave_link)  
 **特征**：ESP 旗下的串行从机链路，该组件能让主机通过总线驱动和相应的协议与从机进行通信。也可以说就是双 mcu 通讯，只是在上面套了一层壳。  
@@ -635,7 +635,7 @@
 
 ### Uart\_Transfer\_BIN\_to\_exFlash
 
-![GitHub Repo stars](https://img.shields.io/github/stars/firestaradmin/Uart_Transfer_BIN_to_exFlash) | ![GitHub last commit](https://img.shields.io/github/last-commit/firestaradmin/Uart_Transfer_BIN_to_exFlash) | ![GitHub License](https://img.shields.io/github/license/firestaradmin/Uart_Transfer_BIN_to_exFlash)
+[![GitHub Repo stars](https://img.shields.io/github/stars/firestaradmin/Uart_Transfer_BIN_to_exFlash)](https://github.com/firestaradmin/Uart_Transfer_BIN_to_exFlash/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/firestaradmin/Uart_Transfer_BIN_to_exFlash)](https://github.com/firestaradmin/Uart_Transfer_BIN_to_exFlash/commits) | [![GitHub License](https://img.shields.io/github/license/firestaradmin/Uart_Transfer_BIN_to_exFlash)]()
 
 **链接**：[firestaradmin/Uart_Transfer_BIN_to_exFlash: STM32 串口烧录 BIN 文件、字库文件【QT 上位机】](https://github.com/firestaradmin/Uart_Transfer_BIN_to_exFlash)  
 **特征**：基于串口通讯，增加帧属性，从而方便、可靠的将数据传输到 Flash 中。  
@@ -646,7 +646,7 @@
 
 ### SACP
 
-![GitHub Repo stars](https://img.shields.io/github/stars/Snapmaker/SnapmakerController-IDEX) | ![GitHub last commit](https://img.shields.io/github/last-commit/Snapmaker/SnapmakerController-IDEX?path=snapmaker%2Fprotocol) | ![GitHub License](https://img.shields.io/github/license/Snapmaker/SnapmakerController-IDEX)
+[![GitHub Repo stars](https://img.shields.io/github/stars/Snapmaker/SnapmakerController-IDEX)](https://github.com/Snapmaker/SnapmakerController-IDEX/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Snapmaker/SnapmakerController-IDEX?path=snapmaker/protocol)](https://github.com/Snapmaker/SnapmakerController-IDEX/commits?path=snapmaker/protocol) | [![GitHub License](https://img.shields.io/github/license/Snapmaker/SnapmakerController-IDEX)]()
 
 **链接**：[SnapmakerController-IDEX/snapmaker/protocol at main · Snapmaker/SnapmakerController-IDEX](https://github.com/Snapmaker/SnapmakerController-IDEX/tree/main/snapmaker/protocol)  
 **特征**：是 Snapmaker 设备的数据通信协议，基于 C++ 的专用于整机多设备的设备间通信。  
@@ -660,7 +660,7 @@
 
 ### rtty
 
-![GitHub Repo stars](https://img.shields.io/github/stars/zhaojh329/rtty) | ![GitHub last commit](https://img.shields.io/github/last-commit/zhaojh329/rtty) | ![GitHub License](https://img.shields.io/github/license/zhaojh329/rtty)
+[![GitHub Repo stars](https://img.shields.io/github/stars/zhaojh329/rtty)](https://github.com/zhaojh329/rtty/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/zhaojh329/rtty)](https://github.com/zhaojh329/rtty/commits) | [![GitHub License](https://img.shields.io/github/license/zhaojh329/rtty)]()
 
 **链接**：[zhaojh329/rtty: 🐛 Access your terminal from anywhere via the web.](https://github.com/zhaojh329/rtty)  
 **特征**：通过 Web 访问设备的终端，适合嵌入式 Linux，有点意思。  
@@ -671,7 +671,7 @@
 
 ### Nanomsg
 
-![GitHub Repo stars](https://img.shields.io/github/stars/nanomsg/nanomsg) | ![GitHub last commit](https://img.shields.io/github/last-commit/nanomsg/nanomsg) | ![GitHub License](https://img.shields.io/github/license/nanomsg/nanomsg)
+[![GitHub Repo stars](https://img.shields.io/github/stars/nanomsg/nanomsg)](https://github.com/nanomsg/nanomsg/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/nanomsg/nanomsg)](https://github.com/nanomsg/nanomsg/commits) | [![GitHub License](https://img.shields.io/github/license/nanomsg/nanomsg)]()
 
 **链接**：[About Nanomsg](https://nanomsg.org/)  
 **特征**：是一个“可扩展协议”的套接字库，它提供了几种常见的通信模式。可扩展协议的任务是定义多个应用系统如何通信，从而组成一个大的分布式系统。  

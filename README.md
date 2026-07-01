@@ -1,5 +1,7 @@
 # Awesome-Embedded
 
+[![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/Awesome-Embedded)](https://github.com/Luyi365/Awesome-Embedded/commits)
+
 ## 🚀关于
 
 > 一个精心整理的嵌入式开源代码库集合，并按照功能进行了细致的分类，涵盖了💥**绝大部分** 的开发场景！

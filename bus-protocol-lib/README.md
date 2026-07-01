@@ -17,7 +17,7 @@
 
 ### LwOW
 
-![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwow) | ![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwow) | ![GitHub License](https://img.shields.io/github/license/MaJerle/lwow)
+[![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwow)](https://github.com/MaJerle/lwow/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwow)](https://github.com/MaJerle/lwow/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwow)]()
 
 **链接**：[LwOW latest-develop documentation — LwOW documentation](https://docs.majerle.eu/projects/lwow/en/latest/)  
 **特征**：专业的 1-Wire 协议库，允许通过 UART 或单 GPIO 通讯，提供线程安全的 API。  
@@ -30,7 +30,7 @@
 
 ### MUDLink
 
-![GitHub Repo stars](https://img.shields.io/github/stars/jakeread/mudlink) | ![GitHub last commit](https://img.shields.io/github/last-commit/jakeread/mudlink) | ![GitHub License](https://img.shields.io/github/license/jakeread/mudlink)
+[![GitHub Repo stars](https://img.shields.io/github/stars/jakeread/mudlink)](https://github.com/jakeread/mudlink/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/jakeread/mudlink)](https://github.com/jakeread/mudlink/commits) | [![GitHub License](https://img.shields.io/github/license/jakeread/mudlink)]()
 
 **链接**：[jakeread/mudlink: Modular UART Duplex Link: cobs, crc, flow-control and delivery guarantees on any UART port in Arduino](https://github.com/jakeread/mudlink)  
 **特征**：将UART串口提升为一个链路/传输层，并保证成帧数据包的交付，此外还传输保证和流量控制。它还记录链路性能的统计信息等功能。  
@@ -41,7 +41,7 @@
 
 ## CDbus
 
-![GitHub Repo stars](https://img.shields.io/github/stars/dukelec/cdbus) | ![GitHub last commit](https://img.shields.io/github/last-commit/dukelec/cdbus) | ![GitHub License](https://img.shields.io/github/license/dukelec/cdbus)
+[![GitHub Repo stars](https://img.shields.io/github/stars/dukelec/cdbus)](https://github.com/dukelec/cdbus/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/dukelec/cdbus)](https://github.com/dukelec/cdbus/commits) | [![GitHub License](https://img.shields.io/github/license/dukelec/cdbus)]()
 
 > 是（Controller Distributed Bus）的缩写，意为控制器分布式总线。是一种简单的协议，基于串行总线而设计。相对于其他通信协议问题，解析 AT 命令很麻烦、Modbus 只支持单方向查询、PPP 协议要转义、字符串协议效率低等问题做了改进。文档：[cdbus_doc/intro_zh.md at master · dukelec/cdbus_doc](https://github.com/dukelec/cdbus_doc/blob/master/intro_zh.md)
 
@@ -61,7 +61,7 @@
 
 ### freemodbus
 
-![GitHub Repo stars](https://img.shields.io/github/stars/cwalter-at/freemodbus) | ![GitHub last commit](https://img.shields.io/github/last-commit/cwalter-at/freemodbus) | ![GitHub License](https://img.shields.io/github/license/cwalter-at/freemodbus)
+[![GitHub Repo stars](https://img.shields.io/github/stars/cwalter-at/freemodbus)](https://github.com/cwalter-at/freemodbus/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cwalter-at/freemodbus)](https://github.com/cwalter-at/freemodbus/commits) | [![GitHub License](https://img.shields.io/github/license/cwalter-at/freemodbus)]()
 
 **链接**：[cwalter-at/freemodbus: BSD licensed MODBUS RTU/ASCII and TCP slave](https://github.com/cwalter-at/freemodbus)  
 **特征**：由 armink 移植的 modbus 协议栈，同时支持主机和从机的功能。  
@@ -74,7 +74,7 @@
 
 ### nanoMODBUS
 
-![GitHub Repo stars](https://img.shields.io/github/stars/debevv/nanoMODBUS) | ![GitHub last commit](https://img.shields.io/github/last-commit/debevv/nanoMODBUS) | ![GitHub License](https://img.shields.io/github/license/debevv/nanoMODBUS)
+[![GitHub Repo stars](https://img.shields.io/github/stars/debevv/nanoMODBUS)](https://github.com/debevv/nanoMODBUS/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/debevv/nanoMODBUS)](https://github.com/debevv/nanoMODBUS/commits) | [![GitHub License](https://img.shields.io/github/license/debevv/nanoMODBUS)]()
 
 **链接**：[debevv/nanoMODBUS: A compact MODBUS RTU/TCP C library for embedded/microcontrollers](https://github.com/debevv/nanoMODBUS)  
 **特征**：精简的 modbus 库，可按需裁剪功能，旨在资源有限的环境中运行。  
@@ -100,7 +100,7 @@
 
 ### SFUD
 
-![GitHub Repo stars](https://img.shields.io/github/stars/armink/SFUD) | ![GitHub last commit](https://img.shields.io/github/last-commit/armink/SFUD) | ![GitHub License](https://img.shields.io/github/license/armink/SFUD)
+[![GitHub Repo stars](https://img.shields.io/github/stars/armink/SFUD)](https://github.com/armink/SFUD/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/armink/SFUD)](https://github.com/armink/SFUD/commits) | [![GitHub License](https://img.shields.io/github/license/armink/SFUD)]()
 
 **链接**：[armink/SFUD: An using JEDEC's SFDP standard serial (SPI) flash universal driver library | 一款使用 JEDEC SFDP 标准的串行 (SPI) Flash 通用驱动库](https://github.com/armink/SFUD)  
 **特征**：开源的串行 SPI Flash 通用驱动库，通过编写设备表，做到能适配各型号Flash芯片。  
@@ -113,7 +113,7 @@
 
 ### TinyUSB
 
-![GitHub Repo stars](https://img.shields.io/github/stars/hathach/tinyusb) | ![GitHub last commit](https://img.shields.io/github/last-commit/hathach/tinyusb) | ![GitHub License](https://img.shields.io/github/license/hathach/tinyusb)
+[![GitHub Repo stars](https://img.shields.io/github/stars/hathach/tinyusb)](https://github.com/hathach/tinyusb/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/hathach/tinyusb)](https://github.com/hathach/tinyusb/commits) | [![GitHub License](https://img.shields.io/github/license/hathach/tinyusb)]()
 
 **链接**：[TinyUSB](https://tinyusb.org)  
 **特征**：是一个用于嵌入式系统的开源跨平台 USB 主机/设备堆栈，设计为内存安全，没有动态分配，线程安全，所有中断事件都被延迟，然后在非 ISR 任务函数中处理。  
@@ -124,7 +124,7 @@
 
 ### CherryUSB
 
-![GitHub Repo stars](https://img.shields.io/github/stars/cherry-embedded/CherryUSB) | ![GitHub last commit](https://img.shields.io/github/last-commit/cherry-embedded/CherryUSB) | ![GitHub License](https://img.shields.io/github/license/cherry-embedded/CherryUSB)
+[![GitHub Repo stars](https://img.shields.io/github/stars/cherry-embedded/CherryUSB)](https://github.com/cherry-embedded/CherryUSB/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cherry-embedded/CherryUSB)](https://github.com/cherry-embedded/CherryUSB/commits) | [![GitHub License](https://img.shields.io/github/license/cherry-embedded/CherryUSB)]()
 
 **链接**：[GitHub - cherry-embedded/CherryUSB: Tiny and portable USB Stack (device & host) for embedded system with USB IP](https://github.com/cherry-embedded/CherryUSB)  
 **特征**：移植性高的、用于嵌入式系统(带 USB IP)的 USB 主从协议栈。  
@@ -137,7 +137,7 @@
 
 ### OpenThread
 
-![GitHub Repo stars](https://img.shields.io/github/stars/openthread/openthread) | ![GitHub last commit](https://img.shields.io/github/last-commit/openthread/openthread) | ![GitHub License](https://img.shields.io/github/license/openthread/openthread)
+[![GitHub Repo stars](https://img.shields.io/github/stars/openthread/openthread)](https://github.com/openthread/openthread/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/openthread/openthread)](https://github.com/openthread/openthread/commits) | [![GitHub License](https://img.shields.io/github/license/openthread/openthread)]()
 
 **链接**：[OpenThread](https://openthread.io/?hl=zh-cn)  
 **特征**：Google 旗下的产品，是Thread的开源实现。  
@@ -153,7 +153,7 @@
 
 ### bluetooth\_stack
 
-![GitHub Repo stars](https://img.shields.io/github/stars/sj15712795029/bluetooth_stack) | ![GitHub last commit](https://img.shields.io/github/last-commit/sj15712795029/bluetooth_stack) | ![GitHub License](https://img.shields.io/github/license/sj15712795029/bluetooth_stack)
+[![GitHub Repo stars](https://img.shields.io/github/stars/sj15712795029/bluetooth_stack)](https://github.com/sj15712795029/bluetooth_stack/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/sj15712795029/bluetooth_stack)](https://github.com/sj15712795029/bluetooth_stack/commits) | [![GitHub License](https://img.shields.io/github/license/sj15712795029/bluetooth_stack)]()
 
 **链接**：[sj15712795029/bluetooth_stack: 这是一个开源的双模蓝牙协议栈(bluetooth.stack)(btstack),可以运行在STM32,Linux.，包含HCI,L2CAP,SDP,RFCOMM,HFP,SPP,A2DP,AVRCP,AVDTP,AVCTP,OBEX,PBAP等协议，后续会继续维护，以达到商用的目的](https://github.com/sj15712795029/bluetooth_stack)  
 **特征**：一个开源的低功耗双模蓝牙协议栈，可以用于学习，作者有很多教程。  
@@ -164,7 +164,7 @@
 
 ### BTstack
 
-![GitHub Repo stars](https://img.shields.io/github/stars/bluekitchen/btstack) | ![GitHub last commit](https://img.shields.io/github/last-commit/bluekitchen/btstack) | ![GitHub License](https://img.shields.io/github/license/bluekitchen/btstack)
+[![GitHub Repo stars](https://img.shields.io/github/stars/bluekitchen/btstack)](https://github.com/bluekitchen/btstack/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/bluekitchen/btstack)](https://github.com/bluekitchen/btstack/commits) | [![GitHub License](https://img.shields.io/github/license/bluekitchen/btstack)]()
 
 **链接**：[BlueKitchen – BlueKitchen GmbH | Qualified Dual-mode Bluetooth Stack – Available in Source Code](https://bluekitchen-gmbh.com/)  
 **特征**：是一个轻量级、开源的 蓝牙协议栈，专为嵌入式系统和资源受限设备设计，适合需要低功耗、高灵活性的场景。  
@@ -175,7 +175,7 @@
 
 ### NimBLE
 
-![GitHub Repo stars](https://img.shields.io/github/stars/apache/mynewt-nimble) | ![GitHub last commit](https://img.shields.io/github/last-commit/apache/mynewt-nimble) | ![GitHub License](https://img.shields.io/github/license/apache/mynewt-nimble)
+[![GitHub Repo stars](https://img.shields.io/github/stars/apache/mynewt-nimble)](https://github.com/apache/mynewt-nimble/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/apache/mynewt-nimble)](https://github.com/apache/mynewt-nimble/commits) | [![GitHub License](https://img.shields.io/github/license/apache/mynewt-nimble)]()
 
 **链接**：[apache/mynewt-nimble： Apache mynewt](https://github.com/apache/mynewt-nimble)  
 **特征**：从Apache Mynewt中分离出来的一个开源的蓝牙协议栈（包括主机和控制器） 完全取代了 Nordic 芯片组上的专有 SoftDevice。  
@@ -190,7 +190,7 @@
 
 ### lwIP
 
-![License: BSD 2--Clause](https://img.shields.io/badge/license-BSD%202--Clause-blue.svg)
+[![License: BSD 2--Clause](https://img.shields.io/badge/license-BSD%202--Clause-blue.svg)](https://opensource.org/licenses/BSD-2-Clause)
 
 **链接**：[lwIP - A Lightweight TCP/IP stack - Summary [Savannah]](http://savannah.nongnu.org/projects/lwip/)  
 **特征**：小型开源的TCP/IP协议栈，使用最广泛的嵌入式网络协议栈，基本上物联网系统中都有它。  
@@ -239,7 +239,7 @@
 
 ### CycloneTCP
 
-![License: GPL v2](https://img.shields.io/badge/license-GPL%20v2-orange.svg)
+[![License: GPL v2](https://img.shields.io/badge/license-GPL%20v2-orange.svg)](https://opensource.org/licenses/GPL-2.0)
 
 **链接**：[CycloneTCP | Embedded TCP/IP Stack for STM32, PIC32, ARM Cortex-M](https://www.oryx-embedded.com/products/CycloneTCP)  
 **特征**：专用于嵌入式应用的双 IPv4/IPv6 栈，简化了互联网的部署。  
@@ -252,7 +252,7 @@
 
 ### onps
 
-![Gitee Repo stars](https://gitee.com/Neo-T/open-npstack/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Neo-T/open-npstack&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Neo-T/open-npstack&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/Neo-T/open-npstack/badge/star.svg?theme=gvp)](https://gitee.com/Neo-T/open-npstack/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Neo-T/open-npstack&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Neo-T/open-npstack&query=$.license&label=license)]()
 
 **链接**：[Open-NPStack: onps是一个开源且完全自主开发的国产网络协议栈。设计目标与LwIp相同，onps栈的目标系统同样是资源受限的单片机系统。提供完整的tcp/ip协议族实现，同时提供sntp、dns、ping等网络工具，支持以太网环境下dhcp动态ip地址申请，也支持动态及静态路由表。协议栈还封装实现了一个伯克利套接字（Berkeley sockets）层。协议栈使用ANSI C语言开发。](https://gitee.com/Neo-T/open-npstack)  
 **特征**：国产网络协议栈，设计目标与Lwip相同，适用于资源受限的单片机系统，提供完整地ethernet/ppp/tcp/ip协议族实现。  
@@ -267,7 +267,7 @@
 
 ### LwGPS
 
-![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwgps) | ![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwgps) | ![GitHub License](https://img.shields.io/github/license/MaJerle/lwgps)
+[![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwgps)](https://github.com/MaJerle/lwgps/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwgps)](https://github.com/MaJerle/lwgps/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwgps)]()
 
 **链接**：[LwGPS latest-develop documentation — LwGPS documentation](https://docs.majerle.eu/projects/lwgps/en/latest/)  
 **特征**：简易的 NMEA 报文解析库，内置支持 4 个 GPS 报文：GPGGA、GPGSA、GPGSV、GPRMC，以及允许自定义报文。  
@@ -278,7 +278,7 @@
 
 ### RTKLIB
 
-![GitHub Repo stars](https://img.shields.io/github/stars/tomojitakasu/RTKLIB) | ![GitHub last commit](https://img.shields.io/github/last-commit/tomojitakasu/RTKLIB) | ![GitHub License](https://img.shields.io/github/license/tomojitakasu/RTKLIB)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tomojitakasu/RTKLIB)](https://github.com/tomojitakasu/RTKLIB/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/tomojitakasu/RTKLIB)](https://github.com/tomojitakasu/RTKLIB/commits) | [![GitHub License](https://img.shields.io/github/license/tomojitakasu/RTKLIB)]()
 
 **链接**：[GitHub - tomojitakasu/RTKLIB · GitHub](https://github.com/tomojitakasu/RTKLIB)  
 **针对低成本 GNSS 接收器版本**：[GitHub - rtklibexplorer/RTKLIB: A version of RTKLIB optimized for low cost GNSS receivers, especially u-blox receivers. It is based on RTKLIB 2.4.3. This software is provided “AS IS” without any warranties of any kind so please be careful, especially if using it in any kind of real-time application. Click on the "Releases" label below to see the latest Windows pre-release. · GitHub](https://github.com/rtklibexplorer/RTKLIB)  
@@ -341,7 +341,7 @@
 
 ### Ntrip
 
-![GitHub Repo stars](https://img.shields.io/github/stars/ybzwyrcld/ntrip) | ![GitHub last commit](https://img.shields.io/github/last-commit/ybzwyrcld/ntrip) | ![GitHub License](https://img.shields.io/github/license/ybzwyrcld/ntrip)
+[![GitHub Repo stars](https://img.shields.io/github/stars/ybzwyrcld/ntrip)](https://github.com/ybzwyrcld/ntrip/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ybzwyrcld/ntrip)](https://github.com/ybzwyrcld/ntrip/commits) | [![GitHub License](https://img.shields.io/github/license/ybzwyrcld/ntrip)]()
 
 **链接**：[GitHub - ybzwyrcld/ntrip: Simple ntrip caster/client/server example programs, using the NTRIP2.0 protocol](https://github.com/ybzwyrcld/ntrip)  
 **特征**：C++编写的简易Ntrip协议库，包含流动站（Client）<sup>(Rover)</sup>、中央服务器（Caster）、基准站（CORS）<sup>(Server)</sup>。  

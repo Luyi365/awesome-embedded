@@ -12,7 +12,7 @@
 
 ### tslib
 
-![GitHub Repo stars](https://img.shields.io/github/stars/libts/tslib) | ![GitHub last commit](https://img.shields.io/github/last-commit/libts/tslib) | ![GitHub License](https://img.shields.io/github/license/libts/tslib)
+[![GitHub Repo stars](https://img.shields.io/github/stars/libts/tslib)](https://github.com/libts/tslib/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/libts/tslib)](https://github.com/libts/tslib/commits) | [![GitHub License](https://img.shields.io/github/license/libts/tslib)]()
 
 **链接**：[libts/tslib: Touchscreen access library](https://github.com/libts/tslib)  
 **特征**：嵌入式中使用最广泛的电阻触摸屏校正算法库，但好像只能用在 Linux 上。  
@@ -23,7 +23,7 @@
 
 ### tslib\_for\_mcu
 
-![GitHub Repo stars](https://img.shields.io/github/stars/wujique/tslib_for_mcu) | ![GitHub last commit](https://img.shields.io/github/last-commit/wujique/tslib_for_mcu) | ![GitHub License](https://img.shields.io/github/license/wujique/tslib_for_mcu)
+[![GitHub Repo stars](https://img.shields.io/github/stars/wujique/tslib_for_mcu)](https://github.com/wujique/tslib_for_mcu/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wujique/tslib_for_mcu)](https://github.com/wujique/tslib_for_mcu/commits) | [![GitHub License](https://img.shields.io/github/license/wujique/tslib_for_mcu)]()
 
 **链接**：[wujique/tslib_for_mcu: 整理裁剪一个 tslib 用于单片机平台，例程基于 STM32](https://github.com/wujique/tslib_for_mcu)  
 **特征**：linux 下裁剪的一个电阻屏触摸校准库。  
@@ -38,7 +38,7 @@
 
 ### ECBM\_GUI
 
-![Gitee Repo stars](https://gitee.com/ecbm/ecbm_gui/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/ecbm_gui&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/ecbm_gui&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/ecbm/ecbm_gui/badge/star.svg?theme=gvp)](https://gitee.com/ecbm/ecbm_gui/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/ecbm_gui&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/ecbm_gui&query=$.license&label=license)]()
 
 **链接**：[ECBM_GUI: 这是基于c语言的GUI库，主要用在单色OLED、LCD领域。ECBM_GUI通过内建缓存来存放画面内容，可快速移植到任意单片机中。](https://gitee.com/ecbm/ecbm_gui)  
 **特征**：超基础的单色 GUI 库，仅通过内建缓存来存放画面内容实现 GUI 功能。  
@@ -49,7 +49,7 @@
 
 ### SimpleGUI
 
-![Gitee Repo stars](https://gitee.com/Polarix/simplegui/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Polarix/simplegui&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Polarix/simplegui&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/Polarix/simplegui/badge/star.svg?theme=gvp)](https://gitee.com/Polarix/simplegui/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Polarix/simplegui&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Polarix/simplegui&query=$.license&label=license)]()
 
 **链接**：[SimpleGUI: 一个面向单色显示屏的开源 GUI 接口库。](https://gitee.com/Polarix/simplegui)  
 **特征**：针对单色显示屏设计的 GUI 库，提供简单的绘制功能。  
@@ -60,7 +60,7 @@
 
 ### U8g2
 
-![GitHub Repo stars](https://img.shields.io/github/stars/olikraus/u8g2) | ![GitHub last commit](https://img.shields.io/github/last-commit/olikraus/u8g2) | ![GitHub License](https://img.shields.io/github/license/olikraus/u8g2)
+[![GitHub Repo stars](https://img.shields.io/github/stars/olikraus/u8g2)](https://github.com/olikraus/u8g2/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/olikraus/u8g2)](https://github.com/olikraus/u8g2/commits) | [![GitHub License](https://img.shields.io/github/license/olikraus/u8g2)]()
 
 **链接**：[GitHub - olikraus/u8g2: U8glib library for monochrome displays, version 2](https://github.com/olikraus/u8g2)  
 **特征**：单色显示器库，提供多种控制器支持和基本图形绘制。  
@@ -71,7 +71,7 @@
 
 ### MonoGUI
 
-![Gitee Repo stars](https://gitee.com/liuxinouc/MonoGUI/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/liuxinouc/MonoGUI&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/liuxinouc/MonoGUI&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/liuxinouc/MonoGUI/badge/star.svg?theme=gvp)](https://gitee.com/liuxinouc/MonoGUI/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/liuxinouc/MonoGUI&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/liuxinouc/MonoGUI&query=$.license&label=license)]()
 
 **链接**：[MonoGUI: MonoGUI （黑白图形用户接口系统）是针对电子词典、高级计算器、电子手表、标签打印机、收款机、电子货签等具有黑白屏幕的小电子设备开发的专用 GUI 系统。本系统具有结构简单、使用容易、内存占用小、单线程、处理器负担轻等特点。虽然图形能力仅有黑与白，但其支持完整的中文显示处理功能（GB18030 中 2 字节汉字，即旧 GB13000 标准），其 Edit 控件和中文输入法（包括九键输入法）功能上达到 Windows 和 Android 的输入法水平，且扩展容易。](https://gitee.com/liuxinouc/MonoGUI)  
 **特征**：针对黑白屏幕的小电子设备开发的专用 GUI 系统，功能全面，附带输入法功能。  
@@ -82,7 +82,7 @@
 
 ### WouoUI
 
-![GitHub Repo stars](https://img.shields.io/github/stars/RQNG/WouoUI) | ![GitHub last commit](https://img.shields.io/github/last-commit/RQNG/WouoUI) | ![GitHub License](https://img.shields.io/github/license/RQNG/WouoUI)
+[![GitHub Repo stars](https://img.shields.io/github/stars/RQNG/WouoUI)](https://github.com/RQNG/WouoUI/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/RQNG/WouoUI)](https://github.com/RQNG/WouoUI/commits) | [![GitHub License](https://img.shields.io/github/license/RQNG/WouoUI)]()
 
 **链接**：[GitHub - RQNG/WouoUI: 模仿稚晖君 MonoUI 风格的超丝滑菜单，使用 EC11 旋转编码器控制。](https://github.com/RQNG/WouoUI)  
 **特征**：模仿自稚晖君暂未开源的 MonoUI，用于实现类似 UltraLink 的丝滑界面，使用编码器作为控制器，还有个特流畅好看的升级版。  
@@ -95,7 +95,7 @@
 
 ### astra UI
 
-![GitHub Repo stars](https://img.shields.io/github/stars/AstraThreshold/oled-ui-astra) | ![GitHub last commit](https://img.shields.io/github/last-commit/AstraThreshold/oled-ui-astra) | ![GitHub License](https://img.shields.io/github/license/AstraThreshold/oled-ui-astra)
+[![GitHub Repo stars](https://img.shields.io/github/stars/AstraThreshold/oled-ui-astra)](https://github.com/AstraThreshold/oled-ui-astra/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/AstraThreshold/oled-ui-astra)](https://github.com/AstraThreshold/oled-ui-astra/commits) | [![GitHub License](https://img.shields.io/github/license/AstraThreshold/oled-ui-astra)]()
 
 **链接**：[GitHub - AstraThreshold/oled-ui-astra: A smooth, easy-to-deploy, and easy-to-extend OLED UI framework, based on C++.](https://github.com/AstraThreshold/oled-ui-astra)  
 **特征**：基于 C++ 的 OLED 多级菜单 UI，带有丝滑的过渡动画效果。  
@@ -106,7 +106,7 @@
 
 ### GLCD
 
-![GitHub Repo stars](https://img.shields.io/github/stars/andygock/glcd) | ![GitHub last commit](https://img.shields.io/github/last-commit/andygock/glcd) | ![GitHub License](https://img.shields.io/github/license/andygock/glcd)
+[![GitHub Repo stars](https://img.shields.io/github/stars/andygock/glcd)](https://github.com/andygock/glcd/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/andygock/glcd)](https://github.com/andygock/glcd/commits) | [![GitHub License](https://img.shields.io/github/license/andygock/glcd)]()
 
 **链接**：[andygock/glcd：基于微控制器嵌入式系统的图形 LCD 库。兼容 PCD854、ST7565R、NTD75451 以及许多 AVR、LPC、PIC、STM32 设备。 --- andygock/glcd: Graphic LCD Library for microcontrollers based embedded systems. Compatible with chipsets PCD854, ST7565R, NTD75451 and many AVR, LPC, PIC, STM32 devices.](https://github.com/andygock/glcd)  
 **特征**：微控制器嵌入式系统图形 LCD 库，包含硬件驱动、文本及基础图形绘制。  
@@ -121,7 +121,7 @@
 
 ### GuiLite
 
-![GitHub Repo stars](https://img.shields.io/github/stars/idea4good/GuiLite) | ![GitHub last commit](https://img.shields.io/github/last-commit/idea4good/GuiLite) | ![GitHub License](https://img.shields.io/github/license/idea4good/GuiLite)
+[![GitHub Repo stars](https://img.shields.io/github/stars/idea4good/GuiLite)](https://github.com/idea4good/GuiLite/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/idea4good/GuiLite)](https://github.com/idea4good/GuiLite/commits) | [![GitHub License](https://img.shields.io/github/license/idea4good/GuiLite)]()
 
 **链接**：[idea4good/GuiLite: ✔️The smallest header-only GUI library(4 KLOC) for all platforms](https://github.com/idea4good/GuiLite)  
 **特征**：超轻量级 GUI 库，支持多平台，支持第三方库。  
@@ -134,7 +134,7 @@
 
 ### Olive.c
 
-![GitHub Repo stars](https://img.shields.io/github/stars/tsoding/olive.c) | ![GitHub last commit](https://img.shields.io/github/last-commit/tsoding/olive.c) | ![GitHub License](https://img.shields.io/github/license/tsoding/olive.c)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tsoding/olive.c)](https://github.com/tsoding/olive.c/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/tsoding/olive.c)](https://github.com/tsoding/olive.c/commits) | [![GitHub License](https://img.shields.io/github/license/tsoding/olive.c)]()
 
 **链接**：[tsoding/olive.c: Simple 2D Graphics Library for C](https://github.com/tsoding/olive.c)  
 **特征**：适用于 C 语言的简单 2D 图形库，仅使用画布特征进行绘制。  
@@ -145,7 +145,7 @@
 
 ### microui
 
-![GitHub Repo stars](https://img.shields.io/github/stars/rxi/microui) | ![GitHub last commit](https://img.shields.io/github/last-commit/rxi/microui) | ![GitHub License](https://img.shields.io/github/license/rxi/microui)
+[![GitHub Repo stars](https://img.shields.io/github/stars/rxi/microui)](https://github.com/rxi/microui/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/rxi/microui)](https://github.com/rxi/microui/commits) | [![GitHub License](https://img.shields.io/github/license/rxi/microui)]()
 
 **链接**：[rxi/microui: A tiny immediate-mode UI library](https://github.com/rxi/microui)  
 **特征**：一个微小而便携的 UI 库，其特点是占用极少的内存空间，适用于任何可以绘制矩形和文本的渲染系统。  
@@ -156,7 +156,7 @@
 
 ### LingLongGUI
 
-![Gitee Repo stars](https://gitee.com/gzbkey/LingLongGUI/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingLongGUI&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingLongGUI&query=$.license&label=license)
+![Gitee Repo stars](https://gitee.com/gzbkey/LingLongGUI/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingLongGUI&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingLongGUI&query=$.license&label=license)
 
 **链接**：[LingLongGUI: 玲珑 GUI 是高效的界面开发解决方案。 代替串口屏、组态，降低产品成本，产品软硬件自主可控。 配套界面开发软件，图形化编辑界面，生成 C 代码。](https://gitee.com/gzbkey/LingLongGUI)  
 **特征**：高效的 GUI 生成库，配套有图形化编辑界面，方便之间生成代码使用。  
@@ -169,7 +169,7 @@
 
 ### LingDongGUI
 
-![Gitee Repo stars](https://gitee.com/gzbkey/LingDongGUI/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingDongGUI&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingDongGUI&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/gzbkey/LingDongGUI/badge/star.svg?theme=gvp)](https://gitee.com/gzbkey/LingDongGUI/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingDongGUI&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingDongGUI&query=$.license&label=license)]()
 
 **链接**：[LingDongGUI: 灵动 GUI 是基于 ARM-2D 进行开发的 GUI，极大降低 ARM-2D 的使用难度](https://gitee.com/gzbkey/LingDongGUI)  
 **特征**：对 [Arm-2D](#arm-2d) 进行二次封装的 GUI 库，旨在提高易用性，同时也支持原生 API 的使用。  
@@ -182,7 +182,7 @@
 
 ### AAGUI
 
-![Gitee Repo stars](https://gitee.com/QQ1159465634/aagui/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/QQ1159465634/aagui&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/QQ1159465634/aagui&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/QQ1159465634/aagui/badge/star.svg?theme=gvp)](https://gitee.com/QQ1159465634/aagui/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/QQ1159465634/aagui&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/QQ1159465634/aagui&query=$.license&label=license)]()
 
 **链接**：[AAGUI: AAGUI 是一个不依赖特定硬件、操作系统的跨平台通用型半声明式 GUI。采用 C(兼容 C89)与 C++(兼容 C++98)编写。](https://gitee.com/QQ1159465634/aagui)  
 **特征**：跨平台通用型 GUI，旨在嵌入式里实现类安卓的高级 UI 开发。可使用半声明式（json）编程，适合类似于手机应用的项目开发。  
@@ -195,7 +195,7 @@
 
 ### GT-HMI
 
-![Gitee Repo stars](https://gitee.com/genitop/GT-HMI-Engine/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/genitop/GT-HMI-Engine&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/genitop/GT-HMI-Engine&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/genitop/GT-HMI-Engine/badge/star.svg?theme=gvp)](https://gitee.com/genitop/GT-HMI-Engine/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/genitop/GT-HMI-Engine&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/genitop/GT-HMI-Engine&query=$.license&label=license)]()
 
 **链接**：[GT-HMI-Engine: GT-HMI ：专为国内嵌入式 GUI 设计开发打造的免费神器！](https://gitee.com/genitop/GT-HMI-Engine)  
 **特征**：高通旗下专为国人使用的 UI 库，带有多种语种多字库，带有模拟器和上位机。RTOS、裸机均可使用，适合实用的项目级产品。  
@@ -206,7 +206,7 @@
 
 ### LVGL
 
-![GitHub Repo stars](https://img.shields.io/github/stars/lvgl/lvgl) | ![GitHub last commit](https://img.shields.io/github/last-commit/lvgl/lvgl) | ![GitHub License](https://img.shields.io/github/license/lvgl/lvgl)
+[![GitHub Repo stars](https://img.shields.io/github/stars/lvgl/lvgl)](https://github.com/lvgl/lvgl/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/lvgl/lvgl)](https://github.com/lvgl/lvgl/commits) | [![GitHub License](https://img.shields.io/github/license/lvgl/lvgl)]()
 
 **链接**：[LVGL - Light and Versatile Embedded Graphics Library](https://lvgl.io/)  
 **特征**：轻量级通用图形库，开源免费，几乎拥有 GUI 所需的一切。  
@@ -223,7 +223,7 @@
 
 ### AWTK
 
-![GitHub Repo stars](https://img.shields.io/github/stars/zlgopen/awtk) | ![GitHub last commit](https://img.shields.io/github/last-commit/zlgopen/awtk) | ![GitHub License](https://img.shields.io/github/license/zlgopen/awtk)
+[![GitHub Repo stars](https://img.shields.io/github/stars/zlgopen/awtk)](https://github.com/zlgopen/awtk/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/zlgopen/awtk)](https://github.com/zlgopen/awtk/commits) | [![GitHub License](https://img.shields.io/github/license/zlgopen/awtk)]()
 
 **链接**：[zlgopen/awtk: AWTK = Toolkit AnyWhere(a cross-platform embedded GUI)](https://github.com/zlgopen/awtk)  
 **特征**：周立功旗下的 GUI 图形库，开源免费。  
@@ -236,7 +236,7 @@
 
 ### TouchGFX
 
-![License: TouchGFX](https://img.shields.io/badge/License-TouchGFX-blue.svg)
+[![License: TouchGFX](https://img.shields.io/badge/License-TouchGFX-blue.svg)]()
 
 **链接**：[STM32 Graphical User Interface - 意法半导体 STMicroelectronics](https://www.touchgfx.com)  
 **特征**：STM32 旗下的 GUI 图形库，功能强劲，配有图形编辑软件，一般只适用于 STM32 的开发。  
@@ -249,7 +249,7 @@
 
 ### GUIX
 
-![GitHub Repo stars](https://img.shields.io/github/stars/eclipse-threadx/guix) | ![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-threadx/guix) | ![GitHub License](https://img.shields.io/github/license/eclipse-threadx/guix)
+[![GitHub Repo stars](https://img.shields.io/github/stars/eclipse-threadx/guix)](https://github.com/eclipse-threadx/guix/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-threadx/guix)](https://github.com/eclipse-threadx/guix/commits) | [![GitHub License](https://img.shields.io/github/license/eclipse-threadx/guix)]()
 
 **链接**：[azure-rtos/guix: Azure RTOS GUIX Studio provides a complete, embedded graphical user interface (GUI) library and design environment, facilitating the creation and maintenance of all graphical elements needed by your device.](https://github.com/azure-rtos/guix)  
 **特征**：Azure RTOS 提供的 GUI 图形库，开发十分成熟和方便，开源免费。  
@@ -262,7 +262,7 @@
 
 ### emWin
 
-![License: emWin](https://img.shields.io/badge/License-emWin-blue.svg)
+[![License: emWin](https://img.shields.io/badge/License-emWin-blue.svg)]()
 
 **链接**：[emWin](https://www.segger.com/products/user-interface/emwin/)  
 **特征**：又名(uCGUI)，是 Segger 旗下的 GUI 图形库，很多知名大厂芯片都是可以授权使用的。  
@@ -284,7 +284,7 @@
 
 ### Qt for MCU
 
-![License: LGPL v3](https://img.shields.io/badge/license-LGPL%20v3-blue.svg)
+[![License: LGPL v3](https://img.shields.io/badge/license-LGPL%20v3-blue.svg)](https://opensource.org/licenses/LGPL-3.0)
 
 **链接**：[Qt - 设计、开发嵌入式设备软件](https://www.qt.io/zh-cn/product/develop-embedded-devices)  
 **特征**：QT 旗下的 GUI 图形库，适合有 QT 经验的开发者，需要收费。  
@@ -295,7 +295,7 @@
 
 ### μGFX
 
-![License: μGFX](https://img.shields.io/badge/License-%CE%BCGFX-blue.svg)
+[![License: μGFX](https://img.shields.io/badge/License-%CE%BCGFX-blue.svg)]()
 
 **链接**：[uGFX - lightweight embedded GUI library](https://ugfx.io/)  
 **特征**：可用于触摸屏的轻量级UI库，注重性能，非商用免费。  
@@ -308,7 +308,7 @@
 
 ### MiniGUI
 
-![GitHub Repo stars](https://img.shields.io/github/stars/VincentWei/MiniGUI) | ![GitHub last commit](https://img.shields.io/github/last-commit/VincentWei/MiniGUI) | ![GitHub License](https://img.shields.io/github/license/VincentWei/MiniGUI)
+[![GitHub Repo stars](https://img.shields.io/github/stars/VincentWei/MiniGUI)](https://github.com/VincentWei/MiniGUI/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/VincentWei/MiniGUI)](https://github.com/VincentWei/MiniGUI/commits) | [![GitHub License](https://img.shields.io/github/license/VincentWei/MiniGUI)]()
 
 **链接**：[Home :: MiniGUI](https://minigui.fmsoft.cn)  
 **特征**：多平台、高度可定制的UI库，可用于不同性能的芯片，适合移动设备及工业等领域，非商用免费。  
@@ -319,7 +319,7 @@
 
 ### μGUI
 
-![GitHub Repo stars](https://img.shields.io/github/stars/achimdoebler/UGUI) | ![GitHub last commit](https://img.shields.io/github/last-commit/achimdoebler/UGUI) | ![GitHub License](https://img.shields.io/github/license/achimdoebler/UGUI)
+[![GitHub Repo stars](https://img.shields.io/github/stars/achimdoebler/UGUI)](https://github.com/achimdoebler/UGUI/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/achimdoebler/UGUI)](https://github.com/achimdoebler/UGUI/commits) | [![GitHub License](https://img.shields.io/github/license/achimdoebler/UGUI)]()
 
 **链接**：[μGUI - free Open Source GUI module for embedded systems | Embedded Lightning](http://embeddedlightning.com/ugui/)  
 **特征**：开源的极简图形库，独立于平台，仅一个源文件。  
@@ -339,7 +339,7 @@
 
 ### Clay
 
-![GitHub Repo stars](https://img.shields.io/github/stars/nicbarker/clay) | ![GitHub last commit](https://img.shields.io/github/last-commit/nicbarker/clay) | ![GitHub License](https://img.shields.io/github/license/nicbarker/clay)
+[![GitHub Repo stars](https://img.shields.io/github/stars/nicbarker/clay)](https://github.com/nicbarker/clay/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/nicbarker/clay)](https://github.com/nicbarker/clay/commits) | [![GitHub License](https://img.shields.io/github/license/nicbarker/clay)]()
 
 **链接**：[Clay - UI Layout Library](https://www.nicbarker.com/clay)  
 **特征**：高性能 2D UI 布局库，提供响应式布局能力，适合嵌入式 Web 的制作。  
@@ -350,7 +350,7 @@
 
 ### Nuklear
 
-![GitHub Repo stars](https://img.shields.io/github/stars/Immediate-Mode-UI/Nuklear) | ![GitHub last commit](https://img.shields.io/github/last-commit/Immediate-Mode-UI/Nuklear) | ![GitHub License](https://img.shields.io/github/license/Immediate-Mode-UI/Nuklear)
+[![GitHub Repo stars](https://img.shields.io/github/stars/Immediate-Mode-UI/Nuklear)](https://github.com/Immediate-Mode-UI/Nuklear/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Immediate-Mode-UI/Nuklear)](https://github.com/Immediate-Mode-UI/Nuklear/commits) | [![GitHub License](https://img.shields.io/github/license/Immediate-Mode-UI/Nuklear)]()
 
 **链接**：[Nuklear: Nuklear](https://immediate-mode-ui.github.io/Nuklear/index.html)  
 **特征**：无依赖的图形用户界面工具包，通过使用输入状态和绘制命令来构建图形，适合快速响应的应用。  
@@ -363,7 +363,7 @@
 
 ### LinaVG
 
-![GitHub Repo stars](https://img.shields.io/github/stars/inanevin/LinaVG) | ![GitHub last commit](https://img.shields.io/github/last-commit/inanevin/LinaVG) | ![GitHub License](https://img.shields.io/github/license/inanevin/LinaVG)
+[![GitHub Repo stars](https://img.shields.io/github/stars/inanevin/LinaVG)](https://github.com/inanevin/LinaVG/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/inanevin/LinaVG)](https://github.com/inanevin/LinaVG/commits) | [![GitHub License](https://img.shields.io/github/license/inanevin/LinaVG)]()
 
 **链接**：[inanevin/LinaVG: 2D Vector-Graphics library for drawing anti-aliased convex shapes, lines and texts.](https://github.com/inanevin/LinaVG)  
 **特征**：适用于 2D 矢量图形的渲染库。  
@@ -374,7 +374,7 @@
 
 ### BlurHash
 
-![GitHub Repo stars](https://img.shields.io/github/stars/woltapp/blurhash) | ![GitHub last commit](https://img.shields.io/github/last-commit/woltapp/blurhash) | ![GitHub License](https://img.shields.io/github/license/woltapp/blurhash)
+[![GitHub Repo stars](https://img.shields.io/github/stars/woltapp/blurhash)](https://github.com/woltapp/blurhash/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/woltapp/blurhash)](https://github.com/woltapp/blurhash/commits) | [![GitHub License](https://img.shields.io/github/license/woltapp/blurhash)]()
 
 **链接**：[BlurHash](https://blurha.sh/)  
 **特征**：开源的图片占位符算法和实现，能够在图片预载时先显示框图和缩略图，嵌入式领域可能会用得到。  
@@ -397,7 +397,7 @@
 
 ### Rawdraw
 
-![GitHub Repo stars](https://img.shields.io/github/stars/cntools/rawdraw) | ![GitHub last commit](https://img.shields.io/github/last-commit/cntools/rawdraw) | ![GitHub License](https://img.shields.io/github/license/cntools/rawdraw)
+[![GitHub Repo stars](https://img.shields.io/github/stars/cntools/rawdraw)](https://github.com/cntools/rawdraw/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cntools/rawdraw)](https://github.com/cntools/rawdraw/commits) | [![GitHub License](https://img.shields.io/github/license/cntools/rawdraw)]()
 
 **链接**：[cntools/rawdraw: Primitive Platform Agnostic Graphics Library](https://github.com/cntools/rawdraw)  
 **特征**：跨平台无依赖的 UI 绘制系统，为 OpenGL 提供良好的接口抽象。  
@@ -417,7 +417,7 @@
 
 ### foolrenderer
 
-![GitHub Repo stars](https://img.shields.io/github/stars/cadenji/foolrenderer) | ![GitHub last commit](https://img.shields.io/github/last-commit/cadenji/foolrenderer) | ![GitHub License](https://img.shields.io/github/license/cadenji/foolrenderer)
+[![GitHub Repo stars](https://img.shields.io/github/stars/cadenji/foolrenderer)](https://github.com/cadenji/foolrenderer/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cadenji/foolrenderer)](https://github.com/cadenji/foolrenderer/commits) | [![GitHub License](https://img.shields.io/github/license/cadenji/foolrenderer)]()
 
 **链接**：[cadenji/foolrenderer: A tiny software renderer implemented from scratch without the use of graphics API, used to understand how GPUs work.](https://github.com/cadenji/foolrenderer)  
 **特征**：用 C 语言实现的软件渲染器，不依赖图形库，仅用几千行代码，实现了一套类似 OpenGL 的基本图形功能，以及应用于游戏开发的实时渲染技术，如阴影、切线空间法线映射、基于物理的材质系统等。  
@@ -430,7 +430,7 @@
 
 ### EmberGL
 
-![GitHub Repo stars](https://img.shields.io/github/stars/EmberGL-org/EmberGL) | ![GitHub last commit](https://img.shields.io/github/last-commit/EmberGL-org/EmberGL) | ![GitHub License](https://img.shields.io/github/license/EmberGL-org/EmberGL)
+[![GitHub Repo stars](https://img.shields.io/github/stars/EmberGL-org/EmberGL)](https://github.com/EmberGL-org/EmberGL/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/EmberGL-org/EmberGL)](https://github.com/EmberGL-org/EmberGL/commits) | [![GitHub License](https://img.shields.io/github/license/EmberGL-org/EmberGL)]()
 
 **链接**：[EmberGL-org/EmberGL: EmberGL - 2D/3D graphics library featuring a tiled software rasterizer.](https://github.com/EmberGL-org/EmberGL)  
 **特征**：用于 MCU 的类似于 OpenGL 的实时 2D / 3D 光栅渲染库。  
@@ -443,7 +443,7 @@
 
 ### Arm-2D
 
-![GitHub Repo stars](https://img.shields.io/github/stars/ARM-software/Arm-2D) | ![GitHub last commit](https://img.shields.io/github/last-commit/ARM-software/Arm-2D) | ![GitHub License](https://img.shields.io/github/license/ARM-software/Arm-2D)
+[![GitHub Repo stars](https://img.shields.io/github/stars/ARM-software/Arm-2D)](https://github.com/ARM-software/Arm-2D/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ARM-software/Arm-2D)](https://github.com/ARM-software/Arm-2D/commits) | [![GitHub License](https://img.shields.io/github/license/ARM-software/Arm-2D)]()
 
 **链接**：[ARM-software/Arm-2D: 2D Graphic Library optimized for Cortex-M processors](https://github.com/ARM-software/Arm-2D)  
 **特征**：针对 Cortex-M 处理器优化的 2D 图形加速库，处于 GUI 库和驱动层之间。  
@@ -457,7 +457,7 @@
 
 ### GUIslice
 
-![GitHub Repo stars](https://img.shields.io/github/stars/ImpulseAdventure/GUIslice) | ![GitHub last commit](https://img.shields.io/github/last-commit/ImpulseAdventure/GUIslice) | ![GitHub License](https://img.shields.io/github/license/ImpulseAdventure/GUIslice)
+[![GitHub Repo stars](https://img.shields.io/github/stars/ImpulseAdventure/GUIslice)](https://github.com/ImpulseAdventure/GUIslice/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ImpulseAdventure/GUIslice)](https://github.com/ImpulseAdventure/GUIslice/commits) | [![GitHub License](https://img.shields.io/github/license/ImpulseAdventure/GUIslice)]()
 
 **链接**：[GUIslice: Touchscreen GUI in C for Raspberry Pi & Arduino - ImpulseAdventure](https://www.impulseadventure.com/elec/guislice-gui.html)  
 **特征**：简单好用的开源GUI框架，极客的风格，无动态内存分配，并提供布局上位机。  
@@ -470,7 +470,7 @@
 
 ### qrencode
 
-![Gitee Repo stars](https://gitee.com/kerndev/qrencode/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/qrencode&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/qrencode&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/kerndev/qrencode/badge/star.svg?theme=gvp)](https://gitee.com/kerndev/qrencode/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/qrencode&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/qrencode&query=$.license&label=license)]()
 
 **链接**：[qrencode: 用 C 语言生成二维码的演示代码](https://gitee.com/kerndev/qrencode)  
 **特征**：二维码生成库，适用于单片机。  
@@ -481,7 +481,7 @@
 
 ### QR Code generator library
 
-![GitHub Repo stars](https://img.shields.io/github/stars/nayuki/QR-Code-generator) | ![GitHub last commit](https://img.shields.io/github/last-commit/nayuki/QR-Code-generator) | ![GitHub License](https://img.shields.io/github/license/nayuki/QR-Code-generator)
+[![GitHub Repo stars](https://img.shields.io/github/stars/nayuki/QR-Code-generator)](https://github.com/nayuki/QR-Code-generator/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/nayuki/QR-Code-generator)](https://github.com/nayuki/QR-Code-generator/commits) | [![GitHub License](https://img.shields.io/github/license/nayuki/QR-Code-generator)]()
 
 **C库链接**：[QR-Code-generator/c at master · nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator/tree/master/c)  
 **C++库链接**：[QR-Code-generator/cpp at master · nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator/tree/master/cpp)  
@@ -495,7 +495,7 @@
 
 ### QRCode
 
-![GitHub Repo stars](https://img.shields.io/github/stars/ricmoo/QRCode) | ![GitHub last commit](https://img.shields.io/github/last-commit/ricmoo/QRCode) | ![GitHub License](https://img.shields.io/github/license/ricmoo/QRCode)
+[![GitHub Repo stars](https://img.shields.io/github/stars/ricmoo/QRCode)](https://github.com/ricmoo/QRCode/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ricmoo/QRCode)](https://github.com/ricmoo/QRCode/commits) | [![GitHub License](https://img.shields.io/github/license/ricmoo/QRCode)]()
 
 **链接**：[ricmoo/QRCode: QR code generation library in C, optimized for low-power devices, such as Arduino.](https://github.com/ricmoo/QRCode)  
 **特征**：QR码生成库，参考了 [QR Code generator library](#qr-code-generator-library)，并针对处理器和内存受限的系统进行了优化，支持从 Version 1 到 Version 40 的所有规格。  
@@ -508,7 +508,7 @@
 
 ### oledlib
 
-![Gitee Repo stars](https://gitee.com/jiezhuonew/oledlib/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/oledlib&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/oledlib&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/jiezhuonew/oledlib/badge/star.svg?theme=gvp)](https://gitee.com/jiezhuonew/oledlib/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/oledlib&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/oledlib&query=$.license&label=license)]()
 
 **链接**：[oledlib: 一个开源的 oled 图形库，使用 32 单片机 keil 平台进行开发，支持 I2C 和 SPI 驱动，能够绘制矩形，圆，椭圆，多边形，图片文字等简单内容](https://gitee.com/jiezhuonew/oledlib)  
 **特征**：一个开源的 oled 图形库，带有一些适合做屏保的图形。  
@@ -521,7 +521,7 @@
 
 ### MCUFont
 
-![GitHub Repo stars](https://img.shields.io/github/stars/mcufont/mcufont) | ![GitHub last commit](https://img.shields.io/github/last-commit/mcufont/mcufont) | ![GitHub License](https://img.shields.io/github/license/mcufont/mcufont)
+[![GitHub Repo stars](https://img.shields.io/github/stars/mcufont/mcufont)](https://github.com/mcufont/mcufont/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/mcufont/mcufont)](https://github.com/mcufont/mcufont/commits) | [![GitHub License](https://img.shields.io/github/license/mcufont/mcufont)]()
 
 **链接**：[mcufont/mcufont: A font rendering library for microcontrollers.](https://github.com/mcufont/mcufont)  
 **特征**：专用于字体的库，实现字体压缩、解压缩和文本渲染（调节）功能。  
@@ -532,7 +532,7 @@
 
 ### Unicorn
 
-![GitHub Repo stars](https://img.shields.io/github/stars/railgunlabs/unicorn) | ![GitHub last commit](https://img.shields.io/github/last-commit/railgunlabs/unicorn) | ![GitHub License](https://img.shields.io/github/license/railgunlabs/unicorn)
+[![GitHub Repo stars](https://img.shields.io/github/stars/railgunlabs/unicorn)](https://github.com/railgunlabs/unicorn/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/railgunlabs/unicorn)](https://github.com/railgunlabs/unicorn/commits) | [![GitHub License](https://img.shields.io/github/license/railgunlabs/unicorn)]()
 
 **链接**：[Unicorn: Embeddable Unicode® Algorithms | Railgun](https://railgunlabs.com/unicorn)  
 **特征**：基于 C99 的 Unicode 编解码库，提供对此编码的基本算法和功能。  
@@ -545,7 +545,7 @@
 
 ### FFmpeg
 
-![GitHub Repo stars](https://img.shields.io/github/stars/FFmpeg/FFmpeg) | ![GitHub last commit](https://img.shields.io/github/last-commit/FFmpeg/FFmpeg) | ![GitHub License](https://img.shields.io/github/license/FFmpeg/FFmpeg)
+[![GitHub Repo stars](https://img.shields.io/github/stars/FFmpeg/FFmpeg)](https://github.com/FFmpeg/FFmpeg/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/FFmpeg/FFmpeg)](https://github.com/FFmpeg/FFmpeg/commits) | [![GitHub License](https://img.shields.io/github/license/FFmpeg/FFmpeg)]()
 
 **链接**：[FFmpeg](https://ffmpeg.org)  
 **特征**：业界极为知名的一个跨平台音视频处理框架，提供一组音视频编解码开发套件。  
@@ -575,7 +575,7 @@
 
 ### zBitsView
 
-![GitHub Repo stars](https://img.shields.io/github/stars/figght/zBitsView) | ![GitHub last commit](https://img.shields.io/github/last-commit/figght/zBitsView) | ![GitHub License](https://img.shields.io/github/license/figght/zBitsView)
+[![GitHub Repo stars](https://img.shields.io/github/stars/figght/zBitsView)](https://github.com/figght/zBitsView/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/figght/zBitsView)](https://github.com/figght/zBitsView/commits) | [![GitHub License](https://img.shields.io/github/license/figght/zBitsView)]()
 
 **链接**：[figght/zBitsView](https://github.com/figght/zBitsView)  
 **特征**：虚拟多层菜单，仅存在于逻辑层，与有无屏幕无关。  
@@ -586,7 +586,7 @@
 
 ### emenu
 
-![GitHub Repo stars](https://img.shields.io/github/stars/wujique/PetiteDrv) | ![GitHub last commit](https://img.shields.io/github/last-commit/wujique/PetiteDrv?path=components%2Femenu) | ![GitHub License](https://img.shields.io/github/license/wujique/PetiteDrv)
+[![GitHub Repo stars](https://img.shields.io/github/stars/wujique/PetiteDrv)](https://github.com/wujique/PetiteDrv/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wujique/PetiteDrv?path=components/emenu)](https://github.com/wujique/PetiteDrv/commits?path=components/emenu) | [![GitHub License](https://img.shields.io/github/license/wujique/PetiteDrv)]()
 
 **链接**：[PetiteDrv/components/emenu at master · wujique/PetiteDrv](https://github.com/wujique/PetiteDrv/tree/master/components/emenu)  
 **特征**：不寻常的菜单框架，在代码上就可以反映菜单结构。  
@@ -610,7 +610,7 @@
 
 ### cotMenu
 
-![Gitee Repo stars](https://gitee.com/cot_package/cot_menu/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_menu&query=$.pushed_at&label=last%20commit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_menu&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/cot_package/cot_menu/badge/star.svg?theme=gvp)](https://gitee.com/cot_package/cot_menu/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_menu&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_menu&query=$.license&label=license)]()
 
 **链接**：[cotMenu: 嵌入式设备常用的菜单框架模块组件代码（轻量级）](https://gitee.com/cot_package/cot_menu)  
 **特征**：采用链表方式实现多级深度菜单，相当于显示的逻辑层，与按键、显示屏完全解耦。  
@@ -623,7 +623,7 @@
 
 ### MiaoUI
 
-![GitHub Repo stars](https://img.shields.io/github/stars/JFeng-Z/MiaoUI) | ![GitHub last commit](https://img.shields.io/github/last-commit/JFeng-Z/MiaoUI) | ![GitHub License](https://img.shields.io/github/license/JFeng-Z/MiaoUI)
+[![GitHub Repo stars](https://img.shields.io/github/stars/JFeng-Z/MiaoUI)](https://github.com/JFeng-Z/MiaoUI/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/JFeng-Z/MiaoUI)](https://github.com/JFeng-Z/MiaoUI/commits) | [![GitHub License](https://img.shields.io/github/license/JFeng-Z/MiaoUI)]()
 
 **链接**：[GitHub - JFeng-Z/MiaoUI: MiaoUI 是一个基于 u8g2 的单色 OLED 菜单 UI 框架。MiaoUI 使用 C 语言实现，采用双向链表结构，使用非线性动画、移植方便、内存占用较小、能够快速部署，适用于具有小型 OLED 屏幕的嵌入式设备。](https://github.com/JFeng-Z/MiaoUI)  
 **特征**：基于 [U8g2](#u8g2) 的 OLED 菜单 UI 框架，支持列表与图标类菜单、非线性动画、任务弹窗等功能。  
@@ -634,7 +634,7 @@
 
 ### MultMenu
 
-![GitHub Repo stars](https://img.shields.io/github/stars/JFeng-Z/MultMenu) | ![GitHub last commit](https://img.shields.io/github/last-commit/JFeng-Z/MultMenu) | ![GitHub License](https://img.shields.io/github/license/JFeng-Z/MultMenu)
+[![GitHub Repo stars](https://img.shields.io/github/stars/JFeng-Z/MultMenu)](https://github.com/JFeng-Z/MultMenu/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/JFeng-Z/MultMenu)](https://github.com/JFeng-Z/MultMenu/commits) | [![GitHub License](https://img.shields.io/github/license/JFeng-Z/MultMenu)]()
 
 **链接**：[GitHub - JFeng-Z/MultMenu: 这是一个用于单色 OLED 屏幕的单片机多级菜单。支持菜单扩展、图形界面、文本界面、调参、功能调用，全局使用非线性动画，动画可打断。](https://github.com/JFeng-Z/MultMenu)  
 **特征**：多级菜单 + 单色 OLED 非线性动画库，组合使用，移植简单方便，适合类似需求的创客项目。  
@@ -656,7 +656,7 @@
 
 ### PageManager
 
-![GitHub Repo stars](https://img.shields.io/github/stars/FASTSHIFT/X-TRACK) | ![GitHub last commit](https://img.shields.io/github/last-commit/FASTSHIFT/X-TRACK?path=Software%2FX-Track%2FUSER%2FApp%2FUtils%2FPageManager) | ![GitHub License](https://img.shields.io/github/license/FASTSHIFT/X-TRACK)
+[![GitHub Repo stars](https://img.shields.io/github/stars/FASTSHIFT/X-TRACK)](https://github.com/FASTSHIFT/X-TRACK/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/FASTSHIFT/X-TRACK?path=Software/X-Track/FUSER/App/Utils/PageManager)](https://github.com/FASTSHIFT/X-TRACK/commits?path=Software/X-Track/USER/App/Utils/PageManager) | [![GitHub License](https://img.shields.io/github/license/FASTSHIFT/X-TRACK)]()
 
 **链接**：[X-TRACK/Software/X-Track/USER/App/Utils/PageManager at main · FASTSHIFT/X-TRACK](https://github.com/FASTSHIFT/X-TRACK/tree/main/Software/X-Track/USER/App/Utils/PageManager)  
 **特征**：基于 C++ 的页面生命周期管理库，提供完整的页面调度功能，适合项目级工程。  
