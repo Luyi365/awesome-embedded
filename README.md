@@ -1,6 +1,6 @@
-# Awesome-Embedded
+# Awesome Embedded
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/Awesome-Embedded)](https://github.com/Luyi365/Awesome-Embedded/commits)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/Awesome-Embedded)](https://github.com/Luyi365/Awesome-Embedded/commits)
 
 ## 🚀关于
 
@@ -22,6 +22,32 @@
 - [ ] 优化排版及格式
 - [ ] 考虑增加英文说明
 - [ ] 重写部分库的使用要点（最初是给我自己看的，所以有些内容是建立在已知的情况下而写，需要优化）
+
+---
+
+## 🗺️目录
+
+#### 单功能
+  - [IO与PWM库](#io与pwm库)
+  - [TIMER与TIME库](#timer与time库)
+  - [内存与文件系统库](#内存与文件系统库)
+  - [总线协议与端侧库](#总线协议与端侧库)
+  - [数据库与格式解析（传输协议）库](#数据库与格式解析传输协议库)
+  - [日志与终端交互库](#日志与终端交互库)
+  - [校验、安全与引导、升级库](#校验安全与引导升级库)
+  - [UI与菜单库](#ui与菜单库)
+  - [控制库](#控制库)
+  - [内核与基层框架库](#内核与基层框架库)
+  - [异常快照与测试库](#异常快照与测试库)
+  - [数据、算法与AI库](#数据算法与ai库)
+
+#### 集功能
+  - [系统与线程库](#系统与线程库)
+  - [模块集合包](#模块集合包)
+
+#### 其他
+  - [芯片和工具链适配库](#芯片和工具链适配库)
+  - [引擎（仿真）库](#引擎仿真库)
 
 ---
 
@@ -69,7 +95,7 @@
 
 - [memory](./mem-fs-lib/README.md#memory)：功能极简的内存管理模块，仅提供内存申请与释放，无其他额外功能。
 - [mem_malloc](./mem-fs-lib/README.md#mem_malloc)：简单实用的内存管理模块，不会产生内存碎片。
-- [tlsf](./mem-fs-lib/README.md#tlsf：tlsf)：TLSF 算法的堆内存分配库，支持动态添加、删除内存池区域，分配时间复杂度为 O(1)，不注重线程安全。
+- [tlsf](./mem-fs-lib/README.md#tlsf)：TLSF 算法的堆内存分配库，支持动态添加、删除内存池区域，分配时间复杂度为 O(1)，不注重线程安全。
 - [LwMEM](./mem-fs-lib/README.md#lwmem)：专业内存管理库，允许使用碎片内存，注重 RTOS 的线程安全。
 - [jemalloc](./mem-fs-lib/README.md#jemalloc)：高性能的内存分配器，适合处理多线程环境下大规模内存分配和释放的场景。
 - [LWMalloc](./mem-fs-lib/README.md#lwmalloc)：适用于 Linux 的轻量级动态内存分配器，旨在替代默认分配器 ptmalloc，性能和内存使用量都更优。
@@ -86,7 +112,7 @@
 ### [文件系统](./mem-fs-lib/README.md#文件系统)
 
 - [FatFs](./mem-fs-lib/README.md#fatfs)：赫赫有名的文件系统库，极易移植，支持 exFAT 文件系统、64 位 LBA 和 GPT，可根据功能进行宏配置，注重线程安全。
-- [JesFs](./mem-fs-lib/README.md##jesfs)：专为资源受限的嵌入式系统设计的轻量级串行 NOR 闪存文件系统，适用于各种物联网应用场景，例如数据采集、事件记录和固件更新等。
+- [JesFs](./mem-fs-lib/README.md#jesfs)：专为资源受限的嵌入式系统设计的轻量级串行 NOR 闪存文件系统，适用于各种物联网应用场景，例如数据采集、事件记录和固件更新等。
 - [RanFs](./mem-fs-lib/README.md#ranfs)：轻量型文件系统模块，提供 POSIX 兼容的文件操作，注重高效和数据可靠性。
 - [littlefs](./mem-fs-lib/README.md#littlefs)：专为微处理器设计的安全文件系统，具有掉电保护、擦写均衡、低资源消耗等功能。
 - [SPIFFS](./mem-fs-lib/README.md#spiffs)：专为低内存（<=128MB）而设计文件系统，使用静态大小的 ram 缓冲区，具有擦写均衡等功能。
@@ -127,11 +153,13 @@
 - [OpenThread](./bus-protocol-lib/README.md#openthread)：Google 旗下的产品，是 Thread 的开源实现。
 
 ### [Bluetooth](./bus-protocol-lib/README.md#bluetooth)
+
 - [bluetooth_stack](./bus-protocol-lib/README.md#bluetooth_stack)：一个开源的低功耗双模蓝牙协议栈，可以用于学习，作者有很多教程。
 - [BTstack](./bus-protocol-lib/README.md#btstack)：是一个轻量级、开源的 蓝牙协议栈，专为嵌入式系统和资源受限设备设计，适合需要低功耗、高灵活性的场景。
 - [NimBLE](./bus-protocol-lib/README.md#nimble)：从 Apache Mynewt 中分离出来的一个开源的蓝牙协议栈（包括主机和控制器） 完全取代了 Nordic 芯片组上的专有 SoftDevice。
 
 ### [TCP/IP](./bus-protocol-lib/README.md#tcpip)
+
 - [lwIP](./bus-protocol-lib/README.md#lwip)：小型开源的 TCP/IP 协议栈，使用最广泛的嵌入式网络协议栈，基本上物联网系统中都有它。
 - [CycloneTCP](./bus-protocol-lib/README.md#cyclonetcp)：专用于嵌入式应用的双 IPv4/IPv6 栈，简化了互联网的部署。
 - [onps](./bus-protocol-lib/README.md#onps)：国产网络协议栈，设计目标与 Lwip 相同，适用于资源受限的单片机系统，提供完整地 ethernet/ppp/tcp/ip 协议族实现。有非常详细的介绍，很适合国人读阅。
@@ -144,7 +172,7 @@
 
 ---
 
-## [数据库与格式解析（传输协议）库](./db-format-parser-lib/README.md#数据库与格式解析（传输协议）库)
+## [数据库与格式解析（传输协议）库](./db-format-parser-lib/README.md#数据库与格式解析传输协议库)
 
 ### [数据库](./db-format-parser-lib/README.md#数据库)
 
@@ -199,15 +227,18 @@
 - [fast-cpp-csv-parser](./db-format-parser-lib/README.md#fast-cpp-csv-parser)：基于 C++ 的 CSV 解析器，小型、易于使用且快速的仅标头库。
 
 ### [INI](./db-format-parser-lib/README.md#ini)
+
 - [libinimini](./db-format-parser-lib/README.md#libinimini)：适用单片机的 ini 极简解析库，内存空间占用可控。最简单的键值配对文件格式。
 - [inih](./db-format-parser-lib/README.md#inih)：基于 C 编写的 ini 解析库，适合嵌入式系统。带有语法与解析选项。
 - [iniparser](./db-format-parser-lib/README.md#iniparser)：基于 C 编写的 ini 解析库，可移植嵌入式系统，注重线程安全。
 
 ### [TLV](./db-format-parser-lib/README.md#tlv)
+
 - ~~[ITLV](./db-format-parser-lib/README.md#itlv)：TLV（Tag、Length、Value）格式数据的优化版本，极简轻量的数据传输格式，可以以此为基础自定义数据格式，附带 CRC 检验。~~（待发布）
 - [TLV](./db-format-parser-lib/README.md#tlv-project)：TLV 格式编码实现。
 
 ### [JSON](./db-format-parser-lib/README.md#json)
+
 - [cJSON](./db-format-parser-lib/README.md#cjson)：ANSI C 中的超轻量级 JSON 解析器，也是最原生的 JSON 解析库，用起来会有点麻烦，不太推荐直接使用。
 - [struct2json](./db-format-parser-lib/README.md#struct2json)：基于 cJSON，超简便的 C 结构体与 JSON 快速互转库。
 - [cson](./db-format-parser-lib/README.md#cson)：基于 cJSON，运行于 C 语言平台的 json-struct 模型解析工具。使 JSON 解析更加方便。
@@ -215,19 +246,22 @@
 - [JSMN](./db-format-parser-lib/README.md#jsmn)：超简约、极快的 JSON 解析器，无动态内存分配，无解析纠正。适合小型项目的 JSON 解析。
 - [lwjson](./db-format-parser-lib/README.md#lwjson)：针对嵌入式系统优化的通用 JSON 解析器库。适合厂商项目的 JSON 解析。
 - [MojoJson](./db-format-parser-lib/README.md#mojojson)：通用的 JSON 解析库，采用面向对象的思想实现，提供 C 语言版本。
-- [LJSON](./db-format-parser-lib/README.md#LJSON)：号称最快的 JSON 解析库，功能极为强大，几乎覆盖了 JSON 解析的所有需要。
+- [LJSON](./db-format-parser-lib/README.md#ljson)：号称最快的 JSON 解析库，功能极为强大，几乎覆盖了 JSON 解析的所有需要。
 - [json-parser](./db-format-parser-lib/README.md#json-parser)：简单、规范、实用的 JSON 库，包括解析和生成。
 - [Frozen](./db-format-parser-lib/README.md#frozen)：类似 scanf/printf 的 JSON 解析和生成库，内置 base64 编码器和二进制数据解码器。
 - [sj.h](./db-format-parser-lib/README.md#sjh)：极简的 C 语言 JSON 解析库，采用零拷贝策略，直接在原数据上解析。
 
 ### [XML](./db-format-parser-lib/README.md#xml)
+
 - [simple_xml](./db-format-parser-lib/README.md#simple_xml)：XML 解析库，具有完备的功能，支持双向解析。
 - [TinyXML-2](./db-format-parser-lib/README.md#tinyxml-2)：基于 C++ 的 XML 解析库，它使用文档对象模型（DOM），可以很方便的将 XML 和 C++ 对象互相加息转换。
 
 ### [TOML](./db-format-parser-lib/README.md#toml)
+
 - [TOML](./db-format-parser-lib/README.md#toml-project)：比 INI 的扩展性强、又没有层层嵌套的 JSON 和 YAML 的缩进语法，一种人们不常了解的数据标记格式。
 
 ### [其他](./db-format-parser-lib/README.md#其他)
+
 - [LwPKT](./db-format-parser-lib/README.md#lwpkt)：通用数据包协议库，可变数据长度，支持理论上无限的数据包长度，允许在网络中使用发件人地址和收件人地址进行多个注释，附带 CRC 检验。
 - [xpack](./db-format-parser-lib/README.md#xpack)：用于在 C++ 结构体和 json/xml/yaml/bson/mysql/sqlite 之间互相转换，仅有头文件。
 - [ESSL](./db-format-parser-lib/README.md#essl)：ESP 旗下的串行从机链路，该组件能让主机通过总线驱动和相应的协议与从机进行通信。也可以说就是双 mcu 通讯，只是在上面套了一层壳。
@@ -263,7 +297,7 @@
 
 ---
 
-## [校验、安全与引导、升级库](./secure-boot-update-lib/README.md#校验、安全与引导、升级库)
+## [校验、安全与引导、升级库](./secure-boot-update-lib/README.md#校验安全与引导升级库)
 
 ### [校验和安全](./secure-boot-update-lib/README.md#校验和安全)
 
@@ -367,7 +401,7 @@
 
 ## [控制库](./control-lib/README.md#控制库)
 
-### [PID](./control-lib/README.md#PID)
+### [PID](./control-lib/README.md#pid)
 
 - [pid_temperature_control](./control-lib/README.md#pid_temperature_control)：PID 温度控制，很好的一个示例，通过这个可以把 PID 控制发散至其他领域。
 
@@ -437,7 +471,7 @@
 
 - [FastCGI](./kernel-framework-lib/README.md#fastcgi)：改进了传统 CGI 的性能，增加了分布式计算和多角色特性。
 
-### [Web/HTTP服务器](./kernel-framework-lib/README.md#web/http服务器)
+### [Web/HTTP服务器](./kernel-framework-lib/README.md#webhttp服务器)
 
 - [LightTPD](./kernel-framework-lib/README.md#lighttpd)：是一个轻量级、高性能的 开源 Web 服务器，专为高并发、低内存占用 的场景设计。相比 Apache 或 Nginx 更适合嵌入式设备。
 - [Mongoose](./kernel-framework-lib/README.md#mongoose)：C / C++ 的事件驱动网络库，除了基本协议栈还了内置 HTTP、MQTT 等服务协议，可在裸机及 RTOS 上运行，带有 UI 构建器。商用有付费限制。
@@ -452,7 +486,7 @@
 
 ### [Coredump](./exception-test-lib/README.md#coredump)
 
-- [CmBacktrace](./exception-test-lib/README.md#CmBacktrace)：赫赫有名的错误追踪库，针对 ARM Cortex-M 系列的 MCU，基本上稍复杂一点的项目无脑加就完事了。
+- [CmBacktrace](./exception-test-lib/README.md#cmbacktrace)：赫赫有名的错误追踪库，针对 ARM Cortex-M 系列的 MCU，基本上稍复杂一点的项目无脑加就完事了。
 
 ### [异常捕捉](./exception-test-lib/README.md#异常捕捉)
 
@@ -473,7 +507,7 @@
 
 ---
 
-## [数据、算法与AI库](./data-algo-ai-lib/README.md#数据、算法与AI库)
+## [数据、算法与AI库](./data-algo-ai-lib/README.md#数据算法与ai库)
 
 ### [算术](./data-algo-ai-lib/README.md#算术)
 
@@ -483,7 +517,7 @@
 ### [数据结构](./data-algo-ai-lib/README.md#数据结构)
 
 - [CBUF](./data-algo-ai-lib/README.md#cbuf)：极优雅的宏实现环形缓冲区，功能简单易用。
-- [sys/queue](./data-algo-ai-lib/README.md#sys/queue)：Linux、FreeBSD 中使用的队列、链表头文件，全部用宏来实现的，且能够链接任意类型，如结构体等。
+- [sys/queue](./data-algo-ai-lib/README.md#sysqueue)：Linux、FreeBSD 中使用的队列、链表头文件，全部用宏来实现的，且能够链接任意类型，如结构体等。
 - [byte_queue](./data-algo-ai-lib/README.md#byte_queue)：C 语言编写的支持任意类型的环形队列，带宏包装，使用简单。
 - [queue](./data-algo-ai-lib/README.md#queue-project1)：C 语言通用队列，支持任意数据类型，使用简单高效。
 - [Ring-Buffer](./data-algo-ai-lib/README.md#ring-buffer)：简单高效的环形缓冲库，适合没有指定存储大小的程序。
@@ -502,7 +536,7 @@
 - [xxHash](./data-algo-ai-lib/README.md#xxhash)：是一种速度极快的非加密哈希算法，可在 RAM 、速度限制下工作，适合更专业的使用场景。
 - [Terathon Math Library](./data-algo-ai-lib/README.md#terathon-math-library)：一个用 C++ 写成的数学库，包含向量、矩阵、四元数和射影几何代数元素的类。可用于图形、AI、游戏等领域。
 
-### [AI框架](./data-algo-ai-lib/README.md#AI框架)
+### [AI框架](./data-algo-ai-lib/README.md#ai框架)
 
 - [TinyMaix](./data-algo-ai-lib/README.md#tinymaix)：专为低资源的单片机设计的 AI 神经网络推理框架。
 - [miniMNIST-c](./data-algo-ai-lib/README.md#minimnist-c)：C 语言实现了一个迷你神经网络（两层），可用于学习和基础嵌入式领域。
@@ -520,7 +554,7 @@
 - [YMCV](./data-algo-ai-lib/README.md#ymcv)：纯 C 写的迷你计算机视觉库，无依赖、跨平台，可方便裁剪所需功能。
 - [NeuralNetwork](./data-algo-ai-lib/README.md#neuralnetwork)：专用于单片机的神经网络库，仅需极少的资源即可运行RNN、GRU和LSTM等架构，支持裸机和部分操作系统。
 
-### [AI 模型＆算法](./data-algo-ai-lib/README.md#AI-模型＆算法)
+### [AI 模型＆算法](./data-algo-ai-lib/README.md#ai-模型算法)
 
 - ~~[Knn](./data-algo-ai-lib/README.md#knn)：用 C 语言编写的 Knn 算法，十分基础，没有什么优化，不太推荐使用。~~（待发布）
 - [NanoDet-Plus](./data-algo-ai-lib/README.md#nanodet-plus)：超快速、高精度的轻量级无锚物体检测模型，基于移动端 AI 框架实现。
@@ -554,7 +588,7 @@
 
 - [KLite](./sys-thread-lib/README.md#klite)：最简洁易用的 RTOS，附带最基本实用的内核功能。适合需要快速部署的简单 RTOS 项目。
 - [FreeRTOS](./sys-thread-lib/README.md#freertos)：很多小厂商会使用的 OS，网上资料比较多，属于中规中矩那种，适合有一个基础项目，准备上 RTOS 的那种。
-- [uC/OS](./sys-thread-lib/README.md#uc/os)：早期比较流行的 OS，和 FreeRTOS 特征一样，功能比它强一些。
+- [uC/OS](./sys-thread-lib/README.md#ucos)：早期比较流行的 OS，和 FreeRTOS 特征一样，功能比它强一些。
 - [RT-Thread](./sys-thread-lib/README.md#rt-thread)：国产里耀眼的星星，非常好且实用的 RTOS，附带多个组件和附加功能，文档详细，非常适合一个空白期的 OS 项目。
 - [RTX](./sys-thread-lib/README.md#rtx)：ARM 公司的 RTOS，和 Keil 适配性较强。
 - [NuttX](./sys-thread-lib/README.md#nuttx)：强调标准兼容和小型封装的操作系统，遵循 POSIX 标准和 ANSI 标准。
@@ -649,13 +683,13 @@
 
 ---
 
-## [引擎（仿真）库](./engine-sim-lib/README.md#引擎（仿真）库)
+## [引擎（仿真）库](./engine-sim-lib/README.md#引擎仿真库)
 
 ### [SoftFP](./engine-sim-lib/README.md#softfp)
 
 - [SoftFP](./engine-sim-lib/README.md#softfp-project)：用于没有硬件浮点单元（FPU）的情况下，作为软件浮点运算的实现方式。
 
-### [C++](./engine-sim-lib/README.md#c++)
+### [C++](./engine-sim-lib/README.md#c)
 
 - [sds](./engine-sim-lib/README.md#sds)：简单动态字符串库，使用堆内存，其作用就是在 C 语言中仿照 C++ 的 string 类型。
 - [STR](./engine-sim-lib/README.md#str)：更高级的字符串处理库，拥有字符串分割/修剪/搜索/查错等功能。
@@ -708,9 +742,9 @@
 由于开源库是多种多样的，有些同样功能的代码用在不同地方就有了不同名字，而有些库里包含了多个子功能，每个子功能都能作为一个领域进行划分，因此开源代码库分类就变得不太容易。
 鉴于其特性，我将开源库分为三类：单功能，集功能和其他。
 
-- 单功能：针对单一功能或单一领域的开源代码库，分类原则是按照 `领域-功能` 进行划分；
-- 集功能：集成多个功能的软件包或框架系统等，分类原则是按照 `领域` 进行划分；
-- 其他：只适配特定类型的芯片或引擎库；
+- [单功能](#单功能)：针对单一功能或单一领域的开源代码库，分类原则是按照 `领域-功能` 进行划分；
+- [集功能](#集功能)：集成多个功能的软件包或框架系统等，分类原则是按照 `领域` 进行划分；
+- [其他](#其他)：只适配特定类型的芯片或引擎库；
 
 **注意：该开源库不记录仅适配 POSIX 接口的库，若需要请到[其他相关开源库汇总](#其他相关开源库汇总)中查找；*
 
