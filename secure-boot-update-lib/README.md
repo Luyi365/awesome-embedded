@@ -82,7 +82,7 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/feaser/openblt)](https://github.com/feaser/openblt/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/feaser/openblt)](https://github.com/feaser/openblt/commits) | [![GitHub License](https://img.shields.io/github/license/feaser/openblt)]()
 
-**链接**：[homepage [OpenBLT Bootloader]](https://www.feaser.com/openblt/doku.php)  
+**链接**：[homepage \[OpenBLT Bootloader\]](https://www.feaser.com/openblt/doku.php)  
 **特征**：著名的微控制器的引导加载程序库，支持 8、16、32 位微控制器。  
 
 #### 要点

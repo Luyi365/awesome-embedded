@@ -41,7 +41,7 @@
 
 ### sys/queue
 
-**链接**：[queue.h source code [glibc/misc/sys/queue.h] - Codebrowser](https://codebrowser.dev/glibc/glibc/misc/sys/queue.h.html)  
+**链接**：[queue.h source code \[glibc/misc/sys/queue.h\] - Codebrowser](https://codebrowser.dev/glibc/glibc/misc/sys/queue.h.html)  
 **特征**：Linux、FreeBSD 中使用的队列、链表头文件，全部用宏来实现的，且能够链接任意类型，如结构体等。  
 
 #### 要点
@@ -62,7 +62,7 @@
 
 ---
 
-### <a name="queue-project1"></a>queue
+### queue
 
 [![Gitee Repo stars](https://gitee.com/Lamdonn/queue/badge/star.svg?theme=gvp)](https://gitee.com/Lamdonn/queue/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/queue&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/queue&query=$.license&label=license)]()
 
@@ -113,7 +113,7 @@
 
 ---
 
-### <a name="queue-project2"></a>queue
+### queue
 
 [![Gitee Repo stars](https://gitee.com/const-zpc/queue/badge/star.svg?theme=gvp)](https://gitee.com/const-zpc/queue/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/const-zpc/queue&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/const-zpc/queue&query=$.license&label=license)]()
 
@@ -266,7 +266,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/uTensor/uTensor)](https://github.com/uTensor/uTensor/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/uTensor/uTensor)](https://github.com/uTensor/uTensor/commits) | [![GitHub License](https://img.shields.io/github/license/uTensor/uTensor)]()
 
 **链接**：[uTensor/uTensor: TinyML AI inference library](https://github.com/uTensor/uTensor)  
-**特征**：基于 Tensorflow 构建的极其轻量级的机器学习推理框架，并将训练模型生成C++文件导入使用。  
+**特征**：基于 TensorFlow 构建的极其轻量级的机器学习推理框架，并将训练模型生成C++文件导入使用。  
 
 #### 要点
 

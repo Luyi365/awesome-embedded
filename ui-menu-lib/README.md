@@ -26,7 +26,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/wujique/tslib_for_mcu)](https://github.com/wujique/tslib_for_mcu/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wujique/tslib_for_mcu)](https://github.com/wujique/tslib_for_mcu/commits) | [![GitHub License](https://img.shields.io/github/license/wujique/tslib_for_mcu)]()
 
 **链接**：[wujique/tslib_for_mcu: 整理裁剪一个 tslib 用于单片机平台，例程基于 STM32](https://github.com/wujique/tslib_for_mcu)  
-**特征**：linux 下裁剪的一个电阻屏触摸校准库。  
+**特征**：Linux 下裁剪的一个电阻屏触摸校准库。  
 
 #### 要点
 

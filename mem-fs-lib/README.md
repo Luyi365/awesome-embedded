@@ -231,7 +231,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 
 #### 要点
 
-- 指南：[FatFs Module Application Note](http://elm-chan.org/fsw/ff/doc/appnote.html)、 [24. 串行 FLASH 文件系统 FatFs — [野火]STM32 HAL 库开发实战指南——基于 F103 系列开发板 文档](https://doc.embedfire.com/mcu/stm32/f103/hal_general/zh/latest/doc/chapter25/chapter25.html)；
+- 指南：[FatFs Module Application Note](http://elm-chan.org/fsw/ff/doc/appnote.html)、 [24. 串行 FLASH 文件系统 FatFs — \[野火\]STM32 HAL 库开发实战指南——基于 F103 系列开发板 文档](https://doc.embedfire.com/mcu/stm32/f103/hal_general/zh/latest/doc/chapter25/chapter25.html)；
 - 存储器太小也不能使用的，最好要 >1M;
 - 函数 `f_mkfs()` 是用来格式化的；
 - 移植步骤：

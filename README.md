@@ -1,6 +1,6 @@
-# Awesome Embedded
+# Awesome Embedded [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/Awesome-Embedded)](https://github.com/Luyi365/Awesome-Embedded/commits)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/Awesome-Embedded)](https://github.com/Luyi365/Awesome-Embedded/commits)
 
 ## 🚀关于
 
@@ -131,7 +131,7 @@
 
 ### [CDbus](./bus-protocol-lib/README.md#cdbus)
 
-- [CDBUS](./bus-protocol-lib/README.md#cdbus-project)：一种简单高效的现场总线，基于且兼容 UART / RS-485 协议和硬件，引入了硬件分包和硬件仲裁等机制，各节点可以自由收发数据包。
+- [CDBUS](./bus-protocol-lib/README.md#cdbus-1)：一种简单高效的现场总线，基于且兼容 UART / RS-485 协议和硬件，引入了硬件分包和硬件仲裁等机制，各节点可以自由收发数据包。
 
 ### [Modbus](./bus-protocol-lib/README.md#modbus)
 
@@ -201,7 +201,7 @@
 
 ### [URL](./db-format-parser-lib/README.md#url)
 
-- [url](./db-format-parser-lib/README.md#url-project)：简单的解析 url 模块，可以解析不同段的信息。
+- [url](./db-format-parser-lib/README.md#url-1)：简单的解析 url 模块，可以解析不同段的信息。
 
 ### [SSH](./db-format-parser-lib/README.md#ssh)
 
@@ -220,8 +220,8 @@
 
 ### [Base64](./db-format-parser-lib/README.md#base64)
 
-- [base64](./db-format-parser-lib/README.md#base64-project1)：极简单的 base64 编解码库。
-- [base64](./db-format-parser-lib/README.md#base64-project2)：支持 SIMD 和 OpenMP 加速的 base64 编解码库，不使用动态内存，注重线程安全。
+- [base64](./db-format-parser-lib/README.md#base64-1)：极简单的 base64 编解码库。
+- [base64](./db-format-parser-lib/README.md#base64-2)：支持 SIMD 和 OpenMP 加速的 base64 编解码库，不使用动态内存，注重线程安全。
 
 ### [CSV](./db-format-parser-lib/README.md#csv)
 
@@ -238,14 +238,14 @@
 ### [TLV](./db-format-parser-lib/README.md#tlv)
 
 - ~~[ITLV](./db-format-parser-lib/README.md#itlv)：TLV（Tag、Length、Value）格式数据的优化版本，极简轻量的数据传输格式，可以以此为基础自定义数据格式，附带 CRC 检验。~~（待发布）
-- [TLV](./db-format-parser-lib/README.md#tlv-project)：TLV 格式编码实现。
+- [TLV](./db-format-parser-lib/README.md#tlv-1)：TLV 格式编码实现。
 
 ### [JSON](./db-format-parser-lib/README.md#json)
 
 - [cJSON](./db-format-parser-lib/README.md#cjson)：ANSI C 中的超轻量级 JSON 解析器，也是最原生的 JSON 解析库，用起来会有点麻烦，不太推荐直接使用。
 - [struct2json](./db-format-parser-lib/README.md#struct2json)：基于 cJSON，超简便的 C 结构体与 JSON 快速互转库。
 - [cson](./db-format-parser-lib/README.md#cson)：基于 cJSON，运行于 C 语言平台的 json-struct 模型解析工具。使 JSON 解析更加方便。
-- [json](./db-format-parser-lib/README.md#json-project)：简单高效的 C 语言 json 生成和解析库，适合简单项目的使用。
+- [json](./db-format-parser-lib/README.md#json-1)：简单高效的 C 语言 json 生成和解析库，适合简单项目的使用。
 - [JSMN](./db-format-parser-lib/README.md#jsmn)：超简约、极快的 JSON 解析器，无动态内存分配，无解析纠正。适合小型项目的 JSON 解析。
 - [lwjson](./db-format-parser-lib/README.md#lwjson)：针对嵌入式系统优化的通用 JSON 解析器库。适合厂商项目的 JSON 解析。
 - [MojoJson](./db-format-parser-lib/README.md#mojojson)：通用的 JSON 解析库，采用面向对象的思想实现，提供 C 语言版本。
@@ -261,12 +261,12 @@
 
 ### [TOML](./db-format-parser-lib/README.md#toml)
 
-- [TOML](./db-format-parser-lib/README.md#toml-project)：比 INI 的扩展性强、又没有层层嵌套的 JSON 和 YAML 的缩进语法，一种人们不常了解的数据标记格式。
+- [TOML](./db-format-parser-lib/README.md#toml-1)：比 INI 的扩展性强、又没有层层嵌套的 JSON 和 YAML 的缩进语法，一种人们不常了解的数据标记格式。
 
 ### [其他](./db-format-parser-lib/README.md#其他)
 
 - [LwPKT](./db-format-parser-lib/README.md#lwpkt)：通用数据包协议库，可变数据长度，支持理论上无限的数据包长度，允许在网络中使用发件人地址和收件人地址进行多个注释，附带 CRC 检验。
-- [xpack](./db-format-parser-lib/README.md#xpack)：用于在 C++ 结构体和 json/xml/yaml/bson/mysql/sqlite 之间互相转换，仅有头文件。
+- [xpack](./db-format-parser-lib/README.md#xpack)：用于在 C++ 结构体和 JSON/XML/YAML/BSON/MySQL/SQLite 之间互相转换，仅有头文件。
 - [ESSL](./db-format-parser-lib/README.md#essl)：ESP 旗下的串行从机链路，该组件能让主机通过总线驱动和相应的协议与从机进行通信。也可以说就是双 mcu 通讯，只是在上面套了一层壳。
 - [Uart_Transfer_BIN_to_exFlash](./db-format-parser-lib/README.md#uart_transfer_bin_to_exflash)：基于串口通讯，增加帧属性，从而方便、可靠的将数据传输到 Flash 中。
 - [SACP](./db-format-parser-lib/README.md#sacp)：是 Snapmaker 设备的数据通信协议，基于 C++ 的专用于整机多设备的设备间通信。
@@ -326,7 +326,7 @@
 ### [HMI](./ui-menu-lib/README.md#hmi)
 
 - [tslib](./ui-menu-lib/README.md#tslib)：嵌入式中使用最广泛的电阻触摸屏校正算法库，但好像只能用在 Linux 上。
-- [tslib_for_mcu](./ui-menu-lib/README.md#tslib_for_mcu)：linux 下裁剪的一个电阻屏触摸校准库。
+- [tslib_for_mcu](./ui-menu-lib/README.md#tslib_for_mcu)：Linux 下裁剪的一个电阻屏触摸校准库。
 
 ### [单色](./ui-menu-lib/README.md#单色)
 
@@ -466,9 +466,9 @@
 
 ### [RPC](./kernel-framework-lib/README.md#rpc)
 
-- [ERPC](./kernel-framework-lib/README.md#erpc)：一个简单的、易用的、高效的远程调用框架。
+- [ERPC](./kernel-framework-lib/README.md#erpc-project1)：一个简单的、易用的、高效的远程调用框架。
 - [EmbedXrpc](./kernel-framework-lib/README.md#embedxrpc)：通过 RPC 通讯协议，可忽略协议本身进行业务逻辑的实现，附带代码生成工具。
-- [erpc](./kernel-framework-lib/README.md#erpc)：是 NXP 开源的、用于多芯片嵌入式系统和异构多核 SoC 的开源远程过程调用（RPC）系统。
+- [erpc](./kernel-framework-lib/README.md#erpc-project2)：是 NXP 开源的、用于多芯片嵌入式系统和异构多核 SoC 的开源远程过程调用（RPC）系统。
 
 ### [CGI](./kernel-framework-lib/README.md#cgi)
 
@@ -522,11 +522,11 @@
 - [CBUF](./data-algo-ai-lib/README.md#cbuf)：极优雅的宏实现环形缓冲区，功能简单易用。
 - [sys/queue](./data-algo-ai-lib/README.md#sysqueue)：Linux、FreeBSD 中使用的队列、链表头文件，全部用宏来实现的，且能够链接任意类型，如结构体等。
 - [byte_queue](./data-algo-ai-lib/README.md#byte_queue)：C 语言编写的支持任意类型的环形队列，带宏包装，使用简单。
-- [queue](./data-algo-ai-lib/README.md#queue-project1)：C 语言通用队列，支持任意数据类型，使用简单高效。
+- [queue](./data-algo-ai-lib/README.md#queue)：C 语言通用队列，支持任意数据类型，使用简单高效。
 - [Ring-Buffer](./data-algo-ai-lib/README.md#ring-buffer)：简单高效的环形缓冲库，适合没有指定存储大小的程序。
 - [wl_queue](./data-algo-ai-lib/README.md#wl_queue)：支持任意数据类型的环形队列，运用了 C 重载的技巧，注重纤程安全。
 - [RingBuffer](./data-algo-ai-lib/README.md#ringbuffer)：实用的环形缓冲库，功能完整，使用的是堆内存分配。
-- [queue](./data-algo-ai-lib/README.md#queue-project2)：简单的队列功能库，扩展性强，同时支持零拷贝读写队列（适用于大内存的单个元素，可以有效减少函数耗时）。
+- [queue](./data-algo-ai-lib/README.md#queue-1)：简单的队列功能库，扩展性强，同时支持零拷贝读写队列（适用于大内存的单个元素，可以有效减少函数耗时）。
 - [QueueForMcu](./data-algo-ai-lib/README.md#queueformcu)：普通队列功能模块，仅限非 RTOS 系统，适用于个人小型程序。
 - [ConcurrentQueue](./data-algo-ai-lib/README.md#concurrentqueue)：基于 C++ 的工业级无锁队列，无需锁也极其注重线程安全。
 - [uthash](./data-algo-ai-lib/README.md#uthash)：提供哈希、列表、环形等数据结构库，只用包含头文件即可使用。
@@ -544,7 +544,7 @@
 - [TinyMaix](./data-algo-ai-lib/README.md#tinymaix)：专为低资源的单片机设计的 AI 神经网络推理框架。
 - [miniMNIST-c](./data-algo-ai-lib/README.md#minimnist-c)：C 语言实现了一个迷你神经网络（两层），可用于学习和基础嵌入式领域。
 - [Genann](./data-algo-ai-lib/README.md#genann)：极简的神经网络库，经过充分测试，用于在 C 中训练和使用前馈人工神经网络（ANN）。
-- [uTensor](./data-algo-ai-lib/README.md#utensor)：基于 Tensorflow 构建的极其轻量级的机器学习推理框架，并将训练模型生成 C++ 文件导入使用。
+- [uTensor](./data-algo-ai-lib/README.md#utensor)：基于 TensorFlow 构建的极其轻量级的机器学习推理框架，并将训练模型生成 C++ 文件导入使用。
 - [NNoM](./data-algo-ai-lib/README.md#nnom)：专门为了神经网络在 MCU 上运行的框架，使用起来和 TinyMaix 很像，但功能更多。
 - [Paddle Lite](./data-algo-ai-lib/README.md#paddle-lite)：高性能、轻量级、灵活性强且易于扩展的深度学习推理框架，定位于支持包括移动端、嵌入式以及边缘端在内的多种硬件平台。
 - [TVM](./data-algo-ai-lib/README.md#tvm)：内置深度学习编译器，适用于 CPU、GPU、ARM 等多种硬件架构，提供一条龙服务。
@@ -615,7 +615,7 @@
 - [Xiaomi Vela](./sys-thread-lib/README.md#xiaomi-vela)：小米旗下的物联网操作系统，底层基于 NuttX 内核打造。
 - [AliOS Things](./sys-thread-lib/README.md#alios-things)：阿里旗下面向 IoT 领域的、高可伸缩的物联网操作系统。
 - [TencentOS Tiny](./sys-thread-lib/README.md#tencentos-tiny)：是腾讯面向物联网领域开发的实时操作系统。
-- [OneOS](./sys-thread-lib/README.md#oneos)：是中国移动针对物联网领域推出的轻量级操作系统，具有可裁剪、跨平台、低功耗、高安全等特点，支持 - ARM Cortex-M/A、MIPS、RISC-V 等主流芯片架构，兼容 POSIX、CMSIS 等标准接口，支持 Javascript、Micropython 语言开发。
+- [OneOS](./sys-thread-lib/README.md#oneos)：是中国移动针对物联网领域推出的轻量级操作系统，具有可裁剪、跨平台、低功耗、高安全等特点，支持 - ARM Cortex-M/A、MIPS、RISC-V 等主流芯片架构，兼容 POSIX、CMSIS 等标准接口，支持 JavaScript、Micropython 语言开发。
 - [LuatOS](./sys-thread-lib/README.md#luatos)：一款针对嵌入式的 Lua 脚本运行框架，包含了一个系统的功能体量。
 - [Lua-RTOS-ESP32](./sys-thread-lib/README.md#lua-rtos-esp32)：是一种支持 Lua 解释器的实时操作系统，提供了 Lua 所需所有资源和基本模块、中间件，可以移植到其他 32 位平台。
 - [Apache Mynewt OS](./sys-thread-lib/README.md#apache-mynewt-os)：Apache 旗下专为低功耗无线设备所设计的 OS，自带蓝牙协议栈和 IEEE 通信协议，开箱即用。
@@ -624,7 +624,7 @@
 
 ### [ROS](./sys-thread-lib/README.md#ros)
 
-- [ROS](./sys-thread-lib/README.md#ros)：业界有名的开源机器人操作系统，它实现了一整套的软件库和工具集。
+- [ROS](./sys-thread-lib/README.md#ros-1)：业界有名的开源机器人操作系统，它实现了一整套的软件库和工具集。
 - [AimRT](./sys-thread-lib/README.md#aimrt)：是一个基于 Modern C++ 开发，面向现代机器人领域的运行时开发框架。提供了全面的插件开发接口，具有高度可扩展性，与其他 ROS 生态兼容。
 
 ---
@@ -637,7 +637,7 @@
 - [cotUtils](./module-pack/README.md#cotutils)：C 语言的通用扩展库，包括多种容器（队列、栈、双向链表、动态数组），序列化/反序列化的结构体，PP 库（多功能宏）等功能。
 - [mr-library](./module-pack/README.md#mr-library)：嵌入式轻量级框架，提供标准化的驱动接口和简单的内核功能组件等，是普通厂商级项目的首选。
 - [Zorb Framework](./module-pack/README.md#zorb-framework)：轻量级的嵌入式框架，包含基本的内核功能，都是单独集成，方便裁剪使用。
-- [Gear-Lib](./module-pack/README.md#gear-lib)：一组通用的 Ｃ 基础库，全部用 POSIX C 实现，旨在兼容 linux, windows, android, ios 等跨平台，包括数据结构、异步、I/O、状态机、动态加载等功能。
+- [Gear-Lib](./module-pack/README.md#gear-lib)：一组通用的 C 基础库，全部用 POSIX C 实现，旨在兼容 Linux, Windows, Android, iOS 等跨平台，包括数据结构、异步、I/O、状态机、动态加载等功能。
 - [c-algorithms](./module-pack/README.md#c-algorithms)：提供常用算法和数据结构的集合来弥补标准库的缺失，并且比 C 标准库编译出来的小得多。
 - [klib](./module-pack/README.md#klib)：一个独立的轻量级 C 库，提供多种基础算法、数据结构和解析器等功能。
 - [AMetal](./module-pack/README.md#ametal)：是 ZLG 旗下的软件包，涵盖了各类型的外设，并统一编写了抽象层接口。代码比较冗余，但类型比较全面。
@@ -690,7 +690,7 @@
 
 ### [SoftFP](./engine-sim-lib/README.md#softfp)
 
-- [SoftFP](./engine-sim-lib/README.md#softfp-project)：用于没有硬件浮点单元（FPU）的情况下，作为软件浮点运算的实现方式。
+- [SoftFP](./engine-sim-lib/README.md#softfp-1)：用于没有硬件浮点单元（FPU）的情况下，作为软件浮点运算的实现方式。
 
 ### [C++](./engine-sim-lib/README.md#c)
 

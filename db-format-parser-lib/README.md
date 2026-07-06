@@ -195,7 +195,7 @@
 
 [![Gitee Repo stars](https://gitee.com/yikoulinux/url/badge/star.svg?theme=gvp)](https://gitee.com/yikoulinux/url/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yikoulinux/url&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yikoulinux/url&query=$.license&label=license)]()
 
-### <a name="url-project"></a>url
+### url
 
 **链接**：[url: 用 C 语言实现一个简单的解析 url 的算法](https://gitee.com/yikoulinux/url)  
 **特征**：简单的解析 url 模块，可以解析不同段的信息。  
@@ -292,7 +292,7 @@
 >
 > 另外，网上有极多 base64 源码库，可自行查找选择。  
 
-### <a name="base64-project1"></a>base64
+### base64
 
 [![Gitee Repo stars](https://gitee.com/ylguo/base64/badge/star.svg?theme=gvp)](https://gitee.com/ylguo/base64/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ylguo/base64&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ylguo/base64&query=$.license&label=license)]()
 
@@ -303,7 +303,7 @@
 
 ---
 
-### <a name="base64-project2"></a>base64
+### base64
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/aklomp/base64)](https://github.com/aklomp/base64/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/aklomp/base64)](https://github.com/aklomp/base64/commits) | [![GitHub License](https://img.shields.io/github/license/aklomp/base64)]()
 
@@ -409,7 +409,7 @@
 
 ---
 
-### <a name="tlv-project"></a>tlv
+### tlv
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/skullboyer/TLV)](https://github.com/skullboyer/TLV/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/skullboyer/TLV)](https://github.com/skullboyer/TLV/commits) | [![GitHub License](https://img.shields.io/github/license/skullboyer/TLV)]()
 
@@ -464,7 +464,7 @@
 
 ---
 
-### <a name="json-project"></a>json
+### json
 
 ![Gitee Repo stars](https://gitee.com/Lamdonn/json/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/json&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/json&query=$.license&label=license)
 
@@ -586,7 +586,7 @@
 
 ## TOML
 
-### <a name="toml-project"></a>toml
+### toml
 
 **链接**：[TOML：Tom 的（语义）明显、（配置）最小化的语言](https://toml.io/cn/)  
 **特征**：比 INI 的扩展性强、又没有层层嵌套的 JSON 和 YAML 的缩进语法，一种人们不常了解的数据标记格式。  
@@ -616,7 +616,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/xyz347/xpack)](https://github.com/xyz347/xpack/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/xyz347/xpack)](https://github.com/xyz347/xpack/commits) | [![GitHub License](https://img.shields.io/github/license/xyz347/xpack)]()
 
 **链接**：[xyz347/xpack: convert json/xml/bson to c++ struct](https://github.com/xyz347/xpack)  
-**特征**：用于在 C++ 结构体和 json/xml/yaml/bson/mysql/sqlite 之间互相转换，仅有头文件。  
+**特征**：用于在 C++ 结构体和 JSON/XML/YAML/BSON/MySQL/SQLite 之间互相转换，仅有头文件。
 
 #### 要点
 

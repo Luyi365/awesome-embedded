@@ -83,7 +83,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/gozfree/gear-lib)](https://github.com/gozfree/gear-lib/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/gozfree/gear-lib)](https://github.com/gozfree/gear-lib/commits) | [![GitHub License](https://img.shields.io/github/license/gozfree/gear-lib)]()
 
 **链接**：[gozfree/gear-lib: Gear-Lib, C library for IOT Embedded Multimedia and Network](https://github.com/gozfree/gear-lib)  
-**特征**：一组通用的 Ｃ 基础库，全部用 POSIX C 实现，旨在兼容 linux, windows, android, ios 等跨平台，包括数据结构、异步、I/O、状态机、动态加载等功能。  
+**特征**：一组通用的 C 基础库，全部用 POSIX C 实现，旨在兼容 Linux, Windows, Android, iOS 等跨平台，包括数据结构、异步、I/O、状态机、动态加载等功能。 
 
 #### 要点
 
@@ -213,7 +213,7 @@
 
 [![Gitee Repo stars](https://gitee.com/newgolo/appkit/badge/star.svg?theme=gvp)](https://gitee.com/newgolo/appkit/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/newgolo/appkit&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/newgolo/appkit&query=$.license&label=license)]()
 
-**链接**：[appkit: appkit 是一个基于嵌入式 Linux 的具有可移植性的 C++ 程序开发框架，其目的是为了加快 LInux 应用程序的开发速度，解放程序员的大脑和双手，让大家把精力投入到更有意义的事情当中去。](https://gitee.com/newgolo/appkit)  
+**链接**：[appkit: appkit 是一个基于嵌入式 Linux 的具有可移植性的 C++ 程序开发框架，其目的是为了加快 Linux 应用程序的开发速度，解放程序员的大脑和双手，让大家把精力投入到更有意义的事情当中去。](https://gitee.com/newgolo/appkit)  
 **特征**：基于 C++ 的 Linux 应用开发库，包括开发中常用的模块功能（线程管理、定时器、文件 IO、串口通信等）。  
 
 #### 要点

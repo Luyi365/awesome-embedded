@@ -511,7 +511,7 @@
 ### OneOS
 
 **链接**：[OneOS - 中国移动物联网操作系统](https://os.iot.10086.cn/)  
-**特征**：是中国移动针对物联网领域推出的轻量级操作系统，具有可裁剪、跨平台、低功耗、高安全等特点，支持 ARM Cortex-M/A、MIPS、RISC-V 等主流芯片架构，兼容 POSIX、CMSIS 等标准接口，支持 Javascript、Micropython 语言开发。  
+**特征**：是中国移动针对物联网领域推出的轻量级操作系统，具有可裁剪、跨平台、低功耗、高安全等特点，支持 ARM Cortex-M/A、MIPS、RISC-V 等主流芯片架构，兼容 POSIX、CMSIS 等标准接口，支持 JavaScript、Micropython 语言开发。  
 
 #### 要点
 
@@ -576,7 +576,7 @@
 
 ## ROS
 
-### <a name="ros-project"></a>ROS
+### ROS
 
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)
 

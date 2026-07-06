@@ -144,7 +144,7 @@
 - ~~代码用内存段代替了链表功能：((20240116165930-cu53x1o '用 attribute((section))代替链表'))；~~（待发布）
 - 其中 `__start_platform_init`、`__stop_platform_init` 分别在链接文件里定义在 `.platform_init` 左右两侧，`__start_device_init` 同理；
 - 如果芯片不支持 initcall 机制，将其 section 的部分换成链表的形式也可以达到同样的效果；
-- 配合这个食用更佳：[__attribute__之 section 详解___attribute__ section-CSDN 博客](https://blog.csdn.net/seven_feifei/article/details/95947358)；
+- 配合这个食用更佳：[__attribute__之section详解-CSDN 博客](https://blog.csdn.net/seven_feifei/article/details/95947358)；
 - 为什么 `PLATFORM_ITEM_REGISTER` 中 `general_ops` 可以代替所有操作：[关于 union 联合体](./Appendix.md#关于-union-联合体)；
 
 ---
@@ -245,7 +245,7 @@
 
 ### ERPC
 
-[![Gitee Repo stars](https://gitee.com/simpost/ERPC-doc/badge/star.svg?theme=gvp)](https://gitee.com/simpost/ERPC-doc/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/ERPC-doc&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/ERPC-doc&query=$.license&label=license)]()oc&query=$.license&label=license)
+[![Gitee Repo stars](https://gitee.com/simpost/ERPC-doc/badge/star.svg?theme=gvp)](https://gitee.com/simpost/ERPC-doc/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/ERPC-doc&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/ERPC-doc&query=$.license&label=license)]()
 
 **链接**：[ERPC-doc: ERPC（Embedded Remote Procedure Call）是一个简单的、易用的、高效的嵌入式远程调用框架。它不仅实现了远程调用，还实现了状态通知（观察者模式），同时还支持数据加密（用户可自定义加密算法）、异常监控和完备的日志管理方法。使用ERPC可简化系统的设计难度，降低模块之间的耦合度，降低开发人员之间的依赖性。](https://gitee.com/simpost/ERPC-doc)  
 **特征**：一个简单的、易用的、高效的远程调用框架。  
@@ -354,7 +354,7 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/Yellow-Camper/libevhtp)](https://github.com/Yellow-Camper/libevhtp/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Yellow-Camper/libevhtp)](https://github.com/Yellow-Camper/libevhtp/commits) | [![GitHub License](https://img.shields.io/github/license/Yellow-Camper/libevhtp)]()
 
-**链接**：[Yellow-Camper/libevhtp: Create extremely-fast and secure embedded HTTP servers with ease.](https://github.com/Yellow-Camper/libevhtp)   
+**链接**：[Yellow-Camper/libevhtp: Create extremely-fast and secure embedded HTTP servers with ease.](https://github.com/Yellow-Camper/libevhtp)  
 **特征**：适合嵌入式设备的低负载HTTP库。  
 
 #### 要点
