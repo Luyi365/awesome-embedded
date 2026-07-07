@@ -1,11 +1,11 @@
-# Awesome Embedded [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Embedded
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/Awesome-Embedded)](https://github.com/Luyi365/Awesome-Embedded/commits)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/Awesome-Embedded)](https://github.com/Luyi365/Awesome-Embedded/commits)
 
 ## 🚀关于
 
 > 一个精心整理的嵌入式开源代码库集合，并按照功能进行了细致的分类，涵盖了💥**绝大部分** 的开发场景！
-> 与大多数[awesome](https://github.com/sindresorhus/awesome)库不同的是：除了对相关代码库进行收集整理，还对部分库的**使用要点**进行了记录📝。
+> 与大多数[awesome](https://awesome.re)库不同的是：除了对相关代码库进行收集整理，还对部分库的**使用要点**进行了记录📝。
 
 一个好的开源项目是社区共同努力的结果🤗，如果下面有你感兴趣的部分，十分欢迎大家通过 Issues 进行留言：
 
