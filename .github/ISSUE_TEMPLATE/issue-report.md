@@ -1,6 +1,6 @@
 ---
 name: Issue report
-about: 指出列表中错误的描述，或者对该项目本身有什么好的建议
+about: 指出列表中错误的描述，或者有什么好的建议
 title: "[issue]"
 labels: bug
 assignees: Luyi365
