@@ -58,6 +58,17 @@
 
 ---
 
+### oledlib
+
+[![Gitee Repo stars](https://gitee.com/jiezhuonew/oledlib/badge/star.svg?theme=gvp)](https://gitee.com/jiezhuonew/oledlib/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/oledlib&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/oledlib&query=$.license&label=license)]()
+
+**链接**：[oledlib: 一个开源的 oled 图形库，使用 32 单片机 keil 平台进行开发，支持 I2C 和 SPI 驱动，能够绘制矩形，圆，椭圆，多边形，图片文字等简单内容](https://gitee.com/jiezhuonew/oledlib)  
+**特征**：一个开源的 oled 图形库，带有一些适合做屏保的图形。  
+
+#### 要点
+
+---
+
 ### U8g2
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/olikraus/u8g2)](https://github.com/olikraus/u8g2/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/olikraus/u8g2)](https://github.com/olikraus/u8g2/commits) | [![GitHub License](https://img.shields.io/github/license/olikraus/u8g2)]()
@@ -503,17 +514,6 @@
 #### 要点
 
 - 使用介绍：[嵌入式系统中的极简二维码生成方案！](https://mp.weixin.qq.com/s/HXGs1TSmQDFNYP4pSAATsQ)
-
----
-
-### oledlib
-
-[![Gitee Repo stars](https://gitee.com/jiezhuonew/oledlib/badge/star.svg?theme=gvp)](https://gitee.com/jiezhuonew/oledlib/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/oledlib&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/oledlib&query=$.license&label=license)]()
-
-**链接**：[oledlib: 一个开源的 oled 图形库，使用 32 单片机 keil 平台进行开发，支持 I2C 和 SPI 驱动，能够绘制矩形，圆，椭圆，多边形，图片文字等简单内容](https://gitee.com/jiezhuonew/oledlib)  
-**特征**：一个开源的 oled 图形库，带有一些适合做屏保的图形。  
-
-#### 要点
 
 ---
 

@@ -332,6 +332,7 @@
 
 - [ECBM_GUI](./ui-menu-lib/README.md#ecbm_gui)：超基础的单色 GUI 库，仅通过内建缓存来存放画面内容实现 GUI 功能。适合于自己玩的小项目。
 - [SimpleGUI](./ui-menu-lib/README.md#simplegui)：针对单色显示屏设计的 GUI 库，提供简单的绘制功能。适合于像素较低的单色点阵屏。
+- [oledlib](./ui-menu-lib/README.md#oledlib)：一个开源的 oled 图形库，带有一些适合做屏保的图形。
 - [U8g2](./ui-menu-lib/README.md#u8g2)：单色显示器库，提供多种控制器支持和基本图形绘制。
 - [MonoGUI](./ui-menu-lib/README.md#monogui)：针对黑白屏幕的小电子设备开发的专用 GUI 系统，功能全面，附带输入法功能。适合电子词典、标签打印机等设备。
 - [WouoUI](./ui-menu-lib/README.md#wououi)：模仿自稚晖君暂未开源的 MonoUI，用于实现类似 UltraLink 的丝滑界面，使用编码器作为控制器，还有个特流畅好看的升级版。
@@ -378,7 +379,6 @@
 - [qrencode](./ui-menu-lib/README.md#qrencode)：二维码生成库，适用于单片机。
 - [QR Code generator library](./ui-menu-lib/README.md#qr-code-generator-library)：通用的QR码生成库，包含多个语言版本，旨在用更少的代码实现更好的性能。
 - [QRCode](./ui-menu-lib/README.md#qrcode)：QR码生成库，参考了QR Code generator library，并针对处理器和内存受限的系统进行了优化，支持从 Version 1 到 Version 40 的所有规格。
-- [oledlib](./ui-menu-lib/README.md#oledlib)：一个开源的 oled 图形库，带有一些适合做屏保的图形。
 
 ### [字形](./ui-menu-lib/README.md#字形)
 
