@@ -113,7 +113,7 @@
 
 #### 要点
 
-- ~~lua 语法及使用方法可参考：((20230820124403-yaiem3a 'Lua'))；~~（待发布）
+- ~~lua 语法及使用方法可参考：Lua；~~（待发布）
 - 官方源码移植起来不方便，有个 5.3.5 版本的简易移植版，参考：[STM32-V6 LUA 简单移植 - STM32F429 - 硬汉嵌入式论坛 - Powered by Discuz!](https://www.armbbs.cn/forum.php?mod=viewthread&tid=94757&fromuid=58)；
 - lua 脚本可能存在于各种地方，包括 emmc，sd 卡，外部的某个设备上；
 - lua 使用的是动态内存，因此需要分配堆内存；

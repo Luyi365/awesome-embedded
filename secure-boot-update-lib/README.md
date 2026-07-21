@@ -43,14 +43,30 @@
 
 ---
 
-### wolfssl
+### wolfCrypt
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfssl)](https://github.com/wolfSSL/wolfssl/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfssl/wolfcrypt)](https://github.com/wolfSSL/wolfssl/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfssl)]()
+
+**链接**：[wolfCrypt Embedded Crypto Engine | Products - wolfSSL](https://www.wolfssl.com/products/wolfcrypt-2)  
+**FIPS认证版本**：[wolfCrypt FIPS FIPS 140-3 | Licensing - wolfSSL](https://www.wolfssl.com/license/fips)  
+**特征**：狼库旗下的轻量级加密库，支持多种流行的算法和密码，适合企业级项目。  
+
+#### 要点
+
+- 该库包含在 [wolfSSL](#wolfssl) 里；
+
+---
+
+### wolfSSL
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfssl)](https://github.com/wolfSSL/wolfssl/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfssl)](https://github.com/wolfSSL/wolfssl/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfssl)]()
 
 **链接**：[wolfSSL – Embedded SSL/TLS Library](https://www.wolfssl.com/)  
-**特征**：是一个轻量级的、可移植的、基于C语言的SSL/TLS库，它主要针对IoT、嵌入式和RTOS环境。  
+**特征**：是一个轻量级的、可移植的的 SSL/TLS 库，由 [wolfCrypt](#wolfcrypt) 密码库驱动，它主要针对 IoT、嵌入式和 RTOS 环境。
 
 #### 要点
+
+- [支持 RTCA DO-178C A 级认证](https://www.wolfssl.com/wolfssl-support-178-dal)；
 
 ---
 

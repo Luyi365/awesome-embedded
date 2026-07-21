@@ -224,7 +224,7 @@
 
 #### 要点
 
-- ~~参考：((20230129205449-88dk4cv 'LVGL'))~~（待发布）
+- ~~参考：LVGL~~（待发布）
 - [LVGL 的多语言转换工具--MCU_Font_Release](https://aijishu.com/a/1060000000297013)
 - NXP 旗下的免费图形化编辑器：[GUI Guider | NXP 半导体](https://www.nxp.com.cn/design/design-center/software/development-software/gui-guider:GUI-GUIDER)
 - lvgl 图形化编辑器：[SquareLine Studio - Design and build UIs with ease](https://squareline.io/)
@@ -241,7 +241,7 @@
 
 #### 要点
 
-- ~~参考：((20230129205449-zdv5owi 'AWTK'))~~（待发布）
+- ~~参考：AWTK~~（待发布）
 
 ---
 

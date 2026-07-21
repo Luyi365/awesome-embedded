@@ -307,7 +307,6 @@ static int file_opt_read(const char *filename, void *ptr, int size)
   - <image_size>：填写的是十六进制数大小；
   - <output_file>：脚本不带后缀名，需要自行添加。并且可以指定路径；
   - 生成的二进制文件在使用时注意：例如一个文件树为 👇
-
     ```
     resource
     ├─icon
@@ -315,7 +314,6 @@ static int file_opt_read(const char *filename, void *ptr, int size)
     │  └─pwd_num
     └─pic
     ```
-
     填写的 <base_dir> 为 `./resource/`，则生成的二进制文件是不包含“resource”这个路径的，使用时格式为：`/icon/charge`，而不是 ~~`resource/icon/charge`~~；
 
 ---

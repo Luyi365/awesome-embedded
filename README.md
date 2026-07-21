@@ -1,13 +1,11 @@
-# Awesome Embedded
+# Awesome Embedded [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/Awesome-Embedded)](https://github.com/Luyi365/Awesome-Embedded/commits)
-
-## 🚀关于
+## 🚀 关于
 
 > 一个精心整理的嵌入式开源代码库集合，并按照功能进行了细致的分类，涵盖了💥**绝大部分** 的开发场景！
-> 与大多数[awesome](https://awesome.re)库不同的是：除了对相关代码库进行收集整理，还对部分库的**使用要点**进行了记录📝。
+> 与大多数 [awesome](https://awesome.re) 库不同的是：除了对相关代码库进行收集整理，还对部分库的**使用要点**进行了记录📝。
 
-一个好的开源项目是社区共同努力的结果🤗，如果下面有你感兴趣的部分，十分欢迎大家通过 Issues 进行留言：
+一个好的开源项目是社区共同努力的结果🤗，如果下面有你感兴趣的部分，十分欢迎大家通过 [Issues](https://github.com/Luyi365/Awesome-Embedded/issues) 进行留言：
 
 - 推荐或自荐好的嵌入式开源库（甚至代码片段也可以）；
 - 为已记录的开源库编写使用心得（好的入门教程、踩过的大坑……总之你想让大家知道关于库的一些什么）；
@@ -25,19 +23,19 @@
 
 ---
 
-## 🗺️目录
+## 📚 内容
 
 #### 单功能
 
-- [IO与PWM库](#io与pwm库)
-- [TIMER与TIME库](#timer与time库)
+- [引脚与控制库](#引脚与控制库)
+- [定时器与时间库](#定时器与时间库)
 - [内存与文件系统库](#内存与文件系统库)
-- [总线协议与端侧库](#总线协议与端侧库)
-- [数据库与格式解析（传输协议）库](#数据库与格式解析传输协议库)
+- [板级总线协议库](#板级总线协议库)
+- [格式解析与数据库](#格式解析与数据库)
+- [通信协议与端侧库](#通信协议与端侧库)
 - [日志与终端交互库](#日志与终端交互库)
 - [校验、安全与引导、升级库](#校验安全与引导升级库)
 - [UI与菜单库](#ui与菜单库)
-- [控制库](#控制库)
 - [内核与基层框架库](#内核与基层框架库)
 - [异常快照与测试库](#异常快照与测试库)
 - [数据、算法与AI库](#数据算法与ai库)
@@ -54,26 +52,35 @@
 
 ---
 
-## [IO与PWM库](./io-pwm-lib/README.md#io与pwm库)
+## [引脚与控制库](./io-control-lib/README.md#引脚与控制库)
 
-### [按键](./io-pwm-lib/README.md#按键)
+### [按键](./io-control-lib/README.md#按键)
 
-- ~~[key_detect](./io-pwm-lib/README.md#key_detect)：简易的按键检测组件，采用注册事件，提供最基本的按键功能。~~（待发布）
-- [key_module](./io-pwm-lib/README.md#key_module)：简单易用的按键检测模块，采用事件回调，提供除矩阵按键的其他基本功能。
-- [FlexibleButton](./io-pwm-lib/README.md#flexiblebutton)：超轻量的按键库，采用轮询扫描检测，简单易用。
-- [MultiButton](./io-pwm-lib/README.md#multibutton)：标准的按键库，每个按键结构以面向对象的思想单独管理。
-- [cotKey](./io-pwm-lib/README.md#cotkey)：监听型按键识别库，可以实现单击、双击、多击、短按和长按等多种要求的功能，但只支持单一按键功能。
-- [key_board](./io-pwm-lib/README.md#key_board)：极丰富的按键库，带有矩阵键盘和组合的功能。
-- [LwBTN](./io-pwm-lib/README.md#lwbtn)：专业的按键事件管理库，配置方面十分丰富，但有点晦涩难懂。
+- ~~[key_detect](./io-control-lib/README.md#key_detect)：简易的按键检测组件，采用注册事件，提供最基本的按键功能。~~（待发布）
+- [key_module](./io-control-lib/README.md#key_module)：简单易用的按键检测模块，采用事件回调，提供除矩阵按键的其他基本功能。
+- [FlexibleButton](./io-control-lib/README.md#flexiblebutton)：超轻量的按键库，采用轮询扫描检测，简单易用。
+- [MultiButton](./io-control-lib/README.md#multibutton)：标准的按键库，每个按键结构以面向对象的思想单独管理。
+- [cotKey](./io-control-lib/README.md#cotkey)：监听型按键识别库，可以实现单击、双击、多击、短按和长按等多种要求的功能，但只支持单一按键功能。
+- [key_board](./io-control-lib/README.md#key_board)：极丰富的按键库，带有矩阵键盘和组合的功能。
+- [LwBTN](./io-control-lib/README.md#lwbtn)：专业的按键事件管理库，配置方面十分丰富，但有点晦涩难懂。
 
-### [LED](./io-pwm-lib/README.md#led)
+### [LED](./io-control-lib/README.md#led)
 
-- [cotLed](./io-pwm-lib/README.md#cotled)：轻量级的 LED 控制模块，可以实现 LED 灯多种模式状态。
-- [led_module](./io-pwm-lib/README.md#led_module)：基于面向对象和简单工厂模式的通用 LED 显示模块。
+- [cotLed](./io-control-lib/README.md#cotled)：轻量级的 LED 控制模块，可以实现 LED 灯多种模式状态。
+- [led_module](./io-control-lib/README.md#led_module)：基于面向对象和简单工厂模式的通用 LED 显示模块。
+
+### [PID](./io-control-lib/README.md#pid)
+
+- [pid_temperature_control](./io-control-lib/README.md#pid_temperature_control)：PID 温度控制，很好的一个示例，通过这个可以把 PID 控制发散至其他领域。
+
+### [CNC](./io-control-lib/README.md#cnc)
+
+- [Grbl](./io-control-lib/README.md#grbl)：行业著名的开源 CNC 代码，可用于激光切割机、自动手动写字机、钻孔机、涂鸦画家和古怪的绘图机等，是创客们的首选，也是行业标准。
+- [µCNC](./io-control-lib/README.md#µcnc)：用于微控制器的通用 CNC 固件。
 
 ---
 
-## [TIMER与TIME库](./timer-time-lib/README.md#timer与time库)
+## [定时器与时间库](./timer-time-lib/README.md#定时器与时间库)
 
 ### [定时器](./timer-time-lib/README.md#定时器)
 
@@ -86,7 +93,7 @@
 
 - [LwWDG](./timer-time-lib/README.md#lwwdg)：轻量级的看门狗库，主要针对操作系统， 监视多个线程并在其中一个线程失败时重置系统。
 
-### [TIME 相关](./timer-time-lib/README.md#time-相关)
+### [时间相关](./timer-time-lib/README.md#time-相关)
 
 - [LwDTC](./timer-time-lib/README.md#lwdtc)：用于日期、时间和 cron 实用程序库，支持 tm 数据结构，解析速度快。
 
@@ -122,60 +129,43 @@
 
 ---
 
-## [总线协议与端侧库](./bus-protocol-lib/README.md#总线协议与端侧库)
+## [板级总线协议库](./board-bus-lib/README.md#板级总线协议库)
 
-### [UART](./bus-protocol-lib/README.md#uart)
+### [UART](./board-bus-lib/README.md#uart)
 
-- [LwOW](./bus-protocol-lib/README.md#lwow)：专业的 1-Wire 协议库，允许通过 UART 或单 GPIO 通讯，提供线程安全的 API。
-- [MUDLink](./bus-protocol-lib/README.md#mudlink)：将 UART 串口提升为一个链路/传输层，并保证成帧数据包的交付，此外还传输保证和流量控制。它还记录链路性能的统计信息等功能。
+- [LwOW](./board-bus-lib/README.md#lwow)：专业的 1-Wire 协议库，允许通过 UART 或单 GPIO 通讯，提供线程安全的 API。
+- [MUDLink](./board-bus-lib/README.md#mudlink)：将 UART 串口提升为一个链路/传输层，并保证成帧数据包的交付，此外还传输保证和流量控制。它还记录链路性能的统计信息等功能。
 
-### [CDbus](./bus-protocol-lib/README.md#cdbus)
+### [CDbus](./board-bus-lib/README.md#cdbus)
 
-- [CDBUS](./bus-protocol-lib/README.md#cdbus-1)：一种简单高效的现场总线，基于且兼容 UART / RS-485 协议和硬件，引入了硬件分包和硬件仲裁等机制，各节点可以自由收发数据包。
+- [CDBUS](./board-bus-lib/README.md#cdbus-1)：一种简单高效的现场总线，基于且兼容 UART / RS-485 协议和硬件，引入了硬件分包和硬件仲裁等机制，各节点可以自由收发数据包。
 
-### [Modbus](./bus-protocol-lib/README.md#modbus)
+### [Modbus](./board-bus-lib/README.md#modbus)
 
-- [freemodbus](./bus-protocol-lib/README.md#freemodbus)：由 armink 移植的 modbus 协议栈，同时支持主机和从机的功能。
-- [nanoMODBUS](./bus-protocol-lib/README.md#nanomodbus)：精简的 modbus 库，可按需裁剪功能，旨在资源有限的环境中运行。
+- [freemodbus](./board-bus-lib/README.md#freemodbus)：由 armink 移植的 modbus 协议栈，同时支持主机和从机的功能。
+- [nanoMODBUS](./board-bus-lib/README.md#nanomodbus)：精简的 modbus 库，可按需裁剪功能，旨在资源有限的环境中运行。
 
-### [I2C](./bus-protocol-lib/README.md#i2c)
+### [I2C](./board-bus-lib/README.md#i2c)
 
-- ~~[i2c_scanner](./bus-protocol-lib/README.md#i2c_scanner)：i2c 设备扫描库，摘自 Nordic 的 SDK 库，能够扫描板载的 i2c 设备个数及设备地址。~~(待发布)
+- ~~[i2c_scanner](./board-bus-lib/README.md#i2c_scanner)：i2c 设备扫描库，摘自 Nordic 的 SDK 库，能够扫描板载的 i2c 设备个数及设备地址。~~(待发布)
 
-### [SPI](./bus-protocol-lib/README.md#spi)
+### [SPI](./board-bus-lib/README.md#spi)
 
-- [SFUD](./bus-protocol-lib/README.md#sfud)：开源的串行 SPI Flash 通用驱动库，通过编写设备表，做到能适配各型号 Flash 芯片。
+- [SFUD](./board-bus-lib/README.md#sfud)：开源的串行 SPI Flash 通用驱动库，通过编写设备表，做到能适配各型号 Flash 芯片。
 
-### [USB](./bus-protocol-lib/README.md#usb)
+### [板件通信](./board-bus-lib/README.md#板间通信)
 
-- [TinyUSB](./bus-protocol-lib/README.md#tinyusb)：是一个用于嵌入式系统的开源跨平台 USB 主机/设备堆栈，设计为内存安全，没有动态分配，线程安全，所有中断事件都被延迟，然后在非 ISR 任务函数中处理。
-- [CherryUSB](./bus-protocol-lib/README.md#cherryusb)：用于嵌入式系统(带 USB IP)的 USB 主从协议栈。可以移植各个平台，适用于自身不带 USB 协议栈的芯片。
+- [ESSL](./board-bus-lib/README.md#essl)：ESP 旗下的串行从机链路，该组件能让主机通过总线驱动和相应的协议与从机进行通信。也可以说就是双 mcu 通讯，只是在上面套了一层壳。
+- [SACP](./board-bus-lib/README.md#sacp)：是 Snapmaker 设备的数据通信协议，基于 C++ 的专用于整机多设备的设备间通信。
 
-### [Thread](./bus-protocol-lib/README.md#thread)
+### [USB](./board-bus-lib/README.md#usb)
 
-- [OpenThread](./bus-protocol-lib/README.md#openthread)：Google 旗下的产品，是 Thread 的开源实现。
-
-### [Bluetooth](./bus-protocol-lib/README.md#bluetooth)
-
-- [bluetooth_stack](./bus-protocol-lib/README.md#bluetooth_stack)：一个开源的低功耗双模蓝牙协议栈，可以用于学习，作者有很多教程。
-- [BTstack](./bus-protocol-lib/README.md#btstack)：是一个轻量级、开源的 蓝牙协议栈，专为嵌入式系统和资源受限设备设计，适合需要低功耗、高灵活性的场景。
-- [NimBLE](./bus-protocol-lib/README.md#nimble)：从 Apache Mynewt 中分离出来的一个开源的蓝牙协议栈（包括主机和控制器） 完全取代了 Nordic 芯片组上的专有 SoftDevice。
-
-### [TCP/IP](./bus-protocol-lib/README.md#tcpip)
-
-- [lwIP](./bus-protocol-lib/README.md#lwip)：小型开源的 TCP/IP 协议栈，使用最广泛的嵌入式网络协议栈，基本上物联网系统中都有它。
-- [CycloneTCP](./bus-protocol-lib/README.md#cyclonetcp)：专用于嵌入式应用的双 IPv4/IPv6 栈，简化了互联网的部署。
-- [onps](./bus-protocol-lib/README.md#onps)：国产网络协议栈，设计目标与 Lwip 相同，适用于资源受限的单片机系统，提供完整地 ethernet/ppp/tcp/ip 协议族实现。有非常详细的介绍，很适合国人读阅。
-
-### [GNSS](./bus-protocol-lib/README.md#gnss)
-
-- [LwGPS](./bus-protocol-lib/README.md#lwgps)：简易的 NMEA 报文解析库，内置支持 4 个 GPS 报文：GPGGA、GPGSA、GPGSV、GPRMC。
-- [RTKLIB](./bus-protocol-lib/README.md#rtklib)：RTK 领域的标杆库，广泛应用于商业以及社区，同时也是教科书式的参考手册。
-- [Ntrip](./bus-protocol-lib/README.md#ntrip)：C++ 编写的简易 Ntrip 协议库，包含流动站（Client）、中央服务器（Caster）、基准站（CORS）。
+- [TinyUSB](./board-bus-lib/README.md#tinyusb)：是一个用于嵌入式系统的开源跨平台 USB 主机/设备堆栈，设计为内存安全，没有动态分配，线程安全，所有中断事件都被延迟，然后在非 ISR 任务函数中处理。
+- [CherryUSB](./board-bus-lib/README.md#cherryusb)：用于嵌入式系统(带 USB IP)的 USB 主从协议栈。可以移植各个平台，适用于自身不带 USB 协议栈的芯片。
 
 ---
 
-## [数据库与格式解析（传输协议）库](./db-format-parser-lib/README.md#数据库与格式解析传输协议库)
+## [格式解析与数据库](./db-format-parser-lib/README.md#格式解析与数据库)
 
 ### [数据库](./db-format-parser-lib/README.md#数据库)
 
@@ -198,20 +188,6 @@
 - [lz4](./db-format-parser-lib/README.md#lz4)：极快的无损压缩算法库，适合通信时的数据压缩。
 - [heatshrink](./db-format-parser-lib/README.md#heatshrink)：超低资源消耗的嵌入式解压缩库。相关文档较少。
 - [TJpgDec](./db-format-parser-lib/README.md#tjpgdec)：针对嵌入式系统优化的 JPEG 图像解压缩模块。
-
-### [URL](./db-format-parser-lib/README.md#url)
-
-- [url](./db-format-parser-lib/README.md#url-1)：简单的解析 url 模块，可以解析不同段的信息。
-
-### [SSH](./db-format-parser-lib/README.md#ssh)
-
-- [tinyssh](./db-format-parser-lib/README.md#tinyssh)：一个简约的 SSH 服务器，它只实现了 SSHv2 功能的子集，适合嵌入式使用。
-
-### [MQTT](./db-format-parser-lib/README.md#mqtt)
-
-- [Paho MQTT](./db-format-parser-lib/README.md#paho-mqtt)：嵌入式平台的 MQTT 客户端库。
-- [mqttclient](./db-format-parser-lib/README.md#mqttclient)：高性能、高稳定性的跨平台 MQTT 客户端，拥有简洁的 API，无缝衔接 Mbed TLS 库，提供在线代码生成工具。
-- [Mosquitto](./db-format-parser-lib/README.md#mosquitto)：Eclipse 旗下的一个开源的消息代理（broker），主要用于实现 MQTT 协议。它设计轻巧，资源占用少，适合物联网领域的企业级项目。
 
 ### [AT](./db-format-parser-lib/README.md#at)
 
@@ -267,11 +243,69 @@
 
 - [LwPKT](./db-format-parser-lib/README.md#lwpkt)：通用数据包协议库，可变数据长度，支持理论上无限的数据包长度，允许在网络中使用发件人地址和收件人地址进行多个注释，附带 CRC 检验。
 - [xpack](./db-format-parser-lib/README.md#xpack)：用于在 C++ 结构体和 JSON/XML/YAML/BSON/MySQL/SQLite 之间互相转换，仅有头文件。
-- [ESSL](./db-format-parser-lib/README.md#essl)：ESP 旗下的串行从机链路，该组件能让主机通过总线驱动和相应的协议与从机进行通信。也可以说就是双 mcu 通讯，只是在上面套了一层壳。
 - [Uart_Transfer_BIN_to_exFlash](./db-format-parser-lib/README.md#uart_transfer_bin_to_exflash)：基于串口通讯，增加帧属性，从而方便、可靠的将数据传输到 Flash 中。
-- [SACP](./db-format-parser-lib/README.md#sacp)：是 Snapmaker 设备的数据通信协议，基于 C++ 的专用于整机多设备的设备间通信。
-- [rtty](./db-format-parser-lib/README.md#rtty)：通过 Web 访问设备的终端，适合嵌入式 Linux，有点意思。
-- [Nanomsg](./db-format-parser-lib/README.md#nanomsg)：是一个“可扩展协议”的套接字库，它提供了几种常见的通信模式。可扩展协议的任务是定义多个应用系统如何通信，从而组成一个大的分布式系统。
+
+
+---
+
+## [通信协议与端侧库](./communication-edge-lib/README.md#通信协议与端侧库)
+
+### [Web-Server](./communication-edge-lib/README.md#web-server)
+
+- [LightTPD](./communication-edge-lib/README.md#lighttpd)：是一个轻量级、高性能的 开源 Web 服务器，专为高并发、低内存占用 的场景设计。相比 Apache 或 Nginx 更适合嵌入式设备。
+- [Mongoose](./communication-edge-lib/README.md#mongoose)：C / C++ 的事件驱动网络库，除了基本协议栈还了内置 HTTP、MQTT 等服务协议，可在裸机及 RTOS 上运行，带有 UI 构建器。商用有付费限制。
+- [Boa](./communication-edge-lib/README.md#boa)：开源的小型 Web 服务器，适用于嵌入式应用。于 2005 起不再更新维护，目前存在已知安全漏洞，不推荐使用。
+
+### [Web-Plugin](./communication-edge-lib/README.md#web-plugin)
+
+- [FastCGI](./communication-edge-lib/README.md#fastcgi)：改进了传统 CGI 的性能，增加了分布式计算和多角色特性。
+- [libevent](./communication-edge-lib/README.md#libevent)：专用于网络服务器的事件驱动库，旨在替换事件驱动网络服务器中的事件循环。
+- [rtty](./communication-edge-lib/README.md#rtty)：通过 Web 访问设备的终端，适合嵌入式 Linux，有点意思。
+- [Nanomsg](./communication-edge-lib/README.md#nanomsg)：是一个“可扩展协议”的套接字库，它提供了几种常见的通信模式。可扩展协议的任务是定义多个应用系统如何通信，从而组成一个大的分布式系统。
+- [url](./communication-edge-lib/README.md#url)：简单的解析 url 模块，可以解析不同段的信息。
+
+### [RPC](./communication-edge-lib/README.md#rpc)
+
+- [ERPC](./communication-edge-lib/README.md#erpc-1)：一个简单的、易用的、高效的远程调用框架。
+- [EmbedXrpc](./communication-edge-lib/README.md#embedxrpc)：通过 RPC 通讯协议，可忽略协议本身进行业务逻辑的实现，附带代码生成工具。
+- [erpc](./communication-edge-lib/README.md#erpc-2)：是 NXP 开源的、用于多芯片嵌入式系统和异构多核 SoC 的开源远程过程调用（RPC）系统。
+
+### [TCP/IP](./communication-edge-lib/README.md#tcpip)
+
+- [lwIP](./communication-edge-lib/README.md#lwip)：小型开源的 TCP/IP 协议栈，使用最广泛的嵌入式网络协议栈，基本上物联网系统中都有它。
+- [CycloneTCP](./communication-edge-lib/README.md#cyclonetcp)：专用于嵌入式应用的双 IPv4/IPv6 栈，简化了互联网的部署。
+- [onps](./communication-edge-lib/README.md#onps)：国产网络协议栈，设计目标与 Lwip 相同，适用于资源受限的单片机系统，提供完整地 ethernet/ppp/tcp/ip 协议族实现。有非常详细的介绍，很适合国人读阅。
+- [dyad](./communication-edge-lib/README.md#dyad)：基于 Linux 的异步网络库，仅支持 TCP 网络通讯，用于创建小型独立设备服务器，并为现有项目提供网络支持。
+
+### [SSH](./communication-edge-lib/README.md#ssh)
+
+- [tinyssh](./communication-edge-lib/README.md#tinyssh)：一个简约的 SSH 服务器，它只实现了 SSHv2 功能的子集，适合嵌入式使用。
+
+### [Web/HTTP服务器](./communication-edge-lib/README.md#webhttp服务器)
+
+- [libevhtp](./communication-edge-lib/README.md#libevhtp)：适合嵌入式设备的低负载 HTTP 库。
+
+### [MQTT](./communication-edge-lib/README.md#mqtt)
+
+- [Paho MQTT](./communication-edge-lib/README.md#paho-mqtt)：嵌入式平台的 MQTT 库，包含三个子库——数据包序列化、C及C++客户端。
+- [mqttclient](./communication-edge-lib/README.md#mqttclient)：高性能、高稳定性的跨平台 MQTT 客户端，拥有简洁的 API，无缝衔接 Mbed TLS 库，提供在线代码生成工具。
+- [Mosquitto](./communication-edge-lib/README.md#mosquitto)：Eclipse 旗下的一个开源的消息代理（broker），主要用于实现 MQTT 协议。它设计轻巧，资源占用少，适合物联网领域的企业级项目。
+
+### [Thread](./communication-edge-lib/README.md#thread)
+
+- [OpenThread](./communication-edge-lib/README.md#openthread)：Google 旗下的产品，是 Thread 的开源实现。
+
+### [Bluetooth](./communication-edge-lib/README.md#bluetooth)
+
+- [bluetooth_stack](./communication-edge-lib/README.md#bluetooth_stack)：一个开源的低功耗双模蓝牙协议栈，可以用于学习，作者有很多教程。
+- [BTstack](./communication-edge-lib/README.md#btstack)：是一个轻量级、开源的 蓝牙协议栈，专为嵌入式系统和资源受限设备设计，适合需要低功耗、高灵活性的场景。
+- [NimBLE](./communication-edge-lib/README.md#nimble)：从 Apache Mynewt 中分离出来的一个开源的蓝牙协议栈（包括主机和控制器） 完全取代了 Nordic 芯片组上的专有 SoftDevice。
+
+### [GNSS](./communication-edge-lib/README.md#gnss)
+
+- [LwGPS](./communication-edge-lib/README.md#lwgps)：简易的 NMEA 报文解析库，内置支持 4 个 GPS 报文：GPGGA、GPGSA、GPGSV、GPRMC。
+- [RTKLIB](./communication-edge-lib/README.md#rtklib)：RTK 领域的标杆库，广泛应用于商业以及社区，同时也是教科书式的参考手册。
+- [Ntrip](./communication-edge-lib/README.md#ntrip)：C++ 编写的简易 Ntrip 协议库，包含流动站（Client）、中央服务器（Caster）、基准站（CORS）。
 
 ---
 
@@ -307,7 +341,8 @@
 - [crc-lib-c](./secure-boot-update-lib/README.md#crc-lib-c)：极简的 CRC 库，包含很多常用的 CRC 参数模型实现，无其他扩展功能。
 - [tiny-AES-c](./secure-boot-update-lib/README.md#tiny-aes-c)：小巧易移植的 AES 算法库，提供 ECB、CTR 和 CBC 三种加密模式。
 - ~~[key](./secure-boot-update-lib/README.md#key)：极简的加密算法，配合密钥使用，功能单一但实用，适合网络加密等领域。~~（待发布）
-- [wolfssl](./secure-boot-update-lib/README.md#wolfssl)：是一个轻量级的、可移植的、基于 C 语言的 SSL/TLS 库，它主要针对 IoT、嵌入式和 RTOS 环境。
+- [wolfCrypt](./secure-boot-update-lib/README.md#wolfcrypt)：狼库旗下的轻量级加密库，支持多种流行的算法和密码，适合企业级项目。
+- [wolfSSL](./secure-boot-update-lib/README.md#wolfssl)：是一个轻量级的、可移植的、基于 C 语言的 SSL/TLS 库，它主要针对 IoT、嵌入式和 RTOS 环境。
 - [Mbed TLS](./secure-boot-update-lib/README.md#mbed-tls)：可信旗下的项目，业内流行的 SSL/TLS 库。
 
 ### [引导和升级](./secure-boot-update-lib/README.md#引导和升级)
@@ -358,8 +393,8 @@
 - [μGFX](./ui-menu-lib/README.md#μgfx)：可用于触摸屏的轻量级 UI 库，注重性能，非商用免费。
 - [MiniGUI](./ui-menu-lib/README.md#minigui)：多平台、高度可定制的 UI 库，可用于不同性能的芯片，适合移动设备及工业等领域，非商用免费。
 - [μGUI](./ui-menu-lib/README.md#μgui)：开源的极简图形库，独立于平台，仅一个源文件。
-- [Clay](./ui-menu-lib/README.md#clay)：高性能 2D UI 布局库，提供响应式布局能力，适合嵌入式 Web 的制作。
 - [Aeropoint GUI](./ui-menu-lib/README.md#aeropoint-gui)：使用 PPT 方式进行 GUI 的创建，需要收费，且没有试用版。
+- [Clay](./ui-menu-lib/README.md#clay)：高性能 2D UI 布局库，提供响应式布局能力，适合嵌入式 Web 的制作。
 - [Nuklear](./ui-menu-lib/README.md#nuklear)：无依赖的图形用户界面工具包，通过使用输入状态和绘制命令来构建图形，适合快速响应的应用。
 - [LinaVG](./ui-menu-lib/README.md#linavg)：适用于 2D 矢量图形的渲染库。
 - [BlurHash](./ui-menu-lib/README.md#blurhash)：开源的图片占位符算法和实现，能够在图片预载时先显示框图和缩略图，嵌入式领域可能会用得到。
@@ -368,11 +403,11 @@
 - [TinyGL](./ui-menu-lib/README.md#tinygl)：是 OpenGL 的小型实现，适用于嵌入式系统。将复杂的接口精简为更易于理解和操作的形式。
 - [foolrenderer](./ui-menu-lib/README.md#foolrenderer)：用 C 语言实现的软件渲染器，不依赖图形库，仅用几千行代码，实现了一套类似 OpenGL 的基本图形功能，以及应用于游戏开发的实时渲染技术，如阴影、切线空间法线映射、基于物理的材质系统等。
 - [EmberGL](./ui-menu-lib/README.md#embergl)：用于 MCU 的类似于 OpenGL 的实时 2D / 3D 光栅渲染库。
-- [GUIslice](./ui-menu-lib/README.md#guislice)：简单好用的开源 GUI 框架，极客的风格，无动态内存分配，并提供布局上位机。
 
 ### [加速](./ui-menu-lib/README.md#加速)
 
 - [Arm-2D](./ui-menu-lib/README.md#arm-2d)：针对 Cortex-M 处理器优化的 2D 图形加速库，处于 GUI 库和驱动层之间。
+- [GUIslice](./ui-menu-lib/README.md#guislice)：简单好用的开源 GUI 框架，极客的风格，无动态内存分配，并提供布局上位机。
 
 ### [图形](./ui-menu-lib/README.md#图形)
 
@@ -399,19 +434,6 @@
 - [MultMenu](./ui-menu-lib/README.md#multmenu)：多级菜单 + 单色 OLED 非线性动画库，组合使用，移植简单方便，适合类似需求的创客项目。
 - [SMF](./ui-menu-lib/README.md#smf)：基于 C++ 的菜单框架，提供多级菜单、菜单对象，适合项目级工程。
 - [PageManager](./ui-menu-lib/README.md#pagemanager)：基于 C++ 的页面生命周期管理库，提供完整的页面调度功能，适合项目级工程。
-
----
-
-## [控制库](./control-lib/README.md#控制库)
-
-### [PID](./control-lib/README.md#pid)
-
-- [pid_temperature_control](./control-lib/README.md#pid_temperature_control)：PID 温度控制，很好的一个示例，通过这个可以把 PID 控制发散至其他领域。
-
-### [CNC](./control-lib/README.md#cnc)
-
-- [Grbl](./control-lib/README.md#grbl)：行业著名的开源 CNC 代码，可用于激光切割机、自动手动写字机、钻孔机、涂鸦画家和古怪的绘图机等，是创客们的首选，也是行业标准。
-- [µCNC](./control-lib/README.md#µcnc)：用于微控制器的通用 CNC 固件。
 
 ---
 
@@ -463,25 +485,6 @@
 ### [动态加载](./kernel-framework-lib/README.md#动态加载)
 
 - [dynamic_loader](./kernel-framework-lib/README.md#dynamic_loader)：动态加载函数库，裁剪自 RT-Thread 的 libdl 源码，不与原本 OS 耦合，可在裸机使用。
-
-### [RPC](./kernel-framework-lib/README.md#rpc)
-
-- [ERPC](./kernel-framework-lib/README.md#erpc-project1)：一个简单的、易用的、高效的远程调用框架。
-- [EmbedXrpc](./kernel-framework-lib/README.md#embedxrpc)：通过 RPC 通讯协议，可忽略协议本身进行业务逻辑的实现，附带代码生成工具。
-- [erpc](./kernel-framework-lib/README.md#erpc-project2)：是 NXP 开源的、用于多芯片嵌入式系统和异构多核 SoC 的开源远程过程调用（RPC）系统。
-
-### [CGI](./kernel-framework-lib/README.md#cgi)
-
-- [FastCGI](./kernel-framework-lib/README.md#fastcgi)：改进了传统 CGI 的性能，增加了分布式计算和多角色特性。
-
-### [Web/HTTP服务器](./kernel-framework-lib/README.md#webhttp服务器)
-
-- [LightTPD](./kernel-framework-lib/README.md#lighttpd)：是一个轻量级、高性能的 开源 Web 服务器，专为高并发、低内存占用 的场景设计。相比 Apache 或 Nginx 更适合嵌入式设备。
-- [Mongoose](./kernel-framework-lib/README.md#mongoose)：C / C++ 的事件驱动网络库，除了基本协议栈还了内置 HTTP、MQTT 等服务协议，可在裸机及 RTOS 上运行，带有 UI 构建器。商用有付费限制。
-- [Boa](./kernel-framework-lib/README.md#boa)：开源的小型 Web 服务器，适用于嵌入式应用。于 2005 起不再更新维护，目前存在已知安全漏洞，不推荐使用。
-- [libevent](./kernel-framework-lib/README.md#libevent)：专用于网络服务器的事件驱动库，旨在替换事件驱动网络服务器中的事件循环。
-- [dyad](./kernel-framework-lib/README.md#dyad)：基于 Linux 的异步网络库，仅支持 TCP 网络通讯，用于创建小型独立设备服务器，并为现有项目提供网络支持。
-- [libevhtp](./kernel-framework-lib/README.md#libevhtp)：适合嵌入式设备的低负载 HTTP 库。
 
 ---
 
@@ -720,7 +723,7 @@
 
 ### [Arduino](./engine-sim-lib/README.md#arduino)
 
-- [ArduinoCore-API](./engine-sim-lib/README.md#arduinocore-api)：Arduino 内核的硬件独立层，使用基于 Arduino 相关的库时需要包含对应的 API 文件。、
+- [ArduinoCore-API](./engine-sim-lib/README.md#arduinocore-api)：Arduino 内核的硬件独立层，使用基于 Arduino 相关的库时需要包含对应的 API 文件。
 
 ### [Android](./engine-sim-lib/README.md#android)
 
@@ -738,7 +741,7 @@
 
 ---
 
-## ✨额外
+## ✨ 额外
 
 ### 库分类细则
 
@@ -758,3 +761,9 @@
 - [fffaraz/awesome-cpp: A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.](https://github.com/fffaraz/awesome-cpp)
 
 除此之外，Arduino 社区包含极多库，可在 Arduino IDE 应用内搜索，也可以在 [Arduino Library List - Arduino Libraries](https://www.arduinolibraries.info/) 中搜索，其他厂商芯片在使用时需要移植[Arduino内核](./engine-sim-lib/README.md#arduinocore-api)。
+
+---
+
+## 🤝 贡献
+
+我们欢迎大家的贡献！详情请参阅我们的[贡献指南](https://github.com/Luyi365/Awesome-Embedded/blob/main/CONTRIBUTING.md)。

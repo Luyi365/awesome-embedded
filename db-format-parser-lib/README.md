@@ -1,6 +1,6 @@
-# 数据库与格式解析（传输协议）库
+# 格式解析与数据库
 
-> 这里的传输协议库与[总线协议与端侧库](../bus-protocol-lib/README.md)不一样，实际上<ins>传输协议</ins>（待发布）与格式解析意义相等，只不过在格式解析的基础上增加了端与端通讯的概念。
+> 这里的传输协议库与[板级总线协议库](../board-bus-lib/README.md)不一样，实际上<ins>传输协议</ins>（待发布）与格式解析意义相等，只不过在格式解析的基础上增加了端与端通讯的概念。
 
 ## 数据库
 
@@ -42,7 +42,7 @@
 
 #### 要点
 
-- ~~介绍：((20230731152707-8yuheud 'FlashDB'))；~~（待发布）
+- ~~介绍：FlashDB；~~（待发布）
 - 使用该库可以用来解决 Flash 地址内数据在设备迭代升级时被移动的问题，因为使用的是键值映射；
 
 ---
@@ -101,7 +101,7 @@
 
 #### 要点
 
-- ~~详细解释可参见：((20240701142124-fkzyo5i 'SQLite（MySQL）'))；~~（待发布）
+- ~~详细解释可参见：SQLite（MySQL）；~~（待发布）
 
 ---
 
@@ -188,69 +188,6 @@
 #### 要点
 
 - 支持像素格式：RGB888、RGB565 或灰度；
-
----
-
-## URL
-
-[![Gitee Repo stars](https://gitee.com/yikoulinux/url/badge/star.svg?theme=gvp)](https://gitee.com/yikoulinux/url/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yikoulinux/url&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yikoulinux/url&query=$.license&label=license)]()
-
-### url
-
-**链接**：[url: 用 C 语言实现一个简单的解析 url 的算法](https://gitee.com/yikoulinux/url)  
-**特征**：简单的解析 url 模块，可以解析不同段的信息。  
-
-#### 要点
-
-- 使用介绍：[分享一个 C 语言实现 url 解析的小实例](https://mp.weixin.qq.com/s/gRErTrfOfx5RVwyGGXjrEQ)
-
----
-
-## SSH
-
-### tinyssh
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/janmojzis/tinyssh)](https://github.com/janmojzis/tinyssh/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/janmojzis/tinyssh)](https://github.com/janmojzis/tinyssh/commits) | [![GitHub License](https://img.shields.io/github/license/janmojzis/tinyssh)]()
-
-**链接**：[janmojzis/tinyssh：TinySSH 是小型服务器（少于 100000 字代码）](https://github.com/janmojzis/tinyssh)  
-**特征**：一个简约的 SSH 服务器，它只实现了 SSHv2 功能的子集，适合嵌入式使用。  
-
-#### 要点
-
----
-
-## MQTT
-
-### Paho MQTT
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/eclipse-paho/paho.mqtt.embedded-c)](https://github.com/eclipse-paho/paho.mqtt.embedded-c/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-paho/paho.mqtt.embedded-c)](https://github.com/eclipse-paho/paho.mqtt.embedded-c/commits) | [![GitHub License](https://img.shields.io/github/license/eclipse-paho/paho.mqtt.embedded-c)]()
-
-**链接**：[eclipse/paho.mqtt.embedded-c: Paho MQTT C client library for embedded systems. Paho is an Eclipse IoT project](https://github.com/eclipse-paho/paho.mqtt.embedded-c)  
-**特征**：嵌入式平台的 MQTT 客户端库。  
-
-#### 要点
-
----
-
-### mqttclient
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/IoTSharp/mqttclient)](https://github.com/IoTSharp/mqttclient/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/IoTSharp/mqttclient)](https://github.com/IoTSharp/mqttclient/commits) | [![GitHub License](https://img.shields.io/github/license/IoTSharp/mqttclient)]()
-
-**链接**：[jiejieTop/mqttclient: A high-performance, high-stability, cross-platform MQTT client, developed based on the socket API, can be used on embedded devices (FreeRTOS / LiteOS / RT-Thread / TencentOS tiny), Linux, Windows, Mac, with a very concise The API interface realizes the quality of service of QOS2 with very few resources, and seamlessly connects the mbedtls encryption library.](https://github.com/IoTSharp/mqttclient)  
-**特征**：高性能、高稳定性的跨平台 MQTT 客户端，拥有简洁的 API，无缝衔接 [Mbed TLS](../secure-boot-update-lib/README.md#mbed-tls) 库，提供在线代码生成工具。  
-
-#### 要点
-
----
-
-### Mosquitto
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/eclipse-mosquitto/mosquitto)](https://github.com/eclipse-mosquitto/mosquitto/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-mosquitto/mosquitto)](https://github.com/eclipse-mosquitto/mosquitto/commits) | [![GitHub License](https://img.shields.io/github/license/eclipse-mosquitto/mosquitto)]()
-
-**链接**：[Eclipse Mosquitto](https://mosquitto.org/)  
-**特征**：Eclipse 旗下的一个开源的消息代理（broker），主要用于实现 MQTT 协议。它设计轻巧，资源占用少，适合物联网领域的企业级项目。  
-
-#### 要点
 
 ---
 
@@ -622,59 +559,12 @@
 
 ---
 
-### ESSL
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/espressif/idf-extra-components)](https://github.com/espressif/idf-extra-components/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/espressif/idf-extra-components?path=esp_serial_slave_link)](https://github.com/espressif/idf-extra-components/commits?path=esp_serial_slave_link) | [![GitHub License](https://img.shields.io/github/license/espressif/idf-extra-components)]()
-
-**链接**：[idf-extra-components/esp_serial_slave_link at master · espressif/idf-extra-components](https://github.com/espressif/idf-extra-components/tree/master/esp_serial_slave_link)  
-**特征**：ESP 旗下的串行从机链路，该组件能让主机通过总线驱动和相应的协议与从机进行通信。也可以说就是双 mcu 通讯，只是在上面套了一层壳。  
-
-#### 要点
-
----
-
 ### Uart\_Transfer\_BIN\_to\_exFlash
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/firestaradmin/Uart_Transfer_BIN_to_exFlash)](https://github.com/firestaradmin/Uart_Transfer_BIN_to_exFlash/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/firestaradmin/Uart_Transfer_BIN_to_exFlash)](https://github.com/firestaradmin/Uart_Transfer_BIN_to_exFlash/commits) | [![GitHub License](https://img.shields.io/github/license/firestaradmin/Uart_Transfer_BIN_to_exFlash)]()
 
 **链接**：[firestaradmin/Uart_Transfer_BIN_to_exFlash: STM32 串口烧录 BIN 文件、字库文件【QT 上位机】](https://github.com/firestaradmin/Uart_Transfer_BIN_to_exFlash)  
 **特征**：基于串口通讯，增加帧属性，从而方便、可靠的将数据传输到 Flash 中。  
-
-#### 要点
-
----
-
-### SACP
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/Snapmaker/SnapmakerController-IDEX)](https://github.com/Snapmaker/SnapmakerController-IDEX/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Snapmaker/SnapmakerController-IDEX?path=snapmaker/protocol)](https://github.com/Snapmaker/SnapmakerController-IDEX/commits?path=snapmaker/protocol) | [![GitHub License](https://img.shields.io/github/license/Snapmaker/SnapmakerController-IDEX)]()
-
-**链接**：[SnapmakerController-IDEX/snapmaker/protocol at main · Snapmaker/SnapmakerController-IDEX](https://github.com/Snapmaker/SnapmakerController-IDEX/tree/main/snapmaker/protocol)  
-**特征**：是 Snapmaker 设备的数据通信协议，基于 C++ 的专用于整机多设备的设备间通信。  
-
-#### 要点
-
-- 使用介绍：[一个可用于多设备间的 C/C++ 嵌入式通信协议的设计与实现-SACP 协议](https://mp.weixin.qq.com/s/Kj-9V5xJBlQQTgMj97O-Yw)
-- 相关：[MVC 模式](./Appendix.md#mvc-模式)
-
----
-
-### rtty
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/zhaojh329/rtty)](https://github.com/zhaojh329/rtty/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/zhaojh329/rtty)](https://github.com/zhaojh329/rtty/commits) | [![GitHub License](https://img.shields.io/github/license/zhaojh329/rtty)]()
-
-**链接**：[zhaojh329/rtty: 🐛 Access your terminal from anywhere via the web.](https://github.com/zhaojh329/rtty)  
-**特征**：通过 Web 访问设备的终端，适合嵌入式 Linux，有点意思。  
-
-#### 要点
-
----
-
-### Nanomsg
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/nanomsg/nanomsg)](https://github.com/nanomsg/nanomsg/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/nanomsg/nanomsg)](https://github.com/nanomsg/nanomsg/commits) | [![GitHub License](https://img.shields.io/github/license/nanomsg/nanomsg)]()
-
-**链接**：[About Nanomsg](https://nanomsg.org/)  
-**特征**：是一个“可扩展协议”的套接字库，它提供了几种常见的通信模式。可扩展协议的任务是定义多个应用系统如何通信，从而组成一个大的分布式系统。  
 
 #### 要点
 
