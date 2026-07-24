@@ -5,7 +5,7 @@
 > - [时间片调度系统](#时间片调度系统)：定时器或轮询控制任务运转；
 > - [类实时系统](#类实时系统)：强调任务栈的硬实时性，但还没上升到 RTOS 级别；
 > - [RTOS](#rtos)：有丰富的内核功能以及实时性；
-> - [IoT-RTOS](#iot-rtos)：除了拥有 RTOS 特点外，注重物联网传输，基本都遵循 [POSIX](./Appendix.md#什么是-posix) 标准，与 Linux 兼容；
+> - [IoT-RTOS](#iot-rtos)：除了拥有 RTOS 特点外，注重物联网传输，基本都遵循 [POSIX](./appendix.md#什么是-posix) 标准，与 Linux 兼容；
 > - [ROS](#ros)：机器人专用系统，一般采用分布式的通信框架，帮助程序进程之间更方便地通信，所以它并不是管控机器人所有部件的模组的，而是管理每个部件，部件自身可以用不同的 OS。
 
 ## 时间片调度系统
@@ -304,7 +304,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/apache/nuttx)](https://github.com/apache/nuttx/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/apache/nuttx)](https://github.com/apache/nuttx/commits) | [![GitHub License](https://img.shields.io/github/license/apache/nuttx)]()
 
 **链接**：[apache/nuttx: Apache NuttX is a mature, real-time embedded operating system (RTOS)](https://github.com/apache/nuttx)  
-**特征**：强调标准兼容和小型封装的操作系统，遵循 [POSIX](./Appendix.md#什么是-posix) 标准和 ANSI 标准。  
+**特征**：强调标准兼容和小型封装的操作系统，遵循 [POSIX](./appendix.md#什么是-posix) 标准和 ANSI 标准。  
 
 #### 要点
 

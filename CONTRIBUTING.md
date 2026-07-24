@@ -22,4 +22,4 @@
 我会在一周内审核你的贡献，通过后就会更新到项目里。
 
 ⚠️ 一个小提醒  
-目前不接受 PR，统一走 [Issues](https://github.com/Luyi365/Awesome-Embedded/issues) 提交就好。
+目前不接受 PR，统一走 [Issues](https://github.com/Luyi365/awesome-embedded/issues/new/choose) 提交就好。

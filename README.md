@@ -1,7 +1,5 @@
 # Awesome Embedded [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-## 🚀 关于
-
 > 一个精心整理的嵌入式开源代码库集合，并按照功能进行了细致的分类，涵盖了💥**绝大部分** 的开发场景！
 > 与大多数 [awesome](https://awesome.re) 库不同的是：除了对相关代码库进行收集整理，还对部分库的**使用要点**进行了记录📝。
 
@@ -93,7 +91,7 @@
 
 - [LwWDG](./timer-time-lib/README.md#lwwdg)：轻量级的看门狗库，主要针对操作系统， 监视多个线程并在其中一个线程失败时重置系统。
 
-### [时间相关](./timer-time-lib/README.md#time-相关)
+### [时间相关](./timer-time-lib/README.md#时间相关)
 
 - [LwDTC](./timer-time-lib/README.md#lwdtc)：用于日期、时间和 cron 实用程序库，支持 tm 数据结构，解析速度快。
 
@@ -263,6 +261,7 @@
 - [rtty](./communication-edge-lib/README.md#rtty)：通过 Web 访问设备的终端，适合嵌入式 Linux，有点意思。
 - [Nanomsg](./communication-edge-lib/README.md#nanomsg)：是一个“可扩展协议”的套接字库，它提供了几种常见的通信模式。可扩展协议的任务是定义多个应用系统如何通信，从而组成一个大的分布式系统。
 - [url](./communication-edge-lib/README.md#url)：简单的解析 url 模块，可以解析不同段的信息。
+- [tiny-curl](./communication-edge-lib/README.md#tiny-curl)：适用于嵌入式的 cURL 库，仅支持 HTTP 协议。
 
 ### [RPC](./communication-edge-lib/README.md#rpc)
 
@@ -275,13 +274,15 @@
 - [lwIP](./communication-edge-lib/README.md#lwip)：小型开源的 TCP/IP 协议栈，使用最广泛的嵌入式网络协议栈，基本上物联网系统中都有它。
 - [CycloneTCP](./communication-edge-lib/README.md#cyclonetcp)：专用于嵌入式应用的双 IPv4/IPv6 栈，简化了互联网的部署。
 - [onps](./communication-edge-lib/README.md#onps)：国产网络协议栈，设计目标与 Lwip 相同，适用于资源受限的单片机系统，提供完整地 ethernet/ppp/tcp/ip 协议族实现。有非常详细的介绍，很适合国人读阅。
+- [wolfIP](./communication-edge-lib/README.md#wolfip)：无动态内存分配的微型 TCP/IP 协议栈，旨在提供比 lwIP 更好的替代方案，并与 wolfSSL 库无缝配合。
 - [dyad](./communication-edge-lib/README.md#dyad)：基于 Linux 的异步网络库，仅支持 TCP 网络通讯，用于创建小型独立设备服务器，并为现有项目提供网络支持。
 
 ### [SSH](./communication-edge-lib/README.md#ssh)
 
 - [tinyssh](./communication-edge-lib/README.md#tinyssh)：一个简约的 SSH 服务器，它只实现了 SSHv2 功能的子集，适合嵌入式使用。
+- [wolfSSH](./communication-edge-lib/README.md#wolfssh)：轻量级 SSHv2 客户端和服务器库，采用 ANSI C 编写。
 
-### [Web/HTTP服务器](./communication-edge-lib/README.md#webhttp服务器)
+### [HTTP](./communication-edge-lib/README.md#http)
 
 - [libevhtp](./communication-edge-lib/README.md#libevhtp)：适合嵌入式设备的低负载 HTTP 库。
 
@@ -290,6 +291,7 @@
 - [Paho MQTT](./communication-edge-lib/README.md#paho-mqtt)：嵌入式平台的 MQTT 库，包含三个子库——数据包序列化、C及C++客户端。
 - [mqttclient](./communication-edge-lib/README.md#mqttclient)：高性能、高稳定性的跨平台 MQTT 客户端，拥有简洁的 API，无缝衔接 Mbed TLS 库，提供在线代码生成工具。
 - [Mosquitto](./communication-edge-lib/README.md#mosquitto)：Eclipse 旗下的一个开源的消息代理（broker），主要用于实现 MQTT 协议。它设计轻巧，资源占用少，适合物联网领域的企业级项目。
+- [wolfMQTT](./communication-edge-lib/README.md#wolfmqtt)：轻量化的 MQTT 协议客户端库，支持多个平台。
 
 ### [Thread](./communication-edge-lib/README.md#thread)
 
@@ -344,6 +346,9 @@
 - [wolfCrypt](./secure-boot-update-lib/README.md#wolfcrypt)：狼库旗下的轻量级加密库，支持多种流行的算法和密码，适合企业级项目。
 - [wolfSSL](./secure-boot-update-lib/README.md#wolfssl)：是一个轻量级的、可移植的、基于 C 语言的 SSL/TLS 库，它主要针对 IoT、嵌入式和 RTOS 环境。
 - [Mbed TLS](./secure-boot-update-lib/README.md#mbed-tls)：可信旗下的项目，业内流行的 SSL/TLS 库。
+- [wolfHSM](./secure-boot-update-lib/README.md#wolfhsm)：一个客户端-服务器框架，用于硬件密码学、非易失性内存和安全处理。最初是面向于汽车领域的HSM核心，现在则适用于任何可信环境。
+- [wolfTPM](./secure-boot-update-lib/README.md#wolftpm)：可移植的 TPM 协议栈，提供封装接口以简化密钥的操作，支持裸机、RTOS、Linux、Windows等多个平台。
+- [wolfSentry](./secure-boot-update-lib/README.md#wolfsentry)：一个动态的入侵检测与防御系统（IDPS），嵌入式适用的防火墙引擎，核心是监控、日志记录、模式匹配以及通知。
 
 ### [引导和升级](./secure-boot-update-lib/README.md#引导和升级)
 
@@ -766,4 +771,6 @@
 
 ## 🤝 贡献
 
-我们欢迎大家的贡献！详情请参阅我们的[贡献指南](https://github.com/Luyi365/Awesome-Embedded/blob/main/CONTRIBUTING.md)。
+我们欢迎大家的贡献！详情请参阅我们的[贡献指南](./CONTRIBUTING.md)。
+
+<p align="right"><a href="#-内容">⬆TOP</a></p>

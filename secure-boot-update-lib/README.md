@@ -81,6 +81,43 @@
 
 ---
 
+### wolfHSM
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfHSM)](https://github.com/wolfSSL/wolfHSM/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfHSM)](https://github.com/wolfSSL/wolfHSM/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfHSM)]()
+
+**链接**：[wolfHSM | Products - wolfSSL](https://www.wolfssl.com/products/wolfhsm)
+**特征**：一个客户端-服务器框架，用于硬件密码学、非易失性内存和安全处理。最初是面向于汽车领域的 HSM 核心，现在则适用于任何可信环境。
+
+#### 要点
+
+- 加解密操作需要移植 [wolfCrypt](#wolfcrypt) 库或[硬件支持](https://www.wolfssl.com/docs/hardware-crypto-support)来完成；
+
+---
+
+### wolfTPM
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfTPM)](https://github.com/wolfSSL/wolfTPM/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfTPM)](https://github.com/wolfSSL/wolfTPM/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfTPM)]()
+
+**链接**：[wolfTPM | Products - wolfSSL](https://www.wolfssl.com/products/wolftpm)
+**特征**：可移植的 TPM 协议栈，提供封装接口以简化密钥的操作，支持裸机、RTOS、Linux、Windows 等多个平台。
+
+#### 要点
+
+- 包括 [fTPM](https://www.wolfssl.com/announcing-wolftpm-firmware-tpm-ftpm-support) 实现，以供没有 TPM 硬件的嵌入式设备使用；
+
+---
+
+### wolfSentry
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfsentry)](https://github.com/wolfSSL/wolfsentry/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfsentry)](https://github.com/wolfSSL/wolfsentry/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfsentry)]()
+
+**链接**：[wolfSentry | Products - wolfSSL](https://www.wolfssl.com/products/wolfsentry/)
+**特征**：一个动态的入侵检测与防御系统（IDPS），嵌入式适用的防火墙引擎，核心是监控、日志记录、模式匹配以及通知。
+
+#### 要点
+
+---
+
 ## 引导和升级
 
 ### Tiny Bootloader

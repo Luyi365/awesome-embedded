@@ -48,7 +48,7 @@
 
 #### 要点
 
-- CGI（Common Gateway Interface）是一种 Web 服务器与外部程序进行交互的标准协议。参考：[CGI](./Appendix.md#cgi)
+- CGI（Common Gateway Interface）是一种 Web 服务器与外部程序进行交互的标准协议。参考：[CGI](./appendix.md#cgi)
 
 ---
 
@@ -97,6 +97,19 @@
 #### 要点
 
 - 使用介绍：[分享一个 C 语言实现 url 解析的小实例](https://mp.weixin.qq.com/s/gRErTrfOfx5RVwyGGXjrEQ)
+
+---
+
+### tiny-curl
+
+[![License: GPL v3](https://img.shields.io/badge/license-GPL%20v3-orange.svg)](https://opensource.org/licenses/GPL-3.0)
+
+**链接**：[tiny-curl](https://curl.se/tiny)
+**特征**：适用于嵌入式的 cURL 库，仅支持 HTTP 协议。
+
+#### 要点
+
+- [什么是 cURL 命令](./appendix.md#什么是-curl-命令)
 
 ---
 
@@ -210,6 +223,17 @@
 
 ---
 
+### wolfIP
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/wolfssl/wolfIP)](https://github.com/wolfssl/wolfIP/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfssl/wolfIP)](https://github.com/wolfssl/wolfIP/commits) | [![GitHub License](https://img.shields.io/github/license/wolfssl/wolfIP)]()
+
+**链接**：[wolfIP TCP/IP stack - wolfSSL](https://www.wolfssl.com/products/wolfip)
+**特征**：无动态内存分配的微型 TCP/IP 协议栈，旨在提供比 [lwIP](#lwip) 更好的替代方案，并与 [wolfSSL](../secure-boot-update-lib/README.md#wolfssl) 库无缝配合。
+
+#### 要点
+
+---
+
 ### dyad
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/rxi/dyad)](https://github.com/rxi/dyad/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/rxi/dyad)](https://github.com/rxi/dyad/commits) | [![GitHub License](https://img.shields.io/github/license/rxi/dyad)]()
@@ -233,6 +257,19 @@
 **特征**：一个简约的 SSH 服务器，它只实现了 SSHv2 功能的子集，适合嵌入式使用。  
 
 #### 要点
+
+---
+
+### wolfSSH
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfssh)](https://github.com/wolfSSL/wolfssh/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfssh)](https://github.com/wolfSSL/wolfssh/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfssh)]()
+
+**链接**：[wolfSSH Lightweight SSH Library | Products - wolfSSL](https://www.wolfssl.com/products/wolfssh)
+**特征**：轻量级 SSHv2 客户端和服务器库，采用 ANSI C 编写。
+
+#### 要点
+
+- 加解密操作需要移植 [wolfCrypt](../secure-boot-update-lib//README.md#wolfcrypt) 库或[硬件支持](https://www.wolfssl.com/docs/hardware-crypto-support)来完成；
 
 ---
 
@@ -283,6 +320,19 @@
 **特征**：Eclipse 旗下的一个开源的消息代理（broker），主要用于实现 MQTT 协议。它设计轻巧，资源占用少，适合物联网领域的企业级项目。  
 
 #### 要点
+
+---
+
+### wolfMQTT
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfMQTT)](https://github.com/wolfSSL/wolfMQTT/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfMQTT)](https://github.com/wolfSSL/wolfMQTT/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfMQTT)]()
+
+**链接**：[wolfMQTT Client Library | Products - wolfSSL](https://www.wolfssl.com/products/wolfmqtt)
+**特征**：轻量化的 MQTT 协议客户端库，支持多个平台。
+
+#### 要点
+
+- 可以通过 [wolfSSL](../secure-boot-update-lib/README.md#wolfssl) 库实现 SSL/TLS 的支持；
 
 ---
 

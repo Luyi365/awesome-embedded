@@ -7,3 +7,6 @@
 
 # Code workspace files
 *.code-workspace
+
+# Other
+template.md

@@ -145,7 +145,7 @@
 - 其中 `__start_platform_init`、`__stop_platform_init` 分别在链接文件里定义在 `.platform_init` 左右两侧，`__start_device_init` 同理；
 - 如果芯片不支持 initcall 机制，将其 section 的部分换成链表的形式也可以达到同样的效果；
 - 配合这个食用更佳：[__attribute__之section详解-CSDN 博客](https://blog.csdn.net/seven_feifei/article/details/95947358)；
-- 为什么 `PLATFORM_ITEM_REGISTER` 中 `general_ops` 可以代替所有操作：[关于 union 联合体](./Appendix.md#关于-union-联合体)；
+- 为什么 `PLATFORM_ITEM_REGISTER` 中 `general_ops` 可以代替所有操作：[关于 union 联合体](./appendix.md#关于-union-联合体)；
 
 ---
 

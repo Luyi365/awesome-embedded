@@ -150,6 +150,6 @@
 #### 要点
 
 - 使用介绍：[一个可用于多设备间的 C/C++ 嵌入式通信协议的设计与实现-SACP 协议](https://mp.weixin.qq.com/s/Kj-9V5xJBlQQTgMj97O-Yw)
-- 相关：[MVC 模式](./Appendix.md#mvc-模式)
+- 相关：[MVC 模式](./appendix.md#mvc-模式)
 
 ---

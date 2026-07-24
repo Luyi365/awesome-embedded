@@ -292,7 +292,7 @@
 
 ## INI
 
-> `.ini` 文件格式说明：[INI](./Appendix.md#ini)。
+> `.ini` 文件格式说明：[INI](./appendix.md#ini)。
 
 ### libinimini
 
@@ -333,7 +333,7 @@
 
 ## TLV
 
-> 协议介绍：[TLV](./Appendix.md#tlv)。
+> 协议介绍：[TLV](./appendix.md#tlv)。
 
 ### ITLV
 
