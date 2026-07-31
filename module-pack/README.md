@@ -221,3 +221,20 @@
 - 使用介绍：[一个面向嵌入式 Linux C++ 的应用开发框架!](https://mp.weixin.qq.com/s/0TZ9G2G0aTZKkdmOIefcfw)
 
 ---
+
+### GLib
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/GNOME/glib)](https://github.com/GNOME/glib/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/GNOME/glib)](https://github.com/GNOME/glib/commits) | [![GitHub License](https://img.shields.io/github/license/GNOME/glib)]()
+
+**链接**：[GNOME/glib: Read-only mirror of https://gitlab.gnome.org/GNOME/glib](https://github.com/GNOME/glib)
+**特征**：GTK项目下的核心库，提供非常多的功能，包括数据结构、类型转换、字符串工具、文件操作、主循环抽象等。
+
+#### 要点
+
+- 该库本身由多个库子库组成，相互之间有依赖关系：
+  - **glib**：基础的、可移植的低级库，提供数据类型、工具和主循环。
+  - **gobject**：面向对象编程的运行时类型系统。
+  - **gmodule**：一个可移植的API，用于动态加载共享模块。
+  - **gio**：用于流式输入输出，文件系统访问与枚举，IPC，网络程序，以及系统集成。
+
+---

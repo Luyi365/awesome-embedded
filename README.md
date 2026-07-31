@@ -408,6 +408,7 @@
 - [TinyGL](./ui-menu-lib/README.md#tinygl)：是 OpenGL 的小型实现，适用于嵌入式系统。将复杂的接口精简为更易于理解和操作的形式。
 - [foolrenderer](./ui-menu-lib/README.md#foolrenderer)：用 C 语言实现的软件渲染器，不依赖图形库，仅用几千行代码，实现了一套类似 OpenGL 的基本图形功能，以及应用于游戏开发的实时渲染技术，如阴影、切线空间法线映射、基于物理的材质系统等。
 - [EmberGL](./ui-menu-lib/README.md#embergl)：用于 MCU 的类似于 OpenGL 的实时 2D / 3D 光栅渲染库。
+- [Cairo](./ui-menu-lib/README.md#cairo)：一个支持多输出的二维图形库，提供类似于 PostScript 和 PDF 的作图方式，主要适配在PC上，但也能够移植进嵌入式芯片中。
 
 ### [加速](./ui-menu-lib/README.md#加速)
 
@@ -657,6 +658,7 @@
 - [ctool](./module-pack/README.md#ctool)：常用但一般库里并不包含的工具，包括不定参数、日期、内存测试等。
 - [Generic_MCU_Software_Infrastructure](./module-pack/README.md#generic_mcu_software_infrastructure)：提供必要的软件基础设施、服务、宏来支持一些高级的抽象概念和范式。
 - [appkit](./module-pack/README.md#appkit)：基于 C++ 的 Linux 应用开发库，包括开发中常用的模块功能（线程管理、定时器、文件 IO、串口通信等）。
+- [GLib](./module-pack/README.md#glib)：GTK项目下的核心库，提供非常多的功能，包括数据结构、类型转换、字符串工具、文件操作、主循环抽象等。
 
 ---
 

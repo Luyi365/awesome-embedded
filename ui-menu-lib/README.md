@@ -450,6 +450,17 @@
 
 ---
 
+### Cairo
+
+**链接**：[cairographics.org](https://www.cairographics.org)
+**特征**：一个支持多输出的二维图形库，提供类似于 PostScript 和 PDF 的作图方式，主要适配在PC上，但也能够移植进嵌入式芯片中。
+
+#### 要点
+
+- 嵌入式使用通常需要调整[输出目标](https://www.cairographics.org/backends)为"image"或"cairo-gl"类型；
+
+---
+
 ## 加速
 
 ### Arm-2D
