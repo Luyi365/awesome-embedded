@@ -452,8 +452,8 @@
 
 ### Cairo
 
-**链接**：[cairographics.org](https://www.cairographics.org)
-**特征**：一个支持多输出的二维图形库，提供类似于 PostScript 和 PDF 的作图方式，主要适配在PC上，但也能够移植进嵌入式芯片中。
+**链接**：[cairographics.org](https://www.cairographics.org)  
+**特征**：一个支持多输出的二维图形库，提供类似于 PostScript 和 PDF 的作图方式，主要适配在PC上，但也能够移植进嵌入式芯片中。  
 
 #### 要点
 
@@ -549,36 +549,6 @@
 **特征**：基于 C99 的 Unicode 编解码库，提供对此编码的基本算法和功能。  
 
 #### 要点
-
----
-
-## 多媒体
-
-### FFmpeg
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/FFmpeg/FFmpeg)](https://github.com/FFmpeg/FFmpeg/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/FFmpeg/FFmpeg)](https://github.com/FFmpeg/FFmpeg/commits) | [![GitHub License](https://img.shields.io/github/license/FFmpeg/FFmpeg)]()
-
-**链接**：[FFmpeg](https://ffmpeg.org)  
-**特征**：业界极为知名的一个跨平台音视频处理框架，提供一组音视频编解码开发套件。  
-
-#### 要点
-
-- 开发套件包含但不限于：
-
-  **[libavutil](https://ffmpeg.org//libavutil.html)** 是一个包含函数的库 简化编程，包括随机数生成器、数据 结构、数学例程、核心多媒体实用程序等等 更多。
-
-  **[libavcodec](https://ffmpeg.org//libavcodec.html)** 是一个包含解码器和编码器的库 用于音频/视频编解码器。
-
-  **[libav 格式](https://ffmpeg.org//libavformat.html)**是一个包含多路复用器的库，并且 多媒体容器格式的多路复用器。
-
-  **[libavdevice](https://ffmpeg.org//libavdevice.html)** 是一个包含输入和输出的库 用于抓取和渲染到许多常见多媒体的设备 输入/输出软件框架，包括 Video4Linux、Video4Linux2、 VfW 和 ALSA.
-
-  **[libavfilter](https://ffmpeg.org//libavfilter.html)** 是一个包含媒体过滤器的库。
-
-  **[libswscale](https://ffmpeg.org//libswscale.html)** 是一个执行高度优化图像的库 缩放和色彩空间/像素格式转换操作。
-
-  **[libswresample](https://ffmpeg.org//libswresample.html)** 是一个执行高度优化的库 音频重采样、重矩阵化和样本格式转换操作。
-- 使用介绍：[ffmpeg-libav-tutorial/README-cn.md at master · leandromoreira/ffmpeg-libav-tutorial](https://github.com/leandromoreira/ffmpeg-libav-tutorial/blob/master/README-cn.md)
 
 ---
 

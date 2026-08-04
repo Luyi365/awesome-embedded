@@ -426,10 +426,6 @@
 - [MCUFont](./ui-menu-lib/README.md#mcufont)：专用于字体的库，实现字体压缩、解压缩和文本渲染（调节）功能。
 - [Unicorn](./ui-menu-lib/README.md#unicorn)：基于 C99 的 Unicode 编解码库，提供对此编码格式的基本算法和功能。
 
-### [多媒体](./ui-menu-lib/README.md#多媒体)
-
-- [FFmpeg](./ui-menu-lib/README.md#ffmpeg)：业界极为知名的一个跨平台音视频处理框架，提供一组音视频编解码开发套件。
-
 ### [菜单框架](./ui-menu-lib/README.md#菜单框架)
 
 - [zBitsView](./ui-menu-lib/README.md#zbitsview)：虚拟多层菜单，仅存在于逻辑层，与有无屏幕无关。
@@ -740,6 +736,10 @@
 
 - [EVM](./engine-sim-lib/README.md#evm)：针对物联网的超轻量虚拟机，由语法解析前端框架和字节码运行后端构成，可运行在资源受限制的单片机上。支持自行开发 app 运行在此虚拟机引擎上。
 - [uvm32](./engine-sim-lib/README.md#uvm32)：一款极简、无依赖的虚拟机（RISC-V）沙箱，专为微控制器及其他资源受限设备设计。单C文件，无动态内存分配，采用异步架构设计。可作为LUA、MicroPython等脚本引擎的替代品。
+
+### [多媒体](./engine-sim-lib/README.md#多媒体)
+
+- [FFmpeg](./engine-sim-lib/README.md#ffmpeg)：业界极为知名的一个跨平台音视频处理框架，提供一组音视频编解码开发套件。
 
 ### [游戏框架](./engine-sim-lib/README.md#游戏框架)
 

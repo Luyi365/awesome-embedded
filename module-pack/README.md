@@ -226,8 +226,8 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/GNOME/glib)](https://github.com/GNOME/glib/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/GNOME/glib)](https://github.com/GNOME/glib/commits) | [![GitHub License](https://img.shields.io/github/license/GNOME/glib)]()
 
-**链接**：[GNOME/glib: Read-only mirror of https://gitlab.gnome.org/GNOME/glib](https://github.com/GNOME/glib)
-**特征**：GTK项目下的核心库，提供非常多的功能，包括数据结构、类型转换、字符串工具、文件操作、主循环抽象等。
+**链接**：[GNOME/glib: Read-only mirror of https://gitlab.gnome.org/GNOME/glib](https://github.com/GNOME/glib)  
+**特征**：GTK项目下的核心库，提供非常多的功能，包括数据结构、类型转换、字符串工具、文件操作、主循环抽象等。  
 
 #### 要点
 
