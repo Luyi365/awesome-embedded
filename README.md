@@ -29,14 +29,14 @@
 - [定时器与时间库](#定时器与时间库)
 - [内存与文件系统库](#内存与文件系统库)
 - [板级总线协议库](#板级总线协议库)
-- [格式解析与数据库](#格式解析与数据库)
-- [通信协议与端侧库](#通信协议与端侧库)
+- [数据结构与数据处理库](#数据结构与数据处理库)
+- [通信协议与格式解析库](#通信协议与格式解析库)
 - [日志与终端交互库](#日志与终端交互库)
 - [校验、安全与引导、升级库](#校验安全与引导升级库)
 - [UI与菜单库](#ui与菜单库)
 - [内核与基层框架库](#内核与基层框架库)
 - [异常快照与测试库](#异常快照与测试库)
-- [数据、算法与AI库](#数据算法与ai库)
+- [算法与AI库](#算法与ai库)
 
 #### 集功能
 
@@ -163,151 +163,166 @@
 
 ---
 
-## [格式解析与数据库](./db-format-parser-lib/README.md#格式解析与数据库)
+## [数据结构与数据处理库](./data-struct-process-lib/README.md#数据结构与数据处理库)
 
-### [数据库](./db-format-parser-lib/README.md#数据库)
+### [流](./data-struct-process-lib/README.md#流)
 
-- [cotParam](./db-format-parser-lib/README.md#cotParam)：采用表驱动方式进行参数管理，包括缺省值、最小值和最大值等。
-- [EasyFlash](./db-format-parser-lib/README.md#easyflash)：Key-Value 型简易数据库，主要提供：变量的 KV 配对，可 IAP 数据修改（可用于升级），log 存储等功能。
-- [FlashDB](./db-format-parser-lib/README.md#flashdb)：提供 KV 和 TS 两种数据库，比起 EasyFlash 更专注于数据库本身，而不提供过多的额外功能。
-- [Nanopb](./db-format-parser-lib/README.md#nanopb)：轻量的、支持 C 语言的 Protobuf，Protobuf 是 Google 公司开发的一种数据格式。可用于数据存储、通信协议等方面，且不依赖于语言和平台，也就是说可以不同设备端进行数据通讯。
-- [ITTIA DB](./db-format-parser-lib/README.md#ittia-db)：功能强大的实时嵌入式数据库，主要用于嵌入式系统和物联网设备，用于在设备上本地监控，存储和分析时间序列数据，需要商业许可。
-- [linq4c](./db-format-parser-lib/README.md#linq4c)：在 C 语言里实现了 C# 的 linq 方法。
-- [SQLite](./db-format-parser-lib/README.md#sqlite)：业界用的最多的嵌入式标准的数据库，使用 SQL 语法，可使用磁盘文件。
+- ~~[uart_stream](./data-struct-process-lib/README.md#uart_stream)：数据流缓冲处理库，针对 UART 数据，但有一定的通用性。~~（待发布）
+- [xprintf](./data-struct-process-lib/README.md#xprintf)：嵌入式字符串函数，代替不足以实现常规 printf 功能，可以动态的将字符串写入不同外设。主要用途是与多个外设交互，而不是终端交互
+- [CMSIS-Stream](./data-struct-process-lib/README.md#cmsis-stream)：ARM 官方出品的数据流处理组件，提供图形表示，适合专业级项目和多设备数据流处理。
 
-### [数据流](./db-format-parser-lib/README.md#数据流)
+### [数据结构](./data-struct-process-lib/README.md#数据结构)
 
-- ~~[uart_stream](./db-format-parser-lib/README.md#uart_stream)：数据流缓冲处理库，针对 UART 数据，但有一定的通用性。~~（待发布）
-- [xprintf](./db-format-parser-lib/README.md#xprintf)：嵌入式字符串函数，代替不足以实现常规 printf 功能，可以动态的将字符串写入不同外设。主要用途是与多个外设交互，而不是终端交互
-- [CMSIS-Stream](./db-format-parser-lib/README.md#cmsis-stream)：ARM 官方出品的数据流处理组件，提供图形表示，适合专业级项目和多设备数据流处理。
+- [CBUF](./data-struct-process-lib/README.md#cbuf)：极优雅的宏实现环形缓冲区，功能简单易用。
+- [sys/queue](./data-struct-process-lib/README.md#sysqueue)：Linux、FreeBSD 中使用的队列、链表头文件，全部用宏来实现的，且能够链接任意类型，如结构体等。
+- [byte_queue](./data-struct-process-lib/README.md#byte_queue)：C 语言编写的支持任意类型的环形队列，带宏包装，使用简单。
+- [queue](./data-struct-process-lib/README.md#queue)：C 语言通用队列，支持任意数据类型，使用简单高效。
+- [Ring-Buffer](./data-struct-process-lib/README.md#ring-buffer)：简单高效的环形缓冲库，适合没有指定存储大小的程序。
+- [wl_queue](./data-struct-process-lib/README.md#wl_queue)：支持任意数据类型的环形队列，运用了 C 重载的技巧，注重纤程安全。
+- [RingBuffer](./data-struct-process-lib/README.md#ringbuffer)：实用的环形缓冲库，功能完整，使用的是堆内存分配。
+- [queue](./data-struct-process-lib/README.md#queue-1)：简单的队列功能库，扩展性强，同时支持零拷贝读写队列（适用于大内存的单个元素，可以有效减少函数耗时）。
+- [QueueForMcu](./data-struct-process-lib/README.md#queueformcu)：普通队列功能模块，仅限非 RTOS 系统，适用于个人小型程序。
+- [ConcurrentQueue](./data-struct-process-lib/README.md#concurrentqueue)：基于 C++ 的工业级无锁队列，无需锁也极其注重线程安全。
+- [uthash](./data-struct-process-lib/README.md#uthash)：提供哈希、列表、环形等数据结构库，只用包含头文件即可使用。
+- [LwRB](./data-struct-process-lib/README.md#lwrb)：专业的 FIFO 环形缓冲库，无动态内存分配，适用于 MDA 传输，注重线程和中断安全。
+- [fifofast](./data-struct-process-lib/README.md#fifofast)：针对 MCU 优化的 FIFO 库，旨在尽可能减少 CPU 和 SRAM 的消耗。
 
-### [压缩库](./db-format-parser-lib/README.md#压缩库)
+### [数据库](./data-struct-process-lib/README.md#数据库)
 
-- [lz4](./db-format-parser-lib/README.md#lz4)：极快的无损压缩算法库，适合通信时的数据压缩。
-- [heatshrink](./db-format-parser-lib/README.md#heatshrink)：超低资源消耗的嵌入式解压缩库。相关文档较少。
-- [TJpgDec](./db-format-parser-lib/README.md#tjpgdec)：针对嵌入式系统优化的 JPEG 图像解压缩模块。
+- [cotParam](./data-struct-process-lib/README.md#cotParam)：采用表驱动方式进行参数管理，包括缺省值、最小值和最大值等。
+- [EasyFlash](./data-struct-process-lib/README.md#easyflash)：Key-Value 型简易数据库，主要提供：变量的 KV 配对，可 IAP 数据修改（可用于升级），log 存储等功能。
+- [FlashDB](./data-struct-process-lib/README.md#flashdb)：提供 KV 和 TS 两种数据库，比起 EasyFlash 更专注于数据库本身，而不提供过多的额外功能。
+- [Nanopb](./data-struct-process-lib/README.md#nanopb)：轻量的、支持 C 语言的 Protobuf，Protobuf 是 Google 公司开发的一种数据格式。可用于数据存储、通信协议等方面，且不依赖于语言和平台，也就是说可以不同设备端进行数据通讯。
+- [ITTIA DB](./data-struct-process-lib/README.md#ittia-db)：功能强大的实时嵌入式数据库，主要用于嵌入式系统和物联网设备，用于在设备上本地监控，存储和分析时间序列数据，需要商业许可。
+- [linq4c](./data-struct-process-lib/README.md#linq4c)：在 C 语言里实现了 C# 的 linq 方法。
+- [SQLite](./data-struct-process-lib/README.md#sqlite)：业界用的最多的嵌入式标准的数据库，使用 SQL 语法，可使用磁盘文件。
 
-### [AT](./db-format-parser-lib/README.md#at)
+### [压缩库](./data-struct-process-lib/README.md#压缩库)
 
-- [AT Command](./db-format-parser-lib/README.md#at-command)：AT 命令通信解析模块，适用于 Modem、WIFI 模块、蓝牙等使用 AT 命令或者 ASCII 命令行通信的场景。
-- [Xradio_atcmd](./db-format-parser-lib/README.md#xradio_atcmd)：Xradio SDK 里提取的 AT 命令解析库，命令实例丰富，基于 RTOS。
-
-### [Base64](./db-format-parser-lib/README.md#base64)
-
-- [base64](./db-format-parser-lib/README.md#base64-1)：极简单的 base64 编解码库。
-- [base64](./db-format-parser-lib/README.md#base64-2)：支持 SIMD 和 OpenMP 加速的 base64 编解码库，不使用动态内存，注重线程安全。
-
-### [CSV](./db-format-parser-lib/README.md#csv)
-
-- [MiniCSV](./db-format-parser-lib/README.md#minicsv)：极简的 CSV 解析库，能够解决多行、转义行、转义列中的转义字符、空行、列数可变的行、Windows 或 Unix 风格的行结尾等问题。
-- [CRStrLib](./db-format-parser-lib/README.md#crstrlib)：解析 csv 格式/其他格式的字符串， 提取数值，帧头帧尾校验。
-- [fast-cpp-csv-parser](./db-format-parser-lib/README.md#fast-cpp-csv-parser)：基于 C++ 的 CSV 解析器，小型、易于使用且快速的仅标头库。
-
-### [INI](./db-format-parser-lib/README.md#ini)
-
-- [libinimini](./db-format-parser-lib/README.md#libinimini)：适用单片机的 ini 极简解析库，内存空间占用可控。最简单的键值配对文件格式。
-- [inih](./db-format-parser-lib/README.md#inih)：基于 C 编写的 ini 解析库，适合嵌入式系统。带有语法与解析选项。
-- [iniparser](./db-format-parser-lib/README.md#iniparser)：基于 C 编写的 ini 解析库，可移植嵌入式系统，注重线程安全。
-
-### [TLV](./db-format-parser-lib/README.md#tlv)
-
-- ~~[ITLV](./db-format-parser-lib/README.md#itlv)：TLV（Tag、Length、Value）格式数据的优化版本，极简轻量的数据传输格式，可以以此为基础自定义数据格式，附带 CRC 检验。~~（待发布）
-- [TLV](./db-format-parser-lib/README.md#tlv-1)：TLV 格式编码实现。
-
-### [JSON](./db-format-parser-lib/README.md#json)
-
-- [cJSON](./db-format-parser-lib/README.md#cjson)：ANSI C 中的超轻量级 JSON 解析器，也是最原生的 JSON 解析库，用起来会有点麻烦，不太推荐直接使用。
-- [struct2json](./db-format-parser-lib/README.md#struct2json)：基于 cJSON，超简便的 C 结构体与 JSON 快速互转库。
-- [cson](./db-format-parser-lib/README.md#cson)：基于 cJSON，运行于 C 语言平台的 json-struct 模型解析工具。使 JSON 解析更加方便。
-- [json](./db-format-parser-lib/README.md#json-1)：简单高效的 C 语言 json 生成和解析库，适合简单项目的使用。
-- [JSMN](./db-format-parser-lib/README.md#jsmn)：超简约、极快的 JSON 解析器，无动态内存分配，无解析纠正。适合小型项目的 JSON 解析。
-- [lwjson](./db-format-parser-lib/README.md#lwjson)：针对嵌入式系统优化的通用 JSON 解析器库。适合厂商项目的 JSON 解析。
-- [MojoJson](./db-format-parser-lib/README.md#mojojson)：通用的 JSON 解析库，采用面向对象的思想实现，提供 C 语言版本。
-- [LJSON](./db-format-parser-lib/README.md#ljson)：号称最快的 JSON 解析库，功能极为强大，几乎覆盖了 JSON 解析的所有需要。
-- [json-parser](./db-format-parser-lib/README.md#json-parser)：简单、规范、实用的 JSON 库，包括解析和生成。
-- [Frozen](./db-format-parser-lib/README.md#frozen)：类似 scanf/printf 的 JSON 解析和生成库，内置 base64 编码器和二进制数据解码器。
-- [sj.h](./db-format-parser-lib/README.md#sjh)：极简的 C 语言 JSON 解析库，采用零拷贝策略，直接在原数据上解析。
-
-### [XML](./db-format-parser-lib/README.md#xml)
-
-- [simple_xml](./db-format-parser-lib/README.md#simple_xml)：XML 解析库，具有完备的功能，支持双向解析。
-- [TinyXML-2](./db-format-parser-lib/README.md#tinyxml-2)：基于 C++ 的 XML 解析库，它使用文档对象模型（DOM），可以很方便的将 XML 和 C++ 对象互相加息转换。
-
-### [TOML](./db-format-parser-lib/README.md#toml)
-
-- [TOML](./db-format-parser-lib/README.md#toml-1)：比 INI 的扩展性强、又没有层层嵌套的 JSON 和 YAML 的缩进语法，一种人们不常了解的数据标记格式。
-
-### [其他](./db-format-parser-lib/README.md#其他)
-
-- [LwPKT](./db-format-parser-lib/README.md#lwpkt)：通用数据包协议库，可变数据长度，支持理论上无限的数据包长度，允许在网络中使用发件人地址和收件人地址进行多个注释，附带 CRC 检验。
-- [xpack](./db-format-parser-lib/README.md#xpack)：用于在 C++ 结构体和 JSON/XML/YAML/BSON/MySQL/SQLite 之间互相转换，仅有头文件。
-- [Uart_Transfer_BIN_to_exFlash](./db-format-parser-lib/README.md#uart_transfer_bin_to_exflash)：基于串口通讯，增加帧属性，从而方便、可靠的将数据传输到 Flash 中。
-
+- [lz4](./data-struct-process-lib/README.md#lz4)：极快的无损压缩算法库，适合通信时的数据压缩。
+- [heatshrink](./data-struct-process-lib/README.md#heatshrink)：超低资源消耗的嵌入式解压缩库。相关文档较少。
+- [TJpgDec](./data-struct-process-lib/README.md#tjpgdec)：针对嵌入式系统优化的 JPEG 图像解压缩模块。
 
 ---
 
-## [通信协议与端侧库](./communication-edge-lib/README.md#通信协议与端侧库)
+## [通信协议与格式解析库](./protocol-format-parser-lib/README.md#通信协议与格式解析库)
 
-### [Web-Server](./communication-edge-lib/README.md#web-server)
+### [Web-Server](./protocol-format-parser-lib/README.md#web-server)
 
-- [LightTPD](./communication-edge-lib/README.md#lighttpd)：是一个轻量级、高性能的 开源 Web 服务器，专为高并发、低内存占用 的场景设计。相比 Apache 或 Nginx 更适合嵌入式设备。
-- [Mongoose](./communication-edge-lib/README.md#mongoose)：C / C++ 的事件驱动网络库，除了基本协议栈还了内置 HTTP、MQTT 等服务协议，可在裸机及 RTOS 上运行，带有 UI 构建器。商用有付费限制。
-- [Boa](./communication-edge-lib/README.md#boa)：开源的小型 Web 服务器，适用于嵌入式应用。于 2005 起不再更新维护，目前存在已知安全漏洞，不推荐使用。
+- [LightTPD](./protocol-format-parser-lib/README.md#lighttpd)：是一个轻量级、高性能的 开源 Web 服务器，专为高并发、低内存占用 的场景设计。相比 Apache 或 Nginx 更适合嵌入式设备。
+- [Mongoose](./protocol-format-parser-lib/README.md#mongoose)：C / C++ 的事件驱动网络库，除了基本协议栈还了内置 HTTP、MQTT 等服务协议，可在裸机及 RTOS 上运行，带有 UI 构建器。商用有付费限制。
+- [Boa](./protocol-format-parser-lib/README.md#boa)：开源的小型 Web 服务器，适用于嵌入式应用。于 2005 起不再更新维护，目前存在已知安全漏洞，不推荐使用。
 
-### [Web-Plugin](./communication-edge-lib/README.md#web-plugin)
+### [Web-Plugin](./protocol-format-parser-lib/README.md#web-plugin)
 
-- [FastCGI](./communication-edge-lib/README.md#fastcgi)：改进了传统 CGI 的性能，增加了分布式计算和多角色特性。
-- [libevent](./communication-edge-lib/README.md#libevent)：专用于网络服务器的事件驱动库，旨在替换事件驱动网络服务器中的事件循环。
-- [rtty](./communication-edge-lib/README.md#rtty)：通过 Web 访问设备的终端，适合嵌入式 Linux，有点意思。
-- [Nanomsg](./communication-edge-lib/README.md#nanomsg)：是一个“可扩展协议”的套接字库，它提供了几种常见的通信模式。可扩展协议的任务是定义多个应用系统如何通信，从而组成一个大的分布式系统。
-- [url](./communication-edge-lib/README.md#url)：简单的解析 url 模块，可以解析不同段的信息。
-- [tiny-curl](./communication-edge-lib/README.md#tiny-curl)：适用于嵌入式的 cURL 库，仅支持 HTTP 协议。
+- [FastCGI](./protocol-format-parser-lib/README.md#fastcgi)：改进了传统 CGI 的性能，增加了分布式计算和多角色特性。
+- [libevent](./protocol-format-parser-lib/README.md#libevent)：专用于网络服务器的事件驱动库，旨在替换事件驱动网络服务器中的事件循环。
+- [rtty](./protocol-format-parser-lib/README.md#rtty)：通过 Web 访问设备的终端，适合嵌入式 Linux，有点意思。
+- [Nanomsg](./protocol-format-parser-lib/README.md#nanomsg)：是一个“可扩展协议”的套接字库，它提供了几种常见的通信模式。可扩展协议的任务是定义多个应用系统如何通信，从而组成一个大的分布式系统。
+- [url](./protocol-format-parser-lib/README.md#url)：简单的解析 url 模块，可以解析不同段的信息。
+- [tiny-curl](./protocol-format-parser-lib/README.md#tiny-curl)：适用于嵌入式的 cURL 库，仅支持 HTTP 协议。
 
-### [RPC](./communication-edge-lib/README.md#rpc)
+### [RPC](./protocol-format-parser-lib/README.md#rpc)
 
-- [ERPC](./communication-edge-lib/README.md#erpc-1)：一个简单的、易用的、高效的远程调用框架。
-- [EmbedXrpc](./communication-edge-lib/README.md#embedxrpc)：通过 RPC 通讯协议，可忽略协议本身进行业务逻辑的实现，附带代码生成工具。
-- [erpc](./communication-edge-lib/README.md#erpc-2)：是 NXP 开源的、用于多芯片嵌入式系统和异构多核 SoC 的开源远程过程调用（RPC）系统。
+- [ERPC](./protocol-format-parser-lib/README.md#erpc-1)：一个简单的、易用的、高效的远程调用框架。
+- [EmbedXrpc](./protocol-format-parser-lib/README.md#embedxrpc)：通过 RPC 通讯协议，可忽略协议本身进行业务逻辑的实现，附带代码生成工具。
+- [erpc](./protocol-format-parser-lib/README.md#erpc-2)：是 NXP 开源的、用于多芯片嵌入式系统和异构多核 SoC 的开源远程过程调用（RPC）系统。
 
-### [TCP/IP](./communication-edge-lib/README.md#tcpip)
+### [TCP/IP](./protocol-format-parser-lib/README.md#tcpip)
 
-- [lwIP](./communication-edge-lib/README.md#lwip)：小型开源的 TCP/IP 协议栈，使用最广泛的嵌入式网络协议栈，基本上物联网系统中都有它。
-- [CycloneTCP](./communication-edge-lib/README.md#cyclonetcp)：专用于嵌入式应用的双 IPv4/IPv6 栈，简化了互联网的部署。
-- [onps](./communication-edge-lib/README.md#onps)：国产网络协议栈，设计目标与 Lwip 相同，适用于资源受限的单片机系统，提供完整地 ethernet/ppp/tcp/ip 协议族实现。有非常详细的介绍，很适合国人读阅。
-- [wolfIP](./communication-edge-lib/README.md#wolfip)：无动态内存分配的微型 TCP/IP 协议栈，旨在提供比 lwIP 更好的替代方案，并与 wolfSSL 库无缝配合。
-- [dyad](./communication-edge-lib/README.md#dyad)：基于 Linux 的异步网络库，仅支持 TCP 网络通讯，用于创建小型独立设备服务器，并为现有项目提供网络支持。
+- [lwIP](./protocol-format-parser-lib/README.md#lwip)：小型开源的 TCP/IP 协议栈，使用最广泛的嵌入式网络协议栈，基本上物联网系统中都有它。
+- [CycloneTCP](./protocol-format-parser-lib/README.md#cyclonetcp)：专用于嵌入式应用的双 IPv4/IPv6 栈，简化了互联网的部署。
+- [onps](./protocol-format-parser-lib/README.md#onps)：国产网络协议栈，设计目标与 Lwip 相同，适用于资源受限的单片机系统，提供完整地 ethernet/ppp/tcp/ip 协议族实现。有非常详细的介绍，很适合国人读阅。
+- [wolfIP](./protocol-format-parser-lib/README.md#wolfip)：无动态内存分配的微型 TCP/IP 协议栈，旨在提供比 lwIP 更好的替代方案，并与 wolfSSL 库无缝配合。
+- [dyad](./protocol-format-parser-lib/README.md#dyad)：基于 Linux 的异步网络库，仅支持 TCP 网络通讯，用于创建小型独立设备服务器，并为现有项目提供网络支持。
 
-### [SSH](./communication-edge-lib/README.md#ssh)
+### [SSH](./protocol-format-parser-lib/README.md#ssh)
 
-- [tinyssh](./communication-edge-lib/README.md#tinyssh)：一个简约的 SSH 服务器，它只实现了 SSHv2 功能的子集，适合嵌入式使用。
-- [wolfSSH](./communication-edge-lib/README.md#wolfssh)：轻量级 SSHv2 客户端和服务器库，采用 ANSI C 编写。
+- [tinyssh](./protocol-format-parser-lib/README.md#tinyssh)：一个简约的 SSH 服务器，它只实现了 SSHv2 功能的子集，适合嵌入式使用。
+- [wolfSSH](./protocol-format-parser-lib/README.md#wolfssh)：轻量级 SSHv2 客户端和服务器库，采用 ANSI C 编写。
 
-### [HTTP](./communication-edge-lib/README.md#http)
+### [HTTP](./protocol-format-parser-lib/README.md#http)
 
-- [libevhtp](./communication-edge-lib/README.md#libevhtp)：适合嵌入式设备的低负载 HTTP 库。
+- [libevhtp](./protocol-format-parser-lib/README.md#libevhtp)：适合嵌入式设备的低负载 HTTP 库。
 
-### [MQTT](./communication-edge-lib/README.md#mqtt)
+### [MQTT](./protocol-format-parser-lib/README.md#mqtt)
 
-- [Paho MQTT](./communication-edge-lib/README.md#paho-mqtt)：嵌入式平台的 MQTT 库，包含三个子库——数据包序列化、C及C++客户端。
-- [mqttclient](./communication-edge-lib/README.md#mqttclient)：高性能、高稳定性的跨平台 MQTT 客户端，拥有简洁的 API，无缝衔接 Mbed TLS 库，提供在线代码生成工具。
-- [Mosquitto](./communication-edge-lib/README.md#mosquitto)：Eclipse 旗下的一个开源的消息代理（broker），主要用于实现 MQTT 协议。它设计轻巧，资源占用少，适合物联网领域的企业级项目。
-- [wolfMQTT](./communication-edge-lib/README.md#wolfmqtt)：轻量化的 MQTT 协议客户端库，支持多个平台。
+- [Paho MQTT](./protocol-format-parser-lib/README.md#paho-mqtt)：嵌入式平台的 MQTT 库，包含三个子库——数据包序列化、C及C++客户端。
+- [mqttclient](./protocol-format-parser-lib/README.md#mqttclient)：高性能、高稳定性的跨平台 MQTT 客户端，拥有简洁的 API，无缝衔接 Mbed TLS 库，提供在线代码生成工具。
+- [Mosquitto](./protocol-format-parser-lib/README.md#mosquitto)：Eclipse 旗下的一个开源的消息代理（broker），主要用于实现 MQTT 协议。它设计轻巧，资源占用少，适合物联网领域的企业级项目。
+- [wolfMQTT](./protocol-format-parser-lib/README.md#wolfmqtt)：轻量化的 MQTT 协议客户端库，支持多个平台。
 
-### [Thread](./communication-edge-lib/README.md#thread)
+### [Thread](./protocol-format-parser-lib/README.md#thread)
 
-- [OpenThread](./communication-edge-lib/README.md#openthread)：Google 旗下的产品，是 Thread 的开源实现。
+- [OpenThread](./protocol-format-parser-lib/README.md#openthread)：Google 旗下的产品，是 Thread 的开源实现。
 
-### [Bluetooth](./communication-edge-lib/README.md#bluetooth)
+### [Bluetooth](./protocol-format-parser-lib/README.md#bluetooth)
 
-- [bluetooth_stack](./communication-edge-lib/README.md#bluetooth_stack)：一个开源的低功耗双模蓝牙协议栈，可以用于学习，作者有很多教程。
-- [BTstack](./communication-edge-lib/README.md#btstack)：是一个轻量级、开源的 蓝牙协议栈，专为嵌入式系统和资源受限设备设计，适合需要低功耗、高灵活性的场景。
-- [NimBLE](./communication-edge-lib/README.md#nimble)：从 Apache Mynewt 中分离出来的一个开源的蓝牙协议栈（包括主机和控制器） 完全取代了 Nordic 芯片组上的专有 SoftDevice。
+- [bluetooth_stack](./protocol-format-parser-lib/README.md#bluetooth_stack)：一个开源的低功耗双模蓝牙协议栈，可以用于学习，作者有很多教程。
+- [BTstack](./protocol-format-parser-lib/README.md#btstack)：是一个轻量级、开源的 蓝牙协议栈，专为嵌入式系统和资源受限设备设计，适合需要低功耗、高灵活性的场景。
+- [NimBLE](./protocol-format-parser-lib/README.md#nimble)：从 Apache Mynewt 中分离出来的一个开源的蓝牙协议栈（包括主机和控制器） 完全取代了 Nordic 芯片组上的专有 SoftDevice。
 
-### [GNSS](./communication-edge-lib/README.md#gnss)
+### [GNSS](./protocol-format-parser-lib/README.md#gnss)
 
-- [LwGPS](./communication-edge-lib/README.md#lwgps)：简易的 NMEA 报文解析库，内置支持 4 个 GPS 报文：GPGGA、GPGSA、GPGSV、GPRMC。
-- [RTKLIB](./communication-edge-lib/README.md#rtklib)：RTK 领域的标杆库，广泛应用于商业以及社区，同时也是教科书式的参考手册。
-- [Ntrip](./communication-edge-lib/README.md#ntrip)：C++ 编写的简易 Ntrip 协议库，包含流动站（Client）、中央服务器（Caster）、基准站（CORS）。
+- [LwGPS](./protocol-format-parser-lib/README.md#lwgps)：简易的 NMEA 报文解析库，内置支持 4 个 GPS 报文：GPGGA、GPGSA、GPGSV、GPRMC。
+- [RTKLIB](./protocol-format-parser-lib/README.md#rtklib)：RTK 领域的标杆库，广泛应用于商业以及社区，同时也是教科书式的参考手册。
+- [Ntrip](./protocol-format-parser-lib/README.md#ntrip)：C++ 编写的简易 Ntrip 协议库，包含流动站（Client）、中央服务器（Caster）、基准站（CORS）。
+
+### [AT](./protocol-format-parser-lib/README.md#at)
+
+- [AT Command](./protocol-format-parser-lib/README.md#at-command)：AT 命令通信解析模块，适用于 Modem、WIFI 模块、蓝牙等使用 AT 命令或者 ASCII 命令行通信的场景。
+- [Xradio_atcmd](./protocol-format-parser-lib/README.md#xradio_atcmd)：Xradio SDK 里提取的 AT 命令解析库，命令实例丰富，基于 RTOS。
+
+### [Base64](./protocol-format-parser-lib/README.md#base64)
+
+- [base64](./protocol-format-parser-lib/README.md#base64-1)：极简单的 base64 编解码库。
+- [base64](./protocol-format-parser-lib/README.md#base64-2)：支持 SIMD 和 OpenMP 加速的 base64 编解码库，不使用动态内存，注重线程安全。
+
+### [CSV](./protocol-format-parser-lib/README.md#csv)
+
+- [MiniCSV](./protocol-format-parser-lib/README.md#minicsv)：极简的 CSV 解析库，能够解决多行、转义行、转义列中的转义字符、空行、列数可变的行、Windows 或 Unix 风格的行结尾等问题。
+- [CRStrLib](./protocol-format-parser-lib/README.md#crstrlib)：解析 csv 格式/其他格式的字符串， 提取数值，帧头帧尾校验。
+- [fast-cpp-csv-parser](./protocol-format-parser-lib/README.md#fast-cpp-csv-parser)：基于 C++ 的 CSV 解析器，小型、易于使用且快速的仅标头库。
+
+### [INI](./protocol-format-parser-lib/README.md#ini)
+
+- [libinimini](./protocol-format-parser-lib/README.md#libinimini)：适用单片机的 ini 极简解析库，内存空间占用可控。最简单的键值配对文件格式。
+- [inih](./protocol-format-parser-lib/README.md#inih)：基于 C 编写的 ini 解析库，适合嵌入式系统。带有语法与解析选项。
+- [iniparser](./protocol-format-parser-lib/README.md#iniparser)：基于 C 编写的 ini 解析库，可移植嵌入式系统，注重线程安全。
+
+### [TLV](./protocol-format-parser-lib/README.md#tlv)
+
+- ~~[ITLV](./protocol-format-parser-lib/README.md#itlv)：TLV（Tag、Length、Value）格式数据的优化版本，极简轻量的数据传输格式，可以以此为基础自定义数据格式，附带 CRC 检验。~~（待发布）
+- [TLV](./protocol-format-parser-lib/README.md#tlv-1)：TLV 格式编码实现。
+
+### [JSON](./protocol-format-parser-lib/README.md#json)
+
+- [cJSON](./protocol-format-parser-lib/README.md#cjson)：ANSI C 中的超轻量级 JSON 解析器，也是最原生的 JSON 解析库，用起来会有点麻烦，不太推荐直接使用。
+- [struct2json](./protocol-format-parser-lib/README.md#struct2json)：基于 cJSON，超简便的 C 结构体与 JSON 快速互转库。
+- [cson](./protocol-format-parser-lib/README.md#cson)：基于 cJSON，运行于 C 语言平台的 json-struct 模型解析工具。使 JSON 解析更加方便。
+- [json](./protocol-format-parser-lib/README.md#json-1)：简单高效的 C 语言 json 生成和解析库，适合简单项目的使用。
+- [JSMN](./protocol-format-parser-lib/README.md#jsmn)：超简约、极快的 JSON 解析器，无动态内存分配，无解析纠正。适合小型项目的 JSON 解析。
+- [lwjson](./protocol-format-parser-lib/README.md#lwjson)：针对嵌入式系统优化的通用 JSON 解析器库。适合厂商项目的 JSON 解析。
+- [MojoJson](./protocol-format-parser-lib/README.md#mojojson)：通用的 JSON 解析库，采用面向对象的思想实现，提供 C 语言版本。
+- [LJSON](./protocol-format-parser-lib/README.md#ljson)：号称最快的 JSON 解析库，功能极为强大，几乎覆盖了 JSON 解析的所有需要。
+- [json-parser](./protocol-format-parser-lib/README.md#json-parser)：简单、规范、实用的 JSON 库，包括解析和生成。
+- [Frozen](./protocol-format-parser-lib/README.md#frozen)：类似 scanf/printf 的 JSON 解析和生成库，内置 base64 编码器和二进制数据解码器。
+- [sj.h](./protocol-format-parser-lib/README.md#sjh)：极简的 C 语言 JSON 解析库，采用零拷贝策略，直接在原数据上解析。
+
+### [XML](./protocol-format-parser-lib/README.md#xml)
+
+- [simple_xml](./protocol-format-parser-lib/README.md#simple_xml)：XML 解析库，具有完备的功能，支持双向解析。
+- [TinyXML-2](./protocol-format-parser-lib/README.md#tinyxml-2)：基于 C++ 的 XML 解析库，它使用文档对象模型（DOM），可以很方便的将 XML 和 C++ 对象互相加息转换。
+
+### [TOML](./protocol-format-parser-lib/README.md#toml)
+
+- [TOML](./protocol-format-parser-lib/README.md#toml-1)：比 INI 的扩展性强、又没有层层嵌套的 JSON 和 YAML 的缩进语法，一种人们不常了解的数据标记格式。
+
+### [其他](./protocol-format-parser-lib/README.md#其他)
+
+- [LwPKT](./protocol-format-parser-lib/README.md#lwpkt)：通用数据包协议库，可变数据长度，支持理论上无限的数据包长度，允许在网络中使用发件人地址和收件人地址进行多个注释，附带 CRC 检验。
+- [xpack](./protocol-format-parser-lib/README.md#xpack)：用于在 C++ 结构体和 JSON/XML/YAML/BSON/MySQL/SQLite 之间互相转换，仅有头文件。
+- [Uart_Transfer_BIN_to_exFlash](./protocol-format-parser-lib/README.md#uart_transfer_bin_to_exflash)：基于串口通讯，增加帧属性，从而方便、可靠的将数据传输到 Flash 中。
 
 ---
 
@@ -515,58 +530,42 @@
 
 ---
 
-## [数据、算法与AI库](./data-algo-ai-lib/README.md#数据算法与ai库)
+## [算法与AI库](./algo-ai-lib/README.md#算法与ai库)
 
-### [算术](./data-algo-ai-lib/README.md#算术)
+### [算术](./algo-ai-lib/README.md#算术)
 
-- ~~[float_converter](./data-algo-ai-lib/README.md#float_converter)：浮点数据四舍五入、取整处理库。~~（待发布）
-- [LibBF](./data-algo-ai-lib/README.md#libbf)：高精度浮点运算的库，提供比标准浮点数（如 float 和 double）精度更高的数值，并且可以灵活地控制精度和舍入模式。
+- ~~[float_converter](./algo-ai-lib/README.md#float_converter)：浮点数据四舍五入、取整处理库。~~（待发布）
+- [LibBF](./algo-ai-lib/README.md#libbf)：高精度浮点运算的库，提供比标准浮点数（如 float 和 double）精度更高的数值，并且可以灵活地控制精度和舍入模式。
 
-### [数据结构](./data-algo-ai-lib/README.md#数据结构)
+### [基础算法](./algo-ai-lib/README.md#基础算法)
 
-- [CBUF](./data-algo-ai-lib/README.md#cbuf)：极优雅的宏实现环形缓冲区，功能简单易用。
-- [sys/queue](./data-algo-ai-lib/README.md#sysqueue)：Linux、FreeBSD 中使用的队列、链表头文件，全部用宏来实现的，且能够链接任意类型，如结构体等。
-- [byte_queue](./data-algo-ai-lib/README.md#byte_queue)：C 语言编写的支持任意类型的环形队列，带宏包装，使用简单。
-- [queue](./data-algo-ai-lib/README.md#queue)：C 语言通用队列，支持任意数据类型，使用简单高效。
-- [Ring-Buffer](./data-algo-ai-lib/README.md#ring-buffer)：简单高效的环形缓冲库，适合没有指定存储大小的程序。
-- [wl_queue](./data-algo-ai-lib/README.md#wl_queue)：支持任意数据类型的环形队列，运用了 C 重载的技巧，注重纤程安全。
-- [RingBuffer](./data-algo-ai-lib/README.md#ringbuffer)：实用的环形缓冲库，功能完整，使用的是堆内存分配。
-- [queue](./data-algo-ai-lib/README.md#queue-1)：简单的队列功能库，扩展性强，同时支持零拷贝读写队列（适用于大内存的单个元素，可以有效减少函数耗时）。
-- [QueueForMcu](./data-algo-ai-lib/README.md#queueformcu)：普通队列功能模块，仅限非 RTOS 系统，适用于个人小型程序。
-- [ConcurrentQueue](./data-algo-ai-lib/README.md#concurrentqueue)：基于 C++ 的工业级无锁队列，无需锁也极其注重线程安全。
-- [uthash](./data-algo-ai-lib/README.md#uthash)：提供哈希、列表、环形等数据结构库，只用包含头文件即可使用。
-- [LwRB](./data-algo-ai-lib/README.md#lwrb)：专业的 FIFO 环形缓冲库，无动态内存分配，适用于 MDA 传输，注重线程和中断安全。
-- [fifofast](./data-algo-ai-lib/README.md#fifofast)：针对 MCU 优化的 FIFO 库，旨在尽可能减少 CPU 和 SRAM 的消耗。
+- [FXT](./algo-ai-lib/README.md#fxt)：C 语言的算法库集合，专注于位运算、组合数学、快速变换等。
+- [xxHash](./algo-ai-lib/README.md#xxhash)：是一种速度极快的非加密哈希算法，可在 RAM 、速度限制下工作，适合更专业的使用场景。
+- [Terathon Math Library](./algo-ai-lib/README.md#terathon-math-library)：一个用 C++ 写成的数学库，包含向量、矩阵、四元数和射影几何代数元素的类。可用于图形、AI、游戏等领域。
 
-### [基础算法](./data-algo-ai-lib/README.md#基础算法)
+### [AI框架](./algo-ai-lib/README.md#ai框架)
 
-- [FXT](./data-algo-ai-lib/README.md#fxt)：C 语言的算法库集合，专注于位运算、组合数学、快速变换等。
-- [xxHash](./data-algo-ai-lib/README.md#xxhash)：是一种速度极快的非加密哈希算法，可在 RAM 、速度限制下工作，适合更专业的使用场景。
-- [Terathon Math Library](./data-algo-ai-lib/README.md#terathon-math-library)：一个用 C++ 写成的数学库，包含向量、矩阵、四元数和射影几何代数元素的类。可用于图形、AI、游戏等领域。
+- [TinyMaix](./algo-ai-lib/README.md#tinymaix)：专为低资源的单片机设计的 AI 神经网络推理框架。
+- [miniMNIST-c](./algo-ai-lib/README.md#minimnist-c)：C 语言实现了一个迷你神经网络（两层），可用于学习和基础嵌入式领域。
+- [Genann](./algo-ai-lib/README.md#genann)：极简的神经网络库，经过充分测试，用于在 C 中训练和使用前馈人工神经网络（ANN）。
+- [uTensor](./algo-ai-lib/README.md#utensor)：基于 TensorFlow 构建的极其轻量级的机器学习推理框架，并将训练模型生成 C++ 文件导入使用。
+- [NNoM](./algo-ai-lib/README.md#nnom)：专门为了神经网络在 MCU 上运行的框架，使用起来和 TinyMaix 很像，但功能更多。
+- [Paddle Lite](./algo-ai-lib/README.md#paddle-lite)：高性能、轻量级、灵活性强且易于扩展的深度学习推理框架，定位于支持包括移动端、嵌入式以及边缘端在内的多种硬件平台。
+- [TVM](./algo-ai-lib/README.md#tvm)：内置深度学习编译器，适用于 CPU、GPU、ARM 等多种硬件架构，提供一条龙服务。
+- [tflite-micro](./algo-ai-lib/README.md#tflite-micro)：适用于微控制器的 TensorFlow Lite，也就是在单片机上部署机器学习框架。
+- [ncnn](./algo-ai-lib/README.md#ncnn)：是一个为移动端极致优化的高性能神经网络前向计算框架，支持大部分常用的 CNN 网络，可部署在部分嵌入式芯片上。
+- [MNN](./algo-ai-lib/README.md#mnn)：轻量级的深度神经网络引擎，支持深度学习的推理与训练，支持具有 POSIX 接口的嵌入式设备。
+- [TensorFlow Lite](./algo-ai-lib/README.md#tensorflow-lite)：极有名的机器学习库，可用于在移动设备、微控制器和其他边缘设备上部署模型，以便实现设备端机器学习。
+- [Mediapipe](./algo-ai-lib/README.md#mediapipe)：谷歌开源的跨平台机器学习框架。它是一个能够轻松部署到移动端、Web、PC 和物联网设备的机器学习工具库，包含了物体检测、图像分类、人脸识别、手势识别、文本分类、语言检测、音频分类等模型。
+- [Edge Impulse](./algo-ai-lib/README.md#edge-impulse)：流行的嵌入式机器学习开发平台，可以完成数据处理和分析、模型训练、部署模型等工作。
+- [YMCV](./algo-ai-lib/README.md#ymcv)：纯 C 写的迷你计算机视觉库，无依赖、跨平台，可方便裁剪所需功能。
+- [NeuralNetwork](./algo-ai-lib/README.md#neuralnetwork)：专用于单片机的神经网络库，仅需极少的资源即可运行RNN、GRU和LSTM等架构，支持裸机和部分操作系统。
 
-### [AI框架](./data-algo-ai-lib/README.md#ai框架)
+### [AI 模型＆算法](./algo-ai-lib/README.md#ai-模型算法)
 
-- [TinyMaix](./data-algo-ai-lib/README.md#tinymaix)：专为低资源的单片机设计的 AI 神经网络推理框架。
-- [miniMNIST-c](./data-algo-ai-lib/README.md#minimnist-c)：C 语言实现了一个迷你神经网络（两层），可用于学习和基础嵌入式领域。
-- [Genann](./data-algo-ai-lib/README.md#genann)：极简的神经网络库，经过充分测试，用于在 C 中训练和使用前馈人工神经网络（ANN）。
-- [uTensor](./data-algo-ai-lib/README.md#utensor)：基于 TensorFlow 构建的极其轻量级的机器学习推理框架，并将训练模型生成 C++ 文件导入使用。
-- [NNoM](./data-algo-ai-lib/README.md#nnom)：专门为了神经网络在 MCU 上运行的框架，使用起来和 TinyMaix 很像，但功能更多。
-- [Paddle Lite](./data-algo-ai-lib/README.md#paddle-lite)：高性能、轻量级、灵活性强且易于扩展的深度学习推理框架，定位于支持包括移动端、嵌入式以及边缘端在内的多种硬件平台。
-- [TVM](./data-algo-ai-lib/README.md#tvm)：内置深度学习编译器，适用于 CPU、GPU、ARM 等多种硬件架构，提供一条龙服务。
-- [tflite-micro](./data-algo-ai-lib/README.md#tflite-micro)：适用于微控制器的 TensorFlow Lite，也就是在单片机上部署机器学习框架。
-- [ncnn](./data-algo-ai-lib/README.md#ncnn)：是一个为移动端极致优化的高性能神经网络前向计算框架，支持大部分常用的 CNN 网络，可部署在部分嵌入式芯片上。
-- [MNN](./data-algo-ai-lib/README.md#mnn)：轻量级的深度神经网络引擎，支持深度学习的推理与训练，支持具有 POSIX 接口的嵌入式设备。
-- [TensorFlow Lite](./data-algo-ai-lib/README.md#tensorflow-lite)：极有名的机器学习库，可用于在移动设备、微控制器和其他边缘设备上部署模型，以便实现设备端机器学习。
-- [Mediapipe](./data-algo-ai-lib/README.md#mediapipe)：谷歌开源的跨平台机器学习框架。它是一个能够轻松部署到移动端、Web、PC 和物联网设备的机器学习工具库，包含了物体检测、图像分类、人脸识别、手势识别、文本分类、语言检测、音频分类等模型。
-- [Edge Impulse](./data-algo-ai-lib/README.md#edge-impulse)：流行的嵌入式机器学习开发平台，可以完成数据处理和分析、模型训练、部署模型等工作。
-- [YMCV](./data-algo-ai-lib/README.md#ymcv)：纯 C 写的迷你计算机视觉库，无依赖、跨平台，可方便裁剪所需功能。
-- [NeuralNetwork](./data-algo-ai-lib/README.md#neuralnetwork)：专用于单片机的神经网络库，仅需极少的资源即可运行RNN、GRU和LSTM等架构，支持裸机和部分操作系统。
-
-### [AI 模型＆算法](./data-algo-ai-lib/README.md#ai-模型算法)
-
-- ~~[Knn](./data-algo-ai-lib/README.md#knn)：用 C 语言编写的 Knn 算法，十分基础，没有什么优化，不太推荐使用。~~（待发布）
-- [NanoDet-Plus](./data-algo-ai-lib/README.md#nanodet-plus)：超快速、高精度的轻量级无锚物体检测模型，基于移动端 AI 框架实现。
-- [pico](./data-algo-ai-lib/README.md#pico)：轻量级的人脸识别算法，基于像素强度比较的目标检测，适合单一、流量较小的场景。
+- ~~[Knn](./algo-ai-lib/README.md#knn)：用 C 语言编写的 Knn 算法，十分基础，没有什么优化，不太推荐使用。~~（待发布）
+- [NanoDet-Plus](./algo-ai-lib/README.md#nanodet-plus)：超快速、高精度的轻量级无锚物体检测模型，基于移动端 AI 框架实现。
+- [pico](./algo-ai-lib/README.md#pico)：轻量级的人脸识别算法，基于像素强度比较的目标检测，适合单一、流量较小的场景。
 
 ---
 

@@ -1,6 +1,6 @@
-# 通信协议与端侧库
+# 通信协议与格式解析库
 
-> 通信的概念与[板级总线协议库](../board-bus-lib/README.md)及[格式解析与数据库](../db-format-parser-lib/README.md)存在一定的交集，都会涉及到数据传输及处理。但我们这里单独再列出来，主要是区分带有「客户端 - 服务端」这样的多端侧设备通信协议，比较典型像网络协议、蓝牙协议等。
+> 通信的概念与[板级总线协议库](../board-bus-lib/README.md)存在一定的交集，都会涉及到数据传输及处理。但我们这里单独再列出来，主要是区分带有「客户端 - 服务端」这样的多端侧设备通信协议，比较典型像网络协议、蓝牙协议等。
 
 ## Web-Server
 
@@ -473,6 +473,385 @@
 
 **链接**：[GitHub - ybzwyrcld/ntrip: Simple ntrip caster/client/server example programs, using the NTRIP2.0 protocol](https://github.com/ybzwyrcld/ntrip)  
 **特征**：C++编写的简易Ntrip协议库，包含流动站（Client）<sup>(Rover)</sup>、中央服务器（Caster）、基准站（CORS）<sup>(Server)</sup>。  
+
+#### 要点
+
+---
+
+## AT
+
+### AT Command
+
+[![Gitee Repo stars](https://gitee.com/moluo-tech/AT-Command/badge/star.svg?theme=gvp)](https://gitee.com/moluo-tech/AT-Command/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/AT-Command&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/AT-Command&query=$.license&label=license)]()
+
+**链接**：[AT Command: 一款管理 AT 命令通信交互组件， 适用于 Modem、WIFI 模块、蓝牙等使用 AT 命令或者 ASCII 命令行通信的场景。](https://gitee.com/moluo-tech/AT-Command)  
+**特征**：AT 命令通信解析模块，适用于 Modem、WIFI 模块、蓝牙等使用 AT 命令或者 ASCII 命令行通信的场景。  
+
+#### 要点
+
+- 分为 OS 和裸机两种模块；
+- 使用介绍：[一个 AT 命令通信解析模块！](https://mp.weixin.qq.com/s/XFrq6t5kjOOQUqhaZfmNGA)
+
+---
+
+### Xradio\_atcmd
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/XradioTech/xradio-skylark-sdk)](https://github.com/XradioTech/xradio-skylark-sdk/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/XradioTech/xradio-skylark-sdk?path=src/atcmd)](https://github.com/XradioTech/xradio-skylark-sdk/commits/master/src/atcmd) | [![GitHub License](https://img.shields.io/github/license/XradioTech/xradio-skylark-sdk)]()
+
+**链接**：[xradio-skylark-sdk/src/atcmd at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/src/atcmd)、[xradio-skylark-sdk/include/atcmd at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/include/atcmd)  
+**特征**：Xradio SDK 里提取的 AT 命令解析库，命令实例丰富，基于 RTOS。  
+
+#### 要点
+
+- Demo：[xradio-skylark-sdk/project/demo/at_demo at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/project/demo/at_demo)；
+- 还有一些依赖库基于 SDK 里的其他文件；
+
+---
+
+## Base64
+
+> 参考：[嵌入式大杂烩周记 | 第 14 期](https://mp.weixin.qq.com/s/iF2GuG1hDBeNJyxBCfqn8A)  
+>
+> base64 可以说是最简单的编解码了，可作为设备端传输的中间层，其作用是屏蔽传输上的差异。  
+>
+> 另外，网上有极多 base64 源码库，可自行查找选择。  
+
+### base64
+
+[![Gitee Repo stars](https://gitee.com/ylguo/base64/badge/star.svg?theme=gvp)](https://gitee.com/ylguo/base64/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ylguo/base64&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ylguo/base64&query=$.license&label=license)]()
+
+**链接**：[base64: c 语言版 base64 编解码算法实现](https://gitee.com/ylguo/base64)  
+**特征**：极简单的 base64 编解码库。  
+
+#### 要点
+
+---
+
+### base64
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/aklomp/base64)](https://github.com/aklomp/base64/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/aklomp/base64)](https://github.com/aklomp/base64/commits) | [![GitHub License](https://img.shields.io/github/license/aklomp/base64)]()
+
+**链接**：[aklomp/base64: Fast Base64 stream encoder/decoder in C99, with SIMD acceleration](https://github.com/aklomp/base64)  
+**特征**：支持 SIMD 和 OpenMP 加速的 base64 编解码库，不使用动态内存，注重线程安全。  
+
+#### 要点
+
+---
+
+## CSV
+
+### MiniCSV
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/jedisct1/minicsv)](https://github.com/jedisct1/minicsv/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/jedisct1/minicsv)](https://github.com/jedisct1/minicsv/commits) | [![GitHub License](https://img.shields.io/github/license/jedisct1/minicsv)]()
+
+**链接**：[jedisct1/minicsv: A tiny, fast, simple, single-file, BSD-licensed CSV parsing library in C.](https://github.com/jedisct1/minicsv)  
+**特征**：极简的 CSV 解析库，能够解决多行、转义行、转义列中的转义字符、空行、列数可变的行、Windows 或 Unix 风格的行结尾等问题。  
+
+#### 要点
+
+- 使用介绍：[基于 C 语言的开源 csv 解析库：MiniCSV 使用示例_whik1194 的博客-CSDN 博客](https://blog.csdn.net/whik1194/article/details/131490767)
+- 不使用动态内存；
+- 一次性全部解出和读入；
+
+---
+
+### CRStrLib
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/mushroom-x/CRStrLib)](https://github.com/mushroom-x/CRStrLib/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/mushroom-x/CRStrLib)](https://github.com/mushroom-x/CRStrLib/commits) | [![GitHub License](https://img.shields.io/github/license/mushroom-x/CRStrLib)]()
+
+**链接**：[mushroom-x/CRStrLib: 此工程主要用于 C 语言解析 csv 格式/其他格式的字符串， 提取数值，帧头帧尾校验。 可以加入到单片机工程或者添加到 Arduino 的库函数中。](https://github.com/mushroom-x/CRStrLib)  
+**特征**：解析 csv 格式/其他格式的字符串， 提取数值，帧头帧尾校验。  
+
+#### 要点
+
+---
+
+### fast-cpp-csv-parser
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/ben-strasser/fast-cpp-csv-parser)](https://github.com/ben-strasser/fast-cpp-csv-parser/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ben-strasser/fast-cpp-csv-parser)](https://github.com/ben-strasser/fast-cpp-csv-parser/commits) | [![GitHub License](https://img.shields.io/github/license/ben-strasser/fast-cpp-csv-parser)]()
+
+**链接**：[ben-strasser/fast-cpp-csv-parser: fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser)  
+**特征**：基于 C++ 的 CSV 解析器，小型、易于使用且快速的仅标头库。  
+
+#### 要点
+
+---
+
+## INI
+
+> `.ini` 文件格式说明：[INI](./appendix.md#ini)。
+
+### libinimini
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/lovemengx/libinimini)](https://github.com/lovemengx/libinimini/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/lovemengx/libinimini)](https://github.com/lovemengx/libinimini/commits) | [![GitHub License](https://img.shields.io/github/license/lovemengx/libinimini)]()
+
+**链接**：[lovemengx/libinimini: ini 极简解析库，适用于 Android、Linux、Rtos 以及单片机](https://github.com/lovemengx/libinimini)  
+**特征**：适用单片机的 ini 极简解析库，内存空间占用可控。最简单的键值配对文件格式。  
+
+#### 要点
+
+---
+
+### inih
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/benhoyt/inih)](https://github.com/benhoyt/inih/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/benhoyt/inih)](https://github.com/benhoyt/inih/commits) | [![GitHub License](https://img.shields.io/github/license/benhoyt/inih)]()
+
+**链接**：[benhoyt/inih: Simple .INI file parser in C, good for embedded systems](https://github.com/benhoyt/inih)  
+**特征**：基于 C 编写的 ini 解析库，适合嵌入式系统。带有语法与解析选项。  
+
+#### 要点
+
+- 使用介绍：[嵌入式大杂烩周记 | 第 10 期](https://mp.weixin.qq.com/s/QAElgMjgHqEmO_V_TvuppA)
+
+---
+
+### iniparser
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/ndevilla/iniparser)](https://github.com/ndevilla/iniparser/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ndevilla/iniparser)](https://github.com/ndevilla/iniparser/commits) | [![GitHub License](https://img.shields.io/github/license/ndevilla/iniparser)]()
+
+**链接**：[ndevilla/iniparser: ini file parser](https://github.com/ndevilla/iniparser)  
+**特征**：基于 C 编写的 ini 解析库，可移植嵌入式系统，注重线程安全。  
+
+#### 要点
+
+- 使用介绍：[分享一个好用的 C 语言.ini 文件的解析库-阿里云开发者社区](https://developer.aliyun.com/article/1325467)
+
+---
+
+## TLV
+
+> 协议介绍：[TLV](./appendix.md#tlv)。
+
+### ITLV
+
+**链接**：[ITLV: TLV（Tag、Length、Value）格式数据的优化版本，极简轻量的数据传输格式，可以以此为基础自定义数据格式，附带 CRC 检验。](https://gitee.com/Luyi365/itlv)  
+**特征**：TLV（Tag、Length、Value）格式数据的优化版本，极简轻量的数据传输格式，可以以此为基础自定义数据格式，附带 CRC 检验。  
+
+#### 要点
+
+- 使用介绍：[分享一种灵活性很高的协议格式（附代码例子）](https://mp.weixin.qq.com/s/z0Qr2D5yCpEiBPenYWrdOw)；
+
+---
+
+### tlv
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/skullboyer/TLV)](https://github.com/skullboyer/TLV/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/skullboyer/TLV)](https://github.com/skullboyer/TLV/commits) | [![GitHub License](https://img.shields.io/github/license/skullboyer/TLV)]()
+
+**链接**：[skullboyer/TLV](https://github.com/skullboyer/TLV)  
+**特征**：TLV 格式编码实现。  
+
+#### 要点
+
+- 使用介绍：[【TLV】一种 TLV 编码实现 - 壹点灵异 - 博客园](https://www.cnblogs.com/skullboyer/p/17982042)
+
+---
+
+## JSON
+
+> ~~JSON 文件格式说明：((20230121192127-ajlkxif 'JSON'))~~（待发布）
+
+### cJSON
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/DaveGamble/cJSON)](https://github.com/DaveGamble/cJSON/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/DaveGamble/cJSON)](https://github.com/DaveGamble/cJSON/commits) | [![GitHub License](https://img.shields.io/github/license/DaveGamble/cJSON)]()
+
+**链接**：[DaveGamble/cJSON: Ultralightweight JSON parser in ANSI C](https://github.com/DaveGamble/cJSON)  
+**特征**：ANSI C 中的超轻量级 JSON 解析器，也是最原生的 JSON 解析库，用起来会有点麻烦，不太推荐直接使用。  
+
+#### 要点
+
+- 使用介绍：
+  [JSON 的简单介绍&cJSON 库使用（一）](https://www.jianshu.com/p/59eb2bd1aeea)  
+  [cJSON 解析和生成 JSON 文件 | 守望的个人博客](https://www.yanbinghu.com/2019/08/04/21364.html)  
+- json 对象可以是 json、字符串、数组等。
+
+---
+
+### struct2json
+
+![Gitee Repo stars](https://gitee.com/Armink/struct2json/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/struct2json&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/struct2json&query=$.license&label=license)
+
+**链接**：[struct2json: C 结构体与 JSON 快速互转库，快速实现 C 结构体的序列化及反序列化](https://gitee.com/Armink/struct2json)  
+**特征**：基于 [cJSON](#cjson)，超简便的 C 结构体与 JSON 快速互转库。  
+
+#### 要点
+
+---
+
+### cson
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/NevermindZZT/cson)](https://github.com/NevermindZZT/cson/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/NevermindZZT/cson)](https://github.com/NevermindZZT/cson/commits) | [![GitHub License](https://img.shields.io/github/license/NevermindZZT/cson)]()
+
+**链接**：[NevermindZZT/cson: 基于 C 语言的 json 数据映射解析库](https://github.com/NevermindZZT/cson)  
+**特征**：基于 [cJSON](#cjson)，运行于 C 语言平台的 json-struct 模型解析工具。使 JSON 解析更加方便。  
+
+#### 要点
+
+---
+
+### json
+
+![Gitee Repo stars](https://gitee.com/Lamdonn/json/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/json&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/json&query=$.license&label=license)
+
+**链接**：[json: C 语言 json 解释器，简洁高效，灵活安全](https://gitee.com/Lamdonn/json)  
+**特征**：简单高效的 C 语言 json 生成和解析库，适合简单项目的使用。  
+
+#### 要点
+
+---
+
+### JSMN
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/zserge/jsmn)](https://github.com/zserge/jsmn/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/zserge/jsmn)](https://github.com/zserge/jsmn/commits) | [![GitHub License](https://img.shields.io/github/license/zserge/jsmn)]()
+
+**链接**：[zserge/jsmn: Jsmn is a world fastest JSON parser/tokenizer. This is the official repo replacing the old one at Bitbucket](https://github.com/zserge/jsmn)  
+**特征**：超简约、极快的 JSON 解析器，无动态内存分配，无解析纠正。  
+
+#### 要点
+
+- 注意只能单向的从 JSON→C 解析；
+- 原理是记录每个 json 的键值位置，不会创造副本来解析，因此非常节省空间；
+
+---
+
+### lwjson
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwjson)](https://github.com/MaJerle/lwjson/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwjson)](https://github.com/MaJerle/lwjson/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwjson)]()
+
+**链接**：[LwJSON latest-develop documentation — LwJSON documentation](https://docs.majerle.eu/projects/lwjson/en/latest/)  
+**特征**：针对嵌入式系统优化的通用 JSON 解析器库。  
+
+#### 要点
+
+- 注意只能单向的从 JSON→C 解析；
+
+---
+
+### MojoJson
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/scottcgi/MojoJson)](https://github.com/scottcgi/MojoJson/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/scottcgi/MojoJson)](https://github.com/scottcgi/MojoJson/commits) | [![GitHub License](https://img.shields.io/github/license/scottcgi/MojoJson)]()
+
+**链接**：[scottcgi/MojoJson: A simple and fast JSON parser.](https://github.com/scottcgi/MojoJson)  
+**特征**：通用的 JSON 解析库，采用面向对象的思想实现，提供 C 语言版本。  
+
+#### 要点
+
+- 注意只能单向的从 JSON→C 解析；
+
+---
+
+### LJSON
+
+![Gitee Repo stars](https://gitee.com/lengjingzju/json/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/lengjingzju/json&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/lengjingzju/json&query=$.license&label=license)
+
+**链接**：[json: LJSON 是一个远远快于 cJSON(最快可达 20 倍)、大幅度快于 RapidJSON (最快可达 1 倍)的 C 实现的 JSON 库，他是目前最快的通用 JSON 库。 LJSON 支持 JSON 的解析、打印、编辑，提供 DOM 和 SAX 接口，I/O 支持字符串和文件，且完全支持 nativejson-benchmark 的测试用例。](https://gitee.com/lengjingzju/json)  
+**特征**：号称最快的 JSON 解析库，功能极为强大，几乎覆盖了 JSON 解析的所有需要。  
+
+#### 要点
+
+---
+
+### json-parser
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/Barenboim/json-parser)](https://github.com/Barenboim/json-parser/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Barenboim/json-parser)](https://github.com/Barenboim/json-parser/commits) | [![GitHub License](https://img.shields.io/github/license/Barenboim/json-parser)]()
+
+**链接**：[Barenboim/json-parser: JSON parser in standard C](https://github.com/Barenboim/json-parser)  
+**C++ 版**：[wfrest/Json: c++ Json library](https://github.com/wfrest/Json)  
+**特征**：简单、规范、实用的 JSON 库，包括解析和生成。  
+
+#### 要点
+
+---
+
+### Frozen
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/cesanta/frozen)](https://github.com/cesanta/frozen/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cesanta/frozen)](https://github.com/cesanta/frozen/commits) | [![GitHub License](https://img.shields.io/github/license/cesanta/frozen)]()
+
+**链接**：[cesanta/frozen: JSON parser and generator for C/C++ with scanf/printf like interface. Targeting embedded systems.](https://github.com/cesanta/frozen)  
+**特征**：类似 scanf/printf 的 JSON 解析和生成库，内置 base64 编码器和二进制数据解码器。  
+
+#### 要点
+
+---
+
+### sj.h
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/rxi/sj.h)](https://github.com/rxi/sj.h/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/rxi/sj.h)](https://github.com/rxi/sj.h/commits) | [![GitHub License](https://img.shields.io/github/license/rxi/sj.h)]()
+
+**链接**：[GitHub - rxi/sj.h: A tiny little JSON parsing library](https://github.com/rxi/sj.h)  
+**特征**：极简的 C 语言 JSON 解析库，采用零拷贝策略，直接在原数据上解析。  
+
+#### 要点
+
+---
+
+## XML
+
+### simple\_xml
+
+![Gitee Repo stars](https://gitee.com/xfwangqiang/simple_xml/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/xfwangqiang/simple_xml&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/xfwangqiang/simple_xml&query=$.license&label=license)
+
+**链接**：[simple_xml: 基于 C 语言的 XML 解析器，已有的一些开源解析器都与操作系统相关，对于一些并不主流的操作系统以及嵌入式操作系统，想应用 XML 文件，就显得比较困难。开发本项目的目的在于开发一个能在多平台应用的代码](https://gitee.com/xfwangqiang/simple_xml)  
+**特征**：XML 解析库，具有完备的功能，支持双向解析。  
+
+#### 要点
+
+---
+
+### TinyXML-2
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/leethomason/tinyxml2)](https://github.com/leethomason/tinyxml2/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/leethomason/tinyxml2)](https://github.com/leethomason/tinyxml2/commits) | [![GitHub License](https://img.shields.io/github/license/leethomason/tinyxml2)]()
+
+**链接**：[leethomason/tinyxml2: TinyXML2 is a simple, small, efficient, C++ XML parser that can be easily integrated into other programs.](https://github.com/leethomason/tinyxml2)  
+**特征**：基于 C++ 的 XML 解析库，它使用文档对象模型（DOM），可以很方便的将 XML 和 C++ 对象互相加息转换。  
+
+#### 要点
+
+---
+
+## TOML
+
+### toml
+
+**链接**：[TOML：Tom 的（语义）明显、（配置）最小化的语言](https://toml.io/cn/)  
+**特征**：比 INI 的扩展性强、又没有层层嵌套的 JSON 和 YAML 的缩进语法，一种人们不常了解的数据标记格式。  
+
+#### 要点
+
+---
+
+## 其他
+
+### LwPKT
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwpkt)](https://github.com/MaJerle/lwpkt/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwpkt)](https://github.com/MaJerle/lwpkt/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwpkt)]()
+
+**链接**：[LwPKT latest-develop documentation — LwPKT documentation](https://docs.majerle.eu/projects/lwpkt/en/latest/)  
+**特征**：通用数据包协议库，可变数据长度，支持理论上无限的数据包长度，允许在网络中使用发件人地址和收件人地址进行多个注释，附带 CRC 检验。  
+
+#### 要点
+
+- 使用介绍：[嵌入式中轻量级通信协议利器！](https://mp.weixin.qq.com/s/e_yvMNMILzvpLtvmDw3iCw)
+- 使用 [LwRB](../algo-ai-lib/README.md#lwrb) 库进行数据读/写操作；
+
+---
+
+### xpack
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/xyz347/xpack)](https://github.com/xyz347/xpack/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/xyz347/xpack)](https://github.com/xyz347/xpack/commits) | [![GitHub License](https://img.shields.io/github/license/xyz347/xpack)]()
+
+**链接**：[xyz347/xpack: convert json/xml/bson to c++ struct](https://github.com/xyz347/xpack)  
+**特征**：用于在 C++ 结构体和 JSON/XML/YAML/BSON/MySQL/SQLite 之间互相转换，仅有头文件。
+
+#### 要点
+
+---
+
+### Uart\_Transfer\_BIN\_to\_exFlash
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/firestaradmin/Uart_Transfer_BIN_to_exFlash)](https://github.com/firestaradmin/Uart_Transfer_BIN_to_exFlash/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/firestaradmin/Uart_Transfer_BIN_to_exFlash)](https://github.com/firestaradmin/Uart_Transfer_BIN_to_exFlash/commits) | [![GitHub License](https://img.shields.io/github/license/firestaradmin/Uart_Transfer_BIN_to_exFlash)]()
+
+**链接**：[firestaradmin/Uart_Transfer_BIN_to_exFlash: STM32 串口烧录 BIN 文件、字库文件【QT 上位机】](https://github.com/firestaradmin/Uart_Transfer_BIN_to_exFlash)  
+**特征**：基于串口通讯，增加帧属性，从而方便、可靠的将数据传输到 Flash 中。  
 
 #### 要点
 
