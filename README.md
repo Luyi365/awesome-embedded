@@ -165,13 +165,7 @@
 
 ## [数据结构与数据处理库](./data-struct-process-lib/README.md#数据结构与数据处理库)
 
-### [流](./data-struct-process-lib/README.md#流)
-
-- ~~[uart_stream](./data-struct-process-lib/README.md#uart_stream)：数据流缓冲处理库，针对 UART 数据，但有一定的通用性。~~（待发布）
-- [xprintf](./data-struct-process-lib/README.md#xprintf)：嵌入式字符串函数，代替不足以实现常规 printf 功能，可以动态的将字符串写入不同外设。主要用途是与多个外设交互，而不是终端交互
-- [CMSIS-Stream](./data-struct-process-lib/README.md#cmsis-stream)：ARM 官方出品的数据流处理组件，提供图形表示，适合专业级项目和多设备数据流处理。
-
-### [数据结构](./data-struct-process-lib/README.md#数据结构)
+### [队列](./data-struct-process-lib/README.md#队列)
 
 - [CBUF](./data-struct-process-lib/README.md#cbuf)：极优雅的宏实现环形缓冲区，功能简单易用。
 - [sys/queue](./data-struct-process-lib/README.md#sysqueue)：Linux、FreeBSD 中使用的队列、链表头文件，全部用宏来实现的，且能够链接任意类型，如结构体等。
@@ -183,9 +177,18 @@
 - [queue](./data-struct-process-lib/README.md#queue-1)：简单的队列功能库，扩展性强，同时支持零拷贝读写队列（适用于大内存的单个元素，可以有效减少函数耗时）。
 - [QueueForMcu](./data-struct-process-lib/README.md#queueformcu)：普通队列功能模块，仅限非 RTOS 系统，适用于个人小型程序。
 - [ConcurrentQueue](./data-struct-process-lib/README.md#concurrentqueue)：基于 C++ 的工业级无锁队列，无需锁也极其注重线程安全。
-- [uthash](./data-struct-process-lib/README.md#uthash)：提供哈希、列表、环形等数据结构库，只用包含头文件即可使用。
 - [LwRB](./data-struct-process-lib/README.md#lwrb)：专业的 FIFO 环形缓冲库，无动态内存分配，适用于 MDA 传输，注重线程和中断安全。
 - [fifofast](./data-struct-process-lib/README.md#fifofast)：针对 MCU 优化的 FIFO 库，旨在尽可能减少 CPU 和 SRAM 的消耗。
+
+### [流](./data-struct-process-lib/README.md#流)
+
+- ~~[uart_stream](./data-struct-process-lib/README.md#uart_stream)：数据流缓冲处理库，针对 UART 数据，但有一定的通用性。~~（待发布）
+- [xprintf](./data-struct-process-lib/README.md#xprintf)：嵌入式字符串函数，代替不足以实现常规 printf 功能，可以动态的将字符串写入不同外设。主要用途是与多个外设交互，而不是终端交互
+- [CMSIS-Stream](./data-struct-process-lib/README.md#cmsis-stream)：ARM 官方出品的数据流处理组件，提供图形表示，适合专业级项目和多设备数据流处理。
+
+### [数据结构集合](./data-struct-process-lib/README.md#数据结构集合)
+
+- [uthash](./data-struct-process-lib/README.md#uthash)：提供哈希、列表、环形等数据结构库，只用包含头文件即可使用。
 
 ### [数据库](./data-struct-process-lib/README.md#数据库)
 
@@ -318,7 +321,7 @@
 
 - [TOML](./protocol-format-parser-lib/README.md#toml-1)：比 INI 的扩展性强、又没有层层嵌套的 JSON 和 YAML 的缩进语法，一种人们不常了解的数据标记格式。
 
-### [其他](./protocol-format-parser-lib/README.md#其他)
+### [其他格式](./protocol-format-parser-lib/README.md#其他格式)
 
 - [LwPKT](./protocol-format-parser-lib/README.md#lwpkt)：通用数据包协议库，可变数据长度，支持理论上无限的数据包长度，允许在网络中使用发件人地址和收件人地址进行多个注释，附带 CRC 检验。
 - [xpack](./protocol-format-parser-lib/README.md#xpack)：用于在 C++ 结构体和 JSON/XML/YAML/BSON/MySQL/SQLite 之间互相转换，仅有头文件。

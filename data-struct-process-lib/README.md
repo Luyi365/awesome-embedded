@@ -1,51 +1,8 @@
 # 数据结构与数据处理库
 
-## 流
+## 队列
 
-> 怎么做到真正的流控：（以 UART 向用户层传输为例）
-> 1. UART+DMA 进行数据收发；
-> 2. DMA 永远进行 UART 端的数据接收工作，触发指定条件后将其数据转移到 UART 流缓冲区；
-> 3. 将流数据进行分包后再提交到 UART 队列缓存中；
-> 4. 数据处理线程挂起，当发现 UART 队列缓存中有数据后启动接收处理（序列化）；
-> 5. 反过来一样，用户数据先发送到用户队列缓存区，之后数据处理区进行接收处理（反序列化），再给到 DMA 由 UART 发生出去；
-> 
-> ![CMSIS-Stream-Graph](CMSIS-Stream-Graph.gif)
->
-
-### uart_stream
-
-**链接**：[UART 与用户数据流缓冲处理 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/jr7tzaiq6lupefkxh4com60)  
-**特征**：数据流缓冲处理库，针对 UART 数据，但有一定的通用性。  
-
-#### 要点
-
----
-
-### xprintf
-
-[![License: xprintf](https://img.shields.io/badge/License-xprintf-blue.svg)]()
-
-**链接**：[ELM - Embedded String Functions](http://elm-chan.org/fsw/strf/xprintf.html)  
-**特征**：嵌入式字符串函数，代替不足以实现常规 printf 功能，可以动态的将字符串写入不同外设。  
-
-#### 要点
-
----
-
-### CMSIS-Stream
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/ARM-software/CMSIS-Stream)](https://github.com/ARM-software/CMSIS-Stream/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ARM-software/CMSIS-Stream)](https://github.com/ARM-software/CMSIS-Stream/commits) | [![GitHub License](https://img.shields.io/github/license/ARM-software/CMSIS-Stream)]()
-
-**链接**：[ARM-software/CMSIS-Stream: CMSIS-Stream software component](https://github.com/ARM-software/CMSIS-Stream)  
-**特征**：ARM 官方出品的数据流处理组件，提供图形表示，需要 Python 和 C++ 联合完成。  
-
-#### 要点
-
-- 由 Python 根据配置生成 C++ 代码；
-
----
-
-## 数据结构
+> ![queue_animation](queue_animation.gif)
 
 ### CBUF
 
@@ -169,17 +126,6 @@
 
 ---
 
-### uthash
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/troydhanson/uthash)](https://github.com/troydhanson/uthash/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/troydhanson/uthash)](https://github.com/troydhanson/uthash/commits) | [![GitHub License](https://img.shields.io/github/license/troydhanson/uthash)]()
-
-**链接**：[troydhanson/uthash: C macros for hash tables and more](https://github.com/troydhanson/uthash)  
-**特征**：提供哈希、列表、环形等数据结构库，只用包含头文件即可使用。  
-
-#### 要点
-
----
-
 ### LwRB
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwrb)](https://github.com/MaJerle/lwrb/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwrb)](https://github.com/MaJerle/lwrb/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwrb)]()
@@ -200,6 +146,63 @@
 
 **链接**：[nqtronix/fifofast: A fast, generic fifo for MCUs.](https://github.com/nqtronix/fifofast)  
 **特征**：针对MCU优化的FIFO库，旨在尽可能减少CPU和SRAM的消耗。  
+
+#### 要点
+
+---
+
+## 流
+
+> 怎么做到真正的流控：（以 UART 向用户层传输为例）
+> 1. UART+DMA 进行数据收发；
+> 2. DMA 永远进行 UART 端的数据接收工作，触发指定条件后将其数据转移到 UART 流缓冲区；
+> 3. 将流数据进行分包后再提交到 UART 队列缓存中；
+> 4. 数据处理线程挂起，当发现 UART 队列缓存中有数据后启动接收处理（序列化）；
+> 5. 反过来一样，用户数据先发送到用户队列缓存区，之后数据处理区进行接收处理（反序列化），再给到 DMA 由 UART 发生出去；
+> 
+> ![CMSIS-Stream-Graph](CMSIS-Stream-Graph.gif)
+
+### uart_stream
+
+**链接**：[UART 与用户数据流缓冲处理 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/jr7tzaiq6lupefkxh4com60)  
+**特征**：数据流缓冲处理库，针对 UART 数据，但有一定的通用性。  
+
+#### 要点
+
+---
+
+### xprintf
+
+[![License: xprintf](https://img.shields.io/badge/License-xprintf-blue.svg)]()
+
+**链接**：[ELM - Embedded String Functions](http://elm-chan.org/fsw/strf/xprintf.html)  
+**特征**：嵌入式字符串函数，代替不足以实现常规 printf 功能，可以动态的将字符串写入不同外设。  
+
+#### 要点
+
+---
+
+### CMSIS-Stream
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/ARM-software/CMSIS-Stream)](https://github.com/ARM-software/CMSIS-Stream/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ARM-software/CMSIS-Stream)](https://github.com/ARM-software/CMSIS-Stream/commits) | [![GitHub License](https://img.shields.io/github/license/ARM-software/CMSIS-Stream)]()
+
+**链接**：[ARM-software/CMSIS-Stream: CMSIS-Stream software component](https://github.com/ARM-software/CMSIS-Stream)  
+**特征**：ARM 官方出品的数据流处理组件，提供图形表示，需要 Python 和 C++ 联合完成。  
+
+#### 要点
+
+- 由 Python 根据配置生成 C++ 代码；
+
+---
+
+## 数据结构集合
+
+### uthash
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/troydhanson/uthash)](https://github.com/troydhanson/uthash/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/troydhanson/uthash)](https://github.com/troydhanson/uthash/commits) | [![GitHub License](https://img.shields.io/github/license/troydhanson/uthash)]()
+
+**链接**：[troydhanson/uthash: C macros for hash tables and more](https://github.com/troydhanson/uthash)  
+**特征**：提供哈希、列表、环形等数据结构库，只用包含头文件即可使用。  
 
 #### 要点
 
