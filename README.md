@@ -9,7 +9,7 @@
 - 为已记录的开源库编写使用心得（好的入门教程、踩过的大坑……总之你想让大家知道关于库的一些什么）；
 - 文档中存在的错误以及一些建议（我们会积极对待任何好的想法）；
 
-<ins>分类细则&其他汇总库可查看[✨额外](#额外)部分。</ins>
+<ins>分类细则&其他汇总库可查看[✨额外](#-额外)部分。</ins>
 
 #### TODO
 
@@ -768,8 +768,9 @@
 - [EmbedSummary: 嵌入式大杂烩资源汇总](https://gitee.com/zhengnianli/EmbedSummary)
 - [nhivp/Awesome-Embedded: A curated list of awesome embedded programming.](https://github.com/nhivp/Awesome-Embedded)
 - [fffaraz/awesome-cpp: A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.](https://github.com/fffaraz/awesome-cpp)
+- [ESP Component Registry](https://components.espressif.com)
 
-除此之外，Arduino 社区包含极多库，可在 Arduino IDE 应用内搜索，也可以在 [Arduino Library List - Arduino Libraries](https://www.arduinolibraries.info/) 中搜索，其他厂商芯片在使用时需要移植[Arduino内核](./engine-sim-lib/README.md#arduinocore-api)。
+除此之外，ESP32 官方组件——[ESP Component Registry](https://components.espressif.com) 里能寻到很多库；Arduino 社区也包含极多库，可在 Arduino IDE 应用内搜索，也可以在 [Arduino Library List - Arduino Libraries](https://www.arduinolibraries.info) 中搜索。其他厂商芯片在使用时需要移植[Arduino内核](./engine-sim-lib/README.md#arduinocore-api)。
 
 ---
 
