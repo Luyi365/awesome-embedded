@@ -76,7 +76,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/taehyeon-masu/lwmalloc)](https://github.com/taehyeon-masu/lwmalloc/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/taehyeon-masu/lwmalloc)](https://github.com/taehyeon-masu/lwmalloc/commits) | [![GitHub License](https://img.shields.io/github/license/taehyeon-masu/lwmalloc)]()
 
 **链接**：[taehyeon-masu/lwmalloc --- taehyeon-masu/lwmalloc](https://github.com/taehyeon-masu/lwmalloc)  
-**特征**：适用于Linux的轻量级动态内存分配器，旨在替代默认分配器 ptmalloc，性能和内存使用量都更优。  
+**特征**：适用于 Linux 的轻量级动态内存分配器，旨在替代默认分配器 ptmalloc，性能和内存使用量都更优。  
 
 #### 要点
 
@@ -89,7 +89,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/chiphome/flashMultipleErase)](https://github.com/chiphome/flashMultipleErase/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/chiphome/flashMultipleErase)](https://github.com/chiphome/flashMultipleErase/commits) | [![GitHub License](https://img.shields.io/github/license/chiphome/flashMultipleErase)]()
 
 **链接**：[chiphome/flashMultipleErase: 如何用单片机FLASH模拟EEPROM，并且通过算法优化实现高达100万次以上的存储次数！](https://github.com/chiphome/flashMultipleErase)  
-**特征**：用FLASH模拟EEPROM，采用顺序写入的方法，以实现高达100万次以上的存储次数。  
+**特征**：用 FLASH 模拟 EEPROM，采用顺序写入的方法，以实现高达 100 万次以上的存储次数。  
 
 #### 要点
 
@@ -115,7 +115,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/dlbeer/dhara)](https://github.com/dlbeer/dhara/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/dlbeer/dhara)](https://github.com/dlbeer/dhara/commits) | [![GitHub License](https://img.shields.io/github/license/dlbeer/dhara)]()
 
 **链接**：[dlbeer/dhara: NAND flash translation layer for low-memory systems](https://github.com/dlbeer/dhara)  
-**特征**：用于小型单片机的 NAND 闪存转换层(FTL)。  
+**特征**：用于小型单片机的 NAND 闪存转换层（FTL）。主要用来对 FLASH 读、写、抹除操作的管理。处于 FLASH 设备与文件系统层之间。  
 
 #### 要点
 
@@ -230,7 +230,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 
 **链接**：[FatFs - Generic FAT Filesystem Module](http://elm-chan.org/fsw/ff/00index_e.html)  
 **8 位微控制器适配版**：[Petit FAT File System Module](http://elm-chan.org/fsw/ff/00index_p.html)  
-**特征**：易移植的小型文件系统模块，支持 exFAT 文件系统、64 位 LBA 和 GPT，可根据功能进行宏配置，注重线程安全。  
+**特征**：赫赫有名的文件系统库，极易移植，支持 exFAT 文件系统、64 位 LBA 和 GPT，可根据功能进行宏配置，注重线程安全。  
 
 #### 要点
 
@@ -266,7 +266,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-lightgrey.svg)](https://unlicense.org)
 
 **链接**：[RANFS - RFS](http://www.ranfs.com/cn/?RFS)  
-**特征**：易移植的小型文件系统模块，提供 POSIX 兼容的文件操作，注重高效和数据可靠性。  
+**特征**：轻量型文件系统模块，提供 POSIX 兼容的文件操作，注重高效和数据可靠性。  
 
 #### 要点
 

@@ -14,7 +14,7 @@
 [![Gitee Repo stars](https://gitee.com/git-lib/dbugLib-Prj/badge/star.svg?theme=gvp)](https://gitee.com/git-lib/dbugLib-Prj/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/git-lib/dbugLib-Prj&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/git-lib/dbugLib-Prj&query=$.license&label=license)]()
 
 **Link** - [dbugLib Prj: Portable debug diagnostic library](https://gitee.com/git-lib/dbugLib-Prj)  
-**Features** - A compact logging library that only provides output display and can adjust log levels to filter logs at specified levels.  
+**Features** - A compact logging library that only provides output display and can adjust log levels to filter logs at specified levels, equivalent to the printf functionality that generic SDKs include;  
 
 #### Key Points
 
@@ -27,7 +27,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/rxi/log.c)](https://github.com/rxi/log.c/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/rxi/log.c)](https://github.com/rxi/log.c/commits) | [![GitHub License](https://img.shields.io/github/license/rxi/log.c)]()
 
 **Link** - [rxi/log.c: A simple logging library implemented in C99](https://github.com/rxi/log.c)  
-**Features** - A minimalist logging library that only provides output display and recording, with thread locking.  
+**Features** - A minimalist logging library that only provides output display and recording. Based on the C99 standard, it is not well suited to the embedded field.  
 
 #### Key Points
 
@@ -102,7 +102,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/jiejieTop/cmd-parser)](https://github.com/jiejieTop/cmd-parser/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/jiejieTop/cmd-parser)](https://github.com/jiejieTop/cmd-parser/commits) | [![GitHub License](https://img.shields.io/github/license/jiejieTop/cmd-parser)]()
 
 **Link** - [jiejieTop/cmd-parser: A very simple and easy-to-use command parser that uses extremely few resources and a hash algorithm to match commands very quickly!](https://github.com/jiejieTop/cmd-parser)  
-**Features** - A minimalist command-parsing library that supports case-insensitive matching. It uses a hash algorithm with $O(n)$ complexity.  
+**Features** - A minimalist command-parsing library that triggers functions through strings, which is a pretty interesting approach.  
 
 #### Key Points
 
@@ -117,7 +117,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwshell)](https://github.com/MaJerle/lwshell/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwshell)](https://github.com/MaJerle/lwshell/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwshell)]()
 
 **Link** - [LwSHELL latest-develop documentation — LwSHELL documentation](https://docs.majerle.eu/projects/lwshell/en/latest/)  
-**Features** - A lightweight command-line interaction library that is simple to use and includes command descriptions.  
+**Features** - A lightweight shell library that is simple and easy to use and includes command descriptions.  
 
 #### Key Points
 

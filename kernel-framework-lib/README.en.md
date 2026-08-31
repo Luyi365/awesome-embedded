@@ -37,7 +37,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwevt)](https://github.com/MaJerle/lwevt/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwevt)](https://github.com/MaJerle/lwevt/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwevt)]()
 
 **Link** - [LwEVT latest-develop documentation — LwEVT documentation](https://docs.majerle.eu/projects/lwevt/en/latest/)  
-**Features** - A professional event-module library with optional custom data types and attached specified functions; it can be understood as a combination of events and messages.  
+**Features** - A professional event-module library with optional custom data types and attached specified functions; it can be understood as a combination of events and messages, handling event dispatching and callbacks.  
 
 #### Key Points
 

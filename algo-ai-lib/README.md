@@ -20,7 +20,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 **链接**：[LibBF Library](https://bellard.org/libbf/)  
-**特征**：高精度浮点运算的库，提供比标准浮点数（如 *float* 和 *double*）精度更高的数值，并且可以灵活地控制精度和舍入模式。  
+**特征**：高精度浮点运算的库，提供比标准浮点数（如 float 和 double）精度更高的数值，并且可以灵活地控制精度和舍入模式。  
 
 #### 要点
 
@@ -55,7 +55,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/EricLengyel/Terathon-Math-Library)](https://github.com/EricLengyel/Terathon-Math-Library/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/EricLengyel/Terathon-Math-Library)](https://github.com/EricLengyel/Terathon-Math-Library/commits) | [![GitHub License](https://img.shields.io/github/license/EricLengyel/Terathon-Math-Library)]()
 
 **链接**：[EricLengyel/Terathon-Math-Library: C++ math library for 2D/3D/4D vector, matrix, quaternion, and geometric algebra.](https://github.com/EricLengyel/Terathon-Math-Library)  
-**特征**：一个用C++写成的数学库，包含向量、矩阵、四元数和射影几何代数元素的类。可用于图形、AI、游戏等领域。  
+**特征**：一个用 C++ 写成的数学库，包含向量、矩阵、四元数和射影几何代数元素的类。可用于图形、AI、游戏等领域。  
 
 #### 要点
 
@@ -108,7 +108,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/uTensor/uTensor)](https://github.com/uTensor/uTensor/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/uTensor/uTensor)](https://github.com/uTensor/uTensor/commits) | [![GitHub License](https://img.shields.io/github/license/uTensor/uTensor)]()
 
 **链接**：[uTensor/uTensor: TinyML AI inference library](https://github.com/uTensor/uTensor)  
-**特征**：基于 TensorFlow 构建的极其轻量级的机器学习推理框架，并将训练模型生成C++文件导入使用。  
+**特征**：基于 TensorFlow 构建的极其轻量级的机器学习推理框架，并将训练模型生成 C++ 文件导入使用。  
 
 #### 要点
 
@@ -119,7 +119,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/majianjia/nnom)](https://github.com/majianjia/nnom/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/majianjia/nnom)](https://github.com/majianjia/nnom/commits) | [![GitHub License](https://img.shields.io/github/license/majianjia/nnom)]()
 
 **链接**：[majianjia/nnom: A higher-level Neural Network library for microcontrollers.](https://github.com/majianjia/nnom)  
-**特征**：专门为了神经网络在 MCU 上运行的框架，使用起来和 [TinyMaix](#tinymaix) 类似。很像，但功能更多。  
+**特征**：专门为了神经网络在 MCU 上运行的框架，使用起来和 [TinyMaix](#tinymaix) 很像，但功能更多。  
 
 #### 要点
 
@@ -220,7 +220,7 @@
 [![Gitee Repo stars](https://gitee.com/yao_mi/ymcv/badge/star.svg?theme=gvp)](https://gitee.com/yao_mi/ymcv/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yao_mi/ymcv&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yao_mi/ymcv&query=$.license&label=license)]()
 
 **链接**：[YMCV: 跨平台迷你计算视觉库，可裸奔在免操作系统的单片机上，集成了近150个demo，并附带测试视频以便大家使用参考。它是ymkv-2.0版本（可移植任意平台）,平台从codeblocks迁移到vs，并经过一些架构调整和算法优化，取消了user层的集合封装，以便链接器能进行优化，对未使用的部分不进行加载，减少不必要内存消耗。](https://gitee.com/yao_mi/ymcv)  
-**特征**：纯C写的迷你计算机视觉库，无依赖、跨平台，可方便裁剪所需功能。  
+**特征**：纯 C 写的迷你计算机视觉库，无依赖、跨平台，可方便裁剪所需功能。  
 
 #### 要点
 

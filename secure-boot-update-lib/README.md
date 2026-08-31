@@ -65,7 +65,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfssl)](https://github.com/wolfSSL/wolfssl/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfssl)](https://github.com/wolfSSL/wolfssl/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfssl)]()
 
 **链接**：[wolfSSL – Embedded SSL/TLS Library](https://www.wolfssl.com/)  
-**特征**：是一个轻量级的、可移植的的 SSL/TLS 库，由 [wolfCrypt](#wolfcrypt) 密码库驱动，它主要针对 IoT、嵌入式和 RTOS 环境。
+**特征**：是一个轻量级的、可移植的 SSL/TLS 库，由 [wolfCrypt](#wolfcrypt) 密码库驱动，它主要针对 IoT、嵌入式和 RTOS 环境。
 
 #### 要点
 
@@ -78,7 +78,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Mbed-TLS/mbedtls)](https://github.com/Mbed-TLS/mbedtls/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Mbed-TLS/mbedtls)](https://github.com/Mbed-TLS/mbedtls/commits) | [![GitHub License](https://img.shields.io/github/license/Mbed-TLS/mbedtls)]()
 
 **链接**：[Mbed TLS](https://www.trustedfirmware.org/projects/mbed-tls/)  
-**特征**：可信旗下的项目，业内流行的SSL/TLS库。  
+**特征**：可信旗下的项目，业内流行的 SSL/TLS 库。  
 
 #### 要点
 

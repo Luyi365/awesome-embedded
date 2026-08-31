@@ -12,7 +12,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/armink/CmBacktrace)](https://github.com/armink/CmBacktrace/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/armink/CmBacktrace)](https://github.com/armink/CmBacktrace/commits) | [![GitHub License](https://img.shields.io/github/license/armink/CmBacktrace)]()
 
 **Link** - [armink/CmBacktrace: Advanced fault backtrace library for ARM Cortex-M series MCU | Error tracing library for ARM Cortex-M series MCU](https://github.com/armink/CmBacktrace)  
-**Features** - An error tracing library for ARM Cortex-M series MCU, now included in nearly all project-level codebases.  
+**Features** - Renowned error-tracing library for ARM Cortex-M series MCUs; for any project that's even a little complex, just drop it in and you're done.  
 
 #### Key Points
 
@@ -110,7 +110,7 @@
 ### EEMBC
 
 **Link** - [Embedded Microprocessor Benchmark Consortium](https://www.eembc.org/)  
-**Features** - EEMBC provides many testing libraries for embedded applications, mainly for chip performance testing. It is an industry standard suitable for enterprise projects.  
+**Features** - Provides many testing libraries for the embedded field, mainly for chip performance testing; an industry standard suitable for enterprise-level project deployment.  
 
 #### Key Points
 

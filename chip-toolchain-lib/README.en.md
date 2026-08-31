@@ -24,7 +24,7 @@
 
 **Link** - [STC8-based ECBM function library V3: The V3 release of the ECBM library is a peripheral function library based on STC8 microcontrollers and now supports every STC8 model. Its peripheral support will be improved gradually. Because there are many STC8 models, it is not possible to test each one on physical hardware; please leave a message for incompatible models. STC8 is currently the most capable 51 microcontroller series, offering up to 8K SRAM, 64K Flash, five timers, and four serial ports. The entire series includes IIC and SPI, most models include ADC, and STC8H also includes hardware USB.](https://gitee.com/ecbm/ecbm_library)  
 **ECBM library lite version** - [ECBM library lite version: While promoting ECBM library V3, I repeatedly heard that ECBM used too much space. Beginners unfamiliar with the library did not know how to optimize it, so they simply stopped using it. This is the official optimized lite version. It retains the distinctive ECBM features while removing many unnecessary, marginal functions, leaving an STC8 library focused on the essentials and a small footprint.](https://gitee.com/ecbm/ecbm-library-lite)  
-**Features** - A peripheral function library with entirely Chinese annotations; simple and easy to use.  
+**Features** - 51-chip peripheral function library; take whichever module you need.  
 
 #### Key Points
 
@@ -56,7 +56,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwesp)](https://github.com/MaJerle/lwesp/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwesp)](https://github.com/MaJerle/lwesp/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwesp)]()
 
 **Link** - [LwESP latest-develop documentation — LwESP documentation](https://docs.majerle.eu/projects/lwesp/en/latest/)  
-**Features** - An AT parser library intended for communicating with ESP devices from other devices through AT commands.  
+**Features** - Professional AT parser library intended for communicating with ESP devices from other devices through AT commands.  
 
 #### Key Points
 
@@ -105,7 +105,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwcell)](https://github.com/MaJerle/lwcell/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwcell)](https://github.com/MaJerle/lwcell/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwcell)]()
 
 **Link** - [LwCELL latest-develop documentation — LwCELL documentation](https://docs.majerle.eu/projects/lwcell/en/latest/)  
-**Features** - For controlling SIMCom SIM800 / SIM900 or SIM7000 / SIM7020 (NB-Iot LTE) devices.  
+**Features** - Professional AT parser library intended for communicating with SIMCom devices from other devices through AT commands.  
 
 #### Key Points
 

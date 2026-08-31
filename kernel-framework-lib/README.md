@@ -37,7 +37,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwevt)](https://github.com/MaJerle/lwevt/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwevt)](https://github.com/MaJerle/lwevt/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwevt)]()
 
 **链接**：[LwEVT latest-develop documentation — LwEVT documentation](https://docs.majerle.eu/projects/lwevt/en/latest/)  
-**特征**：专业的事件模块库，可选数据结构的自定义类型，且挂载指定函数，可理解为事件和消息的结合。  
+**特征**：专业的事件模块库，可选数据结构的自定义类型，且挂载指定函数，可理解为事件和消息的结合，进行事件的分发和回调处理。  
 
 #### 要点
 
@@ -92,7 +92,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cameron314/readerwriterqueue)](https://github.com/cameron314/readerwriterqueue/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cameron314/readerwriterqueue)](https://github.com/cameron314/readerwriterqueue/commits) | [![GitHub License](https://img.shields.io/github/license/cameron314/readerwriterqueue)]()
 
 **链接**：[cameron314/readerwriterqueue: A fast single-producer, single-consumer lock-free queue for C++](https://github.com/cameron314/readerwriterqueue)  
-**特征**：基于C++的单生产者、单使用者无锁队列，意义同通管道框架，速度快且易用，无需锁也能注重线程安全。  
+**特征**：基于 C++ 的单生产者、单使用者无锁队列，意义同通管道框架，速度快且易用，无需锁也能注重线程安全。  
 
 #### 要点
 

@@ -40,7 +40,7 @@
 [![Gitee Repo stars](https://gitee.com/cot_package/cot_task/badge/star.svg?theme=gvp)](https://gitee.com/cot_package/cot_task/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_task&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_task&query=$.license&label=license)]()
 
 **链接**：[cotTask: 嵌入式设备中使用定时器实现任务调度的模块组件代码](https://gitee.com/cot_package/cot_task)  
-**特征**：时间片轮询框架，初始化、启动和任务调度管理。  
+**特征**：时间片轮询框架，初始化、启动和任务调度管理，可以设置任务优先级。  
 
 #### 要点
 
@@ -55,7 +55,7 @@
 [![Gitee Repo stars](https://gitee.com/moluo-tech/CodeBrick/badge/star.svg?theme=gvp)](https://gitee.com/moluo-tech/CodeBrick/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/CodeBrick&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/CodeBrick&query=$.license&label=license)]()
 
 **链接**：[CodeBrick: 一种无 OS 的 MCU 实用软件管理系统，包括任务轮询框架，命令管理器、低功耗管理、环形缓冲区等实用模块。](https://gitee.com/moluo-tech/CodeBrick)  
-**特征**：时间片轮询框架，包括任务轮询管理，命令管理器、低功耗管理、环形缓冲区等实用模块，不带有驱动层。  
+**特征**：时间片轮询框架，包含了很多实用模块，不含驱动层，简单易用。符合现在项目的开发理念，是我很喜欢的一个裸机框架，可以说是普通项目的首选。  
 
 #### 要点
 
@@ -80,7 +80,7 @@
 [![Gitee Repo stars](https://gitee.com/schuck/cola_os/badge/star.svg?theme=gvp)](https://gitee.com/schuck/cola_os/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/schuck/cola_os&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/schuck/cola_os&query=$.license&label=license)]()
 
 **链接**：[cola_os: 300 行代码实现多任务管理的 OS，在很多 MCU 开发中，功能很简单，实时性要求不强，如果使用 RTOS 显得太浪费，任务多了管理不当又很乱，所以才会想起做一个轮询的任务管理。简单好用！CSDN:https://blog.csdn.net/ziqi5543/article/details/101512722](https://gitee.com/schuck/cola_os)  
-**特征**：前后台系统，包含（initcall 初始化机制、类 rt_thread 硬件抽象层、任务池和 Timer 池）。  
+**特征**：前后台系统，适合对功耗有要求且 CPU 性能不强的，有稍复杂功能的裸机。  
 
 #### 要点
 
@@ -138,7 +138,7 @@
 [![Gitee Repo stars](https://gitee.com/cot_package/cot_os/badge/star.svg?theme=gvp)](https://gitee.com/cot_package/cot_os/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_os&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_os&query=$.license&label=license)]()
 
 **链接**：[cotOs: 嵌入式设备中利用 setjmp/longjmp 实现一个简单的查询式协作多任务调度系统](https://gitee.com/cot_package/cot_os)  
-**特征**：简单的查询式协作多任务系统，无需使用定时器进行任务切换，就和 RTOS 创建任务一样，但没有提供其他功能。  
+**特征**：简单的查询式协作多任务系统，无需使用定时器进行任务切换，就和 RTOS 创建任务一样，但没有提供其他功能，我很喜欢，感觉酷毙了。  
 
 #### 要点
 
@@ -152,7 +152,7 @@
 [![Gitee Repo stars](https://gitee.com/event-os/basic-os/badge/star.svg?theme=gvp)](https://gitee.com/event-os/basic-os/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/basic-os&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/basic-os&query=$.license&label=license)]()
 
 **链接**：[basic-os: 支持共享任务栈的协作式内核，专门定位小 RAM 的 MCU，目前提供了共享栈任务调度和软定时器等基本功能。极度适合非硬实时且 RAM 资源紧张的小型单片机项目。](https://gitee.com/event-os/basic-os)  
-**特征**：极简的协作式系统，所有的任务共享一个任务栈，包含简单的内核功能组件等。  
+**特征**：极简的协作式系统，所有的任务共享一个任务栈，包含简单的内核功能组件等。协作式系统适合实时性要求更高的项目。  
 
 #### 要点
 
@@ -235,7 +235,7 @@
 [![Gitee Repo stars](https://gitee.com/kerndev/klite/badge/star.svg?theme=gvp)](https://gitee.com/kerndev/klite/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/klite&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/klite&query=$.license&label=license)]()
 
 **链接**：[KLite: 简洁易用的嵌入式操作系统内核。交流 QQ 群:317930646](https://gitee.com/kerndev/klite)  
-**特征**：最简洁易用的 RTOS，附带最基本实用的内核功能。  
+**特征**：最简洁易用的 RTOS，附带最基本实用的内核功能。适合需要快速部署的简单 RTOS 项目。  
 
 #### 要点
 
@@ -481,7 +481,7 @@
 ### Xiaomi Vela
 
 **链接**：[iot.mi.com/vela](https://iot.mi.com/vela)  
-**特征**：小米旗下的物联网操作系统，底层基于 [NuttX](#nuttx) 构建。内核打造。  
+**特征**：小米旗下的物联网操作系统，底层基于 [NuttX](#nuttx) 内核打造。  
 
 #### 要点
 

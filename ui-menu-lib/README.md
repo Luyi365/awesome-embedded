@@ -44,7 +44,7 @@
 [![Gitee Repo stars](https://gitee.com/ecbm/ecbm_gui/badge/star.svg?theme=gvp)](https://gitee.com/ecbm/ecbm_gui/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/ecbm_gui&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/ecbm_gui&query=$.license&label=license)]()
 
 **链接**：[ECBM_GUI: 这是基于c语言的GUI库，主要用在单色OLED、LCD领域。ECBM_GUI通过内建缓存来存放画面内容，可快速移植到任意单片机中。](https://gitee.com/ecbm/ecbm_gui)  
-**特征**：超基础的单色 GUI 库，仅通过内建缓存来存放画面内容实现 GUI 功能。  
+**特征**：超基础的单色 GUI 库，仅通过内建缓存来存放画面内容实现 GUI 功能。适合于自己玩的小项目。  
 
 #### 要点
 
@@ -55,7 +55,7 @@
 [![Gitee Repo stars](https://gitee.com/Polarix/simplegui/badge/star.svg?theme=gvp)](https://gitee.com/Polarix/simplegui/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Polarix/simplegui&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Polarix/simplegui&query=$.license&label=license)]()
 
 **链接**：[SimpleGUI: 一个面向单色显示屏的开源 GUI 接口库。](https://gitee.com/Polarix/simplegui)  
-**特征**：针对单色显示屏设计的 GUI 库，提供简单的绘制功能。  
+**特征**：针对单色显示屏设计的 GUI 库，提供简单的绘制功能。适合于像素较低的单色点阵屏。  
 
 #### 要点
 
@@ -88,7 +88,7 @@
 [![Gitee Repo stars](https://gitee.com/liuxinouc/MonoGUI/badge/star.svg?theme=gvp)](https://gitee.com/liuxinouc/MonoGUI/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/liuxinouc/MonoGUI&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/liuxinouc/MonoGUI&query=$.license&label=license)]()
 
 **链接**：[MonoGUI: MonoGUI （黑白图形用户接口系统）是针对电子词典、高级计算器、电子手表、标签打印机、收款机、电子货签等具有黑白屏幕的小电子设备开发的专用 GUI 系统。本系统具有结构简单、使用容易、内存占用小、单线程、处理器负担轻等特点。虽然图形能力仅有黑与白，但其支持完整的中文显示处理功能（GB18030 中 2 字节汉字，即旧 GB13000 标准），其 Edit 控件和中文输入法（包括九键输入法）功能上达到 Windows 和 Android 的输入法水平，且扩展容易。](https://gitee.com/liuxinouc/MonoGUI)  
-**特征**：针对黑白屏幕的小电子设备开发的专用 GUI 系统，功能全面，附带输入法功能。  
+**特征**：针对黑白屏幕的小电子设备开发的专用 GUI 系统，功能全面，附带输入法功能。适合电子词典、标签打印机等设备。  
 
 #### 要点
 
@@ -223,7 +223,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/lvgl/lvgl)](https://github.com/lvgl/lvgl/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/lvgl/lvgl)](https://github.com/lvgl/lvgl/commits) | [![GitHub License](https://img.shields.io/github/license/lvgl/lvgl)]()
 
 **链接**：[LVGL - Light and Versatile Embedded Graphics Library](https://lvgl.io/)  
-**特征**：轻量级通用图形库，开源免费，几乎拥有 GUI 所需的一切。  
+**特征**：轻量级通用图形库，开源免费，几乎拥有 GUI 所需的一切。适用于项目级设备。  
 
 #### 要点
 
@@ -279,7 +279,7 @@
 [![License: emWin](https://img.shields.io/badge/License-emWin-blue.svg)]()
 
 **链接**：[emWin](https://www.segger.com/products/user-interface/emwin/)  
-**特征**：又名(uCGUI)，是 Segger 旗下的 GUI 图形库，很多知名大厂芯片都是可以授权使用的。  
+**特征**：又名（uCGUI），是 Segger 旗下的 GUI 图形库，很多知名大厂芯片都是可以授权使用的。  
 
 #### 要点
 
@@ -312,7 +312,7 @@
 [![License: μGFX](https://img.shields.io/badge/License-%CE%BCGFX-blue.svg)]()
 
 **链接**：[uGFX - lightweight embedded GUI library](https://ugfx.io/)  
-**特征**：可用于触摸屏的轻量级UI库，注重性能，非商用免费。  
+**特征**：可用于触摸屏的轻量级 UI 库，注重性能，非商用免费。  
 
 #### 要点
 
@@ -325,7 +325,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/VincentWei/MiniGUI)](https://github.com/VincentWei/MiniGUI/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/VincentWei/MiniGUI)](https://github.com/VincentWei/MiniGUI/commits) | [![GitHub License](https://img.shields.io/github/license/VincentWei/MiniGUI)]()
 
 **链接**：[Home :: MiniGUI](https://minigui.fmsoft.cn)  
-**特征**：多平台、高度可定制的UI库，可用于不同性能的芯片，适合移动设备及工业等领域，非商用免费。  
+**特征**：多平台、高度可定制的 UI 库，可用于不同性能的芯片，适合移动设备及工业等领域，非商用免费。  
 
 #### 要点
 
@@ -485,7 +485,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ImpulseAdventure/GUIslice)](https://github.com/ImpulseAdventure/GUIslice/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ImpulseAdventure/GUIslice)](https://github.com/ImpulseAdventure/GUIslice/commits) | [![GitHub License](https://img.shields.io/github/license/ImpulseAdventure/GUIslice)]()
 
 **链接**：[GUIslice: Touchscreen GUI in C for Raspberry Pi & Arduino - ImpulseAdventure](https://www.impulseadventure.com/elec/guislice-gui.html)  
-**特征**：简单好用的开源GUI框架，极客的风格，无动态内存分配，并提供布局上位机。  
+**特征**：简单好用的开源 GUI 框架，极客的风格，无动态内存分配，并提供布局上位机。  
 
 #### 要点
 
@@ -523,7 +523,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ricmoo/QRCode)](https://github.com/ricmoo/QRCode/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ricmoo/QRCode)](https://github.com/ricmoo/QRCode/commits) | [![GitHub License](https://img.shields.io/github/license/ricmoo/QRCode)]()
 
 **链接**：[ricmoo/QRCode: QR code generation library in C, optimized for low-power devices, such as Arduino.](https://github.com/ricmoo/QRCode)  
-**特征**：QR码生成库，参考了 [QR Code generator library](#qr-code-generator-library)，并针对处理器和内存受限的系统进行了优化，支持从 Version 1 到 Version 40 的所有规格。  
+**特征**：QR 码生成库，参考了 [QR Code generator library](#qr-code-generator-library)，并针对处理器和内存受限的系统进行了优化，支持从 Version 1 到 Version 40 的所有规格。  
 
 #### 要点
 
@@ -549,7 +549,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/railgunlabs/unicorn)](https://github.com/railgunlabs/unicorn/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/railgunlabs/unicorn)](https://github.com/railgunlabs/unicorn/commits) | [![GitHub License](https://img.shields.io/github/license/railgunlabs/unicorn)]()
 
 **链接**：[Unicorn: Embeddable Unicode® Algorithms | Railgun](https://railgunlabs.com/unicorn)  
-**特征**：基于 C99 的 Unicode 编解码库，提供对此编码的基本算法和功能。  
+**特征**：基于 C99 的 Unicode 编解码库，提供对此编码格式的基本算法和功能。  
 
 #### 要点
 

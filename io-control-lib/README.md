@@ -108,7 +108,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwbtn) | ![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwbtn) | ![GitHub License](https://img.shields.io/github/license/MaJerle/lwbtn)
 
 **链接**：[LwBTN latest-develop documentation — LwBTN documentation](https://docs.majerle.eu/projects/lwbtn/en/latest/)  
-**特征**：专业的按键事件管理库。  
+**特征**：专业的按键事件管理库，配置方面十分丰富，但有点晦涩难懂。  
 
 #### 要点
 
@@ -152,7 +152,7 @@
 [![Gitee Repo stars](https://gitee.com/jiezhuonew/pid_temperature_control/badge/star.svg?theme=gvp)](https://gitee.com/jiezhuonew/pid_temperature_control/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/pid_temperature_control&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jiezhuonew/pid_temperature_control&query=$.license&label=license)]()
 
 **链接**：[pid_temperature_control: PID温控](https://gitee.com/jiezhuonew/pid_temperature_control)  
-**特征**：PID温度控制，很好的一个示例，通过这个可以把PID控制发散至其他领域。  
+**特征**：PID 温度控制，很好的一个示例，通过这个可以把 PID 控制发散至其他领域。  
 
 #### 要点
 
@@ -168,7 +168,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/gnea/grbl)](https://github.com/gnea/grbl/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/gnea/grbl)](https://github.com/gnea/grbl/commits) | [![GitHub License](https://img.shields.io/github/license/gnea/grbl)]()
 
 **链接**：[gnea/grbl: An open source, embedded, high performance g-code-parser and CNC milling controller written in optimized C that will run on a straight Arduino](https://github.com/gnea/grbl)  
-**特征**：行业著名的开源CNC代码，可用于激光切割机、自动手动写字机、钻孔机、涂鸦画家和古怪的绘图机等，是创客们的首选，也是行业标准。  
+**特征**：行业著名的开源 CNC 代码，可用于激光切割机、自动手动写字机、钻孔机、涂鸦画家和古怪的绘图机等，是创客们的首选，也是行业标准。  
 
 #### 要点
 
@@ -182,7 +182,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Paciente8159/uCNC)](https://github.com/Paciente8159/uCNC/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Paciente8159/uCNC)](https://github.com/Paciente8159/uCNC/commits) | [![GitHub License](https://img.shields.io/github/license/Paciente8159/uCNC)]()
 
 **链接**：[Paciente8159/uCNC: µCNC - Universal CNC firmware for microcontrollers](https://github.com/Paciente8159/uCNC)  
-**特征**：用于微控制器的通用CNC固件。  
+**特征**：用于微控制器的通用 CNC 固件。  
 
 #### 要点
 

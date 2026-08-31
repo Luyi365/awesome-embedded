@@ -12,7 +12,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/armink/CmBacktrace)](https://github.com/armink/CmBacktrace/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/armink/CmBacktrace)](https://github.com/armink/CmBacktrace/commits) | [![GitHub License](https://img.shields.io/github/license/armink/CmBacktrace)]()
 
 **链接**：[armink/CmBacktrace: Advanced fault backtrace library for ARM Cortex-M series MCU | ARM Cortex-M 系列 MCU 错误追踪库](https://github.com/armink/CmBacktrace)  
-**特征**：针对 ARM Cortex-M 系列 MCU 的错误追踪库，目前几乎所有项目级代码都会添加的库。  
+**特征**：赫赫有名的错误追踪库，针对 ARM Cortex-M 系列的 MCU，基本上稍复杂一点的项目无脑加就完事了。  
 
 #### 要点
 
@@ -38,7 +38,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ThrowTheSwitch/CException)](https://github.com/ThrowTheSwitch/CException/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ThrowTheSwitch/CException)](https://github.com/ThrowTheSwitch/CException/commits) | [![GitHub License](https://img.shields.io/github/license/ThrowTheSwitch/CException)]()
 
 **链接**：[CException — Throw The Switch](https://www.throwtheswitch.org/cexception)  
-**特征**：适用于C语言的简单异常处理，比标准库的更快，可以移植到任何支持 setjmp/longjmp 的平台上。  
+**特征**：适用于 C 语言的简单异常处理，比标准库的更快，可以移植到任何支持 setjmp/longjmp 的平台上。  
 
 #### 要点
 
@@ -64,7 +64,7 @@
 ### MTTEST
 
 **链接**：[基于RTOS的注册机制代码测试框架 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/fhzm8d4wairyxnqlcup6059)  
-**特征**：基于RTOS的简易测试框架，采用注册机制。  
+**特征**：基于 RTOS 的简易测试框架，采用注册机制。  
 
 #### 要点
 
@@ -90,7 +90,7 @@
 [![License: CuTest](https://img.shields.io/badge/License-CuTest-blue.svg)]()
 
 **链接**：[CuTest: The Cutest C Unit Testing Framework](https://cutest.sourceforge.net/)  
-**特征**：极简的C单元测试框架，使用动态内存分配。  
+**特征**：极简的 C 单元测试框架，使用动态内存分配。  
 
 #### 要点
 
@@ -110,7 +110,7 @@
 ### EEMBC
 
 **链接**：[Embedded Microprocessor Benchmark Consortium](https://www.eembc.org/)  
-**特征**：EEMBC公司提供嵌入式领域众多测试库，主要测试芯片性能，属于业内标准，适合企业级项目部署。  
+**特征**：EEMBC 公司提供嵌入式领域众多测试库，主要测试芯片性能，属于业内标准，适合企业级项目部署。  
 
 #### 要点
 
@@ -137,7 +137,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/silentbicycle/greatest)](https://github.com/silentbicycle/greatest/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/silentbicycle/greatest)](https://github.com/silentbicycle/greatest/commits) | [![GitHub License](https://img.shields.io/github/license/silentbicycle/greatest)]()
 
 **链接**：[silentbicycle/greatest: A C testing library in 1 file. No dependencies, no dynamic allocation. ISC licensed.](https://github.com/silentbicycle/greatest)  
-**特征**：小巧的C语言测试系统，使用插桩/覆盖测试，但可以与其他程序一起运行。  
+**特征**：小巧的 C 语言测试系统，使用插桩/覆盖测试，但可以与其他程序一起运行。  
 
 #### 要点
 

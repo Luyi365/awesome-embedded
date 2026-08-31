@@ -12,7 +12,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/lighttpd/lighttpd1.4)](https://github.com/lighttpd/lighttpd1.4/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/lighttpd/lighttpd1.4)](https://github.com/lighttpd/lighttpd1.4/commits) | [![GitHub License](https://img.shields.io/github/license/lighttpd/lighttpd1.4)]()
 
 **链接**：[Home - Lighttpd - fly light](https://www.lighttpd.net/)  
-**特征**：是一个轻量级、高性能的 开源 Web 服务器，专为高并发、低内存占用 的场景设计。相比Apache 或 Nginx更适合嵌入式设备。  
+**特征**：是一个轻量级、高性能的 开源 Web 服务器，专为高并发、低内存占用 的场景设计。相比 Apache 或 Nginx 更适合嵌入式设备。  
 
 #### 要点
 
@@ -25,7 +25,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cesanta/mongoose)](https://github.com/cesanta/mongoose/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cesanta/mongoose)](https://github.com/cesanta/mongoose/commits) | [![GitHub License](https://img.shields.io/github/license/cesanta/mongoose)]()
 
 **链接**：[Embedded Web Server and Web UI Framework for Microcontrollers - Mongoose](https://mongoose.ws)  
-**特征**：C / C++的事件驱动网络库，除了基本协议栈还了内置HTTP、MQTT等服务协议，可在裸机及RTOS上运行，带有UI构建器。商用有付费限制。  
+**特征**：C / C++ 的事件驱动网络库，除了基本协议栈还了内置 HTTP、MQTT 等服务协议，可在裸机及 RTOS 上运行，带有 UI 构建器。商用有付费限制。  
 
 #### 要点
 
@@ -34,7 +34,7 @@
 ### Boa
 
 **链接**：[Boa Webserver](http://www.boa.org/)  
-**特征**：开源的小型Web服务器，适用于嵌入式应用。于2005起不再更新维护，目前存在已知安全漏洞，不推荐使用。  
+**特征**：开源的小型 Web 服务器，适用于嵌入式应用。于 2005 起不再更新维护，目前存在已知安全漏洞，不推荐使用。  
 
 #### 要点
 
@@ -47,7 +47,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/FastCGI-Archives/fcgi2)](https://github.com/FastCGI-Archives/fcgi2/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/FastCGI-Archives/fcgi2)](https://github.com/FastCGI-Archives/fcgi2/commits) | [![GitHub License](https://img.shields.io/github/license/FastCGI-Archives/fcgi2)]()
 
 **链接**：[FastCGI.com Archives](https://fastcgi-archives.github.io/)  
-**特征**：改进了传统CGI的性能，增加了分布式计算和多角色特性。  
+**特征**：改进了传统 CGI 的性能，增加了分布式计算和多角色特性。  
 
 #### 要点
 
@@ -134,7 +134,7 @@
 [![Gitee Repo stars](https://gitee.com/snikeguo/EmbedXrpc/badge/star.svg?theme=gvp)](https://gitee.com/snikeguo/EmbedXrpc/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/snikeguo/EmbedXrpc&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/snikeguo/EmbedXrpc&query=$.license&label=license)]()
 
 **链接**：[EmbedXrpc: 这个东西类似于 Google 的 GRPC,但是应用场景是单片机。RPC 远程调用极大的方便了开发，使得不必关注于协议解析，数据的序列化和反序列化等繁琐的工作。可是目前还没有在单片机上实现好用的 RPC 框架，于是我就谋生了做这个 RPC 框架的想法，所用的技术是：C#做 IDL 语言 +csscript+ 自己实现序列化和反序列化 + 代码生成 QQ 群 134161401](https://gitee.com/snikeguo/EmbedXrpc)  
-**特征**：通过RPC通讯协议，可忽略协议本身进行业务逻辑的实现，附带代码生成工具。  
+**特征**：通过 RPC 通讯协议，可忽略协议本身进行业务逻辑的实现，附带代码生成工具。  
 
 #### 要点
 
@@ -145,7 +145,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/EmbeddedRPC/erpc)](https://github.com/EmbeddedRPC/erpc/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/EmbeddedRPC/erpc)](https://github.com/EmbeddedRPC/erpc/commits) | [![GitHub License](https://img.shields.io/github/license/EmbeddedRPC/erpc)]()
 
 **链接**：[EmbeddedRPC/erpc: Embedded RPC](https://github.com/EmbeddedRPC/erpc)  
-**特征**：是NXP开源的、用于多芯片嵌入式系统和异构多核SoC的开源远程过程调用（RPC）系统。  
+**特征**：是 NXP 开源的、用于多芯片嵌入式系统和异构多核 SoC 的开源远程过程调用（RPC）系统。  
 
 #### 要点
 
@@ -158,7 +158,7 @@
 [![License: BSD 2--Clause](https://img.shields.io/badge/license-BSD%202--Clause-blue.svg)](https://opensource.org/licenses/BSD-2-Clause)
 
 **链接**：[lwIP - A Lightweight TCP/IP stack - Summary \[Savannah\]](http://savannah.nongnu.org/projects/lwip/)  
-**特征**：小型开源的TCP/IP协议栈，使用最广泛的嵌入式网络协议栈，基本上物联网系统中都有它。  
+**特征**：小型开源的 TCP/IP 协议栈，使用最广泛的嵌入式网络协议栈，基本上物联网系统中都有它。  
 
 #### 要点
 
@@ -220,7 +220,7 @@
 [![Gitee Repo stars](https://gitee.com/Neo-T/open-npstack/badge/star.svg?theme=gvp)](https://gitee.com/Neo-T/open-npstack/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Neo-T/open-npstack&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Neo-T/open-npstack&query=$.license&label=license)]()
 
 **链接**：[Open-NPStack: onps是一个开源且完全自主开发的国产网络协议栈。设计目标与LwIp相同，onps栈的目标系统同样是资源受限的单片机系统。提供完整的tcp/ip协议族实现，同时提供sntp、dns、ping等网络工具，支持以太网环境下dhcp动态ip地址申请，也支持动态及静态路由表。协议栈还封装实现了一个伯克利套接字（Berkeley sockets）层。协议栈使用ANSI C语言开发。](https://gitee.com/Neo-T/open-npstack)  
-**特征**：国产网络协议栈，设计目标与Lwip相同，适用于资源受限的单片机系统，提供完整地ethernet/ppp/tcp/ip协议族实现。  
+**特征**：国产网络协议栈，设计目标与 Lwip 相同，适用于资源受限的单片机系统，提供完整地 ethernet/ppp/tcp/ip 协议族实现。有非常详细的介绍，很适合国人读阅。  
 
 #### 要点
 
@@ -242,7 +242,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/rxi/dyad)](https://github.com/rxi/dyad/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/rxi/dyad)](https://github.com/rxi/dyad/commits) | [![GitHub License](https://img.shields.io/github/license/rxi/dyad)]()
 
 **链接**：[rxi/dyad: Asynchronous networking for C](https://github.com/rxi/dyad)  
-**特征**：基于Linux的异步网络库，仅支持TCP 网络通讯，用于创建小型独立设备服务器，并为现有项目提供网络支持。  
+**特征**：基于 Linux 的异步网络库，仅支持 TCP 网络通讯，用于创建小型独立设备服务器，并为现有项目提供网络支持。  
 
 #### 要点
 
@@ -283,7 +283,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Yellow-Camper/libevhtp)](https://github.com/Yellow-Camper/libevhtp/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Yellow-Camper/libevhtp)](https://github.com/Yellow-Camper/libevhtp/commits) | [![GitHub License](https://img.shields.io/github/license/Yellow-Camper/libevhtp)]()
 
 **链接**：[Yellow-Camper/libevhtp: Create extremely-fast and secure embedded HTTP servers with ease.](https://github.com/Yellow-Camper/libevhtp)  
-**特征**：适合嵌入式设备的低负载HTTP库。  
+**特征**：适合嵌入式设备的低负载 HTTP 库。  
 
 #### 要点
 
@@ -346,7 +346,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/openthread/openthread)](https://github.com/openthread/openthread/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/openthread/openthread)](https://github.com/openthread/openthread/commits) | [![GitHub License](https://img.shields.io/github/license/openthread/openthread)]()
 
 **链接**：[OpenThread](https://openthread.io/?hl=zh-cn)  
-**特征**：Google 旗下的产品，是Thread的开源实现。  
+**特征**：Google 旗下的产品，是 Thread 的开源实现。  
 
 #### 要点
 
@@ -384,7 +384,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/apache/mynewt-nimble)](https://github.com/apache/mynewt-nimble/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/apache/mynewt-nimble)](https://github.com/apache/mynewt-nimble/commits) | [![GitHub License](https://img.shields.io/github/license/apache/mynewt-nimble)]()
 
 **链接**：[apache/mynewt-nimble： Apache mynewt](https://github.com/apache/mynewt-nimble)  
-**特征**：从Apache Mynewt中分离出来的一个开源的蓝牙协议栈（包括主机和控制器） 完全取代了 Nordic 芯片组上的专有 SoftDevice。  
+**特征**：从 Apache Mynewt 中分离出来的一个开源的蓝牙协议栈（包括主机和控制器） 完全取代了 Nordic 芯片组上的专有 SoftDevice。  
 
 #### 要点
 
@@ -414,7 +414,7 @@
 **链接**：[GitHub - tomojitakasu/RTKLIB · GitHub](https://github.com/tomojitakasu/RTKLIB)  
 **针对低成本 GNSS 接收器版本**：[GitHub - rtklibexplorer/RTKLIB: A version of RTKLIB optimized for low cost GNSS receivers, especially u-blox receivers. It is based on RTKLIB 2.4.3. This software is provided “AS IS” without any warranties of any kind so please be careful, especially if using it in any kind of real-time application. Click on the "Releases" label below to see the latest Windows pre-release. · GitHub](https://github.com/rtklibexplorer/RTKLIB)  
 **针对智能手机 GNSS 芯片的优化版本**：[GitHub - salmoshu/MobileGNSS-SPP: An EKF-based SPP system optimized for smartphone · GitHub](https://github.com/salmoshu/MobileGNSS-SPP)  
-**特征**：RTK领域的标杆库，广泛应用于商业以及社区，同时也是教科书式的参考手册。  
+**特征**：RTK 领域的标杆库，广泛应用于商业以及社区，同时也是教科书式的参考手册。  
 
 #### 要点
 
@@ -475,7 +475,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ybzwyrcld/ntrip)](https://github.com/ybzwyrcld/ntrip/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ybzwyrcld/ntrip)](https://github.com/ybzwyrcld/ntrip/commits) | [![GitHub License](https://img.shields.io/github/license/ybzwyrcld/ntrip)]()
 
 **链接**：[GitHub - ybzwyrcld/ntrip: Simple ntrip caster/client/server example programs, using the NTRIP2.0 protocol](https://github.com/ybzwyrcld/ntrip)  
-**特征**：C++编写的简易Ntrip协议库，包含流动站（Client）<sup>(Rover)</sup>、中央服务器（Caster）、基准站（CORS）<sup>(Server)</sup>。  
+**特征**：C++ 编写的简易 Ntrip 协议库，包含流动站（Client）、中央服务器（Caster）、基准站（CORS）。  
 
 #### 要点
 
@@ -707,7 +707,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/zserge/jsmn)](https://github.com/zserge/jsmn/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/zserge/jsmn)](https://github.com/zserge/jsmn/commits) | [![GitHub License](https://img.shields.io/github/license/zserge/jsmn)]()
 
 **链接**：[zserge/jsmn: Jsmn is a world fastest JSON parser/tokenizer. This is the official repo replacing the old one at Bitbucket](https://github.com/zserge/jsmn)  
-**特征**：超简约、极快的 JSON 解析器，无动态内存分配，无解析纠正。  
+**特征**：超简约、极快的 JSON 解析器，无动态内存分配，无解析纠正。适合小型项目的 JSON 解析。  
 
 #### 要点
 
@@ -721,7 +721,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwjson)](https://github.com/MaJerle/lwjson/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwjson)](https://github.com/MaJerle/lwjson/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwjson)]()
 
 **链接**：[LwJSON latest-develop documentation — LwJSON documentation](https://docs.majerle.eu/projects/lwjson/en/latest/)  
-**特征**：针对嵌入式系统优化的通用 JSON 解析器库。  
+**特征**：针对嵌入式系统优化的通用 JSON 解析器库。适合厂商项目的 JSON 解析。  
 
 #### 要点
 

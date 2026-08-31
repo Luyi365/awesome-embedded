@@ -45,7 +45,7 @@
 [![Gitee Repo stars](https://gitee.com/cot_package/cot_utils/badge/star.svg?theme=gvp)](https://gitee.com/cot_package/cot_utils/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_utils&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_utils&query=$.license&label=license)]()
 
 **Link** - [cotUtils: Common C utilities, including containers such as queues, linked lists, and dynamic arrays, plus a port of the C++ boost preprocessor library for macro programming.](https://gitee.com/cot_package/cot_utils)  
-**Features** - A general C extension library with multiple containers, serializable/deserializable structures, and the PP library for multifunction macros.  
+**Features** - A general C extension library, including multiple containers (queues, stacks, doubly-linked lists, dynamic arrays), serializable/deserializable structures, the PP library (multifunction macros), and more.  
 
 #### Key Points
 
@@ -58,7 +58,7 @@
 [![Gitee Repo stars](https://gitee.com/MacRsh/mr-library/badge/star.svg?theme=gvp)](https://gitee.com/MacRsh/mr-library/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/MacRsh/mr-library&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/MacRsh/mr-library&query=$.license&label=license)]()
 
 **Link** - [mr-library: mr-library is a lightweight framework designed for embedded systems. It considers embedded resource and performance requirements, and greatly simplifies development through standardized open, close, ioctl, read, and write interfaces.](https://gitee.com/MacRsh/mr-library)  
-**Features** - A lightweight embedded framework providing standardized driver interfaces and simple kernel-function components.  
+**Features** - A lightweight embedded framework providing standardized driver interfaces and simple kernel-function components; a top choice for ordinary vendor-level projects.  
 
 #### Key Points
 
@@ -119,7 +119,7 @@
 [![Gitee Repo stars](https://gitee.com/zlgmcuopen/ametal/badge/star.svg?theme=gvp)](https://gitee.com/zlgmcuopen/ametal/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/zlgmcuopen/ametal&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/zlgmcuopen/ametal&query=$.license&label=license)]()
 
 **Link** - [ametal: AMetal is a chip-level bare-metal software package that defines cross-platform common interfaces, completely separating AMetal-based applications from specific hardware and providing a series of drivers and common software services.](https://gitee.com/zlgmcuopen/ametal)  
-**Features** - A comparatively redundant package based on three layers: hardware, driver (abstraction), and standard-interface layers. It provides common interfaces for multiple platforms using a service-based framework and prioritizes runtime efficiency.  
+**Features** - A software package from ZLG that covers various types of peripherals and provides a unified abstraction-layer interface. The code is somewhat redundant, but its coverage of types is fairly comprehensive.  
 
 #### Key Points
 
@@ -136,7 +136,7 @@
 [![Gitee Repo stars](https://gitee.com/event-os/elab/badge/star.svg?theme=gvp)](https://gitee.com/event-os/elab/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/elab&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/elab&query=$.license&label=license)]()
 
 **Link** - [elab: eLab is an embedded development platform integrating multiple technologies and features.](https://gitee.com/event-os/elab)  
-**Features** - An integrated development platform containing most packages needed for embedded systems, with particular emphasis on cross-platform development and PC simulation.  
+**Features** - An integrated development platform containing most packages needed for embedded systems, with particular emphasis on cross-platform development and PC simulation; it is especially suited to projects with standardized development processes.  
 
 #### Key Points
 

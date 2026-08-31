@@ -31,7 +31,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/jakeread/mudlink)](https://github.com/jakeread/mudlink/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/jakeread/mudlink)](https://github.com/jakeread/mudlink/commits) | [![GitHub License](https://img.shields.io/github/license/jakeread/mudlink)]()
 
 **链接**：[jakeread/mudlink: Modular UART Duplex Link: cobs, crc, flow-control and delivery guarantees on any UART port in Arduino](https://github.com/jakeread/mudlink)  
-**特征**：将UART串口提升为一个链路/传输层，并保证成帧数据包的交付，此外还传输保证和流量控制。它还记录链路性能的统计信息等功能。  
+**特征**：将 UART 串口提升为一个链路/传输层，并保证成帧数据包的交付，此外还传输保证和流量控制。它还记录链路性能的统计信息等功能。  
 
 #### 要点
 
@@ -101,7 +101,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/armink/SFUD)](https://github.com/armink/SFUD/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/armink/SFUD)](https://github.com/armink/SFUD/commits) | [![GitHub License](https://img.shields.io/github/license/armink/SFUD)]()
 
 **链接**：[armink/SFUD: An using JEDEC's SFDP standard serial (SPI) flash universal driver library | 一款使用 JEDEC SFDP 标准的串行 (SPI) Flash 通用驱动库](https://github.com/armink/SFUD)  
-**特征**：开源的串行 SPI Flash 通用驱动库，通过编写设备表，做到能适配各型号Flash芯片。  
+**特征**：开源的串行 SPI Flash 通用驱动库，通过编写设备表，做到能适配各型号 Flash 芯片。  
 
 #### 要点
 
@@ -125,7 +125,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cherry-embedded/CherryUSB)](https://github.com/cherry-embedded/CherryUSB/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cherry-embedded/CherryUSB)](https://github.com/cherry-embedded/CherryUSB/commits) | [![GitHub License](https://img.shields.io/github/license/cherry-embedded/CherryUSB)]()
 
 **链接**：[GitHub - cherry-embedded/CherryUSB: Tiny and portable USB Stack (device & host) for embedded system with USB IP](https://github.com/cherry-embedded/CherryUSB)  
-**特征**：移植性高的、用于嵌入式系统(带 USB IP)的 USB 主从协议栈。  
+**特征**：用于嵌入式系统（带 USB IP）的 USB 主从协议栈。可以移植各个平台，适用于自身不带 USB 协议栈的芯片。  
 
 #### 要点
 

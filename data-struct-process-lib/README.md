@@ -37,7 +37,7 @@
 [![Gitee Repo stars](https://gitee.com/Aladdin-Wang/byte_queue/badge/star.svg?theme=gvp)](https://gitee.com/Aladdin-Wang/byte_queue/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Aladdin-Wang/byte_queue&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Aladdin-Wang/byte_queue&query=$.license&label=license)]()
 
 **链接**：[byte_queue: 一个C语言编写的支持任意类型的环形队列](https://gitee.com/Aladdin-Wang/byte_queue)  
-**特征**：C语言编写的支持任意类型的环形队列，带宏包装，使用简单。  
+**特征**：C 语言编写的支持任意类型的环形队列，带宏包装，使用简单。  
 
 #### 要点
 
@@ -48,7 +48,7 @@
 [![Gitee Repo stars](https://gitee.com/Lamdonn/queue/badge/star.svg?theme=gvp)](https://gitee.com/Lamdonn/queue/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/queue&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/queue&query=$.license&label=license)]()
 
 **链接**：[queue: Very small and convenient general-purpose queue in C language version. C语言版本的非常小且方便的通用队列。](https://gitee.com/Lamdonn/queue)  
-**特征**：C语言通用队列，支持任意数据类型，使用简单高效。  
+**特征**：C 语言通用队列，支持任意数据类型，使用简单高效。  
 
 #### 要点
 
@@ -59,7 +59,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/AndersKaloer/Ring-Buffer)](https://github.com/AndersKaloer/Ring-Buffer/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/AndersKaloer/Ring-Buffer)](https://github.com/AndersKaloer/Ring-Buffer/commits) | [![GitHub License](https://img.shields.io/github/license/AndersKaloer/Ring-Buffer)]()
 
 **链接**：[AndersKaloer/Ring-Buffer: A simple ring buffer (circular buffer) designed for embedded systems.](https://github.com/AndersKaloer/Ring-Buffer)  
-**特征**：简单高效的环形缓冲库，功能简单易用。  
+**特征**：简单高效的环形缓冲库，适合没有指定存储大小的程序。  
 
 #### 要点
 
@@ -73,7 +73,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Aladdin-Wang/wl_queue)](https://github.com/Aladdin-Wang/wl_queue/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Aladdin-Wang/wl_queue)](https://github.com/Aladdin-Wang/wl_queue/commits) | [![GitHub License](https://img.shields.io/github/license/Aladdin-Wang/wl_queue)]()
 
 **链接**：[Aladdin-Wang/wl_queue: 一款支持任意类似的队列](https://github.com/Aladdin-Wang/wl_queue)  
-**特征**：支持任意数据类型的环形队列，运用了C重载的技巧，注重纤程安全。  
+**特征**：支持任意数据类型的环形队列，运用了 C 重载的技巧，注重纤程安全。  
 
 #### 要点
 
@@ -123,7 +123,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cameron314/concurrentqueue)](https://github.com/cameron314/concurrentqueue/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cameron314/concurrentqueue)](https://github.com/cameron314/concurrentqueue/commits) | [![GitHub License](https://img.shields.io/github/license/cameron314/concurrentqueue)]()
 
 **链接**：[cameron314/concurrentqueue: A fast multi-producer, multi-consumer lock-free concurrent queue for C++11](https://github.com/cameron314/concurrentqueue)  
-**特征**：基于C++的工业级无锁队列，无需锁也极其注重线程安全。  
+**特征**：基于 C++ 的工业级无锁队列，无需锁也极其注重线程安全。  
 
 #### 要点
 
@@ -148,7 +148,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/nqtronix/fifofast)](https://github.com/nqtronix/fifofast/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/nqtronix/fifofast)](https://github.com/nqtronix/fifofast/commits) | [![GitHub License](https://img.shields.io/github/license/nqtronix/fifofast)]()
 
 **链接**：[nqtronix/fifofast: A fast, generic fifo for MCUs.](https://github.com/nqtronix/fifofast)  
-**特征**：针对MCU优化的FIFO库，旨在尽可能减少CPU和SRAM的消耗。  
+**特征**：针对 MCU 优化的 FIFO 库，旨在尽可能减少 CPU 和 SRAM 的消耗。  
 
 #### 要点
 
@@ -179,7 +179,7 @@
 [![License: xprintf](https://img.shields.io/badge/License-xprintf-blue.svg)]()
 
 **链接**：[ELM - Embedded String Functions](http://elm-chan.org/fsw/strf/xprintf.html)  
-**特征**：嵌入式字符串函数，代替不足以实现常规 printf 功能，可以动态的将字符串写入不同外设。  
+**特征**：嵌入式字符串函数，代替不足以实现常规 printf 功能，可以动态的将字符串写入不同外设。主要用途是与多个外设交互，而不是终端交互  
 
 #### 要点
 
@@ -190,7 +190,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ARM-software/CMSIS-Stream)](https://github.com/ARM-software/CMSIS-Stream/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ARM-software/CMSIS-Stream)](https://github.com/ARM-software/CMSIS-Stream/commits) | [![GitHub License](https://img.shields.io/github/license/ARM-software/CMSIS-Stream)]()
 
 **链接**：[ARM-software/CMSIS-Stream: CMSIS-Stream software component](https://github.com/ARM-software/CMSIS-Stream)  
-**特征**：ARM 官方出品的数据流处理组件，提供图形表示，需要 Python 和 C++ 联合完成。  
+**特征**：ARM 官方出品的数据流处理组件，提供图形表示，适合专业级项目和多设备数据流处理。  
 
 #### 要点
 
@@ -234,7 +234,7 @@
 [![Gitee Repo stars](https://gitee.com/Armink/EasyFlash/badge/star.svg?theme=gvp)](https://gitee.com/Armink/EasyFlash/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/EasyFlash&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/EasyFlash&query=$.license&label=license)]()
 
 **链接**：[EasyFlash: 轻量级物联网设备信息存储方案，让 Flash 成为小型 KV 数据库。 全新一代版本请移步至 https://gitee.com/armink/FlashDB](https://gitee.com/Armink/EasyFlash)  
-**特征**：Key-Value 型简易数据库，主要提供：变量的 KV 配对，IAP 数据修改（可用于升级），log 存储等功能。  
+**特征**：Key-Value 型简易数据库，主要提供：变量的 KV 配对，可 IAP 数据修改（可用于升级），log 存储等功能。  
 
 #### 要点
 

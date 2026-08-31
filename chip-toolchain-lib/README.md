@@ -24,7 +24,7 @@
 
 **链接**：[基于 STC8 系列的 ECBM 函数库 V3: 该库为 ECBM 的发行版的 V3 版本，是基于 STC8 单片机的外设函数库，目前已经支持 STC8 全型号。外设部分会逐渐完善，同时由于 stc8 型号众多，不能一一实机测试，如有不适配的型号请留言。 STC8 是目前 51 单片机里最好用的系列，拥有最多 8K 的 SRAM、64K 的 Flash、5 个定时器、4 个串口。全系列都带 IIC 和 SPI，大部分带 ADC。STC8H 还带有硬件 USB。](https://gitee.com/ecbm/ecbm_library)  
 **ECBM 库精简版**：[ECBM 库精简版: 在推广 ECBM 库 V3 的过程中，不止一次的听说 ECBM 占用空间太大了，然后新手对库不了解就不知道怎么优化，于是就干脆不用了。这回我专门推出官方优化精简版！在保证了 ecbm 特色的情况下，去除大量用不到的鸡肋功能，只为了核心和精简而存在的 STC8 库。](https://gitee.com/ecbm/ecbm-library-lite)  
-**特征**：全中文注解的外设函数库，简单易用。  
+**特征**：51 芯片外设函数库，需要哪个模块就取用哪个模块。  
 
 #### 要点
 
@@ -43,7 +43,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/stm32f429)](https://github.com/MaJerle/stm32f429/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/stm32f429)](https://github.com/MaJerle/stm32f429/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/stm32f429)]()
 
 **链接**：[MaJerle/stm32f429: Keil projects and libraries for STM32F4xx devices](https://github.com/MaJerle/stm32f429)  
-**特征**：面向STM32F4系列微控制器的驱动库集合，包含多个外设、接口的实现教学及配套示例。  
+**特征**：面向 STM32F4 系列微控制器的驱动库集合，包含多个外设、接口的实现教学及配套示例。  
 
 #### 要点
 
@@ -56,7 +56,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwesp)](https://github.com/MaJerle/lwesp/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwesp)](https://github.com/MaJerle/lwesp/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwesp)]()
 
 **链接**：[LwESP latest-develop documentation — LwESP documentation](https://docs.majerle.eu/projects/lwesp/en/latest/)  
-**特征**：AT 解析器库，旨在其他设备通过 AT 命令与 ESP 设备进行通信。  
+**特征**：专业的 AT 解析器库，旨在其他设备通过 AT 命令与 ESP 设备进行通信。  
 
 #### 要点
 
@@ -105,7 +105,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwcell)](https://github.com/MaJerle/lwcell/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwcell)](https://github.com/MaJerle/lwcell/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwcell)]()
 
 **链接**：[LwCELL latest-develop documentation — LwCELL documentation](https://docs.majerle.eu/projects/lwcell/en/latest/)  
-**特征**：用于控制 SIMCom 的 SIM800 / SIM900 或 SIM7000 / SIM7020（NB-Iot LTE）设备。  
+**特征**：专业的 AT 解析器库，旨在其他设备通过 AT 命令与 SIMCom 设备进行通信。  
 
 #### 要点
 
@@ -118,7 +118,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Aladdin-Wang/flash_blob)](https://github.com/Aladdin-Wang/flash_blob/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Aladdin-Wang/flash_blob)](https://github.com/Aladdin-Wang/flash_blob/commits) | [![GitHub License](https://img.shields.io/github/license/Aladdin-Wang/flash_blob)]()
 
 **链接**：[Aladdin-Wang/flash_blob: 一个适配几乎任意单片机型号的flash驱动](https://github.com/Aladdin-Wang/flash_blob)  
-**特征**：利用MDK的FLM文件快速生成通用flash驱动。  
+**特征**：利用 MDK 的 FLM 文件快速生成通用 flash 驱动。  
 
 #### 要点
 

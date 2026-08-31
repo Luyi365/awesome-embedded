@@ -251,7 +251,7 @@
 ### Arduboy
 
 **链接**：[Arduboy](https://www.arduboy.com/)  
-**特征**：提供游戏制作所需的编程接口，使其允许游戏玩家轻松制作 C/C++游戏，运行在该平台上，并通过社区共享。  
+**特征**：提供游戏制作所需的编程接口，使其允许游戏玩家轻松制作 C/C++ 游戏，运行在该平台上，并通过社区共享。  
 
 #### 要点
 
@@ -264,7 +264,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/raysan5/raylib)](https://github.com/raysan5/raylib/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/raysan5/raylib)](https://github.com/raysan5/raylib/commits) | [![GitHub License](https://img.shields.io/github/license/raysan5/raylib)]()
 
 **链接**：[raylib | A simple and easy-to-use library to enjoy videogames programming](https://www.raylib.com/)  
-**特征**：纯C编写的游戏库，简易的视频、游戏编程库。  
+**特征**：纯 C 编写的游戏库，简易的视频、游戏编程库。  
 
 #### 要点
 

@@ -62,10 +62,10 @@
 
 - ~~[key_detect](./io-control-lib/README.md#key_detect)：简易的按键检测组件，采用注册事件，提供最基本的按键功能。~~（待发布）
 - [key_module](./io-control-lib/README.md#key_module)：简单易用的按键检测模块，采用事件回调，提供除矩阵按键的其他基本功能。
-- [FlexibleButton](./io-control-lib/README.md#flexiblebutton)：超轻量的按键库，采用轮询扫描检测，简单易用。
-- [MultiButton](./io-control-lib/README.md#multibutton)：标准的按键库，每个按键结构以面向对象的思想单独管理。
+- [FlexibleButton](./io-control-lib/README.md#flexiblebutton)：间断轮询扫描的方式检测按键，一次扫描和处理所有按键状态，支持大多数单个按键事件触发。组合按键和中断触发需要自行添加。
+- [MultiButton](./io-control-lib/README.md#multibutton)：定时器触发扫描，事件驱动型按键驱动模块，基于面向对象方式设计思路，每个按键对象单独用一份数据结构管理。
 - [cotKey](./io-control-lib/README.md#cotkey)：监听型按键识别库，可以实现单击、双击、多击、短按和长按等多种要求的功能，但只支持单一按键功能。
-- [key_board](./io-control-lib/README.md#key_board)：极丰富的按键库，带有矩阵键盘和组合的功能。
+- [key_board](./io-control-lib/README.md#key_board)：采用按键注册的方式，默认使用堆内存，一次扫描和处理所有按键状态，带有矩阵键盘和组合的功能。
 - [LwBTN](./io-control-lib/README.md#lwbtn)：专业的按键事件管理库，配置方面十分丰富，但有点晦涩难懂。
 
 ### [LED](./io-control-lib/README.md#led)
@@ -99,7 +99,7 @@
 
 ### [时间相关](./timer-time-lib/README.md#时间相关)
 
-- [LwDTC](./timer-time-lib/README.md#lwdtc)：用于日期、时间和 cron 实用程序库，支持 tm 数据结构，解析速度快。
+- [LwDTC](./timer-time-lib/README.md#lwdtc)：用于日期、时间和 cron 实用程序库，因为 Cron 仅支持数字，没有字符串，所以解析速度更快。
 
 ---
 
@@ -110,7 +110,7 @@
 - [memory](./mem-fs-lib/README.md#memory)：功能极简的内存管理模块，仅提供内存申请与释放，无其他额外功能。
 - [mem_malloc](./mem-fs-lib/README.md#mem_malloc)：简单实用的内存管理模块，不会产生内存碎片。
 - [tlsf](./mem-fs-lib/README.md#tlsf)：TLSF 算法的堆内存分配库，支持动态添加、删除内存池区域，分配时间复杂度为 O(1)，不注重线程安全。
-- [LwMEM](./mem-fs-lib/README.md#lwmem)：专业内存管理库，允许使用碎片内存，注重 RTOS 的线程安全。
+- [LwMEM](./mem-fs-lib/README.md#lwmem)：专业内存管理库，类 C++ 封装函数，允许使用碎片内存，注重 RTOS 的线程安全。
 - [jemalloc](./mem-fs-lib/README.md#jemalloc)：高性能的内存分配器，适合处理多线程环境下大规模内存分配和释放的场景。
 - [LWMalloc](./mem-fs-lib/README.md#lwmalloc)：适用于 Linux 的轻量级动态内存分配器，旨在替代默认分配器 ptmalloc，性能和内存使用量都更优。
 
@@ -118,9 +118,9 @@
 
 - [flashMultipleErase](./mem-fs-lib/README.md#flashmultipleerase)：用 FLASH 模拟 EEPROM，采用顺序写入的方法，以实现高达 100 万次以上的存储次数。
 - [eepromfs](./mem-fs-lib/README.md#eepromfs)：基于 EEPROM 的简易类文件数据读写库，它并不属于真正的文件系统，只是把数据读写模拟成文件的方式。
-- [Dhara](./mem-fs-lib/README.md#dhara)：用于小型单片机的 NAND 闪存转换层(FTL)。主要用来对 FLASH 读、写、抹除操作的管理。处于 FLASH 设备与文件系统层之间。
+- [Dhara](./mem-fs-lib/README.md#dhara)：用于小型单片机的 NAND 闪存转换层（FTL）。主要用来对 FLASH 读、写、抹除操作的管理。处于 FLASH 设备与文件系统层之间。
 - [kFlashFile](./mem-fs-lib/README.md#kflashfile)：基于 NOR Flash 的轻量级文件数据存储方案，主要用于需要断电数据保存的项目。
-- [esp_partition](./mem-fs-lib/README.md#esp_partition)：ESP 旗下的分区表库，允许以块为单位访问 flash。
+- [esp_partition](./mem-fs-lib/README.md#esp_partition)：ESP 旗下的分区表库，封装 SPI Flash 读写操作，允许以块为单位访问 flash。
 - [NVS](./mem-fs-lib/README.md#nvs)：ESP 旗下的非易失性存储库，主要用于在 flash 中存储键值格式的数据。配合 ESP 旗下的其他工具，支持加密、生成分区镜像等功能。
 
 ### [文件系统](./mem-fs-lib/README.md#文件系统)
@@ -151,7 +151,7 @@
 
 ### [I2C](./board-bus-lib/README.md#i2c)
 
-- ~~[i2c_scanner](./board-bus-lib/README.md#i2c_scanner)：i2c 设备扫描库，摘自 Nordic 的 SDK 库，能够扫描板载的 i2c 设备个数及设备地址。~~(待发布)
+- ~~[i2c_scanner](./board-bus-lib/README.md#i2c_scanner)：i2c 设备扫描库，摘自 Nordic 的 SDK 库，能够扫描板载的 i2c 设备个数及设备地址。~~（待发布）
 
 ### [SPI](./board-bus-lib/README.md#spi)
 
@@ -165,7 +165,7 @@
 ### [USB](./board-bus-lib/README.md#usb)
 
 - [TinyUSB](./board-bus-lib/README.md#tinyusb)：是一个用于嵌入式系统的开源跨平台 USB 主机/设备堆栈，设计为内存安全，没有动态分配，线程安全，所有中断事件都被延迟，然后在非 ISR 任务函数中处理。
-- [CherryUSB](./board-bus-lib/README.md#cherryusb)：用于嵌入式系统(带 USB IP)的 USB 主从协议栈。可以移植各个平台，适用于自身不带 USB 协议栈的芯片。
+- [CherryUSB](./board-bus-lib/README.md#cherryusb)：用于嵌入式系统（带 USB IP）的 USB 主从协议栈。可以移植各个平台，适用于自身不带 USB 协议栈的芯片。
 
 ---
 
@@ -181,7 +181,7 @@
 - [wl_queue](./data-struct-process-lib/README.md#wl_queue)：支持任意数据类型的环形队列，运用了 C 重载的技巧，注重纤程安全。
 - [RingBuffer](./data-struct-process-lib/README.md#ringbuffer)：实用的环形缓冲库，功能完整，使用的是堆内存分配。
 - [queue](./data-struct-process-lib/README.md#queue-1)：简单的队列功能库，扩展性强，同时支持零拷贝读写队列（适用于大内存的单个元素，可以有效减少函数耗时）。
-- [QueueForMcu](./data-struct-process-lib/README.md#queueformcu)：普通队列功能模块，仅限非 RTOS 系统，适用于个人小型程序。
+- [QueueForMcu](./data-struct-process-lib/README.md#queueformcu)：队列功能模块，适用于非 RTOS 系统，动态创建队列对象和缓冲区。
 - [ConcurrentQueue](./data-struct-process-lib/README.md#concurrentqueue)：基于 C++ 的工业级无锁队列，无需锁也极其注重线程安全。
 - [LwRB](./data-struct-process-lib/README.md#lwrb)：专业的 FIFO 环形缓冲库，无动态内存分配，适用于 MDA 传输，注重线程和中断安全。
 - [fifofast](./data-struct-process-lib/README.md#fifofast)：针对 MCU 优化的 FIFO 库，旨在尽可能减少 CPU 和 SRAM 的消耗。
@@ -273,7 +273,7 @@
 
 ### [GNSS](./protocol-format-parser-lib/README.md#gnss)
 
-- [LwGPS](./protocol-format-parser-lib/README.md#lwgps)：简易的 NMEA 报文解析库，内置支持 4 个 GPS 报文：GPGGA、GPGSA、GPGSV、GPRMC。
+- [LwGPS](./protocol-format-parser-lib/README.md#lwgps)：简易的 NMEA 报文解析库，内置支持 4 个 GPS 报文：GPGGA、GPGSA、GPGSV、GPRMC，以及允许自定义报文。
 - [RTKLIB](./protocol-format-parser-lib/README.md#rtklib)：RTK 领域的标杆库，广泛应用于商业以及社区，同时也是教科书式的参考手册。
 - [Ntrip](./protocol-format-parser-lib/README.md#ntrip)：C++ 编写的简易 Ntrip 协议库，包含流动站（Client）、中央服务器（Caster）、基准站（CORS）。
 
@@ -353,7 +353,7 @@
 - [LwSHELL](./log-term-lib/README.md#lwshell)：轻量级 shell 库，简单易用，附带命令描述。
 - [debugcmd](./log-term-lib/README.md#debugcmd)：功能完善的命令行解析库，提供 Tab 补全、帮助查看、子命令注册等功能。
 - [Argtable3](./log-term-lib/README.md#argtable3)：规范的命令行解析库，用于自定义操作命令，遵循 POSIX 接口。
-- [nr_micro_shell](./log-term-lib/README.md#nr_micro_shell)：标准的命令行交互库，提供 Tab 键命令补全，查询历史命令等功能。
+- [nr_micro_shell](./log-term-lib/README.md#nr_micro_shell)：标准的命令行交互库，提供 Tab 键命令补全，查询历史命令等功能，原生支持 ENV 工具使用。
 - [letter shell](./log-term-lib/README.md#letter-shell)：功能强大的嵌入式命令行交互库，几乎提供 shell 拥有的所有功能，且能通过函数地址直接执行函数。
 - [Xradio_console](./log-term-lib/README.md#xradio_console)：从全志科技 xr806 芯片里提取的控制台库，命令采用分层结构，适合有多命令的时候，基于 RTOS。
 - [easyShell](./log-term-lib/README.md#easyshell)：简单易用的单片机 shell，支持 tab 补全。
@@ -364,14 +364,14 @@
 
 ### [校验和安全](./secure-boot-update-lib/README.md#校验和安全)
 
-- [crc-lib-c](./secure-boot-update-lib/README.md#crc-lib-c)：极简的 CRC 库，包含很多常用的 CRC 参数模型实现，无其他扩展功能。
+- [crc-lib-c](./secure-boot-update-lib/README.md#crc-lib-c)：极简的 CRC 库，包括常用的 21 个 CRC 参数模型实现，无扩展功能。
 - [tiny-AES-c](./secure-boot-update-lib/README.md#tiny-aes-c)：小巧易移植的 AES 算法库，提供 ECB、CTR 和 CBC 三种加密模式。
 - ~~[key](./secure-boot-update-lib/README.md#key)：极简的加密算法，配合密钥使用，功能单一但实用，适合网络加密等领域。~~（待发布）
 - [wolfCrypt](./secure-boot-update-lib/README.md#wolfcrypt)：狼库旗下的轻量级加密库，支持多种流行的算法和密码，适合企业级项目。
-- [wolfSSL](./secure-boot-update-lib/README.md#wolfssl)：是一个轻量级的、可移植的、基于 C 语言的 SSL/TLS 库，它主要针对 IoT、嵌入式和 RTOS 环境。
+- [wolfSSL](./secure-boot-update-lib/README.md#wolfssl)：是一个轻量级的、可移植的 SSL/TLS 库，由 wolfCrypt 密码库驱动，它主要针对 IoT、嵌入式和 RTOS 环境。
 - [Mbed TLS](./secure-boot-update-lib/README.md#mbed-tls)：可信旗下的项目，业内流行的 SSL/TLS 库。
-- [wolfHSM](./secure-boot-update-lib/README.md#wolfhsm)：一个客户端-服务器框架，用于硬件密码学、非易失性内存和安全处理。最初是面向于汽车领域的HSM核心，现在则适用于任何可信环境。
-- [wolfTPM](./secure-boot-update-lib/README.md#wolftpm)：可移植的 TPM 协议栈，提供封装接口以简化密钥的操作，支持裸机、RTOS、Linux、Windows等多个平台。
+- [wolfHSM](./secure-boot-update-lib/README.md#wolfhsm)：一个客户端-服务器框架，用于硬件密码学、非易失性内存和安全处理。最初是面向于汽车领域的 HSM 核心，现在则适用于任何可信环境。
+- [wolfTPM](./secure-boot-update-lib/README.md#wolftpm)：可移植的 TPM 协议栈，提供封装接口以简化密钥的操作，支持裸机、RTOS、Linux、Windows 等多个平台。
 - [wolfSentry](./secure-boot-update-lib/README.md#wolfsentry)：一个动态的入侵检测与防御系统（IDPS），嵌入式适用的防火墙引擎，核心是监控、日志记录、模式匹配以及通知。
 
 ### [引导和升级](./secure-boot-update-lib/README.md#引导和升级)
@@ -413,11 +413,11 @@
 - [AAGUI](./ui-menu-lib/README.md#aagui)：跨平台通用型 GUI，旨在嵌入式里实现类安卓的高级 UI 开发。可使用半声明式（json）编程，适合类似于手机应用的项目开发。
 - [GT-HMI](./ui-menu-lib/README.md#gt-hmi)：高通旗下专为国人使用的 UI 库，带有多种语种多字库，带有模拟器和上位机。RTOS、裸机均可使用，适合实用的项目级产品。
 - [LVGL](./ui-menu-lib/README.md#lvgl)：轻量级通用图形库，开源免费，几乎拥有 GUI 所需的一切。适用于项目级设备。
-- [AWTK](./ui-menu-lib/README.md#awtk)：功能强大的 GUI 图形库。
-- [TouchGFX](./ui-menu-lib/README.md#touchgfx)：STM32 旗下的 GUI 图形库，一般只适用于 STM32 的开发。
+- [AWTK](./ui-menu-lib/README.md#awtk)：周立功旗下的 GUI 图形库，开源免费。
+- [TouchGFX](./ui-menu-lib/README.md#touchgfx)：STM32 旗下的 GUI 图形库，功能强劲，配有图形编辑软件，一般只适用于 STM32 的开发。
 - [GUIX](./ui-menu-lib/README.md#guix)：Azure RTOS 提供的 GUI 图形库，开发十分成熟和方便，开源免费。
-- [emWin](./ui-menu-lib/README.md#emwin)：又名(uCGUI)，是 Segger 旗下的 GUI 图形库，很多知名大厂芯片都是可以授权使用的。
-- [Embedded Wizard GUI](./ui-menu-lib/README.md#embedded-wizard-gui)：超强大的 GUI 图形库，但需要收钱。
+- [emWin](./ui-menu-lib/README.md#emwin)：又名（uCGUI），是 Segger 旗下的 GUI 图形库，很多知名大厂芯片都是可以授权使用的。
+- [Embedded Wizard GUI](./ui-menu-lib/README.md#embedded-wizard-gui)：超强大的 GUI 图形库，但需要收钱。配有图形化编辑器。
 - [Qt for MCU](./ui-menu-lib/README.md#qt-for-mcu)：QT 旗下的 GUI 图形库，适合有 QT 经验的开发者，需要收费。
 - [μGFX](./ui-menu-lib/README.md#μgfx)：可用于触摸屏的轻量级 UI 库，注重性能，非商用免费。
 - [MiniGUI](./ui-menu-lib/README.md#minigui)：多平台、高度可定制的 UI 库，可用于不同性能的芯片，适合移动设备及工业等领域，非商用免费。
@@ -443,7 +443,7 @@
 
 - [qrencode](./ui-menu-lib/README.md#qrencode)：二维码生成库，适用于单片机。
 - [QR Code generator library](./ui-menu-lib/README.md#qr-code-generator-library)：通用的QR码生成库，包含多个语言版本，旨在用更少的代码实现更好的性能。
-- [QRCode](./ui-menu-lib/README.md#qrcode)：QR码生成库，参考了QR Code generator library，并针对处理器和内存受限的系统进行了优化，支持从 Version 1 到 Version 40 的所有规格。
+- [QRCode](./ui-menu-lib/README.md#qrcode)：QR 码生成库，参考了 QR Code generator library，并针对处理器和内存受限的系统进行了优化，支持从 Version 1 到 Version 40 的所有规格。
 
 ### [字形](./ui-menu-lib/README.md#字形)
 
@@ -583,14 +583,14 @@
 ### [时间片调度系统](./sys-thread-lib/README.md#时间片调度系统)
 
 - [ztask](./sys-thread-lib/README.md#ztask)：极简的基于时间片调度器，仅 5 个 api，属于那种随手就可以写出来的框架。
-- [ETP](./sys-thread-lib/README.md#etp)：时间片轮询框架，最基本的时间片框架来分离不同的时间片任务，适合简单功能的裸机。
+- [ETP](./sys-thread-lib/README.md#etp)：时间片轮询框架，旨在解耦主轮询中各个不同时间片的任务，属于最基础的轮询框架。
 - [cotTask](./sys-thread-lib/README.md#cottask)：时间片轮询框架，初始化、启动和任务调度管理，可以设置任务优先级。
 - [CodeBrick](./sys-thread-lib/README.md#codebrick)：时间片轮询框架，包含了很多实用模块，不含驱动层，简单易用。符合现在项目的开发理念，是我很喜欢的一个裸机框架，可以说是普通项目的首选。
 - [vkern](./sys-thread-lib/README.md#vkern)：仿照 RTOS 架构编写的任务调度内核，其原理还是使用定时器创建前后台系统。
 - [cola_os](./sys-thread-lib/README.md#cola_os)：前后台系统，适合对功耗有要求且 CPU 性能不强的，有稍复杂功能的裸机。
-- [JxOS](./sys-thread-lib/README.md#jxos)：前后台系统，没有过多复杂花哨的结构，但重要的功能一应俱全。各个模块也方便单独移植，是复杂裸机项目的首选。
+- [JxOS](./sys-thread-lib/README.md#jxos)：前后台系统，没有复杂的注册与函数指针结构，提供系统内核功能：任务、事件、消息、公告板、邮箱、管道、注册、内存分配……
 - [EventOS](./sys-thread-lib/README.md#eventos)：事件驱动型的嵌入式系统，提供内核等功能。
-- [BabyOS](./sys-thread-lib/README.md#babyos)：简易版的 RTT 裸机系统，带有 PC 模拟，所有外设注册型服务且类文件形式调用，适合于企业级项目开发，能够很好的维护和管理项目。
+- [BabyOS](./sys-thread-lib/README.md#babyos)：注册服务型框架，适用于裸机 MCU 项目，是一套管理功能模块和外设驱动的框架，拥有极明确的代码分层和代码规范，类 RTT 的“MenuConfig”终端配置，带有 PC 模拟。
 
 ### [类实时系统](./sys-thread-lib/README.md#类实时系统)
 
@@ -604,12 +604,12 @@
 
 - [KLite](./sys-thread-lib/README.md#klite)：最简洁易用的 RTOS，附带最基本实用的内核功能。适合需要快速部署的简单 RTOS 项目。
 - [FreeRTOS](./sys-thread-lib/README.md#freertos)：很多小厂商会使用的 OS，网上资料比较多，属于中规中矩那种，适合有一个基础项目，准备上 RTOS 的那种。
-- [uC/OS](./sys-thread-lib/README.md#ucos)：早期比较流行的 OS，和 FreeRTOS 特征一样，功能比它强一些。
+- [uC/OS](./sys-thread-lib/README.md#ucos)：早期比较流行的 OS，和 FreeRTOS 特征差不多，功能比它强一些。
 - [RT-Thread](./sys-thread-lib/README.md#rt-thread)：国产里耀眼的星星，非常好且实用的 RTOS，附带多个组件和附加功能，文档详细，非常适合一个空白期的 OS 项目。
 - [RTX](./sys-thread-lib/README.md#rtx)：ARM 公司的 RTOS，和 Keil 适配性较强。
 - [NuttX](./sys-thread-lib/README.md#nuttx)：强调标准兼容和小型封装的操作系统，遵循 POSIX 标准和 ANSI 标准。
 - [embOS](./sys-thread-lib/README.md#embos)：SEGGER 公司的 RTOS，可免费用于非商业用途。
-- [Azure RTOS](./sys-thread-lib/README.md#azure-rtos)：微软公司的 RTOS。
+- [Azure RTOS](./sys-thread-lib/README.md#azure-rtos)：微软公司的 RTOS，具有丰富的组件。
 - [Zephyr](./sys-thread-lib/README.md#zephyr)：Linux 维护的一个 RTOS，很适合学习 Linux 的开发思想。
 - [At-RTOS](./sys-thread-lib/README.md#at-rtos)：一个用户友好的嵌入式控制器实时操作系统，仅提供基本的内核功能。
 - [Embox](./sys-thread-lib/README.md#embox)：多任务操作系统，其特点是支持使用 Linux 开源组件而不使用 Linux 系统，该开源系统旨在任何地方都能够使用 Linux 软件。
@@ -628,12 +628,12 @@
 - [Xiaomi Vela](./sys-thread-lib/README.md#xiaomi-vela)：小米旗下的物联网操作系统，底层基于 NuttX 内核打造。
 - [AliOS Things](./sys-thread-lib/README.md#alios-things)：阿里旗下面向 IoT 领域的、高可伸缩的物联网操作系统。
 - [TencentOS Tiny](./sys-thread-lib/README.md#tencentos-tiny)：是腾讯面向物联网领域开发的实时操作系统。
-- [OneOS](./sys-thread-lib/README.md#oneos)：是中国移动针对物联网领域推出的轻量级操作系统，具有可裁剪、跨平台、低功耗、高安全等特点，支持 - ARM Cortex-M/A、MIPS、RISC-V 等主流芯片架构，兼容 POSIX、CMSIS 等标准接口，支持 JavaScript、Micropython 语言开发。
+- [OneOS](./sys-thread-lib/README.md#oneos)：是中国移动针对物联网领域推出的轻量级操作系统，具有可裁剪、跨平台、低功耗、高安全等特点，支持 ARM Cortex-M/A、MIPS、RISC-V 等主流芯片架构，兼容 POSIX、CMSIS 等标准接口，支持 JavaScript、Micropython 语言开发。
 - [LuatOS](./sys-thread-lib/README.md#luatos)：一款针对嵌入式的 Lua 脚本运行框架，包含了一个系统的功能体量。
 - [Lua-RTOS-ESP32](./sys-thread-lib/README.md#lua-rtos-esp32)：是一种支持 Lua 解释器的实时操作系统，提供了 Lua 所需所有资源和基本模块、中间件，可以移植到其他 32 位平台。
 - [Apache Mynewt OS](./sys-thread-lib/README.md#apache-mynewt-os)：Apache 旗下专为低功耗无线设备所设计的 OS，自带蓝牙协议栈和 IEEE 通信协议，开箱即用。
 - [Mongoose OS](./sys-thread-lib/README.md#mongoose-os)：物联网固件开发框架，支持 C/JavaScript 语言开发，对远程管理及升级有较好支持。开源版功能受限。
-- [MicroPythonOS](./sys-thread-lib/README.md#micropythonos)：MicroPython 构建的轻量级多功能作系统，专为 ESP32 和桌面系统等微控制器而设计，提供类似Android的现代触屏界面、应用商店、OTA等功能。
+- [MicroPythonOS](./sys-thread-lib/README.md#micropythonos)：MicroPython 构建的轻量级多功能作系统，专为 ESP32 和桌面系统等微控制器而设计，提供类似 Android 的现代触屏界面、应用商店、OTA 等功能。
 
 ### [ROS](./sys-thread-lib/README.md#ros)
 
@@ -670,7 +670,7 @@
 
 ### [51](./chip-toolchain-lib/README.md#51)
 
-- [8051-ELL](./chip-toolchain-lib/README.md#8051-ell)：51 芯片扩展库，适合项目级或稍复杂的工程。
+- [8051-ELL](./chip-toolchain-lib/README.md#8051-ell)：结合了 HAL 库和 LL 库的编程思想编写的 ELL(efficient low-layer)库，以 STC8 系列为主。
 - [ECBM](./chip-toolchain-lib/README.md#ecbm)：51 芯片外设函数库，需要哪个模块就取用哪个模块。
 
 ### [AVR](./chip-toolchain-lib/README.md#avr)

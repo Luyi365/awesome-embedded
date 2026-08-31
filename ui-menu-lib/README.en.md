@@ -44,7 +44,7 @@
 [![Gitee Repo stars](https://gitee.com/ecbm/ecbm_gui/badge/star.svg?theme=gvp)](https://gitee.com/ecbm/ecbm_gui/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/ecbm_gui&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/ecbm_gui&query=$.license&label=license)]()
 
 **Link** - [ECBM_GUI: A C-based GUI library primarily used with monochrome OLED and LCD displays. ECBM_GUI stores screen content through an internal buffer and can be quickly ported to any microcontroller.](https://gitee.com/ecbm/ecbm_gui)  
-**Features** - A very basic monochrome GUI library that implements GUI functionality solely by storing screen content in an internal buffer.  
+**Features** - A very basic monochrome GUI library that implements GUI functionality solely by storing screen content in an internal buffer. It suits small hobby projects.  
 
 #### Key Points
 
@@ -55,7 +55,7 @@
 [![Gitee Repo stars](https://gitee.com/Polarix/simplegui/badge/star.svg?theme=gvp)](https://gitee.com/Polarix/simplegui/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Polarix/simplegui&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Polarix/simplegui&query=$.license&label=license)]()
 
 **Link** - [SimpleGUI: An open-source GUI interface library for monochrome displays.](https://gitee.com/Polarix/simplegui)  
-**Features** - A GUI library designed for monochrome displays that provides simple drawing capabilities.  
+**Features** - A GUI library designed for monochrome displays that provides simple drawing capabilities. It suits low-pixel monochrome dot-matrix screens.  
 
 #### Key Points
 
@@ -88,7 +88,7 @@
 [![Gitee Repo stars](https://gitee.com/liuxinouc/MonoGUI/badge/star.svg?theme=gvp)](https://gitee.com/liuxinouc/MonoGUI/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/liuxinouc/MonoGUI&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/liuxinouc/MonoGUI&query=$.license&label=license)]()
 
 **Link** - [MonoGUI: MonoGUI (a monochrome graphical user interface system) is a specialized GUI system for small electronic devices with monochrome screens, such as electronic dictionaries, advanced calculators, watches, label printers, cash registers, and electronic shelf labels. It features a simple structure, ease of use, low memory consumption, single-threaded operation, and light processor load. Although its graphical capabilities are limited to black and white, it supports complete Chinese display processing (two-byte Chinese characters in GB18030, the former GB13000 standard). Its Edit control and Chinese input methods, including the nine-key input method, match the capabilities of Windows and Android input methods and are easy to extend.](https://gitee.com/liuxinouc/MonoGUI)  
-**Features** - A specialized GUI system for small electronic devices with monochrome screens, offering comprehensive features and an input method.  
+**Features** - A specialized GUI system for small electronic devices with monochrome screens, offering comprehensive features and an input method. It suits devices such as electronic dictionaries and label printers.  
 
 #### Key Points
 

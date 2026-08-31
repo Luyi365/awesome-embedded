@@ -14,7 +14,7 @@
 ### memory
 
 **Link** - [A Simple MCU Memory Management Module (with Source Code)](https://mp.weixin.qq.com/s/hWcoYVZE3SXgHC3ixrcP1A)  
-**Features** - A minimalist memory management module that only provides memory allocation and release, with no other features.  
+**Features** - Minimalist memory management module that only provides memory allocation and release, with no other features.  
 
 #### Key Points
 
@@ -27,7 +27,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/chenqy2018/mem_malloc)](https://github.com/chenqy2018/mem_malloc/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/chenqy2018/mem_malloc)](https://github.com/chenqy2018/mem_malloc/commits) | [![GitHub License](https://img.shields.io/github/license/chenqy2018/mem_malloc)]()
 
 **Link** - [chenqy2018/mem_malloc](https://github.com/chenqy2018/mem_malloc)  
-**Features** - A simple and practical memory management module that does not produce memory fragmentation.  
+**Features** - Simple and practical memory management module that does not produce memory fragmentation.  
 
 #### Key Points
 
@@ -41,7 +41,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/mattconte/tlsf)](https://github.com/mattconte/tlsf/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/mattconte/tlsf)](https://github.com/mattconte/tlsf/commits) | [![GitHub License](https://img.shields.io/github/license/mattconte/tlsf)]()
 
 **Link** - [mattconte/tlsf: Two-Level Segregated Fit memory allocator implementation.](https://github.com/mattconte/tlsf)  
-**Features** - A heap allocator using the TLSF algorithm. It supports dynamically adding and removing memory-pool regions, has $O(1)$ allocation complexity, and does not emphasize thread safety.  
+**Features** - Heap allocator using the TLSF algorithm. It supports dynamically adding and removing memory-pool regions, has $O(1)$ allocation complexity, and does not emphasize thread safety.  
 
 #### Key Points
 
@@ -52,7 +52,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwmem)](https://github.com/MaJerle/lwmem/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwmem)](https://github.com/MaJerle/lwmem/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwmem)]()
 
 **Link** - [LwMEM latest-develop documentation — LwMEM documentation](https://docs.majerle.eu/projects/lwmem/en/latest/)  
-**Features** - A professional memory management library with C++-like wrapper functions. It permits fragmented memory use and emphasizes RTOS thread safety.  
+**Features** - Professional memory management library with C++-like wrapper functions. It permits fragmented memory use and emphasizes RTOS thread safety.  
 
 #### Key Points
 
@@ -63,7 +63,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/jemalloc/jemalloc)](https://github.com/jemalloc/jemalloc/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/jemalloc/jemalloc)](https://github.com/jemalloc/jemalloc/commits) | [![GitHub License](https://img.shields.io/github/license/jemalloc/jemalloc)]()
 
 **Link** - [jemalloc](https://jemalloc.net/)  
-**Features** - A high-performance memory allocator suitable for large-scale memory allocation and release in multithreaded environments.  
+**Features** - High-performance memory allocator suitable for large-scale memory allocation and release in multithreaded environments.  
 
 #### Key Points
 
@@ -76,7 +76,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/taehyeon-masu/lwmalloc)](https://github.com/taehyeon-masu/lwmalloc/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/taehyeon-masu/lwmalloc)](https://github.com/taehyeon-masu/lwmalloc/commits) | [![GitHub License](https://img.shields.io/github/license/taehyeon-masu/lwmalloc)]()
 
 **Link** - [taehyeon-masu/lwmalloc --- taehyeon-masu/lwmalloc](https://github.com/taehyeon-masu/lwmalloc)  
-**Features** - A lightweight dynamic memory allocator for Linux, designed to replace the default ptmalloc allocator with better performance and memory usage.  
+**Features** - Lightweight dynamic memory allocator for Linux, designed to replace the default ptmalloc allocator with better performance and memory usage.  
 
 #### Key Points
 
@@ -100,7 +100,7 @@
 [![Gitee Repo stars](https://gitee.com/wtau_zaozao/eepromfs/badge/star.svg?theme=gvp)](https://gitee.com/wtau_zaozao/eepromfs/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wtau_zaozao/eepromfs&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wtau_zaozao/eepromfs&query=$.license&label=license)]()
 
 **Link** - [eepromfs: eepromfs is a simple file-like data read/write library based on EEPROM, making parameter management convenient when dynamically adding or removing functions. Adding and removing parameter blocks is like adding and removing files, without affecting existing stored data. Use it when EEPROM hardware resources are ample.](https://gitee.com/wtau_zaozao/eepromfs)  
-**Features** - A simple file-like data read/write library based on EEPROM. It is not a true file system, but simulates data reads and writes as files.  
+**Features** - Simple file-like data read/write library based on EEPROM. It is not a true file system, but simulates data reads and writes as files.  
 
 #### Key Points
 
@@ -114,7 +114,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/dlbeer/dhara)](https://github.com/dlbeer/dhara/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/dlbeer/dhara)](https://github.com/dlbeer/dhara/commits) | [![GitHub License](https://img.shields.io/github/license/dlbeer/dhara)]()
 
 **Link** - [dlbeer/dhara: NAND flash translation layer for low-memory systems](https://github.com/dlbeer/dhara)  
-**Features** - A NAND flash translation layer (FTL) for small microcontrollers.  
+**Features** - NAND flash translation layer (FTL) for small microcontrollers. It is mainly used to manage FLASH read, write, and erase operations. It sits between the FLASH device and the file system layer.  
 
 #### Key Points
 
@@ -127,7 +127,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/JayHeng/kFlashFile)](https://github.com/JayHeng/kFlashFile/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/JayHeng/kFlashFile)](https://github.com/JayHeng/kFlashFile/commits) | [![GitHub License](https://img.shields.io/github/license/JayHeng/kFlashFile)]()
 
 **Link** - [JayHeng/kFlashFile: A lightweight file-data storage solution based on NOR Flash. Primarily designed for the i.MX RT series, it can also be easily ported to other MCU platforms](https://github.com/JayHeng/kFlashFile)  
-**Features** - A lightweight file-data storage solution based on NOR Flash, primarily for projects that require data to be preserved after power loss.  
+**Features** - Lightweight file-data storage solution based on NOR Flash, primarily for projects that require data to be preserved after power loss.  
 
 #### Key Points
 
@@ -138,7 +138,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/espressif/esp-idf)](https://github.com/espressif/esp-idf/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/espressif/esp-idf?path=components/esp_partition)](https://github.com/espressif/esp-idf/commits) | [![GitHub License](https://img.shields.io/github/license/espressif/esp-idf)]()
 
 **Link** - [esp-idf/components/esp_partition at be06a6f5ffe36f9554cfc91fe2036e0fc85fea60 · espressif/esp-idf](https://github.com/espressif/esp-idf/tree/be06a6f5ffe36f9554cfc91fe2036e0fc85fea60/components/esp_partition)  
-**Features** - A partition-table library from ESP that wraps SPI Flash read/write operations and allows flash access by block.  
+**Features** - Partition-table library from ESP that wraps SPI Flash read/write operations and allows flash access by block.  
 
 #### Key Points
 
@@ -151,7 +151,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/espressif/esp-idf)](https://github.com/espressif/esp-idf/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/espressif/esp-idf?path=components/nvs_flash)](https://github.com/espressif/esp-idf/commits) | [![GitHub License](https://img.shields.io/github/license/espressif/esp-idf)]()
 
 **Link** - [esp-idf/components/nvs_flash at be06a6f5ffe36f9554cfc91fe2036e0fc85fea60 · espressif/esp-idf](https://github.com/espressif/esp-idf/tree/be06a6f5ffe36f9554cfc91fe2036e0fc85fea60/components/nvs_flash)  
-**Features** - A non-volatile storage library from ESP, primarily for storing key-value data in flash. Together with other ESP tools, it supports encryption, partition-image generation, and other functions.  
+**Features** - Non-volatile storage library from ESP, primarily for storing key-value data in flash. Together with other ESP tools, it supports encryption, partition-image generation, and other functions.  
 
 #### Key Points
 
@@ -229,7 +229,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 
 **Link** - [FatFs - Generic FAT Filesystem Module](http://elm-chan.org/fsw/ff/00index_e.html)  
 **8-bit microcontroller edition** - [Petit FAT File System Module](http://elm-chan.org/fsw/ff/00index_p.html)  
-**Features** - A portable, compact file system module supporting the exFAT file system, 64-bit LBA, and GPT. It can be configured with macros according to required functionality and emphasizes thread safety.  
+**Features** - Renowned file system library that is very easy to port, supporting the exFAT file system, 64-bit LBA, and GPT. It can be configured with macros according to functionality and emphasizes thread safety.  
 
 #### Key Points
 
@@ -252,7 +252,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 [![GitHub Repo stars](https://img.shields.io/github/stars/joembedded/JesFs)](https://github.com/joembedded/JesFs/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/joembedded/JesFs)](https://github.com/joembedded/JesFs/commits) | [![GitHub License](https://img.shields.io/github/license/joembedded/JesFs)]()
 
 **Link** - [joembedded/JesFs: Jo's Embedded Serial File System (for Standard Serial NOR-Flash)](https://github.com/joembedded/JesFs)  
-**Features** - A lightweight serial NOR flash file system designed for resource-constrained embedded systems. It is suitable for IoT use cases such as data collection, event logging, and firmware updates.  
+**Features** - Lightweight serial NOR flash file system designed for resource-constrained embedded systems. It is suitable for IoT use cases such as data collection, event logging, and firmware updates.  
 
 #### Key Points
 
@@ -265,7 +265,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-lightgrey.svg)](https://unlicense.org)
 
 **Link** - [RANFS - RFS](http://www.ranfs.com/cn/?RFS)  
-**Features** - A portable, compact file system module providing POSIX-compatible file operations and emphasizing efficiency and data reliability.  
+**Features** - Lightweight file system module providing POSIX-compatible file operations and emphasizing efficiency and data reliability.  
 
 #### Key Points
 
@@ -276,7 +276,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 [![GitHub Repo stars](https://img.shields.io/github/stars/littlefs-project/littlefs)](https://github.com/littlefs-project/littlefs/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/littlefs-project/littlefs)](https://github.com/littlefs-project/littlefs/commits) | [![GitHub License](https://img.shields.io/github/license/littlefs-project/littlefs)]()
 
 **Link** - [littlefs-project/littlefs: A little fail-safe filesystem designed for microcontrollers](https://github.com/littlefs-project/littlefs)  
-**Features** - A safe file system designed for microprocessors, with power-loss protection, wear leveling, low resource consumption, and other features.  
+**Features** - Safe file system designed for microprocessors, with power-loss protection, wear leveling, low resource consumption, and other features.  
 
 #### Key Points
 
@@ -287,7 +287,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 [![GitHub Repo stars](https://img.shields.io/github/stars/pellepl/spiffs)](https://github.com/pellepl/spiffs/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/pellepl/spiffs)](https://github.com/pellepl/spiffs/commits) | [![GitHub License](https://img.shields.io/github/license/pellepl/spiffs)]()
 
 **Link** - [pellepl/spiffs: Wear-leveled SPI flash file system for embedded devices](https://github.com/pellepl/spiffs)  
-**Features** - A file system designed for low memory (<=128MB), using statically sized ram buffers and providing wear leveling and other functions.  
+**Features** - File system designed for low memory (<=128MB), using statically sized ram buffers and providing wear leveling and other functions.  
 
 #### Key Points
 

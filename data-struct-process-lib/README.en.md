@@ -179,7 +179,7 @@
 [![License: xprintf](https://img.shields.io/badge/License-xprintf-blue.svg)]()
 
 **Link** - [ELM - Embedded String Functions](http://elm-chan.org/fsw/strf/xprintf.html)  
-**Features** - Embedded string functions that supplement conventional printf functionality and can dynamically write strings to different peripherals.  
+**Features** - Embedded string functions that substitute for conventional printf functionality and can dynamically write strings to different peripherals. Their main purpose is to interact with multiple peripherals rather than a terminal.  
 
 #### Key Points
 
@@ -190,7 +190,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ARM-software/CMSIS-Stream)](https://github.com/ARM-software/CMSIS-Stream/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ARM-software/CMSIS-Stream)](https://github.com/ARM-software/CMSIS-Stream/commits) | [![GitHub License](https://img.shields.io/github/license/ARM-software/CMSIS-Stream)]()
 
 **Link** - [ARM-software/CMSIS-Stream: CMSIS-Stream software component](https://github.com/ARM-software/CMSIS-Stream)  
-**Features** - An ARM-official data-stream processing component with graphical representations that requires Python and C++ together.  
+**Features** - An ARM-official data-stream processing component with graphical representations, suitable for professional projects and multi-device data-stream processing.  
 
 #### Key Points
 

@@ -14,7 +14,7 @@
 [![Gitee Repo stars](https://gitee.com/git-lib/dbugLib-Prj/badge/star.svg?theme=gvp)](https://gitee.com/git-lib/dbugLib-Prj/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/git-lib/dbugLib-Prj&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/git-lib/dbugLib-Prj&query=$.license&label=license)]()
 
 **链接**：[dbugLib Prj: 可移植调试诊断库](https://gitee.com/git-lib/dbugLib-Prj)  
-**特征**：精小的的日志库，仅提供输出显示功能，可以修改日志的级别用于过滤特定级别的日志。  
+**特征**：精小的的日志库，仅提供输出显示功能，可以修改日志的级别用于过滤特定级别的日志，相当于一般 SDK 自带的 printf 功能；  
 
 #### 要点
 
@@ -27,7 +27,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/rxi/log.c)](https://github.com/rxi/log.c/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/rxi/log.c)](https://github.com/rxi/log.c/commits) | [![GitHub License](https://img.shields.io/github/license/rxi/log.c)]()
 
 **链接**：[rxi/log.c: A simple logging library implemented in C99](https://github.com/rxi/log.c)  
-**特征**：极简的日志库，仅提供输出显示和记录功能，带有线程锁。  
+**特征**：极简的日志库，仅提供输出显示和记录功能。基于 C99 标准，不太适用于嵌入式领域。  
 
 #### 要点
 
@@ -102,7 +102,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/jiejieTop/cmd-parser)](https://github.com/jiejieTop/cmd-parser/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/jiejieTop/cmd-parser)](https://github.com/jiejieTop/cmd-parser/commits) | [![GitHub License](https://img.shields.io/github/license/jiejieTop/cmd-parser)]()
 
 **链接**：[jiejieTop/cmd-parser: 一个非常简单好用的命令解析器，占用资源极少极少，采用哈希算法超快匹配命令！](https://github.com/jiejieTop/cmd-parser)  
-**特征**：极简的命令解析库，支持忽略大小写。采用哈希算法，哈希算法为 O(n)。  
+**特征**：极简的命令解析库，就是通过字符串来触发函数，挺有意思的做法。  
 
 #### 要点
 
@@ -117,7 +117,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwshell)](https://github.com/MaJerle/lwshell/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwshell)](https://github.com/MaJerle/lwshell/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwshell)]()
 
 **链接**：[LwSHELL latest-develop documentation — LwSHELL documentation](https://docs.majerle.eu/projects/lwshell/en/latest/)  
-**特征**：轻量级命令行交互库，简单易用，附带命令描述。  
+**特征**：轻量级 shell 库，简单易用，附带命令描述。  
 
 #### 要点
 
@@ -130,7 +130,7 @@
 [![Gitee Repo stars](https://gitee.com/mazcpnt/debugcmd/badge/star.svg?theme=gvp)](https://gitee.com/mazcpnt/debugcmd/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/mazcpnt/debugcmd&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/mazcpnt/debugcmd&query=$.license&label=license)]()
 
 **链接**：[debugcmd: 【稳定版】灵活好用的调试命令接口](https://gitee.com/mazcpnt/debugcmd)  
-**特征**：功能完善的命令行解析库，提供Tab补全、帮助查看、子命令注册等功能。  
+**特征**：功能完善的命令行解析库，提供 Tab 补全、帮助查看、子命令注册等功能。  
 
 #### 要点
 
@@ -177,7 +177,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/XradioTech/xradio-skylark-sdk)](https://github.com/XradioTech/xradio-skylark-sdk/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/XradioTech/xradio-skylark-sdk?path=src/console)](https://github.com/XradioTech/xradio-skylark-sdk/commits) | [![GitHub License](https://img.shields.io/github/license/XradioTech/xradio-skylark-sdk)]()
 
 **链接**：[xradio-skylark-sdk/src/console at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/src/console)、[xradio-skylark-sdk/include/console at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/include/console)  
-**特征**：Xradio SDK 里提取的控制台库，命令采用分层结构，适合有多命令的时候，基于 RTOS。  
+**特征**：从全志科技 xr806 芯片里提取的控制台库，命令采用分层结构，适合有多命令的时候，基于 RTOS。  
 
 #### 要点
 
@@ -199,7 +199,7 @@
 [![Gitee Repo stars](https://gitee.com/gzbkey/easyShell/badge/star.svg?theme=gvp)](https://gitee.com/gzbkey/easyShell/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/easyShell&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/easyShell&query=$.license&label=license)]()
 
 **链接**：[easyShell: A simple microcontroller shell.一个简单易用的单片机shell。](https://gitee.com/gzbkey/easyShell)  
-**特征**：简单易用的单片机shell，支持tab补全。  
+**特征**：简单易用的单片机 shell，支持 tab 补全。  
 
 #### 要点
 

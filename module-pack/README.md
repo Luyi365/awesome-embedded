@@ -58,7 +58,7 @@
 [![Gitee Repo stars](https://gitee.com/MacRsh/mr-library/badge/star.svg?theme=gvp)](https://gitee.com/MacRsh/mr-library/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/MacRsh/mr-library&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/MacRsh/mr-library&query=$.license&label=license)]()
 
 **链接**：[mr-library: mr-library 是专为嵌入式系统设计的轻量级框架。充分考虑了嵌入式系统在资源和性能方面的需求。 通过提供标准化的开启(open)、关闭(close)、控制(ioctl)、读(read)、写(write) 等接口，极大简化了嵌入式应用开发的难度，帮助开发者快速构建嵌入式应用程序。](https://gitee.com/MacRsh/mr-library)  
-**特征**：嵌入式轻量级框架，提供标准化的驱动接口和简单的内核功能组件等。  
+**特征**：嵌入式轻量级框架，提供标准化的驱动接口和简单的内核功能组件等，是普通厂商级项目的首选。  
 
 #### 要点
 
@@ -119,7 +119,7 @@
 [![Gitee Repo stars](https://gitee.com/zlgmcuopen/ametal/badge/star.svg?theme=gvp)](https://gitee.com/zlgmcuopen/ametal/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/zlgmcuopen/ametal&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/zlgmcuopen/ametal&query=$.license&label=license)]()
 
 **链接**：[ametal: AMetal 是芯片级的裸机软件包，定义了跨平台的通用接口（使得基于 AMetal 的应用程序可以和具体硬件完全分离,实现跨平台复用），并提供了一系列驱动及常用的软件服务。](https://gitee.com/zlgmcuopen/ametal)  
-**特征**：软件包比较冗余，核心思想就是分为三层，即硬件层、驱动层（抽象层）和标准接口层。提供多个平台的通用接口，采用服务式框架搭建，将运行效率放在第一位。  
+**特征**：是 ZLG 旗下的软件包，涵盖了各类型的外设，并统一编写了抽象层接口。代码比较冗余，但类型比较全面。  
 
 #### 要点
 
@@ -136,7 +136,7 @@
 [![Gitee Repo stars](https://gitee.com/event-os/elab/badge/star.svg?theme=gvp)](https://gitee.com/event-os/elab/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/elab&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/elab&query=$.license&label=license)]()
 
 **链接**：[elab: eLab 是集成了多种技术和特性的嵌入式开发平台。](https://gitee.com/event-os/elab)  
-**特征**：综合开发平台，包含嵌入式所需大部分功能包，尤其注重跨平台开发和 PC 仿真。  
+**特征**：综合开发平台，包含嵌入式所需大部分功能包，尤其注重跨平台开发和 PC 仿真，特别适合对开发流程规范的项目。  
 
 #### 要点
 

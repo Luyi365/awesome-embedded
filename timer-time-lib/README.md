@@ -10,7 +10,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/0x1abin/MultiTimer)](https://github.com/0x1abin/MultiTimer/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/0x1abin/MultiTimer)](https://github.com/0x1abin/MultiTimer/commits) | [![GitHub License](https://img.shields.io/github/license/0x1abin/MultiTimer)]()
 
 **链接**：[0x1abin/MultiTimer: Software timers extend module for embedded](https://github.com/0x1abin/MultiTimer)  
-**特征**：取代传统的标志位判断方式，采用软件模拟定时器来更优雅更便捷地管理程序的时间触发时序。  
+**特征**：模拟的软件定时器模块，取代传统的标志位判断方式，操作与硬件定时器几乎一致。  
 
 #### 要点
 
@@ -35,7 +35,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/JayHeng/microseconds)](https://github.com/JayHeng/microseconds/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/JayHeng/microseconds)](https://github.com/JayHeng/microseconds/commits) | [![GitHub License](https://img.shields.io/github/license/JayHeng/microseconds)]()
 
 **链接**：[JayHeng/microseconds: General microseconds library for MCU | 适用 MCU 的通用微秒计时函数框架，适用 1MHz 以上时钟源](https://github.com/JayHeng/microseconds)  
-**特征**：基于 Cortex-M 内核的 SysTick 做的微秒级别定时器库，有阻塞和非阻塞延迟。  
+**特征**：基于 Cortex-M 内核的 SysTick 做的微秒级别定时器库，有阻塞和非阻塞延迟。一般的厂商都有提供定时器函数，这个主要针对芯片、定时器模块需要更换的场景。  
 
 #### 要点
 
@@ -48,7 +48,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/GorgonMeducer/perf_counter)](https://github.com/GorgonMeducer/perf_counter/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/GorgonMeducer/perf_counter)](https://github.com/GorgonMeducer/perf_counter/commits) | [![GitHub License](https://img.shields.io/github/license/GorgonMeducer/perf_counter)]()
 
 **链接**：[GorgonMeducer/perf_counter: A dedicated performance counter for Cortex-M systick. It shares the SysTick with users' original SysTick function without interfering it. This library will bring new functionalities, such as performance counter, delay_us and clock() service defined in time.h](https://github.com/GorgonMeducer/perf_counter)  
-**特征**：基于 Cortex-M 内核的 SysTick，不仅拥有基本的定时器功能，还具有代码段的周期测量、定时服务等功能，且支持 RTOS。  
+**特征**：基于 Cortex-M 内核的 SysTick，不仅拥有基本的定时器功能，还具有代码段的周期测量、定时服务等功能，且支持 RTOS。代码看起来复杂，适合公司级项目。  
 
 #### 要点
 

@@ -40,7 +40,7 @@
 [![Gitee Repo stars](https://gitee.com/cot_package/cot_task/badge/star.svg?theme=gvp)](https://gitee.com/cot_package/cot_task/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_task&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_task&query=$.license&label=license)]()
 
 **Link** - [cotTask: A module component for task scheduling on embedded devices using timers](https://gitee.com/cot_package/cot_task)  
-**Features** - A time-slice polling framework for initialization, startup, and task-scheduling management.  
+**Features** - A time-slice polling framework for initialization, startup, and task-scheduling management, with the ability to set task priorities.  
 
 #### Key Points
 
@@ -55,7 +55,7 @@
 [![Gitee Repo stars](https://gitee.com/moluo-tech/CodeBrick/badge/star.svg?theme=gvp)](https://gitee.com/moluo-tech/CodeBrick/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/CodeBrick&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/CodeBrick&query=$.license&label=license)]()
 
 **Link** - [CodeBrick: A practical MCU software management system without an OS, including a task polling framework, command manager, low-power management, ring buffer, and other practical modules.](https://gitee.com/moluo-tech/CodeBrick)  
-**Features** - A time-slice polling framework including task polling management, a command manager, low-power management, ring buffers, and other practical modules, without a driver layer.  
+**Features** - A time-slice polling framework that includes many practical modules, has no driver layer, and is simple and easy to use. It fits modern project development philosophy and is a bare-metal framework I really like; you could call it a top choice for ordinary projects.  
 
 #### Key Points
 
@@ -80,7 +80,7 @@
 [![Gitee Repo stars](https://gitee.com/schuck/cola_os/badge/star.svg?theme=gvp)](https://gitee.com/schuck/cola_os/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/schuck/cola_os&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/schuck/cola_os&query=$.license&label=license)]()
 
 **Link** - [cola_os: An OS implementing multitasking management in 300 lines of code. In much MCU development, functionality is simple and real-time requirements are not strict; using an RTOS seems wasteful, while many poorly managed tasks become chaotic, hence the idea of polling task management. Simple and easy to use! CSDN:https://blog.csdn.net/ziqi5543/article/details/101512722](https://gitee.com/schuck/cola_os)  
-**Features** - A foreground-background system containing an initcall initialization mechanism, an rt_thread-like hardware abstraction layer, a task pool, and a Timer pool.  
+**Features** - A foreground-background system suitable for bare metal that has power-consumption requirements, limited CPU performance, and somewhat complex functionality.  
 
 #### Key Points
 
@@ -138,7 +138,7 @@
 [![Gitee Repo stars](https://gitee.com/cot_package/cot_os/badge/star.svg?theme=gvp)](https://gitee.com/cot_package/cot_os/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_os&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_os&query=$.license&label=license)]()
 
 **Link** - [cotOs: A simple query-based cooperative multitasking scheduling system for embedded devices implemented with setjmp/longjmp](https://gitee.com/cot_package/cot_os)  
-**Features** - A simple query-based cooperative multitasking system that does not require timers for task switching; it creates tasks like RTOS does, but provides no other functions.  
+**Features** - A simple query-based cooperative multitasking system that does not require timers for task switching; it creates tasks just like an RTOS does, but provides no other functions. I really like it, and it feels absolutely cool.  
 
 #### Key Points
 
@@ -481,7 +481,7 @@
 ### Xiaomi Vela
 
 **Link** - [iot.mi.com/vela](https://iot.mi.com/vela)  
-**Features** - An IoT operating system from Xiaomi, built on [NuttX](#nuttx). Kernel creation.  
+**Features** - An IoT operating system from Xiaomi, built on the [NuttX](#nuttx) kernel at its foundation.  
 
 #### Key Points
 

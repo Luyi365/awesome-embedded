@@ -125,7 +125,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cherry-embedded/CherryUSB)](https://github.com/cherry-embedded/CherryUSB/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cherry-embedded/CherryUSB)](https://github.com/cherry-embedded/CherryUSB/commits) | [![GitHub License](https://img.shields.io/github/license/cherry-embedded/CherryUSB)]()
 
 **Link** - [GitHub - cherry-embedded/CherryUSB: Tiny and portable USB Stack (device & host) for embedded system with USB IP](https://github.com/cherry-embedded/CherryUSB)  
-**Features** - A highly portable USB host/device stack for embedded systems with USB IP.  
+**Features** - A USB host/device protocol stack for embedded systems (with USB IP). It is portable across platforms and suits chips that lack a built-in USB protocol stack.  
 
 #### Notes
 
