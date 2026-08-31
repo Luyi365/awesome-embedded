@@ -238,7 +238,7 @@
 
 #### Key Points
 
-- Log storage requires its companion: [EasyLogger](../log-term-lib/README.md#easylogger);
+- Log storage requires its companion: [EasyLogger](../log-term-lib/README.en.md#easylogger);
 
 ---
 

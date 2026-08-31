@@ -50,7 +50,7 @@
 
       flex_button_t *btn = (flex_button_t *)arg;
 
-      if(btn->id == Read_key()){    //矩阵按键是直接读取按键ID的
+      if(btn->id == Read_key()){    // For a matrix keypad, the key ID is read directly
           value = 1;
       }
       else{

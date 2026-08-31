@@ -188,7 +188,7 @@
 
 #### Key Points
 
-- Development may involve the [Rawdraw](../ui-menu-lib/README.md#rawdraw) and [OpenGL ES](../ui-menu-lib/README.md#opengl) libraries;
+- Development may involve the [Rawdraw](../ui-menu-lib/README.en.md#rawdraw) and [OpenGL ES](../ui-menu-lib/README.en.md#opengl) libraries;
 
 ---
 

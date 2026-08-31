@@ -165,7 +165,7 @@
 #### Common File Operation Wrappers:
 
 ```c
-// 写操作
+// Write operation
 static int file_opt_write(const char *filename, void *ptr, int size)
 {   
     FILE *fp;
@@ -193,7 +193,7 @@ static int file_opt_write(const char *filename, void *ptr, int size)
 ```
 
 ```c
-// 读操作
+// Read operation
 static int file_opt_read(const char *filename, void *ptr, int size)
 {
     FILE *fp;

@@ -3,7 +3,7 @@
 [中文](README.md) | **English**
 <!-- i18n:language-selector:end -->
 
-> This library was originally split into two parts, but I later realized that combining kernels and frameworks essentially creates a system or toolkit, so they are grouped together. Some frameworks that are not strongly related to kernels are not included here, such as the [menu framework](../ui-menu-lib/README.md#菜单框架).  
+> This library was originally split into two parts, but I later realized that combining kernels and frameworks essentially creates a system or toolkit, so they are grouped together. Some frameworks that are not strongly related to kernels are not included here, such as the [menu framework](../ui-menu-lib/README.en.md#menu-frameworks).  
 > Code libraries involving relatively low-level functionality are also included here.  
 >
 > The three concepts of <ins>events</ins>, <ins>messages</ins>, and <ins>data</ins> are easy to confuse; their focuses are as follows:
@@ -233,7 +233,7 @@
 [![Gitee Repo stars](https://gitee.com/wzh1845462801/dynamic_loader/badge/star.svg?theme=gvp)](https://gitee.com/wzh1845462801/dynamic_loader/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wzh1845462801/dynamic_loader&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wzh1845462801/dynamic_loader&query=$.license&label=license)]()
 
 **Link** - [dynamic_loader: This project is a function library that implements dynamic loading on microcontrollers (such as STM32). Similar to DLLs on Windows and SOs on Linux, it can dynamically load code from other storage media into RAM.](https://gitee.com/wzh1845462801/dynamic_loader)  
-**Features** - A dynamic-loading function library trimmed from the libdl source code of [RT-Thread](../sys-thread-lib/README.md#rt-thread). It is not coupled to the original OS and can be used on bare metal.  
+**Features** - A dynamic-loading function library trimmed from the libdl source code of [RT-Thread](../sys-thread-lib/README.en.md#rt-thread). It is not coupled to the original OS and can be used on bare metal.  
 
 #### Key Points
 
