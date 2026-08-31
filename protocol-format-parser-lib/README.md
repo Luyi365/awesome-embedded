@@ -1,4 +1,7 @@
 # 通信协议与格式解析库
+<!-- i18n:language-selector:start -->
+**中文** | [English](README.en.md)
+<!-- i18n:language-selector:end -->
 
 > 通信的概念与[板级总线协议库](../board-bus-lib/README.md)存在一定的交集，都会涉及到数据传输及处理。但我们这里单独再列出来，主要是区分带有「客户端 - 服务端」这样的多端侧设备通信协议，比较典型像网络协议、蓝牙协议等。
 

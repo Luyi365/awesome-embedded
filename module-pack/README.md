@@ -1,4 +1,7 @@
 # 模块集合包
+<!-- i18n:language-selector:start -->
+**中文** | [English](README.en.md)
+<!-- i18n:language-selector:end -->
 
 > 大多数模块集合包包含了各种各样的功能，无法对其进行子类划分，就都甩在这里了。
 

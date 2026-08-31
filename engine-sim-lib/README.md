@@ -1,4 +1,7 @@
 # 引擎（仿真）库
+<!-- i18n:language-selector:start -->
+**中文** | [English](README.en.md)
+<!-- i18n:language-selector:end -->
 
 > 引擎库就是在嵌入式里使其支持本不支持的编程语言。
 

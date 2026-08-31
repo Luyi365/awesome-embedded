@@ -1,4 +1,7 @@
 # 内核与基层框架库
+<!-- i18n:language-selector:start -->
+**中文** | [English](README.en.md)
+<!-- i18n:language-selector:end -->
 
 > 原来这个库分为二个部分，但后来发觉其实内核和框架结合一下就是系统或者工具集了，所以将它们归为一类，但某些与内核相关性不是很强的框架就没放在这里，例如[菜单框架](../ui-menu-lib/README.md#菜单框架)。  
 > 同时会把涉及到比较底层的代码库也放进来。  

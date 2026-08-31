@@ -1,4 +1,7 @@
 # 内存与文件系统库
+<!-- i18n:language-selector:start -->
+**中文** | [English](README.en.md)
+<!-- i18n:language-selector:end -->
 
 > 内存分为两种，一种是硬件层面上的，另一种是软件层面上的。  
 > 硬件上，指的是 EEROM 和 FLASH 这类芯片的接口层或是中间封装层；  

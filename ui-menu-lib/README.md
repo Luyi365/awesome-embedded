@@ -1,4 +1,7 @@
 # UI与菜单库
+<!-- i18n:language-selector:start -->
+**中文** | [English](README.en.md)
+<!-- i18n:language-selector:end -->
 
 > 参考：[何为渲染？](./appendix.md#何为渲染)  
 >

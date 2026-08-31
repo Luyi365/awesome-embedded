@@ -1,4 +1,7 @@
 # 校验、安全与引导、升级库
+<!-- i18n:language-selector:start -->
+**中文** | [English](README.en.md)
+<!-- i18n:language-selector:end -->
 
 > 一般校验和加密都是使用了类似的安全算法，而 DFU 又是间接的和安全相关。  
 

@@ -1,4 +1,7 @@
 # 芯片和工具链适配库
+<!-- i18n:language-selector:start -->
+**中文** | [English](README.en.md)
+<!-- i18n:language-selector:end -->
 
 > 对某单一类型芯片或指定工具链进行的支持库，一般厂商会提供 SDK 来做这些事。但对于一些太过于老旧的芯片则由网友们提供收集。
 

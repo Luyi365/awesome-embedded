@@ -1,4 +1,7 @@
 # 日志与终端交互库
+<!-- i18n:language-selector:start -->
+**中文** | [English](README.en.md)
+<!-- i18n:language-selector:end -->
 
 > 终端、shell、cli、log 等都有很多名称，这里就将只能输出或用于存储日志的库叫作日志库，而能够输入输出或命令解析的库叫作终端库。
 

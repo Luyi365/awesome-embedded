@@ -1,7 +1,13 @@
 # Awesome Embedded [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<!-- i18n:language-selector:start -->
+**中文** | [English](README.en.md)
+<!-- i18n:language-selector:end -->
+
+<!--lint disable awesome-list-item double-link-->
+
 > 一个精心整理的嵌入式开源代码库集合，并按照功能进行了细致的分类，涵盖了💥**绝大部分** 的开发场景！
-> 与大多数 [awesome](https://awesome.re) 库不同的是：除了对相关代码库进行收集整理，还对部分库的**使用要点**进行了记录📝。
+> 与大多数 awesome 库不同的是：除了对相关代码库进行收集整理，还对部分库的**使用要点**进行了记录📝。
 
 一个好的开源项目是社区共同努力的结果🤗，如果下面有你感兴趣的部分，十分欢迎大家通过 [Issues](https://github.com/Luyi365/Awesome-Embedded/issues) 进行留言：
 
@@ -16,7 +22,7 @@
 - [x] 增加许可证信息；
 - [x] 审查链接的有效性
 - [ ] 优化排版及格式
-- [ ] 考虑增加英文说明
+- [x] 考虑增加英文说明
 - [ ] 重写部分库的使用要点（最初是给我自己看的，所以有些内容是建立在已知的情况下而写，需要优化）
 
 ---
@@ -779,3 +785,5 @@
 我们欢迎大家的贡献！详情请参阅我们的[贡献指南](./CONTRIBUTING.md)。
 
 <p align="right"><a href="#-内容">⬆TOP</a></p>
+
+<!--lint enable awesome-list-item double-link-->

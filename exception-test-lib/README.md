@@ -1,4 +1,7 @@
 # 异常快照与测试库
+<!-- i18n:language-selector:start -->
+**中文** | [English](README.en.md)
+<!-- i18n:language-selector:end -->
 
 ## Coredump
 

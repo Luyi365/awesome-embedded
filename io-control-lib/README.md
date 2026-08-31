@@ -1,4 +1,7 @@
 # 引脚与控制库
+<!-- i18n:language-selector:start -->
+**中文** | [English](README.en.md)
+<!-- i18n:language-selector:end -->
 
 > 该库与操作引脚的相关功能为主，以及间接性的使用其特性，例如 PWM 这种。
 

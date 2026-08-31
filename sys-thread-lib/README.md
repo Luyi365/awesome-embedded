@@ -1,4 +1,7 @@
 # 系统与线程库
+<!-- i18n:language-selector:start -->
+**中文** | [English](README.en.md)
+<!-- i18n:language-selector:end -->
 
 > OS 一般分为两种，即裸机和 RTOS，但这里我分为五类：
 >
