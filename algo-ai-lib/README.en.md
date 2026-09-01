@@ -188,7 +188,7 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/tensorflow/tensorflow)](https://github.com/tensorflow/tensorflow/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/tensorflow/tensorflow)](https://github.com/tensorflow/tensorflow/commits) | [![GitHub License](https://img.shields.io/github/license/tensorflow/tensorflow)]()
 
-**Link** - [TensorFlow Lite | TensorFlow Chinese website](https://ai.google.dev/edge/litert?hl=zh-cn)  
+**Link** - [TensorFlow Lite | TensorFlow official website](https://ai.google.dev/edge/litert?hl=en)  
 **Features** - A well-known machine-learning library for deploying models to mobile devices, microcontrollers, and other edge devices for on-device machine learning.  
 
 #### Notes

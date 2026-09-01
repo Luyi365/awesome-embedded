@@ -128,7 +128,7 @@
 
 #### Key Points
 
-- Reference: [Unit Testing in ESP32 - ESP32 - ESP-IDF Programming Guide latest documentation](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/api-guides/unit-tests.html)
+- Reference: [Unit Testing in ESP32 - ESP32 - ESP-IDF Programming Guide latest documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/unit-tests.html)
 
 ---
 

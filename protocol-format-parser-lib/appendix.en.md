@@ -14,7 +14,7 @@ A protocol for improving traditional CGI performance. It addresses the bottlenec
 
 ---
 
-## What Is the cURL Command?
+## What Is the cURL Command
 
 Reference: [curl](https://curl.se)
 

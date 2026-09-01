@@ -248,8 +248,8 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/FreeRTOS/FreeRTOS)](https://github.com/FreeRTOS/FreeRTOS/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/FreeRTOS/FreeRTOS)](https://github.com/FreeRTOS/FreeRTOS/commits) | [![GitHub License](https://img.shields.io/github/license/FreeRTOS/FreeRTOS)]()
 
 **Link** - [FreeRTOS™ - FreeRTOS™](https://www.freertos.org)  
-**Independently Usable Components** - [FreeRTOS Core - FreeRTOS](https://www.freertos.org/zh-cn-cmn-s/freertos-core/overview.html)  
-**Components Dependent on the OS Kernel** - [FreeRTOS+ Feature libraries designed to work with FreeRTOS](https://www.freertos.org/zh-cn-cmn-s/FreeRTOS-Plus/index.html)  
+**Independently Usable Components** - [FreeRTOS Core - FreeRTOS](https://www.freertos.org/freertos-core/overview.html)  
+**Components Dependent on the OS Kernel** - [FreeRTOS+ Feature libraries designed to work with FreeRTOS](https://www.freertos.org/FreeRTOS-Plus/index.html)  
 **Features** - An OS used by many small vendors, with abundant online materials. It is fairly conventional and suitable for a basic project preparing to adopt an RTOS.  
 
 #### Key Points
@@ -328,7 +328,7 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/eclipse-threadx/rtos-docs)](https://github.com/eclipse-threadx/rtos-docs/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-threadx/rtos-docs)](https://github.com/eclipse-threadx/rtos-docs/commits) | [![GitHub License](https://img.shields.io/github/license/eclipse-threadx/rtos-docs)]()
 
-**Link** - [Microsoft Azure RTOS Documentation Center | Microsoft Learn](https://learn.microsoft.com/zh-cn/azure/rtos/)  
+**Link** - [Microsoft Azure RTOS Documentation Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/rtos/)  
 **Features** - Microsoft's RTOS, with a rich set of components.  
 
 #### Key Points

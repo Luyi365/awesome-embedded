@@ -345,12 +345,12 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/openthread/openthread)](https://github.com/openthread/openthread/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/openthread/openthread)](https://github.com/openthread/openthread/commits) | [![GitHub License](https://img.shields.io/github/license/openthread/openthread)]()
 
-**Link** - [OpenThread](https://openthread.io/?hl=zh-cn)  
+**Link** - [OpenThread](https://openthread.io/?hl=en)  
 **Features** - Google's open-source implementation of Thread.  
 
 #### Key Points
 
-- Reference: [Thread - ESP32 - ESP-IDF Programming Guide latest documentation](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/api-reference/network/esp_openthread.html)  
+- Reference: [Thread - ESP32 - ESP-IDF Programming Guide latest documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_openthread.html)  
   ESP wrapper layer: [esp-idf/components/openthread at be06a6f5ffe36f9554cfc91fe2036e0fc85fea60 · espressif/esp-idf](https://github.com/espressif/esp-idf/tree/be06a6f5ffe36f9554cfc91fe2036e0fc85fea60/components/openthread)；
 
 ---
@@ -815,7 +815,7 @@
 
 ### toml
 
-**Link** - [TOML: Tom's Obvious, Minimal Language](https://toml.io/cn/)  
+**Link** - [TOML: Tom's Obvious, Minimal Language](https://toml.io/en/)  
 **Features** - A data markup format that is more extensible than INI and lacks the deeply nested JSON and YAML indentation syntax; it is not widely known.  
 
 #### Key Points
@@ -853,7 +853,7 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/firestaradmin/Uart_Transfer_BIN_to_exFlash)](https://github.com/firestaradmin/Uart_Transfer_BIN_to_exFlash/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/firestaradmin/Uart_Transfer_BIN_to_exFlash)](https://github.com/firestaradmin/Uart_Transfer_BIN_to_exFlash/commits) | [![GitHub License](https://img.shields.io/github/license/firestaradmin/Uart_Transfer_BIN_to_exFlash)]()
 
-**Link** - [firestaradmin/Uart_Transfer_BIN_to_exFlash: STM32 serial-port programming of BIN files and font files [QT host application]](https://github.com/firestaradmin/Uart_Transfer_BIN_to_exFlash)  
+**Link** - [firestaradmin/Uart_Transfer_BIN_to_exFlash: STM32 serial-port programming of BIN files and font files \[QT host application\]](https://github.com/firestaradmin/Uart_Transfer_BIN_to_exFlash)  
 **Features** - Adds frame attributes to serial communication, enabling convenient and reliable data transfer to Flash.  
 
 #### Key Points

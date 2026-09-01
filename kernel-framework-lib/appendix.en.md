@@ -1,6 +1,6 @@
 ## About the `union` Type
 
-Reference: [Union declaration - cppreference.com](https://zh.cppreference.com/w/c/language/union)
+Reference: [Union declaration - cppreference.com](https://en.cppreference.com/w/c/language/union)
 
 The official documentation states: “<ins>A pointer to a union can be converted to a pointer to each of its members (if the union has a bit-field member, a pointer to the union can be converted to a pointer to the underlying type of the bit-field). Similarly, a pointer to any member of a structure can be converted to a pointer to the entire structure.</ins>” This explains how a union should be used.
 

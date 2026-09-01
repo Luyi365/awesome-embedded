@@ -138,7 +138,7 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/feaser/openblt)](https://github.com/feaser/openblt/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/feaser/openblt)](https://github.com/feaser/openblt/commits) | [![GitHub License](https://img.shields.io/github/license/feaser/openblt)]()
 
-**Link** - [homepage [OpenBLT Bootloader]](https://www.feaser.com/openblt/doku.php)  
+**Link** - [homepage \[OpenBLT Bootloader\]](https://www.feaser.com/openblt/doku.php)  
 **Features** - A well-known microcontroller bootloader library supporting 8-, 16-, and 32-bit microcontrollers.  
 
 #### Key Points

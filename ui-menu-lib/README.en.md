@@ -300,7 +300,7 @@
 
 [![License: LGPL v3](https://img.shields.io/badge/license-LGPL%20v3-blue.svg)](https://opensource.org/licenses/LGPL-3.0)
 
-**Link** - [Qt - Design and develop software for embedded devices](https://www.qt.io/zh-cn/product/develop-embedded-devices)  
+**Link** - [Qt - Design and develop software for embedded devices](https://www.qt.io/product/develop-embedded-devices)  
 **Features** - A GUI graphics library from QT, suitable for developers with QT experience, and requires payment.  
 
 #### Key Points

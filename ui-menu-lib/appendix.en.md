@@ -1,6 +1,6 @@
-## What Is Rendering?
+## What Is Rendering
 
-Reference: [Rendering - Wikipedia](https://zh.wikipedia.org/zh-cn/%E6%B8%B2%E6%9F%93)
+Reference: [Rendering - Wikipedia](https://en.wikipedia.org/wiki/Rendering_(computer_graphics))
 
 In the traditional sense, rendering is the process of turning code into a colorful page.  
 Modern rendering usually refers to a creative act that increases an image's realism and richness by adding depth, detail, lighting, and shadow. In embedded systems, rendering can be the process of converting graphical content into images or video that can be displayed on an embedded device screen. This process involves technologies and tools such as lighting, materials, textures, and visual effects, with the goal of making content appear more realistic and vivid. Unlike a GUI library, it is one part of a GUI, specializing in rendering and shading visual effects and requiring extensive computation and drawing.  

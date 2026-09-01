@@ -129,7 +129,7 @@
 
 [![Gitee Repo stars](https://gitee.com/mazcpnt/debugcmd/badge/star.svg?theme=gvp)](https://gitee.com/mazcpnt/debugcmd/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/mazcpnt/debugcmd&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/mazcpnt/debugcmd&query=$.license&label=license)]()
 
-**Link** - [debugcmd: [Stable Version] Flexible and Easy-to-Use Debug Command Interface](https://gitee.com/mazcpnt/debugcmd)  
+**Link** - [debugcmd: \[Stable Version\] Flexible and Easy-to-Use Debug Command Interface](https://gitee.com/mazcpnt/debugcmd)  
 **Features** - A feature-complete command-line parsing library providing Tab completion, help viewing, subcommand registration, and other functions.  
 
 #### Key Points
@@ -184,7 +184,7 @@
 - Command example: [xradio-skylark-sdk/project/common/cmd at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/project/common/cmd)；
 - Demo (common files): [xradio-skylark-sdk/project/demo/hello_demo at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/project/demo/hello_demo)；
 - Some dependent libraries are based on other files in the SDK;
-- Reference: [[XR806 Development Board Trial] Console Flow Analysis and Adding Custom Commands - Aijishu Community - Connecting Developers and the Intelligent Computing Ecosystem](https://aijishu.com/a/1060000000288360)；
+- Reference: [\[XR806 Development Board Trial\] Console Flow Analysis and Adding Custom Commands - Aijishu Community - Connecting Developers and the Intelligent Computing Ecosystem](https://aijishu.com/a/1060000000288360)；
 - APIs in the `cmd_util` file:
   - `cmd_main_exec` - The main command set, namely the outermost commands
   - `cmd_exec` - Subcommand set

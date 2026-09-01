@@ -118,7 +118,7 @@
 
 #### Key Points
 
-- Flash translation layer introduction: [Flash Translation Layer - Wikipedia, the Free Encyclopedia](https://zh.wikipedia.org/zh-cn/%E5%BF%AB%E9%96%83%E8%A8%98%E6%86%B6%E9%AB%94%E8%BD%89%E6%8F%9B%E5%B1%A4)
+- Flash translation layer introduction: [Flash Translation Layer - Wikipedia, the Free Encyclopedia](https://en.wikipedia.org/wiki/Flash_translation_layer)
 
 ---
 
@@ -142,7 +142,7 @@
 
 #### Key Points
 
-- Reference: [Partition Tables - ESP32 - — ESP-IDF Programming Guide latest documentation](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/api-guides/partition-tables.html#)
+- Reference: [Partition Tables - ESP32 - — ESP-IDF Programming Guide latest documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/partition-tables.html#)
 
 ---
 
@@ -155,14 +155,14 @@
 
 #### Key Points
 
-- Reference: [Non-Volatile Storage Library - ESP32 - — ESP-IDF Programming Guide latest documentation](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/api-reference/storage/nvs_flash.html#)；
+- Reference: [Non-Volatile Storage Library - ESP32 - — ESP-IDF Programming Guide latest documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/nvs_flash.html#)；
 - Based on the [esp_partition](#esp_partition) component;
 
 ---
 
 ## File Systems
 
-#### Common File Operation Wrappers:
+#### Common File Operation Wrappers
 
 ```c
 // Write operation
@@ -233,7 +233,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 
 #### Key Points
 
-- Guides: [FatFs Module Application Note](http://elm-chan.org/fsw/ff/doc/appnote.html)、 [24. Serial FLASH File System FatFs — [Wildfire] STM32 HAL Library Development Practice Guide — Based on the F103 Series Development Board Documentation](https://doc.embedfire.com/mcu/stm32/f103/hal_general/zh/latest/doc/chapter25/chapter25.html)；
+- Guides: [FatFs Module Application Note](http://elm-chan.org/fsw/ff/doc/appnote.html)、 [24. Serial FLASH File System FatFs — \[Wildfire\] STM32 HAL Library Development Practice Guide — Based on the F103 Series Development Board Documentation](https://doc.embedfire.com/mcu/stm32/f103/hal_general/zh/latest/doc/chapter25/chapter25.html)；
 - Storage that is too small cannot be used either; it is best to have >1M;
 - The `f_mkfs()` function is used for formatting;
 - Porting steps:
@@ -241,7 +241,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
   1. Add the “media access interface” (diskio.c);
   2. Call `FATFS_LinkDriver` for initialization; it is the FAT driver interface to memory;
   3. Use the “application interface” (ff.h) for operations;
-- Reference: [FAT File System - ESP32 - — ESP-IDF Programming Guide latest documentation](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/api-reference/storage/fatfs.html#)
+- Reference: [FAT File System - ESP32 - — ESP-IDF Programming Guide latest documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/fatfs.html#)
   ESP wrapper layer: [esp-idf/components/fatfs at be06a6f5ffe36f9554cfc91fe2036e0fc85fea60 · espressif/esp-idf](https://github.com/espressif/esp-idf/tree/be06a6f5ffe36f9554cfc91fe2036e0fc85fea60/components/fatfs), which can use the scripts [fatfsgen.py](https://github.com/espressif/esp-idf/blob/be06a6f/components/fatfs/fatfsgen.py) or [fatfsparse.py](https://github.com/espressif/esp-idf/blob/be06a6f/components/fatfs/fatfsparse.py) to generate a file image for flashing to the device;
 - The official project has also released an image-file code example: [FatFs Module Application Note](https://elm-chan.org/fsw/ff/doc/appnote.html#fs3)
 
@@ -292,7 +292,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 #### Key Points
 
 - Directories are not yet supported, but a flat structure can be generated. That is, if SPIFFS is mounted under `/spiffs`, creating a file at `/spiffs/tmp/myfile.txt` generates a file named `/tmp/myfile.txt` in SPIFFS rather than a file named `myfile.txt` under `/spiffs/tmp`;
-- Guide: [SPIFFS File System - ESP32 - — ESP-IDF Programming Guide latest documentation](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/api-reference/storage/spiffs.html#)
+- Guide: [SPIFFS File System - ESP32 - — ESP-IDF Programming Guide latest documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/spiffs.html#)
   ESP wrapper layer: [esp-idf/components/spiffs at master · espressif/esp-idf](https://github.com/espressif/esp-idf/tree/master/components/spiffs), which can use the script [spiffsgen.py](https://github.com/espressif/esp-idf/blob/be06a6f5ffe36f9554cfc91fe2036e0fc85fea60/components/spiffs/spiffsgen.py) or [mkspiffs](https://github.com/igrr/mkspiffs) to generate a file image for flashing to the device;
 - Three function interfaces must be implemented: `spiffs_read`, `spiffs_write`, and `spiffs_erase`
   When the `SPIFFS_HAL_CALLBACK_EXTRA` macro is enabled, the interface functions gain a parameter that receives the file system handle;
