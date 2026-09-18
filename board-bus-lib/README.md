@@ -94,6 +94,17 @@
 
 ---
 
+### i2cdevlib
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/jrowberg/i2cdevlib)](https://github.com/jrowberg/i2cdevlib/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/jrowberg/i2cdevlib)](https://github.com/jrowberg/i2cdevlib/commits) | [![GitHub License](https://img.shields.io/github/license/jrowberg/i2cdevlib)]()
+
+**链接**：[I2C Device Library](https://www.i2cdevlib.com/)  
+**特征**：使用 C++ 类的形式对 I2C 设备进行抽象，旨在方便 I2C 设备的接入和不同平台的移植。  
+
+#### 要点
+
+---
+
 ## SPI
 
 ### SFUD

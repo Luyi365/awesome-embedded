@@ -24,6 +24,8 @@
 - [ ] 优化排版及格式
 - [x] 考虑增加英文说明
 - [ ] 重写部分库的使用要点（最初是给我自己看的，所以有些内容是建立在已知的情况下而写，需要优化）
+- [ ] 考虑增加 POSIX 接口库
+- [ ] 增加创客项目分类
 
 ---
 
@@ -130,6 +132,7 @@
 - [RanFs](./mem-fs-lib/README.md#ranfs)：轻量型文件系统模块，提供 POSIX 兼容的文件操作，注重高效和数据可靠性。
 - [littlefs](./mem-fs-lib/README.md#littlefs)：专为微处理器设计的安全文件系统，具有掉电保护、擦写均衡、低资源消耗等功能。
 - [SPIFFS](./mem-fs-lib/README.md#spiffs)：专为低内存（<=128MB）而设计文件系统，使用静态大小的 ram 缓冲区，具有擦写均衡等功能。
+- [lwext4](./mem-fs-lib/README.md#lwext4)：提供适用于微控制器的 Ext2/3/4 文件系统，带有文件查找、抗断电能力，不具备磨损均衡功能。
 
 ---
 
@@ -152,6 +155,7 @@
 ### [I2C](./board-bus-lib/README.md#i2c)
 
 - ~~[i2c_scanner](./board-bus-lib/README.md#i2c_scanner)：i2c 设备扫描库，摘自 Nordic 的 SDK 库，能够扫描板载的 i2c 设备个数及设备地址。~~（待发布）
+- [i2cdevlib](./board-bus-lib/README.md#i2cdevlib)：使用 C++ 类的形式对 I2C 设备进行抽象，旨在方便 I2C 设备的接入和不同平台的移植。
 
 ### [SPI](./board-bus-lib/README.md#spi)
 
@@ -260,6 +264,10 @@
 - [mqttclient](./protocol-format-parser-lib/README.md#mqttclient)：高性能、高稳定性的跨平台 MQTT 客户端，拥有简洁的 API，无缝衔接 Mbed TLS 库，提供在线代码生成工具。
 - [Mosquitto](./protocol-format-parser-lib/README.md#mosquitto)：Eclipse 旗下的一个开源的消息代理（broker），主要用于实现 MQTT 协议。它设计轻巧，资源占用少，适合物联网领域的企业级项目。
 - [wolfMQTT](./protocol-format-parser-lib/README.md#wolfmqtt)：轻量化的 MQTT 协议客户端库，支持多个平台。
+
+### [RF](./protocol-format-parser-lib/README.md#rf)
+
+- [RadioLib](./protocol-format-parser-lib/README.md#radiolib)：基于 C++ 的通用无线通信库，支持将不同的模块、协议（OOK、FSK、LoRa 等）集成到统一的系统中。
 
 ### [Thread](./protocol-format-parser-lib/README.md#thread)
 
@@ -619,6 +627,8 @@
 - [CosyOS](./sys-thread-lib/README.md#cosyos)：零中断延迟的操作系统，可实现全局不关总中断而保持实时性，包含很多创新实用的内核功能。
 - [scmRTOS](./sys-thread-lib/README.md#scmrtos)：C++ 编写的轻量级的 RTOS，仅提供调度和消息等最基本的内核功能。
 - [MuditaOS](./sys-thread-lib/README.md#muditaos)：基于 FreeRTOS 构建，专为 E-Ink 显示屏优化的移动操作系统。
+- [egos-2000](./sys-thread-lib/README.md#egos-2000)：仅用 2000 行代码实现的极简 OS，包括（线程控制、内存管理、文件系统、总线 IO）等核心功能，附带详细的教学，旨在帮助学生理解系统原理。
+- [seL4](./sys-thread-lib/README.md#sel4)：专为高安全、高稳定领域所需打造的系统内核，提供细粒度访问控制、虚拟化和快速 IPC。
 
 ### [IoT-RTOS](./sys-thread-lib/README.md#iot-rtos)
 
@@ -639,6 +649,10 @@
 
 - [ROS](./sys-thread-lib/README.md#ros-1)：业界有名的开源机器人操作系统，它实现了一整套的软件库和工具集。
 - [AimRT](./sys-thread-lib/README.md#aimrt)：是一个基于 Modern C++ 开发，面向现代机器人领域的运行时开发框架。提供了全面的插件开发接口，具有高度可扩展性，与其他 ROS 生态兼容。
+
+### [Unix](./sys-thread-lib/README.md#unix)
+
+- [NetBSD/evbarm](./sys-thread-lib/README.md#netbsdevbarm)：不那么著名的精简 Unix 系统，但快速、安全、稳定且高度可移植，代码干净、设计规整。
 
 ---
 

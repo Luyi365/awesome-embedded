@@ -320,3 +320,14 @@ static int file_opt_read(const char *filename, void *ptr, int size)
     填写的 <base_dir> 为 `./resource/`，则生成的二进制文件是不包含“resource”这个路径的，使用时格式为：`/icon/charge`，而不是 ~~`resource/icon/charge`~~；
 
 ---
+
+### lwext4
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/gkostka/lwext4)](https://github.com/gkostka/lwext4/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/gkostka/lwext4)](https://github.com/gkostka/lwext4/commits) | [![GitHub License](https://img.shields.io/github/license/gkostka/lwext4)]()
+
+**链接**：[gkostka/lwext4: ext2/ext3/ext4 filesystem library for microcontrollers](https://github.com/gkostka/lwext4)  
+**特征**：提供适用于微控制器的 Ext2/3/4 文件系统，带有文件查找、抗断电能力，不具备磨损均衡功能。  
+
+#### 要点
+
+---

@@ -319,3 +319,14 @@ static int file_opt_read(const char *filename, void *ptr, int size)
     With <base_dir> set to `./resource/`, the generated binary file does not include the “resource” path. Use the format `/icon/charge`, not ~~`resource/icon/charge`~~;
 
 ---
+
+### lwext4
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/gkostka/lwext4)](https://github.com/gkostka/lwext4/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/gkostka/lwext4)](https://github.com/gkostka/lwext4/commits) | [![GitHub License](https://img.shields.io/github/license/gkostka/lwext4)]()
+
+**Link** - [gkostka/lwext4: ext2/ext3/ext4 filesystem library for microcontrollers](https://github.com/gkostka/lwext4)  
+**Features** - Provides an Ext2/3/4 file system for microcontrollers, with file lookup and power-loss resilience, but without wear leveling.  
+
+#### Key Points
+
+---

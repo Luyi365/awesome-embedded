@@ -443,6 +443,30 @@
 
 ---
 
+### egos-2000
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/yhzhang0128/egos-2000)](https://github.com/yhzhang0128/egos-2000/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/yhzhang0128/egos-2000)](https://github.com/yhzhang0128/egos-2000/commits) | [![GitHub License](https://img.shields.io/github/license/yhzhang0128/egos-2000)]()
+
+**链接**：[yhzhang0128/egos-2000: Envision a future where everyone can read all the code of an educational operating system.](https://github.com/yhzhang0128/egos-2000)  
+**特征**：仅用 2000 行代码实现的极简 OS，包括（线程控制、内存管理、文件系统、总线 IO）等核心功能，附带详细的教学，旨在帮助学生理解系统原理。  
+
+#### 要点
+
+---
+
+### seL4
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/seL4/seL4)](https://github.com/seL4/seL4/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/seL4/seL4)](https://github.com/seL4/seL4/commits) | [![GitHub License](https://img.shields.io/github/license/seL4/seL4)]()
+
+**链接**：[The seL4 Microkernel | seL4](https://sel4.systems)  
+**特征**：专为高安全、高稳定领域所需打造的系统内核，提供细粒度访问控制、虚拟化和快速 IPC。  
+
+#### 要点
+
+- 提供 Rust、MicroPython 等语言支持，以及开发套件，详见：[Tools, Frameworks & Languages | seL4](https://sel4.systems/tools.html)；
+
+---
+
 ## IoT-RTOS
 
 ### Contiki-NG
@@ -596,6 +620,21 @@
 
 **链接**：[aimrt.org](https://aimrt.org/)  
 **特征**：是一个基于 Modern C++ 开发，面向现代机器人领域的运行时开发框架。提供了全面的插件开发接口，具有高度可扩展性，与其他 ROS 生态兼容。  
+
+#### 要点
+
+---
+
+## Unix
+
+> Unix 系统通常需要 [MMU](./appendix.md#何为-mmu) 支持，对外提供 POSIX 接口，因此具备跨平台移植能力。
+
+### NetBSD/evbarm
+
+[![License: BSD 2--Clause](https://img.shields.io/badge/license-BSD%202--Clause-blue.svg)](https://opensource.org/licenses/BSD-2-Clause)
+
+**链接**：[NetBSD/evbarm](https://wiki.netbsd.org/ports/evbarm/)  
+**特征**：不那么著名的精简 Unix 系统，但快速、安全、稳定且高度可移植，代码干净、设计规整。  
 
 #### 要点
 

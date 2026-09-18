@@ -22,8 +22,10 @@ A good open-source project is the result of community effort. If anything below 
 - [x] Add license information;
 - [x] Review link validity
 - [ ] Improve layout and formatting
-- [ ] Add English documentation
+- [x] Add English documentation
 - [ ] Rewrite key usage notes for selected libraries
+- [ ] Consider adding POSIX-interface libraries
+- [ ] Add a maker-project category
 
 ---
 
@@ -130,6 +132,7 @@ A good open-source project is the result of community effort. If anything below 
 - [RanFs](./mem-fs-lib/README.en.md#ranfs) - Lightweight file system module providing POSIX-compatible file operations and emphasizing efficiency and data reliability.
 - [littlefs](./mem-fs-lib/README.en.md#littlefs) - Safe file system designed for microprocessors, with power-loss protection, wear leveling, low resource consumption, and other features.
 - [SPIFFS](./mem-fs-lib/README.en.md#spiffs) - File system designed for low memory (<=128MB), using statically sized ram buffers and providing wear leveling and other functions.
+- [lwext4](./mem-fs-lib/README.en.md#lwext4) - Provides an Ext2/3/4 file system for microcontrollers, with file lookup and power-loss resilience, but without wear leveling.
 
 ---
 
@@ -152,6 +155,7 @@ A good open-source project is the result of community effort. If anything below 
 ### [I2C](./board-bus-lib/README.en.md#i2c)
 
 - ~~[i2c_scanner](./board-bus-lib/README.en.md#i2c_scanner) - An I2C device-scanning library extracted from Nordic's SDK that can scan the number and addresses of onboard I2C devices.~~ (pending release)
+- [i2cdevlib](./board-bus-lib/README.en.md#i2cdevlib) - Abstracts I2C devices in the form of C++ classes, aiming to simplify I2C device integration and porting across different platforms.
 
 ### [SPI](./board-bus-lib/README.en.md#spi)
 
@@ -260,6 +264,10 @@ A good open-source project is the result of community effort. If anything below 
 - [mqttclient](./protocol-format-parser-lib/README.en.md#mqttclient) - A high-performance cross-platform MQTT client.
 - [Mosquitto](./protocol-format-parser-lib/README.en.md#mosquitto) - A lightweight Eclipse MQTT message broker.
 - [wolfMQTT](./protocol-format-parser-lib/README.en.md#wolfmqtt) - A lightweight multi-platform MQTT client library.
+
+### [RF](./protocol-format-parser-lib/README.en.md#rf)
+
+- [RadioLib](./protocol-format-parser-lib/README.en.md#radiolib) - C++-based universal wireless communication library that integrates various modules and protocols (OOK, FSK, LoRa, and more) into one unified system.
 
 ### [Thread](./protocol-format-parser-lib/README.en.md#thread)
 
@@ -619,6 +627,8 @@ A good open-source project is the result of community effort. If anything below 
 - [CosyOS](./sys-thread-lib/README.en.md#cosyos) - An operating system with zero interrupt latency that can maintain real-time performance without globally disabling interrupts, including many innovative and practical kernel functions.
 - [scmRTOS](./sys-thread-lib/README.en.md#scmrtos) - A lightweight RTOS written in C++, providing only the most basic kernel functions such as scheduling and messages.
 - [MuditaOS](./sys-thread-lib/README.en.md#muditaos) - A mobile operating system built on FreeRTOS, optimized specifically for E-Ink displays.
+- [egos-2000](./sys-thread-lib/README.en.md#egos-2000) - Minimalist OS implemented in just 2000 lines of code, covering core functions such as thread control, memory management, a file system, and bus IO, with detailed tutorials aimed at helping students understand how systems work.
+- [seL4](./sys-thread-lib/README.en.md#sel4) - System kernel built for high-security, high-reliability domains, providing fine-grained access control, virtualization, and fast IPC.
 
 ### [IoT-RTOS](./sys-thread-lib/README.en.md#iot-rtos)
 
@@ -639,6 +649,10 @@ A good open-source project is the result of community effort. If anything below 
 
 - [ROS](./sys-thread-lib/README.en.md#ros-1) - A well-known open-source robot operating system in the industry that implements a complete set of software libraries and tools.
 - [AimRT](./sys-thread-lib/README.en.md#aimrt) - A runtime development framework built with Modern C++ for modern robotics. It provides comprehensive plugin development interfaces, is highly extensible, and compatible with other ROS ecosystems.
+
+### [Unix](./sys-thread-lib/README.en.md#unix)
+
+- [NetBSD/evbarm](./sys-thread-lib/README.en.md#netbsdevbarm) - Not-so-famous minimalist Unix system that is nonetheless fast, secure, stable, and highly portable, with clean code and tidy design.
 
 ---
 

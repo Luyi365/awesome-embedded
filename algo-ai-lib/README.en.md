@@ -11,7 +11,7 @@
 **Link** - [Rounding, ceiling, floor, and exact-integer conversion - Gitee Code Snippet](https://gitee.com/Luyi365/codes/e5rg4nls0mda6831qb2i767)  
 **Features** - A library for rounding and integer conversion of floating-point data.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -22,7 +22,7 @@
 **Link** - [LibBF Library](https://bellard.org/libbf/)  
 **Features** - A high-precision floating-point arithmetic library that provides values with greater precision than standard floating-point types such as *float* and *double*, with flexible control over precision and rounding modes.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -33,7 +33,7 @@
 **Link** - [jj's useful and ugly FXT page](https://www.jjj.de/fxt/)  
 **Features** - A collection of C algorithms focused on bit manipulation, combinatorics, fast transforms, and more.  
 
-#### Notes
+#### Key Points
 
 - Meaning of combinatorics: [Combinatorics - Wikipedia](https://en.wikipedia.org/wiki/Combinatorics)
 
@@ -46,7 +46,7 @@
 **Link** - [xxHash - Extremely fast non-cryptographic hash algorithm](https://xxhash.com/)  
 **Features** - An extremely fast non-cryptographic hash algorithm that works under RAM and speed constraints and suits more demanding use cases.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -57,7 +57,7 @@
 **Link** - [EricLengyel/Terathon-Math-Library: C++ math library for 2D/3D/4D vector, matrix, quaternion, and geometric algebra.](https://github.com/EricLengyel/Terathon-Math-Library)  
 **Features** - A C++ mathematics library containing classes for vectors, matrices, quaternions, and projective geometric algebra elements. It can be used in graphics, AI, games, and related fields.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -70,7 +70,7 @@
 **Link** - [sipeed/TinyMaix: TinyMaix is a tiny inference library for microcontrollers (TinyML).](https://github.com/sipeed/TinyMaix)  
 **Features** - An AI neural-network inference framework designed for resource-constrained microcontrollers.  
 
-#### Notes
+#### Key Points
 
 1. Training models with [MaixHub](https://maixhub.com/welcome) is recommended.
 2. Supports bare-metal environments.
@@ -88,7 +88,7 @@
 **Link** - [konrad-gajdus/miniMNIST-c](https://github.com/konrad-gajdus/miniMNIST-c)  
 **Features** - A two-layer miniature neural network implemented in C, suitable for learning and basic embedded applications.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -99,7 +99,7 @@
 **Link** - [C Neural Network Library: Genann - Code Plea](https://codeplea.com/genann)  
 **Features** - A minimal, thoroughly tested neural-network library for training and using feedforward artificial neural networks (ANNs) in C.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -110,7 +110,7 @@
 **Link** - [uTensor/uTensor: TinyML AI inference library](https://github.com/uTensor/uTensor)  
 **Features** - An extremely lightweight machine-learning inference framework built on TensorFlow that imports trained models as C++ files.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -121,7 +121,7 @@
 **Link** - [majianjia/nnom: A higher-level Neural Network library for microcontrollers.](https://github.com/majianjia/nnom)  
 **Features** - A framework for running neural networks on MCUs. It is similar to [TinyMaix](#tinymaix) but offers more features.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -132,7 +132,7 @@
 **Link** - [PaddlePaddle - Open-source deep learning platform from industrial practice](https://www.paddlepaddle.org.cn/lite)  
 **Features** - A high-performance, lightweight, flexible, and extensible deep-learning inference framework targeting mobile, embedded, edge, and other hardware platforms.  
 
-#### Notes
+#### Key Points
 
 - Chinese documentation support is good.
 
@@ -145,7 +145,7 @@
 **Link** - [Apache TVM Chinese site](https://tvm.hyper.ai/)  
 **Features** - An end-to-end deep-learning compiler framework for CPU, GPU, ARM, and other hardware architectures.  
 
-#### Notes
+#### Key Points
 
 1. Supports bare-metal environments.
 
@@ -158,7 +158,7 @@
 **Link** - [tensorflow/tflite-micro: Infrastructure to enable deployment of ML models to low-power resource-constrained embedded targets (including microcontrollers and digital signal processors).](https://github.com/tensorflow/tflite-micro)  
 **Features** - TensorFlow Lite for microcontrollers, enabling deployment of machine-learning frameworks on MCUs.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -169,7 +169,7 @@
 **Link** - [Tencent/ncnn: ncnn is a high-performance neural network inference framework optimized for the mobile platform](https://github.com/Tencent/ncnn)  
 **Features** - A high-performance neural-network forward-computation framework highly optimized for mobile platforms. It supports most common CNN networks and can be deployed on some embedded chips.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -180,7 +180,7 @@
 **Link** - [alibaba/MNN: MNN is a blazing fast, lightweight deep learning framework, battle-tested by business-critical use cases in Alibaba](https://github.com/alibaba/MNN)  
 **Features** - A lightweight deep neural-network engine that supports deep-learning inference and training on embedded devices with POSIX interfaces.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -191,7 +191,7 @@
 **Link** - [TensorFlow Lite | TensorFlow official website](https://ai.google.dev/edge/litert?hl=en)  
 **Features** - A well-known machine-learning library for deploying models to mobile devices, microcontrollers, and other edge devices for on-device machine learning.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -202,7 +202,7 @@
 **Link** - [MediaPipe | Google for Developers](https://developers.google.com/mediapipe)  
 **Features** - Google's open-source cross-platform machine-learning framework. It provides tools that can be deployed to mobile, web, PC, and IoT devices, including models for object detection, image classification, face recognition, gesture recognition, text classification, language detection, and audio classification.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -211,7 +211,7 @@
 **Link** - [Edge Impulse - The Leading edge AI platform](https://edgeimpulse.com/)  
 **Features** - A popular embedded machine-learning development platform for data processing and analysis, model training, and model deployment.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -222,7 +222,7 @@
 **Link** - [YMCV: A cross-platform miniature computer-vision library](https://gitee.com/yao_mi/ymcv)  
 **Features** - A miniature computer-vision library written purely in C, with no dependencies, cross-platform support, and easy feature trimming.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -233,7 +233,7 @@
 **Link** - [GitHub - GiorgosXou/NeuralNetworks: A resource-conscious neural network library for microcontrollers, with partial bare-metal & native-os support.](https://github.com/GiorgosXou/NeuralNetworks)  
 **Features** - A neural-network library for MCUs that runs RNN, GRU, and LSTM architectures with very few resources and supports bare metal and some operating systems.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -244,7 +244,7 @@
 **Link** - [Knn algorithm - Gitee Code Snippet](https://gitee.com/Luyi365/codes/svnarwquze6g3l8hpo19i36)  
 **Features** - A very basic KNN algorithm written in C with no particular optimizations; it is not recommended.  
 
-#### Notes
+#### Key Points
 
 - It consumes substantial memory; see the source code for details.
 - Training and test data: [数据集.zip](assets/数据集-20231019211912-ejopzz4.zip).
@@ -259,7 +259,7 @@
 **Link** - [RangiLyu/nanodet: NanoDet-Plus⚡Super fast and lightweight anchor-free object detection model. 🔥Only 980 KB(int8) / 1.8MB (fp16) and run 97FPS on cellphone🔥](https://github.com/RangiLyu/nanodet)  
 **Features** - A super-fast, high-precision, lightweight anchor-free object-detection model implemented on a mobile AI framework.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -270,7 +270,7 @@
 **Link** - [nenadmarkus/pico: A minimalistic framework for real-time object detection (with a pre-trained face detector)](https://github.com/nenadmarkus/pico)  
 **Features** - A lightweight face-recognition algorithm based on pixel-intensity comparisons for object detection, suitable for single-purpose, low-traffic scenarios.  
 
-#### Notes
+#### Key Points
 
 - Introduction: [Sharing a lightweight open-source face-recognition algorithm](https://mp.weixin.qq.com/s/33VfAAxSOS_7VqLsgzqhkQ)
 

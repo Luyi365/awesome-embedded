@@ -20,7 +20,7 @@
 **Link** - [LwOW latest-develop documentation — LwOW documentation](https://docs.majerle.eu/projects/lwow/en/latest/)  
 **Features** - A professional 1-Wire protocol library that supports communication through UART or a single GPIO and provides thread-safe APIs.  
 
-#### Notes
+#### Key Points
 
 - Hardware performs timing control.
 
@@ -33,7 +33,7 @@
 **Link** - [jakeread/mudlink: Modular UART Duplex Link: cobs, crc, flow-control and delivery guarantees on any UART port in Arduino](https://github.com/jakeread/mudlink)  
 **Features** - Elevates UART serial communication to a link/transport layer, guarantees framed-packet delivery, and provides delivery assurance, flow control, and link-performance statistics.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -48,7 +48,7 @@
 **Link** - [dukelec/cdbus: CDBUS (Controller Distributed Bus) Protocol and IP Core](https://github.com/dukelec/cdbus)  
 **Features** - A simple, efficient fieldbus compatible with UART and RS-485 protocols and hardware. It introduces hardware packet segmentation and arbitration, allowing every node to send and receive packets freely.  
 
-#### Notes
+#### Key Points
 
 - The provided [CDNET](https://github.com/dukelec/cdnet) upper-layer protocol supports data-table access, printing, IAP, waveform display, and more.
 - The [CDNET TUN](https://github.com/dukelec/cdnet_tun) extension maps simple serial packets to PC IP/UDP packets.
@@ -64,7 +64,7 @@
 **Link** - [cwalter-at/freemodbus: BSD licensed MODBUS RTU/ASCII and TCP slave](https://github.com/cwalter-at/freemodbus)  
 **Features** - A Modbus protocol stack ported by armink, supporting both master and slave functionality.  
 
-#### Notes
+#### Key Points
 
 - ESP wrapper: [espressif/esp-modbus: ESP-Modbus - the officially suppported library for Modbus protocol (serial RS485 + TCP over WiFi or Ethernet).](https://github.com/espressif/esp-modbus)
 
@@ -77,7 +77,7 @@
 **Link** - [debevv/nanoMODBUS: A compact MODBUS RTU/TCP C library for embedded/microcontrollers](https://github.com/debevv/nanoMODBUS)  
 **Features** - A compact Modbus library that can be feature-trimmed as needed and is intended for resource-constrained environments.  
 
-#### Notes
+#### Key Points
 
 - Introduction: [An embedded developer's Modbus savior: a full industrial communication implementation in 2,000 lines](https://mp.weixin.qq.com/s/v57aGCb9d-IS_Z957vtktQ)
 
@@ -90,7 +90,18 @@
 **Link** - [I2C device scan - Gitee Code Snippet](https://gitee.com/Luyi365/codes/7yob95ircndjx2mzv14l013)  
 **Features** - An I2C device-scanning library extracted from Nordic's SDK that can scan the number and addresses of onboard I2C devices.  
 
-#### Notes
+#### Key Points
+
+---
+
+### i2cdevlib
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/jrowberg/i2cdevlib)](https://github.com/jrowberg/i2cdevlib/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/jrowberg/i2cdevlib)](https://github.com/jrowberg/i2cdevlib/commits) | [![GitHub License](https://img.shields.io/github/license/jrowberg/i2cdevlib)]()
+
+**Link** - [I2C Device Library](https://www.i2cdevlib.com/)  
+**Features** - Abstracts I2C devices in the form of C++ classes, aiming to simplify I2C device integration and porting across different platforms.  
+
+#### Key Points
 
 ---
 
@@ -103,7 +114,7 @@
 **Link** - [armink/SFUD: An using JEDEC's SFDP standard serial (SPI) flash universal driver library | 一款使用 JEDEC SFDP 标准的串行 (SPI) Flash 通用驱动库](https://github.com/armink/SFUD)  
 **Features** - An open-source universal serial SPI Flash driver library that supports a range of Flash chips through device tables.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -116,7 +127,7 @@
 **Link** - [TinyUSB](https://tinyusb.org)  
 **Features** - An open-source cross-platform USB host/device stack for embedded systems. It is memory-safe, uses no dynamic allocation, is thread-safe, and defers all interrupt events for handling in non-ISR task functions.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -127,7 +138,7 @@
 **Link** - [GitHub - cherry-embedded/CherryUSB: Tiny and portable USB Stack (device & host) for embedded system with USB IP](https://github.com/cherry-embedded/CherryUSB)  
 **Features** - A USB host/device protocol stack for embedded systems (with USB IP). It is portable across platforms and suits chips that lack a built-in USB protocol stack.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -140,7 +151,7 @@
 **Link** - [idf-extra-components/esp_serial_slave_link at master · espressif/idf-extra-components](https://github.com/espressif/idf-extra-components/tree/master/esp_serial_slave_link)  
 **Features** - ESP's serial slave link component, allowing a host to communicate with slaves through bus drivers and the corresponding protocol. In essence, it is MCU-to-MCU communication with an additional layer.  
 
-#### Notes
+#### Key Points
 
 ---
 
@@ -151,7 +162,7 @@
 **Link** - [SnapmakerController-IDEX/snapmaker/protocol at main · Snapmaker/SnapmakerController-IDEX](https://github.com/Snapmaker/SnapmakerController-IDEX/tree/main/snapmaker/protocol)  
 **Features** - Snapmaker's device data-communication protocol, implemented in C++ for communication among multiple devices in a complete machine.  
 
-#### Notes
+#### Key Points
 
 - Introduction: [Design and implementation of SACP, an embedded C/C++ communication protocol for multiple devices](https://mp.weixin.qq.com/s/Kj-9V5xJBlQQTgMj97O-Yw)
 - Related: [MVC Pattern](./appendix.en.md#mvc-pattern)

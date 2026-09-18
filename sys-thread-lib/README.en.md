@@ -443,6 +443,30 @@
 
 ---
 
+### egos-2000
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/yhzhang0128/egos-2000)](https://github.com/yhzhang0128/egos-2000/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/yhzhang0128/egos-2000)](https://github.com/yhzhang0128/egos-2000/commits) | [![GitHub License](https://img.shields.io/github/license/yhzhang0128/egos-2000)]()
+
+**Link** - [yhzhang0128/egos-2000: Envision a future where everyone can read all the code of an educational operating system.](https://github.com/yhzhang0128/egos-2000)  
+**Features** - Minimalist OS implemented in just 2000 lines of code, covering core functions such as thread control, memory management, a file system, and bus IO, with detailed tutorials aimed at helping students understand how systems work.  
+
+#### Key Points
+
+---
+
+### seL4
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/seL4/seL4)](https://github.com/seL4/seL4/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/seL4/seL4)](https://github.com/seL4/seL4/commits) | [![GitHub License](https://img.shields.io/github/license/seL4/seL4)]()
+
+**Link** - [The seL4 Microkernel | seL4](https://sel4.systems)  
+**Features** - System kernel built for high-security, high-reliability domains, providing fine-grained access control, virtualization, and fast IPC.  
+
+#### Key Points
+
+- Provides language support such as Rust and MicroPython, along with development kits; see: [Tools, Frameworks & Languages | seL4](https://sel4.systems/tools.html);
+
+---
+
 ## IoT-RTOS
 
 ### Contiki-NG
@@ -596,6 +620,21 @@
 
 **Link** - [aimrt.org](https://aimrt.org/)  
 **Features** - A runtime development framework built with Modern C++ for modern robotics. It provides comprehensive plugin development interfaces, is highly extensible, and compatible with other ROS ecosystems.  
+
+#### Key Points
+
+---
+
+## Unix
+
+> Unix systems usually require [MMU](./appendix.en.md#what-is-mmu) support and expose POSIX interfaces, so they have cross-platform porting capability.
+
+### NetBSD/evbarm
+
+[![License: BSD 2--Clause](https://img.shields.io/badge/license-BSD%202--Clause-blue.svg)](https://opensource.org/licenses/BSD-2-Clause)
+
+**Link** - [NetBSD/evbarm](https://wiki.netbsd.org/ports/evbarm/)  
+**Features** - Not-so-famous minimalist Unix system that is nonetheless fast, secure, stable, and highly portable, with clean code and tidy design.  
 
 #### Key Points
 
