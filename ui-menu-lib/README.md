@@ -232,6 +232,7 @@
 - NXP 旗下的免费图形化编辑器：[GUI Guider | NXP 半导体](https://www.nxp.com.cn/design/design-center/software/development-software/gui-guider:GUI-GUIDER)
 - lvgl 图形化编辑器：[SquareLine Studio - Design and build UIs with ease](https://squareline.io/)
 - 开源的 LVGL 界面编辑器：[CURTLab/LVGLBuilder: GUI Builder for littlevgl.](https://github.com/CURTLab/LVGLBuilder)
+- 在线 LVGL 编辑、仿真器：[anyui-LIVE | anyui](https://anyui.tech/zh/)
 
 ---
 

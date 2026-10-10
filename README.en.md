@@ -24,7 +24,6 @@ A good open-source project is the result of community effort. If anything below 
 - [ ] Improve layout and formatting
 - [x] Add English documentation
 - [ ] Rewrite key usage notes for selected libraries
-- [ ] Consider adding POSIX-interface libraries
 - [ ] Add a maker-project category
 
 ---
@@ -124,6 +123,7 @@ A good open-source project is the result of community effort. If anything below 
 - [kFlashFile](./mem-fs-lib/README.en.md#kflashfile) - Lightweight file-data storage solution based on NOR Flash, primarily for projects that require data to be preserved after power loss.
 - [esp_partition](./mem-fs-lib/README.en.md#esp_partition) - Partition-table library from ESP that wraps SPI Flash read/write operations and allows flash access by block.
 - [NVS](./mem-fs-lib/README.en.md#nvs) - Non-volatile storage library from ESP, primarily for storing key-value data in flash. Together with other ESP tools, it supports encryption, partition-image generation, and other functions.
+- [FlashStore](./mem-fs-lib/README.en.md#flashstore) - Uses A/B dual-page Flash storage with block-level access and power-loss protection; well suited to configuration parameters and infrequent updates.
 
 ### [File Systems](./mem-fs-lib/README.en.md#file-systems)
 
@@ -629,6 +629,7 @@ A good open-source project is the result of community effort. If anything below 
 - [MuditaOS](./sys-thread-lib/README.en.md#muditaos) - A mobile operating system built on FreeRTOS, optimized specifically for E-Ink displays.
 - [egos-2000](./sys-thread-lib/README.en.md#egos-2000) - Minimalist OS implemented in just 2000 lines of code, covering core functions such as thread control, memory management, a file system, and bus IO, with detailed tutorials aimed at helping students understand how systems work.
 - [seL4](./sys-thread-lib/README.en.md#sel4) - System kernel built for high-security, high-reliability domains, providing fine-grained access control, virtualization, and fast IPC.
+- [AkiraOS](./sys-thread-lib/README.en.md#akiraos) - Embedded platform built on Zephyr with modularity and security at its core, supporting C, Rust, or Python. It provides a WebAssembly (WASM) runtime and container technology, giving MCUs a phone-style app ecosystem.
 
 ### [IoT-RTOS](./sys-thread-lib/README.en.md#iot-rtos)
 
@@ -644,6 +645,7 @@ A good open-source project is the result of community effort. If anything below 
 - [Apache Mynewt OS](./sys-thread-lib/README.en.md#apache-mynewt-os) - An Apache OS designed for low-power wireless devices, with built-in Bluetooth and IEEE protocol stacks, ready to use out of the box.
 - [Mongoose OS](./sys-thread-lib/README.en.md#mongoose-os) - An IoT firmware development framework supporting C/JavaScript development, with good support for remote management and upgrades. The open-source edition has limited functionality.
 - [MicroPythonOS](./sys-thread-lib/README.en.md#micropythonos) - A lightweight, multifunctional operating system built with MicroPython, designed for microcontrollers such as ESP32 and desktop systems. It provides a modern Android-like touch interface, an app store, OTA, and more.
+- [RIOT](./sys-thread-lib/README.en.md#riot) - Security-focused IoT system supporting 8/16/32-bit MCUs. Its design principles are low power consumption, low resource usage, and modularity, and it also provides a wide range of peripheral drivers and a full network protocol stack.
 
 ### [ROS](./sys-thread-lib/README.en.md#ros)
 
@@ -781,16 +783,14 @@ For this reason, the collection is divided into three types: single-purpose, int
 - [Integrated-purpose](#integrated-purpose) - Packages or frameworks integrating multiple functions, organized by `domain`;
 - [Other](#other) - Libraries adapted only to specific chip types or engines;
 
-**Note: this collection does not list libraries that only support POSIX interfaces. Find them in [Other Related Open-Source Library Collections](#other-related-open-source-library-collections).* 
-
 ### Other Related Open-Source Library Collections
 
-- [EmbedSummary: Embedded resource collection](https://gitee.com/zhengnianli/EmbedSummary)
+- [zhengnianli/EmbedSummary: A curated collection of quality embedded resources](https://github.com/zhengnianli/EmbedSummary) (not updated for a long time)
 - [nhivp/Awesome-Embedded: A curated list of awesome embedded programming.](https://github.com/nhivp/Awesome-Embedded)
-- [fffaraz/awesome-cpp: A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.](https://github.com/fffaraz/awesome-cpp)
 - [ESP Component Registry](https://components.espressif.com)
-
-In addition, ESP32's official [ESP Component Registry](https://components.espressif.com) contains many libraries. The Arduino community also provides many libraries, searchable in the Arduino IDE or through [Arduino Library List - Arduino Libraries](https://www.arduinolibraries.info). Other vendor chips may require porting an [Arduino core](./engine-sim-lib/README.en.md#arduinocore-api).
+- [Arduino Library List - Arduino Libraries](https://www.arduinolibraries.info) (other vendors' chips need a ported [Arduino core](./engine-sim-lib/README.en.md#arduinocore-api))
+- [mim — MicroPython Package Manager & Directory](https://checkmim.com) (based on MicroPython)
+- [fffaraz/awesome-cpp: A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.](https://github.com/fffaraz/awesome-cpp) (general-purpose C/C++, not optimized for embedded)
 
 ---
 

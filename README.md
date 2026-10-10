@@ -24,7 +24,6 @@
 - [ ] 优化排版及格式
 - [x] 考虑增加英文说明
 - [ ] 重写部分库的使用要点（最初是给我自己看的，所以有些内容是建立在已知的情况下而写，需要优化）
-- [ ] 考虑增加 POSIX 接口库
 - [ ] 增加创客项目分类
 
 ---
@@ -124,6 +123,7 @@
 - [kFlashFile](./mem-fs-lib/README.md#kflashfile)：基于 NOR Flash 的轻量级文件数据存储方案，主要用于需要断电数据保存的项目。
 - [esp_partition](./mem-fs-lib/README.md#esp_partition)：ESP 旗下的分区表库，封装 SPI Flash 读写操作，允许以块为单位访问 flash。
 - [NVS](./mem-fs-lib/README.md#nvs)：ESP 旗下的非易失性存储库，主要用于在 flash 中存储键值格式的数据。配合 ESP 旗下的其他工具，支持加密、生成分区镜像等功能。
+- [FlashStore](./mem-fs-lib/README.md#flashstore)：采用 A/B 双页 Flash 存储方式，以块访问，带有掉电保护，适合配置参数、低频更新的场景。
 
 ### [文件系统](./mem-fs-lib/README.md#文件系统)
 
@@ -161,7 +161,7 @@
 
 - [SFUD](./board-bus-lib/README.md#sfud)：开源的串行 SPI Flash 通用驱动库，通过编写设备表，做到能适配各型号 Flash 芯片。
 
-### [板件通信](./board-bus-lib/README.md#板间通信)
+### [板间通信](./board-bus-lib/README.md#板间通信)
 
 - [ESSL](./board-bus-lib/README.md#essl)：ESP 旗下的串行从机链路，该组件能让主机通过总线驱动和相应的协议与从机进行通信。也可以说就是双 mcu 通讯，只是在上面套了一层壳。
 - [SACP](./board-bus-lib/README.md#sacp)：是 Snapmaker 设备的数据通信协议，基于 C++ 的专用于整机多设备的设备间通信。
@@ -629,6 +629,7 @@
 - [MuditaOS](./sys-thread-lib/README.md#muditaos)：基于 FreeRTOS 构建，专为 E-Ink 显示屏优化的移动操作系统。
 - [egos-2000](./sys-thread-lib/README.md#egos-2000)：仅用 2000 行代码实现的极简 OS，包括（线程控制、内存管理、文件系统、总线 IO）等核心功能，附带详细的教学，旨在帮助学生理解系统原理。
 - [seL4](./sys-thread-lib/README.md#sel4)：专为高安全、高稳定领域所需打造的系统内核，提供细粒度访问控制、虚拟化和快速 IPC。
+- [AkiraOS](./sys-thread-lib/README.md#akiraos)：基于 Zephyr 系统，以模块化和安全为核心的嵌入式平台，支持 C、Rust 或 Python 编码。提供 WebAssembly（WASM）运行时和容器技术，让 MCU 拥有如手机 APP 一般的应用生态。
 
 ### [IoT-RTOS](./sys-thread-lib/README.md#iot-rtos)
 
@@ -644,6 +645,7 @@
 - [Apache Mynewt OS](./sys-thread-lib/README.md#apache-mynewt-os)：Apache 旗下专为低功耗无线设备所设计的 OS，自带蓝牙协议栈和 IEEE 通信协议，开箱即用。
 - [Mongoose OS](./sys-thread-lib/README.md#mongoose-os)：物联网固件开发框架，支持 C/JavaScript 语言开发，对远程管理及升级有较好支持。开源版功能受限。
 - [MicroPythonOS](./sys-thread-lib/README.md#micropythonos)：MicroPython 构建的轻量级多功能作系统，专为 ESP32 和桌面系统等微控制器而设计，提供类似 Android 的现代触屏界面、应用商店、OTA 等功能。
+- [RIOT](./sys-thread-lib/README.md#riot)：支持 8/16/32 位 MCU 的物联网系统，注重安全性。以低能耗、低资源占用、模块化为设计原则，同时提供各种外设驱动和完整的网络协议栈功能。
 
 ### [ROS](./sys-thread-lib/README.md#ros)
 
@@ -781,16 +783,14 @@
 - [集功能](#集功能)：集成多个功能的软件包或框架系统等，分类原则是按照 `领域` 进行划分；
 - [其他](#其他)：只适配特定类型的芯片或引擎库；
 
-**注意：该开源库不记录仅适配 POSIX 接口的库，若需要请到[其他相关开源库汇总](#其他相关开源库汇总)中查找；*
-
 ### 其他相关开源库汇总
 
-- [EmbedSummary: 嵌入式大杂烩资源汇总](https://gitee.com/zhengnianli/EmbedSummary)
+- [zhengnianli/EmbedSummary: 精品嵌入式资源汇总](https://github.com/zhengnianli/EmbedSummary)（长时间未更新）
 - [nhivp/Awesome-Embedded: A curated list of awesome embedded programming.](https://github.com/nhivp/Awesome-Embedded)
-- [fffaraz/awesome-cpp: A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.](https://github.com/fffaraz/awesome-cpp)
 - [ESP Component Registry](https://components.espressif.com)
-
-除此之外，ESP32 官方组件——[ESP Component Registry](https://components.espressif.com) 里能寻到很多库；Arduino 社区也包含极多库，可在 Arduino IDE 应用内搜索，也可以在 [Arduino Library List - Arduino Libraries](https://www.arduinolibraries.info) 中搜索。其他厂商芯片在使用时需要移植[Arduino内核](./engine-sim-lib/README.md#arduinocore-api)。
+- [Arduino Library List - Arduino Libraries](https://www.arduinolibraries.info)（其他厂商芯片在使用时需要移植 [Arduino 内核](./engine-sim-lib/README.md#arduinocore-api)）
+- [mim — MicroPython Package Manager & Directory](https://checkmim.com)（基于 MicroPython 语言）
+- [fffaraz/awesome-cpp: A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.](https://github.com/fffaraz/awesome-cpp)（C/C++ 通用，非嵌入式优化）
 
 ---
 

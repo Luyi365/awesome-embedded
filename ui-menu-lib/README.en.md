@@ -232,6 +232,7 @@
 - NXP's free graphical editor: [GUI Guider | NXP Semiconductors](https://www.nxp.com.cn/design/design-center/software/development-software/gui-guider:GUI-GUIDER)
 - LVGL graphical editor: [SquareLine Studio - Design and build UIs with ease](https://squareline.io/)
 - Open-source LVGL interface editor: [CURTLab/LVGLBuilder: GUI Builder for littlevgl.](https://github.com/CURTLab/LVGLBuilder)
+- Online LVGL editor and simulator: [anyui-LIVE | anyui](https://anyui.tech/)
 
 ---
 

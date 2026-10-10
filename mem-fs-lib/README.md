@@ -161,6 +161,17 @@
 
 ---
 
+### FlashStore
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/createskyblue/flashstore-ab-partition)](https://github.com/createskyblue/flashstore-ab-partition/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/createskyblue/flashstore-ab-partition)](https://github.com/createskyblue/flashstore-ab-partition/commits) | [![GitHub License](https://img.shields.io/github/license/createskyblue/flashstore-ab-partition)]()
+
+**链接**：[createskyblue/flashstore-ab-partition: A/B dual-page flash storage for small MCUs. Zero dependencies. Stateless. | A/B 双页 Flash 存储，面向小型 MCU。零依赖，无状态。](https://github.com/createskyblue/flashstore-ab-partition)  
+**特征**：采用 A/B 双页 Flash 存储方式，以块访问，带有掉电保护，适合配置参数、低频更新的场景。  
+
+#### 要点
+
+---
+
 ## 文件系统
 
 #### 文件操作常用封装

@@ -160,6 +160,17 @@
 
 ---
 
+### FlashStore
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/createskyblue/flashstore-ab-partition)](https://github.com/createskyblue/flashstore-ab-partition/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/createskyblue/flashstore-ab-partition)](https://github.com/createskyblue/flashstore-ab-partition/commits) | [![GitHub License](https://img.shields.io/github/license/createskyblue/flashstore-ab-partition)]()
+
+**Link** - [createskyblue/flashstore-ab-partition: A/B dual-page flash storage for small MCUs. Zero dependencies. Stateless.](https://github.com/createskyblue/flashstore-ab-partition)  
+**Features** - Uses A/B dual-page Flash storage with block-level access and power-loss protection; well suited to configuration parameters and infrequent updates.  
+
+#### Key Points
+
+---
+
 ## File Systems
 
 #### Common File Operation Wrappers

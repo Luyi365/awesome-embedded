@@ -467,6 +467,17 @@
 
 ---
 
+### AkiraOS
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/ArturR0k3r/AkiraOS)](https://github.com/ArturR0k3r/AkiraOS/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ArturR0k3r/AkiraOS)](https://github.com/ArturR0k3r/AkiraOS/commits) | [![GitHub License](https://img.shields.io/github/license/ArturR0k3r/AkiraOS)]()
+
+**Link** - [AkiraPlatform — The Expo for Embedded](https://akiraos.dev/)  
+**Features** - Embedded platform built on [Zephyr](#zephyr) with modularity and security at its core, supporting C, Rust, or Python. It provides a WebAssembly (WASM) runtime and container technology, giving MCUs a phone-style app ecosystem.  
+
+#### Key Points
+
+---
+
 ## IoT-RTOS
 
 ### Contiki-NG
@@ -594,6 +605,17 @@
 
 **Link** - [MicroPythonOS - The Ultimate MicroPython Operating System](https://micropythonos.com/)  
 **Features** - A lightweight, multifunctional operating system built with MicroPython, designed for microcontrollers such as ESP32 and desktop systems. It provides a modern Android-like touch interface, an app store, OTA, and more.  
+
+#### Key Points
+
+---
+
+### RIOT
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/RIOT-OS/RIOT)](https://github.com/RIOT-OS/RIOT/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/RIOT-OS/RIOT)](https://github.com/RIOT-OS/RIOT/commits) | [![GitHub License](https://img.shields.io/github/license/RIOT-OS/RIOT)]()
+
+**Link** - [RIOT - The friendly Operating System for the Internet of Things](https://www.riot-os.org/)  
+**Features** - Security-focused IoT system supporting 8/16/32-bit MCUs. Its design principles are low power consumption, low resource usage, and modularity, and it also provides a wide range of peripheral drivers and a full network protocol stack.  
 
 #### Key Points
 

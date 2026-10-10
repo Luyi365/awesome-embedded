@@ -467,6 +467,17 @@
 
 ---
 
+### AkiraOS
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/ArturR0k3r/AkiraOS)](https://github.com/ArturR0k3r/AkiraOS/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ArturR0k3r/AkiraOS)](https://github.com/ArturR0k3r/AkiraOS/commits) | [![GitHub License](https://img.shields.io/github/license/ArturR0k3r/AkiraOS)]()
+
+**链接**：[AkiraPlatform — The Expo for Embedded](https://akiraos.dev/)  
+**特征**：基于 [Zephyr](#zephyr) 系统，以模块化和安全为核心的嵌入式平台，支持 C、Rust 或 Python 编码。提供 WebAssembly（WASM）运行时和容器技术，让 MCU 拥有如手机 APP 一般的应用生态。  
+
+#### 要点
+
+---
+
 ## IoT-RTOS
 
 ### Contiki-NG
@@ -594,6 +605,17 @@
 
 **链接**：[MicroPythonOS - The Ultimate MicroPython Operating System](https://micropythonos.com/)  
 **特征**：MicroPython 构建的轻量级多功能作系统，专为 ESP32 和桌面系统等微控制器而设计，提供类似 Android 的现代触屏界面、应用商店、OTA 等功能。  
+
+#### 要点
+
+---
+
+### RIOT
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/RIOT-OS/RIOT)](https://github.com/RIOT-OS/RIOT/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/RIOT-OS/RIOT)](https://github.com/RIOT-OS/RIOT/commits) | [![GitHub License](https://img.shields.io/github/license/RIOT-OS/RIOT)]()
+
+**链接**：[RIOT - The friendly Operating System for the Internet of Things](https://www.riot-os.org/)  
+**特征**：支持 8/16/32 位 MCU 的物联网系统，注重安全性。以低能耗、低资源占用、模块化为设计原则，同时提供各种外设驱动和完整的网络协议栈功能。  
 
 #### 要点
 
