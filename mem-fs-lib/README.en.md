@@ -341,3 +341,16 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 #### Key Points
 
 ---
+
+### UTFS
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/clisystems/utfs)](https://github.com/clisystems/utfs/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/clisystems/utfs)](https://github.com/clisystems/utfs/commits) | [![GitHub License](https://img.shields.io/github/license/clisystems/utfs)]()
+
+**Link** - [clisystems/utfs: UTFS a Tar-like Embedded File System](https://github.com/clisystems/utfs)  
+**Features** - Tiny TAR-like <sup>(short for Tape Archive, an archive format designed for tape drives in the 1970s)</sup> embedded file system that aims to keep the storage layout from being broken as data changes; it has no directories, wear leveling, or journaling.  
+
+#### Key Points
+
+- Introduction: [UTFS a Tar-like File System for Embedded Systems | CLI Systems](https://clisystems.com/article-UTFS-intro)
+
+---

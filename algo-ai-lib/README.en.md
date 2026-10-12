@@ -50,6 +50,19 @@
 
 ---
 
+### hash-wasm
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/Daninet/hash-wasm)](https://github.com/Daninet/hash-wasm/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Daninet/hash-wasm)](https://github.com/Daninet/hash-wasm/commits) | [![GitHub License](https://img.shields.io/github/license/Daninet/hash-wasm)]()
+
+**Link** - [Daninet/hash-wasm: Lightning fast hash functions using hand-tuned WebAssembly binaries](https://github.com/Daninet/hash-wasm)  
+**Features** - Lightweight hash-function library offering more than twenty common hash algorithms, with benchmarks included.  
+
+#### Key Points
+
+- The original library depends on a WebAssembly environment, so you need to replace the `./src/hash-wasm.h` glue layer yourself; ~~Example~~ (pending release)
+
+---
+
 ### Terathon Math Library
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/EricLengyel/Terathon-Math-Library)](https://github.com/EricLengyel/Terathon-Math-Library/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/EricLengyel/Terathon-Math-Library)](https://github.com/EricLengyel/Terathon-Math-Library/commits) | [![GitHub License](https://img.shields.io/github/license/EricLengyel/Terathon-Math-Library)]()

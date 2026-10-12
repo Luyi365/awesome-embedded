@@ -50,6 +50,19 @@
 
 ---
 
+### hash-wasm
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/Daninet/hash-wasm)](https://github.com/Daninet/hash-wasm/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Daninet/hash-wasm)](https://github.com/Daninet/hash-wasm/commits) | [![GitHub License](https://img.shields.io/github/license/Daninet/hash-wasm)]()
+
+**链接**：[Daninet/hash-wasm: Lightning fast hash functions using hand-tuned WebAssembly binaries](https://github.com/Daninet/hash-wasm)  
+**特征**：轻量级的哈希函数库，提供了二十多种常见的哈希算法，带有基准测试。  
+
+#### 要点
+
+- 源库依赖 WebAssembly 环境，需要自己替换 `./src/hash-wasm.h` 胶水层；~~示例~~（待发布）
+
+---
+
 ### Terathon Math Library
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/EricLengyel/Terathon-Math-Library)](https://github.com/EricLengyel/Terathon-Math-Library/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/EricLengyel/Terathon-Math-Library)](https://github.com/EricLengyel/Terathon-Math-Library/commits) | [![GitHub License](https://img.shields.io/github/license/EricLengyel/Terathon-Math-Library)]()

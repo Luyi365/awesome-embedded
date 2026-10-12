@@ -342,3 +342,16 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 #### 要点
 
 ---
+
+### UTFS
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/clisystems/utfs)](https://github.com/clisystems/utfs/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/clisystems/utfs)](https://github.com/clisystems/utfs/commits) | [![GitHub License](https://img.shields.io/github/license/clisystems/utfs)]()
+
+**链接**：[clisystems/utfs: UTFS a Tar-like Embedded File System](https://github.com/clisystems/utfs)  
+**特征**：类 TAR <sup>（是（Tape Archive）的缩写，为 1970 年代磁带机设计的归档格式。）</sup>的微型嵌入式文件系统，旨在解决存储介质受数据变化而导致布局被破坏的问题，无目录、磨损均衡、日志等功能。  
+
+#### 要点
+
+- 使用介绍：[UTFS a Tar-like File System for Embedded Systems | CLI Systems](https://clisystems.com/article-UTFS-intro)
+
+---

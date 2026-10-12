@@ -21,10 +21,12 @@
 
 - [x] 增加许可证信息；
 - [x] 审查链接的有效性
-- [ ] 优化排版及格式
+- [x] 优化排版及格式
 - [x] 考虑增加英文说明
 - [ ] 重写部分库的使用要点（最初是给我自己看的，所以有些内容是建立在已知的情况下而写，需要优化）
 - [ ] 增加创客项目分类
+- [ ] 增加工具分类
+- [ ] 开放列表中需要权限的代码库
 
 ---
 
@@ -133,6 +135,7 @@
 - [littlefs](./mem-fs-lib/README.md#littlefs)：专为微处理器设计的安全文件系统，具有掉电保护、擦写均衡、低资源消耗等功能。
 - [SPIFFS](./mem-fs-lib/README.md#spiffs)：专为低内存（<=128MB）而设计文件系统，使用静态大小的 ram 缓冲区，具有擦写均衡等功能。
 - [lwext4](./mem-fs-lib/README.md#lwext4)：提供适用于微控制器的 Ext2/3/4 文件系统，带有文件查找、抗断电能力，不具备磨损均衡功能。
+- [UTFS](./mem-fs-lib/README.md#utfs)：类 TAR 的微型嵌入式文件系统，旨在解决存储介质受数据变化而导致布局被破坏的问题，无目录、磨损均衡、日志等功能。
 
 ---
 
@@ -558,6 +561,7 @@
 
 - [FXT](./algo-ai-lib/README.md#fxt)：C 语言的算法库集合，专注于位运算、组合数学、快速变换等。
 - [xxHash](./algo-ai-lib/README.md#xxhash)：是一种速度极快的非加密哈希算法，可在 RAM 、速度限制下工作，适合更专业的使用场景。
+- [hash-wasm](./algo-ai-lib/README.md#hash-wasm)：轻量级的哈希函数库，提供了二十多种常见的哈希算法，带有基准测试。
 - [Terathon Math Library](./algo-ai-lib/README.md#terathon-math-library)：一个用 C++ 写成的数学库，包含向量、矩阵、四元数和射影几何代数元素的类。可用于图形、AI、游戏等领域。
 
 ### [AI框架](./algo-ai-lib/README.md#ai框架)
@@ -787,7 +791,7 @@
 
 - [zhengnianli/EmbedSummary: 精品嵌入式资源汇总](https://github.com/zhengnianli/EmbedSummary)（长时间未更新）
 - [nhivp/Awesome-Embedded: A curated list of awesome embedded programming.](https://github.com/nhivp/Awesome-Embedded)
-- [ESP Component Registry](https://components.espressif.com)
+- [ESP Component Registry](https://components.espressif.com)（ESP32 组件库）
 - [Arduino Library List - Arduino Libraries](https://www.arduinolibraries.info)（其他厂商芯片在使用时需要移植 [Arduino 内核](./engine-sim-lib/README.md#arduinocore-api)）
 - [mim — MicroPython Package Manager & Directory](https://checkmim.com)（基于 MicroPython 语言）
 - [fffaraz/awesome-cpp: A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.](https://github.com/fffaraz/awesome-cpp)（C/C++ 通用，非嵌入式优化）

@@ -21,10 +21,12 @@ A good open-source project is the result of community effort. If anything below 
 
 - [x] Add license information;
 - [x] Review link validity
-- [ ] Improve layout and formatting
+- [x] Improve layout and formatting
 - [x] Add English documentation
 - [ ] Rewrite key usage notes for selected libraries
 - [ ] Add a maker-project category
+- [ ] Add a tools category
+- [ ] Open up the repositories in the list that require access permissions
 
 ---
 
@@ -133,6 +135,7 @@ A good open-source project is the result of community effort. If anything below 
 - [littlefs](./mem-fs-lib/README.en.md#littlefs) - Safe file system designed for microprocessors, with power-loss protection, wear leveling, low resource consumption, and other features.
 - [SPIFFS](./mem-fs-lib/README.en.md#spiffs) - File system designed for low memory (<=128MB), using statically sized ram buffers and providing wear leveling and other functions.
 - [lwext4](./mem-fs-lib/README.en.md#lwext4) - Provides an Ext2/3/4 file system for microcontrollers, with file lookup and power-loss resilience, but without wear leveling.
+- [UTFS](./mem-fs-lib/README.en.md#utfs) - Tiny TAR-like embedded file system that aims to keep the storage layout from being broken as data changes; it has no directories, wear leveling, or journaling.
 
 ---
 
@@ -558,6 +561,7 @@ A good open-source project is the result of community effort. If anything below 
 
 - [FXT](./algo-ai-lib/README.en.md#fxt) - A collection of C algorithms focused on bit manipulation, combinatorics, fast transforms, and more.
 - [xxHash](./algo-ai-lib/README.en.md#xxhash) - An extremely fast non-cryptographic hash algorithm that works under RAM and speed constraints and suits more demanding use cases.
+- [hash-wasm](./algo-ai-lib/README.en.md#hash-wasm) - Lightweight hash-function library offering more than twenty common hash algorithms, with benchmarks included.
 - [Terathon Math Library](./algo-ai-lib/README.en.md#terathon-math-library) - A C++ mathematics library containing classes for vectors, matrices, quaternions, and projective geometric algebra elements. It can be used in graphics, AI, games, and related fields.
 
 ### [AI Frameworks](./algo-ai-lib/README.en.md#ai-frameworks)
@@ -787,7 +791,7 @@ For this reason, the collection is divided into three types: single-purpose, int
 
 - [zhengnianli/EmbedSummary: A curated collection of quality embedded resources](https://github.com/zhengnianli/EmbedSummary) (not updated for a long time)
 - [nhivp/Awesome-Embedded: A curated list of awesome embedded programming.](https://github.com/nhivp/Awesome-Embedded)
-- [ESP Component Registry](https://components.espressif.com)
+- [ESP Component Registry](https://components.espressif.com) (ESP32 component library)
 - [Arduino Library List - Arduino Libraries](https://www.arduinolibraries.info) (other vendors' chips need a ported [Arduino core](./engine-sim-lib/README.en.md#arduinocore-api))
 - [mim — MicroPython Package Manager & Directory](https://checkmim.com) (based on MicroPython)
 - [fffaraz/awesome-cpp: A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.](https://github.com/fffaraz/awesome-cpp) (general-purpose C/C++, not optimized for embedded)
