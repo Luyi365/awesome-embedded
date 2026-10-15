@@ -55,7 +55,7 @@
 [![Gitee Repo stars](https://gitee.com/Polarix/simplegui/badge/star.svg?theme=gvp)](https://gitee.com/Polarix/simplegui/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Polarix/simplegui&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Polarix/simplegui&query=$.license&label=license)]()
 
 **Link** - [SimpleGUI: An open-source GUI interface library for monochrome displays.](https://gitee.com/Polarix/simplegui)  
-**Features** - A GUI library designed for monochrome displays that provides simple drawing capabilities. It suits low-pixel monochrome dot-matrix screens.  
+**Features** - GUI library designed for monochrome displays that provides simple drawing capabilities. It suits low-pixel monochrome dot-matrix screens.  
 
 #### Key Points
 
@@ -77,7 +77,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/olikraus/u8g2)](https://github.com/olikraus/u8g2/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/olikraus/u8g2)](https://github.com/olikraus/u8g2/commits) | [![GitHub License](https://img.shields.io/github/license/olikraus/u8g2)]()
 
 **Link** - [GitHub - olikraus/u8g2: U8glib library for monochrome displays, version 2](https://github.com/olikraus/u8g2)  
-**Features** - A monochrome display library that provides support for various controllers and basic graphics drawing.  
+**Features** - Monochrome display library that provides support for various controllers and basic graphics drawing.  
 
 #### Key Points
 
@@ -88,7 +88,7 @@
 [![Gitee Repo stars](https://gitee.com/liuxinouc/MonoGUI/badge/star.svg?theme=gvp)](https://gitee.com/liuxinouc/MonoGUI/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/liuxinouc/MonoGUI&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/liuxinouc/MonoGUI&query=$.license&label=license)]()
 
 **Link** - [MonoGUI: MonoGUI (a monochrome graphical user interface system) is a specialized GUI system for small electronic devices with monochrome screens, such as electronic dictionaries, advanced calculators, watches, label printers, cash registers, and electronic shelf labels. It features a simple structure, ease of use, low memory consumption, single-threaded operation, and light processor load. Although its graphical capabilities are limited to black and white, it supports complete Chinese display processing (two-byte Chinese characters in GB18030, the former GB13000 standard). Its Edit control and Chinese input methods, including the nine-key input method, match the capabilities of Windows and Android input methods and are easy to extend.](https://gitee.com/liuxinouc/MonoGUI)  
-**Features** - A specialized GUI system for small electronic devices with monochrome screens, offering comprehensive features and an input method. It suits devices such as electronic dictionaries and label printers.  
+**Features** - Specialized GUI system for small electronic devices with monochrome screens, offering comprehensive features and an input method. It suits devices such as electronic dictionaries and label printers.  
 
 #### Key Points
 
@@ -112,7 +112,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/AstraThreshold/oled-ui-astra)](https://github.com/AstraThreshold/oled-ui-astra/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/AstraThreshold/oled-ui-astra)](https://github.com/AstraThreshold/oled-ui-astra/commits) | [![GitHub License](https://img.shields.io/github/license/AstraThreshold/oled-ui-astra)]()
 
 **Link** - [GitHub - AstraThreshold/oled-ui-astra: A smooth, easy-to-deploy, and easy-to-extend OLED UI framework, based on C++.](https://github.com/AstraThreshold/oled-ui-astra)  
-**Features** - A C++-based multi-level OLED menu UI with smooth transition animations.  
+**Features** - C++-based multi-level OLED menu UI with smooth transition animations.  
 
 #### Key Points
 
@@ -123,7 +123,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/andygock/glcd)](https://github.com/andygock/glcd/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/andygock/glcd)](https://github.com/andygock/glcd/commits) | [![GitHub License](https://img.shields.io/github/license/andygock/glcd)]()
 
 **Link** - [andygock/glcd: A graphic LCD library for microcontroller-based embedded systems. Compatible with PCD854, ST7565R, NTD75451, and many AVR, LPC, PIC, and STM32 devices. --- andygock/glcd: Graphic LCD Library for microcontrollers based embedded systems. Compatible with chipsets PCD854, ST7565R, NTD75451 and many AVR, LPC, PIC, STM32 devices.](https://github.com/andygock/glcd)  
-**Features** - A graphical LCD library for microcontroller-based embedded systems, including hardware drivers, text, and basic graphics drawing.  
+**Features** - Graphical LCD library for microcontroller-based embedded systems, including hardware drivers, text, and basic graphics drawing.  
 
 #### Key Points
 
@@ -151,7 +151,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/tsoding/olive.c)](https://github.com/tsoding/olive.c/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/tsoding/olive.c)](https://github.com/tsoding/olive.c/commits) | [![GitHub License](https://img.shields.io/github/license/tsoding/olive.c)]()
 
 **Link** - [tsoding/olive.c: Simple 2D Graphics Library for C](https://github.com/tsoding/olive.c)  
-**Features** - A simple 2D graphics library for C that draws only with canvas features.  
+**Features** - Simple 2D graphics library for C that draws only with canvas features.  
 
 #### Key Points
 
@@ -173,7 +173,7 @@
 ![Gitee Repo stars](https://gitee.com/gzbkey/LingLongGUI/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingLongGUI&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingLongGUI&query=$.license&label=license)
 
 **Link** - [LingLongGUI: LingLong GUI is an efficient solution for interface development. It replaces serial-screen and configuration solutions, reducing product costs while keeping product software and hardware independently controllable. It includes interface development software for graphically editing interfaces and generating C code.](https://gitee.com/gzbkey/LingLongGUI)  
-**Features** - An efficient GUI generation library with a graphical interface editor for conveniently generating code.  
+**Features** - Efficient GUI generation library with a graphical interface editor for conveniently generating code.  
 
 #### Key Points
 
@@ -186,7 +186,7 @@
 [![Gitee Repo stars](https://gitee.com/gzbkey/LingDongGUI/badge/star.svg?theme=gvp)](https://gitee.com/gzbkey/LingDongGUI/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingDongGUI&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/LingDongGUI&query=$.license&label=license)]()
 
 **Link** - [LingDongGUI: LingDong GUI is a GUI developed based on ARM-2D, greatly reducing the difficulty of using ARM-2D.](https://gitee.com/gzbkey/LingDongGUI)  
-**Features** - A GUI library that further encapsulates [Arm-2D](#arm-2d), aiming to improve ease of use while also supporting native APIs.  
+**Features** - GUI library that further encapsulates [Arm-2D](#arm-2d), aiming to improve ease of use while also supporting native APIs.  
 
 #### Key Points
 
@@ -199,7 +199,7 @@
 [![Gitee Repo stars](https://gitee.com/QQ1159465634/aagui/badge/star.svg?theme=gvp)](https://gitee.com/QQ1159465634/aagui/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/QQ1159465634/aagui&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/QQ1159465634/aagui&query=$.license&label=license)]()
 
 **Link** - [AAGUI: AAGUI is a cross-platform, general-purpose, semi-declarative GUI that does not depend on specific hardware or operating systems. It is written in C (compatible with C89) and C++ (compatible with C++98).](https://gitee.com/QQ1159465634/aagui)  
-**Features** - A cross-platform, general-purpose GUI that aims to enable Android-like advanced UI development in embedded systems. It supports semi-declarative (JSON) programming and is suitable for projects similar to mobile applications.  
+**Features** - Cross-platform, general-purpose GUI that aims to enable Android-like advanced UI development in embedded systems. It supports semi-declarative (JSON) programming and is suitable for projects similar to mobile applications.  
 
 #### Key Points
 
@@ -212,7 +212,7 @@
 [![Gitee Repo stars](https://gitee.com/genitop/GT-HMI-Engine/badge/star.svg?theme=gvp)](https://gitee.com/genitop/GT-HMI-Engine/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/genitop/GT-HMI-Engine&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/genitop/GT-HMI-Engine&query=$.license&label=license)]()
 
 **Link** - [GT-HMI-Engine: GT-HMI: a free and powerful tool built specifically for embedded GUI design and development in China!](https://gitee.com/genitop/GT-HMI-Engine)  
-**Features** - A UI library from Qualcomm intended for Chinese users, with multiple languages and font libraries, a simulator, and PC-side tools. It can be used with both RTOS and bare metal, making it suitable for practical product-level projects.  
+**Features** - UI library from Qualcomm intended for Chinese users, with multiple languages and font libraries, a simulator, and PC-side tools. It can be used with both RTOS and bare metal, making it suitable for practical product-level projects.  
 
 #### Key Points
 
@@ -223,7 +223,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/lvgl/lvgl)](https://github.com/lvgl/lvgl/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/lvgl/lvgl)](https://github.com/lvgl/lvgl/commits) | [![GitHub License](https://img.shields.io/github/license/lvgl/lvgl)]()
 
 **Link** - [LVGL - Light and Versatile Embedded Graphics Library](https://lvgl.io/)  
-**Features** - A lightweight general-purpose graphics library that is open source, free, and has almost everything needed for a GUI.  
+**Features** - A lightweight general-purpose graphics library that is open source, free, and has almost everything needed for a GUI. It suits project-level devices.  
 
 #### Key Points
 
@@ -241,7 +241,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/zlgopen/awtk)](https://github.com/zlgopen/awtk/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/zlgopen/awtk)](https://github.com/zlgopen/awtk/commits) | [![GitHub License](https://img.shields.io/github/license/zlgopen/awtk)]()
 
 **Link** - [zlgopen/awtk: AWTK = Toolkit AnyWhere(a cross-platform embedded GUI)](https://github.com/zlgopen/awtk)  
-**Features** - A GUI graphics library from ZLG that is open source and free.  
+**Features** - ZLG's GUI graphics library, open source and free.  
 
 #### Key Points
 
@@ -254,7 +254,7 @@
 [![License: TouchGFX](https://img.shields.io/badge/License-TouchGFX-blue.svg)]()
 
 **Link** - [STM32 Graphical User Interface - STMicroelectronics](https://www.touchgfx.com)  
-**Features** - A GUI graphics library from STM32 with powerful features and graphical editing software, generally suitable only for STM32 development.  
+**Features** - STM32's GUI graphics library with powerful features and graphical editing software, generally suitable only for STM32 development.  
 
 #### Key Points
 
@@ -267,7 +267,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/eclipse-threadx/guix)](https://github.com/eclipse-threadx/guix/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-threadx/guix)](https://github.com/eclipse-threadx/guix/commits) | [![GitHub License](https://img.shields.io/github/license/eclipse-threadx/guix)]()
 
 **Link** - [azure-rtos/guix: Azure RTOS GUIX Studio provides a complete, embedded graphical user interface (GUI) library and design environment, facilitating the creation and maintenance of all graphical elements needed by your device.](https://github.com/azure-rtos/guix)  
-**Features** - A GUI graphics library provided by Azure RTOS; it is mature, convenient to develop with, open source, and free.  
+**Features** - GUI graphics library provided by Azure RTOS; it is mature, convenient to develop with, open source, and free.  
 
 #### Key Points
 
@@ -302,7 +302,7 @@
 [![License: LGPL v3](https://img.shields.io/badge/license-LGPL%20v3-blue.svg)](https://opensource.org/licenses/LGPL-3.0)
 
 **Link** - [Qt - Design and develop software for embedded devices](https://www.qt.io/product/develop-embedded-devices)  
-**Features** - A GUI graphics library from QT, suitable for developers with QT experience, and requires payment.  
+**Features** - GUI graphics library from QT, suitable for developers with QT experience, and requires payment.  
 
 #### Key Points
 
@@ -313,7 +313,7 @@
 [![License: μGFX](https://img.shields.io/badge/License-%CE%BCGFX-blue.svg)]()
 
 **Link** - [uGFX - lightweight embedded GUI library](https://ugfx.io/)  
-**Features** - A lightweight UI library for touchscreens that focuses on performance and is free for non-commercial use.  
+**Features** - Lightweight UI library for touchscreens that focuses on performance and is free for non-commercial use.  
 
 #### Key Points
 
@@ -326,7 +326,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/VincentWei/MiniGUI)](https://github.com/VincentWei/MiniGUI/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/VincentWei/MiniGUI)](https://github.com/VincentWei/MiniGUI/commits) | [![GitHub License](https://img.shields.io/github/license/VincentWei/MiniGUI)]()
 
 **Link** - [Home :: MiniGUI](https://minigui.fmsoft.cn)  
-**Features** - A multi-platform, highly customizable UI library that can be used with chips of different performance levels; it is suitable for mobile devices and industrial fields, and is free for non-commercial use.  
+**Features** - Multi-platform, highly customizable UI library that can be used with chips of different performance levels; it is suitable for mobile devices and industrial fields, and is free for non-commercial use.  
 
 #### Key Points
 
@@ -357,7 +357,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/nicbarker/clay)](https://github.com/nicbarker/clay/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/nicbarker/clay)](https://github.com/nicbarker/clay/commits) | [![GitHub License](https://img.shields.io/github/license/nicbarker/clay)]()
 
 **Link** - [Clay - UI Layout Library](https://www.nicbarker.com/clay)  
-**Features** - A high-performance 2D UI layout library that provides responsive layout capabilities and is suitable for embedded Web development.  
+**Features** - High-performance 2D UI layout library that provides responsive layout capabilities and is suitable for embedded Web development.  
 
 #### Key Points
 
@@ -368,7 +368,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Immediate-Mode-UI/Nuklear)](https://github.com/Immediate-Mode-UI/Nuklear/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Immediate-Mode-UI/Nuklear)](https://github.com/Immediate-Mode-UI/Nuklear/commits) | [![GitHub License](https://img.shields.io/github/license/Immediate-Mode-UI/Nuklear)]()
 
 **Link** - [Nuklear: Nuklear](https://immediate-mode-ui.github.io/Nuklear/index.html)  
-**Features** - A dependency-free graphical user interface toolkit that builds graphics through input states and drawing commands, suitable for responsive applications.  
+**Features** - Dependency-free graphical user interface toolkit that builds graphics through input states and drawing commands, suitable for responsive applications.  
 
 #### Key Points
 
@@ -381,7 +381,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/inanevin/LinaVG)](https://github.com/inanevin/LinaVG/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/inanevin/LinaVG)](https://github.com/inanevin/LinaVG/commits) | [![GitHub License](https://img.shields.io/github/license/inanevin/LinaVG)]()
 
 **Link** - [inanevin/LinaVG: 2D Vector-Graphics library for drawing anti-aliased convex shapes, lines and texts.](https://github.com/inanevin/LinaVG)  
-**Features** - A rendering library for 2D vector graphics.  
+**Features** - Rendering library for 2D vector graphics.  
 
 #### Key Points
 
@@ -392,7 +392,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/woltapp/blurhash)](https://github.com/woltapp/blurhash/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/woltapp/blurhash)](https://github.com/woltapp/blurhash/commits) | [![GitHub License](https://img.shields.io/github/license/woltapp/blurhash)]()
 
 **Link** - [BlurHash](https://blurha.sh/)  
-**Features** - An open-source image placeholder algorithm and implementation that can display a wireframe and thumbnail before images are loaded; it may be useful in embedded applications.  
+**Features** - Open-source image placeholder algorithm and implementation that can display a wireframe and thumbnail before images are loaded; it may be useful in embedded applications.  
 
 #### Key Points
 
@@ -401,7 +401,7 @@
 ### OpenGL
 
 **Link** - [OpenGL - The industry standard for high-performance graphics](https://www.opengl.org/)  
-**Features** - A cross-language, cross-platform 2D/3D rendering library primarily developed in C, which also supports development in C++, Python, Java, and other languages. Its capabilities are extremely powerful and suitable for game development, scientific visualization, virtual reality, and other fields.  
+**Features** - Cross-language, cross-platform 2D/3D rendering library primarily developed in C, which also supports development in C++, Python, Java, and other languages. Its capabilities are extremely powerful and suitable for game development, scientific visualization, virtual reality, and other fields.  
 
 #### Key Points
 
@@ -415,7 +415,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cntools/rawdraw)](https://github.com/cntools/rawdraw/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cntools/rawdraw)](https://github.com/cntools/rawdraw/commits) | [![GitHub License](https://img.shields.io/github/license/cntools/rawdraw)]()
 
 **Link** - [cntools/rawdraw: Primitive Platform Agnostic Graphics Library](https://github.com/cntools/rawdraw)  
-**Features** - A cross-platform, dependency-free UI drawing system that provides a good interface abstraction for OpenGL.  
+**Features** - Cross-platform, dependency-free UI drawing system that provides a good interface abstraction for OpenGL.  
 
 #### Key Points
 
@@ -435,7 +435,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cadenji/foolrenderer)](https://github.com/cadenji/foolrenderer/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cadenji/foolrenderer)](https://github.com/cadenji/foolrenderer/commits) | [![GitHub License](https://img.shields.io/github/license/cadenji/foolrenderer)]()
 
 **Link** - [cadenji/foolrenderer: A tiny software renderer implemented from scratch without the use of graphics API, used to understand how GPUs work.](https://github.com/cadenji/foolrenderer)  
-**Features** - A software renderer implemented in C that does not depend on graphics libraries. In only a few thousand lines of code, it implements OpenGL-like basic graphics features and real-time rendering techniques for game development, such as shadows, tangent-space normal mapping, and physically based material systems.  
+**Features** - Software renderer implemented in C that does not depend on graphics libraries. In only a few thousand lines of code, it implements OpenGL-like basic graphics features and real-time rendering techniques for game development, such as shadows, tangent-space normal mapping, and physically based material systems.  
 
 #### Key Points
 
@@ -448,7 +448,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/EmberGL-org/EmberGL)](https://github.com/EmberGL-org/EmberGL/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/EmberGL-org/EmberGL)](https://github.com/EmberGL-org/EmberGL/commits) | [![GitHub License](https://img.shields.io/github/license/EmberGL-org/EmberGL)]()
 
 **Link** - [EmberGL-org/EmberGL: EmberGL - 2D/3D graphics library featuring a tiled software rasterizer.](https://github.com/EmberGL-org/EmberGL)  
-**Features** - An OpenGL-like real-time 2D / 3D raster rendering library for MCU.  
+**Features** - OpenGL-like real-time 2D / 3D raster rendering library for MCU.  
 
 #### Key Points
 
@@ -472,7 +472,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ARM-software/Arm-2D)](https://github.com/ARM-software/Arm-2D/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ARM-software/Arm-2D)](https://github.com/ARM-software/Arm-2D/commits) | [![GitHub License](https://img.shields.io/github/license/ARM-software/Arm-2D)]()
 
 **Link** - [ARM-software/Arm-2D: 2D Graphic Library optimized for Cortex-M processors](https://github.com/ARM-software/Arm-2D)  
-**Features** - A 2D graphics acceleration library optimized for Cortex-M processors, positioned between GUI libraries and the driver layer.  
+**Features** - 2D graphics acceleration library optimized for Cortex-M processors, positioned between GUI libraries and the driver layer.  
 
 #### Key Points
 
@@ -499,7 +499,7 @@
 [![Gitee Repo stars](https://gitee.com/kerndev/qrencode/badge/star.svg?theme=gvp)](https://gitee.com/kerndev/qrencode/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/qrencode&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/qrencode&query=$.license&label=license)]()
 
 **Link** - [qrencode: Demonstration code for generating QR codes in C](https://gitee.com/kerndev/qrencode)  
-**Features** - A QR code generation library suitable for microcontrollers.  
+**Features** - QR code generation library suitable for microcontrollers.  
 
 #### Key Points
 
@@ -511,7 +511,7 @@
 
 **C Library Link** - [QR-Code-generator/c at master · nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator/tree/master/c)  
 **C++ Library Link** - [QR-Code-generator/cpp at master · nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator/tree/master/cpp)  
-**Features** - A general-purpose QR code generation library containing versions for multiple languages, intended to achieve better performance with less code.  
+**Features** - General-purpose QR code generation library containing versions for multiple languages, intended to achieve better performance with less code.  
 
 #### Key Points
 
@@ -524,7 +524,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ricmoo/QRCode)](https://github.com/ricmoo/QRCode/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ricmoo/QRCode)](https://github.com/ricmoo/QRCode/commits) | [![GitHub License](https://img.shields.io/github/license/ricmoo/QRCode)]()
 
 **Link** - [ricmoo/QRCode: QR code generation library in C, optimized for low-power devices, such as Arduino.](https://github.com/ricmoo/QRCode)  
-**Features** - A QR code generation library based on [QR Code generator library](#qr-code-generator-library), optimized for systems with constrained processors and memory, and supporting all specifications from Version 1 through Version 40.  
+**Features** - QR code generation library based on [QR Code generator library](#qr-code-generator-library), optimized for systems with constrained processors and memory, and supporting all specifications from Version 1 through Version 40.  
 
 #### Key Points
 
@@ -539,7 +539,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/mcufont/mcufont)](https://github.com/mcufont/mcufont/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/mcufont/mcufont)](https://github.com/mcufont/mcufont/commits) | [![GitHub License](https://img.shields.io/github/license/mcufont/mcufont)]()
 
 **Link** - [mcufont/mcufont: A font rendering library for microcontrollers.](https://github.com/mcufont/mcufont)  
-**Features** - A library dedicated to fonts, implementing font compression, decompression, and text rendering (adjustment).  
+**Features** - Library dedicated to fonts, implementing font compression, decompression, and text rendering (adjustment).  
 
 #### Key Points
 
@@ -550,7 +550,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/railgunlabs/unicorn)](https://github.com/railgunlabs/unicorn/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/railgunlabs/unicorn)](https://github.com/railgunlabs/unicorn/commits) | [![GitHub License](https://img.shields.io/github/license/railgunlabs/unicorn)]()
 
 **Link** - [Unicorn: Embeddable Unicode® Algorithms | Railgun](https://railgunlabs.com/unicorn)  
-**Features** - A C99-based Unicode encoding and decoding library that provides basic algorithms and functionality for this encoding.  
+**Features** - C99-based Unicode encoding and decoding library that provides basic algorithms and functionality for this encoding.  
 
 #### Key Points
 
@@ -611,7 +611,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/JFeng-Z/MiaoUI)](https://github.com/JFeng-Z/MiaoUI/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/JFeng-Z/MiaoUI)](https://github.com/JFeng-Z/MiaoUI/commits) | [![GitHub License](https://img.shields.io/github/license/JFeng-Z/MiaoUI)]()
 
 **Link** - [GitHub - JFeng-Z/MiaoUI: MiaoUI is a monochrome OLED menu UI framework based on u8g2. MiaoUI is implemented in C, uses a doubly linked-list structure, employs nonlinear animation, is easy to port, has low memory usage, and can be deployed quickly. It is suitable for embedded devices with small OLED screens.](https://github.com/JFeng-Z/MiaoUI)  
-**Features** - An OLED menu UI framework based on [U8g2](#u8g2), supporting list and icon menus, nonlinear animations, task pop-ups, and other features.  
+**Features** - OLED menu UI framework based on [U8g2](#u8g2), supporting list and icon menus, nonlinear animations, task pop-ups, and other features.  
 
 #### Key Points
 
@@ -622,7 +622,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/JFeng-Z/MultMenu)](https://github.com/JFeng-Z/MultMenu/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/JFeng-Z/MultMenu)](https://github.com/JFeng-Z/MultMenu/commits) | [![GitHub License](https://img.shields.io/github/license/JFeng-Z/MultMenu)]()
 
 **Link** - [GitHub - JFeng-Z/MultMenu: This is a microcontroller multi-level menu for monochrome OLED screens. It supports menu extensions, graphical interfaces, text interfaces, parameter adjustment, and function calls. Nonlinear animations are used globally, and animations can be interrupted.](https://github.com/JFeng-Z/MultMenu)  
-**Features** - A combination of multi-level menus and a monochrome OLED nonlinear animation library; it is simple and convenient to port and suitable for maker projects with similar requirements.  
+**Features** - Combination of multi-level menus and a monochrome OLED nonlinear animation library; it is simple and convenient to port and suitable for maker projects with similar requirements.  
 
 #### Key Points
 
@@ -631,7 +631,7 @@
 ### SMF
 
 **Link** - [SMF-1.0.zip](./SMF-1.0.zip)  
-**Features** - A C++-based menu framework providing multi-level menus and menu objects, suitable for product-level projects.  
+**Features** - C++-based menu framework providing multi-level menus and menu objects, suitable for product-level projects.  
 
 #### Key Points
 
@@ -644,7 +644,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/FASTSHIFT/X-TRACK)](https://github.com/FASTSHIFT/X-TRACK/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/FASTSHIFT/X-TRACK?path=Software/X-Track/FUSER/App/Utils/PageManager)](https://github.com/FASTSHIFT/X-TRACK/commits?path=Software/X-Track/USER/App/Utils/PageManager) | [![GitHub License](https://img.shields.io/github/license/FASTSHIFT/X-TRACK)]()
 
 **Link** - [X-TRACK/Software/X-Track/USER/App/Utils/PageManager at main · FASTSHIFT/X-TRACK](https://github.com/FASTSHIFT/X-TRACK/tree/main/Software/X-Track/USER/App/Utils/PageManager)  
-**Features** - A C++-based page lifecycle management library providing complete page scheduling capabilities, suitable for product-level projects.  
+**Features** - C++-based page lifecycle management library providing complete page scheduling capabilities, suitable for product-level projects.  
 
 #### Key Points
 

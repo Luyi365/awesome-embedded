@@ -640,12 +640,12 @@
 
 ### ITLV
 
-**链接**：[ITLV: TLV（Tag、Length、Value）格式数据的优化版本，极简轻量的数据传输格式，可以以此为基础自定义数据格式，附带 CRC 检验。](https://gitee.com/Luyi365/itlv)  
-**特征**：TLV（Tag、Length、Value）格式数据的优化版本，极简轻量的数据传输格式，可以以此为基础自定义数据格式，附带 CRC 检验。  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/ITLV)](https://github.com/Luyi365/ITLV/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/ITLV)](https://github.com/Luyi365/ITLV/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/ITLV)]()
+
+**链接**：[Luyi365/ITLV: TLV（Tag、Length、Value）格式数据的优化版本，极简轻量的数据传输格式，可以以此为基础自定义数据格式，附带 CRC 检验。](https://github.com/Luyi365/ITLV)  
+**特征**：TLV 格式数据的优化版本，极简轻量的数据传输格式，可以以此为基础自定义数据格式，附带 CRC 检验。  
 
 #### 要点
-
-- 使用介绍：[分享一种灵活性很高的协议格式（附代码例子）](https://mp.weixin.qq.com/s/z0Qr2D5yCpEiBPenYWrdOw)；
 
 ---
 

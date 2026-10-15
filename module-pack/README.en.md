@@ -23,7 +23,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwutil)](https://github.com/MaJerle/lwutil/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwutil)](https://github.com/MaJerle/lwutil/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwutil)]()
 
 **Link** - [MaJerle/lwutil: Versatile and easy to use C language utility library with functions and macros commonly used in various applications](https://github.com/MaJerle/lwutil)  
-**Features** - A practical toolkit containing value operations, endian storage, bit operations, ASCII conversion, and more.  
+**Features** - Practical toolkit containing value operations, endian storage, bit operations, ASCII conversion, and more.  
 
 #### Key Points
 
@@ -45,7 +45,7 @@
 [![Gitee Repo stars](https://gitee.com/cot_package/cot_utils/badge/star.svg?theme=gvp)](https://gitee.com/cot_package/cot_utils/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_utils&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_utils&query=$.license&label=license)]()
 
 **Link** - [cotUtils: Common C utilities, including containers such as queues, linked lists, and dynamic arrays, plus a port of the C++ boost preprocessor library for macro programming.](https://gitee.com/cot_package/cot_utils)  
-**Features** - A general C extension library, including multiple containers (queues, stacks, doubly-linked lists, dynamic arrays), serializable/deserializable structures, the PP library (multifunction macros), and more.  
+**Features** - General C extension library, including multiple containers (queues, stacks, doubly-linked lists, dynamic arrays), serializable/deserializable structures, the PP library (multifunction macros), and more.  
 
 #### Key Points
 
@@ -58,7 +58,7 @@
 [![Gitee Repo stars](https://gitee.com/MacRsh/mr-library/badge/star.svg?theme=gvp)](https://gitee.com/MacRsh/mr-library/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/MacRsh/mr-library&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/MacRsh/mr-library&query=$.license&label=license)]()
 
 **Link** - [mr-library: mr-library is a lightweight framework designed for embedded systems. It considers embedded resource and performance requirements, and greatly simplifies development through standardized open, close, ioctl, read, and write interfaces.](https://gitee.com/MacRsh/mr-library)  
-**Features** - A lightweight embedded framework providing standardized driver interfaces and simple kernel-function components; a top choice for ordinary vendor-level projects.  
+**Features** - Lightweight embedded framework providing standardized driver interfaces and simple kernel-function components; a top choice for ordinary vendor-level projects.  
 
 #### Key Points
 
@@ -136,7 +136,7 @@
 [![Gitee Repo stars](https://gitee.com/event-os/elab/badge/star.svg?theme=gvp)](https://gitee.com/event-os/elab/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/elab&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/elab&query=$.license&label=license)]()
 
 **Link** - [elab: eLab is an embedded development platform integrating multiple technologies and features.](https://gitee.com/event-os/elab)  
-**Features** - An integrated development platform containing most packages needed for embedded systems, with particular emphasis on cross-platform development and PC simulation; it is especially suited to projects with standardized development processes.  
+**Features** - Integrated development platform containing most packages needed for embedded systems, with particular emphasis on cross-platform development and PC simulation; it is especially suited to projects with standardized development processes.  
 
 #### Key Points
 
@@ -160,7 +160,7 @@
 [![Gitee Repo stars](https://gitee.com/simpost/simpostOS/badge/star.svg?theme=gvp)](https://gitee.com/simpost/simpostOS/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/simpostOS&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/simpostOS&query=$.license&label=license)]()
 
 **Link** - [simpostOS: Minimalist application system](https://gitee.com/simpost/simpostOS)  
-**Features** - A design methodology and collection of software components and services. It modularizes all functions and greatly improves reuse. Written in modern C++, it is not beginner-friendly.  
+**Features** - A design methodology and a collection of software components and services. It modularizes all functions and greatly improves reuse. Written in modern C++, it is not beginner-friendly.  
 
 #### Key Points
 
@@ -173,7 +173,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/wujique/PetiteDrv)](https://github.com/wujique/PetiteDrv/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wujique/PetiteDrv)](https://github.com/wujique/PetiteDrv/commits) | [![GitHub License](https://img.shields.io/github/license/wujique/PetiteDrv)]()
 
 **Link** - [wujique/PetiteDrv: a petite driver base on mcu such as stm32(f103/f407/h750), RT1052](https://github.com/wujique/PetiteDrv)  
-**Features** - A general SDK library based on layered abstraction to decouple functions without complex code; suitable for small-company, small-project development.  
+**Features** - General SDK library based on layered abstraction to decouple functions without complex code; suitable for small-company, small-project development.  
 
 #### Key Points
 
@@ -217,7 +217,7 @@
 [![Gitee Repo stars](https://gitee.com/newgolo/appkit/badge/star.svg?theme=gvp)](https://gitee.com/newgolo/appkit/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/newgolo/appkit&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/newgolo/appkit&query=$.license&label=license)]()
 
 **Link** - [appkit: appkit is a portable C++ application-development framework for embedded Linux. Its purpose is to accelerate Linux application development and let programmers focus on more meaningful work.](https://gitee.com/newgolo/appkit)  
-**Features** - A C++ library for Linux application development, including common modules such as thread management, timers, file I/O, and serial communication.  
+**Features** - C++ library for Linux application development, including common modules such as thread management, timers, file I/O, and serial communication.  
 
 #### Key Points
 

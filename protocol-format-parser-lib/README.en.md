@@ -60,7 +60,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/libevent/libevent)](https://github.com/libevent/libevent/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/libevent/libevent)](https://github.com/libevent/libevent/commits) | [![GitHub License](https://img.shields.io/github/license/libevent/libevent)]()
 
 **Link** - [libevent](https://libevent.org)  
-**Features** - An event-driven library for network servers, intended to replace event loops in event-driven network servers.  
+**Features** - Event-driven library for network servers, intended to replace event loops in event-driven network servers.  
 
 #### Key Points
 
@@ -95,7 +95,7 @@
 [![Gitee Repo stars](https://gitee.com/yikoulinux/url/badge/star.svg?theme=gvp)](https://gitee.com/yikoulinux/url/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yikoulinux/url&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yikoulinux/url&query=$.license&label=license)]()
 
 **Link** - [url: A simple URL parsing algorithm implemented in C](https://gitee.com/yikoulinux/url)  
-**Features** - A simple URL parsing module that can parse information from different segments.  
+**Features** - Simple URL parsing module that can parse information from different segments.  
 
 #### Key Points
 
@@ -108,7 +108,7 @@
 [![License: GPL v3](https://img.shields.io/badge/license-GPL%20v3-orange.svg)](https://opensource.org/licenses/GPL-3.0)
 
 **Link** - [tiny-curl](https://curl.se/tiny)
-**Features** - A cURL library for embedded systems that supports only HTTP.
+**Features** - cURL library for embedded systems that supports only HTTP.
 
 #### Key Points
 
@@ -134,7 +134,7 @@
 [![Gitee Repo stars](https://gitee.com/snikeguo/EmbedXrpc/badge/star.svg?theme=gvp)](https://gitee.com/snikeguo/EmbedXrpc/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/snikeguo/EmbedXrpc&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/snikeguo/EmbedXrpc&query=$.license&label=license)]()
 
 **Link** - [EmbedXrpc: This is similar to Google's GRPC, but its application scenario is microcontrollers. RPC greatly simplifies development by removing the need to focus on protocol parsing and data serialization and deserialization. There has not yet been a practical RPC framework for microcontrollers, so the author decided to create one using C# for the IDL language, csscript, custom serialization and deserialization, and code generation. QQ group 134161401](https://gitee.com/snikeguo/EmbedXrpc)  
-**Features** - An RPC communication protocol that enables business logic without focusing on the protocol itself and includes a code-generation tool.  
+**Features** - RPC communication protocol that enables business logic without focusing on the protocol itself and includes a code-generation tool.  
 
 #### Key Points
 
@@ -207,7 +207,7 @@
 [![License: GPL v2](https://img.shields.io/badge/license-GPL%20v2-orange.svg)](https://opensource.org/licenses/GPL-2.0)
 
 **Link** - [CycloneTCP | Embedded TCP/IP Stack for STM32, PIC32, ARM Cortex-M](https://www.oryx-embedded.com/products/CycloneTCP)  
-**Features** - A dual IPv4/IPv6 stack for embedded applications that simplifies Internet deployment.  
+**Features** - Dual IPv4/IPv6 stack for embedded applications that simplifies Internet deployment.  
 
 #### Key Points
 
@@ -220,7 +220,7 @@
 [![Gitee Repo stars](https://gitee.com/Neo-T/open-npstack/badge/star.svg?theme=gvp)](https://gitee.com/Neo-T/open-npstack/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Neo-T/open-npstack&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Neo-T/open-npstack&query=$.license&label=license)]()
 
 **Link** - [Open-NPStack: onps is an open-source, independently developed domestic network protocol stack. Its design goal is the same as LwIp, and it targets resource-constrained microcontroller systems. It provides a complete tcp/ip protocol-family implementation and network tools such as sntp, dns, and ping; supports dynamic dhcp IP address assignment in Ethernet environments as well as dynamic and static routing tables. The stack also encapsulates a Berkeley sockets layer and is developed in ANSI C.](https://gitee.com/Neo-T/open-npstack)  
-**Features** - A domestic network protocol stack with the same design goal as Lwip, for resource-constrained microcontroller systems, providing a complete ethernet/ppp/tcp/ip protocol-family implementation.  
+**Features** - Domestic network protocol stack with the same design goal as Lwip, for resource-constrained microcontroller systems, providing a complete ethernet/ppp/tcp/ip protocol-family implementation. It comes with very detailed documentation, making it a great read for Chinese developers.  
 
 #### Key Points
 
@@ -242,7 +242,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/rxi/dyad)](https://github.com/rxi/dyad/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/rxi/dyad)](https://github.com/rxi/dyad/commits) | [![GitHub License](https://img.shields.io/github/license/rxi/dyad)]()
 
 **Link** - [rxi/dyad: Asynchronous networking for C](https://github.com/rxi/dyad)  
-**Features** - An asynchronous networking library based on Linux. It supports only TCP communication, for creating small standalone device servers and adding network support to existing projects.  
+**Features** - Asynchronous networking library based on Linux. It supports only TCP communication, for creating small standalone device servers and adding network support to existing projects.  
 
 #### Key Points
 
@@ -268,7 +268,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfssh)](https://github.com/wolfSSL/wolfssh/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfssh)](https://github.com/wolfSSL/wolfssh/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfssh)]()
 
 **Link** - [wolfSSH Lightweight SSH Library | Products - wolfSSL](https://www.wolfssl.com/products/wolfssh)
-**Features** - A lightweight SSHv2 client and server library written in ANSI C.
+**Features** - Lightweight SSHv2 client and server library written in ANSI C.
 
 #### Key Points
 
@@ -283,7 +283,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Yellow-Camper/libevhtp)](https://github.com/Yellow-Camper/libevhtp/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Yellow-Camper/libevhtp)](https://github.com/Yellow-Camper/libevhtp/commits) | [![GitHub License](https://img.shields.io/github/license/Yellow-Camper/libevhtp)]()
 
 **Link** - [Yellow-Camper/libevhtp: Create extremely-fast and secure embedded HTTP servers with ease.](https://github.com/Yellow-Camper/libevhtp)  
-**Features** - A low-overhead HTTP library for embedded devices.  
+**Features** - Low-overhead HTTP library for embedded devices.  
 
 #### Key Points
 
@@ -298,7 +298,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/eclipse-paho/paho.mqtt.embedded-c)](https://github.com/eclipse-paho/paho.mqtt.embedded-c/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-paho/paho.mqtt.embedded-c)](https://github.com/eclipse-paho/paho.mqtt.embedded-c/commits) | [![GitHub License](https://img.shields.io/github/license/eclipse-paho/paho.mqtt.embedded-c)]()
 
 **Link** - [eclipse/paho.mqtt.embedded-c: Paho MQTT C client library for embedded systems. Paho is an Eclipse IoT project](https://github.com/eclipse-paho/paho.mqtt.embedded-c)  
-**Features** - An MQTT library for embedded platforms, containing three sublibraries: packet serialization, C clients, and C++ clients.
+**Features** - MQTT library for embedded platforms, containing three sublibraries: packet serialization, C clients, and C++ clients.
 
 #### Key Points
 
@@ -331,7 +331,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfMQTT)](https://github.com/wolfSSL/wolfMQTT/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfMQTT)](https://github.com/wolfSSL/wolfMQTT/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfMQTT)]()
 
 **Link** - [wolfMQTT Client Library | Products - wolfSSL](https://www.wolfssl.com/products/wolfmqtt)
-**Features** - A lightweight MQTT protocol client library supporting multiple platforms.
+**Features** - Lightweight MQTT protocol client library supporting multiple platforms.
 
 #### Key Points
 
@@ -397,7 +397,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/apache/mynewt-nimble)](https://github.com/apache/mynewt-nimble/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/apache/mynewt-nimble)](https://github.com/apache/mynewt-nimble/commits) | [![GitHub License](https://img.shields.io/github/license/apache/mynewt-nimble)]()
 
 **Link** - [apache/mynewt-nimble: Apache mynewt](https://github.com/apache/mynewt-nimble)  
-**Features** - An open-source Bluetooth protocol stack (including host and controller) separated from Apache Mynewt; it completely replaces the proprietary SoftDevice on Nordic chipsets.  
+**Features** - Open-source Bluetooth protocol stack (including host and controller) separated from Apache Mynewt; it completely replaces the proprietary SoftDevice on Nordic chipsets.  
 
 #### Key Points
 
@@ -414,7 +414,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwgps)](https://github.com/MaJerle/lwgps/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwgps)](https://github.com/MaJerle/lwgps/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwgps)]()
 
 **Link** - [LwGPS latest-develop documentation — LwGPS documentation](https://docs.majerle.eu/projects/lwgps/en/latest/)  
-**Features** - A simple NMEA message parsing library with built-in support for four GPS messages: GPGGA, GPGSA, GPGSV, and GPRMC; custom messages are also supported.  
+**Features** - Simple NMEA message parsing library with built-in support for four GPS messages: GPGGA, GPGSA, GPGSV, and GPRMC; custom messages are also supported.  
 
 #### Key Points
 
@@ -427,7 +427,7 @@
 **Link** - [GitHub - tomojitakasu/RTKLIB · GitHub](https://github.com/tomojitakasu/RTKLIB)  
 **Version for low-cost GNSS receivers** - [GitHub - rtklibexplorer/RTKLIB: A version of RTKLIB optimized for low cost GNSS receivers, especially u-blox receivers. It is based on RTKLIB 2.4.3. This software is provided “AS IS” without any warranties of any kind so please be careful, especially if using it in any kind of real-time application. Click on the "Releases" label below to see the latest Windows pre-release. · GitHub](https://github.com/rtklibexplorer/RTKLIB)  
 **Version optimized for smartphone GNSS chips** - [GitHub - salmoshu/MobileGNSS-SPP: An EKF-based SPP system optimized for smartphone · GitHub](https://github.com/salmoshu/MobileGNSS-SPP)  
-**Features** - A benchmark library in the RTK field, widely used commercially and by the community, and also a textbook-style reference manual.  
+**Features** - Benchmark library in the RTK field, widely used commercially and by the community, and also a textbook-style reference manual.  
 
 #### Key Points
 
@@ -488,7 +488,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ybzwyrcld/ntrip)](https://github.com/ybzwyrcld/ntrip/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ybzwyrcld/ntrip)](https://github.com/ybzwyrcld/ntrip/commits) | [![GitHub License](https://img.shields.io/github/license/ybzwyrcld/ntrip)]()
 
 **Link** - [GitHub - ybzwyrcld/ntrip: Simple ntrip caster/client/server example programs, using the NTRIP2.0 protocol](https://github.com/ybzwyrcld/ntrip)  
-**Features** - A simple Ntrip protocol library written in C++, including a rover (Client)<sup>(Rover)</sup>, central server (Caster), and reference station (CORS)<sup>(Server)</sup>.  
+**Features** - Simple Ntrip protocol library written in C++, including a rover (Client), central server (Caster), and reference station (CORS).  
 
 #### Key Points
 
@@ -501,7 +501,7 @@
 [![Gitee Repo stars](https://gitee.com/moluo-tech/AT-Command/badge/star.svg?theme=gvp)](https://gitee.com/moluo-tech/AT-Command/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/AT-Command&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/AT-Command&query=$.license&label=license)]()
 
 **Link** - [AT Command: A component for managing AT command communication interactions, suitable for Modem, WIFI modules, Bluetooth, and other scenarios that use AT commands or ASCII command-line communication.](https://gitee.com/moluo-tech/AT-Command)  
-**Features** - An AT command communication parsing module for Modem, WIFI modules, Bluetooth, and other scenarios using AT commands or ASCII command-line communication.  
+**Features** - Communication parsing module for AT commands, suited to Modem, WIFI modules, Bluetooth, and other scenarios that communicate through AT commands or ASCII command lines.  
 
 #### Key Points
 
@@ -515,7 +515,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/XradioTech/xradio-skylark-sdk)](https://github.com/XradioTech/xradio-skylark-sdk/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/XradioTech/xradio-skylark-sdk?path=src/atcmd)](https://github.com/XradioTech/xradio-skylark-sdk/commits/master/src/atcmd) | [![GitHub License](https://img.shields.io/github/license/XradioTech/xradio-skylark-sdk)]()
 
 **Link** - [xradio-skylark-sdk/src/atcmd at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/src/atcmd), [xradio-skylark-sdk/include/atcmd at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/include/atcmd)  
-**Features** - An AT command parsing library extracted from the Xradio SDK, with abundant command examples and based on RTOS.  
+**Features** - AT command parsing library extracted from the Xradio SDK, with abundant command examples and based on RTOS.  
 
 #### Key Points
 
@@ -537,7 +537,7 @@
 [![Gitee Repo stars](https://gitee.com/ylguo/base64/badge/star.svg?theme=gvp)](https://gitee.com/ylguo/base64/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ylguo/base64&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ylguo/base64&query=$.license&label=license)]()
 
 **Link** - [base64: A base64 encoding and decoding algorithm implemented in C](https://gitee.com/ylguo/base64)  
-**Features** - An extremely simple base64 encoding and decoding library.  
+**Features** - Extremely simple base64 encoding and decoding library.  
 
 #### Key Points
 
@@ -548,7 +548,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/aklomp/base64)](https://github.com/aklomp/base64/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/aklomp/base64)](https://github.com/aklomp/base64/commits) | [![GitHub License](https://img.shields.io/github/license/aklomp/base64)]()
 
 **Link** - [aklomp/base64: Fast Base64 stream encoder/decoder in C99, with SIMD acceleration](https://github.com/aklomp/base64)  
-**Features** - A base64 encoding and decoding library with SIMD and OpenMP acceleration, no dynamic memory use, and attention to thread safety.  
+**Features** - SIMD- and OpenMP-accelerated base64 codec library that uses no dynamic memory and emphasizes thread safety.  
 
 #### Key Points
 
@@ -587,7 +587,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ben-strasser/fast-cpp-csv-parser)](https://github.com/ben-strasser/fast-cpp-csv-parser/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ben-strasser/fast-cpp-csv-parser)](https://github.com/ben-strasser/fast-cpp-csv-parser/commits) | [![GitHub License](https://img.shields.io/github/license/ben-strasser/fast-cpp-csv-parser)]()
 
 **Link** - [ben-strasser/fast-cpp-csv-parser: fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser)  
-**Features** - A small, easy-to-use, fast, header-only CSV parser based on C++.  
+**Features** - Small, easy-to-use, fast, header-only CSV parser based on C++.  
 
 #### Key Points
 
@@ -602,7 +602,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/lovemengx/libinimini)](https://github.com/lovemengx/libinimini/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/lovemengx/libinimini)](https://github.com/lovemengx/libinimini/commits) | [![GitHub License](https://img.shields.io/github/license/lovemengx/libinimini)]()
 
 **Link** - [lovemengx/libinimini: A minimalist ini parsing library for Android, Linux, Rtos, and microcontrollers](https://github.com/lovemengx/libinimini)  
-**Features** - A minimalist ini parsing library for microcontrollers with controllable memory use. It supports the simplest key-value-pair file format.  
+**Features** - Minimalist ini parsing library for microcontrollers with controllable memory use. It supports the simplest key-value-pair file format.  
 
 #### Key Points
 
@@ -613,7 +613,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/benhoyt/inih)](https://github.com/benhoyt/inih/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/benhoyt/inih)](https://github.com/benhoyt/inih/commits) | [![GitHub License](https://img.shields.io/github/license/benhoyt/inih)]()
 
 **Link** - [benhoyt/inih: Simple .INI file parser in C, good for embedded systems](https://github.com/benhoyt/inih)  
-**Features** - An ini parsing library written in C and suitable for embedded systems, with syntax and parsing options.  
+**Features** - INI parsing library written in C and suitable for embedded systems, with syntax and parsing options.  
 
 #### Key Points
 
@@ -626,7 +626,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ndevilla/iniparser)](https://github.com/ndevilla/iniparser/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ndevilla/iniparser)](https://github.com/ndevilla/iniparser/commits) | [![GitHub License](https://img.shields.io/github/license/ndevilla/iniparser)]()
 
 **Link** - [ndevilla/iniparser: ini file parser](https://github.com/ndevilla/iniparser)  
-**Features** - An ini parsing library written in C, portable to embedded systems and focused on thread safety.  
+**Features** - INI parsing library written in C, portable to embedded systems and focused on thread safety.  
 
 #### Key Points
 
@@ -640,12 +640,12 @@
 
 ### ITLV
 
-**Link** - [ITLV: An optimized TLV (Tag, Length, Value) data format that is extremely simple and lightweight. Custom data formats can be built on it, and it includes CRC validation.](https://gitee.com/Luyi365/itlv)  
-**Features** - An optimized TLV (Tag, Length, Value) data format that is extremely simple and lightweight. Custom data formats can be built on it, and it includes CRC validation.  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/ITLV)](https://github.com/Luyi365/ITLV/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/ITLV)](https://github.com/Luyi365/ITLV/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/ITLV)]()
+
+**Link** - [Luyi365/ITLV: An optimized TLV (Tag, Length, Value) data format that is extremely simple and lightweight. Custom data formats can be built on it, and it includes CRC validation.](https://github.com/Luyi365/ITLV)  
+**Features** - Optimized TLV data format that is extremely simple and lightweight. Custom data formats can be built on it, and it includes CRC validation.  
 
 #### Key Points
-
-- Introduction: [A Highly Flexible Protocol Format (with Code Examples)](https://mp.weixin.qq.com/s/z0Qr2D5yCpEiBPenYWrdOw)；
 
 ---
 
@@ -654,7 +654,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/skullboyer/TLV)](https://github.com/skullboyer/TLV/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/skullboyer/TLV)](https://github.com/skullboyer/TLV/commits) | [![GitHub License](https://img.shields.io/github/license/skullboyer/TLV)]()
 
 **Link** - [skullboyer/TLV](https://github.com/skullboyer/TLV)  
-**Features** - A TLV format encoding implementation.  
+**Features** - Encoding implementation of the TLV format.  
 
 #### Key Points
 
@@ -687,7 +687,7 @@
 ![Gitee Repo stars](https://gitee.com/Armink/struct2json/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/struct2json&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/struct2json&query=$.license&label=license)
 
 **Link** - [struct2json: A library for rapid conversion between C structures and JSON, quickly implementing serialization and deserialization of C structures](https://gitee.com/Armink/struct2json)  
-**Features** - An extremely convenient library for rapid conversion between C structures and JSON, based on [cJSON](#cjson).  
+**Features** - Extremely convenient library for rapid conversion between C structures and JSON, based on [cJSON](#cjson).  
 
 #### Key Points
 
@@ -698,7 +698,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/NevermindZZT/cson)](https://github.com/NevermindZZT/cson/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/NevermindZZT/cson)](https://github.com/NevermindZZT/cson/commits) | [![GitHub License](https://img.shields.io/github/license/NevermindZZT/cson)]()
 
 **Link** - [NevermindZZT/cson: A json data mapping and parsing library based on C](https://github.com/NevermindZZT/cson)  
-**Features** - A json-struct model parsing tool running on the C platform and based on [cJSON](#cjson). It makes JSON parsing more convenient.  
+**Features** - Json-struct model parsing tool running on the C platform and based on [cJSON](#cjson). It makes JSON parsing more convenient.  
 
 #### Key Points
 
@@ -709,7 +709,7 @@
 ![Gitee Repo stars](https://gitee.com/Lamdonn/json/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/json&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/json&query=$.license&label=license)
 
 **Link** - [json: A concise, efficient, flexible, and secure json interpreter in C](https://gitee.com/Lamdonn/json)  
-**Features** - A simple and efficient C library for generating and parsing json, suitable for simple projects.  
+**Features** - Simple and efficient C library for generating and parsing json, suitable for simple projects.  
 
 #### Key Points
 
@@ -720,7 +720,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/zserge/jsmn)](https://github.com/zserge/jsmn/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/zserge/jsmn)](https://github.com/zserge/jsmn/commits) | [![GitHub License](https://img.shields.io/github/license/zserge/jsmn)]()
 
 **Link** - [zserge/jsmn: Jsmn is a world fastest JSON parser/tokenizer. This is the official repo replacing the old one at Bitbucket](https://github.com/zserge/jsmn)  
-**Features** - An extremely compact and fast JSON parser with no dynamic memory allocation and no parsing correction.  
+**Features** - An extremely compact and fast JSON parser with no dynamic memory allocation and no parsing correction. It suits JSON parsing in small projects.  
 
 #### Key Points
 
@@ -734,7 +734,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwjson)](https://github.com/MaJerle/lwjson/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwjson)](https://github.com/MaJerle/lwjson/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwjson)]()
 
 **Link** - [LwJSON latest-develop documentation — LwJSON documentation](https://docs.majerle.eu/projects/lwjson/en/latest/)  
-**Features** - A general JSON parser library optimized for embedded systems.  
+**Features** - General JSON parser library optimized for embedded systems. It suits JSON parsing in vendor projects.  
 
 #### Key Points
 
@@ -747,7 +747,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/scottcgi/MojoJson)](https://github.com/scottcgi/MojoJson/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/scottcgi/MojoJson)](https://github.com/scottcgi/MojoJson/commits) | [![GitHub License](https://img.shields.io/github/license/scottcgi/MojoJson)]()
 
 **Link** - [scottcgi/MojoJson: A simple and fast JSON parser.](https://github.com/scottcgi/MojoJson)  
-**Features** - A general JSON parser library implemented with object-oriented ideas and providing a C version.  
+**Features** - General JSON parser library implemented with object-oriented ideas and providing a C version.  
 
 #### Key Points
 
@@ -772,7 +772,7 @@
 
 **Link** - [Barenboim/json-parser: JSON parser in standard C](https://github.com/Barenboim/json-parser)  
 **C++ version** - [wfrest/Json: c++ Json library](https://github.com/wfrest/Json)  
-**Features** - A simple, standard, practical JSON library for parsing and generation.  
+**Features** - Simple, standard, practical JSON library for parsing and generation.  
 
 #### Key Points
 
@@ -783,7 +783,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cesanta/frozen)](https://github.com/cesanta/frozen/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cesanta/frozen)](https://github.com/cesanta/frozen/commits) | [![GitHub License](https://img.shields.io/github/license/cesanta/frozen)]()
 
 **Link** - [cesanta/frozen: JSON parser and generator for C/C++ with scanf/printf like interface. Targeting embedded systems.](https://github.com/cesanta/frozen)  
-**Features** - A JSON parsing and generation library with a scanf/printf-like interface, including a base64 encoder and binary data decoder.  
+**Features** - JSON parsing and generation library with a scanf/printf-like interface, including a base64 encoder and binary data decoder.  
 
 #### Key Points
 
@@ -794,7 +794,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/rxi/sj.h)](https://github.com/rxi/sj.h/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/rxi/sj.h)](https://github.com/rxi/sj.h/commits) | [![GitHub License](https://img.shields.io/github/license/rxi/sj.h)]()
 
 **Link** - [GitHub - rxi/sj.h: A tiny little JSON parsing library](https://github.com/rxi/sj.h)  
-**Features** - A minimalist JSON parsing library in C using a zero-copy strategy that parses the original data directly.  
+**Features** - Minimalist JSON parsing library in C using a zero-copy strategy that parses the original data directly.  
 
 #### Key Points
 
@@ -807,7 +807,7 @@
 ![Gitee Repo stars](https://gitee.com/xfwangqiang/simple_xml/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/xfwangqiang/simple_xml&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/xfwangqiang/simple_xml&query=$.license&label=license)
 
 **Link** - [simple_xml: An XML parser in C. Existing open-source parsers are tied to operating systems, making XML files difficult to use on less common and embedded operating systems. This project aims to develop code that can be used on multiple platforms.](https://gitee.com/xfwangqiang/simple_xml)  
-**Features** - An XML parsing library with complete functionality and bidirectional parsing support.  
+**Features** - XML parsing library with complete functionality and bidirectional parsing support.  
 
 #### Key Points
 
@@ -818,7 +818,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/leethomason/tinyxml2)](https://github.com/leethomason/tinyxml2/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/leethomason/tinyxml2)](https://github.com/leethomason/tinyxml2/commits) | [![GitHub License](https://img.shields.io/github/license/leethomason/tinyxml2)]()
 
 **Link** - [leethomason/tinyxml2: TinyXML2 is a simple, small, efficient, C++ XML parser that can be easily integrated into other programs.](https://github.com/leethomason/tinyxml2)  
-**Features** - An XML parsing library based on C++. It uses a document object model (DOM) and can conveniently convert between XML and C++ objects.  
+**Features** - XML parsing library based on C++. It uses a document object model (DOM) and can conveniently convert between XML and C++ objects.  
 
 #### Key Points
 
@@ -829,7 +829,7 @@
 ### toml
 
 **Link** - [TOML: Tom's Obvious, Minimal Language](https://toml.io/en/)  
-**Features** - A data markup format that is more extensible than INI and lacks the deeply nested JSON and YAML indentation syntax; it is not widely known.  
+**Features** - Data markup format that is more extensible than INI and lacks the deeply nested JSON and YAML indentation syntax; it is not widely known.  
 
 #### Key Points
 
@@ -842,7 +842,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwpkt)](https://github.com/MaJerle/lwpkt/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwpkt)](https://github.com/MaJerle/lwpkt/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwpkt)]()
 
 **Link** - [LwPKT latest-develop documentation — LwPKT documentation](https://docs.majerle.eu/projects/lwpkt/en/latest/)  
-**Features** - A general packet protocol library with variable data lengths and theoretically unlimited packet length. It allows multiple annotations using sender and receiver addresses on a network and includes CRC validation.  
+**Features** - General packet protocol library with variable data lengths and theoretically unlimited packet length. It allows multiple annotations using sender and receiver addresses on a network and includes CRC validation.  
 
 #### Key Points
 

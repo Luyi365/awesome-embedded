@@ -63,7 +63,7 @@
 
 ### [按键](./io-control-lib/README.md#按键)
 
-- ~~[key_detect](./io-control-lib/README.md#key_detect)：简易的按键检测组件，采用注册事件，提供最基本的按键功能。~~（待发布）
+- [key_detect](./io-control-lib/README.md#key_detect)：简易的按键检测组件，采用注册事件，提供最基本的按键功能。
 - [key_module](./io-control-lib/README.md#key_module)：简单易用的按键检测模块，采用事件回调，提供除矩阵按键的其他基本功能。
 - [FlexibleButton](./io-control-lib/README.md#flexiblebutton)：间断轮询扫描的方式检测按键，一次扫描和处理所有按键状态，支持大多数单个按键事件触发。组合按键和中断触发需要自行添加。
 - [MultiButton](./io-control-lib/README.md#multibutton)：定时器触发扫描，事件驱动型按键驱动模块，基于面向对象方式设计思路，每个按键对象单独用一份数据结构管理。
@@ -157,7 +157,7 @@
 
 ### [I2C](./board-bus-lib/README.md#i2c)
 
-- ~~[i2c_scanner](./board-bus-lib/README.md#i2c_scanner)：i2c 设备扫描库，摘自 Nordic 的 SDK 库，能够扫描板载的 i2c 设备个数及设备地址。~~（待发布）
+- [i2c_scanner](./board-bus-lib/README.md#i2c_scanner)：i2c 设备扫描库，能够扫描板载的 i2c 设备个数及设备地址。
 - [i2cdevlib](./board-bus-lib/README.md#i2cdevlib)：使用 C++ 类的形式对 I2C 设备进行抽象，旨在方便 I2C 设备的接入和不同平台的移植。
 
 ### [SPI](./board-bus-lib/README.md#spi)
@@ -166,6 +166,7 @@
 
 ### [板间通信](./board-bus-lib/README.md#板间通信)
 
+- [uart_stream](./board-bus-lib/README.md#uart_stream)：基于 FreeRTOS 和 cJSON 的串口数据流处理库，带有收发缓冲、组帧、请求-应答等功能，适用于板间通信。
 - [ESSL](./board-bus-lib/README.md#essl)：ESP 旗下的串行从机链路，该组件能让主机通过总线驱动和相应的协议与从机进行通信。也可以说就是双 mcu 通讯，只是在上面套了一层壳。
 - [SACP](./board-bus-lib/README.md#sacp)：是 Snapmaker 设备的数据通信协议，基于 C++ 的专用于整机多设备的设备间通信。
 
@@ -195,7 +196,6 @@
 
 ### [流](./data-struct-process-lib/README.md#流)
 
-- ~~[uart_stream](./data-struct-process-lib/README.md#uart_stream)：数据流缓冲处理库，针对 UART 数据，但有一定的通用性。~~（待发布）
 - [xprintf](./data-struct-process-lib/README.md#xprintf)：嵌入式字符串函数，代替不足以实现常规 printf 功能，可以动态的将字符串写入不同外设。主要用途是与多个外设交互，而不是终端交互
 - [CMSIS-Stream](./data-struct-process-lib/README.md#cmsis-stream)：ARM 官方出品的数据流处理组件，提供图形表示，适合专业级项目和多设备数据流处理。
 
@@ -312,7 +312,7 @@
 
 ### [TLV](./protocol-format-parser-lib/README.md#tlv)
 
-- ~~[ITLV](./protocol-format-parser-lib/README.md#itlv)：TLV（Tag、Length、Value）格式数据的优化版本，极简轻量的数据传输格式，可以以此为基础自定义数据格式，附带 CRC 检验。~~（待发布）
+- [ITLV](./protocol-format-parser-lib/README.md#itlv)：TLV 格式数据的优化版本，极简轻量的数据传输格式，可以以此为基础自定义数据格式，附带 CRC 检验。
 - [TLV](./protocol-format-parser-lib/README.md#tlv-1)：TLV 格式编码实现。
 
 ### [JSON](./protocol-format-parser-lib/README.md#json)
@@ -377,7 +377,7 @@
 
 - [crc-lib-c](./secure-boot-update-lib/README.md#crc-lib-c)：极简的 CRC 库，包括常用的 21 个 CRC 参数模型实现，无扩展功能。
 - [tiny-AES-c](./secure-boot-update-lib/README.md#tiny-aes-c)：小巧易移植的 AES 算法库，提供 ECB、CTR 和 CBC 三种加密模式。
-- ~~[key](./secure-boot-update-lib/README.md#key)：极简的加密算法，配合密钥使用，功能单一但实用，适合网络加密等领域。~~（待发布）
+- [key](./secure-boot-update-lib/README.md#key)：极简的加密算法，配合密钥使用，功能单一但实用，适合网络加密等领域。
 - [wolfCrypt](./secure-boot-update-lib/README.md#wolfcrypt)：狼库旗下的轻量级加密库，支持多种流行的算法和密码，适合企业级项目。
 - [wolfSSL](./secure-boot-update-lib/README.md#wolfssl)：是一个轻量级的、可移植的 SSL/TLS 库，由 wolfCrypt 密码库驱动，它主要针对 IoT、嵌入式和 RTOS 环境。
 - [Mbed TLS](./secure-boot-update-lib/README.md#mbed-tls)：可信旗下的项目，业内流行的 SSL/TLS 库。

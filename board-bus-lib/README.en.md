@@ -18,7 +18,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwow)](https://github.com/MaJerle/lwow/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwow)](https://github.com/MaJerle/lwow/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwow)]()
 
 **Link** - [LwOW latest-develop documentation — LwOW documentation](https://docs.majerle.eu/projects/lwow/en/latest/)  
-**Features** - A professional 1-Wire protocol library that supports communication through UART or a single GPIO and provides thread-safe APIs.  
+**Features** - Professional 1-Wire protocol library that supports communication through UART or a single GPIO and provides thread-safe APIs.  
 
 #### Key Points
 
@@ -62,7 +62,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cwalter-at/freemodbus)](https://github.com/cwalter-at/freemodbus/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cwalter-at/freemodbus)](https://github.com/cwalter-at/freemodbus/commits) | [![GitHub License](https://img.shields.io/github/license/cwalter-at/freemodbus)]()
 
 **Link** - [cwalter-at/freemodbus: BSD licensed MODBUS RTU/ASCII and TCP slave](https://github.com/cwalter-at/freemodbus)  
-**Features** - A Modbus protocol stack ported by armink, supporting both master and slave functionality.  
+**Features** - Modbus protocol stack ported by armink, supporting both master and slave functionality.  
 
 #### Key Points
 
@@ -87,8 +87,10 @@
 
 ### i2c_scanner
 
-**Link** - [I2C device scan - Gitee Code Snippet](https://gitee.com/Luyi365/codes/7yob95ircndjx2mzv14l013)  
-**Features** - An I2C device-scanning library extracted from Nordic's SDK that can scan the number and addresses of onboard I2C devices.  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/i2c_scanner)](https://github.com/Luyi365/i2c_scanner/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/i2c_scanner)](https://github.com/Luyi365/i2c_scanner/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/i2c_scanner)]()
+
+**Link** - [Luyi365/i2c_scanner: An I2C device-scanning library inspired by Nordic's example library that can scan the number and addresses of onboard I2C devices.](https://github.com/Luyi365/i2c_scanner)  
+**Features** - I2C device-scanning library that can scan the number and addresses of onboard I2C devices.  
 
 #### Key Points
 
@@ -136,13 +138,24 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cherry-embedded/CherryUSB)](https://github.com/cherry-embedded/CherryUSB/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cherry-embedded/CherryUSB)](https://github.com/cherry-embedded/CherryUSB/commits) | [![GitHub License](https://img.shields.io/github/license/cherry-embedded/CherryUSB)]()
 
 **Link** - [GitHub - cherry-embedded/CherryUSB: Tiny and portable USB Stack (device & host) for embedded system with USB IP](https://github.com/cherry-embedded/CherryUSB)  
-**Features** - A USB host/device protocol stack for embedded systems (with USB IP). It is portable across platforms and suits chips that lack a built-in USB protocol stack.  
+**Features** - USB host/device protocol stack for embedded systems (with USB IP). It is portable across platforms and suits chips that lack a built-in USB protocol stack.  
 
 #### Key Points
 
 ---
 
 ## Interboard Communication
+
+### uart_stream
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/uart_stream)](https://github.com/Luyi365/uart_stream/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/uart_stream)](https://github.com/Luyi365/uart_stream/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/uart_stream)]()
+
+**Link** - [Luyi365/uart_stream: UART and user data-stream buffer processing](https://github.com/Luyi365/uart_stream)  
+**Features** - Serial data-stream processing library built on [FreeRTOS](../sys-thread-lib/README.en.md#freertos) and [cJSON](../protocol-format-parser-lib/README.en.md#cjson), with TX/RX buffering, framing, request-response, and more; suited to interboard communication.  
+
+#### Key Points
+
+---
 
 ### ESSL
 

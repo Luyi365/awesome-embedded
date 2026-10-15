@@ -87,8 +87,10 @@
 
 ### i2c_scanner
 
-**链接**：[I2C 设备扫描 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/7yob95ircndjx2mzv14l013)  
-**特征**：i2c 设备扫描库，摘自 Nordic 的 SDK 库，能够扫描板载的 i2c 设备个数及设备地址。  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/i2c_scanner)](https://github.com/Luyi365/i2c_scanner/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/i2c_scanner)](https://github.com/Luyi365/i2c_scanner/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/i2c_scanner)]()
+
+**链接**：[Luyi365/i2c_scanner: i2c 设备扫描库，灵感来源 Nordic 的示例库，能够扫描板载的 i2c 设备个数及设备地址。](https://github.com/Luyi365/i2c_scanner)  
+**特征**：i2c 设备扫描库，能够扫描板载的 i2c 设备个数及设备地址。  
 
 #### 要点
 
@@ -143,6 +145,17 @@
 ---
 
 ## 板间通信
+
+### uart_stream
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/uart_stream)](https://github.com/Luyi365/uart_stream/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/uart_stream)](https://github.com/Luyi365/uart_stream/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/uart_stream)]()
+
+**链接**：[Luyi365/uart_stream: UART与用户数据流缓冲处理](https://github.com/Luyi365/uart_stream)  
+**特征**：基于 [FreeRTOS](../sys-thread-lib/README.md#freertos) 和 [cJSON](../protocol-format-parser-lib/README.md#cjson) 的串口数据流处理库，带有收发缓冲、组帧、请求-应答等功能，适用于板间通信。  
+
+#### 要点
+
+---
 
 ### ESSL
 

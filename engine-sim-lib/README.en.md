@@ -12,7 +12,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 **Link** - [SoftFP Library](https://bellard.org/softfp/)  
-**Features** - A software floating-point implementation for systems without a hardware floating-point unit (FPU).  
+**Features** - Software floating-point implementation for systems without a hardware floating-point unit (FPU).  
 
 #### Key Points
 
@@ -49,7 +49,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ETLCPP/etl)](https://github.com/ETLCPP/etl/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ETLCPP/etl)](https://github.com/ETLCPP/etl/commits) | [![GitHub License](https://img.shields.io/github/license/ETLCPP/etl)]()
 
 **Link** - [ETLCPP/etl: Embedded Template Library](https://github.com/ETLCPP/etl)  
-**Features** - A C++ template library for embedded systems.  
+**Features** - C++ template library for embedded systems.  
 
 #### Key Points
 
@@ -60,7 +60,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Akagi201/lw_oopc)](https://github.com/Akagi201/lw_oopc/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Akagi201/lw_oopc)](https://github.com/Akagi201/lw_oopc/commits) | [![GitHub License](https://img.shields.io/github/license/Akagi201/lw_oopc)]()
 
 **Link** - [Akagi201/lw_oopc: modified from http://sourceforge.net/projects/lwoopc/](https://github.com/Akagi201/lw_oopc)  
-**Features** - An object-oriented programming extension for embedded systems. It has been updated and optimized across multiple versions based on the original source and is simple to use.  
+**Features** - Object-oriented programming extension for embedded systems. It has been updated and optimized across multiple versions based on the original source and is simple to use.  
 
 #### Key Points
 
@@ -86,7 +86,7 @@
 [![Gitee Repo stars](https://gitee.com/Lamdonn/vlib/badge/star.svg?theme=gvp)](https://gitee.com/Lamdonn/vlib/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/vlib&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/vlib&query=$.license&label=license)]()
 
 **Link** - [vlib: A C-language STL containing containers for general data types, including queues, stacks, deques, vectors, lists, sets, and maps, plus general sorting algorithms.](https://gitee.com/Lamdonn/vlib)  
-**Features** - A C-language template library providing functionality similar to C++ STL, including common containers and support for arbitrary data types.  
+**Features** - C-language template library providing functionality similar to C++ STL, including common containers and support for arbitrary data types.  
 
 #### Key Points
 
@@ -99,7 +99,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MicroLua/MicroLua)](https://github.com/MicroLua/MicroLua/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MicroLua/MicroLua)](https://github.com/MicroLua/MicroLua/commits) | [![GitHub License](https://img.shields.io/github/license/MicroLua/MicroLua)]()
 
 **Link** - [GitHub - MicroLua/MicroLua: Lua for the RP2040 microcontroller](https://github.com/MicroLua/MicroLua)  
-**Features** - A LUA development package for Raspberry Pi Pico. With porting changes, it should also work on other microcontroller devices.  
+**Features** - LUA development package for Raspberry Pi Pico. With porting changes, it should also work on other microcontroller devices.  
 
 #### Key Points
 
@@ -112,7 +112,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/elua/elua)](https://github.com/elua/elua/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/elua/elua)](https://github.com/elua/elua/commits) | [![GitHub License](https://img.shields.io/github/license/elua/elua)]()
 
 **Link** - [eLua - eluaproject](https://eluaproject.net/)  
-**Features** - A Lua engine for embedded systems that lets Lua scripts run on embedded platforms.  
+**Features** - Lua engine for embedded systems that lets Lua scripts run on embedded platforms.  
 
 #### Key Points
 
@@ -156,7 +156,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cesanta/mjs)](https://github.com/cesanta/mjs/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cesanta/mjs)](https://github.com/cesanta/mjs/commits) | [![GitHub License](https://img.shields.io/github/license/cesanta/mjs)]()
 
 **Link** - [cesanta/mjs: Embedded JavaScript engine for C/C++](https://github.com/cesanta/mjs)  
-**Features** - A JavaScript engine specifically for microcontrollers, with a small footprint (RAM: 1k, ROM: 50k) and based on the ES6 standard.  
+**Features** - JavaScript engine specifically for microcontrollers, with a small footprint (RAM: 1k, ROM: 50k) and based on the ES6 standard.  
 
 #### Key Points
 
@@ -184,7 +184,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cnlohr/rawdrawandroid)](https://github.com/cnlohr/rawdrawandroid/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cnlohr/rawdrawandroid)](https://github.com/cnlohr/rawdrawandroid/commits) | [![GitHub License](https://img.shields.io/github/license/cnlohr/rawdrawandroid)]()
 
 **Link** - [cnlohr/rawdrawandroid: Build android apps without any java, entirely in C and Make](https://github.com/cnlohr/rawdrawandroid)  
-**Features** - A lightweight, cross-platform framework for developing Android applications in C.  
+**Features** - Lightweight, cross-platform framework for developing Android applications in C.  
 
 #### Key Points
 
@@ -264,7 +264,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/raysan5/raylib)](https://github.com/raysan5/raylib/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/raysan5/raylib)](https://github.com/raysan5/raylib/commits) | [![GitHub License](https://img.shields.io/github/license/raysan5/raylib)]()
 
 **Link** - [raylib | A simple and easy-to-use library to enjoy videogames programming](https://www.raylib.com/)  
-**Features** - A game library written entirely in C that provides simple video and game-programming capabilities.  
+**Features** - Game library written entirely in C that provides simple video and game-programming capabilities.  
 
 #### Key Points
 

@@ -37,12 +37,12 @@
 
 ### key
 
-**链接**：[极简网络密钥加密算法 - 代码片段 AES- Gitee.com](https://gitee.com/Luyi365/codes/07ltyn2pkv5m394dgiuf849)  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/key)](https://github.com/Luyi365/key/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/key)](https://github.com/Luyi365/key/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/key)]()
+
+**链接**：[Luyi365/key: 极简网络密钥加密算法](https://github.com/Luyi365/key)  
 **特征**：极简的加密算法，配合密钥使用，功能单一但实用，适合网络加密等领域。  
 
 #### 要点
-
-- 使用介绍：[用c语言实现一个简单的数据加解密算法](https://mp.weixin.qq.com/s/caLGRtseWHMNONCcRZlm4A)
 
 ---
 

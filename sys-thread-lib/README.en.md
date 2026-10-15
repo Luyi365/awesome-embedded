@@ -29,7 +29,7 @@
 [![Gitee Repo stars](https://gitee.com/ecbm/timeslice-polling/badge/star.svg?theme=gvp)](https://gitee.com/ecbm/timeslice-polling/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/timeslice-polling&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ecbm/timeslice-polling&query=$.license&label=license)]()
 
 **Link** - [Time-slice polling framework: This is a cross-platform ETP (Ecbm-Timeslice-Polling) framework. It uses time-slice polling; tasks are non-preemptive, and priority is determined by the order in which tasks are installed.](https://gitee.com/ecbm/timeslice-polling)  
-**Features** - A time-slice polling framework intended to decouple tasks with different time slices in the main polling loop; it is the most basic polling framework.  
+**Features** - Time-slice polling framework intended to decouple tasks with different time slices in the main polling loop; it is the most basic polling framework.  
 
 #### Key Points
 
@@ -40,7 +40,7 @@
 [![Gitee Repo stars](https://gitee.com/cot_package/cot_task/badge/star.svg?theme=gvp)](https://gitee.com/cot_package/cot_task/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_task&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_task&query=$.license&label=license)]()
 
 **Link** - [cotTask: A module component for task scheduling on embedded devices using timers](https://gitee.com/cot_package/cot_task)  
-**Features** - A time-slice polling framework for initialization, startup, and task-scheduling management, with the ability to set task priorities.  
+**Features** - Polling framework built on time slices that handles initialization, startup, and task-scheduling management, with the ability to set task priorities.  
 
 #### Key Points
 
@@ -55,7 +55,7 @@
 [![Gitee Repo stars](https://gitee.com/moluo-tech/CodeBrick/badge/star.svg?theme=gvp)](https://gitee.com/moluo-tech/CodeBrick/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/CodeBrick&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/CodeBrick&query=$.license&label=license)]()
 
 **Link** - [CodeBrick: A practical MCU software management system without an OS, including a task polling framework, command manager, low-power management, ring buffer, and other practical modules.](https://gitee.com/moluo-tech/CodeBrick)  
-**Features** - A time-slice polling framework that includes many practical modules, has no driver layer, and is simple and easy to use. It fits modern project development philosophy and is a bare-metal framework I really like; you could call it a top choice for ordinary projects.  
+**Features** - Time-slice polling framework that includes many practical modules, has no driver layer, and is simple and easy to use. It fits modern project development philosophy and is a bare-metal framework I really like; you could call it a top choice for ordinary projects.  
 
 #### Key Points
 
@@ -69,7 +69,7 @@
 [![Gitee Repo stars](https://gitee.com/Lamdonn/vkern/badge/star.svg?theme=gvp)](https://gitee.com/Lamdonn/vkern/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/vkern&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/vkern&query=$.license&label=license)]()
 
 **Link** - [vkern: A simple periodic task scheduling kernel](https://gitee.com/Lamdonn/vkern)  
-**Features** - A task scheduling kernel written by imitating the RTOS architecture; its principle is still to use timers to create a foreground-background system.  
+**Features** - Task scheduling kernel written by imitating the RTOS architecture; its principle is still to use timers to create a foreground-background system.  
 
 #### Key Points
 
@@ -80,7 +80,7 @@
 [![Gitee Repo stars](https://gitee.com/schuck/cola_os/badge/star.svg?theme=gvp)](https://gitee.com/schuck/cola_os/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/schuck/cola_os&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/schuck/cola_os&query=$.license&label=license)]()
 
 **Link** - [cola_os: An OS implementing multitasking management in 300 lines of code. In much MCU development, functionality is simple and real-time requirements are not strict; using an RTOS seems wasteful, while many poorly managed tasks become chaotic, hence the idea of polling task management. Simple and easy to use! CSDN:https://blog.csdn.net/ziqi5543/article/details/101512722](https://gitee.com/schuck/cola_os)  
-**Features** - A foreground-background system suitable for bare metal that has power-consumption requirements, limited CPU performance, and somewhat complex functionality.  
+**Features** - Foreground-background system suitable for bare metal that has power-consumption requirements, limited CPU performance, and somewhat complex functionality.  
 
 #### Key Points
 
@@ -96,7 +96,7 @@
 [![Gitee Repo stars](https://gitee.com/jeremyceng/JxOS/badge/star.svg?theme=gvp)](https://gitee.com/jeremyceng/JxOS/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jeremyceng/JxOS&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jeremyceng/JxOS&query=$.license&label=license)]()
 
 **Link** - [JxOS: A small foreground-background system for MCUs. Its design philosophy is to highly decouple functional modules from hardware to improve code-module reusability; avoid complex data structures and syntax to improve compatibility across hardware platforms and compilers, enabling rapid project porting between MCUs; provide practical, stable, and commonly used functional modules for rapid project development; and define a standard application-development framework to reduce the workload and difficulty of application development.](https://gitee.com/jeremyceng/JxOS)  
-**Features** - A foreground-background system with no complex registration or function-pointer structures, providing system kernel functions: tasks, events, messages, bulletin boards, mailboxes, pipes, registration, memory allocation...  
+**Features** - Foreground-background system with no complex registration or function-pointer structures, providing system kernel functions: tasks, events, messages, bulletin boards, mailboxes, pipes, registration, memory allocation...  
 
 #### Key Points
 
@@ -110,7 +110,7 @@
 [![Gitee Repo stars](https://gitee.com/event-os/eventos/badge/star.svg?theme=gvp)](https://gitee.com/event-os/eventos/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/eventos&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/event-os/eventos&query=$.license&label=license)]()
 
 **Link** - [eventos: An event-driven, ultra-lightweight embedded development framework. It occupies as little as 1.5 KB ROM and 172 bytes RAM. Its core technology is an event bus and it supports both Reactor and state-machine modes; it has a cooperative kernel, is extremely reliable, can be deeply tailored, and is easy to port.](https://gitee.com/event-os/eventos)  
-**Features** - An event-driven embedded system that provides kernel functions and more.  
+**Features** - Event-driven embedded system that provides kernel functions and more.  
 
 #### Key Points
 
@@ -121,7 +121,7 @@
 [![Gitee Repo stars](https://gitee.com/notrynohigh/BabyOS/badge/star.svg?theme=gvp)](https://gitee.com/notrynohigh/BabyOS/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/notrynohigh/BabyOS&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/notrynohigh/BabyOS&query=$.license&label=license)]()
 
 **Link** - [BabyOS: A code framework designed to accelerate MCU project development](https://gitee.com/notrynohigh/BabyOS)  
-**Features** - A registration-service framework for bare-metal MCU projects. It manages functional modules and peripheral drivers, has very clear code layering and standards, RTT-like "MenuConfig" terminal configuration, and PC simulation.  
+**Features** - Registration-service framework for bare-metal MCU projects. It manages functional modules and peripheral drivers, has very clear code layering and standards, RTT-like "MenuConfig" terminal configuration, and PC simulation.  
 
 #### Key Points
 
@@ -138,7 +138,7 @@
 [![Gitee Repo stars](https://gitee.com/cot_package/cot_os/badge/star.svg?theme=gvp)](https://gitee.com/cot_package/cot_os/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_os&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_os&query=$.license&label=license)]()
 
 **Link** - [cotOs: A simple query-based cooperative multitasking scheduling system for embedded devices implemented with setjmp/longjmp](https://gitee.com/cot_package/cot_os)  
-**Features** - A simple query-based cooperative multitasking system that does not require timers for task switching; it creates tasks just like an RTOS does, but provides no other functions. I really like it, and it feels absolutely cool.  
+**Features** - Simple query-based cooperative multitasking system that does not require timers for task switching; it creates tasks just like an RTOS does, but provides no other functions. I really like it, and it feels absolutely cool.  
 
 #### Key Points
 
@@ -163,7 +163,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/arkhipenko/TaskScheduler)](https://github.com/arkhipenko/TaskScheduler/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/arkhipenko/TaskScheduler)](https://github.com/arkhipenko/TaskScheduler/commits) | [![GitHub License](https://img.shields.io/github/license/arkhipenko/TaskScheduler)]()
 
 **Link** - [arkhipenko/TaskScheduler: Cooperative multitasking for Arduino, ESPx, STM32, nRF and other microcontrollers](https://github.com/arkhipenko/TaskScheduler)  
-**Features** - A cooperative multitasking framework with preemptive programming, but without concerns about concurrent-processing safety. It supports various configurations of task execution parameters.  
+**Features** - Cooperative multitasking framework with preemptive programming, but without concerns about concurrent-processing safety. It supports various configurations of task execution parameters.  
 
 #### Key Points
 
@@ -177,7 +177,7 @@
 
 **Link** - [kmilo17pet/QuarkTS: An open-source OS for embedded applications that supports prioritized cooperative scheduling, time control, inter-task communications primitives, hierarchical state machines and CoRoutines.](https://github.com/kmilo17pet/QuarkTS)  
 **C++ Version Link** - [kmilo17pet/QuarkTS-cpp: The QuarkTS port for C++. An open-source OS for embedded applications that supports prioritized cooperative scheduling, time control, inter-task communications primitives, hierarchical state machines and CoRoutines.](https://github.com/kmilo17pet/QuarkTS-cpp)  
-**Features** - An event-driven multitasking scheduling system that avoids concurrency pitfalls (resource sharing, race conditions, deadlocks, and so on) and provides complete kernel functions, complies with multiple industry standards, and is suitable for basic enterprise projects.  
+**Features** - Event-driven multitasking scheduling system that avoids concurrency pitfalls (resource sharing, race conditions, deadlocks, and so on) and provides complete kernel functions, complies with multiple industry standards, and is suitable for basic enterprise projects.  
 
 #### Key Points
 
@@ -235,7 +235,7 @@
 [![Gitee Repo stars](https://gitee.com/kerndev/klite/badge/star.svg?theme=gvp)](https://gitee.com/kerndev/klite/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/klite&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/klite&query=$.license&label=license)]()
 
 **Link** - [KLite: A concise and easy-to-use embedded operating system kernel. QQ discussion group: 317930646](https://gitee.com/kerndev/klite)  
-**Features** - A very concise and easy-to-use RTOS with the most basic practical kernel functions.  
+**Features** - A very concise and easy-to-use RTOS with the most basic practical kernel functions. It is suitable for simple RTOS projects that need rapid deployment.  
 
 #### Key Points
 
@@ -263,7 +263,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/weston-embedded/uC-OS3)](https://github.com/weston-embedded/uC-OS3/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/weston-embedded/uC-OS3)](https://github.com/weston-embedded/uC-OS3/commits) | [![GitHub License](https://img.shields.io/github/license/weston-embedded/uC-OS3)]()
 
 **Link** - [Overview - Weston Embedded Solutions](https://weston-embedded.com/micrium/overview)  
-**Features** - An OS that was relatively popular early on. Its features are similar to [FreeRTOS](#freertos), but it has somewhat stronger functionality.  
+**Features** - Relatively popular OS in the early days. Its features are similar to [FreeRTOS](#freertos), but it has somewhat stronger functionality.  
 
 #### Key Points
 
@@ -307,7 +307,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/apache/nuttx)](https://github.com/apache/nuttx/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/apache/nuttx)](https://github.com/apache/nuttx/commits) | [![GitHub License](https://img.shields.io/github/license/apache/nuttx)]()
 
 **Link** - [apache/nuttx: Apache NuttX is a mature, real-time embedded operating system (RTOS)](https://github.com/apache/nuttx)  
-**Features** - An operating system emphasizing standard compatibility and compact packaging that follows the [POSIX](./appendix.en.md#what-is-posix) standard and ANSI standards.  
+**Features** - Operating system emphasizing standard compatibility and compact packaging that follows the [POSIX](./appendix.en.md#what-is-posix) standard and ANSI standards.  
 
 #### Key Points
 
@@ -367,7 +367,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/embox/embox)](https://github.com/embox/embox/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/embox/embox)](https://github.com/embox/embox/commits) | [![GitHub License](https://img.shields.io/github/license/embox/embox)]()
 
 **Link** - [Embox | Real-time operating system](https://embox.github.io/)  
-**Features** - A multitasking operating system characterized by supporting Linux open-source components without using Linux itself. This open-source system aims to make Linux software usable everywhere.  
+**Features** - Multitasking operating system characterized by supporting Linux open-source components without using Linux itself. This open-source system aims to make Linux software usable everywhere.  
 
 #### Key Points
 
@@ -380,7 +380,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/evilbinary/YiYiYa)](https://github.com/evilbinary/YiYiYa/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/evilbinary/YiYiYa)](https://github.com/evilbinary/YiYiYa/commits) | [![GitHub License](https://img.shields.io/github/license/evilbinary/YiYiYa)]()
 
 **Link** - [evilbinary/YiYiYa: YiYiYa, an OS](https://github.com/evilbinary/YiYiYa)  
-**Features** - A full-featured OS with an architecture designed in layers from top to bottom. It can almost be regarded as a simplified Android system, suitable for phone-like products.  
+**Features** - Full-featured OS with an architecture designed in layers from top to bottom. It can almost be regarded as a simplified Android system, suitable for phone-like products.  
 
 #### Key Points
 
@@ -404,7 +404,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/skaiui2/SKRTOS_sparrow)](https://github.com/skaiui2/SKRTOS_sparrow/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/skaiui2/SKRTOS_sparrow)](https://github.com/skaiui2/SKRTOS_sparrow/commits) | [![GitHub License](https://img.shields.io/github/license/skaiui2/SKRTOS_sparrow)]()
 
 **Link** - [skaiui2/SKRTOS_sparrow: Lightweight rtos inspired by SKRTOS](https://github.com/skaiui2/SKRTOS_sparrow)  
-**Features** - An ultra-small system of only a few hundred lines that implements basic scheduling and IPC mechanisms; some call it a children's version of FreeRTOS.  
+**Features** - Ultra-small system of only a few hundred lines that implements basic scheduling and IPC mechanisms; some call it a children's version of FreeRTOS.  
 
 #### Key Points
 
@@ -415,7 +415,7 @@
 [![Gitee Repo stars](https://gitee.com/cosyos/cosyos/badge/star.svg?theme=gvp)](https://gitee.com/cosyos/cosyos/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cosyos/cosyos&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cosyos/cosyos&query=$.license&label=license)]()
 
 **Link** - [CosyOS: CosyOS is an open-source real-time operating system from China. From classic 8051 cores to popular Arm Cortex-M cores, it can achieve no global interrupt disablement and zero interrupt latency, suitable for scenarios with high requirements for system real-time performance and interrupt response speed. QQ discussion group: 303421780.](https://gitee.com/cosyos/cosyos)  
-**Features** - An operating system with zero interrupt latency that can maintain real-time performance without globally disabling interrupts, including many innovative and practical kernel functions.  
+**Features** - Operating system with zero interrupt latency that can maintain real-time performance without globally disabling interrupts, including many innovative and practical kernel functions.  
 
 #### Key Points
 
@@ -426,7 +426,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/scmrtos/scmrtos)](https://github.com/scmrtos/scmrtos/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/scmrtos/scmrtos)](https://github.com/scmrtos/scmrtos/commits) | [![GitHub License](https://img.shields.io/github/license/scmrtos/scmrtos)]()
 
 **Link** - [scmrtos/scmrtos: scmRTOS embedded operating system](https://github.com/scmrtos/scmrtos)  
-**Features** - A lightweight RTOS written in C++, providing only the most basic kernel functions such as scheduling and messages.  
+**Features** - Lightweight RTOS written in C++, providing only the most basic kernel functions such as scheduling and messages.  
 
 #### Key Points
 
@@ -437,7 +437,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/mudita/MuditaOS)](https://github.com/mudita/MuditaOS/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/mudita/MuditaOS)](https://github.com/mudita/MuditaOS/commits) | [![GitHub License](https://img.shields.io/github/license/mudita/MuditaOS)]()
 
 **Link** - [MuditaOS - Open Source E Ink mobile operating system | Mudita](https://mudita.com/products/phones/mudita-pure/muditaos/)  
-**Features** - A mobile operating system built on [FreeRTOS](#freertos), optimized specifically for E-Ink displays.  
+**Features** - Mobile operating system built on [FreeRTOS](#freertos), optimized specifically for E-Ink displays.  
 
 #### Key Points
 
@@ -448,7 +448,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/yhzhang0128/egos-2000)](https://github.com/yhzhang0128/egos-2000/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/yhzhang0128/egos-2000)](https://github.com/yhzhang0128/egos-2000/commits) | [![GitHub License](https://img.shields.io/github/license/yhzhang0128/egos-2000)]()
 
 **Link** - [yhzhang0128/egos-2000: Envision a future where everyone can read all the code of an educational operating system.](https://github.com/yhzhang0128/egos-2000)  
-**Features** - Minimalist OS implemented in just 2000 lines of code, covering core functions such as thread control, memory management, a file system, and bus IO, with detailed tutorials aimed at helping students understand how systems work.  
+**Features** - A minimalist OS implemented in just 2000 lines of code, covering core functions such as thread control, memory management, a file system, and bus IO, with detailed tutorials aimed at helping students understand how systems work.  
 
 #### Key Points
 
@@ -496,7 +496,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ARMmbed/mbed-os)](https://github.com/ARMmbed/mbed-os/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ARMmbed/mbed-os)](https://github.com/ARMmbed/mbed-os/commits) | [![GitHub License](https://img.shields.io/github/license/ARMmbed/mbed-os)]()
 
 **Link** - [Mbed OS | Mbed](https://os.mbed.com/mbed-os/)  
-**Features** - An easy-to-use IoT operating system from ARM.  
+**Features** - Easy-to-use IoT operating system from ARM.  
 
 #### Key Points
 
@@ -507,7 +507,7 @@
 [![Gitee Repo stars](https://gitee.com/LiteOS/LiteOS/badge/star.svg?theme=gvp)](https://gitee.com/LiteOS/LiteOS/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/LiteOS/LiteOS&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/LiteOS/LiteOS&query=$.license&label=license)]()
 
 **Link** - [Huawei LiteOS: A lightweight operating system driving perception, connection, and intelligence for everything](https://gitee.com/LiteOS)  
-**Features** - A lightweight IoT operating system from Huawei for the IoT domain.  
+**Features** - Lightweight IoT operating system from Huawei for the IoT domain.  
 
 #### Key Points
 
@@ -516,7 +516,7 @@
 ### Xiaomi Vela
 
 **Link** - [iot.mi.com/vela](https://iot.mi.com/vela)  
-**Features** - An IoT operating system from Xiaomi, built on the [NuttX](#nuttx) kernel at its foundation.  
+**Features** - IoT operating system from Xiaomi, built on the [NuttX](#nuttx) kernel at its foundation.  
 
 #### Key Points
 
@@ -527,7 +527,7 @@
 [![Gitee Repo stars](https://gitee.com/alios-things-admin/AliOS-Things/badge/star.svg?theme=gvp)](https://gitee.com/alios-things-admin/AliOS-Things/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/alios-things-admin/AliOS-Things&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/alios-things-admin/AliOS-Things&query=$.license&label=license)]()
 
 **Link** - [AliOS Things: AliOS Things is an open-source project incubated and operated by the OpenAtom Foundation, and is a new-generation IoT operating system for developers.](https://gitee.com/alios-things)  
-**Features** - A highly scalable IoT operating system from Alibaba for the IoT domain.  
+**Features** - Highly scalable IoT operating system from Alibaba for the IoT domain.  
 
 #### Key Points
 
@@ -582,7 +582,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/apache/mynewt-core)](https://github.com/apache/mynewt-core/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/apache/mynewt-core)](https://github.com/apache/mynewt-core/commits) | [![GitHub License](https://img.shields.io/github/license/apache/mynewt-core)]()
 
 **Link** - [apache/mynewt-core: An OS to build, deploy and securely manage billions of devices](https://github.com/apache/mynewt-core)  
-**Features** - An Apache OS designed for low-power wireless devices, with built-in Bluetooth and IEEE protocol stacks, ready to use out of the box.  
+**Features** - Apache OS designed for low-power wireless devices, with built-in Bluetooth and IEEE protocol stacks, ready to use out of the box.  
 
 #### Key Points
 
@@ -593,7 +593,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cesanta/mongoose-os)](https://github.com/cesanta/mongoose-os/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cesanta/mongoose-os)](https://github.com/cesanta/mongoose-os/commits) | [![GitHub License](https://img.shields.io/github/license/cesanta/mongoose-os)]()
 
 **Link** - [Mongoose OS - reduce IoT firmware development time up to 90%](https://mongoose-os.com/)  
-**Features** - An IoT firmware development framework supporting C/JavaScript development, with good support for remote management and upgrades. The open-source edition has limited functionality.  
+**Features** - IoT firmware development framework supporting C/JavaScript development, with good support for remote management and upgrades. The open-source edition has limited functionality.  
 
 #### Key Points
 
@@ -604,7 +604,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MicroPythonOS/MicroPythonOS)](https://github.com/MicroPythonOS/MicroPythonOS/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MicroPythonOS/MicroPythonOS)](https://github.com/MicroPythonOS/MicroPythonOS/commits) | [![GitHub License](https://img.shields.io/github/license/MicroPythonOS/MicroPythonOS)]()
 
 **Link** - [MicroPythonOS - The Ultimate MicroPython Operating System](https://micropythonos.com/)  
-**Features** - A lightweight, multifunctional operating system built with MicroPython, designed for microcontrollers such as ESP32 and desktop systems. It provides a modern Android-like touch interface, an app store, OTA, and more.  
+**Features** - Lightweight, multifunctional operating system built with MicroPython, designed for microcontrollers such as ESP32 and desktop systems. It provides a modern Android-like touch interface, an app store, OTA, and more.  
 
 #### Key Points
 
@@ -656,7 +656,7 @@
 [![License: BSD 2--Clause](https://img.shields.io/badge/license-BSD%202--Clause-blue.svg)](https://opensource.org/licenses/BSD-2-Clause)
 
 **Link** - [NetBSD/evbarm](https://wiki.netbsd.org/ports/evbarm/)  
-**Features** - Not-so-famous minimalist Unix system that is nonetheless fast, secure, stable, and highly portable, with clean code and tidy design.  
+**Features** - A not-so-famous minimalist Unix system that is nonetheless fast, secure, stable, and highly portable, with clean code and tidy design.  
 
 #### Key Points
 

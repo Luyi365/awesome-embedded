@@ -12,7 +12,7 @@
 [![Gitee Repo stars](https://gitee.com/gevico/mcs51-ell/badge/star.svg?theme=gvp)](https://gitee.com/gevico/mcs51-ell/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gevico/mcs51-ell&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gevico/mcs51-ell&query=$.license&label=license)]()
 
 **Link** - [MCS51-ELL: A hardware abstraction platform specifically designed for enhanced 1T8051-core MCUs.](https://gitee.com/gevico/mcs51-ell)  
-**Features** - An ELL (efficient low-layer) library that combines the programming concepts of HAL and LL libraries, primarily targeting the STC8 series.  
+**Features** - ELL (efficient low-layer) library that combines the programming concepts of HAL and LL libraries, primarily targeting the STC8 series.  
 
 #### Key Points
 
@@ -81,7 +81,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/bdring/FluidNC)](https://github.com/bdring/FluidNC/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/bdring/FluidNC)](https://github.com/bdring/FluidNC/commits) | [![GitHub License](https://img.shields.io/github/license/bdring/FluidNC)]()
 
 **Link** - [bdring/FluidNC: The next generation of motion control firmware](https://github.com/bdring/FluidNC)  
-**Features** - A CNC firmware library optimized for ESP32 controllers.  
+**Features** - CNC firmware library optimized for ESP32 controllers.  
 
 #### Key Points
 
@@ -92,7 +92,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/SourceRabbit/RabbitGRBL)](https://github.com/SourceRabbit/RabbitGRBL/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/SourceRabbit/RabbitGRBL)](https://github.com/SourceRabbit/RabbitGRBL/commits) | [![GitHub License](https://img.shields.io/github/license/SourceRabbit/RabbitGRBL)]()
 
 **Link** - [SourceRabbit/RabbitGRBL: Professional grade, 100% GRBL compatible motion control firmware for the ESP32](https://github.com/SourceRabbit/RabbitGRBL)  
-**Features** - A CNC firmware library running on ESP32 processors, highly optimized to maintain stable, jitter-free control pulses up to 120 kHz.  
+**Features** - CNC firmware library running on ESP32 processors, highly optimized to maintain stable, jitter-free control pulses up to 120 kHz.  
 
 #### Key Points
 

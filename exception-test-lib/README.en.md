@@ -12,7 +12,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/armink/CmBacktrace)](https://github.com/armink/CmBacktrace/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/armink/CmBacktrace)](https://github.com/armink/CmBacktrace/commits) | [![GitHub License](https://img.shields.io/github/license/armink/CmBacktrace)]()
 
 **Link** - [armink/CmBacktrace: Advanced fault backtrace library for ARM Cortex-M series MCU | Error tracing library for ARM Cortex-M series MCU](https://github.com/armink/CmBacktrace)  
-**Features** - Renowned error-tracing library for ARM Cortex-M series MCUs; for any project that's even a little complex, just drop it in and you're done.  
+**Features** - A renowned error-tracing library for ARM Cortex-M series MCUs; for any project that's even a little complex, just drop it in and you're done.  
 
 #### Key Points
 
@@ -49,7 +49,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/skullboyer/MLA)](https://github.com/skullboyer/MLA/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/skullboyer/MLA)](https://github.com/skullboyer/MLA/commits) | [![GitHub License](https://img.shields.io/github/license/skullboyer/MLA)]()
 
 **Link** - [skullboyer/MLA](https://github.com/skullboyer/MLA)  
-**Features** - A small, easy-to-use memory leak analysis library that records allocation counts.  
+**Features** - Small, easy-to-use memory leak analysis library that records allocation counts.  
 
 #### Key Points
 
@@ -77,7 +77,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/siu/minunit)](https://github.com/siu/minunit/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/siu/minunit)](https://github.com/siu/minunit/commits) | [![GitHub License](https://img.shields.io/github/license/siu/minunit)]()
 
 **Link** - [siu/minunit: Minimal unit testing framework for C](https://github.com/siu/minunit)  
-**Features** - A minimal unit testing framework for C without memory allocation.  
+**Features** - Minimal unit testing framework for C without memory allocation.  
 
 #### Key Points
 
@@ -90,7 +90,7 @@
 [![License: CuTest](https://img.shields.io/badge/License-CuTest-blue.svg)]()
 
 **Link** - [CuTest: The Cutest C Unit Testing Framework](https://cutest.sourceforge.net/)  
-**Features** - A minimalist C unit testing framework using dynamic memory allocation.  
+**Features** - Minimalist C unit testing framework using dynamic memory allocation.  
 
 #### Key Points
 
@@ -101,7 +101,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/google/cmockery)](https://github.com/google/cmockery/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/google/cmockery)](https://github.com/google/cmockery/commits) | [![GitHub License](https://img.shields.io/github/license/google/cmockery)]()
 
 **Link** - [google/cmockery: A lightweight library to simplify and generalize the process of writing unit tests for C applications.](https://github.com/google/cmockery)  
-**Features** - A lightweight C unit testing framework based on the standard C library.  
+**Features** - Lightweight C unit testing framework based on the standard C library.  
 
 #### Key Points
 
@@ -124,7 +124,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ThrowTheSwitch/Unity)](https://github.com/ThrowTheSwitch/Unity/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ThrowTheSwitch/Unity)](https://github.com/ThrowTheSwitch/Unity/commits) | [![GitHub License](https://img.shields.io/github/license/ThrowTheSwitch/Unity)]()
 
 **Link** - [Unity — Throw The Switch](https://www.throwtheswitch.org/unity)  
-**Features** - A unit testing framework written in C and focused on embedded toolchains.  
+**Features** - Unit testing framework written in C and focused on embedded toolchains.  
 
 #### Key Points
 

@@ -9,7 +9,7 @@
 ### float_converter
 
 **Link** - [Rounding, ceiling, floor, and exact-integer conversion - Gitee Code Snippet](https://gitee.com/Luyi365/codes/e5rg4nls0mda6831qb2i767)  
-**Features** - A library for rounding and integer conversion of floating-point data.  
+**Features** - Library for rounding and integer conversion of floating-point data.  
 
 #### Key Points
 
@@ -20,7 +20,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 **Link** - [LibBF Library](https://bellard.org/libbf/)  
-**Features** - A high-precision floating-point arithmetic library that provides values with greater precision than standard floating-point types such as *float* and *double*, with flexible control over precision and rounding modes.  
+**Features** - High-precision floating-point arithmetic library that provides values with greater precision than standard floating-point types such as *float* and *double*, with flexible control over precision and rounding modes.  
 
 #### Key Points
 
@@ -81,7 +81,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/sipeed/TinyMaix)](https://github.com/sipeed/TinyMaix/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/sipeed/TinyMaix)](https://github.com/sipeed/TinyMaix/commits) | [![GitHub License](https://img.shields.io/github/license/sipeed/TinyMaix)]()
 
 **Link** - [sipeed/TinyMaix: TinyMaix is a tiny inference library for microcontrollers (TinyML).](https://github.com/sipeed/TinyMaix)  
-**Features** - An AI neural-network inference framework designed for resource-constrained microcontrollers.  
+**Features** - AI neural-network inference framework designed for resource-constrained microcontrollers.  
 
 #### Key Points
 
@@ -132,7 +132,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/majianjia/nnom)](https://github.com/majianjia/nnom/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/majianjia/nnom)](https://github.com/majianjia/nnom/commits) | [![GitHub License](https://img.shields.io/github/license/majianjia/nnom)]()
 
 **Link** - [majianjia/nnom: A higher-level Neural Network library for microcontrollers.](https://github.com/majianjia/nnom)  
-**Features** - A framework for running neural networks on MCUs. It is similar to [TinyMaix](#tinymaix) but offers more features.  
+**Features** - Framework for running neural networks on MCUs. It is similar to [TinyMaix](#tinymaix) but offers more features.  
 
 #### Key Points
 
@@ -143,7 +143,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/PaddlePaddle/Paddle-Lite)](https://github.com/PaddlePaddle/Paddle-Lite/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/PaddlePaddle/Paddle-Lite)](https://github.com/PaddlePaddle/Paddle-Lite/commits) | [![GitHub License](https://img.shields.io/github/license/PaddlePaddle/Paddle-Lite)]()
 
 **Link** - [PaddlePaddle - Open-source deep learning platform from industrial practice](https://www.paddlepaddle.org.cn/lite)  
-**Features** - A high-performance, lightweight, flexible, and extensible deep-learning inference framework targeting mobile, embedded, edge, and other hardware platforms.  
+**Features** - High-performance, lightweight, flexible, and extensible deep-learning inference framework targeting mobile, embedded, edge, and other hardware platforms.  
 
 #### Key Points
 
@@ -156,7 +156,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/hyperai/tvm-cn)](https://github.com/hyperai/tvm-cn/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/hyperai/tvm-cn)](https://github.com/hyperai/tvm-cn/commits) | [![GitHub License](https://img.shields.io/github/license/hyperai/tvm-cn)]()
 
 **Link** - [Apache TVM Chinese site](https://tvm.hyper.ai/)  
-**Features** - An end-to-end deep-learning compiler framework for CPU, GPU, ARM, and other hardware architectures.  
+**Features** - End-to-end deep-learning compiler framework for CPU, GPU, ARM, and other hardware architectures.  
 
 #### Key Points
 
@@ -191,7 +191,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/alibaba/MNN)](https://github.com/alibaba/MNN/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/alibaba/MNN)](https://github.com/alibaba/MNN/commits) | [![GitHub License](https://img.shields.io/github/license/alibaba/MNN)]()
 
 **Link** - [alibaba/MNN: MNN is a blazing fast, lightweight deep learning framework, battle-tested by business-critical use cases in Alibaba](https://github.com/alibaba/MNN)  
-**Features** - A lightweight deep neural-network engine that supports deep-learning inference and training on embedded devices with POSIX interfaces.  
+**Features** - Lightweight deep neural-network engine that supports deep-learning inference and training on embedded devices with POSIX interfaces.  
 
 #### Key Points
 
@@ -233,7 +233,7 @@
 [![Gitee Repo stars](https://gitee.com/yao_mi/ymcv/badge/star.svg?theme=gvp)](https://gitee.com/yao_mi/ymcv/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yao_mi/ymcv&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/yao_mi/ymcv&query=$.license&label=license)]()
 
 **Link** - [YMCV: A cross-platform miniature computer-vision library](https://gitee.com/yao_mi/ymcv)  
-**Features** - A miniature computer-vision library written purely in C, with no dependencies, cross-platform support, and easy feature trimming.  
+**Features** - Miniature computer-vision library written purely in C, with no dependencies, cross-platform support, and easy feature trimming.  
 
 #### Key Points
 
@@ -244,7 +244,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/GiorgosXou/NeuralNetworks)](https://github.com/GiorgosXou/NeuralNetworks/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/GiorgosXou/NeuralNetworks)](https://github.com/GiorgosXou/NeuralNetworks/commits) | [![GitHub License](https://img.shields.io/github/license/GiorgosXou/NeuralNetworks)]()
 
 **Link** - [GitHub - GiorgosXou/NeuralNetworks: A resource-conscious neural network library for microcontrollers, with partial bare-metal & native-os support.](https://github.com/GiorgosXou/NeuralNetworks)  
-**Features** - A neural-network library for MCUs that runs RNN, GRU, and LSTM architectures with very few resources and supports bare metal and some operating systems.  
+**Features** - Neural-network library for MCUs that runs RNN, GRU, and LSTM architectures with very few resources and supports bare metal and some operating systems.  
 
 #### Key Points
 
@@ -255,7 +255,7 @@
 ### Knn
 
 **Link** - [Knn algorithm - Gitee Code Snippet](https://gitee.com/Luyi365/codes/svnarwquze6g3l8hpo19i36)  
-**Features** - A very basic KNN algorithm written in C with no particular optimizations; it is not recommended.  
+**Features** - Very basic KNN algorithm written in C with no particular optimizations; it is not recommended.  
 
 #### Key Points
 
@@ -270,7 +270,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/RangiLyu/nanodet)](https://github.com/RangiLyu/nanodet/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/RangiLyu/nanodet)](https://github.com/RangiLyu/nanodet/commits) | [![GitHub License](https://img.shields.io/github/license/RangiLyu/nanodet)]()
 
 **Link** - [RangiLyu/nanodet: NanoDet-Plus⚡Super fast and lightweight anchor-free object detection model. 🔥Only 980 KB(int8) / 1.8MB (fp16) and run 97FPS on cellphone🔥](https://github.com/RangiLyu/nanodet)  
-**Features** - A super-fast, high-precision, lightweight anchor-free object-detection model implemented on a mobile AI framework.  
+**Features** - Super-fast, high-precision, lightweight anchor-free object-detection model implemented on a mobile AI framework.  
 
 #### Key Points
 
@@ -281,7 +281,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/nenadmarkus/pico)](https://github.com/nenadmarkus/pico/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/nenadmarkus/pico)](https://github.com/nenadmarkus/pico/commits) | [![GitHub License](https://img.shields.io/github/license/nenadmarkus/pico)]()
 
 **Link** - [nenadmarkus/pico: A minimalistic framework for real-time object detection (with a pre-trained face detector)](https://github.com/nenadmarkus/pico)  
-**Features** - A lightweight face-recognition algorithm based on pixel-intensity comparisons for object detection, suitable for single-purpose, low-traffic scenarios.  
+**Features** - Lightweight face-recognition algorithm based on pixel-intensity comparisons for object detection, suitable for single-purpose, low-traffic scenarios.  
 
 #### Key Points
 

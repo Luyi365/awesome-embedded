@@ -14,7 +14,7 @@
 ### memory
 
 **Link** - [A Simple MCU Memory Management Module (with Source Code)](https://mp.weixin.qq.com/s/hWcoYVZE3SXgHC3ixrcP1A)  
-**Features** - Minimalist memory management module that only provides memory allocation and release, with no other features.  
+**Features** - A minimalist memory management module that only provides memory allocation and release, with no other features.  
 
 #### Key Points
 
@@ -63,7 +63,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/jemalloc/jemalloc)](https://github.com/jemalloc/jemalloc/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/jemalloc/jemalloc)](https://github.com/jemalloc/jemalloc/commits) | [![GitHub License](https://img.shields.io/github/license/jemalloc/jemalloc)]()
 
 **Link** - [jemalloc](https://jemalloc.net/)  
-**Features** - High-performance memory allocator suitable for large-scale memory allocation and release in multithreaded environments.  
+**Features** - A high-performance memory allocator suitable for large-scale memory allocation and release in multithreaded environments.  
 
 #### Key Points
 
@@ -240,7 +240,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 
 **Link** - [FatFs - Generic FAT Filesystem Module](http://elm-chan.org/fsw/ff/00index_e.html)  
 **8-bit microcontroller edition** - [Petit FAT File System Module](http://elm-chan.org/fsw/ff/00index_p.html)  
-**Features** - Renowned file system library that is very easy to port, supporting the exFAT file system, 64-bit LBA, and GPT. It can be configured with macros according to functionality and emphasizes thread safety.  
+**Features** - A renowned file system library that is very easy to port, supporting the exFAT file system, 64-bit LBA, and GPT. It can be configured with macros according to functionality and emphasizes thread safety.  
 
 #### Key Points
 
@@ -287,7 +287,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 [![GitHub Repo stars](https://img.shields.io/github/stars/littlefs-project/littlefs)](https://github.com/littlefs-project/littlefs/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/littlefs-project/littlefs)](https://github.com/littlefs-project/littlefs/commits) | [![GitHub License](https://img.shields.io/github/license/littlefs-project/littlefs)]()
 
 **Link** - [littlefs-project/littlefs: A little fail-safe filesystem designed for microcontrollers](https://github.com/littlefs-project/littlefs)  
-**Features** - Safe file system designed for microprocessors, with power-loss protection, wear leveling, low resource consumption, and other features.  
+**Features** - A safe file system designed for microprocessors, with power-loss protection, wear leveling, low resource consumption, and other features.  
 
 #### Key Points
 
@@ -347,7 +347,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 [![GitHub Repo stars](https://img.shields.io/github/stars/clisystems/utfs)](https://github.com/clisystems/utfs/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/clisystems/utfs)](https://github.com/clisystems/utfs/commits) | [![GitHub License](https://img.shields.io/github/license/clisystems/utfs)]()
 
 **Link** - [clisystems/utfs: UTFS a Tar-like Embedded File System](https://github.com/clisystems/utfs)  
-**Features** - Tiny TAR-like <sup>(short for Tape Archive, an archive format designed for tape drives in the 1970s)</sup> embedded file system that aims to keep the storage layout from being broken as data changes; it has no directories, wear leveling, or journaling.  
+**Features** - A tiny TAR-like <sup>(short for Tape Archive, an archive format designed for tape drives in the 1970s)</sup> embedded file system that aims to keep the storage layout from being broken as data changes; it has no directories, wear leveling, or journaling.  
 
 #### Key Points
 

@@ -24,7 +24,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/lmooml/SmartTimer)](https://github.com/lmooml/SmartTimer/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/lmooml/SmartTimer)](https://github.com/lmooml/SmartTimer/commits) | [![GitHub License](https://img.shields.io/github/license/lmooml/SmartTimer)]()
 
 **Link** - [lmooml/SmartTimer: a lightly timer manager base on STM32F10X,to processing asynchronous event.](https://github.com/lmooml/SmartTimer)  
-**Features** - Very practical timer scheduler for bare-metal systems. Besides basic polling callbacks, it can also set the number of polling iterations.  
+**Features** - A very practical timer scheduler for bare-metal systems. Besides basic polling callbacks, it can also set the number of polling iterations.  
 
 #### Key Points
 

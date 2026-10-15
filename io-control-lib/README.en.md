@@ -11,12 +11,12 @@
 
 ### key_detect
 
-**Link** - [Button Detection Framework - Code Snippet - Gitee.com](https://gitee.com/Luyi365/codes/1bw4y628enkoj3zfupamg78)  
-**Features** - Simple button-detection component that uses event registration to provide the most basic button functionality.  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/key_detect)](https://github.com/Luyi365/key_detect/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/key_detect)](https://github.com/Luyi365/key_detect/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/key_detect)]()
+
+**Link** - [Luyi365/key_detect: A simple button-detection component that uses event registration to provide the most basic button functionality.](https://github.com/Luyi365/key_detect)  
+**Features** - A simple button-detection component that uses event registration to provide the most basic button functionality.  
 
 #### Key Points
-
-- Usage guide: [Button Detection Component.pdf](assets/按键检测组件-20240430172258-n7or4pn.pdf)
 
 ---
 
@@ -108,7 +108,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwbtn) | ![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwbtn) | ![GitHub License](https://img.shields.io/github/license/MaJerle/lwbtn)
 
 **Link** - [LwBTN latest-develop documentation — LwBTN documentation](https://docs.majerle.eu/projects/lwbtn/en/latest/)  
-**Features** - Professional button-event management library.  
+**Features** - A professional button-event management library with rich configuration, if somewhat hard to grasp.  
 
 #### Key Points
 
@@ -168,7 +168,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/gnea/grbl)](https://github.com/gnea/grbl/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/gnea/grbl)](https://github.com/gnea/grbl/commits) | [![GitHub License](https://img.shields.io/github/license/gnea/grbl)]()
 
 **Link** - [gnea/grbl: An open source, embedded, high performance g-code-parser and CNC milling controller written in optimized C that will run on a straight Arduino](https://github.com/gnea/grbl)  
-**Features** - Industry-renowned open-source CNC codebase used for laser cutters, automated handwriting machines, drilling machines, graffiti painters, and quirky plotters; a maker favorite and an industry standard.  
+**Features** - An industry-renowned open-source CNC codebase used for laser cutters, automated handwriting machines, drilling machines, graffiti painters, and quirky plotters; a maker favorite and an industry standard.  
 
 #### Key Points
 

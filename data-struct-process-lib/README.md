@@ -165,15 +165,6 @@
 > 
 > ![CMSIS-Stream-Graph](CMSIS-Stream-Graph.gif)
 
-### uart_stream
-
-**链接**：[UART 与用户数据流缓冲处理 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/jr7tzaiq6lupefkxh4com60)  
-**特征**：数据流缓冲处理库，针对 UART 数据，但有一定的通用性。  
-
-#### 要点
-
----
-
 ### xprintf
 
 [![License: xprintf](https://img.shields.io/badge/License-xprintf-blue.svg)]()

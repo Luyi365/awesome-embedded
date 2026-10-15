@@ -14,7 +14,7 @@
 [![Gitee Repo stars](https://gitee.com/git-lib/dbugLib-Prj/badge/star.svg?theme=gvp)](https://gitee.com/git-lib/dbugLib-Prj/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/git-lib/dbugLib-Prj&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/git-lib/dbugLib-Prj&query=$.license&label=license)]()
 
 **Link** - [dbugLib Prj: Portable debug diagnostic library](https://gitee.com/git-lib/dbugLib-Prj)  
-**Features** - A compact logging library that only provides output display and can adjust log levels to filter logs at specified levels, equivalent to the printf functionality that generic SDKs include;  
+**Features** - Compact logging library that only provides output display and can adjust log levels to filter logs at specified levels, equivalent to the printf functionality that generic SDKs include;  
 
 #### Key Points
 
@@ -40,7 +40,7 @@
 ### log
 
 **Link** - [Sharing a Compact Embedded Logging Module (with Code)](https://mp.weixin.qq.com/s/h4UWFGgGEDS_2Mur1hJygw)  
-**Features** - A compact logging module whose output includes the time, log type, content, file name, line number, function name, and other information.  
+**Features** - Compact logging module whose output includes the time, log type, content, file name, line number, function name, and other information.  
 
 #### Key Points
 
@@ -51,7 +51,7 @@
 [![Gitee Repo stars](https://gitee.com/nikolan/alog/badge/star.svg?theme=gvp)](https://gitee.com/nikolan/alog/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/nikolan/alog&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/nikolan/alog&query=$.license&label=license)]()
 
 **Link** - [alog: alog is a highly streamlined serial-output logging component, similar to easyloger but simpler and easier to use. With only two files of fewer than one hundred lines each, it implements all functions required for basic logging. It has few interfaces and options requiring porting configuration; once serial string output is implemented, it is ready to use. It has no dependencies beyond the C library and no extended APIs for log storage. It is suitable for beginners to understand and port to resource-constrained microcontrollers.](https://gitee.com/nikolan/alog)  
-**Features** - A streamlined output logging component with color and mutex locking.  
+**Features** - Streamlined output logging component with color and mutex locking.  
 
 #### Key Points
 
@@ -62,7 +62,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwprintf)](https://github.com/MaJerle/lwprintf/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwprintf)](https://github.com/MaJerle/lwprintf/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwprintf)]()
 
 **Link** - [LwPRINTF latest-develop documentation — LwPRINTF documentation](https://docs.majerle.eu/projects/lwprintf/en/latest/)  
-**Features** - A safe, concise standard-output utility library that allows multiple output streams to be redirected; all APIs are reentrant.  
+**Features** - Safe, concise standard-output utility library that allows multiple output streams to be redirected; all APIs are reentrant.  
 
 #### Key Points
 
@@ -102,7 +102,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/jiejieTop/cmd-parser)](https://github.com/jiejieTop/cmd-parser/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/jiejieTop/cmd-parser)](https://github.com/jiejieTop/cmd-parser/commits) | [![GitHub License](https://img.shields.io/github/license/jiejieTop/cmd-parser)]()
 
 **Link** - [jiejieTop/cmd-parser: A very simple and easy-to-use command parser that uses extremely few resources and a hash algorithm to match commands very quickly!](https://github.com/jiejieTop/cmd-parser)  
-**Features** - A minimalist command-parsing library that triggers functions through strings, which is a pretty interesting approach.  
+**Features** - Minimalist command-parsing library that triggers functions through strings, which is a pretty interesting approach.  
 
 #### Key Points
 
@@ -117,7 +117,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwshell)](https://github.com/MaJerle/lwshell/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwshell)](https://github.com/MaJerle/lwshell/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwshell)]()
 
 **Link** - [LwSHELL latest-develop documentation — LwSHELL documentation](https://docs.majerle.eu/projects/lwshell/en/latest/)  
-**Features** - A lightweight shell library that is simple and easy to use and includes command descriptions.  
+**Features** - Lightweight shell library that is simple and easy to use and includes command descriptions.  
 
 #### Key Points
 
@@ -141,7 +141,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/argtable/argtable3)](https://github.com/argtable/argtable3/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/argtable/argtable3)](https://github.com/argtable/argtable3/commits) | [![GitHub License](https://img.shields.io/github/license/argtable/argtable3)]()
 
 **Link** - [Argtable.org](https://www.argtable.org/)  
-**Features** - A standardized command-line parsing library for custom operation commands that follows the POSIX interface.  
+**Features** - Standardized command-line parsing library for custom operation commands that follows the POSIX interface.  
 
 #### Key Points
 
@@ -152,7 +152,7 @@
 [![Gitee Repo stars](https://gitee.com/nrush/nr_micro_shell/badge/star.svg?theme=gvp)](https://gitee.com/nrush/nr_micro_shell/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/nrush/nr_micro_shell&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/nrush/nr_micro_shell&query=$.license&label=license)]()
 
 **Link** - [nr_micro_shell: shell for MCU. Microcontroller command-line interaction.](https://gitee.com/nrush/nr_micro_shell)  
-**Features** - A standard command-line interaction library that provides Tab command completion and command history lookup, with native support for ENV tools.  
+**Features** - Standard command-line interaction library that provides Tab command completion and command history lookup, with native support for ENV tools.  
 
 #### Key Points
 
@@ -177,7 +177,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/XradioTech/xradio-skylark-sdk)](https://github.com/XradioTech/xradio-skylark-sdk/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/XradioTech/xradio-skylark-sdk?path=src/console)](https://github.com/XradioTech/xradio-skylark-sdk/commits) | [![GitHub License](https://img.shields.io/github/license/XradioTech/xradio-skylark-sdk)]()
 
 **Link** - [xradio-skylark-sdk/src/console at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/src/console)、[xradio-skylark-sdk/include/console at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/include/console)  
-**Features** - A console library extracted from the Xradio SDK. Its commands use a hierarchical structure, making it suitable when there are many commands; it is based on RTOS.  
+**Features** - Console library extracted from the Xradio SDK. Its commands use a hierarchical structure, making it suitable when there are many commands; it is based on RTOS.  
 
 #### Key Points
 
@@ -199,7 +199,7 @@
 [![Gitee Repo stars](https://gitee.com/gzbkey/easyShell/badge/star.svg?theme=gvp)](https://gitee.com/gzbkey/easyShell/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/easyShell&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gzbkey/easyShell&query=$.license&label=license)]()
 
 **Link** - [easyShell: A simple microcontroller shell. A simple and easy-to-use microcontroller shell.](https://gitee.com/gzbkey/easyShell)  
-**Features** - A simple and easy-to-use microcontroller shell that supports Tab completion.  
+**Features** - Simple and easy-to-use microcontroller shell that supports Tab completion.  
 
 #### Key Points
 

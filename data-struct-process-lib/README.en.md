@@ -37,7 +37,7 @@
 [![Gitee Repo stars](https://gitee.com/Aladdin-Wang/byte_queue/badge/star.svg?theme=gvp)](https://gitee.com/Aladdin-Wang/byte_queue/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Aladdin-Wang/byte_queue&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Aladdin-Wang/byte_queue&query=$.license&label=license)]()
 
 **Link** - [byte_queue: A C-language ring queue supporting arbitrary types.](https://gitee.com/Aladdin-Wang/byte_queue)  
-**Features** - A C-language ring queue supporting arbitrary types, wrapped with macros and simple to use.  
+**Features** - C-language ring queue supporting arbitrary types, wrapped with macros and simple to use.  
 
 #### Key Points
 
@@ -48,7 +48,7 @@
 [![Gitee Repo stars](https://gitee.com/Lamdonn/queue/badge/star.svg?theme=gvp)](https://gitee.com/Lamdonn/queue/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/queue&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/queue&query=$.license&label=license)]()
 
 **Link** - [queue: Very small and convenient general-purpose queue in C language version.](https://gitee.com/Lamdonn/queue)  
-**Features** - A general-purpose C queue supporting arbitrary data types; simple and efficient to use.  
+**Features** - General-purpose C queue supporting arbitrary data types; simple and efficient to use.  
 
 #### Key Points
 
@@ -73,7 +73,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Aladdin-Wang/wl_queue)](https://github.com/Aladdin-Wang/wl_queue/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Aladdin-Wang/wl_queue)](https://github.com/Aladdin-Wang/wl_queue/commits) | [![GitHub License](https://img.shields.io/github/license/Aladdin-Wang/wl_queue)]()
 
 **Link** - [Aladdin-Wang/wl_queue: A queue supporting arbitrary types.](https://github.com/Aladdin-Wang/wl_queue)  
-**Features** - A ring queue supporting arbitrary data types. It uses C overloading techniques and emphasizes coroutine safety.  
+**Features** - Ring queue supporting arbitrary data types. It uses C overloading techniques and emphasizes coroutine safety.  
 
 #### Key Points
 
@@ -86,7 +86,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/XinLiGH/RingBuffer)](https://github.com/XinLiGH/RingBuffer/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/XinLiGH/RingBuffer)](https://github.com/XinLiGH/RingBuffer/commits) | [![GitHub License](https://img.shields.io/github/license/XinLiGH/RingBuffer)]()
 
 **Link** - [XinLiGH/RingBuffer: A ring buffer implemented in imitation of kfifo.](https://github.com/XinLiGH/RingBuffer)  
-**Features** - A practical, fully featured ring-buffer library that uses heap-memory allocation.  
+**Features** - Practical, fully featured ring-buffer library that uses heap-memory allocation.  
 
 #### Key Points
 
@@ -99,7 +99,7 @@
 [![Gitee Repo stars](https://gitee.com/const-zpc/queue/badge/star.svg?theme=gvp)](https://gitee.com/const-zpc/queue/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/const-zpc/queue&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/const-zpc/queue&query=$.license&label=license)]()
 
 **Link** - [queue: A queue implementation in C with strong extensibility that also supports zero-copy queue reads and writes (suitable for individual elements that use large amounts of memory, effectively reducing function execution time).](https://gitee.com/const-zpc/queue)  
-**Features** - A simple, highly extensible queue library that also supports zero-copy queue reads and writes (suitable for individual elements that use large amounts of memory, effectively reducing function execution time).  
+**Features** - Simple, highly extensible queue library that also supports zero-copy queue reads and writes (suitable for individual elements that use large amounts of memory, effectively reducing function execution time).  
 
 #### Key Points
 
@@ -110,7 +110,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/xiaoxinpro/QueueForMcu)](https://github.com/xiaoxinpro/QueueForMcu/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/xiaoxinpro/QueueForMcu)](https://github.com/xiaoxinpro/QueueForMcu/commits) | [![GitHub License](https://img.shields.io/github/license/xiaoxinpro/QueueForMcu)]()
 
 **Link** - [xiaoxinpro/QueueForMcu: A queue module implemented for microcontrollers, primarily for 8-bit, 16-bit, and 32-bit microcontroller applications without RTOS, and compatible with most microcontroller platforms.](https://github.com/xiaoxinpro/QueueForMcu)  
-**Features** - A queue module for non-RTOS systems that dynamically creates queue objects and buffers.  
+**Features** - Queue module for non-RTOS systems that dynamically creates queue objects and buffers.  
 
 #### Key Points
 
@@ -134,7 +134,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwrb)](https://github.com/MaJerle/lwrb/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwrb)](https://github.com/MaJerle/lwrb/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwrb)]()
 
 **Link** - [LwRB latest-develop documentation — LwRB documentation](https://docs.majerle.eu/projects/lwrb/en/latest/)  
-**Features** - A professional FIFO ring-buffer library with no dynamic memory allocation, suitable for MDA transfers and focused on thread and interrupt safety.  
+**Features** - Professional FIFO ring-buffer library with no dynamic memory allocation, suitable for MDA transfers and focused on thread and interrupt safety.  
 
 #### Key Points
 
@@ -148,7 +148,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/nqtronix/fifofast)](https://github.com/nqtronix/fifofast/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/nqtronix/fifofast)](https://github.com/nqtronix/fifofast/commits) | [![GitHub License](https://img.shields.io/github/license/nqtronix/fifofast)]()
 
 **Link** - [nqtronix/fifofast: A fast, generic fifo for MCUs.](https://github.com/nqtronix/fifofast)  
-**Features** - A FIFO library optimized for MCUs, intended to reduce CPU and SRAM consumption as much as possible.  
+**Features** - FIFO library optimized for MCUs, intended to reduce CPU and SRAM consumption as much as possible.  
 
 #### Key Points
 
@@ -164,15 +164,6 @@
 > 5. The reverse is the same: user data is first sent to the user queue buffer, then received by the data-processing area (deserialization), and finally sent through UART by DMA;
 > 
 > ![CMSIS-Stream-Graph](CMSIS-Stream-Graph.gif)
-
-### uart_stream
-
-**Link** - [UART and user data-stream buffer processing - Code snippet - Gitee.com](https://gitee.com/Luyi365/codes/jr7tzaiq6lupefkxh4com60)  
-**Features** - A data-stream buffer-processing library for UART data with some general applicability.  
-
-#### Key Points
-
----
 
 ### xprintf
 
@@ -190,7 +181,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ARM-software/CMSIS-Stream)](https://github.com/ARM-software/CMSIS-Stream/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ARM-software/CMSIS-Stream)](https://github.com/ARM-software/CMSIS-Stream/commits) | [![GitHub License](https://img.shields.io/github/license/ARM-software/CMSIS-Stream)]()
 
 **Link** - [ARM-software/CMSIS-Stream: CMSIS-Stream software component](https://github.com/ARM-software/CMSIS-Stream)  
-**Features** - An ARM-official data-stream processing component with graphical representations, suitable for professional projects and multi-device data-stream processing.  
+**Features** - ARM-official data-stream processing component with graphical representations, suitable for professional projects and multi-device data-stream processing.  
 
 #### Key Points
 
@@ -261,7 +252,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/nanopb/nanopb)](https://github.com/nanopb/nanopb/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/nanopb/nanopb)](https://github.com/nanopb/nanopb/commits) | [![GitHub License](https://img.shields.io/github/license/nanopb/nanopb)]()
 
 **Link** - [Nanopb - protocol buffers with small code size](https://jpa.kapsi.fi/nanopb/)  
-**Features** - A lightweight Protobuf implementation supporting C. Protobuf is a data format developed by Google. It can be used for data storage and communication protocols and is independent of language and platform, allowing communication between different devices.  
+**Features** - Lightweight Protobuf implementation supporting C. Protobuf is a data format developed by Google. It can be used for data storage and communication protocols and is independent of language and platform, allowing communication between different devices.  
 
 #### Key Points
 
@@ -332,7 +323,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/atomicobject/heatshrink)](https://github.com/atomicobject/heatshrink/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/atomicobject/heatshrink)](https://github.com/atomicobject/heatshrink/commits) | [![GitHub License](https://img.shields.io/github/license/atomicobject/heatshrink)]()
 
 **Link** - [atomicobject/heatshrink: data compression library for embedded/real-time systems](https://github.com/atomicobject/heatshrink)  
-**Features** - An embedded decompression library with extremely low resource consumption. Related documentation is sparse.  
+**Features** - Embedded decompression library with extremely low resource consumption. Related documentation is sparse.  
 
 #### Key Points
 
@@ -345,7 +336,7 @@
 [![License: TJpgDec](https://img.shields.io/badge/License-TJpgDec-blue.svg)]()
 
 **Link** - [TJpgDec - Tiny JPEG Decompressor](http://elm-chan.org/fsw/tjpgd/00index.html)  
-**Features** - A JPEG image-decompression module optimized for embedded systems.  
+**Features** - JPEG image-decompression module optimized for embedded systems.  
 
 #### Key Points
 

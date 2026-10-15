@@ -11,12 +11,12 @@
 
 ### key_detect
 
-**链接**：[按键检测框架 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/1bw4y628enkoj3zfupamg78)  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/key_detect)](https://github.com/Luyi365/key_detect/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/key_detect)](https://github.com/Luyi365/key_detect/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/key_detect)]()
+
+**链接**：[Luyi365/key_detect: 简易的按键检测组件，采用注册事件，提供最基本的按键功能。](https://github.com/Luyi365/key_detect)  
 **特征**：简易的按键检测组件，采用注册事件，提供最基本的按键功能。  
 
 #### 要点
-
-- 使用说明：[按键检测组件.pdf](assets/按键检测组件-20240430172258-n7or4pn.pdf)
 
 ---
 

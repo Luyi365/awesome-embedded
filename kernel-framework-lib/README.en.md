@@ -37,7 +37,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwevt)](https://github.com/MaJerle/lwevt/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwevt)](https://github.com/MaJerle/lwevt/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwevt)]()
 
 **Link** - [LwEVT latest-develop documentation — LwEVT documentation](https://docs.majerle.eu/projects/lwevt/en/latest/)  
-**Features** - A professional event-module library with optional custom data types and attached specified functions; it can be understood as a combination of events and messages, handling event dispatching and callbacks.  
+**Features** - Professional event-module library with optional custom data types and attached specified functions; it can be understood as a combination of events and messages, handling event dispatching and callbacks.  
 
 #### Key Points
 
@@ -51,7 +51,7 @@
 ### YAMI4
 
 **Link** - [Inspirel - YAMI4](http://www.inspirel.com/yami4/index.html)  
-**Features** - A messaging library designed for distributed systems, with particular attention to control and monitoring systems.  
+**Features** - Messaging library designed for distributed systems, with particular attention to control and monitoring systems.  
 
 #### Key Points
 
@@ -92,7 +92,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cameron314/readerwriterqueue)](https://github.com/cameron314/readerwriterqueue/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cameron314/readerwriterqueue)](https://github.com/cameron314/readerwriterqueue/commits) | [![GitHub License](https://img.shields.io/github/license/cameron314/readerwriterqueue)]()
 
 **Link** - [cameron314/readerwriterqueue: A fast single-producer, single-consumer lock-free queue for C++](https://github.com/cameron314/readerwriterqueue)  
-**Features** - A C++ single-producer, single-consumer lock-free queue. It serves the same purpose as a pipe framework, is fast and easy to use, and emphasizes thread safety without locks.  
+**Features** - C++ single-producer, single-consumer lock-free queue. It serves the same purpose as a pipe framework, is fast and easy to use, and emphasizes thread safety without locks.  
 
 #### Key Points
 
@@ -105,7 +105,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/FASTSHIFT/X-TRACK)](https://github.com/FASTSHIFT/X-TRACK/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/FASTSHIFT/X-TRACK?path=Software/X-Track/USER/App/Utils/DataCenter)](https://github.com/FASTSHIFT/X-TRACK/commits) | [![GitHub License](https://img.shields.io/github/license/FASTSHIFT/X-TRACK)]()
 
 **Link** - [X-TRACK/Software/X-Track/USER/App/Utils/DataCenter at main · FASTSHIFT/X-TRACK](https://github.com/FASTSHIFT/X-TRACK/tree/main/Software/X-Track/USER/App/Utils/DataCenter)  
-**Features** - A C++ message publish-subscribe framework that provides complete mailbox services and is suitable for project-level engineering.  
+**Features** - C++ message publish-subscribe framework that provides complete mailbox services and is suitable for project-level engineering.  
 
 #### Key Points
 
@@ -118,7 +118,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Pithikos/C-Thread-Pool)](https://github.com/Pithikos/C-Thread-Pool/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Pithikos/C-Thread-Pool)](https://github.com/Pithikos/C-Thread-Pool/commits) | [![GitHub License](https://img.shields.io/github/license/Pithikos/C-Thread-Pool)]()
 
 **Link** - [Pithikos/C-Thread-Pool: A minimal but powerful thread pool in ANSI C](https://github.com/Pithikos/C-Thread-Pool)  
-**Features** - A lightweight embedded thread-pool library for managing thread creation and lifecycles, solving the overhead caused by frequent thread creation and destruction.  
+**Features** - Lightweight embedded thread-pool library for managing thread creation and lifecycles, solving the overhead caused by frequent thread creation and destruction.  
 
 #### Key Points
 
@@ -140,7 +140,7 @@
 ### platform_dev
 
 **Link** - [Simplified Driver Framework - Code Snippet - Gitee.com](https://gitee.com/Luyi365/codes/r6n19xu2ikatw7cojy8he84)  
-**Features** - A simplified driver framework modeled on Linux. Its design does not use dynamic memory allocation, making it suitable for chips with limited resources.  
+**Features** - Simplified driver framework modeled on Linux. Its design does not use dynamic memory allocation, making it suitable for chips with limited resources.  
 
 #### Key Points
 
@@ -157,7 +157,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/vsergeev/c-periphery)](https://github.com/vsergeev/c-periphery/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/vsergeev/c-periphery)](https://github.com/vsergeev/c-periphery/commits) | [![GitHub License](https://img.shields.io/github/license/vsergeev/c-periphery)]()
 
 **Link** - [vsergeev/c-periphery: A C library for peripheral I/O (GPIO, LED, PWM, SPI, I2C, MMIO, Serial) in Linux.](https://github.com/vsergeev/c-periphery)  
-**Features** - A Linux-based hardware peripheral abstraction-layer template.  
+**Features** - Linux-based hardware peripheral abstraction-layer template.  
 
 #### Key Points
 
@@ -170,7 +170,7 @@
 ### senser_algorithm
 
 **Link** - [Sensor + Algorithm Processing Framework: A sensor-data processing framework for RTOS.](https://gitee.com/Luyi365/senser_algorithm)  
-**Features** - A sensor-data processing framework for RTOS.  
+**Features** - Sensor-data processing framework for RTOS.  
 
 #### Key Points
 
@@ -220,7 +220,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/kiishor/UML-State-Machine-in-C)](https://github.com/kiishor/UML-State-Machine-in-C/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/kiishor/UML-State-Machine-in-C)](https://github.com/kiishor/UML-State-Machine-in-C/commits) | [![GitHub License](https://img.shields.io/github/license/kiishor/UML-State-Machine-in-C)]()
 
 **Link** - [kiishor/UML-State-Machine-in-C: A minimalist UML State machine framework for finite state machine and hierarchical state machine in C](https://github.com/kiishor/UML-State-Machine-in-C)  
-**Features** - A multi-platform, lightweight state-machine framework supporting finite state machines and hierarchical state machines, with logging functionality.  
+**Features** - Multi-platform, lightweight state-machine framework supporting finite state machines and hierarchical state machines, with logging functionality.  
 
 #### Key Points
 
@@ -233,7 +233,7 @@
 [![Gitee Repo stars](https://gitee.com/wzh1845462801/dynamic_loader/badge/star.svg?theme=gvp)](https://gitee.com/wzh1845462801/dynamic_loader/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wzh1845462801/dynamic_loader&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wzh1845462801/dynamic_loader&query=$.license&label=license)]()
 
 **Link** - [dynamic_loader: This project is a function library that implements dynamic loading on microcontrollers (such as STM32). Similar to DLLs on Windows and SOs on Linux, it can dynamically load code from other storage media into RAM.](https://gitee.com/wzh1845462801/dynamic_loader)  
-**Features** - A dynamic-loading function library trimmed from the libdl source code of [RT-Thread](../sys-thread-lib/README.en.md#rt-thread). It is not coupled to the original OS and can be used on bare metal.  
+**Features** - Dynamic-loading function library trimmed from the libdl source code of [RT-Thread](../sys-thread-lib/README.en.md#rt-thread). It is not coupled to the original OS and can be used on bare metal.  
 
 #### Key Points
 
