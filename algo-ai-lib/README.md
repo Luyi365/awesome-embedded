@@ -6,15 +6,6 @@
 
 ## 算术
 
-### float_converter
-
-**链接**：[四舍五入、向上取整、向下取整、精确取整 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/e5rg4nls0mda6831qb2i767)  
-**特征**：浮点数据四舍五入、取整处理库。  
-
-#### 要点
-
----
-
 ### LibBF
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -254,14 +245,14 @@
 
 ### Knn
 
-**链接**：[Knn 算法 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/svnarwquze6g3l8hpo19i36)  
-**特征**：用 C 语言编写的 Knn 算法，十分基础，没有什么优化，不太推荐使用。  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/Knn)](https://github.com/Luyi365/Knn/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/Knn)](https://github.com/Luyi365/Knn/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/Knn)]()
+
+**链接**：[Luyi365/Knn: 简易Knn算法，对单数字进行预测，带有训练集。](https://github.com/Luyi365/Knn)  
+**特征**：C 编写的 Knn 算法，无优化，带有训练集，可以作为学习用途。  
 
 #### 要点
 
-- 十分消耗内存，具体可查看代码；
-- 训练测试集：[数据集.zip](assets/数据集-20231019211912-ejopzz4.zip)；
-- ~~算法讲解：((20231010191715-c224yjx 'K最近邻算法（KNN）'))；~~（待发布）
+- 算法讲解：[K最近邻算法（KNN）](./appendix.md#k最近邻算法knn)；
 
 ---
 

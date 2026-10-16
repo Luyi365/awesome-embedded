@@ -533,7 +533,7 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [Exception Handling](./exception-test-lib/README.en.md#exception-handling)
 
-- ~~[try](./exception-test-lib/README.en.md#try) - try-catch exception handling implemented in C.~~ (pending release)
+- [try](./exception-test-lib/README.en.md#try) - C-style implementation of try-catch exception handling.
 - [CException](./exception-test-lib/README.en.md#cexception) - Simple exception handling for C, faster than the standard library and portable to any platform supporting setjmp/longjmp.
 - [MLA](./exception-test-lib/README.en.md#mla) - Small, easy-to-use memory leak analysis library that records allocation counts.
 
@@ -554,7 +554,6 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [Arithmetic](./algo-ai-lib/README.en.md#arithmetic)
 
-- ~~[float_converter](./algo-ai-lib/README.en.md#float_converter) - Library for rounding and integer conversion of floating-point data.~~ (pending release)
 - [LibBF](./algo-ai-lib/README.en.md#libbf) - High-precision floating-point arithmetic library that provides values with greater precision than standard floating-point types such as *float* and *double*, with flexible control over precision and rounding modes.
 
 ### [Fundamental Algorithms](./algo-ai-lib/README.en.md#fundamental-algorithms)
@@ -584,7 +583,7 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [AI Models and Algorithms](./algo-ai-lib/README.en.md#ai-models-and-algorithms)
 
-- ~~[Knn](./algo-ai-lib/README.en.md#knn) - Very basic KNN algorithm written in C with no particular optimizations; it is not recommended.~~ (pending release)
+- [Knn](./algo-ai-lib/README.en.md#knn) - A KNN algorithm written in C with no optimizations and a bundled training set, good for learning purposes.
 - [NanoDet-Plus](./algo-ai-lib/README.en.md#nanodet-plus) - Super-fast, high-precision, lightweight anchor-free object-detection model implemented on a mobile AI framework.
 - [pico](./algo-ai-lib/README.en.md#pico) - Lightweight face-recognition algorithm based on pixel-intensity comparisons for object detection, suitable for single-purpose, low-traffic scenarios.
 

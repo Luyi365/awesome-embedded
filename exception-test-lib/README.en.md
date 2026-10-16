@@ -26,8 +26,10 @@
 
 ### try
 
-**Link** - [try-catch exception handling implemented in C - Code snippet - Gitee.com](https://gitee.com/Luyi365/codes/ea8h1g329prm05unxiqtv60)  
-**Features** - try-catch exception handling implemented in C.  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/try)](https://github.com/Luyi365/try/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/try)](https://github.com/Luyi365/try/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/try)]()
+
+**Link** - [Luyi365/try: try-catch exception handling implemented in C](https://github.com/Luyi365/try)  
+**Features** - C-style implementation of try-catch exception handling.  
 
 #### Key Points
 

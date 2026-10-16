@@ -26,7 +26,9 @@
 
 ### try
 
-**链接**：[C 语言方式实现的 try catch 异常捕获 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/ea8h1g329prm05unxiqtv60)  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/try)](https://github.com/Luyi365/try/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/try)](https://github.com/Luyi365/try/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/try)]()
+
+**链接**：[Luyi365/try: C 语言方式实现的 try catch 异常捕获](https://github.com/Luyi365/try)  
 **特征**：用 C 语言方式实现的 try catch 异常捕获。  
 
 #### 要点

@@ -533,7 +533,7 @@
 
 ### [异常捕捉](./exception-test-lib/README.md#异常捕捉)
 
-- ~~[try](./exception-test-lib/README.md#try)：用 C 语言方式实现的 try catch 异常捕获。~~（待发布）
+- [try](./exception-test-lib/README.md#try)：用 C 语言方式实现的 try catch 异常捕获。
 - [CException](./exception-test-lib/README.md#cexception)：适用于 C 语言的简单异常处理，比标准库的更快，可以移植到任何支持 setjmp/longjmp 的平台上。
 - [MLA](./exception-test-lib/README.md#mla)：通过记录内存分配计数，来进行内存泄漏分析的库，小巧易用。
 
@@ -554,7 +554,6 @@
 
 ### [算术](./algo-ai-lib/README.md#算术)
 
-- ~~[float_converter](./algo-ai-lib/README.md#float_converter)：浮点数据四舍五入、取整处理库。~~（待发布）
 - [LibBF](./algo-ai-lib/README.md#libbf)：高精度浮点运算的库，提供比标准浮点数（如 float 和 double）精度更高的数值，并且可以灵活地控制精度和舍入模式。
 
 ### [基础算法](./algo-ai-lib/README.md#基础算法)
@@ -584,7 +583,7 @@
 
 ### [AI 模型＆算法](./algo-ai-lib/README.md#ai-模型算法)
 
-- ~~[Knn](./algo-ai-lib/README.md#knn)：用 C 语言编写的 Knn 算法，十分基础，没有什么优化，不太推荐使用。~~（待发布）
+- [Knn](./algo-ai-lib/README.md#knn)：C 编写的 Knn 算法，无优化，带有训练集，可以作为学习用途。
 - [NanoDet-Plus](./algo-ai-lib/README.md#nanodet-plus)：超快速、高精度的轻量级无锚物体检测模型，基于移动端 AI 框架实现。
 - [pico](./algo-ai-lib/README.md#pico)：轻量级的人脸识别算法，基于像素强度比较的目标检测，适合单一、流量较小的场景。
 

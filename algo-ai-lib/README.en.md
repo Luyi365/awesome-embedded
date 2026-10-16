@@ -6,15 +6,6 @@
 
 ## Arithmetic
 
-### float_converter
-
-**Link** - [Rounding, ceiling, floor, and exact-integer conversion - Gitee Code Snippet](https://gitee.com/Luyi365/codes/e5rg4nls0mda6831qb2i767)  
-**Features** - Library for rounding and integer conversion of floating-point data.  
-
-#### Key Points
-
----
-
 ### LibBF
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -254,14 +245,14 @@
 
 ### Knn
 
-**Link** - [Knn algorithm - Gitee Code Snippet](https://gitee.com/Luyi365/codes/svnarwquze6g3l8hpo19i36)  
-**Features** - Very basic KNN algorithm written in C with no particular optimizations; it is not recommended.  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/Knn)](https://github.com/Luyi365/Knn/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/Knn)](https://github.com/Luyi365/Knn/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/Knn)]()
+
+**Link** - [Luyi365/Knn: A simple KNN algorithm that predicts single digits, with a training set included.](https://github.com/Luyi365/Knn)  
+**Features** - A KNN algorithm written in C with no optimizations and a bundled training set, good for learning purposes.  
 
 #### Key Points
 
-- It consumes substantial memory; see the source code for details.
-- Training and test data: [数据集.zip](assets/数据集-20231019211912-ejopzz4.zip).
-- ~~Algorithm explanation: ((20231010191715-c224yjx 'K-nearest neighbors (KNN)'));~~ (pending release)
+- Algorithm explanation: [K-Nearest Neighbors (KNN)](./appendix.en.md#k-nearest-neighbors-knn).
 
 ---
 
