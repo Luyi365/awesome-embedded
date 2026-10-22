@@ -584,12 +584,14 @@
 
 ### Menu
 
-**链接**：[简易实用的菜单框架 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/kg3qocwb2r57m1anjsxdl95)  
-**特征**：简单实用的菜单框架，适合在公司小型项目上使用。  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/Menu)](https://github.com/Luyi365/Menu/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/Menu)](https://github.com/Luyi365/Menu/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/Menu)]()
+
+**链接**：[Luyi365/Menu: 简单实用的菜单框架](https://github.com/Luyi365/Menu)  
+**特征**：简单实用的菜单框架，适合在学生项目上使用。  
 
 #### 要点
 
-- 使用介绍：[完全由 C 编写，高度可移植，超级牛逼的菜单架构！](https://mp.weixin.qq.com/s/Z7OmHJaI-Ffz71f-QTmCnQ)
+- 该代码库插桩了用户依赖，使用时按照自己需要的去删减；
 
 ---
 

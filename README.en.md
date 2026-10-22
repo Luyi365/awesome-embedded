@@ -465,7 +465,7 @@ A good open-source project is the result of community effort. If anything below 
 
 - [zBitsView](./ui-menu-lib/README.en.md#zbitsview) - A virtual multi-level menu that exists only in the logic layer and is unrelated to whether a screen is present.
 - [emenu](./ui-menu-lib/README.en.md#emenu) - An unusual menu framework whose menu structure is reflected directly in the code.
-- ~~[Menu](./ui-menu-lib/README.en.md#menu) - A simple and practical menu framework, suitable for small company projects.~~ (pending release)
+- [Menu](./ui-menu-lib/README.en.md#menu) - A simple and practical menu framework, suitable for student projects.
 - [cotMenu](./ui-menu-lib/README.en.md#cotmenu) - Implements multi-level deep menus with linked lists, equivalent to the display logic layer and completely decoupled from keys and displays.
 - [MiaoUI](./ui-menu-lib/README.en.md#miaoui) - OLED menu UI framework based on U8g2, supporting list and icon menus, nonlinear animations, task pop-ups, and other features.
 - [MultMenu](./ui-menu-lib/README.en.md#multmenu) - Combination of multi-level menus and a monochrome OLED nonlinear animation library; it is simple and convenient to port and suitable for maker projects with similar requirements.
@@ -501,8 +501,8 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [Driver Frameworks](./kernel-framework-lib/README.en.md#driver-frameworks)
 
-- ~~[initcall](./kernel-framework-lib/README.en.md#initcall) - Extracts the RT-Thread initialization framework so initialization is completed in the kernel.~~ (pending release)
-- ~~[platform_dev](./kernel-framework-lib/README.en.md#platform_dev) - Simplified driver framework modeled on Linux. Its design does not use dynamic memory allocation, making it suitable for chips with limited resources.~~ (pending release)
+- [initcall](./kernel-framework-lib/README.en.md#initcall) - Extracts the RT-Thread initialization framework so initialization functions get registered right at link time.
+- [platform_dev](./kernel-framework-lib/README.en.md#platform_dev) - Simplified driver framework modeled on Linux. Its design does not use dynamic memory allocation, making it suitable for chips with limited resources.
 - [c-periphery](./kernel-framework-lib/README.en.md#c-periphery) - Linux-based hardware peripheral abstraction-layer template.
 
 ### [Sensor Frameworks](./kernel-framework-lib/README.en.md#sensor-frameworks)
@@ -539,7 +539,6 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [Testing](./exception-test-lib/README.en.md#testing)
 
-- ~~[MTTEST](./exception-test-lib/README.en.md#mttest) - A simple RTOS-based testing framework using a registration mechanism.~~ (pending release)
 - [MinUnit](./exception-test-lib/README.en.md#minunit) - Minimal unit testing framework for C without memory allocation.
 - [CuTest](./exception-test-lib/README.en.md#cutest) - Minimalist C unit testing framework using dynamic memory allocation.
 - [cmockery](./exception-test-lib/README.en.md#cmockery) - Lightweight C unit testing framework based on the standard C library.

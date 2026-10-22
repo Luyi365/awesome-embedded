@@ -130,8 +130,10 @@
 
 ### initcall
 
-**链接**：[提取 RT-Thread 的 initcall 框架 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/x4co95d03hvrjtpaz2lkm52)  
-**特征**：提取 RT-Thread 的初始化框架，使初始化工作在内核中完成。  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/initcall)](https://github.com/Luyi365/initcall/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/initcall)](https://github.com/Luyi365/initcall/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/initcall)]()
+
+**链接**：[Luyi365/initcall: 提取RT-Thread的initcall框架](https://github.com/Luyi365/initcall)  
+**特征**：提取 [RT-Thread](../sys-thread-lib/README.md#rt-thread) 的初始化框架，使初始化函数在链接阶段就登记完成。  
 
 #### 要点
 
@@ -139,13 +141,14 @@
 
 ### platform_dev
 
-**链接**：[简化版驱动框架 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/r6n19xu2ikatw7cojy8he84)  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/platform_dev)](https://github.com/Luyi365/platform_dev/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/platform_dev)](https://github.com/Luyi365/platform_dev/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/platform_dev)]()
+
+**链接**：[Luyi365/platform_dev: 模仿 Linux 的简化版驱动框架](https://github.com/Luyi365/platform_dev)  
 **特征**：模仿 Linux 的简化版驱动框架，设计中不使用动态内存分配，适合低资源的芯片使用。  
 
 #### 要点
 
 - ~~代码用内存段代替了链表功能：代替链表；~~（待发布）
-- 其中 `__start_platform_init`、`__stop_platform_init` 分别在链接文件里定义在 `.platform_init` 左右两侧，`__start_device_init` 同理；
 - 如果芯片不支持 initcall 机制，将其 section 的部分换成链表的形式也可以达到同样的效果；
 - 配合这个食用更佳：[__attribute__之section详解-CSDN 博客](https://blog.csdn.net/seven_feifei/article/details/95947358)；
 - 为什么 `PLATFORM_ITEM_REGISTER` 中 `general_ops` 可以代替所有操作：[关于 union 联合体](./appendix.md#关于-union-联合体)；

@@ -63,17 +63,6 @@
 
 > 嵌入式领域详细测试介绍，包括代码测试和性能测试：[mollybuild/RISCV-Measurement: This is a repo for recording and reporting RISCV platform's test and measurement continuously.](https://github.com/mollybuild/RISCV-Measurement)
 
-### MTTEST
-
-**链接**：[基于RTOS的注册机制代码测试框架 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/fhzm8d4wairyxnqlcup6059)  
-**特征**：基于 RTOS 的简易测试框架，采用注册机制。  
-
-#### 要点
-
-- 使用介绍：[分享一个自己量产项目上的集成测试软件MTTEST-阿里云开发者社区](https://developer.aliyun.com/article/1325462)
-
----
-
 ### MinUnit
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/siu/minunit)](https://github.com/siu/minunit/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/siu/minunit)](https://github.com/siu/minunit/commits) | [![GitHub License](https://img.shields.io/github/license/siu/minunit)]()

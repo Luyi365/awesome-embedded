@@ -584,12 +584,14 @@
 
 ### Menu
 
-**Link** - [A simple and practical menu framework - Code snippet - Gitee.com](https://gitee.com/Luyi365/codes/kg3qocwb2r57m1anjsxdl95)  
-**Features** - A simple and practical menu framework, suitable for small company projects.  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/Menu)](https://github.com/Luyi365/Menu/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/Menu)](https://github.com/Luyi365/Menu/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/Menu)]()
+
+**Link** - [Luyi365/Menu: A simple and practical menu framework](https://github.com/Luyi365/Menu)  
+**Features** - A simple and practical menu framework, suitable for student projects.  
 
 #### Key Points
 
-- Introduction: [Written entirely in C, highly portable, and an incredibly powerful menu architecture!](https://mp.weixin.qq.com/s/Z7OmHJaI-Ffz71f-QTmCnQ)
+- The codebase has user dependencies stubbed in, so just trim them down to what you need when using it;
 
 ---
 

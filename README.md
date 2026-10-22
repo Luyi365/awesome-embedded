@@ -240,9 +240,9 @@
 
 ### [RPC](./protocol-format-parser-lib/README.md#rpc)
 
-- [ERPC](./protocol-format-parser-lib/README.md#erpc-1)：一个简单的、易用的、高效的远程调用框架。
+- [ERPC](./protocol-format-parser-lib/README.md#erpc)：一个简单的、易用的、高效的远程调用框架。
 - [EmbedXrpc](./protocol-format-parser-lib/README.md#embedxrpc)：通过 RPC 通讯协议，可忽略协议本身进行业务逻辑的实现，附带代码生成工具。
-- [erpc](./protocol-format-parser-lib/README.md#erpc-2)：是 NXP 开源的、用于多芯片嵌入式系统和异构多核 SoC 的开源远程过程调用（RPC）系统。
+- [erpc](./protocol-format-parser-lib/README.md#erpc-1)：是 NXP 开源的、用于多芯片嵌入式系统和异构多核 SoC 的开源远程过程调用（RPC）系统。
 
 ### [TCP/IP](./protocol-format-parser-lib/README.md#tcpip)
 
@@ -465,7 +465,7 @@
 
 - [zBitsView](./ui-menu-lib/README.md#zbitsview)：虚拟多层菜单，仅存在于逻辑层，与有无屏幕无关。
 - [emenu](./ui-menu-lib/README.md#emenu)：不寻常的菜单框架，在代码上就可以反映菜单结构。
-- ~~[Menu](./ui-menu-lib/README.md#menu)：简单实用的菜单框架，适合在公司小型项目上使用。~~（待发布）
+- [Menu](./ui-menu-lib/README.md#menu)：简单实用的菜单框架，适合在学生项目上使用。
 - [cotMenu](./ui-menu-lib/README.md#cotmenu)：采用链表方式实现多级深度菜单，相当于显示的逻辑层，与按键、显示屏完全解耦。
 - [MiaoUI](./ui-menu-lib/README.md#miaoui)：基于 U8g2 的 OLED 菜单 UI 框架，支持列表与图标类菜单、非线性动画、任务弹窗等功能。
 - [MultMenu](./ui-menu-lib/README.md#multmenu)：多级菜单 + 单色 OLED 非线性动画库，组合使用，移植简单方便，适合类似需求的创客项目。
@@ -501,8 +501,8 @@
 
 ### [驱动框架](./kernel-framework-lib/README.md#驱动框架)
 
-- ~~[initcall](./kernel-framework-lib/README.md#initcall)：提取 RT-Thread 的初始化框架，使初始化工作在内核中完成。~~（待发布）
-- ~~[platform_dev](./kernel-framework-lib/README.md#platform_dev)：模仿 Linux 的简化版驱动框架，设计中不使用动态内存分配，适合低资源的芯片使用。~~（待发布）
+- [initcall](./kernel-framework-lib/README.md#initcall)：提取 RT-Thread 的初始化框架，使初始化函数在链接阶段就登记完成。
+- [platform_dev](./kernel-framework-lib/README.md#platform_dev)：模仿 Linux 的简化版驱动框架，设计中不使用动态内存分配，适合低资源的芯片使用。
 - [c-periphery](./kernel-framework-lib/README.md#c-periphery)：基于 Linux 的硬件外设抽象层模板。
 
 ### [传感器框架](./kernel-framework-lib/README.md#传感器框架)
@@ -539,7 +539,6 @@
 
 ### [测试](./exception-test-lib/README.md#测试)
 
-- ~~[MTTEST](./exception-test-lib/README.md#mttest)：基于 RTOS 的简易测试框架，采用注册机制。~~（待发布）
 - [MinUnit](./exception-test-lib/README.md#minunit)：C 的最小单元测试框架，不使用内存分配。
 - [CuTest](./exception-test-lib/README.md#cutest)：极简的 C 单元测试框架，使用动态内存分配。
 - [cmockery](./exception-test-lib/README.md#cmockery)：C 单元测试的轻量级框架，基于标准 C 库。

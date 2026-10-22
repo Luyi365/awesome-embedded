@@ -63,17 +63,6 @@
 
 > A detailed introduction to testing in the embedded field, including code testing and performance testing: [mollybuild/RISCV-Measurement: This is a repo for recording and reporting RISCV platform's test and measurement continuously.](https://github.com/mollybuild/RISCV-Measurement)
 
-### MTTEST
-
-**Link** - [RTOS-based test framework using a registration mechanism - Code snippet - Gitee.com](https://gitee.com/Luyi365/codes/fhzm8d4wairyxnqlcup6059)  
-**Features** - A simple RTOS-based testing framework using a registration mechanism.  
-
-#### Key Points
-
-- Introduction: [Sharing Integrated Test Software MTTEST from My Mass-production Project - Alibaba Cloud Developer Community](https://developer.aliyun.com/article/1325462)
-
----
-
 ### MinUnit
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/siu/minunit)](https://github.com/siu/minunit/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/siu/minunit)](https://github.com/siu/minunit/commits) | [![GitHub License](https://img.shields.io/github/license/siu/minunit)]()

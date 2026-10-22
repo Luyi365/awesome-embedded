@@ -130,8 +130,10 @@
 
 ### initcall
 
-**Link** - [Extracted RT-Thread initcall Framework - Code Snippet - Gitee.com](https://gitee.com/Luyi365/codes/x4co95d03hvrjtpaz2lkm52)  
-**Features** - Extracts the RT-Thread initialization framework so initialization is completed in the kernel.  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/initcall)](https://github.com/Luyi365/initcall/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/initcall)](https://github.com/Luyi365/initcall/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/initcall)]()
+
+**Link** - [Luyi365/initcall: Extracted RT-Thread initcall framework](https://github.com/Luyi365/initcall)  
+**Features** - Extracts the [RT-Thread](../sys-thread-lib/README.en.md#rt-thread) initialization framework so initialization functions get registered right at link time.  
 
 #### Key Points
 
@@ -139,13 +141,14 @@
 
 ### platform_dev
 
-**Link** - [Simplified Driver Framework - Code Snippet - Gitee.com](https://gitee.com/Luyi365/codes/r6n19xu2ikatw7cojy8he84)  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/platform_dev)](https://github.com/Luyi365/platform_dev/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/platform_dev)](https://github.com/Luyi365/platform_dev/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/platform_dev)]()
+
+**Link** - [Luyi365/platform_dev: Simplified driver framework modeled on Linux](https://github.com/Luyi365/platform_dev)  
 **Features** - Simplified driver framework modeled on Linux. Its design does not use dynamic memory allocation, making it suitable for chips with limited resources.  
 
 #### Key Points
 
 - ~~The code uses memory sections in place of linked-list functionality: replaces linked lists;~~ (pending release)
-- `__start_platform_init` and `__stop_platform_init` are respectively defined in the linker file on the two sides of `.platform_init`; `__start_device_init` follows the same pattern;
 - If a chip does not support the initcall mechanism, replacing its section portion with a linked-list form can achieve the same result;
 - Best used with: [Detailed Explanation of __attribute__ section - CSDN Blog](https://blog.csdn.net/seven_feifei/article/details/95947358)；
 - Why `general_ops` in `PLATFORM_ITEM_REGISTER` can replace all operations: [About the union Type](./appendix.en.md#about-the-union-type)；
