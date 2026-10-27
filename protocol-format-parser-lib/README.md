@@ -107,8 +107,8 @@
 
 [![License: GPL v3](https://img.shields.io/badge/license-GPL%20v3-orange.svg)](https://opensource.org/licenses/GPL-3.0)
 
-**链接**：[tiny-curl](https://curl.se/tiny)
-**特征**：适用于嵌入式的 cURL 库，仅支持 HTTP 协议。
+**链接**：[tiny-curl](https://curl.se/tiny)  
+**特征**：适用于嵌入式的 cURL 库，仅支持 HTTP 协议。  
 
 #### 要点
 
@@ -125,7 +125,9 @@
 [![Gitee Repo stars](https://gitee.com/simpost/ERPC-doc/badge/star.svg?theme=gvp)](https://gitee.com/simpost/ERPC-doc/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/ERPC-doc&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/ERPC-doc&query=$.license&label=license)]()
 
 **链接**：[ERPC-doc: ERPC（Embedded Remote Procedure Call）是一个简单的、易用的、高效的嵌入式远程调用框架。它不仅实现了远程调用，还实现了状态通知（观察者模式），同时还支持数据加密（用户可自定义加密算法）、异常监控和完备的日志管理方法。使用ERPC可简化系统的设计难度，降低模块之间的耦合度，降低开发人员之间的依赖性。](https://gitee.com/simpost/ERPC-doc)  
-**特征**：一个简单的、易用的、高效的远程调用框架。  
+**特征**：一个远程调用框架，基于 [cJSON](#cjson)、[libevent](#libevent) 和 libuv 开源库，包括状态通知、数据加密、异常监控等功能。  
+
+#### 要点
 
 ---
 
@@ -145,7 +147,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/EmbeddedRPC/erpc)](https://github.com/EmbeddedRPC/erpc/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/EmbeddedRPC/erpc)](https://github.com/EmbeddedRPC/erpc/commits) | [![GitHub License](https://img.shields.io/github/license/EmbeddedRPC/erpc)]()
 
 **链接**：[EmbeddedRPC/erpc: Embedded RPC](https://github.com/EmbeddedRPC/erpc)  
-**特征**：是 NXP 开源的、用于多芯片嵌入式系统和异构多核 SoC 的开源远程过程调用（RPC）系统。  
+**特征**：NXP 开源用于多芯片嵌入式系统和异构多核 SoC 的远程过程调用（RPC）系统。  
 
 #### 要点
 
@@ -220,7 +222,7 @@
 [![Gitee Repo stars](https://gitee.com/Neo-T/open-npstack/badge/star.svg?theme=gvp)](https://gitee.com/Neo-T/open-npstack/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Neo-T/open-npstack&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Neo-T/open-npstack&query=$.license&label=license)]()
 
 **链接**：[Open-NPStack: onps是一个开源且完全自主开发的国产网络协议栈。设计目标与LwIp相同，onps栈的目标系统同样是资源受限的单片机系统。提供完整的tcp/ip协议族实现，同时提供sntp、dns、ping等网络工具，支持以太网环境下dhcp动态ip地址申请，也支持动态及静态路由表。协议栈还封装实现了一个伯克利套接字（Berkeley sockets）层。协议栈使用ANSI C语言开发。](https://gitee.com/Neo-T/open-npstack)  
-**特征**：国产网络协议栈，设计目标与 Lwip 相同，适用于资源受限的单片机系统，提供完整地 ethernet/ppp/tcp/ip 协议族实现。有非常详细的介绍，很适合国人读阅。  
+**特征**：国产网络协议栈，设计目标与 [Lwip](#lwip) 相同，适用于资源受限的单片机系统，提供完整地 ethernet/ppp/tcp/ip 协议族实现。有非常详细的介绍，很适合国人读阅。  
 
 #### 要点
 
@@ -230,8 +232,8 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfssl/wolfIP)](https://github.com/wolfssl/wolfIP/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfssl/wolfIP)](https://github.com/wolfssl/wolfIP/commits) | [![GitHub License](https://img.shields.io/github/license/wolfssl/wolfIP)]()
 
-**链接**：[wolfIP TCP/IP stack - wolfSSL](https://www.wolfssl.com/products/wolfip)
-**特征**：无动态内存分配的微型 TCP/IP 协议栈，旨在提供比 [lwIP](#lwip) 更好的替代方案，并与 [wolfSSL](../secure-boot-update-lib/README.md#wolfssl) 库无缝配合。
+**链接**：[wolfIP TCP/IP stack - wolfSSL](https://www.wolfssl.com/products/wolfip)  
+**特征**：无动态内存分配的微型 TCP/IP 协议栈，旨在提供比 [lwIP](#lwip) 更好的替代方案，并与 [wolfSSL](../secure-boot-update-lib/README.md#wolfssl) 库无缝配合。  
 
 #### 要点
 
@@ -242,11 +244,9 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/rxi/dyad)](https://github.com/rxi/dyad/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/rxi/dyad)](https://github.com/rxi/dyad/commits) | [![GitHub License](https://img.shields.io/github/license/rxi/dyad)]()
 
 **链接**：[rxi/dyad: Asynchronous networking for C](https://github.com/rxi/dyad)  
-**特征**：基于 Linux 的异步网络库，仅支持 TCP 网络通讯，用于创建小型独立设备服务器，并为现有项目提供网络支持。  
+**特征**：基于 socket 的异步网络库，仅支持 TCP 网络通讯，用于创建小型独立设备服务器，并为现有项目提供网络支持。  
 
 #### 要点
-
-- 可以看出来它是基于Linux系统的内核和POSIX接口实现的，如果要用在裸机或其他OS上则需要添加对应的支持才行；
 
 ---
 
@@ -257,7 +257,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/janmojzis/tinyssh)](https://github.com/janmojzis/tinyssh/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/janmojzis/tinyssh)](https://github.com/janmojzis/tinyssh/commits) | [![GitHub License](https://img.shields.io/github/license/janmojzis/tinyssh)]()
 
 **链接**：[janmojzis/tinyssh：TinySSH 是小型服务器（少于 100000 字代码）](https://github.com/janmojzis/tinyssh)  
-**特征**：一个简约的 SSH 服务器，它只实现了 SSHv2 功能的子集，适合嵌入式使用。  
+**特征**：一个简约的 SSH 服务器，实现了 SSHv2 部分功能，出于安全原因不接受客户端的环境变量请求。  
 
 #### 要点
 
@@ -267,8 +267,8 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfssh)](https://github.com/wolfSSL/wolfssh/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfssh)](https://github.com/wolfSSL/wolfssh/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfssh)]()
 
-**链接**：[wolfSSH Lightweight SSH Library | Products - wolfSSL](https://www.wolfssl.com/products/wolfssh)
-**特征**：轻量级 SSHv2 客户端和服务器库，采用 ANSI C 编写。
+**链接**：[wolfSSH Lightweight SSH Library | Products - wolfSSL](https://www.wolfssl.com/products/wolfssh)  
+**特征**：轻量级 SSHv2 客户端和服务器库，采用 ANSI C 编写。  
 
 #### 要点
 
@@ -298,7 +298,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/eclipse-paho/paho.mqtt.embedded-c)](https://github.com/eclipse-paho/paho.mqtt.embedded-c/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-paho/paho.mqtt.embedded-c)](https://github.com/eclipse-paho/paho.mqtt.embedded-c/commits) | [![GitHub License](https://img.shields.io/github/license/eclipse-paho/paho.mqtt.embedded-c)]()
 
 **链接**：[eclipse/paho.mqtt.embedded-c: Paho MQTT C client library for embedded systems. Paho is an Eclipse IoT project](https://github.com/eclipse-paho/paho.mqtt.embedded-c)  
-**特征**：嵌入式平台的 MQTT 库，包含三个子库——数据包序列化、C及C++客户端。
+**特征**：嵌入式平台的 MQTT 库，包含三个子库——数据包序列化、C及C++客户端。  
 
 #### 要点
 
@@ -308,7 +308,7 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/IoTSharp/mqttclient)](https://github.com/IoTSharp/mqttclient/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/IoTSharp/mqttclient)](https://github.com/IoTSharp/mqttclient/commits) | [![GitHub License](https://img.shields.io/github/license/IoTSharp/mqttclient)]()
 
-**链接**：[jiejieTop/mqttclient: A high-performance, high-stability, cross-platform MQTT client, developed based on the socket API, can be used on embedded devices (FreeRTOS / LiteOS / RT-Thread / TencentOS tiny), Linux, Windows, Mac, with a very concise The API interface realizes the quality of service of QOS2 with very few resources, and seamlessly connects the mbedtls encryption library.](https://github.com/IoTSharp/mqttclient)  
+**链接**：[IoTSharp/mqttclient: A high-performance, high-stability, cross-platform MQTT client, developed based on the socket API, can be used on embedded devices (FreeRTOS / LiteOS / RT-Thread / TencentOS tiny), Linux, Windows, Mac, with a very concise The API interface realizes the quality of service of QOS2 with very few resources, and seamlessly connects the mbedtls encryption library.](https://github.com/IoTSharp/mqttclient)  
 **特征**：高性能、高稳定性的跨平台 MQTT 客户端，拥有简洁的 API，无缝衔接 [Mbed TLS](../secure-boot-update-lib/README.md#mbed-tls) 库，提供在线代码生成工具。  
 
 #### 要点
@@ -330,8 +330,8 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfMQTT)](https://github.com/wolfSSL/wolfMQTT/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfMQTT)](https://github.com/wolfSSL/wolfMQTT/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfMQTT)]()
 
-**链接**：[wolfMQTT Client Library | Products - wolfSSL](https://www.wolfssl.com/products/wolfmqtt)
-**特征**：轻量化的 MQTT 协议客户端库，支持多个平台。
+**链接**：[wolfMQTT Client Library | Products - wolfSSL](https://www.wolfssl.com/products/wolfmqtt)  
+**特征**：轻量化的 MQTT 协议客户端库，支持多个平台。  
 
 #### 要点
 
@@ -359,12 +359,12 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/openthread/openthread)](https://github.com/openthread/openthread/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/openthread/openthread)](https://github.com/openthread/openthread/commits) | [![GitHub License](https://img.shields.io/github/license/openthread/openthread)]()
 
 **链接**：[OpenThread](https://openthread.io/?hl=zh-cn)  
-**特征**：Google 旗下的产品，是 Thread 的开源实现。  
+**特征**：Google 旗下的产品，是 Thread 系统的开源实现。  
 
 #### 要点
 
-- 参考：[Thread - ESP32 - — ESP-IDF 编程指南 latest 文档](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/api-reference/network/esp_openthread.html)  
-  ESP的封装层：[esp-idf/components/openthread at be06a6f5ffe36f9554cfc91fe2036e0fc85fea60 · espressif/esp-idf](https://github.com/espressif/esp-idf/tree/be06a6f5ffe36f9554cfc91fe2036e0fc85fea60/components/openthread)；
+- 使用说明：[Thread - ESP32 - — ESP-IDF 编程指南 latest 文档](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/api-reference/network/esp_openthread.html)；
+- ESP的封装层：[esp-idf/components/openthread at be06a6f5ffe36f9554cfc91fe2036e0fc85fea60 · espressif/esp-idf](https://github.com/espressif/esp-idf/tree/be06a6f5ffe36f9554cfc91fe2036e0fc85fea60/components/openthread)；
 
 ---
 
@@ -401,7 +401,7 @@
 
 #### 要点
 
-- RT-Thread将其进行了修改并移植：[RT-Thread-packages/nimble: An Apache open-source Bluetooth 5.0 stack porting on RT-Thread](https://github.com/RT-Thread-packages/nimble)；
+- [RT-Thread](../sys-thread-lib/README.md#rt-thread) 将其移植并修改的版本：[RT-Thread-packages/nimble: An Apache open-source Bluetooth 5.0 stack porting on RT-Thread](https://github.com/RT-Thread-packages/nimble)；
 
 ---
 
@@ -520,7 +520,6 @@
 #### 要点
 
 - Demo：[xradio-skylark-sdk/project/demo/at_demo at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/project/demo/at_demo)；
-- 还有一些依赖库基于 SDK 里的其他文件；
 
 ---
 
@@ -537,7 +536,7 @@
 [![Gitee Repo stars](https://gitee.com/ylguo/base64/badge/star.svg?theme=gvp)](https://gitee.com/ylguo/base64/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ylguo/base64&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ylguo/base64&query=$.license&label=license)]()
 
 **链接**：[base64: c 语言版 base64 编解码算法实现](https://gitee.com/ylguo/base64)  
-**特征**：极简单的 base64 编解码库。  
+**特征**：极简的 base64 编解码库，仅包含编解码2个函数。  
 
 #### 要点
 
@@ -566,8 +565,7 @@
 #### 要点
 
 - 使用介绍：[基于 C 语言的开源 csv 解析库：MiniCSV 使用示例_whik1194 的博客-CSDN 博客](https://blog.csdn.net/whik1194/article/details/131490767)
-- 不使用动态内存；
-- 一次性全部解出和读入；
+- 一次性全部解出和读入，不使用动态内存；
 
 ---
 
@@ -587,7 +585,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ben-strasser/fast-cpp-csv-parser)](https://github.com/ben-strasser/fast-cpp-csv-parser/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ben-strasser/fast-cpp-csv-parser)](https://github.com/ben-strasser/fast-cpp-csv-parser/commits) | [![GitHub License](https://img.shields.io/github/license/ben-strasser/fast-cpp-csv-parser)]()
 
 **链接**：[ben-strasser/fast-cpp-csv-parser: fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser)  
-**特征**：基于 C++ 的 CSV 解析器，小型、易于使用且快速的仅标头库。  
+**特征**：基于 C++ 的 CSV 解析器，小型、易于使用，仅单个头文件实现。  
 
 #### 要点
 
@@ -602,7 +600,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/lovemengx/libinimini)](https://github.com/lovemengx/libinimini/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/lovemengx/libinimini)](https://github.com/lovemengx/libinimini/commits) | [![GitHub License](https://img.shields.io/github/license/lovemengx/libinimini)]()
 
 **链接**：[lovemengx/libinimini: ini 极简解析库，适用于 Android、Linux、Rtos 以及单片机](https://github.com/lovemengx/libinimini)  
-**特征**：适用单片机的 ini 极简解析库，内存空间占用可控。最简单的键值配对文件格式。  
+**特征**：适用单片机的 ini 极简解析库，作用对象是字符串，内存空间占用可控。  
 
 #### 要点
 
@@ -613,7 +611,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/benhoyt/inih)](https://github.com/benhoyt/inih/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/benhoyt/inih)](https://github.com/benhoyt/inih/commits) | [![GitHub License](https://img.shields.io/github/license/benhoyt/inih)]()
 
 **链接**：[benhoyt/inih: Simple .INI file parser in C, good for embedded systems](https://github.com/benhoyt/inih)  
-**特征**：基于 C 编写的 ini 解析库，适合嵌入式系统。带有语法与解析选项。  
+**特征**：适合嵌入式系统的 ini 解析库，带有语法与解析选项，功能全面。  
 
 #### 要点
 
@@ -626,7 +624,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ndevilla/iniparser)](https://github.com/ndevilla/iniparser/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ndevilla/iniparser)](https://github.com/ndevilla/iniparser/commits) | [![GitHub License](https://img.shields.io/github/license/ndevilla/iniparser)]()
 
 **链接**：[ndevilla/iniparser: ini file parser](https://github.com/ndevilla/iniparser)  
-**特征**：基于 C 编写的 ini 解析库，可移植嵌入式系统，注重线程安全。  
+**特征**：基于 C 编写的 ini 解析库，可移植嵌入式系统，注重线程安全，解析风格与 cJSON 类似。  
 
 #### 要点
 
@@ -671,14 +669,13 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/DaveGamble/cJSON)](https://github.com/DaveGamble/cJSON/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/DaveGamble/cJSON)](https://github.com/DaveGamble/cJSON/commits) | [![GitHub License](https://img.shields.io/github/license/DaveGamble/cJSON)]()
 
 **链接**：[DaveGamble/cJSON: Ultralightweight JSON parser in ANSI C](https://github.com/DaveGamble/cJSON)  
-**特征**：ANSI C 中的超轻量级 JSON 解析器，也是最原生的 JSON 解析库，用起来会有点麻烦，不太推荐直接使用。  
+**特征**：ANSI C 中的轻量级 JSON 解析器，比较原生的 JSON 解析库。  
 
 #### 要点
 
 - 使用介绍：
   [JSON 的简单介绍&cJSON 库使用（一）](https://www.jianshu.com/p/59eb2bd1aeea)  
   [cJSON 解析和生成 JSON 文件 | 守望的个人博客](https://www.yanbinghu.com/2019/08/04/21364.html)  
-- json 对象可以是 json、字符串、数组等。
 
 ---
 
@@ -720,12 +717,11 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/zserge/jsmn)](https://github.com/zserge/jsmn/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/zserge/jsmn)](https://github.com/zserge/jsmn/commits) | [![GitHub License](https://img.shields.io/github/license/zserge/jsmn)]()
 
 **链接**：[zserge/jsmn: Jsmn is a world fastest JSON parser/tokenizer. This is the official repo replacing the old one at Bitbucket](https://github.com/zserge/jsmn)  
-**特征**：超简约、极快的 JSON 解析器，无动态内存分配，无解析纠正。适合小型项目的 JSON 解析。  
+**特征**：简约的 JSON 解析器，零拷贝解析，无解析纠正。  
 
 #### 要点
 
-- 注意只能单向的从 JSON→C 解析；
-- 原理是记录每个 json 的键值位置，不会创造副本来解析，因此非常节省空间；
+- 只能从 JSON→C 单向解析；
 
 ---
 
@@ -734,11 +730,11 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwjson)](https://github.com/MaJerle/lwjson/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwjson)](https://github.com/MaJerle/lwjson/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwjson)]()
 
 **链接**：[LwJSON latest-develop documentation — LwJSON documentation](https://docs.majerle.eu/projects/lwjson/en/latest/)  
-**特征**：针对嵌入式系统优化的通用 JSON 解析器库。适合厂商项目的 JSON 解析。  
+**特征**：针对嵌入式系统优化的通用 JSON 解析器库。  
 
 #### 要点
 
-- 注意只能单向的从 JSON→C 解析；
+- 只能从 JSON→C 单向解析；
 
 ---
 
@@ -751,7 +747,7 @@
 
 #### 要点
 
-- 注意只能单向的从 JSON→C 解析；
+- 只能从 JSON→C 单向解析；
 
 ---
 
@@ -818,7 +814,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/leethomason/tinyxml2)](https://github.com/leethomason/tinyxml2/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/leethomason/tinyxml2)](https://github.com/leethomason/tinyxml2/commits) | [![GitHub License](https://img.shields.io/github/license/leethomason/tinyxml2)]()
 
 **链接**：[leethomason/tinyxml2: TinyXML2 is a simple, small, efficient, C++ XML parser that can be easily integrated into other programs.](https://github.com/leethomason/tinyxml2)  
-**特征**：基于 C++ 的 XML 解析库，它使用文档对象模型（DOM），可以很方便的将 XML 和 C++ 对象互相加息转换。  
+**特征**：基于 C++ 的 XML 解析库，它使用文档对象模型（DOM），可以很方便的将 XML 和 C++ 对象互相转换。  
 
 #### 要点
 
@@ -847,7 +843,7 @@
 #### 要点
 
 - 使用介绍：[嵌入式中轻量级通信协议利器！](https://mp.weixin.qq.com/s/e_yvMNMILzvpLtvmDw3iCw)
-- 使用 [LwRB](../algo-ai-lib/README.md#lwrb) 库进行数据读/写操作；
+- 使用 [LwRB](../data-struct-process-lib/README.md#lwrb) 库进行数据读/写操作；
 
 ---
 
@@ -856,7 +852,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/xyz347/xpack)](https://github.com/xyz347/xpack/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/xyz347/xpack)](https://github.com/xyz347/xpack/commits) | [![GitHub License](https://img.shields.io/github/license/xyz347/xpack)]()
 
 **链接**：[xyz347/xpack: convert json/xml/bson to c++ struct](https://github.com/xyz347/xpack)  
-**特征**：用于在 C++ 结构体和 JSON/XML/YAML/BSON/MySQL/SQLite 之间互相转换，仅有头文件。
+**特征**：用于在 C++ 结构体和 JSON/XML/YAML/BSON/MySQL/SQLite 之间互相转换，仅有头文件。  
 
 #### 要点
 

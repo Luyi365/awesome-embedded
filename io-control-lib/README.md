@@ -14,7 +14,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/key_detect)](https://github.com/Luyi365/key_detect/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/key_detect)](https://github.com/Luyi365/key_detect/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/key_detect)]()
 
 **链接**：[Luyi365/key_detect: 简易的按键检测组件，采用注册事件，提供最基本的按键功能。](https://github.com/Luyi365/key_detect)  
-**特征**：简易的按键检测组件，采用注册事件，提供最基本的按键功能。  
+**特征**：简易的按键检测组件，采用按键注册方式，可单独设置各按键的单击/双击/长按属性。  
 
 #### 要点
 
@@ -25,7 +25,7 @@
 [![Gitee Repo stars](https://gitee.com/embediot/key_module/badge/star.svg?theme=gvp)](https://gitee.com/embediot/key_module/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/embediot/key_module&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/embediot/key_module&query=$.license&label=license)]()
 
 **链接**：[key_module: 一个面向单片机，通用的按键检测模块，可以很好地处理以下各种按键事件：按下、抬起、单击、双击、点按、长按，组合按键待扩展。](https://gitee.com/embediot/key_module)  
-**特征**：简单易用的按键检测模块，采用事件回调，提供除矩阵按键的其他基本功能。  
+**特征**：简易的按键检测模块，采用事件回调，提供除矩阵按键外的其他基本功能。  
 
 #### 要点
 
@@ -36,7 +36,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/hellozimo/FlexibleButton)](https://github.com/hellozimo/FlexibleButton/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/hellozimo/FlexibleButton)](https://github.com/hellozimo/FlexibleButton/commits) | [![GitHub License](https://img.shields.io/github/license/hellozimo/FlexibleButton)]()
 
 **链接**：[murphyzhao/FlexibleButton: 灵活的按键处理库（Flexible Button）| 按键驱动 | 支持单击、双击、连击、长按、自动消抖 | 灵活适配中断和低功耗 | 按需实现组合按键](https://github.com/murphyzhao/FlexibleButton)  
-**特征**：间断轮询扫描的方式检测按键，一次扫描和处理所有按键状态，支持大多数单个按键事件触发。组合按键和中断触发需要自行添加。  
+**特征**：稳定的按键处理库，一次扫描处理所有按键状态，带有多种按键事件触发，留有组合按键和中断触发实现说明。  
 
 #### 要点
 
@@ -68,7 +68,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/0x1abin/MultiButton)](https://github.com/0x1abin/MultiButton/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/0x1abin/MultiButton)](https://github.com/0x1abin/MultiButton/commits) | [![GitHub License](https://img.shields.io/github/license/0x1abin/MultiButton)]()
 
 **链接**：[0x1abin/MultiButton: Button driver for embedded system](https://github.com/0x1abin/MultiButton)  
-**特征**：定时器触发扫描，事件驱动型按键驱动模块，基于面向对象方式设计思路，每个按键对象单独用一份数据结构管理。  
+**特征**：状态机型按键库，基于面向对象方式设计思路，每个按键对象单独用一份数据结构管理。  
 
 #### 要点
 
@@ -81,7 +81,7 @@
 [![Gitee Repo stars](https://gitee.com/cot_package/cot_key/badge/star.svg?theme=gvp)](https://gitee.com/cot_package/cot_key/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_key&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_key&query=$.license&label=license)]()
 
 **链接**：[cotKey: 嵌入式设备常用的按键动作识别模块组件代码](https://gitee.com/cot_package/cot_key)  
-**特征**：监听型按键识别库，可以实现单击、双击、多击、短按和长按等多种要求的功能，但只支持单一按键功能。  
+**特征**：监听型按键识别库，比起其他按键库更加自由，可以实现单击、双击、多击、短按和长按等多种要求的功能。  
 
 #### 要点
 
@@ -98,7 +98,6 @@
 
 #### 要点
 
-- 程序默认使用了堆内存，因此要为此分配对空间；
 - 使用介绍：[一个小巧的按键处理模块！](https://mp.weixin.qq.com/s/VGRR7SU0JOKemxEZhBR9Og)
 
 ---
@@ -108,7 +107,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwbtn) | ![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwbtn) | ![GitHub License](https://img.shields.io/github/license/MaJerle/lwbtn)
 
 **链接**：[LwBTN latest-develop documentation — LwBTN documentation](https://docs.majerle.eu/projects/lwbtn/en/latest/)  
-**特征**：专业的按键事件管理库，配置方面十分丰富，但有点晦涩难懂。  
+**特征**：专业的按键事件管理库，配置丰富，功能全面。  
 
 #### 要点
 
@@ -123,11 +122,11 @@
 ![Gitee Repo stars](https://gitee.com/cot_package/cot_led/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_led&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_led&query=$.license&label=license)
 
 **链接**：[cotLed: 嵌入式设备常用的指示灯控制模块组件代码](https://gitee.com/cot_package/cot_led)  
-**特征**：轻量级的 LED 控制模块，可以实现 LED 灯多种模式状态。  
+**特征**：轻量级的 LED 控制模块，可以实现 LED 灯多种模式状态（闪烁、呼吸、自定义等）。  
 
 #### 要点
 
-- 现在的芯片内置多种多样的 PWM 控制，用起来效率最高，但比较复杂。这个库适合只有基本的 PWM 控制或想偷懒的时候用，因为估计使用时功耗较高。
+- 现在的芯片内置多种多样的 IO 控制，用厂商自带的模式往往效率最高。这个库适合只有基本的 PWM 控制时用。
 - 使用介绍：[轻量级的LED控制模块](https://mp.weixin.qq.com/s/A2arPl2oRYLjFt4STYnljA)
 
 ---
@@ -137,7 +136,7 @@
 ![Gitee Repo stars](https://gitee.com/embediot/led_module/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/embediot/led_module&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/embediot/led_module&query=$.license&label=license)
 
 **链接**：[led_module: 通用的单片机 LED 显示模块，基于嵌入式 C 语言面向对象，采用简单工厂设计模式](https://gitee.com/embediot/led_module)  
-**特征**：基于面向对象和简单工厂模式的通用 LED 显示模块。  
+**特征**：基于面向对象和简单工厂模式的简单 LED 显示库，无自定义模式但带有颜色属性。  
 
 #### 要点
 
@@ -182,7 +181,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Paciente8159/uCNC)](https://github.com/Paciente8159/uCNC/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Paciente8159/uCNC)](https://github.com/Paciente8159/uCNC/commits) | [![GitHub License](https://img.shields.io/github/license/Paciente8159/uCNC)]()
 
 **链接**：[Paciente8159/uCNC: µCNC - Universal CNC firmware for microcontrollers](https://github.com/Paciente8159/uCNC)  
-**特征**：用于微控制器的通用 CNC 固件。  
+**特征**：用于微控制器的通用 CNC 固件，保持功能紧凑及部件之间的模块化。  
 
 #### 要点
 

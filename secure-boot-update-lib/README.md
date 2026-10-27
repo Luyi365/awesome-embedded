@@ -16,8 +16,6 @@
 
 #### 要点
 
-- 通过参数模型的特征选择适合的参数。
-
 ---
 
 ### tiny-AES-c
@@ -29,7 +27,6 @@
 
 #### 要点
 
-- 提供 C 和 C++ 两种方案；
 - 参考：[aes 加密解密，含 128、192、256 位，cbc、cfb、ecb、ofb、pcbc 模式 - 简书](https://www.jianshu.com/p/e8969d8bb6d7)；
 - 不同的位数代表加密密钥的 bit 数位，128-16Byte、182-24Byte、256-32Byte；
 
@@ -65,7 +62,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfssl)](https://github.com/wolfSSL/wolfssl/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfssl)](https://github.com/wolfSSL/wolfssl/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfssl)]()
 
 **链接**：[wolfSSL – Embedded SSL/TLS Library](https://www.wolfssl.com/)  
-**特征**：是一个轻量级的、可移植的 SSL/TLS 库，由 [wolfCrypt](#wolfcrypt) 密码库驱动，它主要针对 IoT、嵌入式和 RTOS 环境。
+**特征**：是一个轻量级的、可移植的 SSL/TLS 库，由 [wolfCrypt](#wolfcrypt) 密码库驱动，它主要针对 IoT、嵌入式和 RTOS 环境。  
 
 #### 要点
 
@@ -88,8 +85,8 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfHSM)](https://github.com/wolfSSL/wolfHSM/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfHSM)](https://github.com/wolfSSL/wolfHSM/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfHSM)]()
 
-**链接**：[wolfHSM | Products - wolfSSL](https://www.wolfssl.com/products/wolfhsm)
-**特征**：一个客户端-服务器框架，用于硬件密码学、非易失性内存和安全处理。最初是面向于汽车领域的 HSM 核心，现在则适用于任何可信环境。
+**链接**：[wolfHSM | Products - wolfSSL](https://www.wolfssl.com/products/wolfhsm)  
+**特征**：一个客户端-服务器框架，用于硬件密码学、非易失性内存和安全处理。最初是面向于汽车领域的 HSM 核心，现在则适用于任何可信环境。  
 
 #### 要点
 
@@ -101,8 +98,8 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfTPM)](https://github.com/wolfSSL/wolfTPM/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfTPM)](https://github.com/wolfSSL/wolfTPM/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfTPM)]()
 
-**链接**：[wolfTPM | Products - wolfSSL](https://www.wolfssl.com/products/wolftpm)
-**特征**：可移植的 TPM 协议栈，提供封装接口以简化密钥的操作，支持裸机、RTOS、Linux、Windows 等多个平台。
+**链接**：[wolfTPM | Products - wolfSSL](https://www.wolfssl.com/products/wolftpm)  
+**特征**：可移植的 TPM 协议栈，提供封装接口以简化密钥的操作，支持裸机、RTOS、Linux、Windows 等多个平台。  
 
 #### 要点
 
@@ -114,8 +111,8 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfsentry)](https://github.com/wolfSSL/wolfsentry/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfsentry)](https://github.com/wolfSSL/wolfsentry/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfsentry)]()
 
-**链接**：[wolfSentry | Products - wolfSSL](https://www.wolfssl.com/products/wolfsentry/)
-**特征**：一个动态的入侵检测与防御系统（IDPS），嵌入式适用的防火墙引擎，核心是监控、日志记录、模式匹配以及通知。
+**链接**：[wolfSentry | Products - wolfSSL](https://www.wolfssl.com/products/wolfsentry/)  
+**特征**：一个动态的入侵检测与防御系统（IDPS），嵌入式适用的防火墙引擎，核心是监控、日志记录、模式匹配以及通知。  
 
 #### 要点
 
@@ -154,7 +151,7 @@
 
 #### 要点
 
-- 跟 OpenBLT 相比更注重安全，但只支持 32 位微控制器；
+- 跟 [OpenBLT](#openblt) 相比更注重安全，但只支持 32 位微控制器；
 
 ---
 
@@ -188,7 +185,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/mcu-tools/mcuboot)](https://github.com/mcu-tools/mcuboot/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/mcu-tools/mcuboot)](https://github.com/mcu-tools/mcuboot/commits) | [![GitHub License](https://img.shields.io/github/license/mcu-tools/mcuboot)]()
 
 **链接**：[MCUboot](https://www.trustedfirmware.org/projects/mcuboot)  
-**特征**：可信的旗下的项目，通用的 32 位微控制器的安全引导加载程序，不依赖于特定的系统和硬件。  
+**特征**：可信旗下的项目，通用的 32 位微控制器的安全引导加载程序，不依赖于特定的系统和硬件。  
 
 #### 要点
 

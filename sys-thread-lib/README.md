@@ -18,7 +18,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/tomzbj/ztask)](https://github.com/tomzbj/ztask/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/tomzbj/ztask)](https://github.com/tomzbj/ztask/commits) | [![GitHub License](https://img.shields.io/github/license/tomzbj/ztask)]()
 
 **链接**：[GitHub - tomzbj/ztask: A simple timer-based scheduler](https://github.com/tomzbj/ztask)  
-**特征**：极简的基于时间片调度器，仅 5 个 api，属于那种随手就可以写出来的框架。  
+**特征**：最基础的时间片调度器，仅 5 个 api，属于那种随手就可以写出来的框架。  
 
 #### 要点
 
@@ -55,7 +55,7 @@
 [![Gitee Repo stars](https://gitee.com/moluo-tech/CodeBrick/badge/star.svg?theme=gvp)](https://gitee.com/moluo-tech/CodeBrick/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/CodeBrick&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/CodeBrick&query=$.license&label=license)]()
 
 **链接**：[CodeBrick: 一种无 OS 的 MCU 实用软件管理系统，包括任务轮询框架，命令管理器、低功耗管理、环形缓冲区等实用模块。](https://gitee.com/moluo-tech/CodeBrick)  
-**特征**：时间片轮询框架，包含了很多实用模块，不含驱动层，简单易用。符合现在项目的开发理念，是我很喜欢的一个裸机框架，可以说是普通项目的首选。  
+**特征**：时间片轮询框架，包含了很多实用模块，不含驱动层，简单易用。符合现在项目的开发理念，是我很喜欢的一个裸机框架。  
 
 #### 要点
 
@@ -96,7 +96,7 @@
 [![Gitee Repo stars](https://gitee.com/jeremyceng/JxOS/badge/star.svg?theme=gvp)](https://gitee.com/jeremyceng/JxOS/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jeremyceng/JxOS&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jeremyceng/JxOS&query=$.license&label=license)]()
 
 **链接**：[JxOS: 面向 MCU 的小型前后台系统。此项目的设计思想是：功能模块与硬件高度解耦，提高代码模块的可复用性；不使用复杂的数据结构和语法以提高不同硬件平台和编译器之间的兼容性，实现工程在不同 MCU 之间的快速移植；提供实用稳定常用的功能模块，实现项目的快速开发；定义标准应用开发框架，减轻应用开发的工作量和难度。](https://gitee.com/jeremyceng/JxOS)  
-**特征**：前后台系统，没有复杂的注册与函数指针结构，提供系统内核功能：任务、事件、消息、公告板、邮箱、管道、注册、内存分配……  
+**特征**：前后台系统，没有复杂的注册与函数指针结构，提供系统内核功能：任务、事件、消息、公告板、邮箱、管道、注册、内存分配等。  
 
 #### 要点
 
@@ -142,7 +142,6 @@
 
 #### 要点
 
-- 与其他裸机 OS 及 RTOS 的对比在链接里都有写；
 - 使用介绍：[查询式协作多任务系统](https://mp.weixin.qq.com/s/qouyA6IApyktT9XxSFTuYA)
 
 ---
@@ -283,7 +282,6 @@
 #### 要点
 
 - 通过 FinSH 组件进行控制台交互；
-- 初始化使用 initcall 方式；
 - 通过 Env 工具修改项目的 config 宏参数；
 - ~~`xxx_EXPORT` 功能参考：段区注册及调用机制；~~（待发布）
 
@@ -333,8 +331,7 @@
 
 #### 要点
 
-- 除了官网，硬汉论讨教程也十分丰富；
-- 组件：ThreadX、NetX、FileX、GUIX、USBX、TraceX 等...
+- 组件：ThreadX、NetX、FileX、[GUIX](../ui-menu-lib/README.md#guix)、USBX、TraceX 等...
 
 ---
 
@@ -343,7 +340,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/zephyrproject-rtos/zephyr)](https://github.com/zephyrproject-rtos/zephyr/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/zephyrproject-rtos/zephyr)](https://github.com/zephyrproject-rtos/zephyr/commits) | [![GitHub License](https://img.shields.io/github/license/zephyrproject-rtos/zephyr)]()
 
 **链接**：[The Zephyr Project – A proven RTOS ecosystem, by developers, for developers.](https://zephyrproject.org/)  
-**特征**：Linux 维护的一个 RTOS，很适合学习 Linux 的开发思想。  
+**特征**：Linux 基金会维护的一个 RTOS，很适合学习 Linux 的开发思想。  
 
 #### 要点
 
@@ -404,7 +401,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/skaiui2/SKRTOS_sparrow)](https://github.com/skaiui2/SKRTOS_sparrow/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/skaiui2/SKRTOS_sparrow)](https://github.com/skaiui2/SKRTOS_sparrow/commits) | [![GitHub License](https://img.shields.io/github/license/skaiui2/SKRTOS_sparrow)]()
 
 **链接**：[skaiui2/SKRTOS_sparrow: Lightweight rtos inspired by SKRTOS](https://github.com/skaiui2/SKRTOS_sparrow)  
-**特征**：仅几百行的超微小系统，实现了基本调度和 IPC 机制，有人称之为儿童版 FreeRTOS。  
+**特征**：仅几百行的超微小系统，实现了基本调度和 IPC 机制，有人称之为儿童版 [FreeRTOS](#freertos)。  
 
 #### 要点
 
@@ -485,7 +482,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/contiki-ng/contiki-ng)](https://github.com/contiki-ng/contiki-ng/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/contiki-ng/contiki-ng)](https://github.com/contiki-ng/contiki-ng/commits) | [![GitHub License](https://img.shields.io/github/license/contiki-ng/contiki-ng)]()
 
 **链接**：[contiki-ng/contiki-ng: Contiki-NG: The OS for Next Generation IoT Devices](https://github.com/contiki-ng/contiki-ng)  
-**特征**：uIP 和 LwIP 的作者维护的多任务物联网操作系统，它专注于可靠（安全可靠）的低功耗通信和标准互联网协议。  
+**特征**：uIP 和 [LwIP](../protocol-format-parser-lib/README.md#lwip) 的作者维护的多任务物联网操作系统，它专注于可靠（安全可靠）的低功耗通信和标准互联网协议。  
 
 #### 要点
 
@@ -496,7 +493,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ARMmbed/mbed-os)](https://github.com/ARMmbed/mbed-os/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ARMmbed/mbed-os)](https://github.com/ARMmbed/mbed-os/commits) | [![GitHub License](https://img.shields.io/github/license/ARMmbed/mbed-os)]()
 
 **链接**：[Mbed OS | Mbed](https://os.mbed.com/mbed-os/)  
-**特征**：arm 旗下的易于使用的物联网操作系统。  
+**特征**：Arm 旗下的易于使用的物联网操作系统。  
 
 #### 要点
 
@@ -547,7 +544,7 @@
 ### OneOS
 
 **链接**：[OneOS - 中国移动物联网操作系统](https://os.iot.10086.cn/)  
-**特征**：是中国移动针对物联网领域推出的轻量级操作系统，具有可裁剪、跨平台、低功耗、高安全等特点，支持 ARM Cortex-M/A、MIPS、RISC-V 等主流芯片架构，兼容 POSIX、CMSIS 等标准接口，支持 JavaScript、Micropython 语言开发。  
+**特征**：中国移动针对物联网领域推出的轻量级操作系统，具有可裁剪、跨平台、低功耗、高安全等特点，支持 ARM Cortex-M/A、MIPS、RISC-V 等主流芯片架构，兼容 POSIX、CMSIS 等标准接口，支持 JavaScript、Micropython 语言开发。  
 
 #### 要点
 
@@ -562,7 +559,7 @@
 
 #### 要点
 
-- 目前支持的 MCU 比较单一；
+- 目前支持的 [MCU 型号](https://wiki-zh.luatos.org/chips/chips.html) 比较单一；
 
 ---
 
@@ -628,11 +625,12 @@
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)
 
 **链接**：[ROS: Home](https://www.ros.org/)  
+**微控制器版本**：[micro-ROS | ROS 2 for microcontrollers](https://micro.vulcanexus.org/)  
 **特征**：业界有名的开源机器人操作系统，它实现了一整套的软件库和工具集。  
 
 #### 要点
 
-- 这个系统原本不是直接部署在 MCU 上的，而是 Linux 上的，但目前也支持微处理器和 Windows 系统；
+- 这个系统原本不是直接部署在 MCU 上的，而是 Linux 上的，但目前也有支持微处理器和 Windows 系统的版本；
 
 ---
 

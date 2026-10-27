@@ -14,7 +14,7 @@
 [![Gitee Repo stars](https://gitee.com/git-lib/dbugLib-Prj/badge/star.svg?theme=gvp)](https://gitee.com/git-lib/dbugLib-Prj/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/git-lib/dbugLib-Prj&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/git-lib/dbugLib-Prj&query=$.license&label=license)]()
 
 **链接**：[dbugLib Prj: 可移植调试诊断库](https://gitee.com/git-lib/dbugLib-Prj)  
-**特征**：精小的的日志库，仅提供输出显示功能，可以修改日志的级别用于过滤特定级别的日志，相当于一般 SDK 自带的 printf 功能；  
+**特征**：精小的日志库，仅提供输出显示功能，可以修改日志的级别用于过滤特定级别的日志，相当于一般 SDK 自带的 printf 功能；  
 
 #### 要点
 
@@ -27,7 +27,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/rxi/log.c)](https://github.com/rxi/log.c/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/rxi/log.c)](https://github.com/rxi/log.c/commits) | [![GitHub License](https://img.shields.io/github/license/rxi/log.c)]()
 
 **链接**：[rxi/log.c: A simple logging library implemented in C99](https://github.com/rxi/log.c)  
-**特征**：极简的日志库，仅提供输出显示和记录功能。基于 C99 标准，不太适用于嵌入式领域。  
+**特征**：极简的日志库，仅提供输出显示和记录功能。基于 C99 标准，用在嵌入式上需要自行重定向输出。  
 
 #### 要点
 
@@ -183,7 +183,6 @@
 
 - 命令示例：[xradio-skylark-sdk/project/common/cmd at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/project/common/cmd)；
 - Demo（common 文件）：[xradio-skylark-sdk/project/demo/hello_demo at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/project/demo/hello_demo)；
-- 还有一些依赖库基于 SDK 里的其他文件；
 - 参考：[【XR806 开发板试用】Console 流程解析以及添加自定义指令 - 极术社区 - 连接开发者与智能计算生态](https://aijishu.com/a/1060000000288360)；
 - 其中文件 `cmd_util` 里的 API：
   - `cmd_main_exec`：主命令集，也就是最外层命令

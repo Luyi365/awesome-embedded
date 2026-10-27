@@ -89,7 +89,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/chiphome/flashMultipleErase)](https://github.com/chiphome/flashMultipleErase/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/chiphome/flashMultipleErase)](https://github.com/chiphome/flashMultipleErase/commits) | [![GitHub License](https://img.shields.io/github/license/chiphome/flashMultipleErase)]()
 
 **链接**：[chiphome/flashMultipleErase: 如何用单片机FLASH模拟EEPROM，并且通过算法优化实现高达100万次以上的存储次数！](https://github.com/chiphome/flashMultipleErase)  
-**特征**：用 FLASH 模拟 EEPROM，采用顺序写入的方法，以实现高达 100 万次以上的存储次数。  
+**特征**：用 FLASH 模拟 EEPROM，采用顺序写入的方法，以实现更多的存储次数，延长存储寿命。  
 
 #### 要点
 
@@ -100,7 +100,7 @@
 [![Gitee Repo stars](https://gitee.com/wtau_zaozao/eepromfs/badge/star.svg?theme=gvp)](https://gitee.com/wtau_zaozao/eepromfs/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wtau_zaozao/eepromfs&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wtau_zaozao/eepromfs&query=$.license&label=license)]()
 
 **链接**：[eepromfs: eepromfs，基于EEPROM的简易类文件的数据读写库，方便做动态功能增减时参数管理。增减参数块类似增减文件，不会对已有数据存储带来影响。EEPROM硬件资源充裕的情况下使用。](https://gitee.com/wtau_zaozao/eepromfs)  
-**特征**：基于 EEPROM 的简易类文件数据读写库，它并不属于真正的文件系统，只是把数据读写模拟成文件的方式。  
+**特征**：基于 EEPROM 的简易类文件数据读写库，它做的不属于真正的文件系统，而是把数据读写模拟成文件的方式。  
 
 #### 要点
 
@@ -268,7 +268,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 
 #### 要点
 
-- 基本特性是：可以把嵌入式系统的文件通过互联网自动地镜像存储到服务器，两端进行同步；
+- 可以把嵌入式系统的文件通过互联网自动地镜像存储到服务器，两端进行同步；
 
 ---
 
@@ -348,10 +348,11 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 [![GitHub Repo stars](https://img.shields.io/github/stars/clisystems/utfs)](https://github.com/clisystems/utfs/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/clisystems/utfs)](https://github.com/clisystems/utfs/commits) | [![GitHub License](https://img.shields.io/github/license/clisystems/utfs)]()
 
 **链接**：[clisystems/utfs: UTFS a Tar-like Embedded File System](https://github.com/clisystems/utfs)  
-**特征**：类 TAR <sup>（是（Tape Archive）的缩写，为 1970 年代磁带机设计的归档格式。）</sup>的微型嵌入式文件系统，旨在解决存储介质受数据变化而导致布局被破坏的问题，无目录、磨损均衡、日志等功能。  
+**特征**：类 TAR 的微型嵌入式文件系统，旨在解决存储介质受数据变化而导致布局被破坏的问题，无目录、磨损均衡、日志等功能。  
 
 #### 要点
 
-- 使用介绍：[UTFS a Tar-like File System for Embedded Systems | CLI Systems](https://clisystems.com/article-UTFS-intro)
+- 使用介绍：[UTFS a Tar-like File System for Embedded Systems | CLI Systems](https://clisystems.com/article-UTFS-intro)；
+- TAR 是（Tape Archive）的缩写，为 1970 年代磁带机设计的归档格式；
 
 ---

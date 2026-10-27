@@ -12,7 +12,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/armink/CmBacktrace)](https://github.com/armink/CmBacktrace/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/armink/CmBacktrace)](https://github.com/armink/CmBacktrace/commits) | [![GitHub License](https://img.shields.io/github/license/armink/CmBacktrace)]()
 
 **链接**：[armink/CmBacktrace: Advanced fault backtrace library for ARM Cortex-M series MCU | ARM Cortex-M 系列 MCU 错误追踪库](https://github.com/armink/CmBacktrace)  
-**特征**：赫赫有名的错误追踪库，针对 ARM Cortex-M 系列的 MCU，基本上稍复杂一点的项目无脑加就完事了。  
+**特征**：赫赫有名的错误追踪库，针对 ARM Cortex-M 系列的 MCU，基本上稍复杂一点的项目都会加上这个功能库。  
 
 #### 要点
 
@@ -68,7 +68,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/siu/minunit)](https://github.com/siu/minunit/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/siu/minunit)](https://github.com/siu/minunit/commits) | [![GitHub License](https://img.shields.io/github/license/siu/minunit)]()
 
 **链接**：[siu/minunit: Minimal unit testing framework for C](https://github.com/siu/minunit)  
-**特征**：C 的最小单元测试框架，不使用内存分配。  
+**特征**：极简的单元测试框架，仅包含一个头文件，不使用内存分配。  
 
 #### 要点
 
@@ -81,7 +81,7 @@
 [![License: CuTest](https://img.shields.io/badge/License-CuTest-blue.svg)]()
 
 **链接**：[CuTest: The Cutest C Unit Testing Framework](https://cutest.sourceforge.net/)  
-**特征**：极简的 C 单元测试框架，使用动态内存分配。  
+**特征**：单元测试框架，使用动态内存分配。  
 
 #### 要点
 
@@ -92,9 +92,11 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/google/cmockery)](https://github.com/google/cmockery/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/google/cmockery)](https://github.com/google/cmockery/commits) | [![GitHub License](https://img.shields.io/github/license/google/cmockery)]()
 
 **链接**：[google/cmockery: A lightweight library to simplify and generalize the process of writing unit tests for C applications.](https://github.com/google/cmockery)  
-**特征**：C 单元测试的轻量级框架，基于标准 C 库。  
+**特征**：C 单元测试的轻量级框架，基于标准 C 库，支持函数打桩和返回值预设。  
 
 #### 要点
+
+- 该库已停止维护，可转向更活跃的 fork：[cmocka - unit testing framework for C](https://cmocka.org/)
 
 ---
 
@@ -128,7 +130,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/silentbicycle/greatest)](https://github.com/silentbicycle/greatest/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/silentbicycle/greatest)](https://github.com/silentbicycle/greatest/commits) | [![GitHub License](https://img.shields.io/github/license/silentbicycle/greatest)]()
 
 **链接**：[silentbicycle/greatest: A C testing library in 1 file. No dependencies, no dynamic allocation. ISC licensed.](https://github.com/silentbicycle/greatest)  
-**特征**：小巧的 C 语言测试系统，使用插桩/覆盖测试，但可以与其他程序一起运行。  
+**特征**：小巧的 C 语言测试系统，使用插桩/覆盖测试，可以与其他程序一起运行。  
 
 #### 要点
 
@@ -141,7 +143,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/catchorg/Catch2)](https://github.com/catchorg/Catch2/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/catchorg/Catch2)](https://github.com/catchorg/Catch2/commits) | [![GitHub License](https://img.shields.io/github/license/catchorg/Catch2)]()
 
 **链接**：[catchorg/Catch2: A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)](https://github.com/catchorg/Catch2)  
-**特征**：一个流行的 C++ 单元测试框架，仅一个头文件，它的设计目标是轻量、易用且无依赖。  
+**特征**：一个流行的 C++ 单元测试框架，它的设计目标是轻量、易用且无依赖。  
 
 #### 要点
 

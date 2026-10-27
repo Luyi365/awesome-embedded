@@ -22,7 +22,7 @@
 ### FXT
 
 **链接**：[jj's useful and ugly FXT page](https://www.jjj.de/fxt/)  
-**特征**：C 语言的算法库集合，专注于位运算、组合数学、快速变换等。  
+**特征**：C++ 的算法库集合，专注于位运算、组合数学、快速变换等。  
 
 #### 要点
 
@@ -38,19 +38,6 @@
 **特征**：是一种速度极快的非加密哈希算法，可在 RAM 、速度限制下工作，适合更专业的使用场景。  
 
 #### 要点
-
----
-
-### hash-wasm
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/Daninet/hash-wasm)](https://github.com/Daninet/hash-wasm/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Daninet/hash-wasm)](https://github.com/Daninet/hash-wasm/commits) | [![GitHub License](https://img.shields.io/github/license/Daninet/hash-wasm)]()
-
-**链接**：[Daninet/hash-wasm: Lightning fast hash functions using hand-tuned WebAssembly binaries](https://github.com/Daninet/hash-wasm)  
-**特征**：轻量级的哈希函数库，提供了二十多种常见的哈希算法，带有基准测试。  
-
-#### 要点
-
-- 源库依赖 WebAssembly 环境，需要自己替换 `./src/hash-wasm.h` 胶水层；~~示例~~（待发布）
 
 ---
 
@@ -81,15 +68,14 @@
 3. 除了可以加载模型外，还带有基本的神经网络层；
 4. 模型最后需要转换成头文件被读取，文件里有 [.h5](./appendix.md#hdf5) 或 tmdl 格式转换成 .h 格式的脚本；
 5. 代码默认使用 GDB 调试，因此需要修改<ins>系统时间获取函数</ins>和<ins>打印函数</ins>；
-6. 其中层回调（`layer callback`）有示例，但还不知道作用是什么；
 
 ---
 
-### miniMNIST-c
+### tinymnist
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/konrad-gajdus/miniMNIST-c)](https://github.com/konrad-gajdus/miniMNIST-c/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/konrad-gajdus/miniMNIST-c)](https://github.com/konrad-gajdus/miniMNIST-c/commits) | [![GitHub License](https://img.shields.io/github/license/konrad-gajdus/miniMNIST-c)]()
+[![GitHub Repo stars](https://img.shields.io/github/stars/itskonrad/tinymnist)](https://github.com/itskonrad/tinymnist/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/itskonrad/tinymnist)](https://github.com/itskonrad/tinymnist/commits) | [![GitHub License](https://img.shields.io/github/license/itskonrad/tinymnist)]()
 
-**链接**：[konrad-gajdus/miniMNIST-c](https://github.com/konrad-gajdus/miniMNIST-c)  
+**链接**：[itskonrad/tinymnist](https://github.com/itskonrad/tinymnist)  
 **特征**：C 语言实现了一个迷你神经网络（两层），可用于学习和基础嵌入式领域。  
 
 #### 要点
@@ -155,17 +141,6 @@
 
 ---
 
-### tflite-micro
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/tensorflow/tflite-micro)](https://github.com/tensorflow/tflite-micro/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/tensorflow/tflite-micro)](https://github.com/tensorflow/tflite-micro/commits) | [![GitHub License](https://img.shields.io/github/license/tensorflow/tflite-micro)]()
-
-**链接**：[tensorflow/tflite-micro: Infrastructure to enable deployment of ML models to low-power resource-constrained embedded targets (including microcontrollers and digital signal processors).](https://github.com/tensorflow/tflite-micro)  
-**特征**：适用于微控制器的 TensorFlow Lite，也就是在单片机上部署机器学习框架。  
-
-#### 要点
-
----
-
 ### ncnn
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/Tencent/ncnn)](https://github.com/Tencent/ncnn/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Tencent/ncnn)](https://github.com/Tencent/ncnn/commits) | [![GitHub License](https://img.shields.io/github/license/Tencent/ncnn)]()
@@ -193,6 +168,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/tensorflow/tensorflow)](https://github.com/tensorflow/tensorflow/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/tensorflow/tensorflow)](https://github.com/tensorflow/tensorflow/commits) | [![GitHub License](https://img.shields.io/github/license/tensorflow/tensorflow)]()
 
 **链接**：[TensorFlow Lite | TensorFlow 中文官网](https://ai.google.dev/edge/litert?hl=zh-cn)  
+**微控制器版本**：[tensorflow/tflite-micro: Infrastructure to enable deployment of ML models to low-power resource-constrained embedded targets (including microcontrollers and digital signal processors).](https://github.com/tensorflow/tflite-micro)  
 **特征**：极有名的机器学习库，可用于在移动设备、微控制器和其他边缘设备上部署模型，以便实现设备端机器学习。  
 
 #### 要点

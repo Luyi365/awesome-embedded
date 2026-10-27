@@ -308,7 +308,7 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/IoTSharp/mqttclient)](https://github.com/IoTSharp/mqttclient/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/IoTSharp/mqttclient)](https://github.com/IoTSharp/mqttclient/commits) | [![GitHub License](https://img.shields.io/github/license/IoTSharp/mqttclient)]()
 
-**Link** - [jiejieTop/mqttclient: A high-performance, high-stability, cross-platform MQTT client, developed based on the socket API, can be used on embedded devices (FreeRTOS / LiteOS / RT-Thread / TencentOS tiny), Linux, Windows, Mac, with a very concise The API interface realizes the quality of service of QOS2 with very few resources, and seamlessly connects the mbedtls encryption library.](https://github.com/IoTSharp/mqttclient)  
+**Link** - [IoTSharp/mqttclient: A high-performance, high-stability, cross-platform MQTT client, developed based on the socket API, can be used on embedded devices (FreeRTOS / LiteOS / RT-Thread / TencentOS tiny), Linux, Windows, Mac, with a very concise The API interface realizes the quality of service of QOS2 with very few resources, and seamlessly connects the mbedtls encryption library.](https://github.com/IoTSharp/mqttclient)  
 **Features** - A high-performance, highly stable cross-platform MQTT client with a concise API, seamless integration with the [Mbed TLS](../secure-boot-update-lib/README.en.md#mbed-tls) library, and an online code-generation tool.  
 
 #### Key Points

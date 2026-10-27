@@ -12,7 +12,7 @@
 [![Gitee Repo stars](https://gitee.com/gevico/mcs51-ell/badge/star.svg?theme=gvp)](https://gitee.com/gevico/mcs51-ell/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gevico/mcs51-ell&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/gevico/mcs51-ell&query=$.license&label=license)]()
 
 **链接**：[MCS51-ELL: 这是一个专门为增强型1T8051内核MCU设计的硬件抽象平台。](https://gitee.com/gevico/mcs51-ell)  
-**特征**：结合了 HAL 库和 LL 库的编程思想编写的 ELL(efficient low-layer)库，以 STC8 系列为主。  
+**特征**：结合了 HAL 库和 LL 库的编程思想编写的 ELL（efficient low-layer）库，以 STC8 系列为主。  
 
 #### 要点
 

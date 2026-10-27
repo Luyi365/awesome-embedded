@@ -38,7 +38,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/mickjc750/str)](https://github.com/mickjc750/str/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/mickjc750/str)](https://github.com/mickjc750/str/commits) | [![GitHub License](https://img.shields.io/github/license/mickjc750/str)]()
 
 **链接**：[mickjc750/str: C String handling library inspired by Luca Sas](https://github.com/mickjc750/str)  
-**特征**：更高级的字符串处理库，拥有字符串分割/修剪/搜索/查错等功能。  
+**特征**：字符串处理库，拥有字符串分割/修剪/搜索/查错等功能。  
 
 #### 要点
 
@@ -49,7 +49,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ETLCPP/etl)](https://github.com/ETLCPP/etl/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ETLCPP/etl)](https://github.com/ETLCPP/etl/commits) | [![GitHub License](https://img.shields.io/github/license/ETLCPP/etl)]()
 
 **链接**：[ETLCPP/etl: Embedded Template Library](https://github.com/ETLCPP/etl)  
-**特征**：适用于嵌入式的 C++ 模板库。  
+**特征**：适用于嵌入式的 C++ 模板库（STL），旨在编译时为容器定义固定大小。  
 
 #### 要点
 
@@ -156,7 +156,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cesanta/mjs)](https://github.com/cesanta/mjs/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cesanta/mjs)](https://github.com/cesanta/mjs/commits) | [![GitHub License](https://img.shields.io/github/license/cesanta/mjs)]()
 
 **链接**：[cesanta/mjs: Embedded JavaScript engine for C/C++](https://github.com/cesanta/mjs)  
-**特征**：专用于微控制器的 JavaScript 引擎，空间占用量小(RAM:1k,ROM:50k)，基于 ES6 标准。  
+**特征**：专用于微控制器的 JavaScript 引擎，空间占用量小（RAM:1k,ROM:50k），基于 ES6 标准。  
 
 #### 要点
 
@@ -174,21 +174,6 @@
 #### 要点
 
 - 使用介绍：[X-TRACK/Software/X-Track/ArduinoAPI at main · FASTSHIFT/X-TRACK](https://github.com/FASTSHIFT/X-TRACK/tree/main/Software/X-Track/ArduinoAPI)
-
----
-
-## Android
-
-### rawdrawandroid
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/cnlohr/rawdrawandroid)](https://github.com/cnlohr/rawdrawandroid/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cnlohr/rawdrawandroid)](https://github.com/cnlohr/rawdrawandroid/commits) | [![GitHub License](https://img.shields.io/github/license/cnlohr/rawdrawandroid)]()
-
-**链接**：[cnlohr/rawdrawandroid: Build android apps without any java, entirely in C and Make](https://github.com/cnlohr/rawdrawandroid)  
-**特征**：使用 C 语言开发 Android 应用的开发框架，轻量且跨平台。  
-
-#### 要点
-
-- 开发时可能会关联 [Rawdraw](../ui-menu-lib/README.md#rawdraw) 和 [OpenGL ES](../ui-menu-lib/README.md#opengl) 库；
 
 ---
 

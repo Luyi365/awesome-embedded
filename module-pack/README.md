@@ -14,7 +14,7 @@
 
 #### 要点
 
-- 模块可以选择使用静态或动态内存。
+- 模块支持静态或动态两种内存模式。
 
 ---
 
@@ -86,7 +86,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/gozfree/gear-lib)](https://github.com/gozfree/gear-lib/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/gozfree/gear-lib)](https://github.com/gozfree/gear-lib/commits) | [![GitHub License](https://img.shields.io/github/license/gozfree/gear-lib)]()
 
 **链接**：[gozfree/gear-lib: Gear-Lib, C library for IOT Embedded Multimedia and Network](https://github.com/gozfree/gear-lib)  
-**特征**：一组通用的 C 基础库，全部用 POSIX C 实现，旨在兼容 Linux, Windows, Android, iOS 等跨平台，包括数据结构、异步、I/O、状态机、动态加载等功能。 
+**特征**：一组通用的 C 基础库，全部用 POSIX C 实现，旨在兼容 Linux, Windows, Android, iOS 等跨平台，包括数据结构、异步、I/O、状态机、动态加载等功能。  
 
 #### 要点
 
@@ -119,7 +119,7 @@
 [![Gitee Repo stars](https://gitee.com/zlgmcuopen/ametal/badge/star.svg?theme=gvp)](https://gitee.com/zlgmcuopen/ametal/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/zlgmcuopen/ametal&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/zlgmcuopen/ametal&query=$.license&label=license)]()
 
 **链接**：[ametal: AMetal 是芯片级的裸机软件包，定义了跨平台的通用接口（使得基于 AMetal 的应用程序可以和具体硬件完全分离,实现跨平台复用），并提供了一系列驱动及常用的软件服务。](https://gitee.com/zlgmcuopen/ametal)  
-**特征**：是 ZLG 旗下的软件包，涵盖了各类型的外设，并统一编写了抽象层接口。代码比较冗余，但类型比较全面。  
+**特征**：是 ZLG 旗下的软件包，涵盖了各类型的外设，并统一编写了抽象层接口。代码比较冗余，但类型全面。  
 
 #### 要点
 
@@ -160,7 +160,7 @@
 [![Gitee Repo stars](https://gitee.com/simpost/simpostOS/badge/star.svg?theme=gvp)](https://gitee.com/simpost/simpostOS/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/simpostOS&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/simpostOS&query=$.license&label=license)]()
 
 **链接**：[simpostOS: 极简应用系统](https://gitee.com/simpost/simpostOS)  
-**特征**：是一套设计方法，以及多个软件组件、服务的集合。其理念是将所有功能模块化，并极大地增加功能复用性。使用的是纯 C++ 语言，库写的十分现代化，对新手使用不友好。  
+**特征**：是一套设计方法，以及多个软件组件、服务的集合。其理念是将所有功能模块化，并极大地增加功能复用性。使用的是纯 C++ 语言，库写的十分现代化，不适合新手使用。  
 
 #### 要点
 
@@ -230,7 +230,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/GNOME/glib)](https://github.com/GNOME/glib/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/GNOME/glib)](https://github.com/GNOME/glib/commits) | [![GitHub License](https://img.shields.io/github/license/GNOME/glib)]()
 
 **链接**：[GNOME/glib: Read-only mirror of https://gitlab.gnome.org/GNOME/glib](https://github.com/GNOME/glib)  
-**特征**：GTK项目下的核心库，提供非常多的功能，包括数据结构、类型转换、字符串工具、文件操作、主循环抽象等。  
+**特征**：GTK 项目下的核心库，提供非常多的功能，包括数据结构、类型转换、字符串工具、文件操作、主循环抽象等。  
 
 #### 要点
 

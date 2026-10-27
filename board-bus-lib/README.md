@@ -22,7 +22,7 @@
 
 #### 要点
 
-- 硬件进行时序控制。
+- 该库不提供硬件时序控制。
 
 ---
 
@@ -31,7 +31,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/jakeread/mudlink)](https://github.com/jakeread/mudlink/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/jakeread/mudlink)](https://github.com/jakeread/mudlink/commits) | [![GitHub License](https://img.shields.io/github/license/jakeread/mudlink)]()
 
 **链接**：[jakeread/mudlink: Modular UART Duplex Link: cobs, crc, flow-control and delivery guarantees on any UART port in Arduino](https://github.com/jakeread/mudlink)  
-**特征**：将 UART 串口提升为一个链路/传输层，并保证成帧数据包的交付，此外还传输保证和流量控制。它还记录链路性能的统计信息等功能。  
+**特征**：将 UART 串口提升为一个链路/传输层，带有传输保证、流量控制和记录链路性能的统计信息等功能。  
 
 #### 要点
 
@@ -90,7 +90,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/i2c_scanner)](https://github.com/Luyi365/i2c_scanner/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/i2c_scanner)](https://github.com/Luyi365/i2c_scanner/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/i2c_scanner)]()
 
 **链接**：[Luyi365/i2c_scanner: i2c 设备扫描库，灵感来源 Nordic 的示例库，能够扫描板载的 i2c 设备个数及设备地址。](https://github.com/Luyi365/i2c_scanner)  
-**特征**：i2c 设备扫描库，能够扫描板载的 i2c 设备个数及设备地址。  
+**特征**：I2c 设备扫描库，能够扫描板载的 i2c 设备个数及设备地址。  
 
 #### 要点
 

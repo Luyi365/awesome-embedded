@@ -12,3 +12,11 @@
 当然你也可以将其理解为绘制一些基本图案，例如点、圆、矩形等，但这里的绘制要经过两个层面，与内存一样，显示分为软件和硬件层面，软件指的是 GUI 绘制库，硬件指的是驱动屏幕的点亮。  
 
 ---
+
+## OpenGL
+
+参考：[OpenGL - The Industry Standard for High Performance Graphics](https://www.opengl.org/)
+
+OpenGL 是 Khronos 制定的跨语言、跨平台的 2D/3D 图形 API 规范，它本身不是一个具体的库，而是由 GPU 驱动来实现，主要用在桌面端，适合游戏开发、科学可视化、虚拟现实等领域。  
+
+---

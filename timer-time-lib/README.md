@@ -14,7 +14,6 @@
 
 #### 要点
 
-- 该软定时器的创建及使用几乎和硬定时器一致。
 - 使用介绍：[MultiTimer | 一款可无限扩展的软件定时器](https://mp.weixin.qq.com/s/6Kd3MgkDtczhBEIf1YyEOg)
 
 ---
@@ -28,6 +27,8 @@
 
 #### 要点
 
+- 默认基于 STM32 抽象，移植其他芯片需要调整驱动层；
+
 ---
 
 ### microseconds
@@ -35,11 +36,11 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/JayHeng/microseconds)](https://github.com/JayHeng/microseconds/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/JayHeng/microseconds)](https://github.com/JayHeng/microseconds/commits) | [![GitHub License](https://img.shields.io/github/license/JayHeng/microseconds)]()
 
 **链接**：[JayHeng/microseconds: General microseconds library for MCU | 适用 MCU 的通用微秒计时函数框架，适用 1MHz 以上时钟源](https://github.com/JayHeng/microseconds)  
-**特征**：基于 Cortex-M 内核的 SysTick 做的微秒级别定时器库，有阻塞和非阻塞延迟。一般的厂商都有提供定时器函数，这个主要针对芯片、定时器模块需要更换的场景。  
+**特征**：微秒级别定时器库，有阻塞和非阻塞延迟。主要用于抽象同一个芯片上的不同时钟，使切换底层定时器时可以更便捷。  
 
 #### 要点
 
-- 适合定时器时钟源不小于 1MHz 的 MCU。
+- 定时器时钟源不得小于 1MHz。
 
 ---
 
@@ -48,12 +49,12 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/GorgonMeducer/perf_counter)](https://github.com/GorgonMeducer/perf_counter/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/GorgonMeducer/perf_counter)](https://github.com/GorgonMeducer/perf_counter/commits) | [![GitHub License](https://img.shields.io/github/license/GorgonMeducer/perf_counter)]()
 
 **链接**：[GorgonMeducer/perf_counter: A dedicated performance counter for Cortex-M systick. It shares the SysTick with users' original SysTick function without interfering it. This library will bring new functionalities, such as performance counter, delay_us and clock() service defined in time.h](https://github.com/GorgonMeducer/perf_counter)  
-**特征**：基于 Cortex-M 内核的 SysTick，不仅拥有基本的定时器功能，还具有代码段的周期测量、定时服务等功能，且支持 RTOS。代码看起来复杂，适合公司级项目。  
+**特征**：基于 Cortex-M 内核的 SysTick，不仅拥有基本的定时器功能，还具有代码段的周期测量、定时服务等功能，可作为普通时钟的功能扩展。  
 
 #### 要点
 
 - 说明看起来很复杂，但其实要做的是：
-  1. 文件只需要源文件和头文件，RTOS 可能需要"lib"和"os"，也可能需要几个汇编文件；
+  1. 需要源文件和头文件，RTOS 可能需要"lib"和"os"，也可能需要几个汇编文件；
   2. 编译器设置 GNU 扩展库或使用 gnu99 或 gnu11 库；
   3. `user_code_insert_to_systick_handler()`函数添加到 `SysTick_Handler`回调中（看注释，如果支持"ual"汇编文件，则不需要添加）；
   4. 初始化使用 `init_cycle_counter(bool)`即可；
@@ -90,6 +91,5 @@
 #### 要点
 
 - 支持 time.h 结构 tm 数据结构以进行时间运算；
-- 需要了解 cron 语法；
 
 ---

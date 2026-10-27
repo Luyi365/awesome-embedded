@@ -19,11 +19,6 @@ A good open-source project is the result of community effort. If anything below 
 
 #### TODO
 
-- [x] Add license information;
-- [x] Review link validity
-- [x] Improve layout and formatting
-- [x] Add English documentation
-- [ ] Rewrite key usage notes for selected libraries
 - [ ] Add a maker-project category
 - [ ] Add a tools category
 - [ ] Open up the repositories in the list that require access permissions
@@ -559,19 +554,17 @@ A good open-source project is the result of community effort. If anything below 
 
 - [FXT](./algo-ai-lib/README.en.md#fxt) - A collection of C algorithms focused on bit manipulation, combinatorics, fast transforms, and more.
 - [xxHash](./algo-ai-lib/README.en.md#xxhash) - An extremely fast non-cryptographic hash algorithm that works under RAM and speed constraints and suits more demanding use cases.
-- [hash-wasm](./algo-ai-lib/README.en.md#hash-wasm) - Lightweight hash-function library offering more than twenty common hash algorithms, with benchmarks included.
 - [Terathon Math Library](./algo-ai-lib/README.en.md#terathon-math-library) - A C++ mathematics library containing classes for vectors, matrices, quaternions, and projective geometric algebra elements. It can be used in graphics, AI, games, and related fields.
 
 ### [AI Frameworks](./algo-ai-lib/README.en.md#ai-frameworks)
 
 - [TinyMaix](./algo-ai-lib/README.en.md#tinymaix) - AI neural-network inference framework designed for resource-constrained microcontrollers.
-- [miniMNIST-c](./algo-ai-lib/README.en.md#minimnist-c) - A two-layer miniature neural network implemented in C, suitable for learning and basic embedded applications.
+- [tinymnist](./algo-ai-lib/README.en.md#tinymnist) - A two-layer miniature neural network implemented in C, suitable for learning and basic embedded applications.
 - [Genann](./algo-ai-lib/README.en.md#genann) - A minimal, thoroughly tested neural-network library for training and using feedforward artificial neural networks (ANNs) in C.
 - [uTensor](./algo-ai-lib/README.en.md#utensor) - An extremely lightweight machine-learning inference framework built on TensorFlow that imports trained models as C++ files.
 - [NNoM](./algo-ai-lib/README.en.md#nnom) - Framework for running neural networks on MCUs. It is similar to TinyMaix but offers more features.
 - [Paddle Lite](./algo-ai-lib/README.en.md#paddle-lite) - High-performance, lightweight, flexible, and extensible deep-learning inference framework targeting mobile, embedded, edge, and other hardware platforms.
 - [TVM](./algo-ai-lib/README.en.md#tvm) - End-to-end deep-learning compiler framework for CPU, GPU, ARM, and other hardware architectures.
-- [tflite-micro](./algo-ai-lib/README.en.md#tflite-micro) - TensorFlow Lite for microcontrollers, enabling deployment of machine-learning frameworks on MCUs.
 - [ncnn](./algo-ai-lib/README.en.md#ncnn) - A high-performance neural-network forward-computation framework highly optimized for mobile platforms. It supports most common CNN networks and can be deployed on some embedded chips.
 - [MNN](./algo-ai-lib/README.en.md#mnn) - Lightweight deep neural-network engine that supports deep-learning inference and training on embedded devices with POSIX interfaces.
 - [TensorFlow Lite](./algo-ai-lib/README.en.md#tensorflow-lite) - A well-known machine-learning library for deploying models to mobile devices, microcontrollers, and other edge devices for on-device machine learning.
@@ -753,10 +746,6 @@ A good open-source project is the result of community effort. If anything below 
 ### [Arduino](./engine-sim-lib/README.en.md#arduino)
 
 - [ArduinoCore-API](./engine-sim-lib/README.en.md#arduinocore-api) - The hardware-independent layer of the Arduino core. Include the corresponding API files when using Arduino-related libraries.
-
-### [Android](./engine-sim-lib/README.en.md#android)
-
-- [rawdrawandroid](./engine-sim-lib/README.en.md#rawdrawandroid) - Lightweight, cross-platform framework for developing Android applications in C.
 
 ### [Virtual Machines (Sandboxes)](./engine-sim-lib/README.en.md#virtual-machines-sandboxes)
 

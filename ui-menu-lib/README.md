@@ -18,7 +18,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/libts/tslib)](https://github.com/libts/tslib/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/libts/tslib)](https://github.com/libts/tslib/commits) | [![GitHub License](https://img.shields.io/github/license/libts/tslib)]()
 
 **链接**：[libts/tslib: Touchscreen access library](https://github.com/libts/tslib)  
-**特征**：嵌入式中使用最广泛的电阻触摸屏校正算法库，但好像只能用在 Linux 上。  
+**特征**：基于 Linux 的电阻触摸屏校正算法库，使用广泛。  
 
 #### 要点
 
@@ -29,7 +29,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/wujique/tslib_for_mcu)](https://github.com/wujique/tslib_for_mcu/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wujique/tslib_for_mcu)](https://github.com/wujique/tslib_for_mcu/commits) | [![GitHub License](https://img.shields.io/github/license/wujique/tslib_for_mcu)]()
 
 **链接**：[wujique/tslib_for_mcu: 整理裁剪一个 tslib 用于单片机平台，例程基于 STM32](https://github.com/wujique/tslib_for_mcu)  
-**特征**：Linux 下裁剪的一个电阻屏触摸校准库。  
+**特征**：裁剪自 [tslib](#tslib) 的一个电阻屏触摸校准库，用于单片机。  
 
 #### 要点
 
@@ -212,7 +212,7 @@
 [![Gitee Repo stars](https://gitee.com/genitop/GT-HMI-Engine/badge/star.svg?theme=gvp)](https://gitee.com/genitop/GT-HMI-Engine/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/genitop/GT-HMI-Engine&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/genitop/GT-HMI-Engine&query=$.license&label=license)]()
 
 **链接**：[GT-HMI-Engine: GT-HMI ：专为国内嵌入式 GUI 设计开发打造的免费神器！](https://gitee.com/genitop/GT-HMI-Engine)  
-**特征**：高通旗下专为国人使用的 UI 库，带有多种语种多字库，带有模拟器和上位机。RTOS、裸机均可使用，适合实用的项目级产品。  
+**特征**：上海高通（Genitop）旗下专为国人使用的 UI 库，带有多种语种多字库，带有模拟器和上位机。RTOS、裸机均可使用，适合实用的项目级产品。  
 
 #### 要点
 
@@ -241,7 +241,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/zlgopen/awtk)](https://github.com/zlgopen/awtk/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/zlgopen/awtk)](https://github.com/zlgopen/awtk/commits) | [![GitHub License](https://img.shields.io/github/license/zlgopen/awtk)]()
 
 **链接**：[zlgopen/awtk: AWTK = Toolkit AnyWhere(a cross-platform embedded GUI)](https://github.com/zlgopen/awtk)  
-**特征**：周立功旗下的 GUI 图形库，开源免费。  
+**特征**：ZLG 旗下的 GUI 图形库，开源免费。  
 
 #### 要点
 
@@ -267,11 +267,11 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/eclipse-threadx/guix)](https://github.com/eclipse-threadx/guix/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-threadx/guix)](https://github.com/eclipse-threadx/guix/commits) | [![GitHub License](https://img.shields.io/github/license/eclipse-threadx/guix)]()
 
 **链接**：[azure-rtos/guix: Azure RTOS GUIX Studio provides a complete, embedded graphical user interface (GUI) library and design environment, facilitating the creation and maintenance of all graphical elements needed by your device.](https://github.com/azure-rtos/guix)  
-**特征**：Azure RTOS 提供的 GUI 图形库，开发十分成熟和方便，开源免费。  
+**特征**：[Azure RTOS](../sys-thread-lib/README.md#azure-rtos) 提供的 GUI 图形库，开发十分成熟和方便，开源免费。  
 
 #### 要点
 
-- 可以看安富莱的教程。
+- 可以看[安富莱的教程](https://forum.anfulai.cn/forum.php?mod=viewthread&tid=98429)。
 
 ---
 
@@ -284,7 +284,7 @@
 
 #### 要点
 
-- 可以看安富莱和野火的教程。
+- 可以看安富莱（[Ⅱ](https://forum.anfulai.cn/forum.php?mod=viewthread&tid=19834)&[Ⅲ](https://forum.anfulai.cn/forum.php?mod=viewthread&tid=98429)）和[野火](https://doc.embedfire.com/stemwin/emwin/zh/latest/index.html)的教程。
 
 ---
 
@@ -357,7 +357,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/nicbarker/clay)](https://github.com/nicbarker/clay/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/nicbarker/clay)](https://github.com/nicbarker/clay/commits) | [![GitHub License](https://img.shields.io/github/license/nicbarker/clay)]()
 
 **链接**：[Clay - UI Layout Library](https://www.nicbarker.com/clay)  
-**特征**：高性能 2D UI 布局库，提供响应式布局能力，适合嵌入式 Web 的制作。  
+**特征**：高性能 2D UI 布局库，提供响应式布局能力，不绑定具体的渲染器。  
 
 #### 要点
 
@@ -398,24 +398,12 @@
 
 ---
 
-### OpenGL
-
-**链接**：[OpenGL - 高性能图形的行业标准](https://www.opengl.org/)  
-**特征**：跨语言、跨平台的 2D/3D 渲染库，主要使用 C 语言开发，但也可以支持 C++、Python、Java 等语言开发，功能极其强大，适合游戏开发、科学可视化、虚拟现实等领域。  
-
-#### 要点
-
-- OpenGL ES：是 OpenGL 的子集，专注于嵌入式及移动端的图形渲染；
-  - WebGL：基于 OpenGL ES 的图形接口，但加入了 JavaScript 语言，专注于 Web 网页的渲染开发；
-
----
-
 ### Rawdraw
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/cntools/rawdraw)](https://github.com/cntools/rawdraw/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cntools/rawdraw)](https://github.com/cntools/rawdraw/commits) | [![GitHub License](https://img.shields.io/github/license/cntools/rawdraw)]()
 
 **链接**：[cntools/rawdraw: Primitive Platform Agnostic Graphics Library](https://github.com/cntools/rawdraw)  
-**特征**：跨平台无依赖的 UI 绘制系统，为 OpenGL 提供良好的接口抽象。  
+**特征**：跨平台无依赖的 UI 绘制系统，可选用 [OpenGL](./appendix.md#opengl)、软件光栅等多种后端。  
 
 #### 要点
 
@@ -424,7 +412,7 @@
 ### TinyGL
 
 **链接**：[TinyGL : a Small, Free and Fast Subset of OpenGL*](https://bellard.org/TinyGL/)  
-**特征**：是 [OpenGL](#opengl) 的小型实现，适用于嵌入式系统。将复杂的接口精简为更易于理解和操作的形式。  
+**特征**：是 [OpenGL](./appendix.md#opengl) 的小型实现，适用于嵌入式系统。将复杂的接口精简为更易于理解和操作的形式。  
 
 #### 要点
 
@@ -435,11 +423,11 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cadenji/foolrenderer)](https://github.com/cadenji/foolrenderer/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cadenji/foolrenderer)](https://github.com/cadenji/foolrenderer/commits) | [![GitHub License](https://img.shields.io/github/license/cadenji/foolrenderer)]()
 
 **链接**：[cadenji/foolrenderer: A tiny software renderer implemented from scratch without the use of graphics API, used to understand how GPUs work.](https://github.com/cadenji/foolrenderer)  
-**特征**：用 C 语言实现的软件渲染器，不依赖图形库，仅用几千行代码，实现了一套类似 OpenGL 的基本图形功能，以及应用于游戏开发的实时渲染技术，如阴影、切线空间法线映射、基于物理的材质系统等。  
+**特征**：用 C 语言实现的软件渲染器，不依赖图形库，仅用几千行代码，实现了一套类似 [OpenGL](./appendix.md#opengl) 的基本图形功能，以及应用于游戏开发的实时渲染技术，如阴影、切线空间法线映射、基于物理的材质系统等。  
 
 #### 要点
 
-- 由于是基于 PC 平台，移植到嵌入式里使用需要稍微改改；
+- 由于是基于 PC 平台，移植到嵌入式里使用需要修改对接层；
 
 ---
 
@@ -448,7 +436,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/EmberGL-org/EmberGL)](https://github.com/EmberGL-org/EmberGL/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/EmberGL-org/EmberGL)](https://github.com/EmberGL-org/EmberGL/commits) | [![GitHub License](https://img.shields.io/github/license/EmberGL-org/EmberGL)]()
 
 **链接**：[EmberGL-org/EmberGL: EmberGL - 2D/3D graphics library featuring a tiled software rasterizer.](https://github.com/EmberGL-org/EmberGL)  
-**特征**：用于 MCU 的类似于 OpenGL 的实时 2D / 3D 光栅渲染库。  
+**特征**：用于 MCU 的类似于 [OpenGL](./appendix.md#opengl) 的实时 2D / 3D 光栅渲染库。  
 
 #### 要点
 
@@ -499,7 +487,7 @@
 [![Gitee Repo stars](https://gitee.com/kerndev/qrencode/badge/star.svg?theme=gvp)](https://gitee.com/kerndev/qrencode/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/qrencode&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/kerndev/qrencode&query=$.license&label=license)]()
 
 **链接**：[qrencode: 用 C 语言生成二维码的演示代码](https://gitee.com/kerndev/qrencode)  
-**特征**：二维码生成库，适用于单片机。  
+**特征**：适用于单片机的二维码生成库。  
 
 #### 要点
 
@@ -587,7 +575,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/Menu)](https://github.com/Luyi365/Menu/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/Menu)](https://github.com/Luyi365/Menu/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/Menu)]()
 
 **链接**：[Luyi365/Menu: 简单实用的菜单框架](https://github.com/Luyi365/Menu)  
-**特征**：简单实用的菜单框架，适合在学生项目上使用。  
+**特征**：简单实用的菜单实现，架构并未很好的解耦，但适合学生在项目上边学边使用。  
 
 #### 要点
 

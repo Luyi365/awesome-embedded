@@ -79,7 +79,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/dukelec/cdipc)](https://github.com/dukelec/cdipc/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/dukelec/cdipc)](https://github.com/dukelec/cdipc/commits) | [![GitHub License](https://img.shields.io/github/license/dukelec/cdipc)]()
 
 **链接**：[dukelec/cdipc: A Real-time Inter-Process Communication (IPC) mechanism and library](https://github.com/dukelec/cdipc)  
-**特征**：一种进程间通信 （IPC） 机制和库，适合在实时系统中协调感知、控制驱动程序和算法。  
+**特征**：一种进程间通信（IPC）机制和库，适合在实时系统中协调感知、控制驱动程序和算法。  
 
 #### 要点
 
@@ -118,7 +118,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Pithikos/C-Thread-Pool)](https://github.com/Pithikos/C-Thread-Pool/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Pithikos/C-Thread-Pool)](https://github.com/Pithikos/C-Thread-Pool/commits) | [![GitHub License](https://img.shields.io/github/license/Pithikos/C-Thread-Pool)]()
 
 **链接**：[Pithikos/C-Thread-Pool: A minimal but powerful thread pool in ANSI C](https://github.com/Pithikos/C-Thread-Pool)  
-**特征**：轻量级的嵌入式线程池库，用于管理线程的创建和生命周期，解决频繁地创建和销毁线程所带来较大开销的问题。  
+**特征**：轻量级的线程池库，基于 pthread 实现，用于管理线程的创建和生命周期，解决频繁地创建和销毁线程所带来较大开销的问题。  
 
 #### 要点
 
@@ -186,7 +186,7 @@
 [![Gitee Repo stars](https://gitee.com/moluo-tech/ril/badge/star.svg?theme=gvp)](https://gitee.com/moluo-tech/ril/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/ril&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/ril&query=$.license&label=license)]()
 
 **链接**：[ril: RIL 是一款专门为嵌入式平台开发的无线通信模块(GSM/GPRS/CatM1/NB)管理框架，适用于资源受限物联网终端设备（单片机 + 无线蜂窝模组的方案），并提供物联网通信所需的基本功能，包含网络注册、连接管理、短信收发及 Socket 通信。](https://gitee.com/moluo-tech/ril)  
-**特征**：专门为嵌入式平台开发的无线通信模组(GSM/GPRS/CatM1/NB-Iot)管理软件。  
+**特征**：专门为嵌入式平台开发的无线通信模组（GSM/GPRS/CatM1/NB-Iot）管理软件。  
 
 #### 要点
 
@@ -214,7 +214,7 @@
 
 #### 要点
 
-- 实现过程：[C语言模拟QT的信号与槽功能](https://mp.weixin.qq.com/s/3BcMHY71lH3WPgcPwxb2LQ)
+- 使用介绍：[C语言模拟QT的信号与槽功能](https://mp.weixin.qq.com/s/3BcMHY71lH3WPgcPwxb2LQ)
 
 ---
 

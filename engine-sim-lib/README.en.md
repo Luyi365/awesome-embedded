@@ -177,21 +177,6 @@
 
 ---
 
-## Android
-
-### rawdrawandroid
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/cnlohr/rawdrawandroid)](https://github.com/cnlohr/rawdrawandroid/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cnlohr/rawdrawandroid)](https://github.com/cnlohr/rawdrawandroid/commits) | [![GitHub License](https://img.shields.io/github/license/cnlohr/rawdrawandroid)]()
-
-**Link** - [cnlohr/rawdrawandroid: Build android apps without any java, entirely in C and Make](https://github.com/cnlohr/rawdrawandroid)  
-**Features** - Lightweight, cross-platform framework for developing Android applications in C.  
-
-#### Key Points
-
-- Development may involve the [Rawdraw](../ui-menu-lib/README.en.md#rawdraw) and [OpenGL ES](../ui-menu-lib/README.en.md#opengl) libraries;
-
----
-
 ## Virtual Machines (Sandboxes)
 
 ### EVM

@@ -12,11 +12,11 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/barraq/BRBrain)](https://github.com/barraq/BRBrain/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/barraq/BRBrain?path=firmware/CBUF.h)](https://github.com/barraq/BRBrain/commits) | [![GitHub License](https://img.shields.io/github/license/barraq/BRBrain)]()
 
 **链接**：[BRBrain/firmware/CBUF.h at master · barraq/BRBrain · GitHub](https://github.com/barraq/BRBrain/blob/master/firmware/CBUF.h)  
-**特征**：极优雅的宏实现环形缓冲区，功能简单易用。  
+**特征**：基于 C++ 的宏实现环形缓冲区，功能简单易用。  
 
 #### 要点
 
-- 用的是 C++ 的类，需要创建一个类的实体（句柄），来充当对象。
+- 需要创建一个类的实体（句柄），来充当对象。
 
 ---
 
@@ -37,7 +37,7 @@
 [![Gitee Repo stars](https://gitee.com/Aladdin-Wang/byte_queue/badge/star.svg?theme=gvp)](https://gitee.com/Aladdin-Wang/byte_queue/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Aladdin-Wang/byte_queue&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Aladdin-Wang/byte_queue&query=$.license&label=license)]()
 
 **链接**：[byte_queue: 一个C语言编写的支持任意类型的环形队列](https://gitee.com/Aladdin-Wang/byte_queue)  
-**特征**：C 语言编写的支持任意类型的环形队列，带宏包装，使用简单。  
+**特征**：支持任意类型的环形队列，带宏包装，使用简单。  
 
 #### 要点
 
@@ -48,7 +48,7 @@
 [![Gitee Repo stars](https://gitee.com/Lamdonn/queue/badge/star.svg?theme=gvp)](https://gitee.com/Lamdonn/queue/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/queue&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/queue&query=$.license&label=license)]()
 
 **链接**：[queue: Very small and convenient general-purpose queue in C language version. C语言版本的非常小且方便的通用队列。](https://gitee.com/Lamdonn/queue)  
-**特征**：C 语言通用队列，支持任意数据类型，使用简单高效。  
+**特征**：通用队列，支持任意数据类型，使用简单高效。  
 
 #### 要点
 
@@ -59,7 +59,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/AndersKaloer/Ring-Buffer)](https://github.com/AndersKaloer/Ring-Buffer/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/AndersKaloer/Ring-Buffer)](https://github.com/AndersKaloer/Ring-Buffer/commits) | [![GitHub License](https://img.shields.io/github/license/AndersKaloer/Ring-Buffer)]()
 
 **链接**：[AndersKaloer/Ring-Buffer: A simple ring buffer (circular buffer) designed for embedded systems.](https://github.com/AndersKaloer/Ring-Buffer)  
-**特征**：简单高效的环形缓冲库，适合没有指定存储大小的程序。  
+**特征**：环形缓冲库，适合没有指定存储大小的程序。  
 
 #### 要点
 
@@ -73,7 +73,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Aladdin-Wang/wl_queue)](https://github.com/Aladdin-Wang/wl_queue/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Aladdin-Wang/wl_queue)](https://github.com/Aladdin-Wang/wl_queue/commits) | [![GitHub License](https://img.shields.io/github/license/Aladdin-Wang/wl_queue)]()
 
 **链接**：[Aladdin-Wang/wl_queue: 一款支持任意类似的队列](https://github.com/Aladdin-Wang/wl_queue)  
-**特征**：支持任意数据类型的环形队列，运用了 C 重载的技巧，注重纤程安全。  
+**特征**：支持任意数据类型的环形队列，运用了 C 重载的技巧，注重线程安全。  
 
 #### 要点
 
@@ -86,7 +86,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/XinLiGH/RingBuffer)](https://github.com/XinLiGH/RingBuffer/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/XinLiGH/RingBuffer)](https://github.com/XinLiGH/RingBuffer/commits) | [![GitHub License](https://img.shields.io/github/license/XinLiGH/RingBuffer)]()
 
 **链接**：[XinLiGH/RingBuffer: 模仿 kfifo 实现的环形缓冲区](https://github.com/XinLiGH/RingBuffer)  
-**特征**：实用的环形缓冲库，功能完整，使用的是堆内存分配。  
+**特征**：实用的环形缓冲库，功能完整，使用堆内存分配。  
 
 #### 要点
 
@@ -196,7 +196,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/troydhanson/uthash)](https://github.com/troydhanson/uthash/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/troydhanson/uthash)](https://github.com/troydhanson/uthash/commits) | [![GitHub License](https://img.shields.io/github/license/troydhanson/uthash)]()
 
 **链接**：[troydhanson/uthash: C macros for hash tables and more](https://github.com/troydhanson/uthash)  
-**特征**：提供哈希、列表、环形等数据结构库，只用包含头文件即可使用。  
+**特征**：提供哈希、列表、环形等数据结构库，仅包含头文件。  
 
 #### 要点
 
@@ -225,7 +225,7 @@
 [![Gitee Repo stars](https://gitee.com/Armink/EasyFlash/badge/star.svg?theme=gvp)](https://gitee.com/Armink/EasyFlash/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/EasyFlash&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/EasyFlash&query=$.license&label=license)]()
 
 **链接**：[EasyFlash: 轻量级物联网设备信息存储方案，让 Flash 成为小型 KV 数据库。 全新一代版本请移步至 https://gitee.com/armink/FlashDB](https://gitee.com/Armink/EasyFlash)  
-**特征**：Key-Value 型简易数据库，主要提供：变量的 KV 配对，可 IAP 数据修改（可用于升级），log 存储等功能。  
+**特征**：Key-Value 型简易数据库，提供变量的 KV 配对，可 IAP 数据修改（可用于升级），log 存储等功能。  
 
 #### 要点
 
@@ -252,7 +252,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/nanopb/nanopb)](https://github.com/nanopb/nanopb/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/nanopb/nanopb)](https://github.com/nanopb/nanopb/commits) | [![GitHub License](https://img.shields.io/github/license/nanopb/nanopb)]()
 
 **链接**：[Nanopb - protocol buffers with small code size](https://jpa.kapsi.fi/nanopb/)  
-**特征**：轻量的、支持 C 语言的 Protobuf，Protobuf 是 Google 公司开发的一种数据格式。可用于数据存储、通信协议等方面，且不依赖于语言和平台，也就是说可以不同设备端进行数据通讯。  
+**特征**：轻量的、支持 C 语言的 Protobuf，Protobuf 是 Google 公司开发的一种数据格式。可用于数据存储、通信协议等方面，且不依赖于语言和平台，也就是说可以在不同设备、语言端进行数据通讯。  
 
 #### 要点
 
@@ -264,8 +264,7 @@
   - [嵌入式大杂烩周记 | 第 9 期](https://mp.weixin.qq.com/s/kS05PsqRAfw7GoxB8FeSvA)
   - [Nanopb 的使用方法_ECBG_2024 的博客-CSDN 博客](https://blog.csdn.net/weixin_56035008/category_10884684.html)
   - [Protocol Buffers_小猪快跑爱摄影的博客-CSDN 博客](https://blog.csdn.net/ymzhu385/category_11573002.html)
-- 以前公司用该协议通过蓝牙在设备和手机端进行实时交互；
-- 在编写 PB 文件时，要注意层次结构，因为 PB 文件是可以包含其他文件的，要有继承的思想，把类似于 `get`、`put`、`write`、`read` 这类通用操作放在操作的基层；不同种类的事件放在事件的基层；
+- 在编写 PB 文件时，要注意层次结构，把类似于 `get`、`put`、`write`、`read` 这类通用操作放在操作的基层；不同种类的事件放在事件的基层；
 
 ---
 
@@ -302,6 +301,7 @@
 #### 要点
 
 - ~~详细解释可参见：SQLite（MySQL）；~~（待发布）
+- 移植 MCU 需要编写 [VFS](./appendix.md#vfs)；
 
 ---
 

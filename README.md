@@ -19,11 +19,6 @@
 
 #### TODO
 
-- [x] 增加许可证信息；
-- [x] 审查链接的有效性
-- [x] 优化排版及格式
-- [x] 考虑增加英文说明
-- [ ] 重写部分库的使用要点（最初是给我自己看的，所以有些内容是建立在已知的情况下而写，需要优化）
 - [ ] 增加创客项目分类
 - [ ] 增加工具分类
 - [ ] 开放列表中需要权限的代码库
@@ -63,18 +58,18 @@
 
 ### [按键](./io-control-lib/README.md#按键)
 
-- [key_detect](./io-control-lib/README.md#key_detect)：简易的按键检测组件，采用注册事件，提供最基本的按键功能。
-- [key_module](./io-control-lib/README.md#key_module)：简单易用的按键检测模块，采用事件回调，提供除矩阵按键的其他基本功能。
-- [FlexibleButton](./io-control-lib/README.md#flexiblebutton)：间断轮询扫描的方式检测按键，一次扫描和处理所有按键状态，支持大多数单个按键事件触发。组合按键和中断触发需要自行添加。
-- [MultiButton](./io-control-lib/README.md#multibutton)：定时器触发扫描，事件驱动型按键驱动模块，基于面向对象方式设计思路，每个按键对象单独用一份数据结构管理。
-- [cotKey](./io-control-lib/README.md#cotkey)：监听型按键识别库，可以实现单击、双击、多击、短按和长按等多种要求的功能，但只支持单一按键功能。
+- [key_detect](./io-control-lib/README.md#key_detect)：简易的按键检测组件，采用按键注册方式，可单独设置各按键的单击/双击/长按属性。
+- [key_module](./io-control-lib/README.md#key_module)：简易的按键检测模块，采用事件回调，提供除矩阵按键外的其他基本功能。
+- [FlexibleButton](./io-control-lib/README.md#flexiblebutton)：稳定的按键处理库，一次扫描处理所有按键状态，带有多种按键事件触发，留有组合按键和中断触发实现说明。
+- [MultiButton](./io-control-lib/README.md#multibutton)：状态机型按键库，基于面向对象方式设计思路，每个按键对象单独用一份数据结构管理。
+- [cotKey](./io-control-lib/README.md#cotkey)：监听型按键识别库，比起其他按键库更加自由，可以实现单击、双击、多击、短按和长按等多种要求的功能。
 - [key_board](./io-control-lib/README.md#key_board)：采用按键注册的方式，默认使用堆内存，一次扫描和处理所有按键状态，带有矩阵键盘和组合的功能。
-- [LwBTN](./io-control-lib/README.md#lwbtn)：专业的按键事件管理库，配置方面十分丰富，但有点晦涩难懂。
+- [LwBTN](./io-control-lib/README.md#lwbtn)：专业的按键事件管理库，配置丰富，功能全面。
 
 ### [LED](./io-control-lib/README.md#led)
 
-- [cotLed](./io-control-lib/README.md#cotled)：轻量级的 LED 控制模块，可以实现 LED 灯多种模式状态。
-- [led_module](./io-control-lib/README.md#led_module)：基于面向对象和简单工厂模式的通用 LED 显示模块。
+- [cotLed](./io-control-lib/README.md#cotled)：轻量级的 LED 控制模块，可以实现 LED 灯多种模式状态（闪烁、呼吸、自定义等）。
+- [led_module](./io-control-lib/README.md#led_module)：基于面向对象和简单工厂模式的简单 LED 显示库，无自定义模式但带有颜色属性。
 
 ### [PID](./io-control-lib/README.md#pid)
 
@@ -83,7 +78,7 @@
 ### [CNC](./io-control-lib/README.md#cnc)
 
 - [Grbl](./io-control-lib/README.md#grbl)：行业著名的开源 CNC 代码，可用于激光切割机、自动手动写字机、钻孔机、涂鸦画家和古怪的绘图机等，是创客们的首选，也是行业标准。
-- [µCNC](./io-control-lib/README.md#µcnc)：用于微控制器的通用 CNC 固件。
+- [µCNC](./io-control-lib/README.md#µcnc)：用于微控制器的通用 CNC 固件，保持功能紧凑及部件之间的模块化。
 
 ---
 
@@ -93,8 +88,8 @@
 
 - [MultiTimer](./timer-time-lib/README.md#multitimer)：模拟的软件定时器模块，取代传统的标志位判断方式，操作与硬件定时器几乎一致。
 - [SmartTimer](./timer-time-lib/README.md#smarttimer)：裸机下十分好用的定时器调度器，除了基本轮询回调外，还可以设置轮询次数。
-- [microseconds](./timer-time-lib/README.md#microseconds)：基于 Cortex-M 内核的 SysTick 做的微秒级别定时器库，有阻塞和非阻塞延迟。一般的厂商都有提供定时器函数，这个主要针对芯片、定时器模块需要更换的场景。
-- [perf_counter](./timer-time-lib/README.md#perf_counter)：基于 Cortex-M 内核的 SysTick，不仅拥有基本的定时器功能，还具有代码段的周期测量、定时服务等功能，且支持 RTOS。代码看起来复杂，适合公司级项目。
+- [microseconds](./timer-time-lib/README.md#microseconds)：微秒级别定时器库，有阻塞和非阻塞延迟。主要用于抽象同一个芯片上的不同时钟，使切换底层定时器时可以更便捷。
+- [perf_counter](./timer-time-lib/README.md#perf_counter)：基于 Cortex-M 内核的 SysTick，不仅拥有基本的定时器功能，还具有代码段的周期测量、定时服务等功能，可作为普通时钟的功能扩展。
 
 ### [看门狗](./timer-time-lib/README.md#看门狗)
 
@@ -119,8 +114,8 @@
 
 ### [读写封装层](./mem-fs-lib/README.md#读写封装层)
 
-- [flashMultipleErase](./mem-fs-lib/README.md#flashmultipleerase)：用 FLASH 模拟 EEPROM，采用顺序写入的方法，以实现高达 100 万次以上的存储次数。
-- [eepromfs](./mem-fs-lib/README.md#eepromfs)：基于 EEPROM 的简易类文件数据读写库，它并不属于真正的文件系统，只是把数据读写模拟成文件的方式。
+- [flashMultipleErase](./mem-fs-lib/README.md#flashmultipleerase)：用 FLASH 模拟 EEPROM，采用顺序写入的方法，以实现更多的存储次数，延长存储寿命。
+- [eepromfs](./mem-fs-lib/README.md#eepromfs)：基于 EEPROM 的简易类文件数据读写库，它做的不属于真正的文件系统，而是把数据读写模拟成文件的方式。
 - [Dhara](./mem-fs-lib/README.md#dhara)：用于小型单片机的 NAND 闪存转换层（FTL）。主要用来对 FLASH 读、写、抹除操作的管理。处于 FLASH 设备与文件系统层之间。
 - [kFlashFile](./mem-fs-lib/README.md#kflashfile)：基于 NOR Flash 的轻量级文件数据存储方案，主要用于需要断电数据保存的项目。
 - [esp_partition](./mem-fs-lib/README.md#esp_partition)：ESP 旗下的分区表库，封装 SPI Flash 读写操作，允许以块为单位访问 flash。
@@ -144,7 +139,7 @@
 ### [UART](./board-bus-lib/README.md#uart)
 
 - [LwOW](./board-bus-lib/README.md#lwow)：专业的 1-Wire 协议库，允许通过 UART 或单 GPIO 通讯，提供线程安全的 API。
-- [MUDLink](./board-bus-lib/README.md#mudlink)：将 UART 串口提升为一个链路/传输层，并保证成帧数据包的交付，此外还传输保证和流量控制。它还记录链路性能的统计信息等功能。
+- [MUDLink](./board-bus-lib/README.md#mudlink)：将 UART 串口提升为一个链路/传输层，带有传输保证、流量控制和记录链路性能的统计信息等功能。
 
 ### [CDbus](./board-bus-lib/README.md#cdbus)
 
@@ -157,12 +152,17 @@
 
 ### [I2C](./board-bus-lib/README.md#i2c)
 
-- [i2c_scanner](./board-bus-lib/README.md#i2c_scanner)：i2c 设备扫描库，能够扫描板载的 i2c 设备个数及设备地址。
+- [i2c_scanner](./board-bus-lib/README.md#i2c_scanner)：I2c 设备扫描库，能够扫描板载的 i2c 设备个数及设备地址。
 - [i2cdevlib](./board-bus-lib/README.md#i2cdevlib)：使用 C++ 类的形式对 I2C 设备进行抽象，旨在方便 I2C 设备的接入和不同平台的移植。
 
 ### [SPI](./board-bus-lib/README.md#spi)
 
 - [SFUD](./board-bus-lib/README.md#sfud)：开源的串行 SPI Flash 通用驱动库，通过编写设备表，做到能适配各型号 Flash 芯片。
+
+### [USB](./board-bus-lib/README.md#usb)
+
+- [TinyUSB](./board-bus-lib/README.md#tinyusb)：是一个用于嵌入式系统的开源跨平台 USB 主机/设备堆栈，设计为内存安全，没有动态分配，线程安全，所有中断事件都被延迟，然后在非 ISR 任务函数中处理。
+- [CherryUSB](./board-bus-lib/README.md#cherryusb)：用于嵌入式系统（带 USB IP）的 USB 主从协议栈。可以移植各个平台，适用于自身不带 USB 协议栈的芯片。
 
 ### [板间通信](./board-bus-lib/README.md#板间通信)
 
@@ -170,24 +170,19 @@
 - [ESSL](./board-bus-lib/README.md#essl)：ESP 旗下的串行从机链路，该组件能让主机通过总线驱动和相应的协议与从机进行通信。也可以说就是双 mcu 通讯，只是在上面套了一层壳。
 - [SACP](./board-bus-lib/README.md#sacp)：是 Snapmaker 设备的数据通信协议，基于 C++ 的专用于整机多设备的设备间通信。
 
-### [USB](./board-bus-lib/README.md#usb)
-
-- [TinyUSB](./board-bus-lib/README.md#tinyusb)：是一个用于嵌入式系统的开源跨平台 USB 主机/设备堆栈，设计为内存安全，没有动态分配，线程安全，所有中断事件都被延迟，然后在非 ISR 任务函数中处理。
-- [CherryUSB](./board-bus-lib/README.md#cherryusb)：用于嵌入式系统（带 USB IP）的 USB 主从协议栈。可以移植各个平台，适用于自身不带 USB 协议栈的芯片。
-
 ---
 
 ## [数据结构与数据处理库](./data-struct-process-lib/README.md#数据结构与数据处理库)
 
 ### [队列](./data-struct-process-lib/README.md#队列)
 
-- [CBUF](./data-struct-process-lib/README.md#cbuf)：极优雅的宏实现环形缓冲区，功能简单易用。
+- [CBUF](./data-struct-process-lib/README.md#cbuf)：基于 C++ 的宏实现环形缓冲区，功能简单易用。
 - [sys/queue](./data-struct-process-lib/README.md#sysqueue)：Linux、FreeBSD 中使用的队列、链表头文件，全部用宏来实现的，且能够链接任意类型，如结构体等。
-- [byte_queue](./data-struct-process-lib/README.md#byte_queue)：C 语言编写的支持任意类型的环形队列，带宏包装，使用简单。
-- [queue](./data-struct-process-lib/README.md#queue)：C 语言通用队列，支持任意数据类型，使用简单高效。
-- [Ring-Buffer](./data-struct-process-lib/README.md#ring-buffer)：简单高效的环形缓冲库，适合没有指定存储大小的程序。
-- [wl_queue](./data-struct-process-lib/README.md#wl_queue)：支持任意数据类型的环形队列，运用了 C 重载的技巧，注重纤程安全。
-- [RingBuffer](./data-struct-process-lib/README.md#ringbuffer)：实用的环形缓冲库，功能完整，使用的是堆内存分配。
+- [byte_queue](./data-struct-process-lib/README.md#byte_queue)：支持任意类型的环形队列，带宏包装，使用简单。
+- [queue](./data-struct-process-lib/README.md#queue)：通用队列，支持任意数据类型，使用简单高效。
+- [Ring-Buffer](./data-struct-process-lib/README.md#ring-buffer)：环形缓冲库，适合没有指定存储大小的程序。
+- [wl_queue](./data-struct-process-lib/README.md#wl_queue)：支持任意数据类型的环形队列，运用了 C 重载的技巧，注重线程安全。
+- [RingBuffer](./data-struct-process-lib/README.md#ringbuffer)：实用的环形缓冲库，功能完整，使用堆内存分配。
 - [queue](./data-struct-process-lib/README.md#queue-1)：简单的队列功能库，扩展性强，同时支持零拷贝读写队列（适用于大内存的单个元素，可以有效减少函数耗时）。
 - [QueueForMcu](./data-struct-process-lib/README.md#queueformcu)：队列功能模块，适用于非 RTOS 系统，动态创建队列对象和缓冲区。
 - [ConcurrentQueue](./data-struct-process-lib/README.md#concurrentqueue)：基于 C++ 的工业级无锁队列，无需锁也极其注重线程安全。
@@ -201,14 +196,14 @@
 
 ### [数据结构集合](./data-struct-process-lib/README.md#数据结构集合)
 
-- [uthash](./data-struct-process-lib/README.md#uthash)：提供哈希、列表、环形等数据结构库，只用包含头文件即可使用。
+- [uthash](./data-struct-process-lib/README.md#uthash)：提供哈希、列表、环形等数据结构库，仅包含头文件。
 
 ### [数据库](./data-struct-process-lib/README.md#数据库)
 
-- [cotParam](./data-struct-process-lib/README.md#cotParam)：采用表驱动方式进行参数管理，包括缺省值、最小值和最大值等。
-- [EasyFlash](./data-struct-process-lib/README.md#easyflash)：Key-Value 型简易数据库，主要提供：变量的 KV 配对，可 IAP 数据修改（可用于升级），log 存储等功能。
+- [cotParam](./data-struct-process-lib/README.md#cotparam)：采用表驱动方式进行参数管理，包括缺省值、最小值和最大值等。
+- [EasyFlash](./data-struct-process-lib/README.md#easyflash)：Key-Value 型简易数据库，提供变量的 KV 配对，可 IAP 数据修改（可用于升级），log 存储等功能。
 - [FlashDB](./data-struct-process-lib/README.md#flashdb)：提供 KV 和 TS 两种数据库，比起 EasyFlash 更专注于数据库本身，而不提供过多的额外功能。
-- [Nanopb](./data-struct-process-lib/README.md#nanopb)：轻量的、支持 C 语言的 Protobuf，Protobuf 是 Google 公司开发的一种数据格式。可用于数据存储、通信协议等方面，且不依赖于语言和平台，也就是说可以不同设备端进行数据通讯。
+- [Nanopb](./data-struct-process-lib/README.md#nanopb)：轻量的、支持 C 语言的 Protobuf，Protobuf 是 Google 公司开发的一种数据格式。可用于数据存储、通信协议等方面，且不依赖于语言和平台，也就是说可以在不同设备、语言端进行数据通讯。
 - [ITTIA DB](./data-struct-process-lib/README.md#ittia-db)：功能强大的实时嵌入式数据库，主要用于嵌入式系统和物联网设备，用于在设备上本地监控，存储和分析时间序列数据，需要商业许可。
 - [linq4c](./data-struct-process-lib/README.md#linq4c)：在 C 语言里实现了 C# 的 linq 方法。
 - [SQLite](./data-struct-process-lib/README.md#sqlite)：业界用的最多的嵌入式标准的数据库，使用 SQL 语法，可使用磁盘文件。
@@ -240,9 +235,9 @@
 
 ### [RPC](./protocol-format-parser-lib/README.md#rpc)
 
-- [ERPC](./protocol-format-parser-lib/README.md#erpc)：一个简单的、易用的、高效的远程调用框架。
+- [ERPC](./protocol-format-parser-lib/README.md#erpc)：一个远程调用框架，基于 cJSON、libevent 和 libuv 开源库，包括状态通知、数据加密、异常监控等功能。
 - [EmbedXrpc](./protocol-format-parser-lib/README.md#embedxrpc)：通过 RPC 通讯协议，可忽略协议本身进行业务逻辑的实现，附带代码生成工具。
-- [erpc](./protocol-format-parser-lib/README.md#erpc-1)：是 NXP 开源的、用于多芯片嵌入式系统和异构多核 SoC 的开源远程过程调用（RPC）系统。
+- [erpc](./protocol-format-parser-lib/README.md#erpc-1)：NXP 开源用于多芯片嵌入式系统和异构多核 SoC 的远程过程调用（RPC）系统。
 
 ### [TCP/IP](./protocol-format-parser-lib/README.md#tcpip)
 
@@ -250,11 +245,11 @@
 - [CycloneTCP](./protocol-format-parser-lib/README.md#cyclonetcp)：专用于嵌入式应用的双 IPv4/IPv6 栈，简化了互联网的部署。
 - [onps](./protocol-format-parser-lib/README.md#onps)：国产网络协议栈，设计目标与 Lwip 相同，适用于资源受限的单片机系统，提供完整地 ethernet/ppp/tcp/ip 协议族实现。有非常详细的介绍，很适合国人读阅。
 - [wolfIP](./protocol-format-parser-lib/README.md#wolfip)：无动态内存分配的微型 TCP/IP 协议栈，旨在提供比 lwIP 更好的替代方案，并与 wolfSSL 库无缝配合。
-- [dyad](./protocol-format-parser-lib/README.md#dyad)：基于 Linux 的异步网络库，仅支持 TCP 网络通讯，用于创建小型独立设备服务器，并为现有项目提供网络支持。
+- [dyad](./protocol-format-parser-lib/README.md#dyad)：基于 socket 的异步网络库，仅支持 TCP 网络通讯，用于创建小型独立设备服务器，并为现有项目提供网络支持。
 
 ### [SSH](./protocol-format-parser-lib/README.md#ssh)
 
-- [tinyssh](./protocol-format-parser-lib/README.md#tinyssh)：一个简约的 SSH 服务器，它只实现了 SSHv2 功能的子集，适合嵌入式使用。
+- [tinyssh](./protocol-format-parser-lib/README.md#tinyssh)：一个简约的 SSH 服务器，实现了 SSHv2 部分功能，出于安全原因不接受客户端的环境变量请求。
 - [wolfSSH](./protocol-format-parser-lib/README.md#wolfssh)：轻量级 SSHv2 客户端和服务器库，采用 ANSI C 编写。
 
 ### [HTTP](./protocol-format-parser-lib/README.md#http)
@@ -274,7 +269,7 @@
 
 ### [Thread](./protocol-format-parser-lib/README.md#thread)
 
-- [OpenThread](./protocol-format-parser-lib/README.md#openthread)：Google 旗下的产品，是 Thread 的开源实现。
+- [OpenThread](./protocol-format-parser-lib/README.md#openthread)：Google 旗下的产品，是 Thread 系统的开源实现。
 
 ### [Bluetooth](./protocol-format-parser-lib/README.md#bluetooth)
 
@@ -295,20 +290,20 @@
 
 ### [Base64](./protocol-format-parser-lib/README.md#base64)
 
-- [base64](./protocol-format-parser-lib/README.md#base64-1)：极简单的 base64 编解码库。
+- [base64](./protocol-format-parser-lib/README.md#base64-1)：极简的 base64 编解码库，仅包含编解码2个函数。
 - [base64](./protocol-format-parser-lib/README.md#base64-2)：支持 SIMD 和 OpenMP 加速的 base64 编解码库，不使用动态内存，注重线程安全。
 
 ### [CSV](./protocol-format-parser-lib/README.md#csv)
 
 - [MiniCSV](./protocol-format-parser-lib/README.md#minicsv)：极简的 CSV 解析库，能够解决多行、转义行、转义列中的转义字符、空行、列数可变的行、Windows 或 Unix 风格的行结尾等问题。
 - [CRStrLib](./protocol-format-parser-lib/README.md#crstrlib)：解析 csv 格式/其他格式的字符串， 提取数值，帧头帧尾校验。
-- [fast-cpp-csv-parser](./protocol-format-parser-lib/README.md#fast-cpp-csv-parser)：基于 C++ 的 CSV 解析器，小型、易于使用且快速的仅标头库。
+- [fast-cpp-csv-parser](./protocol-format-parser-lib/README.md#fast-cpp-csv-parser)：基于 C++ 的 CSV 解析器，小型、易于使用，仅单个头文件实现。
 
 ### [INI](./protocol-format-parser-lib/README.md#ini)
 
-- [libinimini](./protocol-format-parser-lib/README.md#libinimini)：适用单片机的 ini 极简解析库，内存空间占用可控。最简单的键值配对文件格式。
-- [inih](./protocol-format-parser-lib/README.md#inih)：基于 C 编写的 ini 解析库，适合嵌入式系统。带有语法与解析选项。
-- [iniparser](./protocol-format-parser-lib/README.md#iniparser)：基于 C 编写的 ini 解析库，可移植嵌入式系统，注重线程安全。
+- [libinimini](./protocol-format-parser-lib/README.md#libinimini)：适用单片机的 ini 极简解析库，作用对象是字符串，内存空间占用可控。
+- [inih](./protocol-format-parser-lib/README.md#inih)：适合嵌入式系统的 ini 解析库，带有语法与解析选项，功能全面。
+- [iniparser](./protocol-format-parser-lib/README.md#iniparser)：基于 C 编写的 ini 解析库，可移植嵌入式系统，注重线程安全，解析风格与 cJSON 类似。
 
 ### [TLV](./protocol-format-parser-lib/README.md#tlv)
 
@@ -317,12 +312,12 @@
 
 ### [JSON](./protocol-format-parser-lib/README.md#json)
 
-- [cJSON](./protocol-format-parser-lib/README.md#cjson)：ANSI C 中的超轻量级 JSON 解析器，也是最原生的 JSON 解析库，用起来会有点麻烦，不太推荐直接使用。
+- [cJSON](./protocol-format-parser-lib/README.md#cjson)：ANSI C 中的轻量级 JSON 解析器，比较原生的 JSON 解析库。
 - [struct2json](./protocol-format-parser-lib/README.md#struct2json)：基于 cJSON，超简便的 C 结构体与 JSON 快速互转库。
 - [cson](./protocol-format-parser-lib/README.md#cson)：基于 cJSON，运行于 C 语言平台的 json-struct 模型解析工具。使 JSON 解析更加方便。
 - [json](./protocol-format-parser-lib/README.md#json-1)：简单高效的 C 语言 json 生成和解析库，适合简单项目的使用。
-- [JSMN](./protocol-format-parser-lib/README.md#jsmn)：超简约、极快的 JSON 解析器，无动态内存分配，无解析纠正。适合小型项目的 JSON 解析。
-- [lwjson](./protocol-format-parser-lib/README.md#lwjson)：针对嵌入式系统优化的通用 JSON 解析器库。适合厂商项目的 JSON 解析。
+- [JSMN](./protocol-format-parser-lib/README.md#jsmn)：简约的 JSON 解析器，零拷贝解析，无解析纠正。
+- [lwjson](./protocol-format-parser-lib/README.md#lwjson)：针对嵌入式系统优化的通用 JSON 解析器库。
 - [MojoJson](./protocol-format-parser-lib/README.md#mojojson)：通用的 JSON 解析库，采用面向对象的思想实现，提供 C 语言版本。
 - [LJSON](./protocol-format-parser-lib/README.md#ljson)：号称最快的 JSON 解析库，功能极为强大，几乎覆盖了 JSON 解析的所有需要。
 - [json-parser](./protocol-format-parser-lib/README.md#json-parser)：简单、规范、实用的 JSON 库，包括解析和生成。
@@ -332,7 +327,7 @@
 ### [XML](./protocol-format-parser-lib/README.md#xml)
 
 - [simple_xml](./protocol-format-parser-lib/README.md#simple_xml)：XML 解析库，具有完备的功能，支持双向解析。
-- [TinyXML-2](./protocol-format-parser-lib/README.md#tinyxml-2)：基于 C++ 的 XML 解析库，它使用文档对象模型（DOM），可以很方便的将 XML 和 C++ 对象互相加息转换。
+- [TinyXML-2](./protocol-format-parser-lib/README.md#tinyxml-2)：基于 C++ 的 XML 解析库，它使用文档对象模型（DOM），可以很方便的将 XML 和 C++ 对象互相转换。
 
 ### [TOML](./protocol-format-parser-lib/README.md#toml)
 
@@ -350,8 +345,8 @@
 
 ### [LOG 日志](./log-term-lib/README.md#log-日志)
 
-- [dbuglib](./log-term-lib/README.md#dbuglib)：精小的的日志库，仅提供输出显示功能，可以修改日志的级别用于过滤特定级别的日志，相当于一般 SDK 自带的 printf 功能；
-- [log.c](./log-term-lib/README.md#logc)：极简的日志库，仅提供输出显示和记录功能。基于 C99 标准，不太适用于嵌入式领域。
+- [dbuglib](./log-term-lib/README.md#dbuglib)：精小的日志库，仅提供输出显示功能，可以修改日志的级别用于过滤特定级别的日志，相当于一般 SDK 自带的 printf 功能；
+- [log.c](./log-term-lib/README.md#logc)：极简的日志库，仅提供输出显示和记录功能。基于 C99 标准，用在嵌入式上需要自行重定向输出。
 - [log](./log-term-lib/README.md#log)：小巧的日志模块，输出内容包括时间、日志类型、内容、文件名、行号、函数名等信息。
 - [alog](./log-term-lib/README.md#alog)：功能精简的输出日志组件，带颜色带互斥锁。
 - [LwPRINTF](./log-term-lib/README.md#lwprintf)：安全简约的标准输出功能库，允许重定向多个输出流，所有 API 均可重入。
@@ -392,7 +387,7 @@
 - [wolfBoot](./secure-boot-update-lib/README.md#wolfboot)：适用于 32 位微控制器的安全引导加载程序解决方案，支持固件身份验证和固件更新机制。
 - [mOTA](./secure-boot-update-lib/README.md#mota)：专为 32 位 MCU 开发的升级组件，通过 YModem-1K 协议传输。
 - [MicorBoot](./secure-boot-update-lib/README.md#micorboot)：引导加载模块，专为嵌入式单片机设备的升级而优化，提供断电保护、断点续传等功能。
-- [MCUboot](./secure-boot-update-lib/README.md#mcuboot)：可信的旗下的项目，通用的 32 位微控制器的安全引导加载程序，不依赖于特定的系统和硬件。
+- [MCUboot](./secure-boot-update-lib/README.md#mcuboot)：可信旗下的项目，通用的 32 位微控制器的安全引导加载程序，不依赖于特定的系统和硬件。
 
 ---
 
@@ -400,8 +395,8 @@
 
 ### [HMI](./ui-menu-lib/README.md#hmi)
 
-- [tslib](./ui-menu-lib/README.md#tslib)：嵌入式中使用最广泛的电阻触摸屏校正算法库，但好像只能用在 Linux 上。
-- [tslib_for_mcu](./ui-menu-lib/README.md#tslib_for_mcu)：Linux 下裁剪的一个电阻屏触摸校准库。
+- [tslib](./ui-menu-lib/README.md#tslib)：基于 Linux 的电阻触摸屏校正算法库，使用广泛。
+- [tslib_for_mcu](./ui-menu-lib/README.md#tslib_for_mcu)：裁剪自 tslib 的一个电阻屏触摸校准库，用于单片机。
 
 ### [单色](./ui-menu-lib/README.md#单色)
 
@@ -422,9 +417,9 @@
 - [LingLongGUI](./ui-menu-lib/README.md#linglonggui)：高效的 GUI 生成库，配套有图形化编辑界面，方便之间生成代码使用。
 - [LingDongGUI](./ui-menu-lib/README.md#lingdonggui)：对 Arm-2D 进行二次封装的 GUI 库，旨在提高易用性，同时也支持原生 API 的使用。
 - [AAGUI](./ui-menu-lib/README.md#aagui)：跨平台通用型 GUI，旨在嵌入式里实现类安卓的高级 UI 开发。可使用半声明式（json）编程，适合类似于手机应用的项目开发。
-- [GT-HMI](./ui-menu-lib/README.md#gt-hmi)：高通旗下专为国人使用的 UI 库，带有多种语种多字库，带有模拟器和上位机。RTOS、裸机均可使用，适合实用的项目级产品。
+- [GT-HMI](./ui-menu-lib/README.md#gt-hmi)：上海高通（Genitop）旗下专为国人使用的 UI 库，带有多种语种多字库，带有模拟器和上位机。RTOS、裸机均可使用，适合实用的项目级产品。
 - [LVGL](./ui-menu-lib/README.md#lvgl)：轻量级通用图形库，开源免费，几乎拥有 GUI 所需的一切。适用于项目级设备。
-- [AWTK](./ui-menu-lib/README.md#awtk)：周立功旗下的 GUI 图形库，开源免费。
+- [AWTK](./ui-menu-lib/README.md#awtk)：ZLG 旗下的 GUI 图形库，开源免费。
 - [TouchGFX](./ui-menu-lib/README.md#touchgfx)：STM32 旗下的 GUI 图形库，功能强劲，配有图形编辑软件，一般只适用于 STM32 的开发。
 - [GUIX](./ui-menu-lib/README.md#guix)：Azure RTOS 提供的 GUI 图形库，开发十分成熟和方便，开源免费。
 - [emWin](./ui-menu-lib/README.md#emwin)：又名（uCGUI），是 Segger 旗下的 GUI 图形库，很多知名大厂芯片都是可以授权使用的。
@@ -434,12 +429,11 @@
 - [MiniGUI](./ui-menu-lib/README.md#minigui)：多平台、高度可定制的 UI 库，可用于不同性能的芯片，适合移动设备及工业等领域，非商用免费。
 - [μGUI](./ui-menu-lib/README.md#μgui)：开源的极简图形库，独立于平台，仅一个源文件。
 - [Aeropoint GUI](./ui-menu-lib/README.md#aeropoint-gui)：使用 PPT 方式进行 GUI 的创建，需要收费，且没有试用版。
-- [Clay](./ui-menu-lib/README.md#clay)：高性能 2D UI 布局库，提供响应式布局能力，适合嵌入式 Web 的制作。
+- [Clay](./ui-menu-lib/README.md#clay)：高性能 2D UI 布局库，提供响应式布局能力，不绑定具体的渲染器。
 - [Nuklear](./ui-menu-lib/README.md#nuklear)：无依赖的图形用户界面工具包，通过使用输入状态和绘制命令来构建图形，适合快速响应的应用。
 - [LinaVG](./ui-menu-lib/README.md#linavg)：适用于 2D 矢量图形的渲染库。
 - [BlurHash](./ui-menu-lib/README.md#blurhash)：开源的图片占位符算法和实现，能够在图片预载时先显示框图和缩略图，嵌入式领域可能会用得到。
-- [OpenGL](./ui-menu-lib/README.md#opengl)：跨语言、跨平台的 2D/3D 渲染库，主要使用 C 语言开发，但也可以支持 C++、Python、Java 等语言开发，功能极其强大，适合游戏开发、科学可视化、虚拟现实等领域。
-- [Rawdraw](./ui-menu-lib/README.md#rawdraw)：跨平台无依赖的 UI 绘制系统，为 OpenGL 提供良好的接口抽象。
+- [Rawdraw](./ui-menu-lib/README.md#rawdraw)：跨平台无依赖的 UI 绘制系统，可选用 OpenGL、软件光栅等多种后端。
 - [TinyGL](./ui-menu-lib/README.md#tinygl)：是 OpenGL 的小型实现，适用于嵌入式系统。将复杂的接口精简为更易于理解和操作的形式。
 - [foolrenderer](./ui-menu-lib/README.md#foolrenderer)：用 C 语言实现的软件渲染器，不依赖图形库，仅用几千行代码，实现了一套类似 OpenGL 的基本图形功能，以及应用于游戏开发的实时渲染技术，如阴影、切线空间法线映射、基于物理的材质系统等。
 - [EmberGL](./ui-menu-lib/README.md#embergl)：用于 MCU 的类似于 OpenGL 的实时 2D / 3D 光栅渲染库。
@@ -452,7 +446,7 @@
 
 ### [图形](./ui-menu-lib/README.md#图形)
 
-- [qrencode](./ui-menu-lib/README.md#qrencode)：二维码生成库，适用于单片机。
+- [qrencode](./ui-menu-lib/README.md#qrencode)：适用于单片机的二维码生成库。
 - [QR Code generator library](./ui-menu-lib/README.md#qr-code-generator-library)：通用的QR码生成库，包含多个语言版本，旨在用更少的代码实现更好的性能。
 - [QRCode](./ui-menu-lib/README.md#qrcode)：QR 码生成库，参考了 QR Code generator library，并针对处理器和内存受限的系统进行了优化，支持从 Version 1 到 Version 40 的所有规格。
 
@@ -465,7 +459,7 @@
 
 - [zBitsView](./ui-menu-lib/README.md#zbitsview)：虚拟多层菜单，仅存在于逻辑层，与有无屏幕无关。
 - [emenu](./ui-menu-lib/README.md#emenu)：不寻常的菜单框架，在代码上就可以反映菜单结构。
-- [Menu](./ui-menu-lib/README.md#menu)：简单实用的菜单框架，适合在学生项目上使用。
+- [Menu](./ui-menu-lib/README.md#menu)：简单实用的菜单实现，架构并未很好的解耦，但适合学生在项目上边学边使用。
 - [cotMenu](./ui-menu-lib/README.md#cotmenu)：采用链表方式实现多级深度菜单，相当于显示的逻辑层，与按键、显示屏完全解耦。
 - [MiaoUI](./ui-menu-lib/README.md#miaoui)：基于 U8g2 的 OLED 菜单 UI 框架，支持列表与图标类菜单、非线性动画、任务弹窗等功能。
 - [MultMenu](./ui-menu-lib/README.md#multmenu)：多级菜单 + 单色 OLED 非线性动画库，组合使用，移植简单方便，适合类似需求的创客项目。
@@ -485,7 +479,7 @@
 
 - [YAMI4](./kernel-framework-lib/README.md#yami4)：专为分布式系统设计的消息传递库，特别关注控制和监控系统。
 - [ZeroMQ](./kernel-framework-lib/README.md#zeromq)：一个高性能异步消息传递库，旨在用于分布式或并发应用程序。
-- [CDIPC](./kernel-framework-lib/README.md#cdipc)：一种进程间通信 （IPC） 机制和库，适合在实时系统中协调感知、控制驱动程序和算法。
+- [CDIPC](./kernel-framework-lib/README.md#cdipc)：一种进程间通信（IPC）机制和库，适合在实时系统中协调感知、控制驱动程序和算法。
 
 ### [管道](./kernel-framework-lib/README.md#管道)
 
@@ -497,7 +491,7 @@
 
 ### [线程管理](./kernel-framework-lib/README.md#线程管理)
 
-- [C Thread Pool](./kernel-framework-lib/README.md#c-thread-pool)：轻量级的嵌入式线程池库，用于管理线程的创建和生命周期，解决频繁地创建和销毁线程所带来较大开销的问题。
+- [C Thread Pool](./kernel-framework-lib/README.md#c-thread-pool)：轻量级的线程池库，基于 pthread 实现，用于管理线程的创建和生命周期，解决频繁地创建和销毁线程所带来较大开销的问题。
 
 ### [驱动框架](./kernel-framework-lib/README.md#驱动框架)
 
@@ -511,7 +505,7 @@
 
 ### [模组框架](./kernel-framework-lib/README.md#模组框架)
 
-- [RIL](./kernel-framework-lib/README.md#ril)：专门为嵌入式平台开发的无线通信模组(GSM/GPRS/CatM1/NB-Iot)管理软件。
+- [RIL](./kernel-framework-lib/README.md#ril)：专门为嵌入式平台开发的无线通信模组（GSM/GPRS/CatM1/NB-Iot）管理软件。
 
 ### [状态机](./kernel-framework-lib/README.md#状态机)
 
@@ -529,7 +523,7 @@
 
 ### [Coredump](./exception-test-lib/README.md#coredump)
 
-- [CmBacktrace](./exception-test-lib/README.md#cmbacktrace)：赫赫有名的错误追踪库，针对 ARM Cortex-M 系列的 MCU，基本上稍复杂一点的项目无脑加就完事了。
+- [CmBacktrace](./exception-test-lib/README.md#cmbacktrace)：赫赫有名的错误追踪库，针对 ARM Cortex-M 系列的 MCU，基本上稍复杂一点的项目都会加上这个功能库。
 
 ### [异常捕捉](./exception-test-lib/README.md#异常捕捉)
 
@@ -539,13 +533,13 @@
 
 ### [测试](./exception-test-lib/README.md#测试)
 
-- [MinUnit](./exception-test-lib/README.md#minunit)：C 的最小单元测试框架，不使用内存分配。
-- [CuTest](./exception-test-lib/README.md#cutest)：极简的 C 单元测试框架，使用动态内存分配。
-- [cmockery](./exception-test-lib/README.md#cmockery)：C 单元测试的轻量级框架，基于标准 C 库。
+- [MinUnit](./exception-test-lib/README.md#minunit)：极简的单元测试框架，仅包含一个头文件，不使用内存分配。
+- [CuTest](./exception-test-lib/README.md#cutest)：单元测试框架，使用动态内存分配。
+- [cmockery](./exception-test-lib/README.md#cmockery)：C 单元测试的轻量级框架，基于标准 C 库，支持函数打桩和返回值预设。
 - [EEMBC](./exception-test-lib/README.md#eembc)：EEMBC 公司提供嵌入式领域众多测试库，主要测试芯片性能，属于业内标准，适合企业级项目部署。
 - [Unity](./exception-test-lib/README.md#unity)：C 语言构建的单元测试框架，专注于使用嵌入式工具链。
-- [greatest](./exception-test-lib/README.md#greatest)：小巧的 C 语言测试系统，使用插桩/覆盖测试，但可以与其他程序一起运行。
-- [Catch2](./exception-test-lib/README.md#catch2)：一个流行的 C++ 单元测试框架，仅一个头文件，它的设计目标是轻量、易用且无依赖。
+- [greatest](./exception-test-lib/README.md#greatest)：小巧的 C 语言测试系统，使用插桩/覆盖测试，可以与其他程序一起运行。
+- [Catch2](./exception-test-lib/README.md#catch2)：一个流行的 C++ 单元测试框架，它的设计目标是轻量、易用且无依赖。
 
 ---
 
@@ -557,21 +551,19 @@
 
 ### [基础算法](./algo-ai-lib/README.md#基础算法)
 
-- [FXT](./algo-ai-lib/README.md#fxt)：C 语言的算法库集合，专注于位运算、组合数学、快速变换等。
+- [FXT](./algo-ai-lib/README.md#fxt)：C++ 的算法库集合，专注于位运算、组合数学、快速变换等。
 - [xxHash](./algo-ai-lib/README.md#xxhash)：是一种速度极快的非加密哈希算法，可在 RAM 、速度限制下工作，适合更专业的使用场景。
-- [hash-wasm](./algo-ai-lib/README.md#hash-wasm)：轻量级的哈希函数库，提供了二十多种常见的哈希算法，带有基准测试。
 - [Terathon Math Library](./algo-ai-lib/README.md#terathon-math-library)：一个用 C++ 写成的数学库，包含向量、矩阵、四元数和射影几何代数元素的类。可用于图形、AI、游戏等领域。
 
-### [AI框架](./algo-ai-lib/README.md#ai框架)
+### [AI 框架](./algo-ai-lib/README.md#ai-框架)
 
 - [TinyMaix](./algo-ai-lib/README.md#tinymaix)：专为低资源的单片机设计的 AI 神经网络推理框架。
-- [miniMNIST-c](./algo-ai-lib/README.md#minimnist-c)：C 语言实现了一个迷你神经网络（两层），可用于学习和基础嵌入式领域。
+- [tinymnist](./algo-ai-lib/README.md#tinymnist)：C 语言实现了一个迷你神经网络（两层），可用于学习和基础嵌入式领域。
 - [Genann](./algo-ai-lib/README.md#genann)：极简的神经网络库，经过充分测试，用于在 C 中训练和使用前馈人工神经网络（ANN）。
 - [uTensor](./algo-ai-lib/README.md#utensor)：基于 TensorFlow 构建的极其轻量级的机器学习推理框架，并将训练模型生成 C++ 文件导入使用。
 - [NNoM](./algo-ai-lib/README.md#nnom)：专门为了神经网络在 MCU 上运行的框架，使用起来和 TinyMaix 很像，但功能更多。
 - [Paddle Lite](./algo-ai-lib/README.md#paddle-lite)：高性能、轻量级、灵活性强且易于扩展的深度学习推理框架，定位于支持包括移动端、嵌入式以及边缘端在内的多种硬件平台。
 - [TVM](./algo-ai-lib/README.md#tvm)：内置深度学习编译器，适用于 CPU、GPU、ARM 等多种硬件架构，提供一条龙服务。
-- [tflite-micro](./algo-ai-lib/README.md#tflite-micro)：适用于微控制器的 TensorFlow Lite，也就是在单片机上部署机器学习框架。
 - [ncnn](./algo-ai-lib/README.md#ncnn)：是一个为移动端极致优化的高性能神经网络前向计算框架，支持大部分常用的 CNN 网络，可部署在部分嵌入式芯片上。
 - [MNN](./algo-ai-lib/README.md#mnn)：轻量级的深度神经网络引擎，支持深度学习的推理与训练，支持具有 POSIX 接口的嵌入式设备。
 - [TensorFlow Lite](./algo-ai-lib/README.md#tensorflow-lite)：极有名的机器学习库，可用于在移动设备、微控制器和其他边缘设备上部署模型，以便实现设备端机器学习。
@@ -592,13 +584,13 @@
 
 ### [时间片调度系统](./sys-thread-lib/README.md#时间片调度系统)
 
-- [ztask](./sys-thread-lib/README.md#ztask)：极简的基于时间片调度器，仅 5 个 api，属于那种随手就可以写出来的框架。
+- [ztask](./sys-thread-lib/README.md#ztask)：最基础的时间片调度器，仅 5 个 api，属于那种随手就可以写出来的框架。
 - [ETP](./sys-thread-lib/README.md#etp)：时间片轮询框架，旨在解耦主轮询中各个不同时间片的任务，属于最基础的轮询框架。
 - [cotTask](./sys-thread-lib/README.md#cottask)：时间片轮询框架，初始化、启动和任务调度管理，可以设置任务优先级。
-- [CodeBrick](./sys-thread-lib/README.md#codebrick)：时间片轮询框架，包含了很多实用模块，不含驱动层，简单易用。符合现在项目的开发理念，是我很喜欢的一个裸机框架，可以说是普通项目的首选。
+- [CodeBrick](./sys-thread-lib/README.md#codebrick)：时间片轮询框架，包含了很多实用模块，不含驱动层，简单易用。符合现在项目的开发理念，是我很喜欢的一个裸机框架。
 - [vkern](./sys-thread-lib/README.md#vkern)：仿照 RTOS 架构编写的任务调度内核，其原理还是使用定时器创建前后台系统。
 - [cola_os](./sys-thread-lib/README.md#cola_os)：前后台系统，适合对功耗有要求且 CPU 性能不强的，有稍复杂功能的裸机。
-- [JxOS](./sys-thread-lib/README.md#jxos)：前后台系统，没有复杂的注册与函数指针结构，提供系统内核功能：任务、事件、消息、公告板、邮箱、管道、注册、内存分配……
+- [JxOS](./sys-thread-lib/README.md#jxos)：前后台系统，没有复杂的注册与函数指针结构，提供系统内核功能：任务、事件、消息、公告板、邮箱、管道、注册、内存分配等。
 - [EventOS](./sys-thread-lib/README.md#eventos)：事件驱动型的嵌入式系统，提供内核等功能。
 - [BabyOS](./sys-thread-lib/README.md#babyos)：注册服务型框架，适用于裸机 MCU 项目，是一套管理功能模块和外设驱动的框架，拥有极明确的代码分层和代码规范，类 RTT 的“MenuConfig”终端配置，带有 PC 模拟。
 
@@ -620,7 +612,7 @@
 - [NuttX](./sys-thread-lib/README.md#nuttx)：强调标准兼容和小型封装的操作系统，遵循 POSIX 标准和 ANSI 标准。
 - [embOS](./sys-thread-lib/README.md#embos)：SEGGER 公司的 RTOS，可免费用于非商业用途。
 - [Azure RTOS](./sys-thread-lib/README.md#azure-rtos)：微软公司的 RTOS，具有丰富的组件。
-- [Zephyr](./sys-thread-lib/README.md#zephyr)：Linux 维护的一个 RTOS，很适合学习 Linux 的开发思想。
+- [Zephyr](./sys-thread-lib/README.md#zephyr)：Linux 基金会维护的一个 RTOS，很适合学习 Linux 的开发思想。
 - [At-RTOS](./sys-thread-lib/README.md#at-rtos)：一个用户友好的嵌入式控制器实时操作系统，仅提供基本的内核功能。
 - [Embox](./sys-thread-lib/README.md#embox)：多任务操作系统，其特点是支持使用 Linux 开源组件而不使用 Linux 系统，该开源系统旨在任何地方都能够使用 Linux 软件。
 - [YiYiYa OS](./sys-thread-lib/README.md#yiyiya-os)：功能全面的 OS 系统，架构从上而下分层设计，几乎可以将其视为简易版的安卓系统，适合手机那种类型的产品。
@@ -636,12 +628,12 @@
 ### [IoT-RTOS](./sys-thread-lib/README.md#iot-rtos)
 
 - [Contiki-NG](./sys-thread-lib/README.md#contiki-ng)：uIP 和 LwIP 的作者维护的多任务物联网操作系统，它专注于可靠（安全可靠）的低功耗通信和标准互联网协议。
-- [Mbed OS](./sys-thread-lib/README.md#mbed-os)：arm 旗下的易于使用的物联网操作系统。
+- [Mbed OS](./sys-thread-lib/README.md#mbed-os)：Arm 旗下的易于使用的物联网操作系统。
 - [Huawei LiteOS](./sys-thread-lib/README.md#huawei-liteos)：华为旗下针对物联网领域推出的轻量级物联网操作系统。
 - [Xiaomi Vela](./sys-thread-lib/README.md#xiaomi-vela)：小米旗下的物联网操作系统，底层基于 NuttX 内核打造。
 - [AliOS Things](./sys-thread-lib/README.md#alios-things)：阿里旗下面向 IoT 领域的、高可伸缩的物联网操作系统。
 - [TencentOS Tiny](./sys-thread-lib/README.md#tencentos-tiny)：是腾讯面向物联网领域开发的实时操作系统。
-- [OneOS](./sys-thread-lib/README.md#oneos)：是中国移动针对物联网领域推出的轻量级操作系统，具有可裁剪、跨平台、低功耗、高安全等特点，支持 ARM Cortex-M/A、MIPS、RISC-V 等主流芯片架构，兼容 POSIX、CMSIS 等标准接口，支持 JavaScript、Micropython 语言开发。
+- [OneOS](./sys-thread-lib/README.md#oneos)：中国移动针对物联网领域推出的轻量级操作系统，具有可裁剪、跨平台、低功耗、高安全等特点，支持 ARM Cortex-M/A、MIPS、RISC-V 等主流芯片架构，兼容 POSIX、CMSIS 等标准接口，支持 JavaScript、Micropython 语言开发。
 - [LuatOS](./sys-thread-lib/README.md#luatos)：一款针对嵌入式的 Lua 脚本运行框架，包含了一个系统的功能体量。
 - [Lua-RTOS-ESP32](./sys-thread-lib/README.md#lua-rtos-esp32)：是一种支持 Lua 解释器的实时操作系统，提供了 Lua 所需所有资源和基本模块、中间件，可以移植到其他 32 位平台。
 - [Apache Mynewt OS](./sys-thread-lib/README.md#apache-mynewt-os)：Apache 旗下专为低功耗无线设备所设计的 OS，自带蓝牙协议栈和 IEEE 通信协议，开箱即用。
@@ -671,16 +663,16 @@
 - [Gear-Lib](./module-pack/README.md#gear-lib)：一组通用的 C 基础库，全部用 POSIX C 实现，旨在兼容 Linux, Windows, Android, iOS 等跨平台，包括数据结构、异步、I/O、状态机、动态加载等功能。
 - [c-algorithms](./module-pack/README.md#c-algorithms)：提供常用算法和数据结构的集合来弥补标准库的缺失，并且比 C 标准库编译出来的小得多。
 - [klib](./module-pack/README.md#klib)：一个独立的轻量级 C 库，提供多种基础算法、数据结构和解析器等功能。
-- [AMetal](./module-pack/README.md#ametal)：是 ZLG 旗下的软件包，涵盖了各类型的外设，并统一编写了抽象层接口。代码比较冗余，但类型比较全面。
+- [AMetal](./module-pack/README.md#ametal)：是 ZLG 旗下的软件包，涵盖了各类型的外设，并统一编写了抽象层接口。代码比较冗余，但类型全面。
 - [eLab](./module-pack/README.md#elab)：综合开发平台，包含嵌入式所需大部分功能包，尤其注重跨平台开发和 PC 仿真，特别适合对开发流程规范的项目。
 - [TheAlgorithms](./module-pack/README.md#thealgorithms)：开源组织 TheAlgorithms 维护的各种基础算法、数据结构、机器学习等库，内容十分丰富，且包含各个流行语言的版本。
-- [simpostOS](./module-pack/README.md#simpostos)：是一套设计方法，以及多个软件组件、服务的集合。其理念是将所有功能模块化，并极大地增加功能复用性。使用的是纯 C++ 语言，库写的十分现代化，对新手使用不友好。
+- [simpostOS](./module-pack/README.md#simpostos)：是一套设计方法，以及多个软件组件、服务的集合。其理念是将所有功能模块化，并极大地增加功能复用性。使用的是纯 C++ 语言，库写的十分现代化，不适合新手使用。
 - [PetiteDrv](./module-pack/README.md#petitedrv)：通用的 SDK 库，其思想是层层抽象，在不使用复杂的代码完成解耦功能，适合小公司小项目的开发。
 - [varch](./module-pack/README.md#varch)：是嵌入式 C 语言常用代码模块库，包含了嵌入式中常用的算法库、数据结构（容器）库,、解析器库、独立 C 语言 std 库、工具库等等，每个库独立使用，简单高效。
 - [ctool](./module-pack/README.md#ctool)：常用但一般库里并不包含的工具，包括不定参数、日期、内存测试等。
 - [Generic_MCU_Software_Infrastructure](./module-pack/README.md#generic_mcu_software_infrastructure)：提供必要的软件基础设施、服务、宏来支持一些高级的抽象概念和范式。
 - [appkit](./module-pack/README.md#appkit)：基于 C++ 的 Linux 应用开发库，包括开发中常用的模块功能（线程管理、定时器、文件 IO、串口通信等）。
-- [GLib](./module-pack/README.md#glib)：GTK项目下的核心库，提供非常多的功能，包括数据结构、类型转换、字符串工具、文件操作、主循环抽象等。
+- [GLib](./module-pack/README.md#glib)：GTK 项目下的核心库，提供非常多的功能，包括数据结构、类型转换、字符串工具、文件操作、主循环抽象等。
 
 ---
 
@@ -688,7 +680,7 @@
 
 ### [51](./chip-toolchain-lib/README.md#51)
 
-- [8051-ELL](./chip-toolchain-lib/README.md#8051-ell)：结合了 HAL 库和 LL 库的编程思想编写的 ELL(efficient low-layer)库，以 STC8 系列为主。
+- [8051-ELL](./chip-toolchain-lib/README.md#8051-ell)：结合了 HAL 库和 LL 库的编程思想编写的 ELL（efficient low-layer）库，以 STC8 系列为主。
 - [ECBM](./chip-toolchain-lib/README.md#ecbm)：51 芯片外设函数库，需要哪个模块就取用哪个模块。
 
 ### [AVR](./chip-toolchain-lib/README.md#avr)
@@ -727,8 +719,8 @@
 ### [C++](./engine-sim-lib/README.md#c)
 
 - [sds](./engine-sim-lib/README.md#sds)：简单动态字符串库，使用堆内存，其作用就是在 C 语言中仿照 C++ 的 string 类型。
-- [STR](./engine-sim-lib/README.md#str)：更高级的字符串处理库，拥有字符串分割/修剪/搜索/查错等功能。
-- [etl](./engine-sim-lib/README.md#etl)：适用于嵌入式的 C++ 模板库。
+- [STR](./engine-sim-lib/README.md#str)：字符串处理库，拥有字符串分割/修剪/搜索/查错等功能。
+- [etl](./engine-sim-lib/README.md#etl)：适用于嵌入式的 C++ 模板库（STL），旨在编译时为容器定义固定大小。
 - [LW_OOPC](./engine-sim-lib/README.md#lw_oopc)：适合嵌入式的面向对象的编程扩展，在源码的基础上进行了多个版本的更新优化，简单易用。
 - [PLOOC](./engine-sim-lib/README.md#plooc)：在 C 语言中提供面向对象的编程扩展，可以实现私有成员、继承、重载等功能。
 - [vlib](./engine-sim-lib/README.md#vlib)：C 语言模板库，提供了类似 C++ STL 的功能，包含了常用的容器，且可以使用任意数据类型。
@@ -748,15 +740,11 @@
 
 ### [JavaScript](./engine-sim-lib/README.md#javascript)
 
-- [mJS](./engine-sim-lib/README.md#mjs)：专用于微控制器的 JavaScript 引擎，空间占用量小(RAM:1k,ROM:50k)，基于 ES6 标准。
+- [mJS](./engine-sim-lib/README.md#mjs)：专用于微控制器的 JavaScript 引擎，空间占用量小（RAM:1k,ROM:50k），基于 ES6 标准。
 
 ### [Arduino](./engine-sim-lib/README.md#arduino)
 
 - [ArduinoCore-API](./engine-sim-lib/README.md#arduinocore-api)：Arduino 内核的硬件独立层，使用基于 Arduino 相关的库时需要包含对应的 API 文件。
-
-### [Android](./engine-sim-lib/README.md#android)
-
-- [rawdrawandroid](./engine-sim-lib/README.md#rawdrawandroid)：使用 C 语言开发 Android 应用的开发框架，轻量且跨平台。
 
 ### [虚拟机（沙盒）](./engine-sim-lib/README.md#虚拟机沙盒)
 
