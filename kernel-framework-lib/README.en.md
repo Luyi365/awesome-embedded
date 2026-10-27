@@ -23,7 +23,7 @@
 
 #### Key Points
 
-- References: [Fast Context Switching in C | Letter](https://nevermindzzt.github.io/2020/12/27/c语言上下文的快速切换/) and [Perfect Decoupling for Modular Programming in C | Letter](https://nevermindzzt.github.io/2020/12/20/C语言模块化编程的完美解耦/)；
+- References: [Fast Context Switching in C | Letter](https://nevermindzzt.github.io/2020/12/27/c语言上下文的快速切换/) and [Perfect Decoupling for Modular Programming in C | Letter](https://nevermindzzt.github.io/2020/12/20/C语言模块化编程的完美解耦/);
 - The context switching here is equivalent to setting a flag in an interrupt and executing the corresponding task during polling;
 - The library parameter `delay` refers not to time, but to the system "tick";
 - This decoupling library uses event broadcasting, but it is not well suited to event-broadcasting purposes; it is intended for decoupling;
@@ -118,7 +118,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Pithikos/C-Thread-Pool)](https://github.com/Pithikos/C-Thread-Pool/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Pithikos/C-Thread-Pool)](https://github.com/Pithikos/C-Thread-Pool/commits) | [![GitHub License](https://img.shields.io/github/license/Pithikos/C-Thread-Pool)]()
 
 **Link** - [Pithikos/C-Thread-Pool: A minimal but powerful thread pool in ANSI C](https://github.com/Pithikos/C-Thread-Pool)  
-**Features** - Lightweight embedded thread-pool library for managing thread creation and lifecycles, solving the overhead caused by frequent thread creation and destruction.  
+**Features** - Lightweight thread-pool library built on pthread for managing thread creation and lifecycles, solving the overhead caused by frequent thread creation and destruction.  
 
 #### Key Points
 
@@ -150,8 +150,8 @@
 
 - ~~The code uses memory sections in place of linked-list functionality: replaces linked lists;~~ (pending release)
 - If a chip does not support the initcall mechanism, replacing its section portion with a linked-list form can achieve the same result;
-- Best used with: [Detailed Explanation of __attribute__ section - CSDN Blog](https://blog.csdn.net/seven_feifei/article/details/95947358)；
-- Why `general_ops` in `PLATFORM_ITEM_REGISTER` can replace all operations: [About the union Type](./appendix.en.md#about-the-union-type)；
+- Best used with: [Detailed Explanation of __attribute__ section - CSDN Blog](https://blog.csdn.net/seven_feifei/article/details/95947358);
+- Why `general_ops` in `PLATFORM_ITEM_REGISTER` can replace all operations: [About the union Type](./appendix.en.md#about-the-union-type);
 
 ---
 
@@ -214,7 +214,7 @@
 
 #### Key Points
 
-- Implementation process: [Simulating Qt Signal-and-Slot Functionality in C](https://mp.weixin.qq.com/s/3BcMHY71lH3WPgcPwxb2LQ)
+- Introduction: [Simulating Qt Signal-and-Slot Functionality in C](https://mp.weixin.qq.com/s/3BcMHY71lH3WPgcPwxb2LQ)
 
 ---
 

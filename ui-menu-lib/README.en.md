@@ -18,7 +18,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/libts/tslib)](https://github.com/libts/tslib/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/libts/tslib)](https://github.com/libts/tslib/commits) | [![GitHub License](https://img.shields.io/github/license/libts/tslib)]()
 
 **Link** - [libts/tslib: Touchscreen access library](https://github.com/libts/tslib)  
-**Features** - The most widely used resistive touchscreen calibration algorithm library in embedded systems, although it seems to be available only on Linux.  
+**Features** - Linux-based resistive touchscreen calibration algorithm library, widely used.  
 
 #### Key Points
 
@@ -29,7 +29,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/wujique/tslib_for_mcu)](https://github.com/wujique/tslib_for_mcu/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wujique/tslib_for_mcu)](https://github.com/wujique/tslib_for_mcu/commits) | [![GitHub License](https://img.shields.io/github/license/wujique/tslib_for_mcu)]()
 
 **Link** - [wujique/tslib_for_mcu: A trimmed and organized tslib for microcontroller platforms, with examples based on STM32](https://github.com/wujique/tslib_for_mcu)  
-**Features** - A resistive touchscreen calibration library trimmed down from Linux.  
+**Features** - A resistive touchscreen calibration library trimmed down from [tslib](#tslib), for microcontrollers.  
 
 #### Key Points
 
@@ -212,7 +212,7 @@
 [![Gitee Repo stars](https://gitee.com/genitop/GT-HMI-Engine/badge/star.svg?theme=gvp)](https://gitee.com/genitop/GT-HMI-Engine/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/genitop/GT-HMI-Engine&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/genitop/GT-HMI-Engine&query=$.license&label=license)]()
 
 **Link** - [GT-HMI-Engine: GT-HMI: a free and powerful tool built specifically for embedded GUI design and development in China!](https://gitee.com/genitop/GT-HMI-Engine)  
-**Features** - UI library from Qualcomm intended for Chinese users, with multiple languages and font libraries, a simulator, and PC-side tools. It can be used with both RTOS and bare metal, making it suitable for practical product-level projects.  
+**Features** - UI library from Shanghai Genitop intended for Chinese users, with multiple languages and font libraries, a simulator, and PC-side tools. It can be used with both RTOS and bare metal, making it suitable for practical product-level projects.  
 
 #### Key Points
 
@@ -267,11 +267,11 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/eclipse-threadx/guix)](https://github.com/eclipse-threadx/guix/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-threadx/guix)](https://github.com/eclipse-threadx/guix/commits) | [![GitHub License](https://img.shields.io/github/license/eclipse-threadx/guix)]()
 
 **Link** - [azure-rtos/guix: Azure RTOS GUIX Studio provides a complete, embedded graphical user interface (GUI) library and design environment, facilitating the creation and maintenance of all graphical elements needed by your device.](https://github.com/azure-rtos/guix)  
-**Features** - GUI graphics library provided by Azure RTOS; it is mature, convenient to develop with, open source, and free.  
+**Features** - GUI graphics library provided by [Azure RTOS](../sys-thread-lib/README.en.md#azure-rtos); it is mature, convenient to develop with, open source, and free.  
 
 #### Key Points
 
-- You can refer to Anfulai's tutorials.
+- You can refer to [Anfulai's tutorials](https://forum.anfulai.cn/forum.php?mod=viewthread&tid=98429).
 
 ---
 
@@ -284,7 +284,7 @@
 
 #### Key Points
 
-- You can refer to Anfulai's and Wildfire's tutorials.
+- You can refer to the tutorials from Anfulai ([II](https://forum.anfulai.cn/forum.php?mod=viewthread&tid=19834) & [III](https://forum.anfulai.cn/forum.php?mod=viewthread&tid=98429)) and [Wildfire](https://doc.embedfire.com/stemwin/emwin/zh/latest/index.html).
 
 ---
 
@@ -357,7 +357,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/nicbarker/clay)](https://github.com/nicbarker/clay/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/nicbarker/clay)](https://github.com/nicbarker/clay/commits) | [![GitHub License](https://img.shields.io/github/license/nicbarker/clay)]()
 
 **Link** - [Clay - UI Layout Library](https://www.nicbarker.com/clay)  
-**Features** - High-performance 2D UI layout library that provides responsive layout capabilities and is suitable for embedded Web development.  
+**Features** - High-performance 2D UI layout library that provides responsive layout capabilities and is not tied to any specific renderer.  
 
 #### Key Points
 
@@ -398,24 +398,12 @@
 
 ---
 
-### OpenGL
-
-**Link** - [OpenGL - The industry standard for high-performance graphics](https://www.opengl.org/)  
-**Features** - Cross-language, cross-platform 2D/3D rendering library primarily developed in C, which also supports development in C++, Python, Java, and other languages. Its capabilities are extremely powerful and suitable for game development, scientific visualization, virtual reality, and other fields.  
-
-#### Key Points
-
-- OpenGL ES: a subset of OpenGL focused on graphics rendering for embedded and mobile devices;
-  - WebGL: a graphics interface based on OpenGL ES that adds JavaScript, focused on Web page rendering development;
-
----
-
 ### Rawdraw
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/cntools/rawdraw)](https://github.com/cntools/rawdraw/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cntools/rawdraw)](https://github.com/cntools/rawdraw/commits) | [![GitHub License](https://img.shields.io/github/license/cntools/rawdraw)]()
 
 **Link** - [cntools/rawdraw: Primitive Platform Agnostic Graphics Library](https://github.com/cntools/rawdraw)  
-**Features** - Cross-platform, dependency-free UI drawing system that provides a good interface abstraction for OpenGL.  
+**Features** - Cross-platform, dependency-free UI drawing system with multiple backends to choose from, such as [OpenGL](./appendix.en.md#opengl) and software rasterization.  
 
 #### Key Points
 
@@ -424,7 +412,7 @@
 ### TinyGL
 
 **Link** - [TinyGL : a Small, Free and Fast Subset of OpenGL*](https://bellard.org/TinyGL/)  
-**Features** - A small implementation of [OpenGL](#opengl) for embedded systems. It simplifies complex interfaces into forms that are easier to understand and use.  
+**Features** - A small implementation of [OpenGL](./appendix.en.md#opengl) for embedded systems. It simplifies complex interfaces into forms that are easier to understand and use.  
 
 #### Key Points
 
@@ -435,11 +423,11 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/cadenji/foolrenderer)](https://github.com/cadenji/foolrenderer/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/cadenji/foolrenderer)](https://github.com/cadenji/foolrenderer/commits) | [![GitHub License](https://img.shields.io/github/license/cadenji/foolrenderer)]()
 
 **Link** - [cadenji/foolrenderer: A tiny software renderer implemented from scratch without the use of graphics API, used to understand how GPUs work.](https://github.com/cadenji/foolrenderer)  
-**Features** - Software renderer implemented in C that does not depend on graphics libraries. In only a few thousand lines of code, it implements OpenGL-like basic graphics features and real-time rendering techniques for game development, such as shadows, tangent-space normal mapping, and physically based material systems.  
+**Features** - Software renderer implemented in C that does not depend on graphics libraries. In only a few thousand lines of code, it implements a set of [OpenGL](./appendix.en.md#opengl)-like basic graphics features and real-time rendering techniques for game development, such as shadows, tangent-space normal mapping, and physically based material systems.  
 
 #### Key Points
 
-- Since it is based on the PC platform, using it in embedded systems requires some modifications for porting;
+- Since it is based on the PC platform, porting it to embedded systems requires modifying the adaptation layer;
 
 ---
 
@@ -448,7 +436,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/EmberGL-org/EmberGL)](https://github.com/EmberGL-org/EmberGL/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/EmberGL-org/EmberGL)](https://github.com/EmberGL-org/EmberGL/commits) | [![GitHub License](https://img.shields.io/github/license/EmberGL-org/EmberGL)]()
 
 **Link** - [EmberGL-org/EmberGL: EmberGL - 2D/3D graphics library featuring a tiled software rasterizer.](https://github.com/EmberGL-org/EmberGL)  
-**Features** - OpenGL-like real-time 2D / 3D raster rendering library for MCU.  
+**Features** - [OpenGL](./appendix.en.md#opengl)-like real-time 2D / 3D raster rendering library for MCU.  
 
 #### Key Points
 
@@ -587,7 +575,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/Menu)](https://github.com/Luyi365/Menu/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/Menu)](https://github.com/Luyi365/Menu/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/Menu)]()
 
 **Link** - [Luyi365/Menu: A simple and practical menu framework](https://github.com/Luyi365/Menu)  
-**Features** - A simple and practical menu framework, suitable for student projects.  
+**Features** - A simple and practical menu implementation. Its architecture is not very well decoupled, but it suits students who want to learn while using it in projects.  
 
 #### Key Points
 

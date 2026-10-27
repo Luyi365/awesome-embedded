@@ -22,7 +22,7 @@
 
 #### Key Points
 
-- Hardware performs timing control.
+- This library does not provide hardware timing control.
 
 ---
 
@@ -31,7 +31,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/jakeread/mudlink)](https://github.com/jakeread/mudlink/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/jakeread/mudlink)](https://github.com/jakeread/mudlink/commits) | [![GitHub License](https://img.shields.io/github/license/jakeread/mudlink)]()
 
 **Link** - [jakeread/mudlink: Modular UART Duplex Link: cobs, crc, flow-control and delivery guarantees on any UART port in Arduino](https://github.com/jakeread/mudlink)  
-**Features** - Elevates UART serial communication to a link/transport layer, guarantees framed-packet delivery, and provides delivery assurance, flow control, and link-performance statistics.  
+**Features** - Elevates UART serial communication to a link/transport layer, with delivery guarantees, flow control, link-performance statistics, and more.  
 
 #### Key Points
 
@@ -113,7 +113,7 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/armink/SFUD)](https://github.com/armink/SFUD/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/armink/SFUD)](https://github.com/armink/SFUD/commits) | [![GitHub License](https://img.shields.io/github/license/armink/SFUD)]()
 
-**Link** - [armink/SFUD: An using JEDEC's SFDP standard serial (SPI) flash universal driver library | 一款使用 JEDEC SFDP 标准的串行 (SPI) Flash 通用驱动库](https://github.com/armink/SFUD)  
+**Link** - [armink/SFUD: An using JEDEC's SFDP standard serial (SPI) flash universal driver library](https://github.com/armink/SFUD)  
 **Features** - An open-source universal serial SPI Flash driver library that supports a range of Flash chips through device tables.  
 
 #### Key Points

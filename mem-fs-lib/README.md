@@ -240,7 +240,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 [![License: FatFs](https://img.shields.io/badge/license-FatFs-orange.svg)]()
 
 **链接**：[FatFs - Generic FAT Filesystem Module](http://elm-chan.org/fsw/ff/00index_e.html)  
-**8 位微控制器适配版**：[Petit FAT File System Module](http://elm-chan.org/fsw/ff/00index_p.html)  
+**低资源版**：[Petit FAT File System Module](http://elm-chan.org/fsw/ff/00index_p.html)  
 **特征**：赫赫有名的文件系统库，极易移植，支持 exFAT 文件系统、64 位 LBA 和 GPT，可根据功能进行宏配置，注重线程安全。  
 
 #### 要点

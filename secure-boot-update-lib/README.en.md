@@ -16,8 +16,6 @@
 
 #### Key Points
 
-- Choose suitable parameters based on the characteristics of the parameter model.
-
 ---
 
 ### tiny-AES-c
@@ -29,8 +27,7 @@
 
 #### Key Points
 
-- Provides both C and C++ implementations;
-- Reference: [AES Encryption and Decryption in C, Including 128-, 192-, and 256-bit CBC, CFB, ECB, OFB, and PCBC Modes](https://www.jianshu.com/p/e8969d8bb6d7)；
+- Reference: [AES Encryption and Decryption in C, Including 128-, 192-, and 256-bit CBC, CFB, ECB, OFB, and PCBC Modes](https://www.jianshu.com/p/e8969d8bb6d7);
 - Different widths represent the bit count of the encryption key: 128-16Byte, 182-24Byte, 256-32Byte;
 
 ---
@@ -65,11 +62,11 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfssl)](https://github.com/wolfSSL/wolfssl/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfssl)](https://github.com/wolfSSL/wolfssl/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfssl)]()
 
 **Link** - [wolfSSL - Embedded SSL/TLS Library](https://www.wolfssl.com/)  
-**Features** - A lightweight, portable SSL/TLS library powered by the [wolfCrypt](#wolfcrypt) cryptography library, aimed at IoT, embedded, and RTOS environments.
+**Features** - A lightweight, portable SSL/TLS library powered by the [wolfCrypt](#wolfcrypt) cryptography library, aimed at IoT, embedded, and RTOS environments.  
 
 #### Key Points
 
-- [Supports RTCA DO-178C DAL A certification](https://www.wolfssl.com/wolfssl-support-178-dal)；
+- [Supports RTCA DO-178C DAL A certification](https://www.wolfssl.com/wolfssl-support-178-dal);
 
 ---
 
@@ -89,11 +86,11 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfHSM)](https://github.com/wolfSSL/wolfHSM/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfHSM)](https://github.com/wolfSSL/wolfHSM/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfHSM)]()
 
 **Link** - [wolfHSM | Products - wolfSSL](https://www.wolfssl.com/products/wolfhsm)  
-**Features** - A client-server framework for hardware cryptography, nonvolatile memory, and secure processing. Originally an HSM core for automotive applications, it now suits any trusted environment.
+**Features** - A client-server framework for hardware cryptography, nonvolatile memory, and secure processing. Originally an HSM core for automotive applications, it now suits any trusted environment.  
 
 #### Key Points
 
-- Encryption and decryption require porting [wolfCrypt](#wolfcrypt) or using [hardware support](https://www.wolfssl.com/docs/hardware-crypto-support)；
+- Encryption and decryption require porting [wolfCrypt](#wolfcrypt) or using [hardware support](https://www.wolfssl.com/docs/hardware-crypto-support);
 
 ---
 
@@ -102,7 +99,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfTPM)](https://github.com/wolfSSL/wolfTPM/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfTPM)](https://github.com/wolfSSL/wolfTPM/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfTPM)]()
 
 **Link** - [wolfTPM | Products - wolfSSL](https://www.wolfssl.com/products/wolftpm)  
-**Features** - A portable TPM stack that provides wrapper interfaces to simplify key operations and supports bare metal, RTOS, Linux, Windows, and other platforms.
+**Features** - A portable TPM stack that provides wrapper interfaces to simplify key operations and supports bare metal, RTOS, Linux, Windows, and other platforms.  
 
 #### Key Points
 
@@ -115,7 +112,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfsentry)](https://github.com/wolfSSL/wolfsentry/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfsentry)](https://github.com/wolfSSL/wolfsentry/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfsentry)]()
 
 **Link** - [wolfSentry | Products - wolfSSL](https://www.wolfssl.com/products/wolfsentry/)  
-**Features** - A dynamic intrusion detection and prevention system (IDPS): an embedded-ready firewall engine centered on monitoring, logging, pattern matching, and notification.
+**Features** - A dynamic intrusion detection and prevention system (IDPS): an embedded-ready firewall engine centered on monitoring, logging, pattern matching, and notification.  
 
 #### Key Points
 
@@ -154,7 +151,7 @@
 
 #### Key Points
 
-- Compared with OpenBLT, it focuses more on security but supports only 32-bit microcontrollers;
+- Compared with [OpenBLT](#openblt), it focuses more on security but supports only 32-bit microcontrollers;
 
 ---
 

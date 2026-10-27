@@ -22,7 +22,7 @@
 ### FXT
 
 **Link** - [jj's useful and ugly FXT page](https://www.jjj.de/fxt/)  
-**Features** - A collection of C algorithms focused on bit manipulation, combinatorics, fast transforms, and more.  
+**Features** - A collection of C++ algorithms focused on bit manipulation, combinatorics, fast transforms, and more.  
 
 #### Key Points
 
@@ -68,7 +68,6 @@
 3. In addition to loading models, it includes basic neural-network layers.
 4. Models must ultimately be converted into header files for inclusion; the repository contains scripts to convert [.h5](./appendix.en.md#hdf5) or tmdl files to `.h` format.
 5. The code uses GDB debugging by default, so the <ins>system-time retrieval function</ins> and <ins>print function</ins> must be changed.
-6. An example of the `layer callback` is provided, but its purpose is still unknown.
 
 ---
 
@@ -133,8 +132,8 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/hyperai/tvm-cn)](https://github.com/hyperai/tvm-cn/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/hyperai/tvm-cn)](https://github.com/hyperai/tvm-cn/commits) | [![GitHub License](https://img.shields.io/github/license/hyperai/tvm-cn)]()
 
-**Link** - [Apache TVM Chinese site](https://tvm.hyper.ai/)  
-**Features** - End-to-end deep-learning compiler framework for CPU, GPU, ARM, and other hardware architectures.  
+**Link** - [Apache TVM is an end-to-end deep learning compilation framework for CPUs, GPUs, and various machine learning accelerator chips. | Apache TVM Chinese site](https://tvm.hyper.ai/)  
+**Features** - Built-in deep-learning compiler for CPU, GPU, ARM, and many other hardware architectures, offering a one-stop service.  
 
 #### Key Points
 
@@ -169,6 +168,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/tensorflow/tensorflow)](https://github.com/tensorflow/tensorflow/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/tensorflow/tensorflow)](https://github.com/tensorflow/tensorflow/commits) | [![GitHub License](https://img.shields.io/github/license/tensorflow/tensorflow)]()
 
 **Link** - [TensorFlow Lite | TensorFlow official website](https://ai.google.dev/edge/litert?hl=en)  
+**MCU Version** - [tensorflow/tflite-micro: Infrastructure to enable deployment of ML models to low-power resource-constrained embedded targets (including microcontrollers and digital signal processors).](https://github.com/tensorflow/tflite-micro)  
 **Features** - A well-known machine-learning library for deploying models to mobile devices, microcontrollers, and other edge devices for on-device machine learning.  
 
 #### Key Points

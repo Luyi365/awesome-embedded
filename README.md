@@ -345,7 +345,7 @@
 
 ### [LOG 日志](./log-term-lib/README.md#log-日志)
 
-- [dbuglib](./log-term-lib/README.md#dbuglib)：精小的日志库，仅提供输出显示功能，可以修改日志的级别用于过滤特定级别的日志，相当于一般 SDK 自带的 printf 功能；
+- [dbuglib](./log-term-lib/README.md#dbuglib)：精小的日志库，仅提供输出显示功能，可以修改日志的级别用于过滤特定级别的日志，相当于一般 SDK 自带的 printf 功能。
 - [log.c](./log-term-lib/README.md#logc)：极简的日志库，仅提供输出显示和记录功能。基于 C99 标准，用在嵌入式上需要自行重定向输出。
 - [log](./log-term-lib/README.md#log)：小巧的日志模块，输出内容包括时间、日志类型、内容、文件名、行号、函数名等信息。
 - [alog](./log-term-lib/README.md#alog)：功能精简的输出日志组件，带颜色带互斥锁。

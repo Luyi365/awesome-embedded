@@ -14,7 +14,7 @@
 
 #### Key Points
 
-- Modules can use either static or dynamic memory.
+- Modules support both static and dynamic memory modes.
 
 ---
 
@@ -86,7 +86,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/gozfree/gear-lib)](https://github.com/gozfree/gear-lib/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/gozfree/gear-lib)](https://github.com/gozfree/gear-lib/commits) | [![GitHub License](https://img.shields.io/github/license/gozfree/gear-lib)]()
 
 **Link** - [gozfree/gear-lib: Gear-Lib, C library for IOT Embedded Multimedia and Network](https://github.com/gozfree/gear-lib)  
-**Features** - A set of general C foundational libraries implemented entirely in POSIX C for cross-platform compatibility with Linux, Windows, Android, and iOS, including data structures, async operations, I/O, state machines, and dynamic loading. 
+**Features** - A set of general C foundational libraries implemented entirely in POSIX C for cross-platform compatibility with Linux, Windows, Android, and iOS, including data structures, async operations, I/O, state machines, and dynamic loading.  
 
 #### Key Points
 
@@ -119,7 +119,7 @@
 [![Gitee Repo stars](https://gitee.com/zlgmcuopen/ametal/badge/star.svg?theme=gvp)](https://gitee.com/zlgmcuopen/ametal/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/zlgmcuopen/ametal&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/zlgmcuopen/ametal&query=$.license&label=license)]()
 
 **Link** - [ametal: AMetal is a chip-level bare-metal software package that defines cross-platform common interfaces, completely separating AMetal-based applications from specific hardware and providing a series of drivers and common software services.](https://gitee.com/zlgmcuopen/ametal)  
-**Features** - A software package from ZLG that covers various types of peripherals and provides a unified abstraction-layer interface. The code is somewhat redundant, but its coverage of types is fairly comprehensive.  
+**Features** - A software package from ZLG that covers various types of peripherals and provides a unified abstraction-layer interface. The code is somewhat redundant, but its coverage of types is comprehensive.  
 
 #### Key Points
 
@@ -160,7 +160,7 @@
 [![Gitee Repo stars](https://gitee.com/simpost/simpostOS/badge/star.svg?theme=gvp)](https://gitee.com/simpost/simpostOS/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/simpostOS&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/simpostOS&query=$.license&label=license)]()
 
 **Link** - [simpostOS: Minimalist application system](https://gitee.com/simpost/simpostOS)  
-**Features** - A design methodology and a collection of software components and services. It modularizes all functions and greatly improves reuse. Written in modern C++, it is not beginner-friendly.  
+**Features** - A design methodology and a collection of software components and services. It modularizes all functions and greatly improves reuse. Written in modern C++, it is not suitable for beginners.  
 
 #### Key Points
 

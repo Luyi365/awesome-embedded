@@ -14,7 +14,6 @@
 
 #### Key Points
 
-- Creating and using this software timer is almost identical to using a hardware timer.
 - Introduction: [MultiTimer | An Infinitely Extensible Software Timer](https://mp.weixin.qq.com/s/6Kd3MgkDtczhBEIf1YyEOg)
 
 ---
@@ -28,6 +27,8 @@
 
 #### Key Points
 
+- Abstracted on STM32 by default; porting to other chips requires adjusting the driver layer;
+
 ---
 
 ### microseconds
@@ -35,11 +36,11 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/JayHeng/microseconds)](https://github.com/JayHeng/microseconds/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/JayHeng/microseconds)](https://github.com/JayHeng/microseconds/commits) | [![GitHub License](https://img.shields.io/github/license/JayHeng/microseconds)]()
 
 **Link** - [JayHeng/microseconds: General microseconds library for MCU | General microsecond timing function framework for MCU, suitable for clock sources above 1MHz](https://github.com/JayHeng/microseconds)  
-**Features** - Microsecond-level timer library based on the Cortex-M SysTick, with blocking and non-blocking delays. Most vendors already provide timer functions, so this mainly targets scenarios where the chip or timer module needs to be replaced.  
+**Features** - Microsecond-level timer library with blocking and non-blocking delays. It mainly abstracts the different clocks on the same chip, making it easier to switch the underlying timer.  
 
 #### Key Points
 
-- Suitable for MCUs with a timer clock source of at least 1MHz.
+- The timer clock source must not be lower than 1MHz.
 
 ---
 
@@ -48,12 +49,12 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/GorgonMeducer/perf_counter)](https://github.com/GorgonMeducer/perf_counter/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/GorgonMeducer/perf_counter)](https://github.com/GorgonMeducer/perf_counter/commits) | [![GitHub License](https://img.shields.io/github/license/GorgonMeducer/perf_counter)]()
 
 **Link** - [GorgonMeducer/perf_counter: A dedicated performance counter for Cortex-M systick. It shares the SysTick with users' original SysTick function without interfering it. This library will bring new functionalities, such as performance counter, delay_us and clock() service defined in time.h](https://github.com/GorgonMeducer/perf_counter)  
-**Features** - Based on the Cortex-M SysTick, it provides not only basic timer functions but also code-section cycle measurement and timing services, and supports RTOS. The code looks complex and is suited to company-level projects.  
+**Features** - Based on the Cortex-M SysTick, it provides not only basic timer functions but also code-section cycle measurement and timing services, so it can serve as a functional extension of an ordinary clock.  
 
 #### Key Points
 
 - The instructions look complicated, but the actual steps are:
-  1. Only the source and header files are required; RTOS may also require `lib` and `os`, and possibly several assembly files;
+  1. The source and header files are required; RTOS may also require `lib` and `os`, and possibly several assembly files;
   2. Configure the compiler for GNU extensions or use the gnu99 or gnu11 library;
   3. Add the `user_code_insert_to_systick_handler()` function to the `SysTick_Handler` callback (see the comments; it is unnecessary when the "ual" assembly file is supported);
   4. Initialize with `init_cycle_counter(bool)`;
@@ -90,6 +91,5 @@
 #### Key Points
 
 - Supports the `tm` data structure in time.h for time calculations;
-- Requires familiarity with cron syntax;
 
 ---

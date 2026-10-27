@@ -31,7 +31,7 @@
 
 #### Key Points
 
-- Introduction: [Practical Guide | Sharing a Practical Memory Management Module for Microcontrollers](https://mp.weixin.qq.com/s/BDdlcelPBRQvWV2KPCM_Sg)；
+- Introduction: [Practical Guide | Sharing a Practical Memory Management Module for Microcontrollers](https://mp.weixin.qq.com/s/BDdlcelPBRQvWV2KPCM_Sg);
 - This module is suitable only for managing small memory; frequent allocation and release of large memory is inefficient;
 
 ---
@@ -89,7 +89,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/chiphome/flashMultipleErase)](https://github.com/chiphome/flashMultipleErase/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/chiphome/flashMultipleErase)](https://github.com/chiphome/flashMultipleErase/commits) | [![GitHub License](https://img.shields.io/github/license/chiphome/flashMultipleErase)]()
 
 **Link** - [chiphome/flashMultipleErase: How to emulate EEPROM with microcontroller FLASH and use algorithmic optimization to achieve more than one million storage cycles!](https://github.com/chiphome/flashMultipleErase)  
-**Features** - Emulates EEPROM with FLASH and uses sequential writing to achieve more than one million storage cycles.  
+**Features** - Emulates EEPROM with FLASH and uses sequential writing to achieve more storage cycles and extend storage life.  
 
 #### Key Points
 
@@ -100,10 +100,11 @@
 [![Gitee Repo stars](https://gitee.com/wtau_zaozao/eepromfs/badge/star.svg?theme=gvp)](https://gitee.com/wtau_zaozao/eepromfs/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wtau_zaozao/eepromfs&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/wtau_zaozao/eepromfs&query=$.license&label=license)]()
 
 **Link** - [eepromfs: eepromfs is a simple file-like data read/write library based on EEPROM, making parameter management convenient when dynamically adding or removing functions. Adding and removing parameter blocks is like adding and removing files, without affecting existing stored data. Use it when EEPROM hardware resources are ample.](https://gitee.com/wtau_zaozao/eepromfs)  
-**Features** - Simple file-like data read/write library based on EEPROM. It is not a true file system, but simulates data reads and writes as files.  
+**Features** - Simple file-like data read/write library based on EEPROM. What it does is not a true file system; instead, it simulates data reads and writes as files.  
 
 #### Key Points
 
+- Introduction: [Sharing a Simple File-Like EEPROM Data Read/Write Library](https://mp.weixin.qq.com/s/TbOcDkux0u1bB7NSx7DGng)
 - It is best used when resources are ample;
 - This library has been unmaintained for years; pay attention to its issues;
 
@@ -155,7 +156,7 @@
 
 #### Key Points
 
-- Reference: [Non-Volatile Storage Library - ESP32 - — ESP-IDF Programming Guide latest documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/nvs_flash.html#)；
+- Reference: [Non-Volatile Storage Library - ESP32 - — ESP-IDF Programming Guide latest documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/nvs_flash.html#);
 - Based on the [esp_partition](#esp_partition) component;
 
 ---
@@ -239,12 +240,12 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 [![License: FatFs](https://img.shields.io/badge/license-FatFs-orange.svg)]()
 
 **Link** - [FatFs - Generic FAT Filesystem Module](http://elm-chan.org/fsw/ff/00index_e.html)  
-**8-bit microcontroller edition** - [Petit FAT File System Module](http://elm-chan.org/fsw/ff/00index_p.html)  
+**Low-Resource Version** - [Petit FAT File System Module](http://elm-chan.org/fsw/ff/00index_p.html)  
 **Features** - A renowned file system library that is very easy to port, supporting the exFAT file system, 64-bit LBA, and GPT. It can be configured with macros according to functionality and emphasizes thread safety.  
 
 #### Key Points
 
-- Guides: [FatFs Module Application Note](http://elm-chan.org/fsw/ff/doc/appnote.html)、 [24. Serial FLASH File System FatFs — \[Wildfire\] STM32 HAL Library Development Practice Guide — Based on the F103 Series Development Board Documentation](https://doc.embedfire.com/mcu/stm32/f103/hal_general/zh/latest/doc/chapter25/chapter25.html)；
+- Guides: [FatFs Module Application Note](http://elm-chan.org/fsw/ff/doc/appnote.html), [24. Serial FLASH File System FatFs — \[Wildfire\] STM32 HAL Library Development Practice Guide — Based on the F103 Series Development Board Documentation](https://doc.embedfire.com/mcu/stm32/f103/hal_general/zh/latest/doc/chapter25/chapter25.html);
 - Storage that is too small cannot be used either; it is best to have >1M;
 - The `f_mkfs()` function is used for formatting;
 - Porting steps:
@@ -267,7 +268,7 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 
 #### Key Points
 
-- Its basic feature is automatically mirroring embedded-system files to a server over the Internet and synchronizing the two ends;
+- Can automatically mirror embedded-system files to a server over the Internet and keep the two ends synchronized;
 
 ---
 
@@ -347,10 +348,11 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 [![GitHub Repo stars](https://img.shields.io/github/stars/clisystems/utfs)](https://github.com/clisystems/utfs/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/clisystems/utfs)](https://github.com/clisystems/utfs/commits) | [![GitHub License](https://img.shields.io/github/license/clisystems/utfs)]()
 
 **Link** - [clisystems/utfs: UTFS a Tar-like Embedded File System](https://github.com/clisystems/utfs)  
-**Features** - A tiny TAR-like <sup>(short for Tape Archive, an archive format designed for tape drives in the 1970s)</sup> embedded file system that aims to keep the storage layout from being broken as data changes; it has no directories, wear leveling, or journaling.  
+**Features** - Tiny TAR-like embedded file system that aims to keep the storage layout from being broken as data changes; it has no directories, wear leveling, or journaling.  
 
 #### Key Points
 
-- Introduction: [UTFS a Tar-like File System for Embedded Systems | CLI Systems](https://clisystems.com/article-UTFS-intro)
+- Introduction: [UTFS a Tar-like File System for Embedded Systems | CLI Systems](https://clisystems.com/article-UTFS-intro);
+- TAR is short for Tape Archive, an archive format designed for tape drives in the 1970s;
 
 ---

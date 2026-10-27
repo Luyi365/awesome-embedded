@@ -12,3 +12,11 @@ Therefore, when coming from software to embedded systems, rendering can feel abs
 Of course, it can also be understood as drawing basic shapes such as points, circles, and rectangles. However, this drawing spans two layers. Like memory, display has software and hardware layers: software is the GUI drawing library, while hardware drives the screen illumination.  
 
 ---
+
+## OpenGL
+
+Reference: [OpenGL - The Industry Standard for High Performance Graphics](https://www.opengl.org/)
+
+OpenGL is a cross-language, cross-platform 2D/3D graphics API specification defined by Khronos. It is not a concrete library itself, but is implemented by GPU drivers. It is mainly used on desktops and suits game development, scientific visualization, virtual reality, and similar fields.  
+
+---

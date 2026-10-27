@@ -14,7 +14,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Luyi365/key_detect)](https://github.com/Luyi365/key_detect/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Luyi365/key_detect)](https://github.com/Luyi365/key_detect/commits) | [![GitHub License](https://img.shields.io/github/license/Luyi365/key_detect)]()
 
 **Link** - [Luyi365/key_detect: A simple button-detection component that uses event registration to provide the most basic button functionality.](https://github.com/Luyi365/key_detect)  
-**Features** - A simple button-detection component that uses event registration to provide the most basic button functionality.  
+**Features** - Simple button-detection component that uses button registration and lets you set single-click/double-click/long-press properties for each button individually.  
 
 #### Key Points
 
@@ -25,7 +25,7 @@
 [![Gitee Repo stars](https://gitee.com/embediot/key_module/badge/star.svg?theme=gvp)](https://gitee.com/embediot/key_module/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/embediot/key_module&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/embediot/key_module&query=$.license&label=license)]()
 
 **Link** - [key_module: A general-purpose button-detection module for microcontrollers that handles button events including press, release, single click, double click, tap, and long press; combination buttons are planned for expansion.](https://gitee.com/embediot/key_module)  
-**Features** - Simple, easy-to-use button-detection module that uses event callbacks and provides everything but matrix-key buttons.  
+**Features** - Simple button-detection module that uses event callbacks and provides the other basic functions apart from matrix keys.  
 
 #### Key Points
 
@@ -36,7 +36,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/hellozimo/FlexibleButton)](https://github.com/hellozimo/FlexibleButton/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/hellozimo/FlexibleButton)](https://github.com/hellozimo/FlexibleButton/commits) | [![GitHub License](https://img.shields.io/github/license/hellozimo/FlexibleButton)]()
 
 **Link** - [murphyzhao/FlexibleButton: Flexible button processing library (Flexible Button) | Button driver | Supports single click, double click, repeated click, long press, and automatic debounce | Flexibly adapts to interrupts and low power | Implement combination buttons as needed](https://github.com/murphyzhao/FlexibleButton)  
-**Features** - Detects buttons through intermittent polling scans, scanning and processing all button states at once, and supports most individual button events; combination buttons and interrupt triggering must be added manually.  
+**Features** - Stable button-processing library that scans and processes all button states in one pass, with triggers for a variety of button events, and leaves notes on how to implement combination buttons and interrupt triggering.  
 
 #### Key Points
 
@@ -68,7 +68,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/0x1abin/MultiButton)](https://github.com/0x1abin/MultiButton/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/0x1abin/MultiButton)](https://github.com/0x1abin/MultiButton/commits) | [![GitHub License](https://img.shields.io/github/license/0x1abin/MultiButton)]()
 
 **Link** - [0x1abin/MultiButton: Button driver for embedded system](https://github.com/0x1abin/MultiButton)  
-**Features** - Timer-triggered scanning drives this event-driven button module, designed with an object-oriented approach so that each button object is managed by its own data structure.  
+**Features** - State-machine button library designed with an object-oriented approach, so that each button object is managed by its own data structure.  
 
 #### Key Points
 
@@ -81,7 +81,7 @@
 [![Gitee Repo stars](https://gitee.com/cot_package/cot_key/badge/star.svg?theme=gvp)](https://gitee.com/cot_package/cot_key/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_key&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_key&query=$.license&label=license)]()
 
 **Link** - [cotKey: Component code for recognizing common button actions on embedded devices](https://gitee.com/cot_package/cot_key)  
-**Features** - Listener-based button-recognition library covering single click, double click, multiple click, short press, and long press, though it handles only a single button.  
+**Features** - Listener-based button-recognition library that is more flexible than other button libraries, covering single click, double click, multiple click, short press, long press, and other requirements.  
 
 #### Key Points
 
@@ -98,7 +98,6 @@
 
 #### Key Points
 
-- The program uses heap memory by default, so space must be allocated for it;
 - Introduction: [A Compact Button Processing Module!](https://mp.weixin.qq.com/s/VGRR7SU0JOKemxEZhBR9Og)
 
 ---
@@ -108,7 +107,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwbtn) | ![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwbtn) | ![GitHub License](https://img.shields.io/github/license/MaJerle/lwbtn)
 
 **Link** - [LwBTN latest-develop documentation — LwBTN documentation](https://docs.majerle.eu/projects/lwbtn/en/latest/)  
-**Features** - A professional button-event management library with rich configuration, if somewhat hard to grasp.  
+**Features** - Professional button-event management library with rich configuration and comprehensive features.  
 
 #### Key Points
 
@@ -123,11 +122,11 @@
 ![Gitee Repo stars](https://gitee.com/cot_package/cot_led/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_led&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/cot_package/cot_led&query=$.license&label=license)
 
 **Link** - [cotLed: Component code for controlling common indicator lights on embedded devices](https://gitee.com/cot_package/cot_led)  
-**Features** - Lightweight LED control module capable of driving multiple LED mode states.  
+**Features** - Lightweight LED control module capable of driving multiple LED mode states (blinking, breathing, custom, and so on).  
 
 #### Key Points
 
-- Modern chips include a variety of PWM controls. They are the most efficient to use, but relatively complex. This library is suitable when only basic PWM control is available or when convenience is desired, because its power consumption is likely higher.
+- Modern chips include a wide variety of built-in IO controls, and the vendor's own modes are often the most efficient. This library is suitable when only basic PWM control is available.
 - Introduction: [Lightweight LED Control Module](https://mp.weixin.qq.com/s/A2arPl2oRYLjFt4STYnljA)
 
 ---
@@ -137,7 +136,7 @@
 ![Gitee Repo stars](https://gitee.com/embediot/led_module/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/embediot/led_module&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/embediot/led_module&query=$.license&label=license)
 
 **Link** - [led_module: General microcontroller LED display module, based on embedded C object-oriented programming and the simple factory design pattern](https://gitee.com/embediot/led_module)  
-**Features** - General-purpose LED display module built on object-oriented and simple-factory patterns.  
+**Features** - Simple LED display library built on object-oriented and simple-factory patterns, with no custom modes but with color attributes.  
 
 #### Key Points
 
@@ -173,7 +172,7 @@
 #### Key Points
 
 - Grbl was originally designed for 8-bit Arduino platforms. To accommodate more advanced 32-bit processors, a developer rewrote the code and separated the abstraction and core layers, enabling support for more processors: [grblHAL](https://github.com/grblHAL)
-- Introduction: [grbl-learning: Close Reading and Analysis of Grbl Source Code, with Line-Level Chinese Comments and Detailed Examples](https://gitee.com/ren12345/grbl-learning)；
+- Introduction: [grbl-learning: Close Reading and Analysis of Grbl Source Code, with Line-Level Chinese Comments and Detailed Examples](https://gitee.com/ren12345/grbl-learning);
 
 ---
 
@@ -182,7 +181,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Paciente8159/uCNC)](https://github.com/Paciente8159/uCNC/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Paciente8159/uCNC)](https://github.com/Paciente8159/uCNC/commits) | [![GitHub License](https://img.shields.io/github/license/Paciente8159/uCNC)]()
 
 **Link** - [Paciente8159/uCNC: µCNC - Universal CNC firmware for microcontrollers](https://github.com/Paciente8159/uCNC)  
-**Features** - General-purpose CNC firmware for microcontrollers.  
+**Features** - General-purpose CNC firmware for microcontrollers that keeps its features compact and its components modular.  
 
 #### Key Points
 

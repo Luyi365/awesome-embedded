@@ -14,7 +14,7 @@
 [![Gitee Repo stars](https://gitee.com/git-lib/dbugLib-Prj/badge/star.svg?theme=gvp)](https://gitee.com/git-lib/dbugLib-Prj/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/git-lib/dbugLib-Prj&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/git-lib/dbugLib-Prj&query=$.license&label=license)]()
 
 **Link** - [dbugLib Prj: Portable debug diagnostic library](https://gitee.com/git-lib/dbugLib-Prj)  
-**Features** - Compact logging library that only provides output display and can adjust log levels to filter logs at specified levels, equivalent to the printf functionality that generic SDKs include;  
+**Features** - Compact logging library that only provides output display and can adjust log levels to filter logs at specified levels, equivalent to the printf functionality that generic SDKs include.  
 
 #### Key Points
 
@@ -27,7 +27,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/rxi/log.c)](https://github.com/rxi/log.c/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/rxi/log.c)](https://github.com/rxi/log.c/commits) | [![GitHub License](https://img.shields.io/github/license/rxi/log.c)]()
 
 **Link** - [rxi/log.c: A simple logging library implemented in C99](https://github.com/rxi/log.c)  
-**Features** - A minimalist logging library that only provides output display and recording. Based on the C99 standard, it is not well suited to the embedded field.  
+**Features** - A minimalist logging library that only provides output display and recording. It is based on the C99 standard, so you need to redirect the output yourself when using it on embedded systems.  
 
 #### Key Points
 
@@ -176,15 +176,14 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/XradioTech/xradio-skylark-sdk)](https://github.com/XradioTech/xradio-skylark-sdk/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/XradioTech/xradio-skylark-sdk?path=src/console)](https://github.com/XradioTech/xradio-skylark-sdk/commits) | [![GitHub License](https://img.shields.io/github/license/XradioTech/xradio-skylark-sdk)]()
 
-**Link** - [xradio-skylark-sdk/src/console at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/src/console)、[xradio-skylark-sdk/include/console at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/include/console)  
-**Features** - Console library extracted from the Xradio SDK. Its commands use a hierarchical structure, making it suitable when there are many commands; it is based on RTOS.  
+**Link** - [xradio-skylark-sdk/src/console at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/src/console), [xradio-skylark-sdk/include/console at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/include/console)  
+**Features** - Console library extracted from Allwinner's XR806 chip. Its commands use a hierarchical structure, making it suitable when there are many commands; it is based on RTOS.  
 
 #### Key Points
 
-- Command example: [xradio-skylark-sdk/project/common/cmd at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/project/common/cmd)；
-- Demo (common files): [xradio-skylark-sdk/project/demo/hello_demo at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/project/demo/hello_demo)；
-- Some dependent libraries are based on other files in the SDK;
-- Reference: [\[XR806 Development Board Trial\] Console Flow Analysis and Adding Custom Commands - Aijishu Community - Connecting Developers and the Intelligent Computing Ecosystem](https://aijishu.com/a/1060000000288360)；
+- Command example: [xradio-skylark-sdk/project/common/cmd at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/project/common/cmd);
+- Demo (common files): [xradio-skylark-sdk/project/demo/hello_demo at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/project/demo/hello_demo);
+- Reference: [\[XR806 Development Board Trial\] Console Flow Analysis and Adding Custom Commands - Aijishu Community - Connecting Developers and the Intelligent Computing Ecosystem](https://aijishu.com/a/1060000000288360);
 - APIs in the `cmd_util` file:
   - `cmd_main_exec` - The main command set, namely the outermost commands
   - `cmd_exec` - Subcommand set

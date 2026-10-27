@@ -12,11 +12,11 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/barraq/BRBrain)](https://github.com/barraq/BRBrain/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/barraq/BRBrain?path=firmware/CBUF.h)](https://github.com/barraq/BRBrain/commits) | [![GitHub License](https://img.shields.io/github/license/barraq/BRBrain)]()
 
 **Link** - [BRBrain/firmware/CBUF.h at master · barraq/BRBrain · GitHub](https://github.com/barraq/BRBrain/blob/master/firmware/CBUF.h)  
-**Features** - An elegantly implemented macro-based ring buffer that is simple and easy to use.  
+**Features** - C++-based macro implementation of a ring buffer that is simple and easy to use.  
 
 #### Key Points
 
-- It uses a C++ class; create an instance (handle) of the class to serve as the object.
+- You need to create an instance (handle) of the class to serve as the object.
 
 ---
 
@@ -37,7 +37,7 @@
 [![Gitee Repo stars](https://gitee.com/Aladdin-Wang/byte_queue/badge/star.svg?theme=gvp)](https://gitee.com/Aladdin-Wang/byte_queue/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Aladdin-Wang/byte_queue&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Aladdin-Wang/byte_queue&query=$.license&label=license)]()
 
 **Link** - [byte_queue: A C-language ring queue supporting arbitrary types.](https://gitee.com/Aladdin-Wang/byte_queue)  
-**Features** - C-language ring queue supporting arbitrary types, wrapped with macros and simple to use.  
+**Features** - Ring queue supporting arbitrary types, wrapped with macros and simple to use.  
 
 #### Key Points
 
@@ -48,7 +48,7 @@
 [![Gitee Repo stars](https://gitee.com/Lamdonn/queue/badge/star.svg?theme=gvp)](https://gitee.com/Lamdonn/queue/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/queue&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Lamdonn/queue&query=$.license&label=license)]()
 
 **Link** - [queue: Very small and convenient general-purpose queue in C language version.](https://gitee.com/Lamdonn/queue)  
-**Features** - General-purpose C queue supporting arbitrary data types; simple and efficient to use.  
+**Features** - General-purpose queue supporting arbitrary data types; simple and efficient to use.  
 
 #### Key Points
 
@@ -59,7 +59,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/AndersKaloer/Ring-Buffer)](https://github.com/AndersKaloer/Ring-Buffer/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/AndersKaloer/Ring-Buffer)](https://github.com/AndersKaloer/Ring-Buffer/commits) | [![GitHub License](https://img.shields.io/github/license/AndersKaloer/Ring-Buffer)]()
 
 **Link** - [AndersKaloer/Ring-Buffer: A simple ring buffer (circular buffer) designed for embedded systems.](https://github.com/AndersKaloer/Ring-Buffer)  
-**Features** - A simple and efficient ring-buffer library that is easy to use.  
+**Features** - A ring-buffer library suitable for programs without a specified storage size.  
 
 #### Key Points
 
@@ -73,7 +73,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Aladdin-Wang/wl_queue)](https://github.com/Aladdin-Wang/wl_queue/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/Aladdin-Wang/wl_queue)](https://github.com/Aladdin-Wang/wl_queue/commits) | [![GitHub License](https://img.shields.io/github/license/Aladdin-Wang/wl_queue)]()
 
 **Link** - [Aladdin-Wang/wl_queue: A queue supporting arbitrary types.](https://github.com/Aladdin-Wang/wl_queue)  
-**Features** - Ring queue supporting arbitrary data types. It uses C overloading techniques and emphasizes coroutine safety.  
+**Features** - Ring queue supporting arbitrary data types. It uses C overloading techniques and emphasizes thread safety.  
 
 #### Key Points
 
@@ -196,7 +196,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/troydhanson/uthash)](https://github.com/troydhanson/uthash/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/troydhanson/uthash)](https://github.com/troydhanson/uthash/commits) | [![GitHub License](https://img.shields.io/github/license/troydhanson/uthash)]()
 
 **Link** - [troydhanson/uthash: C macros for hash tables and more](https://github.com/troydhanson/uthash)  
-**Features** - Provides data-structure libraries for hashes, lists, rings, and more; use them by including only the header file.  
+**Features** - Provides data-structure libraries for hashes, lists, rings, and more; header-only.  
 
 #### Key Points
 
@@ -225,7 +225,7 @@
 [![Gitee Repo stars](https://gitee.com/Armink/EasyFlash/badge/star.svg?theme=gvp)](https://gitee.com/Armink/EasyFlash/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/EasyFlash&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/EasyFlash&query=$.license&label=license)]()
 
 **Link** - [EasyFlash: A lightweight information-storage solution for IoT devices that turns Flash into a small KV database. For the new-generation version, see https://gitee.com/armink/FlashDB](https://gitee.com/Armink/EasyFlash)  
-**Features** - A simple Key-Value database that primarily provides variable KV pairing, IAP data modification (for upgrades), log storage, and other functions.  
+**Features** - A simple Key-Value database that provides variable KV pairing, IAP data modification (for upgrades), log storage, and other functions.  
 
 #### Key Points
 
@@ -252,7 +252,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/nanopb/nanopb)](https://github.com/nanopb/nanopb/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/nanopb/nanopb)](https://github.com/nanopb/nanopb/commits) | [![GitHub License](https://img.shields.io/github/license/nanopb/nanopb)]()
 
 **Link** - [Nanopb - protocol buffers with small code size](https://jpa.kapsi.fi/nanopb/)  
-**Features** - Lightweight Protobuf implementation supporting C. Protobuf is a data format developed by Google. It can be used for data storage and communication protocols and is independent of language and platform, allowing communication between different devices.  
+**Features** - Lightweight Protobuf implementation supporting C. Protobuf is a data format developed by Google. It can be used for data storage and communication protocols and is independent of language and platform, allowing data communication across different devices and languages.  
 
 #### Key Points
 
@@ -264,8 +264,7 @@
   - [Embedded Hodgepodge Weekly | Issue 9](https://mp.weixin.qq.com/s/kS05PsqRAfw7GoxB8FeSvA)
   - [How to use Nanopb_ECBG_2024's blog - CSDN Blog](https://blog.csdn.net/weixin_56035008/category_10884684.html)
   - [Protocol Buffers_Xiaozhu Kuaipao Aisheying's blog - CSDN Blog](https://blog.csdn.net/ymzhu385/category_11573002.html)
-- This protocol was previously used at a company for real-time interaction between devices and mobile phones over Bluetooth;
-- When writing PB files, pay attention to hierarchy. Because PB files can include other files, use an inheritance-oriented design: place common operations such as `get`, `put`, `write`, and `read` at the base operation layer, and different kinds of events at the base event layer;
+- When writing PB files, pay attention to hierarchy: place common operations such as `get`, `put`, `write`, and `read` at the base operation layer, and different kinds of events at the base event layer;
 
 ---
 
@@ -302,6 +301,7 @@
 #### Key Points
 
 - ~~For a detailed explanation, see: SQLite (MySQL);~~ (pending release)
+- Porting it to an MCU requires writing a [VFS](./appendix.en.md#vfs);
 
 ---
 

@@ -5,7 +5,7 @@
 
 > Communication overlaps somewhat with the [Board-Level Bus Protocol Library](../board-bus-lib/README.en.md), as both involve data transmission and processing. This section is listed separately to distinguish multi-device communication protocols with a "client - server" model, such as network and Bluetooth protocols.
 
-## Web Server
+## Web-Server
 
 ### LightTPD
 
@@ -40,7 +40,7 @@
 
 ---
 
-## Web Plugin
+## Web-Plugin
 
 ### FastCGI
 
@@ -107,8 +107,8 @@
 
 [![License: GPL v3](https://img.shields.io/badge/license-GPL%20v3-orange.svg)](https://opensource.org/licenses/GPL-3.0)
 
-**Link** - [tiny-curl](https://curl.se/tiny)
-**Features** - cURL library for embedded systems that supports only HTTP.
+**Link** - [tiny-curl](https://curl.se/tiny)  
+**Features** - cURL library for embedded systems that supports only HTTP.  
 
 #### Key Points
 
@@ -125,7 +125,9 @@
 [![Gitee Repo stars](https://gitee.com/simpost/ERPC-doc/badge/star.svg?theme=gvp)](https://gitee.com/simpost/ERPC-doc/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/ERPC-doc&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/simpost/ERPC-doc&query=$.license&label=license)]()
 
 **Link** - [ERPC-doc: ERPC (Embedded Remote Procedure Call) is a simple, easy-to-use, efficient embedded remote-call framework. It implements remote calls and state notifications (the observer pattern), supports data encryption (with user-defined encryption algorithms), exception monitoring, and complete log-management methods. ERPC can simplify system design, reduce coupling between modules, and reduce dependencies between developers.](https://gitee.com/simpost/ERPC-doc)  
-**Features** - A simple, easy-to-use, efficient remote-call framework.  
+**Features** - A remote-call framework built on the [cJSON](#cjson), [libevent](#libevent), and libuv open-source libraries, including state notification, data encryption, exception monitoring, and more.  
+
+#### Key Points
 
 ---
 
@@ -145,7 +147,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/EmbeddedRPC/erpc)](https://github.com/EmbeddedRPC/erpc/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/EmbeddedRPC/erpc)](https://github.com/EmbeddedRPC/erpc/commits) | [![GitHub License](https://img.shields.io/github/license/EmbeddedRPC/erpc)]()
 
 **Link** - [EmbeddedRPC/erpc: Embedded RPC](https://github.com/EmbeddedRPC/erpc)  
-**Features** - An NXP open-source Remote Procedure Call (RPC) system for multi-chip embedded systems and heterogeneous multi-core SoCs.  
+**Features** - NXP's open-source Remote Procedure Call (RPC) system for multi-chip embedded systems and heterogeneous multi-core SoCs.  
 
 #### Key Points
 
@@ -163,7 +165,7 @@
 #### Key Points
 
 - Guide: [\[Wildfire\] LwIP Application Development Practical Guide - Based on STM32](https://doc.embedfire.com/net/lwip/zh/latest/index.html)
-- Official documentation: [lwIP: Overview](https://www.nongnu.org/lwip)；
+- Official documentation: [lwIP: Overview](https://www.nongnu.org/lwip);
 - The contrib package contains demos for porting and using LwIP;
 - The test folder in the source tree is not a demo; it contains source code for testing LwIP kernel performance and can provide many kernel-performance metrics, so it is only needed by specialists;
 - The application layer does not include an MQTT service protocol;
@@ -220,7 +222,7 @@
 [![Gitee Repo stars](https://gitee.com/Neo-T/open-npstack/badge/star.svg?theme=gvp)](https://gitee.com/Neo-T/open-npstack/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Neo-T/open-npstack&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Neo-T/open-npstack&query=$.license&label=license)]()
 
 **Link** - [Open-NPStack: onps is an open-source, independently developed domestic network protocol stack. Its design goal is the same as LwIp, and it targets resource-constrained microcontroller systems. It provides a complete tcp/ip protocol-family implementation and network tools such as sntp, dns, and ping; supports dynamic dhcp IP address assignment in Ethernet environments as well as dynamic and static routing tables. The stack also encapsulates a Berkeley sockets layer and is developed in ANSI C.](https://gitee.com/Neo-T/open-npstack)  
-**Features** - Domestic network protocol stack with the same design goal as Lwip, for resource-constrained microcontroller systems, providing a complete ethernet/ppp/tcp/ip protocol-family implementation. It comes with very detailed documentation, making it a great read for Chinese developers.  
+**Features** - Domestic network protocol stack with the same design goal as [Lwip](#lwip), for resource-constrained microcontroller systems, providing a complete ethernet/ppp/tcp/ip protocol-family implementation. It comes with very detailed documentation, making it a great read for Chinese developers.  
 
 #### Key Points
 
@@ -230,8 +232,8 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfssl/wolfIP)](https://github.com/wolfssl/wolfIP/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfssl/wolfIP)](https://github.com/wolfssl/wolfIP/commits) | [![GitHub License](https://img.shields.io/github/license/wolfssl/wolfIP)]()
 
-**Link** - [wolfIP TCP/IP stack - wolfSSL](https://www.wolfssl.com/products/wolfip)
-**Features** - A tiny TCP/IP stack with no dynamic memory allocation, intended as a better alternative to [lwIP](#lwip) and designed to work seamlessly with the [wolfSSL](../secure-boot-update-lib/README.en.md#wolfssl) library.
+**Link** - [wolfIP TCP/IP stack - wolfSSL](https://www.wolfssl.com/products/wolfip)  
+**Features** - A tiny TCP/IP stack with no dynamic memory allocation, intended as a better alternative to [lwIP](#lwip) and designed to work seamlessly with the [wolfSSL](../secure-boot-update-lib/README.en.md#wolfssl) library.  
 
 #### Key Points
 
@@ -242,11 +244,9 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/rxi/dyad)](https://github.com/rxi/dyad/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/rxi/dyad)](https://github.com/rxi/dyad/commits) | [![GitHub License](https://img.shields.io/github/license/rxi/dyad)]()
 
 **Link** - [rxi/dyad: Asynchronous networking for C](https://github.com/rxi/dyad)  
-**Features** - Asynchronous networking library based on Linux. It supports only TCP communication, for creating small standalone device servers and adding network support to existing projects.  
+**Features** - Socket-based asynchronous networking library. It supports only TCP communication, for creating small standalone device servers and adding network support to existing projects.  
 
 #### Key Points
-
-- It is implemented using the Linux kernel and POSIX interfaces, so corresponding support is required to use it on bare metal or another OS;
 
 ---
 
@@ -257,7 +257,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/janmojzis/tinyssh)](https://github.com/janmojzis/tinyssh/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/janmojzis/tinyssh)](https://github.com/janmojzis/tinyssh/commits) | [![GitHub License](https://img.shields.io/github/license/janmojzis/tinyssh)]()
 
 **Link** - [janmojzis/tinyssh: TinySSH is a small server (fewer than 100000 lines of code)](https://github.com/janmojzis/tinyssh)  
-**Features** - A minimalist SSH server implementing only a subset of SSHv2 features, suitable for embedded use.  
+**Features** - A minimalist SSH server that implements part of SSHv2 and, for security reasons, does not accept environment-variable requests from clients.  
 
 #### Key Points
 
@@ -267,8 +267,8 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfssh)](https://github.com/wolfSSL/wolfssh/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfssh)](https://github.com/wolfSSL/wolfssh/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfssh)]()
 
-**Link** - [wolfSSH Lightweight SSH Library | Products - wolfSSL](https://www.wolfssl.com/products/wolfssh)
-**Features** - Lightweight SSHv2 client and server library written in ANSI C.
+**Link** - [wolfSSH Lightweight SSH Library | Products - wolfSSL](https://www.wolfssl.com/products/wolfssh)  
+**Features** - Lightweight SSHv2 client and server library written in ANSI C.  
 
 #### Key Points
 
@@ -298,7 +298,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/eclipse-paho/paho.mqtt.embedded-c)](https://github.com/eclipse-paho/paho.mqtt.embedded-c/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/eclipse-paho/paho.mqtt.embedded-c)](https://github.com/eclipse-paho/paho.mqtt.embedded-c/commits) | [![GitHub License](https://img.shields.io/github/license/eclipse-paho/paho.mqtt.embedded-c)]()
 
 **Link** - [eclipse/paho.mqtt.embedded-c: Paho MQTT C client library for embedded systems. Paho is an Eclipse IoT project](https://github.com/eclipse-paho/paho.mqtt.embedded-c)  
-**Features** - MQTT library for embedded platforms, containing three sublibraries: packet serialization, C clients, and C++ clients.
+**Features** - MQTT library for embedded platforms, containing three sublibraries: packet serialization, C clients, and C++ clients.  
 
 #### Key Points
 
@@ -330,8 +330,8 @@
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/wolfSSL/wolfMQTT)](https://github.com/wolfSSL/wolfMQTT/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/wolfSSL/wolfMQTT)](https://github.com/wolfSSL/wolfMQTT/commits) | [![GitHub License](https://img.shields.io/github/license/wolfSSL/wolfMQTT)]()
 
-**Link** - [wolfMQTT Client Library | Products - wolfSSL](https://www.wolfssl.com/products/wolfmqtt)
-**Features** - Lightweight MQTT protocol client library supporting multiple platforms.
+**Link** - [wolfMQTT Client Library | Products - wolfSSL](https://www.wolfssl.com/products/wolfmqtt)  
+**Features** - Lightweight MQTT protocol client library supporting multiple platforms.  
 
 #### Key Points
 
@@ -359,12 +359,12 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/openthread/openthread)](https://github.com/openthread/openthread/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/openthread/openthread)](https://github.com/openthread/openthread/commits) | [![GitHub License](https://img.shields.io/github/license/openthread/openthread)]()
 
 **Link** - [OpenThread](https://openthread.io/?hl=en)  
-**Features** - Google's open-source implementation of Thread.  
+**Features** - A Google product and an open-source implementation of the Thread system.  
 
 #### Key Points
 
-- Reference: [Thread - ESP32 - ESP-IDF Programming Guide latest documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_openthread.html)  
-  ESP wrapper layer: [esp-idf/components/openthread at be06a6f5ffe36f9554cfc91fe2036e0fc85fea60 · espressif/esp-idf](https://github.com/espressif/esp-idf/tree/be06a6f5ffe36f9554cfc91fe2036e0fc85fea60/components/openthread)；
+- Usage guide: [Thread - ESP32 - ESP-IDF Programming Guide latest documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_openthread.html);
+- ESP wrapper layer: [esp-idf/components/openthread at be06a6f5ffe36f9554cfc91fe2036e0fc85fea60 · espressif/esp-idf](https://github.com/espressif/esp-idf/tree/be06a6f5ffe36f9554cfc91fe2036e0fc85fea60/components/openthread);
 
 ---
 
@@ -401,7 +401,7 @@
 
 #### Key Points
 
-- Modified and ported by RT-Thread: [RT-Thread-packages/nimble: An Apache open-source Bluetooth 5.0 stack porting on RT-Thread](https://github.com/RT-Thread-packages/nimble)；
+- A version ported and modified by [RT-Thread](../sys-thread-lib/README.en.md#rt-thread): [RT-Thread-packages/nimble: An Apache open-source Bluetooth 5.0 stack porting on RT-Thread](https://github.com/RT-Thread-packages/nimble);
 
 ---
 
@@ -519,8 +519,7 @@
 
 #### Key Points
 
-- Demo: [xradio-skylark-sdk/project/demo/at_demo at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/project/demo/at_demo)；
-- Some dependent libraries are based on other SDK files;
+- Demo: [xradio-skylark-sdk/project/demo/at_demo at master · XradioTech/xradio-skylark-sdk](https://github.com/XradioTech/xradio-skylark-sdk/tree/master/project/demo/at_demo);
 
 ---
 
@@ -537,7 +536,7 @@
 [![Gitee Repo stars](https://gitee.com/ylguo/base64/badge/star.svg?theme=gvp)](https://gitee.com/ylguo/base64/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ylguo/base64&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/ylguo/base64&query=$.license&label=license)]()
 
 **Link** - [base64: A base64 encoding and decoding algorithm implemented in C](https://gitee.com/ylguo/base64)  
-**Features** - Extremely simple base64 encoding and decoding library.  
+**Features** - Minimalist base64 codec library containing just 2 functions: encode and decode.  
 
 #### Key Points
 
@@ -566,8 +565,7 @@
 #### Key Points
 
 - Introduction: [Open-Source CSV Parsing Library in C: MiniCSV Usage Example](https://blog.csdn.net/whik1194/article/details/131490767)
-- Does not use dynamic memory;
-- Decodes and reads all content at once;
+- Decodes and reads all content at once, without using dynamic memory;
 
 ---
 
@@ -587,7 +585,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ben-strasser/fast-cpp-csv-parser)](https://github.com/ben-strasser/fast-cpp-csv-parser/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ben-strasser/fast-cpp-csv-parser)](https://github.com/ben-strasser/fast-cpp-csv-parser/commits) | [![GitHub License](https://img.shields.io/github/license/ben-strasser/fast-cpp-csv-parser)]()
 
 **Link** - [ben-strasser/fast-cpp-csv-parser: fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser)  
-**Features** - Small, easy-to-use, fast, header-only CSV parser based on C++.  
+**Features** - C++-based CSV parser that is small, easy to use, and implemented in a single header file.  
 
 #### Key Points
 
@@ -602,7 +600,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/lovemengx/libinimini)](https://github.com/lovemengx/libinimini/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/lovemengx/libinimini)](https://github.com/lovemengx/libinimini/commits) | [![GitHub License](https://img.shields.io/github/license/lovemengx/libinimini)]()
 
 **Link** - [lovemengx/libinimini: A minimalist ini parsing library for Android, Linux, Rtos, and microcontrollers](https://github.com/lovemengx/libinimini)  
-**Features** - Minimalist ini parsing library for microcontrollers with controllable memory use. It supports the simplest key-value-pair file format.  
+**Features** - Minimalist ini parsing library for microcontrollers that works on strings, with controllable memory use.  
 
 #### Key Points
 
@@ -613,7 +611,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/benhoyt/inih)](https://github.com/benhoyt/inih/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/benhoyt/inih)](https://github.com/benhoyt/inih/commits) | [![GitHub License](https://img.shields.io/github/license/benhoyt/inih)]()
 
 **Link** - [benhoyt/inih: Simple .INI file parser in C, good for embedded systems](https://github.com/benhoyt/inih)  
-**Features** - INI parsing library written in C and suitable for embedded systems, with syntax and parsing options.  
+**Features** - INI parsing library suitable for embedded systems, with syntax and parsing options and comprehensive features.  
 
 #### Key Points
 
@@ -626,7 +624,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ndevilla/iniparser)](https://github.com/ndevilla/iniparser/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ndevilla/iniparser)](https://github.com/ndevilla/iniparser/commits) | [![GitHub License](https://img.shields.io/github/license/ndevilla/iniparser)]()
 
 **Link** - [ndevilla/iniparser: ini file parser](https://github.com/ndevilla/iniparser)  
-**Features** - INI parsing library written in C, portable to embedded systems and focused on thread safety.  
+**Features** - INI parsing library written in C, portable to embedded systems and focused on thread safety, with a parsing style similar to cJSON.  
 
 #### Key Points
 
@@ -658,7 +656,7 @@
 
 #### Key Points
 
-- Introduction: [【TLV】 A TLV Encoding Implementation - Blog Garden](https://www.cnblogs.com/skullboyer/p/17982042)
+- Introduction: [\[TLV\] A TLV Encoding Implementation - Blog Garden](https://www.cnblogs.com/skullboyer/p/17982042)
 
 ---
 
@@ -671,14 +669,13 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/DaveGamble/cJSON)](https://github.com/DaveGamble/cJSON/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/DaveGamble/cJSON)](https://github.com/DaveGamble/cJSON/commits) | [![GitHub License](https://img.shields.io/github/license/DaveGamble/cJSON)]()
 
 **Link** - [DaveGamble/cJSON: Ultralightweight JSON parser in ANSI C](https://github.com/DaveGamble/cJSON)  
-**Features** - An ultralightweight JSON parser in ANSI C and also the most native JSON parsing library. It is somewhat cumbersome to use and not recommended for direct use.  
+**Features** - A lightweight JSON parser in ANSI C and a fairly native JSON parsing library.  
 
 #### Key Points
 
 - Introduction:
   [A Simple Introduction to JSON and Using the cJSON Library (Part 1)](https://www.jianshu.com/p/59eb2bd1aeea)  
   [Parsing cJSON and Generating JSON Files | Personal Blog](https://www.yanbinghu.com/2019/08/04/21364.html)  
-- A json object can be json, a string, an array, and more.
 
 ---
 
@@ -687,7 +684,7 @@
 ![Gitee Repo stars](https://gitee.com/Armink/struct2json/badge/star.svg?theme=gvp) | ![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/struct2json&query=$.pushed_at&label=lastcommit) | ![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/Armink/struct2json&query=$.license&label=license)
 
 **Link** - [struct2json: A library for rapid conversion between C structures and JSON, quickly implementing serialization and deserialization of C structures](https://gitee.com/Armink/struct2json)  
-**Features** - Extremely convenient library for rapid conversion between C structures and JSON, based on [cJSON](#cjson).  
+**Features** - Based on [cJSON](#cjson), an extremely convenient library for rapid conversion between C structures and JSON.  
 
 #### Key Points
 
@@ -698,7 +695,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/NevermindZZT/cson)](https://github.com/NevermindZZT/cson/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/NevermindZZT/cson)](https://github.com/NevermindZZT/cson/commits) | [![GitHub License](https://img.shields.io/github/license/NevermindZZT/cson)]()
 
 **Link** - [NevermindZZT/cson: A json data mapping and parsing library based on C](https://github.com/NevermindZZT/cson)  
-**Features** - Json-struct model parsing tool running on the C platform and based on [cJSON](#cjson). It makes JSON parsing more convenient.  
+**Features** - Based on [cJSON](#cjson), a json-struct model parsing tool running on the C platform. It makes JSON parsing more convenient.  
 
 #### Key Points
 
@@ -720,12 +717,11 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/zserge/jsmn)](https://github.com/zserge/jsmn/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/zserge/jsmn)](https://github.com/zserge/jsmn/commits) | [![GitHub License](https://img.shields.io/github/license/zserge/jsmn)]()
 
 **Link** - [zserge/jsmn: Jsmn is a world fastest JSON parser/tokenizer. This is the official repo replacing the old one at Bitbucket](https://github.com/zserge/jsmn)  
-**Features** - An extremely compact and fast JSON parser with no dynamic memory allocation and no parsing correction. It suits JSON parsing in small projects.  
+**Features** - Minimalist JSON parser with zero-copy parsing and no parsing correction.  
 
 #### Key Points
 
-- Note that parsing is one-way only, from JSON to C;
-- It records the key-value location of each json and does not create copies for parsing, so it is very space-efficient;
+- Parsing is one-way only, from JSON to C;
 
 ---
 
@@ -734,11 +730,11 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/MaJerle/lwjson)](https://github.com/MaJerle/lwjson/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/MaJerle/lwjson)](https://github.com/MaJerle/lwjson/commits) | [![GitHub License](https://img.shields.io/github/license/MaJerle/lwjson)]()
 
 **Link** - [LwJSON latest-develop documentation — LwJSON documentation](https://docs.majerle.eu/projects/lwjson/en/latest/)  
-**Features** - General JSON parser library optimized for embedded systems. It suits JSON parsing in vendor projects.  
+**Features** - General JSON parser library optimized for embedded systems.  
 
 #### Key Points
 
-- Note that parsing is one-way only, from JSON to C;
+- Parsing is one-way only, from JSON to C;
 
 ---
 
@@ -751,7 +747,7 @@
 
 #### Key Points
 
-- Note that parsing is one-way only, from JSON to C;
+- Parsing is one-way only, from JSON to C;
 
 ---
 
@@ -847,7 +843,7 @@
 #### Key Points
 
 - Introduction: [A Lightweight Communication Protocol Tool for Embedded Systems!](https://mp.weixin.qq.com/s/e_yvMNMILzvpLtvmDw3iCw)
-- Use the [LwRB](../algo-ai-lib/README.en.md) library for data read/write operations;
+- Use the [LwRB](../data-struct-process-lib/README.en.md#lwrb) library for data read/write operations;
 
 ---
 
@@ -856,7 +852,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/xyz347/xpack)](https://github.com/xyz347/xpack/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/xyz347/xpack)](https://github.com/xyz347/xpack/commits) | [![GitHub License](https://img.shields.io/github/license/xyz347/xpack)]()
 
 **Link** - [xyz347/xpack: convert json/xml/bson to c++ struct](https://github.com/xyz347/xpack)  
-**Features** - Converts between C++ structures and JSON/XML/YAML/BSON/MySQL/SQLite; header-only.
+**Features** - Converts between C++ structures and JSON/XML/YAML/BSON/MySQL/SQLite; header-only.  
 
 #### Key Points
 

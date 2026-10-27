@@ -38,7 +38,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/mickjc750/str)](https://github.com/mickjc750/str/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/mickjc750/str)](https://github.com/mickjc750/str/commits) | [![GitHub License](https://img.shields.io/github/license/mickjc750/str)]()
 
 **Link** - [mickjc750/str: C String handling library inspired by Luca Sas](https://github.com/mickjc750/str)  
-**Features** - A more advanced string-processing library with string splitting, trimming, searching, and error-checking functions.  
+**Features** - String-processing library with string splitting, trimming, searching, and error-checking functions.  
 
 #### Key Points
 
@@ -49,7 +49,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ETLCPP/etl)](https://github.com/ETLCPP/etl/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ETLCPP/etl)](https://github.com/ETLCPP/etl/commits) | [![GitHub License](https://img.shields.io/github/license/ETLCPP/etl)]()
 
 **Link** - [ETLCPP/etl: Embedded Template Library](https://github.com/ETLCPP/etl)  
-**Features** - C++ template library for embedded systems.  
+**Features** - C++ template library (STL) for embedded systems, designed to define fixed sizes for containers at compile time.  
 
 #### Key Points
 

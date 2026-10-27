@@ -18,7 +18,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/tomzbj/ztask)](https://github.com/tomzbj/ztask/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/tomzbj/ztask)](https://github.com/tomzbj/ztask/commits) | [![GitHub License](https://img.shields.io/github/license/tomzbj/ztask)]()
 
 **Link** - [GitHub - tomzbj/ztask: A simple timer-based scheduler](https://github.com/tomzbj/ztask)  
-**Features** - An extremely simple time-slice scheduler with only five APIs; the kind of framework you could write on the fly.  
+**Features** - The most basic time-slice scheduler, with only five APIs; the kind of framework you could write on the fly.  
 
 #### Key Points
 
@@ -55,7 +55,7 @@
 [![Gitee Repo stars](https://gitee.com/moluo-tech/CodeBrick/badge/star.svg?theme=gvp)](https://gitee.com/moluo-tech/CodeBrick/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/CodeBrick&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/moluo-tech/CodeBrick&query=$.license&label=license)]()
 
 **Link** - [CodeBrick: A practical MCU software management system without an OS, including a task polling framework, command manager, low-power management, ring buffer, and other practical modules.](https://gitee.com/moluo-tech/CodeBrick)  
-**Features** - Time-slice polling framework that includes many practical modules, has no driver layer, and is simple and easy to use. It fits modern project development philosophy and is a bare-metal framework I really like; you could call it a top choice for ordinary projects.  
+**Features** - Time-slice polling framework that includes many practical modules, has no driver layer, and is simple and easy to use. It fits modern project development philosophy and is a bare-metal framework I really like.  
 
 #### Key Points
 
@@ -96,7 +96,7 @@
 [![Gitee Repo stars](https://gitee.com/jeremyceng/JxOS/badge/star.svg?theme=gvp)](https://gitee.com/jeremyceng/JxOS/stargazers) | [![Gitee last commit](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jeremyceng/JxOS&query=$.pushed_at&label=lastcommit)]() | [![Gitee License](https://img.shields.io/badge/dynamic/json?url=https://gitee.com/api/v5/repos/jeremyceng/JxOS&query=$.license&label=license)]()
 
 **Link** - [JxOS: A small foreground-background system for MCUs. Its design philosophy is to highly decouple functional modules from hardware to improve code-module reusability; avoid complex data structures and syntax to improve compatibility across hardware platforms and compilers, enabling rapid project porting between MCUs; provide practical, stable, and commonly used functional modules for rapid project development; and define a standard application-development framework to reduce the workload and difficulty of application development.](https://gitee.com/jeremyceng/JxOS)  
-**Features** - Foreground-background system with no complex registration or function-pointer structures, providing system kernel functions: tasks, events, messages, bulletin boards, mailboxes, pipes, registration, memory allocation...  
+**Features** - Foreground-background system with no complex registration or function-pointer structures, providing system kernel functions: tasks, events, messages, bulletin boards, mailboxes, pipes, registration, memory allocation, and more.  
 
 #### Key Points
 
@@ -142,7 +142,6 @@
 
 #### Key Points
 
-- Comparisons with other bare-metal OSs and RTOSs are provided in the link;
 - Usage guide: [Query-based cooperative multitasking system](https://mp.weixin.qq.com/s/qouyA6IApyktT9XxSFTuYA)
 
 ---
@@ -283,7 +282,6 @@
 #### Key Points
 
 - Provides console interaction through the FinSH component;
-- Uses initcall for initialization;
 - Uses the Env tool to modify project config macro parameters;
 - ~~`xxx_EXPORT` feature reference: segment registration and invocation mechanism;~~ (to be released)
 
@@ -333,8 +331,7 @@
 
 #### Key Points
 
-- In addition to the official website, the Hardcore forum tutorials are also very comprehensive;
-- Components: ThreadX, NetX, FileX, GUIX, USBX, TraceX, and more...
+- Components: ThreadX, NetX, FileX, [GUIX](../ui-menu-lib/README.en.md#guix), USBX, TraceX, and more...
 
 ---
 
@@ -343,7 +340,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/zephyrproject-rtos/zephyr)](https://github.com/zephyrproject-rtos/zephyr/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/zephyrproject-rtos/zephyr)](https://github.com/zephyrproject-rtos/zephyr/commits) | [![GitHub License](https://img.shields.io/github/license/zephyrproject-rtos/zephyr)]()
 
 **Link** - [The Zephyr Project – A proven RTOS ecosystem, by developers, for developers.](https://zephyrproject.org/)  
-**Features** - An RTOS maintained by Linux, well suited to learning Linux development philosophy.  
+**Features** - An RTOS maintained by the Linux Foundation, well suited to learning Linux development philosophy.  
 
 #### Key Points
 
@@ -404,7 +401,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/skaiui2/SKRTOS_sparrow)](https://github.com/skaiui2/SKRTOS_sparrow/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/skaiui2/SKRTOS_sparrow)](https://github.com/skaiui2/SKRTOS_sparrow/commits) | [![GitHub License](https://img.shields.io/github/license/skaiui2/SKRTOS_sparrow)]()
 
 **Link** - [skaiui2/SKRTOS_sparrow: Lightweight rtos inspired by SKRTOS](https://github.com/skaiui2/SKRTOS_sparrow)  
-**Features** - Ultra-small system of only a few hundred lines that implements basic scheduling and IPC mechanisms; some call it a children's version of FreeRTOS.  
+**Features** - Ultra-small system of only a few hundred lines that implements basic scheduling and IPC mechanisms; some call it a children's version of [FreeRTOS](#freertos).  
 
 #### Key Points
 
@@ -485,7 +482,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/contiki-ng/contiki-ng)](https://github.com/contiki-ng/contiki-ng/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/contiki-ng/contiki-ng)](https://github.com/contiki-ng/contiki-ng/commits) | [![GitHub License](https://img.shields.io/github/license/contiki-ng/contiki-ng)]()
 
 **Link** - [contiki-ng/contiki-ng: Contiki-NG: The OS for Next Generation IoT Devices](https://github.com/contiki-ng/contiki-ng)  
-**Features** - A multitasking IoT operating system maintained by the authors of uIP and LwIP. It focuses on reliable, secure low-power communication and standard Internet protocols.  
+**Features** - A multitasking IoT operating system maintained by the authors of uIP and [LwIP](../protocol-format-parser-lib/README.en.md#lwip). It focuses on reliable, secure low-power communication and standard Internet protocols.  
 
 #### Key Points
 
@@ -496,7 +493,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ARMmbed/mbed-os)](https://github.com/ARMmbed/mbed-os/stargazers) | [![GitHub last commit](https://img.shields.io/github/last-commit/ARMmbed/mbed-os)](https://github.com/ARMmbed/mbed-os/commits) | [![GitHub License](https://img.shields.io/github/license/ARMmbed/mbed-os)]()
 
 **Link** - [Mbed OS | Mbed](https://os.mbed.com/mbed-os/)  
-**Features** - Easy-to-use IoT operating system from ARM.  
+**Features** - Easy-to-use IoT operating system from Arm.  
 
 #### Key Points
 
@@ -547,7 +544,7 @@
 ### OneOS
 
 **Link** - [OneOS - China Mobile IoT Operating System](https://os.iot.10086.cn/)  
-**Features** - A lightweight operating system introduced by China Mobile for the IoT domain, featuring configurability, cross-platform support, low power consumption, and high security. It supports mainstream chip architectures such as ARM Cortex-M/A, MIPS, and RISC-V; is compatible with standard interfaces such as POSIX and CMSIS; and supports JavaScript and MicroPython development.  
+**Features** - Lightweight operating system introduced by China Mobile for the IoT domain, featuring configurability, cross-platform support, low power consumption, and high security. It supports mainstream chip architectures such as ARM Cortex-M/A, MIPS, and RISC-V; is compatible with standard interfaces such as POSIX and CMSIS; and supports JavaScript and MicroPython development.  
 
 #### Key Points
 
@@ -562,7 +559,7 @@
 
 #### Key Points
 
-- The MCUs currently supported are relatively limited;
+- The [MCU models](https://wiki-zh.luatos.org/chips/chips.html) currently supported are relatively limited;
 
 ---
 
@@ -628,11 +625,12 @@
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)
 
 **Link** - [ROS: Home](https://www.ros.org/)  
+**MCU Version** - [micro-ROS | ROS 2 for microcontrollers](https://micro.vulcanexus.org/)  
 **Features** - A well-known open-source robot operating system in the industry that implements a complete set of software libraries and tools.  
 
 #### Key Points
 
-- This system was originally not deployed directly on MCUs, but on Linux; it now also supports microprocessors and Windows systems;
+- This system was originally not deployed directly on MCUs, but on Linux; there are now also versions that support microprocessors and Windows systems;
 
 ---
 

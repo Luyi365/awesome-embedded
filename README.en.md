@@ -58,18 +58,18 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [Buttons](./io-control-lib/README.en.md#buttons)
 
-- [key_detect](./io-control-lib/README.en.md#key_detect) - A simple button-detection component that uses event registration to provide the most basic button functionality.
-- [key_module](./io-control-lib/README.en.md#key_module) - Simple, easy-to-use button-detection module that uses event callbacks and provides everything but matrix-key buttons.
-- [FlexibleButton](./io-control-lib/README.en.md#flexiblebutton) - Detects buttons through intermittent polling scans, scanning and processing all button states at once, and supports most individual button events; combination buttons and interrupt triggering must be added manually.
-- [MultiButton](./io-control-lib/README.en.md#multibutton) - Timer-triggered scanning drives this event-driven button module, designed with an object-oriented approach so that each button object is managed by its own data structure.
-- [cotKey](./io-control-lib/README.en.md#cotkey) - Listener-based button-recognition library covering single click, double click, multiple click, short press, and long press, though it handles only a single button.
+- [key_detect](./io-control-lib/README.en.md#key_detect) - Simple button-detection component that uses button registration and lets you set single-click/double-click/long-press properties for each button individually.
+- [key_module](./io-control-lib/README.en.md#key_module) - Simple button-detection module that uses event callbacks and provides the other basic functions apart from matrix keys.
+- [FlexibleButton](./io-control-lib/README.en.md#flexiblebutton) - Stable button-processing library that scans and processes all button states in one pass, with triggers for a variety of button events, and leaves notes on how to implement combination buttons and interrupt triggering.
+- [MultiButton](./io-control-lib/README.en.md#multibutton) - State-machine button library designed with an object-oriented approach, so that each button object is managed by its own data structure.
+- [cotKey](./io-control-lib/README.en.md#cotkey) - Listener-based button-recognition library that is more flexible than other button libraries, covering single click, double click, multiple click, short press, long press, and other requirements.
 - [key_board](./io-control-lib/README.en.md#key_board) - Uses button registration and heap memory by default, scanning and processing all button states at once, and includes matrix-keypad and combination-button functionality.
-- [LwBTN](./io-control-lib/README.en.md#lwbtn) - A professional button-event management library with rich configuration, if somewhat hard to grasp.
+- [LwBTN](./io-control-lib/README.en.md#lwbtn) - Professional button-event management library with rich configuration and comprehensive features.
 
 ### [LED](./io-control-lib/README.en.md#led)
 
-- [cotLed](./io-control-lib/README.en.md#cotled) - Lightweight LED control module capable of driving multiple LED mode states.
-- [led_module](./io-control-lib/README.en.md#led_module) - General-purpose LED display module built on object-oriented and simple-factory patterns.
+- [cotLed](./io-control-lib/README.en.md#cotled) - Lightweight LED control module capable of driving multiple LED mode states (blinking, breathing, custom, and so on).
+- [led_module](./io-control-lib/README.en.md#led_module) - Simple LED display library built on object-oriented and simple-factory patterns, with no custom modes but with color attributes.
 
 ### [PID](./io-control-lib/README.en.md#pid)
 
@@ -78,7 +78,7 @@ A good open-source project is the result of community effort. If anything below 
 ### [CNC](./io-control-lib/README.en.md#cnc)
 
 - [Grbl](./io-control-lib/README.en.md#grbl) - An industry-renowned open-source CNC codebase used for laser cutters, automated handwriting machines, drilling machines, graffiti painters, and quirky plotters; a maker favorite and an industry standard.
-- [µCNC](./io-control-lib/README.en.md#µcnc) - General-purpose CNC firmware for microcontrollers.
+- [µCNC](./io-control-lib/README.en.md#µcnc) - General-purpose CNC firmware for microcontrollers that keeps its features compact and its components modular.
 
 ---
 
@@ -88,8 +88,8 @@ A good open-source project is the result of community effort. If anything below 
 
 - [MultiTimer](./timer-time-lib/README.en.md#multitimer) - Software-simulated timer module that replaces the conventional flag-checking approach, operating almost identically to a hardware timer.
 - [SmartTimer](./timer-time-lib/README.en.md#smarttimer) - A very practical timer scheduler for bare-metal systems. Besides basic polling callbacks, it can also set the number of polling iterations.
-- [microseconds](./timer-time-lib/README.en.md#microseconds) - Microsecond-level timer library based on the Cortex-M SysTick, with blocking and non-blocking delays. Most vendors already provide timer functions, so this mainly targets scenarios where the chip or timer module needs to be replaced.
-- [perf_counter](./timer-time-lib/README.en.md#perf_counter) - Based on the Cortex-M SysTick, it provides not only basic timer functions but also code-section cycle measurement and timing services, and supports RTOS. The code looks complex and is suited to company-level projects.
+- [microseconds](./timer-time-lib/README.en.md#microseconds) - Microsecond-level timer library with blocking and non-blocking delays. It mainly abstracts the different clocks on the same chip, making it easier to switch the underlying timer.
+- [perf_counter](./timer-time-lib/README.en.md#perf_counter) - Based on the Cortex-M SysTick, it provides not only basic timer functions but also code-section cycle measurement and timing services, so it can serve as a functional extension of an ordinary clock.
 
 ### [Watchdogs](./timer-time-lib/README.en.md#watchdogs)
 
@@ -114,8 +114,8 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [Read/Write Wrapper Layer](./mem-fs-lib/README.en.md#readwrite-wrapper-layer)
 
-- [flashMultipleErase](./mem-fs-lib/README.en.md#flashmultipleerase) - Emulates EEPROM with FLASH and uses sequential writing to achieve more than one million storage cycles.
-- [eepromfs](./mem-fs-lib/README.en.md#eepromfs) - Simple file-like data read/write library based on EEPROM. It is not a true file system, but simulates data reads and writes as files.
+- [flashMultipleErase](./mem-fs-lib/README.en.md#flashmultipleerase) - Emulates EEPROM with FLASH and uses sequential writing to achieve more storage cycles and extend storage life.
+- [eepromfs](./mem-fs-lib/README.en.md#eepromfs) - Simple file-like data read/write library based on EEPROM. What it does is not a true file system; instead, it simulates data reads and writes as files.
 - [Dhara](./mem-fs-lib/README.en.md#dhara) - NAND flash translation layer (FTL) for small microcontrollers. It is mainly used to manage FLASH read, write, and erase operations. It sits between the FLASH device and the file system layer.
 - [kFlashFile](./mem-fs-lib/README.en.md#kflashfile) - Lightweight file-data storage solution based on NOR Flash, primarily for projects that require data to be preserved after power loss.
 - [esp_partition](./mem-fs-lib/README.en.md#esp_partition) - Partition-table library from ESP that wraps SPI Flash read/write operations and allows flash access by block.
@@ -130,7 +130,7 @@ A good open-source project is the result of community effort. If anything below 
 - [littlefs](./mem-fs-lib/README.en.md#littlefs) - A safe file system designed for microprocessors, with power-loss protection, wear leveling, low resource consumption, and other features.
 - [SPIFFS](./mem-fs-lib/README.en.md#spiffs) - File system designed for low memory (<=128MB), using statically sized ram buffers and providing wear leveling and other functions.
 - [lwext4](./mem-fs-lib/README.en.md#lwext4) - Provides an Ext2/3/4 file system for microcontrollers, with file lookup and power-loss resilience, but without wear leveling.
-- [UTFS](./mem-fs-lib/README.en.md#utfs) - A tiny TAR-like embedded file system that aims to keep the storage layout from being broken as data changes; it has no directories, wear leveling, or journaling.
+- [UTFS](./mem-fs-lib/README.en.md#utfs) - Tiny TAR-like embedded file system that aims to keep the storage layout from being broken as data changes; it has no directories, wear leveling, or journaling.
 
 ---
 
@@ -139,7 +139,7 @@ A good open-source project is the result of community effort. If anything below 
 ### [UART](./board-bus-lib/README.en.md#uart)
 
 - [LwOW](./board-bus-lib/README.en.md#lwow) - Professional 1-Wire protocol library that supports communication through UART or a single GPIO and provides thread-safe APIs.
-- [MUDLink](./board-bus-lib/README.en.md#mudlink) - Elevates UART serial communication to a link/transport layer, guarantees framed-packet delivery, and provides delivery assurance, flow control, and link-performance statistics.
+- [MUDLink](./board-bus-lib/README.en.md#mudlink) - Elevates UART serial communication to a link/transport layer, with delivery guarantees, flow control, link-performance statistics, and more.
 
 ### [CDbus](./board-bus-lib/README.en.md#cdbus)
 
@@ -159,16 +159,16 @@ A good open-source project is the result of community effort. If anything below 
 
 - [SFUD](./board-bus-lib/README.en.md#sfud) - An open-source universal serial SPI Flash driver library that supports a range of Flash chips through device tables.
 
+### [USB](./board-bus-lib/README.en.md#usb)
+
+- [TinyUSB](./board-bus-lib/README.en.md#tinyusb) - An open-source cross-platform USB host/device stack for embedded systems. It is memory-safe, uses no dynamic allocation, is thread-safe, and defers all interrupt events for handling in non-ISR task functions.
+- [CherryUSB](./board-bus-lib/README.en.md#cherryusb) - USB host/device protocol stack for embedded systems (with USB IP). It is portable across platforms and suits chips that lack a built-in USB protocol stack.
+
 ### [Interboard Communication](./board-bus-lib/README.en.md#interboard-communication)
 
 - [uart_stream](./board-bus-lib/README.en.md#uart_stream) - Serial data-stream processing library built on FreeRTOS and cJSON, with TX/RX buffering, framing, request-response, and more; suited to interboard communication.
 - [ESSL](./board-bus-lib/README.en.md#essl) - ESP's serial slave link component, allowing a host to communicate with slaves through bus drivers and the corresponding protocol. In essence, it is MCU-to-MCU communication with an additional layer.
 - [SACP](./board-bus-lib/README.en.md#sacp) - Snapmaker's device data-communication protocol, implemented in C++ for communication among multiple devices in a complete machine.
-
-### [USB](./board-bus-lib/README.en.md#usb)
-
-- [TinyUSB](./board-bus-lib/README.en.md#tinyusb) - An open-source cross-platform USB host/device stack for embedded systems. It is memory-safe, uses no dynamic allocation, is thread-safe, and defers all interrupt events for handling in non-ISR task functions.
-- [CherryUSB](./board-bus-lib/README.en.md#cherryusb) - USB host/device protocol stack for embedded systems (with USB IP). It is portable across platforms and suits chips that lack a built-in USB protocol stack.
 
 ---
 
@@ -176,12 +176,12 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [Queues](./data-struct-process-lib/README.en.md#queues)
 
-- [CBUF](./data-struct-process-lib/README.en.md#cbuf) - An elegantly implemented macro-based ring buffer that is simple and easy to use.
+- [CBUF](./data-struct-process-lib/README.en.md#cbuf) - C++-based macro implementation of a ring buffer that is simple and easy to use.
 - [sys/queue](./data-struct-process-lib/README.en.md#sysqueue) - Queue and linked-list header files used by Linux and FreeBSD. They are implemented entirely with macros and can link arbitrary types, such as structs.
-- [byte_queue](./data-struct-process-lib/README.en.md#byte_queue) - C-language ring queue supporting arbitrary types, wrapped with macros and simple to use.
-- [queue](./data-struct-process-lib/README.en.md#queue) - General-purpose C queue supporting arbitrary data types; simple and efficient to use.
-- [Ring-Buffer](./data-struct-process-lib/README.en.md#ring-buffer) - A simple and efficient ring-buffer library that is easy to use.
-- [wl_queue](./data-struct-process-lib/README.en.md#wl_queue) - Ring queue supporting arbitrary data types. It uses C overloading techniques and emphasizes coroutine safety.
+- [byte_queue](./data-struct-process-lib/README.en.md#byte_queue) - Ring queue supporting arbitrary types, wrapped with macros and simple to use.
+- [queue](./data-struct-process-lib/README.en.md#queue) - General-purpose queue supporting arbitrary data types; simple and efficient to use.
+- [Ring-Buffer](./data-struct-process-lib/README.en.md#ring-buffer) - A ring-buffer library suitable for programs without a specified storage size.
+- [wl_queue](./data-struct-process-lib/README.en.md#wl_queue) - Ring queue supporting arbitrary data types. It uses C overloading techniques and emphasizes thread safety.
 - [RingBuffer](./data-struct-process-lib/README.en.md#ringbuffer) - Practical, fully featured ring-buffer library that uses heap-memory allocation.
 - [queue](./data-struct-process-lib/README.en.md#queue-1) - Simple, highly extensible queue library that also supports zero-copy queue reads and writes (suitable for individual elements that use large amounts of memory, effectively reducing function execution time).
 - [QueueForMcu](./data-struct-process-lib/README.en.md#queueformcu) - Queue module for non-RTOS systems that dynamically creates queue objects and buffers.
@@ -196,14 +196,14 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [Data Structure Collections](./data-struct-process-lib/README.en.md#data-structure-collections)
 
-- [uthash](./data-struct-process-lib/README.en.md#uthash) - Provides data-structure libraries for hashes, lists, rings, and more; use them by including only the header file.
+- [uthash](./data-struct-process-lib/README.en.md#uthash) - Provides data-structure libraries for hashes, lists, rings, and more; header-only.
 
 ### [Databases](./data-struct-process-lib/README.en.md#databases)
 
 - [cotParam](./data-struct-process-lib/README.en.md#cotparam) - Manages parameters in a table-driven manner, including default, minimum, and maximum values.
-- [EasyFlash](./data-struct-process-lib/README.en.md#easyflash) - A simple Key-Value database that primarily provides variable KV pairing, IAP data modification (for upgrades), log storage, and other functions.
+- [EasyFlash](./data-struct-process-lib/README.en.md#easyflash) - A simple Key-Value database that provides variable KV pairing, IAP data modification (for upgrades), log storage, and other functions.
 - [FlashDB](./data-struct-process-lib/README.en.md#flashdb) - Provides both KV and TS databases; compared with EasyFlash, it focuses more on the database itself and provides fewer extra features.
-- [Nanopb](./data-struct-process-lib/README.en.md#nanopb) - Lightweight Protobuf implementation supporting C. Protobuf is a data format developed by Google. It can be used for data storage and communication protocols and is independent of language and platform, allowing communication between different devices.
+- [Nanopb](./data-struct-process-lib/README.en.md#nanopb) - Lightweight Protobuf implementation supporting C. Protobuf is a data format developed by Google. It can be used for data storage and communication protocols and is independent of language and platform, allowing data communication across different devices and languages.
 - [ITTIA DB](./data-struct-process-lib/README.en.md#ittia-db) - A powerful real-time embedded database mainly for embedded systems and IoT devices, used for on-device monitoring, storage, and analysis of time-series data; it requires a commercial license.
 - [linq4c](./data-struct-process-lib/README.en.md#linq4c) - Implements C# LINQ methods in C.
 - [SQLite](./data-struct-process-lib/README.en.md#sqlite) - The most widely used industry-standard embedded database, using SQL syntax and disk files.
@@ -218,13 +218,13 @@ A good open-source project is the result of community effort. If anything below 
 
 ## [Communication Protocol and Format Parsing Library](./protocol-format-parser-lib/README.en.md)
 
-### [Web Server](./protocol-format-parser-lib/README.en.md#web-server)
+### [Web-Server](./protocol-format-parser-lib/README.en.md#web-server)
 
 - [LightTPD](./protocol-format-parser-lib/README.en.md#lighttpd) - A lightweight, high-performance open-source Web server designed for high-concurrency, low-memory-use scenarios. It is more suitable for embedded devices than Apache or Nginx.
 - [Mongoose](./protocol-format-parser-lib/README.en.md#mongoose) - An event-driven networking library for C / C++. Besides the basic protocol stack, it includes HTTP and MQTT service protocols, runs on bare metal and RTOS, and includes a UI builder. Commercial use has paid restrictions.
 - [Boa](./protocol-format-parser-lib/README.en.md#boa) - A small open-source Web server for embedded applications. It has not been maintained since 2005 and has known security vulnerabilities, so it is not recommended.
 
-### [Web Plugin](./protocol-format-parser-lib/README.en.md#web-plugin)
+### [Web-Plugin](./protocol-format-parser-lib/README.en.md#web-plugin)
 
 - [FastCGI](./protocol-format-parser-lib/README.en.md#fastcgi) - Improves traditional CGI performance and adds distributed-computing and multi-role features.
 - [libevent](./protocol-format-parser-lib/README.en.md#libevent) - Event-driven library for network servers, intended to replace event loops in event-driven network servers.
@@ -235,9 +235,9 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [RPC](./protocol-format-parser-lib/README.en.md#rpc)
 
-- [ERPC](./protocol-format-parser-lib/README.en.md#erpc) - A simple, easy-to-use, efficient remote-call framework.
+- [ERPC](./protocol-format-parser-lib/README.en.md#erpc) - A remote-call framework built on the cJSON, libevent, and libuv open-source libraries, including state notification, data encryption, exception monitoring, and more.
 - [EmbedXrpc](./protocol-format-parser-lib/README.en.md#embedxrpc) - RPC communication protocol that enables business logic without focusing on the protocol itself and includes a code-generation tool.
-- [erpc](./protocol-format-parser-lib/README.en.md#erpc-1) - An NXP open-source Remote Procedure Call (RPC) system for multi-chip embedded systems and heterogeneous multi-core SoCs.
+- [erpc](./protocol-format-parser-lib/README.en.md#erpc-1) - NXP's open-source Remote Procedure Call (RPC) system for multi-chip embedded systems and heterogeneous multi-core SoCs.
 
 ### [TCP/IP](./protocol-format-parser-lib/README.en.md#tcpip)
 
@@ -245,11 +245,11 @@ A good open-source project is the result of community effort. If anything below 
 - [CycloneTCP](./protocol-format-parser-lib/README.en.md#cyclonetcp) - Dual IPv4/IPv6 stack for embedded applications that simplifies Internet deployment.
 - [onps](./protocol-format-parser-lib/README.en.md#onps) - Domestic network protocol stack with the same design goal as Lwip, for resource-constrained microcontroller systems, providing a complete ethernet/ppp/tcp/ip protocol-family implementation. It comes with very detailed documentation, making it a great read for Chinese developers.
 - [wolfIP](./protocol-format-parser-lib/README.en.md#wolfip) - A tiny TCP/IP stack with no dynamic memory allocation, intended as a better alternative to lwIP and designed to work seamlessly with the wolfSSL library.
-- [dyad](./protocol-format-parser-lib/README.en.md#dyad) - Asynchronous networking library based on Linux. It supports only TCP communication, for creating small standalone device servers and adding network support to existing projects.
+- [dyad](./protocol-format-parser-lib/README.en.md#dyad) - Socket-based asynchronous networking library. It supports only TCP communication, for creating small standalone device servers and adding network support to existing projects.
 
 ### [SSH](./protocol-format-parser-lib/README.en.md#ssh)
 
-- [tinyssh](./protocol-format-parser-lib/README.en.md#tinyssh) - A minimalist SSH server implementing only a subset of SSHv2 features, suitable for embedded use.
+- [tinyssh](./protocol-format-parser-lib/README.en.md#tinyssh) - A minimalist SSH server that implements part of SSHv2 and, for security reasons, does not accept environment-variable requests from clients.
 - [wolfSSH](./protocol-format-parser-lib/README.en.md#wolfssh) - Lightweight SSHv2 client and server library written in ANSI C.
 
 ### [HTTP](./protocol-format-parser-lib/README.en.md#http)
@@ -269,7 +269,7 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [Thread](./protocol-format-parser-lib/README.en.md#thread)
 
-- [OpenThread](./protocol-format-parser-lib/README.en.md#openthread) - Google's open-source implementation of Thread.
+- [OpenThread](./protocol-format-parser-lib/README.en.md#openthread) - A Google product and an open-source implementation of the Thread system.
 
 ### [Bluetooth](./protocol-format-parser-lib/README.en.md#bluetooth)
 
@@ -290,20 +290,20 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [Base64](./protocol-format-parser-lib/README.en.md#base64)
 
-- [base64](./protocol-format-parser-lib/README.en.md#base64-1) - Extremely simple base64 encoding and decoding library.
+- [base64](./protocol-format-parser-lib/README.en.md#base64-1) - Minimalist base64 codec library containing just 2 functions: encode and decode.
 - [base64](./protocol-format-parser-lib/README.en.md#base64-2) - SIMD- and OpenMP-accelerated base64 codec library that uses no dynamic memory and emphasizes thread safety.
 
 ### [CSV](./protocol-format-parser-lib/README.en.md#csv)
 
 - [MiniCSV](./protocol-format-parser-lib/README.en.md#minicsv) - A minimalist CSV parser that handles multiple lines, escaped characters in escaped rows and columns, blank lines, rows with a variable number of columns, and Windows or Unix-style line endings.
 - [CRStrLib](./protocol-format-parser-lib/README.en.md#crstrlib) - Parses strings in csv and other formats, extracts values, and validates frame headers and trailers.
-- [fast-cpp-csv-parser](./protocol-format-parser-lib/README.en.md#fast-cpp-csv-parser) - Small, easy-to-use, fast, header-only CSV parser based on C++.
+- [fast-cpp-csv-parser](./protocol-format-parser-lib/README.en.md#fast-cpp-csv-parser) - C++-based CSV parser that is small, easy to use, and implemented in a single header file.
 
 ### [INI](./protocol-format-parser-lib/README.en.md#ini)
 
-- [libinimini](./protocol-format-parser-lib/README.en.md#libinimini) - Minimalist ini parsing library for microcontrollers with controllable memory use. It supports the simplest key-value-pair file format.
-- [inih](./protocol-format-parser-lib/README.en.md#inih) - INI parsing library written in C and suitable for embedded systems, with syntax and parsing options.
-- [iniparser](./protocol-format-parser-lib/README.en.md#iniparser) - INI parsing library written in C, portable to embedded systems and focused on thread safety.
+- [libinimini](./protocol-format-parser-lib/README.en.md#libinimini) - Minimalist ini parsing library for microcontrollers that works on strings, with controllable memory use.
+- [inih](./protocol-format-parser-lib/README.en.md#inih) - INI parsing library suitable for embedded systems, with syntax and parsing options and comprehensive features.
+- [iniparser](./protocol-format-parser-lib/README.en.md#iniparser) - INI parsing library written in C, portable to embedded systems and focused on thread safety, with a parsing style similar to cJSON.
 
 ### [TLV](./protocol-format-parser-lib/README.en.md#tlv)
 
@@ -312,12 +312,12 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [JSON](./protocol-format-parser-lib/README.en.md#json)
 
-- [cJSON](./protocol-format-parser-lib/README.en.md#cjson) - An ultralightweight JSON parser in ANSI C and also the most native JSON parsing library. It is somewhat cumbersome to use and not recommended for direct use.
-- [struct2json](./protocol-format-parser-lib/README.en.md#struct2json) - Extremely convenient library for rapid conversion between C structures and JSON, based on cJSON.
-- [cson](./protocol-format-parser-lib/README.en.md#cson) - Json-struct model parsing tool running on the C platform and based on cJSON. It makes JSON parsing more convenient.
+- [cJSON](./protocol-format-parser-lib/README.en.md#cjson) - A lightweight JSON parser in ANSI C and a fairly native JSON parsing library.
+- [struct2json](./protocol-format-parser-lib/README.en.md#struct2json) - Based on cJSON, an extremely convenient library for rapid conversion between C structures and JSON.
+- [cson](./protocol-format-parser-lib/README.en.md#cson) - Based on cJSON, a json-struct model parsing tool running on the C platform. It makes JSON parsing more convenient.
 - [json](./protocol-format-parser-lib/README.en.md#json-1) - Simple and efficient C library for generating and parsing json, suitable for simple projects.
-- [JSMN](./protocol-format-parser-lib/README.en.md#jsmn) - An extremely compact and fast JSON parser with no dynamic memory allocation and no parsing correction. It suits JSON parsing in small projects.
-- [lwjson](./protocol-format-parser-lib/README.en.md#lwjson) - General JSON parser library optimized for embedded systems. It suits JSON parsing in vendor projects.
+- [JSMN](./protocol-format-parser-lib/README.en.md#jsmn) - Minimalist JSON parser with zero-copy parsing and no parsing correction.
+- [lwjson](./protocol-format-parser-lib/README.en.md#lwjson) - General JSON parser library optimized for embedded systems.
 - [MojoJson](./protocol-format-parser-lib/README.en.md#mojojson) - General JSON parser library implemented with object-oriented ideas and providing a C version.
 - [LJSON](./protocol-format-parser-lib/README.en.md#ljson) - Claimed to be the fastest JSON parser library, with extremely powerful features covering nearly all JSON parsing needs.
 - [json-parser](./protocol-format-parser-lib/README.en.md#json-parser) - Simple, standard, practical JSON library for parsing and generation.
@@ -345,8 +345,8 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [LOG Logging](./log-term-lib/README.en.md#log-logging)
 
-- [dbuglib](./log-term-lib/README.en.md#dbuglib) - Compact logging library that only provides output display and can adjust log levels to filter logs at specified levels, equivalent to the printf functionality that generic SDKs include;
-- [log.c](./log-term-lib/README.en.md#logc) - A minimalist logging library that only provides output display and recording. Based on the C99 standard, it is not well suited to the embedded field.
+- [dbuglib](./log-term-lib/README.en.md#dbuglib) - Compact logging library that only provides output display and can adjust log levels to filter logs at specified levels, equivalent to the printf functionality that generic SDKs include.
+- [log.c](./log-term-lib/README.en.md#logc) - A minimalist logging library that only provides output display and recording. It is based on the C99 standard, so you need to redirect the output yourself when using it on embedded systems.
 - [log](./log-term-lib/README.en.md#log) - Compact logging module whose output includes the time, log type, content, file name, line number, function name, and other information.
 - [alog](./log-term-lib/README.en.md#alog) - Streamlined output logging component with color and mutex locking.
 - [LwPRINTF](./log-term-lib/README.en.md#lwprintf) - Safe, concise standard-output utility library that allows multiple output streams to be redirected; all APIs are reentrant.
@@ -361,7 +361,7 @@ A good open-source project is the result of community effort. If anything below 
 - [Argtable3](./log-term-lib/README.en.md#argtable3) - Standardized command-line parsing library for custom operation commands that follows the POSIX interface.
 - [nr_micro_shell](./log-term-lib/README.en.md#nr_micro_shell) - Standard command-line interaction library that provides Tab command completion and command history lookup, with native support for ENV tools.
 - [letter shell](./log-term-lib/README.en.md#letter-shell) - A powerful embedded command-line interaction library providing nearly all shell functions and allowing functions to be executed directly through function addresses.
-- [Xradio_console](./log-term-lib/README.en.md#xradio_console) - Console library extracted from the Xradio SDK. Its commands use a hierarchical structure, making it suitable when there are many commands; it is based on RTOS.
+- [Xradio_console](./log-term-lib/README.en.md#xradio_console) - Console library extracted from Allwinner's XR806 chip. Its commands use a hierarchical structure, making it suitable when there are many commands; it is based on RTOS.
 - [easyShell](./log-term-lib/README.en.md#easyshell) - Simple and easy-to-use microcontroller shell that supports Tab completion.
 
 ---
@@ -395,8 +395,8 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [HMI](./ui-menu-lib/README.en.md#hmi)
 
-- [tslib](./ui-menu-lib/README.en.md#tslib) - The most widely used resistive touchscreen calibration algorithm library in embedded systems, although it seems to be available only on Linux.
-- [tslib_for_mcu](./ui-menu-lib/README.en.md#tslib_for_mcu) - A resistive touchscreen calibration library trimmed down from Linux.
+- [tslib](./ui-menu-lib/README.en.md#tslib) - Linux-based resistive touchscreen calibration algorithm library, widely used.
+- [tslib_for_mcu](./ui-menu-lib/README.en.md#tslib_for_mcu) - A resistive touchscreen calibration library trimmed down from tslib, for microcontrollers.
 
 ### [Monochrome](./ui-menu-lib/README.en.md#monochrome)
 
@@ -417,7 +417,7 @@ A good open-source project is the result of community effort. If anything below 
 - [LingLongGUI](./ui-menu-lib/README.en.md#linglonggui) - Efficient GUI generation library with a graphical interface editor for conveniently generating code.
 - [LingDongGUI](./ui-menu-lib/README.en.md#lingdonggui) - GUI library that further encapsulates Arm-2D, aiming to improve ease of use while also supporting native APIs.
 - [AAGUI](./ui-menu-lib/README.en.md#aagui) - Cross-platform, general-purpose GUI that aims to enable Android-like advanced UI development in embedded systems. It supports semi-declarative (JSON) programming and is suitable for projects similar to mobile applications.
-- [GT-HMI](./ui-menu-lib/README.en.md#gt-hmi) - UI library from Qualcomm intended for Chinese users, with multiple languages and font libraries, a simulator, and PC-side tools. It can be used with both RTOS and bare metal, making it suitable for practical product-level projects.
+- [GT-HMI](./ui-menu-lib/README.en.md#gt-hmi) - UI library from Shanghai Genitop intended for Chinese users, with multiple languages and font libraries, a simulator, and PC-side tools. It can be used with both RTOS and bare metal, making it suitable for practical product-level projects.
 - [LVGL](./ui-menu-lib/README.en.md#lvgl) - A lightweight general-purpose graphics library that is open source, free, and has almost everything needed for a GUI. It suits project-level devices.
 - [AWTK](./ui-menu-lib/README.en.md#awtk) - ZLG's GUI graphics library, open source and free.
 - [TouchGFX](./ui-menu-lib/README.en.md#touchgfx) - STM32's GUI graphics library with powerful features and graphical editing software, generally suitable only for STM32 development.
@@ -429,14 +429,13 @@ A good open-source project is the result of community effort. If anything below 
 - [MiniGUI](./ui-menu-lib/README.en.md#minigui) - Multi-platform, highly customizable UI library that can be used with chips of different performance levels; it is suitable for mobile devices and industrial fields, and is free for non-commercial use.
 - [μGUI](./ui-menu-lib/README.en.md#μgui) - An open-source minimalist graphics library that is platform-independent and consists of only one source file.
 - [Aeropoint GUI](./ui-menu-lib/README.en.md#aeropoint-gui) - Creates GUIs using a PPT-based approach, requires payment, and has no trial version.
-- [Clay](./ui-menu-lib/README.en.md#clay) - High-performance 2D UI layout library that provides responsive layout capabilities and is suitable for embedded Web development.
+- [Clay](./ui-menu-lib/README.en.md#clay) - High-performance 2D UI layout library that provides responsive layout capabilities and is not tied to any specific renderer.
 - [Nuklear](./ui-menu-lib/README.en.md#nuklear) - Dependency-free graphical user interface toolkit that builds graphics through input states and drawing commands, suitable for responsive applications.
 - [LinaVG](./ui-menu-lib/README.en.md#linavg) - Rendering library for 2D vector graphics.
 - [BlurHash](./ui-menu-lib/README.en.md#blurhash) - Open-source image placeholder algorithm and implementation that can display a wireframe and thumbnail before images are loaded; it may be useful in embedded applications.
-- [OpenGL](./ui-menu-lib/README.en.md#opengl) - Cross-language, cross-platform 2D/3D rendering library primarily developed in C, which also supports development in C++, Python, Java, and other languages. Its capabilities are extremely powerful and suitable for game development, scientific visualization, virtual reality, and other fields.
-- [Rawdraw](./ui-menu-lib/README.en.md#rawdraw) - Cross-platform, dependency-free UI drawing system that provides a good interface abstraction for OpenGL.
+- [Rawdraw](./ui-menu-lib/README.en.md#rawdraw) - Cross-platform, dependency-free UI drawing system with multiple backends to choose from, such as OpenGL and software rasterization.
 - [TinyGL](./ui-menu-lib/README.en.md#tinygl) - A small implementation of OpenGL for embedded systems. It simplifies complex interfaces into forms that are easier to understand and use.
-- [foolrenderer](./ui-menu-lib/README.en.md#foolrenderer) - Software renderer implemented in C that does not depend on graphics libraries. In only a few thousand lines of code, it implements OpenGL-like basic graphics features and real-time rendering techniques for game development, such as shadows, tangent-space normal mapping, and physically based material systems.
+- [foolrenderer](./ui-menu-lib/README.en.md#foolrenderer) - Software renderer implemented in C that does not depend on graphics libraries. In only a few thousand lines of code, it implements a set of OpenGL-like basic graphics features and real-time rendering techniques for game development, such as shadows, tangent-space normal mapping, and physically based material systems.
 - [EmberGL](./ui-menu-lib/README.en.md#embergl) - OpenGL-like real-time 2D / 3D raster rendering library for MCU.
 - [Cairo](./ui-menu-lib/README.en.md#cairo) - A 2D graphics library that supports multiple outputs and provides PostScript- and PDF-like drawing methods. It is primarily intended for PCs but can also be ported to embedded chips.
 
@@ -460,7 +459,7 @@ A good open-source project is the result of community effort. If anything below 
 
 - [zBitsView](./ui-menu-lib/README.en.md#zbitsview) - A virtual multi-level menu that exists only in the logic layer and is unrelated to whether a screen is present.
 - [emenu](./ui-menu-lib/README.en.md#emenu) - An unusual menu framework whose menu structure is reflected directly in the code.
-- [Menu](./ui-menu-lib/README.en.md#menu) - A simple and practical menu framework, suitable for student projects.
+- [Menu](./ui-menu-lib/README.en.md#menu) - A simple and practical menu implementation. Its architecture is not very well decoupled, but it suits students who want to learn while using it in projects.
 - [cotMenu](./ui-menu-lib/README.en.md#cotmenu) - Implements multi-level deep menus with linked lists, equivalent to the display logic layer and completely decoupled from keys and displays.
 - [MiaoUI](./ui-menu-lib/README.en.md#miaoui) - OLED menu UI framework based on U8g2, supporting list and icon menus, nonlinear animations, task pop-ups, and other features.
 - [MultMenu](./ui-menu-lib/README.en.md#multmenu) - Combination of multi-level menus and a monochrome OLED nonlinear animation library; it is simple and convenient to port and suitable for maker projects with similar requirements.
@@ -492,7 +491,7 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [Thread Management](./kernel-framework-lib/README.en.md#thread-management)
 
-- [C Thread Pool](./kernel-framework-lib/README.en.md#c-thread-pool) - Lightweight embedded thread-pool library for managing thread creation and lifecycles, solving the overhead caused by frequent thread creation and destruction.
+- [C Thread Pool](./kernel-framework-lib/README.en.md#c-thread-pool) - Lightweight thread-pool library built on pthread for managing thread creation and lifecycles, solving the overhead caused by frequent thread creation and destruction.
 
 ### [Driver Frameworks](./kernel-framework-lib/README.en.md#driver-frameworks)
 
@@ -524,7 +523,7 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [Coredump](./exception-test-lib/README.en.md#coredump)
 
-- [CmBacktrace](./exception-test-lib/README.en.md#cmbacktrace) - A renowned error-tracing library for ARM Cortex-M series MCUs; for any project that's even a little complex, just drop it in and you're done.
+- [CmBacktrace](./exception-test-lib/README.en.md#cmbacktrace) - A renowned error-tracing library for ARM Cortex-M series MCUs; pretty much any project that's even a little complex adds this library.
 
 ### [Exception Handling](./exception-test-lib/README.en.md#exception-handling)
 
@@ -534,13 +533,13 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [Testing](./exception-test-lib/README.en.md#testing)
 
-- [MinUnit](./exception-test-lib/README.en.md#minunit) - Minimal unit testing framework for C without memory allocation.
-- [CuTest](./exception-test-lib/README.en.md#cutest) - Minimalist C unit testing framework using dynamic memory allocation.
-- [cmockery](./exception-test-lib/README.en.md#cmockery) - Lightweight C unit testing framework based on the standard C library.
+- [MinUnit](./exception-test-lib/README.en.md#minunit) - Minimalist unit testing framework in a single header file, with no memory allocation.
+- [CuTest](./exception-test-lib/README.en.md#cutest) - Unit testing framework that uses dynamic memory allocation.
+- [cmockery](./exception-test-lib/README.en.md#cmockery) - Lightweight C unit testing framework based on the standard C library, with support for function stubbing and preset return values.
 - [EEMBC](./exception-test-lib/README.en.md#eembc) - Provides many testing libraries for the embedded field, mainly for chip performance testing; an industry standard suitable for enterprise-level project deployment.
 - [Unity](./exception-test-lib/README.en.md#unity) - Unit testing framework written in C and focused on embedded toolchains.
-- [greatest](./exception-test-lib/README.en.md#greatest) - A compact C testing system that uses instrumentation/coverage testing and can run with other programs.
-- [Catch2](./exception-test-lib/README.en.md#catch2) - A popular C++ unit testing framework with only one header file, designed to be lightweight, easy to use, and dependency-free.
+- [greatest](./exception-test-lib/README.en.md#greatest) - A compact C testing system that uses instrumentation/coverage testing, and can run with other programs.
+- [Catch2](./exception-test-lib/README.en.md#catch2) - A popular C++ unit testing framework, designed to be lightweight, easy to use, and dependency-free.
 
 ---
 
@@ -552,7 +551,7 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [Fundamental Algorithms](./algo-ai-lib/README.en.md#fundamental-algorithms)
 
-- [FXT](./algo-ai-lib/README.en.md#fxt) - A collection of C algorithms focused on bit manipulation, combinatorics, fast transforms, and more.
+- [FXT](./algo-ai-lib/README.en.md#fxt) - A collection of C++ algorithms focused on bit manipulation, combinatorics, fast transforms, and more.
 - [xxHash](./algo-ai-lib/README.en.md#xxhash) - An extremely fast non-cryptographic hash algorithm that works under RAM and speed constraints and suits more demanding use cases.
 - [Terathon Math Library](./algo-ai-lib/README.en.md#terathon-math-library) - A C++ mathematics library containing classes for vectors, matrices, quaternions, and projective geometric algebra elements. It can be used in graphics, AI, games, and related fields.
 
@@ -564,7 +563,7 @@ A good open-source project is the result of community effort. If anything below 
 - [uTensor](./algo-ai-lib/README.en.md#utensor) - An extremely lightweight machine-learning inference framework built on TensorFlow that imports trained models as C++ files.
 - [NNoM](./algo-ai-lib/README.en.md#nnom) - Framework for running neural networks on MCUs. It is similar to TinyMaix but offers more features.
 - [Paddle Lite](./algo-ai-lib/README.en.md#paddle-lite) - High-performance, lightweight, flexible, and extensible deep-learning inference framework targeting mobile, embedded, edge, and other hardware platforms.
-- [TVM](./algo-ai-lib/README.en.md#tvm) - End-to-end deep-learning compiler framework for CPU, GPU, ARM, and other hardware architectures.
+- [TVM](./algo-ai-lib/README.en.md#tvm) - Built-in deep-learning compiler for CPU, GPU, ARM, and many other hardware architectures, offering a one-stop service.
 - [ncnn](./algo-ai-lib/README.en.md#ncnn) - A high-performance neural-network forward-computation framework highly optimized for mobile platforms. It supports most common CNN networks and can be deployed on some embedded chips.
 - [MNN](./algo-ai-lib/README.en.md#mnn) - Lightweight deep neural-network engine that supports deep-learning inference and training on embedded devices with POSIX interfaces.
 - [TensorFlow Lite](./algo-ai-lib/README.en.md#tensorflow-lite) - A well-known machine-learning library for deploying models to mobile devices, microcontrollers, and other edge devices for on-device machine learning.
@@ -585,13 +584,13 @@ A good open-source project is the result of community effort. If anything below 
 
 ### [Time-Slice Scheduling Systems](./sys-thread-lib/README.en.md#time-slice-scheduling-systems)
 
-- [ztask](./sys-thread-lib/README.en.md#ztask) - An extremely simple time-slice scheduler with only five APIs; the kind of framework you could write on the fly.
+- [ztask](./sys-thread-lib/README.en.md#ztask) - The most basic time-slice scheduler, with only five APIs; the kind of framework you could write on the fly.
 - [ETP](./sys-thread-lib/README.en.md#etp) - Time-slice polling framework intended to decouple tasks with different time slices in the main polling loop; it is the most basic polling framework.
 - [cotTask](./sys-thread-lib/README.en.md#cottask) - Polling framework built on time slices that handles initialization, startup, and task-scheduling management, with the ability to set task priorities.
-- [CodeBrick](./sys-thread-lib/README.en.md#codebrick) - Time-slice polling framework that includes many practical modules, has no driver layer, and is simple and easy to use. It fits modern project development philosophy and is a bare-metal framework I really like; you could call it a top choice for ordinary projects.
+- [CodeBrick](./sys-thread-lib/README.en.md#codebrick) - Time-slice polling framework that includes many practical modules, has no driver layer, and is simple and easy to use. It fits modern project development philosophy and is a bare-metal framework I really like.
 - [vkern](./sys-thread-lib/README.en.md#vkern) - Task scheduling kernel written by imitating the RTOS architecture; its principle is still to use timers to create a foreground-background system.
 - [cola_os](./sys-thread-lib/README.en.md#cola_os) - Foreground-background system suitable for bare metal that has power-consumption requirements, limited CPU performance, and somewhat complex functionality.
-- [JxOS](./sys-thread-lib/README.en.md#jxos) - Foreground-background system with no complex registration or function-pointer structures, providing system kernel functions: tasks, events, messages, bulletin boards, mailboxes, pipes, registration, memory allocation...
+- [JxOS](./sys-thread-lib/README.en.md#jxos) - Foreground-background system with no complex registration or function-pointer structures, providing system kernel functions: tasks, events, messages, bulletin boards, mailboxes, pipes, registration, memory allocation, and more.
 - [EventOS](./sys-thread-lib/README.en.md#eventos) - Event-driven embedded system that provides kernel functions and more.
 - [BabyOS](./sys-thread-lib/README.en.md#babyos) - Registration-service framework for bare-metal MCU projects. It manages functional modules and peripheral drivers, has very clear code layering and standards, RTT-like "MenuConfig" terminal configuration, and PC simulation.
 
@@ -613,7 +612,7 @@ A good open-source project is the result of community effort. If anything below 
 - [NuttX](./sys-thread-lib/README.en.md#nuttx) - Operating system emphasizing standard compatibility and compact packaging that follows the POSIX standard and ANSI standards.
 - [embOS](./sys-thread-lib/README.en.md#embos) - SEGGER's RTOS, free for non-commercial use.
 - [Azure RTOS](./sys-thread-lib/README.en.md#azure-rtos) - Microsoft's RTOS, with a rich set of components.
-- [Zephyr](./sys-thread-lib/README.en.md#zephyr) - An RTOS maintained by Linux, well suited to learning Linux development philosophy.
+- [Zephyr](./sys-thread-lib/README.en.md#zephyr) - An RTOS maintained by the Linux Foundation, well suited to learning Linux development philosophy.
 - [At-RTOS](./sys-thread-lib/README.en.md#at-rtos) - A user-friendly real-time operating system for embedded controllers, providing only basic kernel functions.
 - [Embox](./sys-thread-lib/README.en.md#embox) - Multitasking operating system characterized by supporting Linux open-source components without using Linux itself. This open-source system aims to make Linux software usable everywhere.
 - [YiYiYa OS](./sys-thread-lib/README.en.md#yiyiya-os) - Full-featured OS with an architecture designed in layers from top to bottom. It can almost be regarded as a simplified Android system, suitable for phone-like products.
@@ -629,12 +628,12 @@ A good open-source project is the result of community effort. If anything below 
 ### [IoT-RTOS](./sys-thread-lib/README.en.md#iot-rtos)
 
 - [Contiki-NG](./sys-thread-lib/README.en.md#contiki-ng) - A multitasking IoT operating system maintained by the authors of uIP and LwIP. It focuses on reliable, secure low-power communication and standard Internet protocols.
-- [Mbed OS](./sys-thread-lib/README.en.md#mbed-os) - Easy-to-use IoT operating system from ARM.
+- [Mbed OS](./sys-thread-lib/README.en.md#mbed-os) - Easy-to-use IoT operating system from Arm.
 - [Huawei LiteOS](./sys-thread-lib/README.en.md#huawei-liteos) - Lightweight IoT operating system from Huawei for the IoT domain.
 - [Xiaomi Vela](./sys-thread-lib/README.en.md#xiaomi-vela) - IoT operating system from Xiaomi, built on the NuttX kernel at its foundation.
 - [AliOS Things](./sys-thread-lib/README.en.md#alios-things) - Highly scalable IoT operating system from Alibaba for the IoT domain.
 - [TencentOS Tiny](./sys-thread-lib/README.en.md#tencentos-tiny) - A real-time operating system developed by Tencent for the IoT domain.
-- [OneOS](./sys-thread-lib/README.en.md#oneos) - A lightweight operating system introduced by China Mobile for the IoT domain, featuring configurability, cross-platform support, low power consumption, and high security. It supports mainstream chip architectures such as ARM Cortex-M/A, MIPS, and RISC-V; is compatible with standard interfaces such as POSIX and CMSIS; and supports JavaScript and MicroPython development.
+- [OneOS](./sys-thread-lib/README.en.md#oneos) - Lightweight operating system introduced by China Mobile for the IoT domain, featuring configurability, cross-platform support, low power consumption, and high security. It supports mainstream chip architectures such as ARM Cortex-M/A, MIPS, and RISC-V; is compatible with standard interfaces such as POSIX and CMSIS; and supports JavaScript and MicroPython development.
 - [LuatOS](./sys-thread-lib/README.en.md#luatos) - A Lua script runtime framework for embedded systems, with the functional scope of an operating system.
 - [Lua-RTOS-ESP32](./sys-thread-lib/README.en.md#lua-rtos-esp32) - A real-time operating system supporting a Lua interpreter, providing all Lua-required resources, basic modules, and middleware, and portable to other 32-bit platforms.
 - [Apache Mynewt OS](./sys-thread-lib/README.en.md#apache-mynewt-os) - Apache OS designed for low-power wireless devices, with built-in Bluetooth and IEEE protocol stacks, ready to use out of the box.
@@ -664,10 +663,10 @@ A good open-source project is the result of community effort. If anything below 
 - [Gear-Lib](./module-pack/README.en.md#gear-lib) - A set of general C foundational libraries implemented entirely in POSIX C for cross-platform compatibility with Linux, Windows, Android, and iOS, including data structures, async operations, I/O, state machines, and dynamic loading.
 - [c-algorithms](./module-pack/README.en.md#c-algorithms) - Provides a collection of common algorithms and data structures to make up for missing standard-library facilities, and compiles much smaller than the C standard library.
 - [klib](./module-pack/README.en.md#klib) - An independent, lightweight C library offering a variety of foundational algorithms, data structures, parsers, and more.
-- [AMetal](./module-pack/README.en.md#ametal) - A software package from ZLG that covers various types of peripherals and provides a unified abstraction-layer interface. The code is somewhat redundant, but its coverage of types is fairly comprehensive.
+- [AMetal](./module-pack/README.en.md#ametal) - A software package from ZLG that covers various types of peripherals and provides a unified abstraction-layer interface. The code is somewhat redundant, but its coverage of types is comprehensive.
 - [eLab](./module-pack/README.en.md#elab) - Integrated development platform containing most packages needed for embedded systems, with particular emphasis on cross-platform development and PC simulation; it is especially suited to projects with standardized development processes.
 - [TheAlgorithms](./module-pack/README.en.md#thealgorithms) - The open-source organization TheAlgorithms maintains a rich collection of foundational algorithms, data structures, machine-learning libraries, and versions in popular languages.
-- [simpostOS](./module-pack/README.en.md#simpostos) - A design methodology and a collection of software components and services. It modularizes all functions and greatly improves reuse. Written in modern C++, it is not beginner-friendly.
+- [simpostOS](./module-pack/README.en.md#simpostos) - A design methodology and a collection of software components and services. It modularizes all functions and greatly improves reuse. Written in modern C++, it is not suitable for beginners.
 - [PetiteDrv](./module-pack/README.en.md#petitedrv) - General SDK library based on layered abstraction to decouple functions without complex code; suitable for small-company, small-project development.
 - [varch](./module-pack/README.en.md#varch) - An embedded C module library with commonly used algorithms, data structures (containers), parsers, a standalone C std library, and utilities. Each library can be used independently and is simple and efficient.
 - [ctool](./module-pack/README.en.md#ctool) - Common tools usually absent from ordinary libraries, including variadic arguments, dates, and memory testing.
@@ -720,8 +719,8 @@ A good open-source project is the result of community effort. If anything below 
 ### [C++](./engine-sim-lib/README.en.md#c)
 
 - [sds](./engine-sim-lib/README.en.md#sds) - A simple dynamic-string library that uses heap memory and imitates the C++ `string` type in C.
-- [STR](./engine-sim-lib/README.en.md#str) - A more advanced string-processing library with string splitting, trimming, searching, and error-checking functions.
-- [etl](./engine-sim-lib/README.en.md#etl) - C++ template library for embedded systems.
+- [STR](./engine-sim-lib/README.en.md#str) - String-processing library with string splitting, trimming, searching, and error-checking functions.
+- [etl](./engine-sim-lib/README.en.md#etl) - C++ template library (STL) for embedded systems, designed to define fixed sizes for containers at compile time.
 - [LW_OOPC](./engine-sim-lib/README.en.md#lw_oopc) - Object-oriented programming extension for embedded systems. It has been updated and optimized across multiple versions based on the original source and is simple to use.
 - [PLOOC](./engine-sim-lib/README.en.md#plooc) - Provides object-oriented programming extensions in C, including private members, inheritance, overloading, and more.
 - [vlib](./engine-sim-lib/README.en.md#vlib) - C-language template library providing functionality similar to C++ STL, including common containers and support for arbitrary data types.
